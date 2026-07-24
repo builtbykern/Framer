@@ -283,7 +283,27 @@ export default function Kern_FillingPoint(
         style,
     } = props
 
-    const fills = resolveFills(fillsProp, fillColors, fillColor)
+    const fillsSignature = useMemo(() => {
+        const fillStopsSignature = Array.isArray(fillsProp)
+            ? fillsProp
+                  .slice(0, MAX_COLORS)
+                  .map((fill) => `${fill?.color ?? ""}:${fill?.delay ?? ""}`)
+                  .join("|")
+            : ""
+        const legacyFillColorsSignature = Array.isArray(fillColors)
+            ? fillColors.slice(0, MAX_COLORS).join("|")
+            : ""
+
+        return [
+            fillStopsSignature,
+            legacyFillColorsSignature,
+            fillColor ?? "",
+        ].join("||")
+    }, [fillsProp, fillColors, fillColor])
+    const fills = useMemo(
+        () => resolveFills(fillsProp, fillColors, fillColor),
+        [fillsSignature]
+    )
     const isStatic = useIsStaticRenderer()
     const prefersReducedMotion = useReducedMotion()
     const reducedMotion = Boolean(prefersReducedMotion)
