@@ -1,7 +1,7 @@
 # Kern Filling Point — Exit Origin Fix (Phase 1)
 
 **Date:** 2026-07-24  
-**Status:** Pending user review  
+**Status:** Approved  
 **Scope:** Fix fill exit animation so layers collapse back to the pointer/entry origin (not the top-left corner).
 
 ## Problem
