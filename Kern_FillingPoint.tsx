@@ -390,7 +390,8 @@ export default function Kern_FillingPoint(
     useEffect(() => {
         if (
             sessionRef.current.phase === "entering" ||
-            sessionRef.current.phase === "active"
+            sessionRef.current.phase === "active" ||
+            sessionRef.current.phase === "exiting"
         )
             return
         startTransition(() => {
@@ -645,6 +646,18 @@ export default function Kern_FillingPoint(
             sessionRef.current.phase = "idle"
             return
         }
+
+        // Keep geometry pinned to the frozen entry origin for the whole exit.
+        startTransition(() => {
+            setLayers((prev) =>
+                prev.map((layer) => ({
+                    ...layer,
+                    x: exitPoint.x,
+                    y: exitPoint.y,
+                    coverSize: exitPoint.coverSize,
+                }))
+            )
+        })
 
         const reverseIndexes = fills.map((_, idx) => idx).reverse()
         let longestExit = 0
