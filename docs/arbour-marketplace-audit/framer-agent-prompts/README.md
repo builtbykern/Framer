@@ -4,7 +4,9 @@ Prompts para el **Agent tab** de Framer (no External Agents / Cursor). Cada arch
 
 Fuentes: [How to build with Agents](https://www.framer.com/help/articles/how-to-build-a-website-from-scratch-with-framer-agents/), [Agents toolkit](https://www.framer.com/agents/) (`/` skills, `@` pages/CMS/styles, context de layers, un chat por tarea, branch), [template best practices](https://www.framer.com/template-requirements/), [AI-ready template](https://www.framer.com/help/articles/build-ai-ready-template/).
 
-Hallazgos: [`../AUDIT.md`](../AUDIT.md). Datos: [`00-source-of-truth.md`](00-source-of-truth.md). Picker (modelo / reasoning / skill): [`00-agent-decision.md`](00-agent-decision.md).
+Hallazgos: [`../AUDIT.md`](../AUDIT.md). Datos: [`00-source-of-truth.md`](00-source-of-truth.md). Picker: [`00-agent-decision.md`](00-agent-decision.md).
+
+**Copia y pega (modelo + skill + prompt en un solo archivo):** [`PROMPTS.md`](PROMPTS.md).
 
 ## Cómo se usa (oficial, no negociable)
 
