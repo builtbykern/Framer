@@ -1,7 +1,7 @@
 # Arbour — auditoría tipo reviewer de Framer Marketplace
 
 **Preview:** [https://arbour.framer.website](https://arbour.framer.website)  
-**Corrección en Framer:** prompts en [framer-agent-prompts/](framer-agent-prompts/) · restante [REMAINING.md](framer-agent-prompts/REMAINING.md)  
+**Corrección en Framer:** pack cerrado. Listing: [LISTING.md](LISTING.md)  
 **Esta pasada:** 16 agosto 2026, verificación ~20:42 UTC sobre el mismo HTML (`Last-Modified` Home: `Sun, 16 Aug 2026 20:30:42 GMT`)  
 **Pasada anterior:** misma fecha, crawl ~20:30 UTC  
 **Método:** checklist oficial Framer (Help 7 ago 2026) + Chrome 148 (1440 / 768 / 390), crawl HTTP, overlay, DOM, anchos de `section` vs viewport, revisión visual.
@@ -127,10 +127,9 @@ Cerrados antes: `header` marketing, Home 404 enlazado, `lang=en`, 4 alts, leftov
 
 ## 7. Punch list
 
-1. Hover/pressed en `EXPLORE →` / `VIEW ALL →` / `VIEW ALL NOTES →` (span underline en `scaleX 0`).  
-2. (Opcional) Ocultar el número del card Home si renderiza `[ ]`. No rellenar 01–07.  
-3. (Opcional) Favicon custom — no es requirement.  
-4. Performance panel + Lighthouse (humano).
+Cerrado. Listing: [`LISTING.md`](LISTING.md).
+
+Fuera: favicon, serial Notes, hover publicado (aceptado). Lighthouse opcional, humano.
 
 ---
 
