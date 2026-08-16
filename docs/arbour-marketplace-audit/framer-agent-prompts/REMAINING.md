@@ -1,171 +1,139 @@
-# Restante — Agent tab (post 16:30 UTC)
+# Remaining Framer Agent prompts — after 18:17 UTC re-audit
 
-Un **New Chat** por bloque. Branch `marketplace-qa`. Fast Mode Off. Constraints de `00-constraints.md` antes. Nunca Fable 5, Sol, `/code`. **No crear páginas/rutas nuevas** (el 404 de Chelsea salió de un href huérfano).
+Live site: https://arbour.framer.website  
+Last-Modified: **Sun, 16 Aug 2026 18:17:47 GMT**  
+Score: **~8.0 / 10**. Still not Featured.
 
-Pack: **~350–560 créditos**.
+**Closed since 16:30 (do not re-run):**
 
----
+- Neighbourhoods filled: 2×2 grid, street copy, honest counts **2 / 2 / 1 / 1**, featured Cheyne / Ladbroke / Frognal / Bibury, CTA → `/properties`.
+- Section backgrounds **1440px** on Properties (including charcoal stats) and Neighbourhoods hero. Directory inner measure **72px**.
+- Contact journal binding, unique coords, Cheyne=Thames, Bibury=honey-stone, Home rooms `(01)(02)(03)` + VIEW, waiting article body `[04]`.
 
-## 01 — 404 Home Chelsea
+**Still open.** Five prompts. **Do not create** `/neighbourhoods/{slug}` pages. **Do not create** a Privacy page.
 
-| | |
-|---|---|
-| **Modelo** | GPT 5.6 Luna |
-| **Reasoning** | Light |
-| **Skill** | `/component` |
-| **Esfuerzo** | ~20 |
-
-```
-/component
-
-Do not create pages or CMS collections.
-
-Home Territories “SEE RESIDENCES IN THIS AREA” links to /neighbourhoods/chelsea and 404s. That route does not exist.
-
-Retarget it to the existing /neighbourhoods page (preferred) or /properties. Scan the project: zero hrefs to /neighbourhoods/chelsea, /neighbourhoods/notting-hill, /neighbourhoods/hampstead, /neighbourhoods/the-cotswolds, or /neighbourhoods/cotswolds.
-
-Keep the Home look. List remaining neighbourhood hrefs.
-```
+Copy from `---` to `---`. Paste into the **in-canvas Agent tab**. One prompt per turn. **Higher** on all five.
 
 ---
 
-## 02 — Neighbourhoods: llenar la página existente
+## 01 — Kill the last 404 (blocker)
 
-| | |
-|---|---|
-| **Modelo** | Sonnet 5 |
-| **Reasoning** | Higher |
-| **Skill** | `/layout` si está en `/`; si no, `/component` |
-| **Esfuerzo** | ~60–90 |
-
-```
-/layout
-
-Existing /neighbourhoods page only. Do not create territory detail pages or new routes.
-
-The page feels empty next to Home. Desktop shows a large gap under THE DIRECTORY; mobile already has four photo+copy cards. Fill the index to Home density without new URLs.
-
-For Chelsea, Notting Hill, Hampstead, The Cotswolds, each module needs:
-- Photograph (keep current if decent)
-- Title + 2–3 British-English street sentences (existing blurbs can stay, tighten orphans)
-- Honest stock count from Properties CMS (Chelsea 2, Notting Hill 2, Hampstead 1, Cotswolds 1). Remove “5 PROPERTIES AVAILABLE” and fake “001 PROPERTIES IN THIS AREA” indexes used as counts.
-- Optional: coords already used on Home for Chelsea (51.4875° N — 0.1687° W) and one featured residence name linking to that property
-- CTA “See residences in this area” → /properties (AREA filter if possible without a new page)
-
-Keep METHOD / “How we read a place.” Add one short extra block if the page still dies after two scrolls (e.g. four one-line street notes). Same type: Fraunces + Space Mono, cream #F9F8F3, ~72px-class side padding like Home — not a 1080px-centered column with 180px rails.
-
-Three breakpoints. No overflow. No lorem. Report modules and counts.
-```
+**Skill:** none  
+**Model:** GPT 5.5  
+**Reasoning:** Higher  
+**Effort vs GPT 5.5:** 1×  
+**Why this model:** Surgical unlink. Creating `/neighbourhoods/chelsea` is forbidden.
 
 ---
 
-## 03 — Section BG full-bleed + measure único
+On **Home only**. Do **not** create `/neighbourhoods/chelsea`, `/neighbourhoods/notting-hill`, `/neighbourhoods/hampstead`, `/neighbourhoods/the-cotswolds`, or any other new page.
 
-| | |
-|---|---|
-| **Modelo** | Sonnet 5 |
-| **Reasoning** | Higher |
-| **Skill** | `/layout` si está en `/`; si no, `/component` |
-| **Esfuerzo** | ~60–90 |
+The button **SEE RESIDENCES IN THIS AREA** still points at **`/neighbourhoods/chelsea`**, which **404s**. That is the only broken internal URL on the live site.
 
-```
-/layout
+1. Change that button so it goes to the **existing** `/neighbourhoods` page. If the overlay already highlights Chelsea, keep that. If Framer cannot deep-link a filter, `/neighbourhoods` is enough.
+2. Scan the **whole project** for `href` containing `/neighbourhoods/chelsea`, `/neighbourhoods/notting-hill`, `/neighbourhoods/hampstead`, `/neighbourhoods/the-cotswolds`, or `/neighbourhoods/cotswolds`. Change every match to `/neighbourhoods` or `/properties`. **Zero** remaining hrefs to those paths.
+3. Publish. Confirm `/neighbourhoods/chelsea` is no longer linked from Home. Hitting that URL in the address bar may still 404 — that is acceptable. It must not be linked.
 
-Do not redesign. Do not add breakpoints.
-
-Home sections with fill colors are 1440px (full viewport) with ~72px content inset. Properties and Neighbourhoods paint section backgrounds at 1080px (180px gutters). Properties stats bar is 1200px charcoal with 120px cream rails.
-
-Rule for every page (Home, Properties, Neighbourhoods, Notes, About, Contact, property/note details):
-- Section / stack that has a background color or image: width Fill, left 0, so the bg is the full site width.
-- Inner content (text, grids, cards): same measure as Home (~72px desktop side padding, consistent tablet/phone). Do not wrap the colored frame in a max-width 1080/1200 stack.
-
-Check dark/cream bands especially: Home process/stats, Properties stats and enquiry, Notes editorial, Contact journal, property rooms/particulars.
-
-No horizontal overflow. Desktop 1440, Tablet 768, Phone 390.
-
-Report each section that was inset and the new widths.
-```
+Do not edit Neighbourhoods copy. Do not create pages.
 
 ---
 
-## 04 — Notes 01–07
+## 02 — Notes numbers 01–07, Home journal number bound
 
-| | |
-|---|---|
-| **Modelo** | GPT 5.6 Luna |
-| **Reasoning** | Higher |
-| **Skill** | `/cms` |
-| **Esfuerzo** | ~20–40 |
-
-```
-/cms
-
-Do not add/unpublish notes. Keep 7 published. Waiting already has a body.
-
-Renumber 01–07 with no gaps (today 01,02,03,04, skip 05, 06, 07). Home journal card for waiting still shows [ 06 ] while the article is [ 04 ] — bind the number from CMS.
-
-Report the 7 numbers and Home card numbers.
-```
+**Skill:** `/cms`  
+**Model:** GPT 5.5  
+**Reasoning:** Higher  
+**Effort vs GPT 5.5:** 1×  
+**Why this model:** CMS field + collection list. Home waiting number is now **empty** (`[ ]`).
 
 ---
 
-## 05 — lang / favicon / alts
+The seven published Notes must read **`[01]` `[02]` `[03]` `[04]` `[05]` `[06]` `[07]`** in collection order. There must be **no skipped number**.
 
-| | |
-|---|---|
-| **Modelo** | GPT 5.6 Terra |
-| **Reasoning** | Higher |
-| **Skill** | `/seo` si está en `/`; si no, ninguna |
-| **Esfuerzo** | ~40–60 |
+Live `/notes` shows **`[07 ENTRIES]`** but the list is **`[06]` `[01]` `[02]` `[04]` `[03]` `[07]`** plus a featured **façade** item with **no number**. **`[05]` is missing.** There is no `[08]`.
 
-```
-SEO/settings only. OG images already exist — do not replace unless blank.
+Also: Home journal still lists **The case for waiting.** The number next to that title is now **`[ ]` empty**, not `[04]` and not `[06]`. The waiting **article** is `[04]`. Bind the Home number to the same CMS number field as `/notes`. It must never render empty brackets.
 
-html lang=en. Replace default-favicon-light.v1.png with a simple Arbour mark. Property images still titled “Property hero photograph” / “Property gallery photograph”: write specific alts. Cheyne/Bibury alts already good — leave them.
+1. Open the Notes CMS. Check the number / index field on all seven published items.
+2. Re-number so published items are **01 through 07** with **no gap**. Unpublished items (including mews) must **not** consume a number in that sequence.
+3. Bind **every** Notes collection list — `/notes`, Home journal, Contact journal if it shows numbers — to that **same** field. Preview Home: waiting must show **`[04]`** (or whatever number the waiting item actually has after re-numbering), never `[ ]`.
+4. Publish. Confirm `/notes` is 01–07 with no skip, and Home waiting is not empty.
 
-Report lang, favicon, alts filled.
-```
+Do not create or delete Notes. Do not change titles or body copy except the number field.
 
 ---
 
-## 06 — Hover
+## 03 — lang, favicon, alts
 
-| | |
-|---|---|
-| **Modelo** | Sonnet 5 |
-| **Reasoning** | Light |
-| **Skill** | `/component` |
-| **Esfuerzo** | ~30–60 |
-
-```
-/component
-
-Hover + Pressed on clickable text links, text buttons, linked cards. Resting state unchanged.
-
-Home still dead: EXPLORE →, VIEW ALL →, VIEW ALL NOTES →, featured cards, journal cards. Overlay + footer too.
-
-Opacity, underline, or olive/charcoal only. Phone: no hover. Cursor pointer.
-```
+**Skill:** none  
+**Model:** Sonnet 5  
+**Reasoning:** Higher  
+**Effort vs GPT 5.5:** 0.6×  
+**Why this model:** Site Settings + alt text. Cheap.
 
 ---
 
-## 07 — Tags + scrim + leftover Privacy
+Three Site Settings / CMS image jobs. Do not redesign.
 
-| | |
-|---|---|
-| **Modelo** | Sonnet 5 |
-| **Reasoning** | Light |
-| **Skill** | `/component` |
-| **Esfuerzo** | ~30–50 |
+1. Set the root `<html lang>` to **`en`**. It is still empty (`lang=""`).
+2. Replace the default Framer favicon (`default-favicon-light.v1.png`) with a 32×32 (and 180×180 apple) mark on cream `#F9F8F3`. Use an existing Arbour asset if one exists. Do not invent a new logo system.
+3. Notes CMS images that still use generic alt **Property hero photograph** must get a specific alt. At minimum fix: **A long afternoon in Frognal**, **The value of a quiet street (Ladbroke)**, **When a house is already a home (Royal Avenue)**, **What Colville Mews still teaches**. Do not use the same alt on two different photos.
 
-```
-/component
+Publish. Confirm `document.documentElement.lang === "en"` and the favicon URL no longer contains `default-favicon`.
 
-Existing pages only. No new routes. Line-height already ~1.05 — do not retune type. CLEAR is already olive — do not retint.
+---
 
-1. Semantic header on marketing pages (header 0 today). Keep one H1.
-2. Home/About hero: scrim or move small white meta onto dark sky (4.5:1). Do not flatten photos.
-3. Replace leftover “DEMO TEMPLATE — REPLACE THIS NOTE WITH YOUR PRIVACY POLICY BEFORE PUBLISHING.” with one quiet demo line in existing type, or remove it. No /privacy page.
+## 04 — Hover and pressed on primary CTAs
 
-List changes. List no new pages.
-```
+**Skill:** none  
+**Model:** GPT 5.5  
+**Reasoning:** Higher  
+**Effort vs GPT 5.5:** 1×  
+**Why this model:** Variant / interaction pass. Hover is still a no-op on live CTAs.
+
+---
+
+Desktop hover and pressed are still missing on primary text links. Do not restyle the rest of the template.
+
+1. **EXPLORE THE COLLECTION** (Home hero), **VIEW ALL RESIDENCES**, **VIEW ALL NOTES** — hover: 1px underline, or opacity **0.55**, 150–200ms. Pressed: opacity **0.4** or 1px downward shift. Keyboard focus: 1px outline, offset 2px, `#1A1A1A` on cream / `#F9F8F3` on dark.
+2. Apply the **same** hover to property cards and note cards that are links.
+3. **Phone** in the overlay: keep it **not** a link. No hover, no cursor pointer.
+4. Do not add color fills, shadows, or scale on these links.
+
+Publish. Confirm `getComputedStyle` underline or opacity changes on hover for EXPLORE.
+
+---
+
+## 05 — Landmark, hero scrim, leftover demo line
+
+**Skill:** none  
+**Model:** Sonnet 5  
+**Reasoning:** Higher  
+**Effort vs GPT 5.5:** 0.6×  
+**Why this model:** Landmark + contrast + leftover string. Cheap.
+
+---
+
+Three leftover quality items. Do not create pages.
+
+1. Wrap the top bar on Home, Properties, Neighbourhoods, Notes, Contact, and 404 in a semantic **`header`**. `document.querySelectorAll("header").length` must be **≥ 1** on those URLs. It is currently **0**.
+2. Home and Properties heroes: add a **bottom scrim** (black **40–55%** → transparent, ~40% of hero height) so the white serif title meets **WCAG 4.5:1** against the photo. Do not wash the whole image.
+3. Search the project for the leftover sentence **DEMO TEMPLATE — REPLACE THIS NOTE WITH YOUR PRIVACY POLICY BEFORE PUBLISHING.** It is still **visible on Contact**, next to the journal subscribe stack. Delete that text wherever it appears. **Do not** create `/privacy`.
+
+Publish.
+
+---
+
+## Optional (human, not Agent)
+
+After 01–05: Framer **Performance** panel plus PageSpeed / Lighthouse on `https://arbour.framer.website`. Agent cannot see Lighthouse. Target Performance **≥ 90** and no layout shift on the Home hero.
+
+Optional later: Neighbourhoods **VIEW RESIDENCES IN THIS AREA** could preselect the Properties AREA filter. Not required to close the 404.
+
+## Do not run
+
+- Fast Mode, `/code`, Fable 5, GPT 5.6 Sol.
+- Creating `/neighbourhoods/chelsea` or any other new page.
+- Creating `/privacy`.
+- Changing Fraunces, Space Mono, cream `#F9F8F3`, or ~72px page padding.
+- Re-filling Neighbourhoods or re-doing full-bleed section backgrounds — those are done.

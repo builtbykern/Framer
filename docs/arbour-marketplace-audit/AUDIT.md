@@ -1,75 +1,61 @@
 # Arbour — auditoría tipo reviewer de Framer Marketplace
 
 **Preview:** [https://arbour.framer.website](https://arbour.framer.website)  
-**Corrección en Framer:** prompts del Agent interno en [framer-agent-prompts/](framer-agent-prompts/)  
-**Esta pasada:** 16 agosto 2026, ~16:30–16:37 UTC (`Last-Modified` del HTML)  
-**Pasada anterior:** misma fecha, ~15:27 UTC  
-**Método:** checklist oficial Framer (Help 7 ago 2026) + Chrome 148 (1440 / 768 / 390), crawl HTTP, overlay, DOM (lang, favicon, OG, alts, tags), anchos de `section` vs viewport, revisión visual.
+**Corrección en Framer:** prompts en [framer-agent-prompts/](framer-agent-prompts/) · restante [REMAINING.md](framer-agent-prompts/REMAINING.md)  
+**Esta pasada:** 16 agosto 2026, ~18:17–18:22 UTC (`Last-Modified` Home: `Sun, 16 Aug 2026 18:17:47 GMT`)  
+**Pasada anterior:** misma fecha, ~16:30 UTC  
+**Método:** checklist oficial Framer (Help 7 ago 2026) + Chrome 148 (1440 / 768 / 390), crawl HTTP, overlay, DOM, anchos de `section` vs viewport, revisión visual.
 
 ---
 
-## 0. Delta vs ~15:27 UTC
+## 0. Delta vs ~16:30 UTC
 
-| Hallazgo ~15:27 | Ahora (~16:30) |
+| Hallazgo 16:30 | Ahora (~18:17) |
 |---|---|
-| Home featured `( 01 ) ( 02 ) ( 02 )`; solo Cheyne tenía VIEW → | **`( 01 ) ( 02 ) ( 03 )`**. Las tres cards tienen VIEW → |
-| Waiting sin cuerpo | **Cuerpo real** (3 párrafos). Detail number **`[ 04 ]`** |
-| Contact: Marylebone estático sin link | Cards CMS: row-house `[ 02 ]` + waiting `[ 04 ]`, con href |
-| Coords `51.5074 · CHELSEA` en las 6 fichas | **Únicas:** Cheyne Chelsea `51.4876`, Frognal Hampstead `51.5587`, Bibury Cotswolds `51.7590`, Ladbroke/Colville Notting Hill, Royal Avenue Chelsea |
-| Cheyne = vestíbulo de mármol; Bibury = georgiano blanco | Cheyne = **Támesis / St Paul’s**; Bibury = **honey-stone**. Alts específicos en esos dos |
-| Home territories → `/properties` | Home “SEE RESIDENCES IN THIS AREA” → **`/neighbourhoods/chelsea` → 404** (nuevo blocker) |
-| Neighbourhoods index: 4 blurbs | Sigue siendo **poco denso** vs Home. Desktop: directory con hueco. Mobile: 4 fotos. Conteos mienten (`5 PROPERTIES` / `001 PROPERTIES`) |
-| Home sections full-bleed 1440 | **Properties / Neighbourhoods** inset **180px** (secciones 1080). Stats oscuras de Properties a **1200** (gutters 120px) |
+| Home → `/neighbourhoods/chelsea` **404** | **Sigue 404.** Único interno roto del crawl |
+| Neighbourhoods flaco: blurbs + conteos falsos (`5 PROPERTIES` / `001`) | **Lleno:** grid 2×2, copy de calle, **2 / 2 / 1 / 1** honestos, featured (Cheyne, Ladbroke, Frognal, Bibury) → property, CTA → `/properties` |
+| Properties/Neighbourhoods section BG **1080px** (rieles 180px); stats **1200** | **Cerrado.** Properties bands (incl. charcoal stats) **1440** full-bleed. Neighbourhoods hero **1440**; directory inner **72px** (como Home) |
+| Notes salta `[ 05 ]`; Home waiting `[ 06 ]` vs artículo `[ 04 ]` | Sigue el hueco **05**. Home waiting ahora **`[ ]` vacío** (peor) |
+| `lang` vacío, favicon default, hover muerto, `header: 0` | Igual |
+| Overlay tels/socials, EST. 1999, coords únicas, waiting con cuerpo | Igual (bien) |
 
-**Scorecard ~7.0 → ~7.6 / 10** si no fuera por el 404 nuevo. Con el 404 de Home, **Links baja otra vez**. Sigue sin Featured.
+**Scorecard ~7.6 → ~8.0 / 10.** Layout y Neighbourhoods suben. El 404 de Home impide Featured.
 
 ---
 
 ## 1. Cómo valora Framer hoy (oficial)
 
-Framer **ya no puntúa ni aprueba templates a mano antes de publicar**.
+Framer **no puntúa ni aprueba templates a mano**. *“Templates can be published without manual review.”* Ranking + moderación (views, likes, remixes, previews, purchases, account health). Checklist: Originality, Design, Layout, Text, Responsive, Links, CMS, Code, Effects, Assets, Tags, Accessibility, Performance, Copyright, Community, Support.
 
-| Pregunta | Respuesta oficial |
-|---|---|
-| ¿Hay review previo? | **No.** *“Templates can be published without manual review.”* |
-| ¿Hay nota numérica? | **No existe.** |
-| Qué sustituye | Moderación + ranking (views, comments, likes, remixes, previews, purchases, account health). Algoritmo privado. |
-| Qué tumba un listing | Copiado, misleading, roto, low-quality. |
-
-Checklist oficial: Originality, Design, Layout, Text, Responsive, Links, CMS, Code, Effects, Assets, Tags, Accessibility, Performance, Copyright, Community, Support.
-
-Fuentes: [template-requirements](https://www.framer.com/template-requirements/), [publish a template](https://www.framer.com/help/articles/how-to-publish-a-template/), [ranking](https://www.framer.com/help/articles/how-template-ranking-works/), [a11y](https://www.framer.com/help/articles/guide-to-web-accessibility-in-framer/), contraste WCAG AA **4.5:1** / **3:1** grande.
+Fuentes: [template-requirements](https://www.framer.com/template-requirements/), [publish](https://www.framer.com/help/articles/how-to-publish-a-template/), [ranking](https://www.framer.com/help/articles/how-template-ranking-works/), [a11y](https://www.framer.com/help/articles/guide-to-web-accessibility-in-framer/). Contraste AA **4.5:1**.
 
 ---
 
 ## 2. Histórico de review (ya no es gate)
 
-Hasta Framer 3.0 rechazaban por ejecución: 3 breakpoints, 404, CMS único, cero overflow, `lang`, favicon, OG, hover/pressed, semántica. Plugins 0–100 **no son Framer**.
+Hasta Framer 3.0: 3 breakpoints, 404, CMS único, cero overflow, `lang`, favicon, OG, hover, semántica. Plugins 0–100 **no son Framer**.
 
 ---
 
 ## 3. Veredicto
 
-**No Featured.** El pack anterior cerró CMS gordo (waiting, coords, heroes, featured 01–03). Esta pasada introduce un **404 en Home** y deja dos fallos de layout que el comprador ve al instante: **Neighbourhoods vacío/estrecho** y **fondos de sección que no llegan al borde** en Properties / Neighbourhoods (Home sí).
+**No Featured.** El índice de territories ya parece una página de template; Properties ya pinta el fondo al borde. El listing sigue siendo reportable mientras Home enlace a un 404.
 
-Si se publicara hoy: pasa la cola (no hay cola). Un reviewer lo devolvería por el enlace roto y por el índice de territories como página “a medias”.
-
-| Categoría | ~15:27 | Ahora | Por qué |
+| Categoría | 16:30 | Ahora | Por qué |
 |---|---|---|---|
-| Originality | 8.0 | 8.0 | Nicho intacto |
+| Originality | 8.0 | 8.0 | |
 | Design | 8.0 | 8.0 | Favicon default. 404 custom bien |
-| Layout | 8.0 | **6.5** | Neighbourhoods/Properties inset 180px; directory flaco; Home sí full-bleed |
-| Text | 6.5 | **7.5** | Featured 01–03 OK. Notes salta **05**. Privacy leftover. Conteos de territories mienten |
+| Layout | 6.5 | **8.0** | Full-bleed alineado a Home. Neighbourhoods ya no es columna 1080 |
+| Text | 7.5 | **7.5** | Directory honesto. Home journal `[ ]` vacío. Notes salta 05 |
 | Responsive | 8.5 | 8.5 | Cero overflow 6×3 |
-| Links | 7.5 | **5.5** | **Home → `/neighbourhoods/chelsea` 404**. Hover sigue muerto |
-| CMS | 6.5 | **8.0** | Coords/rooms/waiting body. Numeración Notes incompleta |
+| Links | 5.5 | **5.5** | **`/neighbourhoods/chelsea` 404**. Hover sin cambio |
+| CMS | 8.0 | 8.0 | Coords/rooms/waiting. Número Home no bindea |
 | Effects | 7.5 | 7.5 | |
-| Assets | 6.0 | **7.5** | Cheyne/Bibury coinciden. Resto de alts genéricos |
-| Tags | 6.0 | 6.0 | `lang` vacío. `header: 0` en marketing |
-| Accessibility | 6.0 | 6.0 | Form labels. Lang/contraste hero |
-| Copyright | 5.5 | 6.5 | Heroes más honestos |
-| Performance / listing / support | n/d | n/d | |
-| **Media auditables** | **~7.0** | **~7.6*** | \*sin el 404 sería ~8.0. **Con el 404: no Featured** |
+| Assets | 7.5 | 7.5 | Cheyne/Bibury OK. Resto de alts genéricos |
+| Tags | 6.0 | 6.0 | `lang` vacío. `header: 0` marketing |
+| Accessibility | 6.0 | 6.0 | Form labels. Scrim hero pendiente |
+| Copyright | 6.5 | 6.5 | |
+| **Media auditables** | **~7.6** | **~8.0 / 10** | **Changes requested. No Featured.** |
 
 ---
 
@@ -77,16 +63,16 @@ Si se publicara hoy: pasa la cola (no hay cola). Un reviewer lo devolvería por 
 
 | Ruta | HTTP | Nota |
 |---|---|---|
-| `/` | 200 | CTA territories → `/neighbourhoods/chelsea` **404** |
-| `/properties` + 6 slugs | 200 | Coords por ítem |
-| `/neighbourhoods` | 200 | 4 cards → `/properties`. Página corta |
-| `/neighbourhoods/chelsea` (y notting-hill, hampstead, cotswolds) | **404** | Ruta anunciada, página no existe |
-| `/notes` + 7 slugs reales | 200 | Waiting tiene cuerpo |
+| `/` | 200 | Territories CTA → `/neighbourhoods/chelsea` **404** |
+| `/properties` + 6 slugs | 200 | Coords por ítem; sections 1440 |
+| `/neighbourhoods` | 200 | 4 cards, counts 2/2/1/1, featured reales |
+| `/neighbourhoods/chelsea` (+ notting-hill, hampstead, cotswolds) | **404** | |
+| `/notes` + 7 slugs | 200 | Waiting con cuerpo `[ 04 ]` |
 | `/notes/:Jd2WAsZn3`, mews | 404 custom | Correcto |
-| `/about` `/contact` | 200 | |
+| `/about` `/contact` | 200 | Form + leftover Privacy |
 | `/this-page-does-not-exist-xyz` | 404 custom | *A fine address, quietly misplaced.* |
 
-Notes published (7): façade featured; `[01]` second viewing; `[02]` row house; `[03]` Notting Hill rain; `[04]` waiting; **falta `[05]`**; `[06]` instructing; `[07]` Colville. Home journal waiting **sigue `[06]`** (desfasado del detail `[04]`).
+Notes: façade featured; `[01]` second viewing; `[02]` row house; `[03]` rain; `[04]` waiting; **falta 05**; `[06]` instructing; `[07]` Colville.
 
 ---
 
@@ -94,102 +80,77 @@ Notes published (7): façade featured; `[01]` second viewing; `[02]` row house; 
 
 ### Blocker
 
-#### B1. Home enlaza a un neighbourhood que no existe
+#### B1. Home → `/neighbourhoods/chelsea` 404
 
-Home → Territories → **SEE RESIDENCES IN THIS AREA** → `https://arbour.framer.website/neighbourhoods/chelsea` → **404 custom**.
+Help: *“Broken or inactive links have been removed.”*  
+El índice `/neighbourhoods` existe. Las 4 cards del índice van a `/properties`. El CTA de Home Territories no.
 
-Help: *“Broken or inactive links have been removed.”*
-
-No hay collection/detail de territories. El índice `/neighbourhoods` sí existe y sus 4 cards van a `/properties`.
-
-**Fix:** no crear 4 páginas nuevas. Retarget ese CTA a `/neighbourhoods` (ancla al directory) o a `/properties` con AREA Chelsea si el filtro lo permite. Cero href a `/neighbourhoods/{slug}`.
+**Fix:** retarget a `/neighbourhoods` o `/properties`. Cero `/neighbourhoods/{slug}`. No crear páginas nuevas.
 
 ---
 
-### Major
+### Major (abiertos)
 
-#### M1. Neighbourhoods se siente vacío (Layout + Text + CMS)
+#### M1. Numeración Notes / Home journal
 
-Vs Home (territories + 3 featured + process + stats + awards + testimonials + journal), `/neighbourhoods` es: hero + 4 blurbs + un párrafo “How we read a place.” + dos CTAs.
+`[ 07 ENTRIES ]` pero **01, 02, 03, 04, 06, 07**. Home waiting: **`[ ]`** (número vacío). El artículo es `[ 04 ]`.
 
-Desktop: label **THE DIRECTORY** y un hueco grande; las 4 cards están en el DOM (alto ~611px) pero el ritmo no llena el canvas. Mobile sí enseña foto + título + párrafo.
+#### M2. SEO settings
 
-Copy de conteo **falsa**: pill “5 PROPERTIES AVAILABLE” en Chelsea (hay **2** en stock: Cheyne Walk + Royal Avenue). Labels `001 PROPERTIES IN THIS AREA` son índices, no counts.
+`html lang` vacío. Favicon `default-favicon-light.v1.png`. OG presente. Alts: Cheyne/Bibury específicos; Frognal/Ladbroke/Royal/Colville = “Property hero photograph”.
 
-**Fix (en la página existente, sin rutas nuevas):** cuatro módulos densos al ancho de Home — foto full-bleed del módulo, coords reales, 2–3 frases de calle, **conteo honesto** (Chelsea 2, Notting Hill 2, Hampstead 1, Cotswolds 1), una residencia destacada de esa área, CTA “See residences in this area” → `/properties`. Añadir un bloque de método más corto o un street-note por territorio para que la página no muera a los dos scrolls.
+#### M3. Hover
 
-#### M2. Fondos de sección no ocupan el ancho de la web (Layout)
+`EXPLORE →` / `VIEW ALL →` / `VIEW ALL NOTES →`: color `rgb(84, 98, 45)` sin cambio de opacity/decoration/transform.
 
-Medido a 1440:
+---
 
-| Página | Ancho de `section` con fondo | Gutters |
-|---|---|---|
-| Home | **1440** full-bleed | 0. Contenido ~72px |
-| About, Contact, Notes (bloques tintados) | 1440 | 0 |
-| **Neighbourhoods** | **1080** | **180 + 180** |
-| **Properties** | **1080** (stats oscuras **1200**) | **180** / **120** |
+### Cerrados esta pasada (antes Major)
 
-En Home el charcoal/cream llega al borde. En Properties el bloque stats `rgb(28, 27, 22)` deja **rieles cream** a los lados. Neighbourhoods es una columna estrecha sobre el mismo cream — se lee “página a medias”.
-
-Help Layout: stacks/grids flexibles; evitar que el layout se desordene al cambiar contenido. El inner measure debe ser **el mismo en todas las páginas** (~72px desktop como Home), y el **background de cada section Fill / 100% del canvas**. No 180px de padding en el frame que pinta el color.
-
-#### M3. Numeración Notes (CMS + Text)
-
-`[ 07 ENTRIES ]` pero cards **01, 02, 03, 04, 06, 07** — salta **05**. Home waiting aún muestra `[ 06 ]` mientras el artículo es `[ 04 ]`.
-
-#### M4. SEO settings
-
-`html lang` **vacío**. Favicon **default-favicon-light.v1.png**. OG **sí**. Alts: Cheyne/Bibury bien; el resto de properties sigue “Property hero photograph”.
-
-#### M5. Hover
-
-`EXPLORE →` / `VIEW ALL →` / `VIEW ALL NOTES →`: color/opacity/decoration/transform **sin cambio** al hover. `rgb(84, 98, 45)` estático.
+- **Neighbourhoods vacío.** Grid 2×2, copy, counts honestos, featured + CTA. Página ~4500px.  
+- **Section BG inset 180px.** Properties charcoal **1440**. Neighbourhoods hero **1440**, contenido **72px**.
 
 ---
 
 ### Minor
 
-- Marketing pages `header: 0` (Notes CMS `header: 1`). Un H1 por página: cumple.  
-- Display 84 / 88.2 ≈ 1.05. Space Mono 11px en meta.  
-- Hero Home: blanco sobre cielo; scrim pendiente.  
-- Contact: *“DEMO TEMPLATE — REPLACE THIS NOTE WITH YOUR PRIVACY POLICY BEFORE PUBLISHING.”* (ya no es el TODO anterior, sigue siendo leftover). Sin ruta `/privacy`.  
-- Form Contact presente (Name/Email/Property interest/Message + labels). Success/error no verificados al submit.  
-- Overlay: Mayfair `+44 20 7946 0810`, socials demo. Sin `@builtbykern`. EST. 1999.
+- Marketing `header: 0`. Un H1: cumple. Display 84/88.2 ≈ 1.05.  
+- Hero Home: blanco sobre cielo.  
+- Contact: *“DEMO TEMPLATE — REPLACE THIS NOTE WITH YOUR PRIVACY POLICY BEFORE PUBLISHING.”* Form Name/Email/Property interest/Message con labels.  
+- Overlay Mayfair `+44 20 7946 0810`, socials demo. EST. 1999.  
+- Neighbourhoods alts genéricos (“Neighbourhood territory photograph”). CTAs del directory → `/properties` sin prefiltro AREA.
 
 ---
 
 ## 6. Lo que está bien
 
-- 404 custom. Cero overflow 1440/768/390.  
-- Waiting 200 con artículo. Mews unpublished.  
-- Featured Home 01–03 + VIEW en las tres.  
-- Coords y rooms únicos. Heroes Cheyne/Bibury alineados al brief.  
-- Form + overlay contact data. OG por página. Fraunces + Space Mono, cream, overlay.
+404 custom. Cero overflow. Waiting 200 + cuerpo. Featured Home 01–03 + VIEW. Coords/rooms únicos. Heroes Cheyne/Bibury. Form Contact. OG. Overlay contact data. Neighbourhoods con stock honesto. Full-bleed de Properties alineado a Home.
 
 ---
 
-## 7. Punch list (esta pasada)
+## 7. Punch list
 
-1. Quitar `/neighbourhoods/chelsea` del Home (404).  
-2. Llenar `/neighbourhoods` en la página existente (módulos densos, counts honestos).  
-3. Section BG **siempre 100% del viewport**; contenido inner **igual que Home (~72px)** en Properties, Neighbourhoods, Notes, About, Contact.  
-4. Notes 01–07 sin hueco; Home journal number = CMS.  
-5. `lang=en`, favicon, alts de properties.  
-6. Hover/pressed; Phone sin hover.  
-7. `header` tags; scrim hero; quitar leftover Privacy.  
-8. Performance panel + Lighthouse (humano).
+1. Quitar `/neighbourhoods/chelsea` del Home.  
+2. Notes 01–07; bind número del journal Home (no `[ ]`).  
+3. `lang=en`, favicon, alts de properties restantes.  
+4. Hover/pressed; Phone sin hover.  
+5. `header` tags; scrim hero; quitar leftover Privacy.  
+6. (Opcional) AREA preseleccionada desde Neighbourhoods CTA.  
+7. Performance panel + Lighthouse (humano).
 
 ---
 
 ## 8. Evidencia
 
-`screenshots/` de esta pasada: `home-desktop|tablet|mobile`, `neighbourhoods-desktop|tablet|mobile`, `properties-desktop`, Cheyne/Bibury, `nav-open-desktop`, waiting, 404, `neighbourhoods-chelsea-404-desktop`.
+`screenshots/`: home 1440/768/390, `neighbourhoods-desktop` (directory mid-scroll), tablet/mobile, properties, Cheyne/Bibury, nav overlay, waiting, 404, `neighbourhoods-chelsea-404-desktop`.
+
+Nota: `fullPage` de Framer en Neighbourhoods sale casi vacío (transform); el contenido está — captura a `scrollY ≈ 900`.
 
 ---
 
 ## 9. Límites
 
-Canvas (layers, styles, reduced-motion, Lighthouse, listing) no se certifica desde `.framer.website`. Filtro AREA: el custom select de Framer no se cerró en el harness.
+Canvas (layers, styles, reduced-motion, Lighthouse, listing) no se certifica desde `.framer.website`.
 
 ---
 
