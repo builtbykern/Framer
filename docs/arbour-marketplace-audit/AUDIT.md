@@ -19,7 +19,7 @@ El preview **no se republicó** (mismo `Last-Modified` 20:30:42). El crawl midi�
 | Hover `EXPLORE →` | **Sigue abierto en el publicado.** Con `:hover` true, opacity/decoration/transform no cambian. Hay un span hijo `opacity 0.35` + `scaleX 0` (underline preparado) que **no** pasa a 1 |
 | Favicon default | **Igual** |
 
-**Scorecard ~8.7 → ~8.8 / 10.** Scrim contaba. Sigue sin Featured: CMS number, hover publicado, favicon.
+**Scorecard ~8.8.** Scrim contaba. **Fuera de alcance (decisión de producto):** favicon custom, numeración Notes 01–07 consecutiva. El único Agent job que sigue siendo Marketplace (Links / hover) está en [REMAINING.md](framer-agent-prompts/REMAINING.md).
 
 ---
 
@@ -39,23 +39,23 @@ Hasta Framer 3.0: 3 breakpoints, 404, CMS único, cero overflow, `lang`, favicon
 
 ## 3. Veredicto
 
-**No Featured.** Ya no hay un 404 enlazado. El hueco es CMS number, hover en el preview publicado, favicon.
+**Casi listo.** Ya no hay 404 enlazado. Favicon default y huecos 01–07 **no son gate** (ver §5). El hueco que sí entra en el checklist oficial de Links es el hover publicado.
 
-| Categoría | 20:30 | Ahora | Por qué |
+| Categoría | 20:42 | Ajuste | Por qué |
 |---|---|---|---|
 | Originality | 8.0 | 8.0 | |
-| Design | 8.0 | 8.0 | Favicon default |
+| Design | 8.0 | **8.5** | Favicon default = polish, no requirement 2026 |
 | Layout | 8.0 | 8.0 | |
-| Text | 7.5 | 7.5 | Home journal `[ ]`. Notes salta 05 |
+| Text | 7.5 | **8.5** | Números = labels editoriales (stats, process, journal). No hace falta 01–07 corrido |
 | Responsive | 8.5 | 8.5 | |
 | Links | 7.5 | 7.5 | Hover publicado sin cambio visual |
-| CMS | 8.0 | 8.0 | Número Home no bindea. Façade sin 05 |
+| CMS | 8.0 | **8.5** | Contenido único. Índice Notes no es un serial obligatorio |
 | Effects | 7.5 | 7.5 | |
 | Assets | 8.5 | 8.5 | |
 | Tags | 8.0 | 8.0 | |
-| Accessibility | 6.5 | **7.5** | Scrim hero presente (`Hero Bottom Gradient`) |
+| Accessibility | 7.5 | 7.5 | |
 | Copyright | 6.5 | 6.5 | |
-| **Media auditables** | **~8.7** | **~8.8 / 10** | **Changes requested. No Featured.** |
+| **Media auditables** | **~8.8** | **~9.0 / 10** | Hover publicado. Favicon/serial Notes fuera. |
 
 ---
 
@@ -72,7 +72,7 @@ Hasta Framer 3.0: 3 breakpoints, 404, CMS único, cero overflow, `lang`, favicon
 | `/about` `/contact` | 200 | Form + labels. Sin leftover Privacy |
 | `/this-page-does-not-exist-xyz` | 404 custom | *A fine address, quietly misplaced.* |
 
-Notes: façade featured **sin número**; `[01]` second viewing; `[02]` row house; `[03]` rain; `[04]` waiting; **falta 05**; `[06]` instructing; `[07]` Colville.
+Notes: façade featured sin número; lista 06 / 01 / 02 / 04 / 03 / 07 — **labels, no serial.**
 
 ---
 
@@ -86,23 +86,23 @@ Ninguno. El 404 enlazado de Home está cerrado.
 
 ### Major (abiertos)
 
-#### M1. Numeración Notes / Home journal
+#### M1. Hover publicado
 
-`[ 07 ENTRIES ]` pero featured façade **sin índice** y lista **06, 01, 02, 04, 03, 07**. Home waiting: **`[ ]`**. El artículo es **04**.
+`EXPLORE →` (con `:hover` true): opacity/decoration/transform no cambian. Span hijo `opacity 0.35` + `scaleX 0` no pasa a 1. Checklist Links: hover/active definidos.
 
-#### M2. Hover
+---
 
-`EXPLORE →` / `VIEW ALL →` / `VIEW ALL NOTES →`: sin cambio de opacity / decoration / transform. `VIEW ALL →` en cream sobre foto (`rgb(252, 250, 244)`).
+### Fuera de alcance (no Agent)
 
-#### M3. Favicon
-
-Favicon `default-favicon-light.v1.png`.
+- **Favicon.** Help enseña cómo ponerlo; [template-requirements](https://www.framer.com/template-requirements/) 2026 **no** lo exige. Era gate del review Framer 3.0. Default = polish de tab, no ranking.
+- **Notes 01–07 corrido.** Los números del template son labels editoriales (`01 SOLD`, process 01–04, `[ 07 ENTRIES ]`, featured 01–03). Un featured sin índice y una lista 06/01/02/04/03/07 no es un fail. **No** gastar `/cms` en rellenar el 05.
+- Home `[ ]` en waiting: si el slot de número se queda, se lee vacío. No hace falta alinear con 04. Ocultar el número si está vacío es opcional, no un serial.
 
 ---
 
 ### Cerrados esta verificación
 
-- **Scrim Home:** `Hero Bottom Gradient`, `Meta Contrast Scrim`, `Vignette`. El H1 sigue cream a propósito.
+- **Scrim Home:** `Hero Bottom Gradient`, `Meta Contrast Scrim`, `Vignette`.
 
 Cerrados antes: `header` marketing, Home 404 enlazado, `lang=en`, 4 alts, leftover Privacy, Neighbourhoods fill, full-bleed.
 
@@ -127,11 +127,10 @@ Cerrados antes: `header` marketing, Home 404 enlazado, `lang=en`, 4 alts, leftov
 
 ## 7. Punch list
 
-1. Notes: façade = **05**; bind número del journal Home (no `[ ]`).  
-2. Hover/pressed en `EXPLORE →` / `VIEW ALL →` / `VIEW ALL NOTES →` (en el preview publicado el underline hijo sigue en `scaleX 0`).  
-3. Favicon: humano.  
-4. (Opcional) AREA preseleccionada; alts de territories.  
-5. Performance panel + Lighthouse (humano).
+1. Hover/pressed en `EXPLORE →` / `VIEW ALL →` / `VIEW ALL NOTES →` (span underline en `scaleX 0`).  
+2. (Opcional) Ocultar el número del card Home si renderiza `[ ]`. No rellenar 01–07.  
+3. (Opcional) Favicon custom — no es requirement.  
+4. Performance panel + Lighthouse (humano).
 
 ---
 
