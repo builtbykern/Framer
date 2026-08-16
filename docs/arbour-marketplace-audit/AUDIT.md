@@ -2,9 +2,38 @@
 
 **Preview:** [https://arbour.framer.website](https://arbour.framer.website)  
 **Corrección en Framer:** prompts del Agent interno (modelo + reasoning + `/` skills) en [framer-agent-prompts/](framer-agent-prompts/)  
-**Fecha:** 16 agosto 2026  
+**Fecha de esta pasada:** 16 agosto 2026, ~15:27–15:32 UTC (`Last-Modified` del HTML publicado)  
+**Pasada anterior:** misma fecha, preview previo al republish  
 **Alcance:** sitio publicado (no hay archivo `.framer` en este repo; no se pudo editar el proyecto).  
-**Método:** checklist oficial de Framer + QA en Chrome (desktop 1440×900, tablet 768×1024, mobile 390×844), crawl de enlaces, overlay de navegación, filtros CMS y revisión visual.
+**Método:** checklist oficial de Framer (Help actualizado 7 ago 2026) + Chrome 148 headless (desktop 1440×900, tablet 768×1024, mobile 390×844), crawl HTTP de 23 rutas, overlay de navegación, filtros CMS, DOM (lang, favicon, OG, alts, tags, forms) y revisión visual.
+
+---
+
+## 0. Delta vs la pasada anterior
+
+El preview se republicó mientras se auditaba (`Last-Modified: Sun, 16 Aug 2026 15:27:52 GMT`). Varias fases del pack **ya están aplicadas en el sitio vivo**.
+
+| Hallazgo anterior | Ahora |
+|---|---|
+| Home journal `[02] The case for waiting` → `/notes/:Jd2WAsZn3` **404** | **200** en `/notes/the-case-for-waiting`. Slug humano. El id crudo `:Jd2WAsZn3` sigue 404 (correcto). |
+| Excerpt de waiting roto en Home | Copy canónica: *“A market that rewards speed makes patience the rarest luxury — the right address is worth the wait.”* |
+| Home card 01 “On finding quiet in Marylebone” sobre el artículo row-house | Card 01 muestra el título real **On proportion, light, and the London row house** y enlaza al slug correcto |
+| Mews *Why mews houses…* publicado | **404** (`/notes/mews-houses-second-visit`). Hueco usado por waiting. Siguen **7** published |
+| Overlay `tel:+442073518800` | Overlay unificado a **+44 20 7946 0810** (`tel:+442079460810`) |
+| Socials → `framer.com/@builtbykern/` | Instagram / LinkedIn / X de demo (`arbour.london`) |
+| About **EST. 2018** | **EST. 1999** (dos veces). Meta “since 1999” y stats **26 yrs** alineados |
+| Home label `03 RESIDENCES` | `[ 03 FEATURED — LONDON & COUNTRY ]` |
+| Properties `06 AVAILABLE` | `[ 06 RESIDENCES — LONDON & COUNTRY ]` |
+| Neighbourhoods CTA `VIEW` genérico | **See residences in this area** → `/properties` |
+| Rooms clonados en las 6 fichas | Rooms **únicos** por ítem (Riverside Reception, Georgian Drawing Room, Flagstone Hall, etc.) |
+| `og:image` ausente | Presente en las 23 rutas medidas |
+| `<main>` / `section` casi 0 | Home: `main` 1, `section` 8. Notes CMS: también `header` |
+| Contact sin Form | Form nativo: Name, Email, Property Interest, Message + labels visibles |
+| CLEAR lima | CLEAR oliva oscuro, `aria-label="Clear property filters"` |
+| Display line-height 1.0 (84/84) | **88.2 / 84 ≈ 1.05** |
+| Alt casi todo vacío | Notes: alts descriptivos. Properties: genéricos (“Property hero photograph”) |
+
+**Scorecard anterior ~5.4 / 10 → esta pasada ~7.0 / 10.** Los tres blockers (404 del journal, tres teléfonos, promo del creator) están **cerrados**. No está Featured: quedan CMS layout, numeración, cuerpo vacío de waiting, leftover Marylebone, `lang`/favicon, hover y mismatch foto/copy.
 
 ---
 
@@ -73,175 +102,158 @@ Jorn, en el post de Community: *“Good enough to get accepted” dejará de imp
 
 ## 3. Veredicto
 
-**No está listo para un listing premium / featured.**  
-Estéticamente es fuerte (editorial luxury, Fraunces + Space Mono, fotografía de alto contraste, 404 a medida, cero overflow horizontal en los 3 breakpoints). A nivel de **producto template** falla en Links, CMS, Text, Tags y Accessibility — exactamente las categorías que el checklist oficial marca como confianza del comprador.
+**Más cerca, todavía no Featured.**  
+El preview ya no miente en el journal ni promociona al creator. El look (Fraunces + Space Mono, cream `#F9F8F3`, overlay, 404 custom) se conserva. Lo que queda es lo que un comprador de template nota al remixar: layout CMS con coords fijas, numeración editorial rota, un artículo sin cuerpo, leftover de copy en Contact, Site Settings incompletos (`lang`, favicon) y hover irregular.
 
-Si esto entrara hoy al Marketplace se publicaría (no hay cola). Un reviewer/moderador de 2024–2025 lo habría **devuelto**. El algoritmo no debería featured-arlo mientras el home enlace a un 404 y el CMS mienta.
+Si esto se publicara hoy en Marketplace, **pasaría** (no hay cola). Un moderador de 2024–2025 ya no lo devolvería por 404; sí lo marcaría por CMS a medias y leftovers de “DEMO TEMPLATE”. El algoritmo no debería featured-arlo mientras Home numera dos cards `( 02 )` y waiting no tiene artículo.
 
 **Scorecard no oficial** (simulación de reviewer, 0–10 por categoría oficial). 10 = cumple el bullet de Help sin matices.
 
-| Categoría oficial | Nota | Por qué |
-|---|---|---|
-| Originality | 8.0 | Nicho claro (estate agency discreta, London + Cotswolds). No parece un clone genérico de SaaS. |
-| Design | 7.5 | Sistema visual excelente. Favicon default de Framer. Botón CLEAR en lima vs acento oliva. |
-| Layout | 7.5 | Ritmo y grid muy buenos. Neighbourhoods no tienen páginas detalle; el layout template de property no está conectado del todo. |
-| Text | 3.5 | Copy rota, títulos desparejados, años contradictorios. |
-| Responsive | 8.5 | Sin overflow en 1440 / 768 / 390 en home, properties, neighbourhoods, notes, about, contact. |
-| Links | 2.5 | 404 en el home. Socials placeholder. Teléfonos distintos. |
-| CMS | 3.0 | Slug crudo, campos hardcodeados, copy de habitaciones clonada, coords fijas. |
-| Code | n/d | No auditable en el sitio publicado. |
-| Effects | 7.5 | Motion contenido en lo visto; no se midió reduced-motion. |
-| Assets | 4.5 | Foto de skyline de Manhattan en un piso de Chelsea. Favicon default. Sin OG image. |
-| Tags | 3.5 | `lang` vacío. Casi todo el `<img>` con `alt=""`. Pocas `section`. Sin `<header>`/`<main>`. |
-| Accessibility | 3.5 | Inputs sin label. 11px body. Contraste de meta sobre cielo claro. |
-| Performance | n/d* | No se corrió Lighthouse completo (Framer Performance panel no es accesible desde el preview). |
-| Copyright | 5.0 | Stock que no coincide con el brief. Números Ofcom drama mezclados con otros. |
-| Community (listing) | n/d | No hay listing de Marketplace en este repo. |
-| Support | n/d | No auditable. |
-| **Media ponderada (categorías auditables)** | **~5.4 / 10** | **Changes requested. No Featured.** |
+| Categoría oficial | Antes | Ahora | Por qué |
+|---|---|---|---|
+| Originality | 8.0 | 8.0 | Nicho claro (estate agency discreta, London + Cotswolds). |
+| Design | 7.5 | 8.0 | Sistema visual excelente. 404 custom. Favicon default. CLEAR ahora oliva. |
+| Layout | 7.5 | 8.0 | Ritmo y grid altos. Neighbourhoods CTA honesto. Property layout: coords aún hardcodeadas. |
+| Text | 3.5 | 6.5 | 1999 unificado. Waiting excerpt OK. Marylebone leftover. Placeholder de Privacy. Skip 04. Waiting sin cuerpo. |
+| Responsive | 8.5 | 8.5 | Cero overflow en 6 páginas × 3 viewports. |
+| Links | 2.5 | 7.5 | 404 del journal cerrado. Socials reales. Overlay = Mayfair. Hover débil. Cards de Contact no son links. |
+| CMS | 3.0 | 6.5 | 7 ítems, slug waiting, rooms únicos. Coords de template. Numeración. Cuerpo vacío. |
+| Code | n/d | n/d | No auditable en el publicado. |
+| Effects | 7.5 | 7.5 | Motion contenido; no se midió reduced-motion. |
+| Assets | 4.5 | 6.0 | Ya no es Manhattan / garage. Heroes aún no coinciden del todo con el brief. OG sí. Favicon no. |
+| Tags | 3.5 | 6.0 | `main`/`section` presentes. `lang` vacío. Alts buenos en Notes, genéricos en Properties. |
+| Accessibility | 3.5 | 6.0 | Form labels. `lang` vacío. Meta 11px. Contraste del hero sobre cielo. |
+| Performance | n/d* | n/d* | Sin Lighthouse / Framer Performance panel. |
+| Copyright | 5.0 | 5.5 | Stock más creíble, aún genérico vs copy. |
+| Community (listing) | n/d | n/d | No hay listing en este repo. |
+| Support | n/d | n/d | No auditable. |
+| **Media ponderada (auditables)** | **~5.4** | **~7.0 / 10** | **Changes requested. No Featured.** |
 
 \*La guía de publish pide “Framer’s performance checks” y Lighthouse sano. Sin eso, no se puede dar por bueno.
 
 ---
 
-## 4. Mapa del sitio (real)
+## 4. Mapa del sitio (real, esta pasada)
 
 | Ruta | HTTP | Title |
 |---|---|---|
 | `/` | 200 | Arbour — Independent Estate Agency London |
 | `/properties` | 200 | Properties \| Arbour |
-| `/properties/{6 slugs}` | 200 | (títulos de cada casa) |
+| `/properties/{6 slugs}` | 200 | títulos de cada casa |
 | `/neighbourhoods` | 200 | Neighbourhoods \| Arbour |
 | `/notes` | 200 | Notes \| Arbour |
-| `/notes/{6 slugs reales}` | 200 | artículos |
-| `/notes/:Jd2WAsZn3` | **404** | Page not found \| Arbour |
-| `/notes/the-case-for-waiting` | **404** | (el artículo no existe / slug mal) |
+| `/notes/the-case-for-waiting` | **200** | The case for waiting. \| Arbour |
+| `/notes/on-proportion-light-london-row-house` | 200 | On proportion, light, and the London row house. \| Arbour |
+| `/notes/what-a-second-viewing-is-really-for` | 200 | What a second viewing is really for. \| Arbour |
+| `/notes/on-instructing-an-agent-without-losing-your-nerve` | 200 | On instructing an agent without losing your nerve. \| Arbour |
+| `/notes/reading-a-facade-as-ledger` | 200 | Reading a façade as a ledger of ownership. \| Arbour |
+| `/notes/notting-hill-after-the-rain` | 200 | Notting Hill after the rain. \| Arbour |
+| `/notes/colville-terrace-field-notes` | 200 | Field notes from the Colville terrace. \| Arbour |
+| `/notes/:Jd2WAsZn3` | **404** custom | Page not found \| Arbour |
+| `/notes/mews-houses-second-visit` | **404** custom | (unpublished, correcto) |
+| `/notes/on-finding-quiet-in-marylebone` | **404** custom | (no existe como ítem, correcto) |
 | `/about` | 200 | About \| Arbour |
 | `/contact` | 200 | Contact \| Arbour |
+| `/privacy` | **404** | no hay página legal |
 | `/this-page-does-not-exist-xyz` | 404 + 404 **custom** | Page not found \| Arbour |
 
-No hay páginas CMS de neighbourhood. Los cuatro territories enlazan a `/properties`.
+No hay páginas CMS de neighbourhood. Los cuatro territories enlazan a `/properties` (sin query `?area=`).
+
+**Notes published (7), slugs humanos:**
+
+1. What a second viewing is really for — `[ 01 ]` BUYING  
+2. On proportion, light, and the London row house — `[ 02 ]` FIELD NOTES  
+3. Notting Hill after the rain — `[ 03 ]` NEIGHBOURHOODS  
+4. *(hueco `[ 04 ]`)*  
+5. On instructing an agent without losing your nerve — `[ 05 ]` BUYING  
+6. The case for waiting — `[ 06 ]` FIELD NOTES  
+7. Field notes from the Colville terrace — `[ 07 ]` NEIGHBOURHOODS  
++ featured “Reading a façade as a ledger of ownership” (sin número en la lista; es el séptimo ítem real)
+
+Server-timing de waiting: `var.Jd2WAsZn3=the-case-for-waiting` — el ítem roto se re-slugeó; no se creó un octavo.
 
 ---
 
 ## 5. Hallazgos (prioridad de reviewer)
 
-Severidad alineada a cómo rechazaba el equipo: **Blocker** = no se publica / se reporta; **Major** = return; **Minor** = polish antes de featured; **Nit** = craft.
+Severidad: **Blocker** = no se publica / se reporta; **Major** = return; **Minor** = polish antes de featured; **Nit** = craft.
 
-### Blocker
+### Blockers de la pasada anterior — cerrados
 
-#### B1. Enlace roto en el home (Links + CMS)
+- **B1** Home → `/notes/:Jd2WAsZn3`. Ahora Home card 02 → `/notes/the-case-for-waiting` 200. Ningún `href` interno con `:Jd2WAsZn3`.  
+- **B2** Tres teléfonos. Overlay y Contact Mayfair = `+44 20 7946 0810`. Cotswolds sigue como segundo office (`+44 1608 649 220`) — coherente. El 7351 8800 **ya no aparece**.  
+- **B3** Socials a `framer.com/@builtbykern/`. Ahora `instagram.com/arbour.london`, `linkedin.com/company/arbour-london`, `x.com/arbourlondon`.
 
-Home → journal card `[ 02 ] The case for waiting` apunta a:
-
-`https://arbour.framer.website/notes/:Jd2WAsZn3` → **404**
-
-Eso es un **CMS ID crudo** (`:Jd2WAsZn3`), no un slug. Help: *“Broken or inactive links have been removed.”* Publish: *“Fix any bugs, broken links…”*
-
-El copy de esa card está además **roto**:
-
-> “Market that rewards speed, patience is the rarest luxury. Note on and the right address.”
-
-En `/contact` la misma pieza está bien escrita:
-
-> “A market that rewards speed makes patience the rarest luxury — the right address is worth the wait.”
-
-La card `[ 01 ] On finding quiet in Marylebone` (fecha MAR 2026, categoría NEIGHBOURHOODS) enlaza a `/notes/on-proportion-light-london-row-house`, cuyo artículo real es **“On proportion, light, and the London row house”**, 12 JUN 2026, FIELD NOTES. Overlay de CMS vs campos reales.
-
-**Fix:** conectar las featured notes a ítems CMS reales; slug humano; copy del CMS, no texto estático encima.
-
-#### B2. Tres teléfonos distintos (Links + Text)
-
-| Superficie | Número |
-|---|---|
-| Overlay del menú | `tel:+442073518800` → **+44 20 7351 8800** |
-| Contact · Mayfair | `tel:+442079460810` → **+44 20 7946 0810** (rango Ofcom *drama*: 020 7946 0000–0999) |
-| Contact · Cotswolds | `tel:+441608649220` → **+44 1608 649 220** |
-
-Help pide `tel:` (eso sí está). Un comprador ve un template “impecable” que no se pone de acuerdo consigo mismo. Unificar a **un** set de números demo y usar variables / el mismo text style en header y contact.
-
-#### B3. Redes sociales placeholder (Links + Support)
-
-En el overlay, Instagram / LinkedIn / X apuntan **los tres** a:
-
-`https://www.framer.com/@builtbykern/`
-
-Help Support: *“Advertisements and unrelated promotions have been removed.”*  
-Esto es promo del creator + enlaces que no hacen lo que el label promete. O `https://instagram.com/...` reales de demo, o quitar los ítems.
+No hay blockers nuevos de enlace roto en el grafo interno descubierto.
 
 ---
 
-### Major
+### Major (abiertos)
 
-#### M1. Cronología de la agencia incoherente (Text + CMS)
+#### M1. Numeración editorial (CMS + Text)
 
-- Meta home: *“counsel **since 1999**.”*  
-- Meta about: *“Independent estate agency **since 1999**.”*  
-- About body: **EST. 2018** (dos veces).  
-- Stats: **26 yrs** independent → implicaría ~2000.
+- Home featured: Cheyne Walk `( 01 )`, Frognal `( 02 )`, Bibury **`( 02 )` otra vez**. El label ahora dice `03 FEATURED` (bien) pero los índices de card siguen duplicados.  
+- Notes index: `[ 07 ENTRIES ]` y 7 links reales, pero los números de card son **01, 02, 03, 05, 06, 07** — sigue faltando **04**. Waiting heredó el `[ 06 ]` del mews unpublished.  
+- Home journal cards usan `[ 02 ]` (row house) y `[ 06 ]` (waiting): son IDs de colección, no “featured 1–2”.
 
-Tres orígenes. En un template de lujo esto se lee como archivo sucio, no como “demo”.
+**Fix:** numerar featured 01–03 desde el índice del list; en `/notes` 01–07 sin huecos (waiting puede ser 04).
 
-#### M2. Conteos y numeración (CMS + Text)
+#### M2. “The case for waiting” no tiene cuerpo (CMS + Text)
 
-- Home: `[ 03 RESIDENCES — LONDON & COUNTRY ]` y **dos cards con `( 02 )`** (Frognal y Bibury).  
-- `/properties`: `06 AVAILABLE`.  
-- Notes index: `[ 07 ENTRIES ]` pero la numeración editorial salta el **04** (01, 02, 03, 05, 06, 07).  
-- “The case for waiting” **no está** en el index y el home sí la enseña.
+La página 200 existe: H1, excerpt, categoría FIELD NOTES, fecha 09 MAY 2026. Tras `( ARTICLE )` no hay párrafos — salta a “Continue reading.” Las otras seis notas sí tienen artículo.
 
-O el home es “featured 3” (entonces el label debe decirlo) o el contador sale del CMS (`collection.length`). La numeración `( 01 ) ( 02 ) ( 02 )` es un fail clásico de índice hardcodeado.
+Help: *“Empty and unused CMS entries have been removed.”* / *“CMS fields are connected clearly.”* Un comprador abre el featured del home y encuentra una ficha hueca.
 
-#### M3. CMS de properties mal cableado (CMS — el rechazo más típico después de responsive)
+**Fix:** pegar 2–4 párrafos British English en el campo body, o no featured-arla hasta que tenga copy.
 
-En **las 6** fichas:
+#### M3. Layout template de properties: coords fijas (CMS)
 
-- Coordenadas del layout: `51.5074° N — 0.1278° W · CHELSEA` (punto de Trafalgar/Charing Cross, no Chelsea). Frognal y Bibury también dicen Chelsea.  
-- El bloque **“What the house keeps, day after day”** es **idéntico** (garden court, kitchen, study, baths, terrace, cellar) en Cheyne Walk, Frognal y Bibury. Bicky: *“Use Unique CMS Content (Text + Images).”* Help: *“CMS fields are connected clearly.”*  
-- Particulars del footer de ficha sí cambian (bien). El cuerpo “rooms” no.
+En **las 6** fichas el hero/meta dice:
 
-En `/neighbourhoods`, Chelsea / Notting Hill / Hampstead / Cotswolds **VIEW →** van todos a `/properties`, no a un CMS item. O hay collection Territories con detalle, o el CTA dice “See residences in this area”.
+`51.5074° N — 0.1278° W · CHELSEA`
 
-#### M4. Foto vs brief (Assets + Copyright + Originality)
+Eso es Trafalgar/Charing Cross, no Chelsea, y menos Hampstead o Bibury. El bloque Territories de Home usa `51.4875° N — 0.1687° W` (Chelsea razonable). Dos verdades.
 
-Ficha **Cheyne Walk Riverside Residence** (copy: Thames, Battersea, Chelsea) abre con un interior cuyo skyline es **Manhattan** (One World Trade Center), no el Támesis.  
-Bibury Stone Manor (copy: honey-stone, s. XVII, gravel drive) abre con un **garage door** urbano.
+Los **rooms ahora sí son únicos** (cerrado el clone garden-court). Particulars también cambian.
 
-Un reviewer lo marca como stock genérico no curado. Cambia las hero images para que coincidan con el copy, o reescribe el copy a lo que se ve.
+**Fix:** bind lat/long + neighbourhood desde CMS en el layout template. Frognal → Hampstead; Bibury → Cotswolds; Colville/Ladbroke → Notting Hill.
+
+#### M4. Foto vs brief (Assets + Copyright)
+
+Mejor que la pasada (ya no hay skyline de Manhattan ni garage door), pero el match copy/foto sigue flojo:
+
+| Ítem | Copy | Hero medido |
+|---|---|---|
+| Cheyne Walk Riverside | Thames, Battersea, Chelsea, brick façade | Vestíbulo de mármol / puertas de ascensor |
+| Bibury Stone Manor | Honey-stone, s. XVII, gravel drive, Cotswolds | Mansión georgiana **blanca** iluminada de noche |
+
+Un reviewer lo marca como stock no curado. Cambia heroes o reescribe el copy a lo que se ve.
+
+Alts de property: `"Property hero photograph"` / `"Property gallery photograph"` — mejor que `alt=""`, peor que un alt por casa.
 
 #### M5. SEO / site settings (Accessibility + Community)
 
-Medido en todas las páginas auditadas:
-
 | Check oficial | Estado |
 |---|---|
-| Title + description por página | OK (únicos y bien escritos) |
-| `html lang` | **vacío** |
+| Title + description por página | **OK** (únicos, bien escritos; waiting tiene description propia) |
+| `html lang` | **vacío** en las 23 rutas |
 | Favicon | **default** `default-favicon-light.v1.png` |
-| `og:image` | **ausente** |
-| Alt text | mayoría `alt=""`; unos pocos genéricos (“Property detail photograph”) |
+| `og:image` | **presente** (home y CMS usan assets distintos) |
+| Alt text | Notes: descriptivos. Properties: genéricos. Decorativas aún `alt=""` |
 
-Help Accessibility: *“Each page includes a title and description in site settings.”* + language.  
-Bicky #13–14: social thumbnail + site language English.  
-Arvind: favicon + OG.
+Help Accessibility: title/description **cumple**; language **no**. Bicky #13–14: social thumbnail **cumple**; site language English **no**.
 
-#### M6. Formularios y labels (Accessibility + Links)
+#### M6. Leftovers de demo en Contact (Text + Support)
 
-- Newsletter home: `input type=email` placeholder `your@email.com`, **sin `<label>` ni `aria-label`**. Al submit no hay success/error visible (el body no cambia).  
-- Contact **no tiene formulario** de enquiry: solo `mailto:enquiries@arbour.london`. Para un template de agencia, el comprador espera un Form nativo de Framer (nombre, email, mensaje, property interest).  
-- Filtros de `/properties` (STATUS, AREA, BUDGET, BEDS): **funcionan** (Chelsea deja Cheyne Walk + Royal Avenue; Under Offer deja vacío; CLEAR restaura). Pero los controles no tienen label asociado — solo placeholder. Help: *“Form fields are clearly labeled.”*
+- Journal de Contact sigue mostrando **“On finding quiet in Marylebone.”** (MAR 2026, NEIGHBOURHOODS) **sin `href`**. Waiting en esa misma franja **tampoco es link**. En Home esas cards sí enlazan.  
+- Newsletter: *“DEMO TEMPLATE — REPLACE WITH YOUR OWN PRIVACY POLICY BEFORE PUBLISHING.”* Copy de instrucciones, no de agencia. `/privacy` es 404. El pack pide **no** crear página Privacy; entonces quitar esa frase o sustituirla por una línea de demo que no parezca TODO del creator.
+
+Form de enquiry: **sí está** (Name / Email / Property Interest optional / Message, labels `NAME` `EMAIL`…). Cumple el espíritu de Help *“Form fields are clearly labeled.”* (label wrapping, sin `for=`/id — aceptable en Framer). Honeypots en el DOM; no aparecen como copy visible.
 
 #### M7. Hover / active incompleto (Links)
 
 Help: *“Hover and active states are clearly defined.”*  
-En home, sin cambio computado de color/opacity/decoration/transform:
-
-- `EXPLORE →`  
-- `VIEW ALL →`  
-- `VIEW ALL NOTES →`  
-- card Cheyne Walk  
-- las dos notes featured  
-
-Algunas cards de property sí cambian. El sistema de interacción no es uniforme. En mobile, 24 Seven pide desactivar hover — no verificado.
+En Home, `EXPLORE →`, `VIEW ALL →`, `VIEW ALL NOTES →` **no cambian** color, opacity, decoration ni transform al hover (medido). Overlay links no se midieron aparte. En mobile, 24 Seven pide hover off — no verificado.
 
 ---
 
@@ -249,109 +261,108 @@ Algunas cards de property sí cambian. El sistema de interacción no es uniforme
 
 #### m1. Semántica (Tags)
 
-Landmarks típicos en páginas de marketing: `nav: 1`, `footer: 1`, `header: 0`, `main: 0`, `section: 0–2`. Neighbourhoods = **0 sections**. 404 tiene `main` pero pierde nav/footer. Help pide headings lógicos + tags; Academy pide `section` / `header` / `nav`.
-
-H1 único por página: **cumple**.
+Marketing pages: `nav: 1`, `footer: 1`, `main: 1`, `section: 2–8`, **`header: 0`**. Notes CMS detail: `header: 1`. 404: `main` sí, **sin** nav/footer. Un H1 por página: **cumple**. Properties detail usa `article: 1` (bien).
 
 #### m2. Tipografía (Design + Text + a11y)
 
-Sistema (desktop home):
+Desktop home:
 
-- Display: **Fraunces Variable**, 84px / line-height **84px** (1.0) / tracking **−2.52px**  
+- Display: **Fraunces Variable** 84px / line-height **88.2px** (~1.05) / tracking −2.52px  
 - UI/meta: **Space Mono** 11px / 16.5px / tracking 1.32px  
-- Body computed del `body`: 12px sans-serif (el 11px Mono es el primer `p`)
 
-El 1.0 de line-height en display recorta descenders (`Journal`, `judgement`). 11px está por debajo de lo que se considera body legible; WCAG no fija px, pero reviewers y Lighthouse penalizan texto pequeño + tracking alto.
+El 1.05 ya no recorta tanto los descenders. 11px sigue siendo caption, no body; reviewers/Lighthouse lo penalizan si se usa como párrafo.
 
-Fraunces + Space Mono son fonts de Framer/Google → cumple *“Framer fonts are used where appropriate.”*
+Fraunces + Space Mono = fonts de Framer/Google → cumple *“Framer fonts are used where appropriate.”*
 
 #### m3. Contraste (Accessibility)
 
-Hero/about: labels blancos sobre **cielo claro** de la foto. Help remite a Lighthouse + 4.5:1. Hay que comprobar esos overlays (scrim o mover el meta a zona oscura).  
-El botón CLEAR lima sobre cream: verificar 4.5:1 en el label.
+Hero: H1 blanco `rgb(252, 250, 244)` sobre foto de atardecer/cielo. Help remite a Lighthouse + 4.5:1. Scrim o meta en zona oscura. CLEAR oliva + blanco: mejor que el lima anterior; verificar 4.5:1 en el panel de Framer.
 
 #### m4. Legal / footer
 
-Footer: *“© Arbour Estates Ltd. Registered in England & Wales.”* Sin Privacy / Terms / Cookies. Publish Checklist community los pide si hay captura de email. El newsletter los hace pertinentes.
+Footer: *“© Arbour Estates Ltd. Registered in England & Wales.”* Sin Privacy/Terms. No hay ruta `/privacy`. El newsletter hace pertinente **o** una frase de demo discreta **o** quitar captura de email — no un TODO en mayúsculas.
 
 #### m5. CTA inconsistente en cards
 
-Solo la card `( 01 )` del home muestra `VIEW →`. Frognal y Bibury no. Parece variante de componente a medias.
+Solo la card `( 01 )` del home muestra `VIEW →`. Frognal y Bibury no. Variante de componente a medias.
 
-#### m6. Coords bien y mal a la vez
+#### m6. Neighbourhoods → `/properties` sin filtro
 
-Territories Chelsea usa `51.4875° N — 0.1687° W` (razonable). El hero usa `51.5074° N — 0.1278° W · CHELSEA` (centro de Londres). Dos verdades. Una variable CMS.
+El CTA ahora es honesto (“See residences in this area”). Los cuatro cards van al índice completo, no a Chelsea/Notting Hill/Hampstead/Cotswolds filtrado. Si el filtro AREA funciona (el control existe: All / Chelsea / Notting Hill / Hampstead / The Cotswolds), el VIEW debería preseleccionarlo.
+
+Filtros en `/properties`: STATUS, AREA, BUDGET FROM/TO, BEDS, CLEAR con `aria-label`. Selects envueltos en `label`. El click sintético a Chelsea **no** redujo las 6 cards en este harness (posible overlay de custom select); no se marca como roto — verificar a mano.
 
 ---
 
 ### Nits / craft
 
-- Accent lima (CLEAR) vs oliva (location labels) vs stone: o se documenta como acento único o se unifica.  
+- Accent: CLEAR oliva vs labels oliva `rgb(84, 98, 45)` vs stone: más unificado que el lima.  
 - “Made in Framer” en el preview es normal; documentar cómo se quita.  
-- Copy de awards Sunday Times / Country Life / Negotiator / RICS Matrics: está bien como demo, pero hay que dejar claro en el listing que es *placeholder* (copyright de marcas).  
-- Testimonial “E. Whitmore” vs principal “Eleanor Whitmore”: o es intencional o parece leftover.  
-- H1 84px en tablet/mobile del hero se apila bien (no overflow); vigilar viudas en “Independent estate / agency.”  
-- Contact journal cards no son links (en `/contact` las notes del final no tienen `href` en el extracto de texto; en home sí). Misma sección, distinto cableado.
+- Awards Sunday Times / Country Life / Negotiator / RICS Matrics: demo; dejarlo claro en el listing.  
+- Testimonial “E. Whitmore” vs principal “Eleanor Whitmore”: o es intencional o leftover.  
+- Overlay: “Now accepting viewings — London” + featured Cheyne Walk. Bien.  
+- Contact form: segundo form (newsletter) + honeypots; confirmar success/error nativo al submit.  
+- Waiting category en Home es FIELD NOTES; en Contact leftover era COUNSEL. Unificar.
 
 ---
 
 ## 6. Lo que está bien (no negociar esto a la baja)
 
-- **404 custom** de primer nivel: *“A fine address, quietly misplaced.”* Title/description propios. Cumple el bullet de Design.  
+- **404 custom** de primer nivel: *“A fine address, quietly misplaced.”* Title/description propios.  
 - **Cero overflow** en 6 páginas × 3 viewports.  
-- **Filtros de properties** conectados de verdad (STATUS / AREA / CLEAR).  
-- **`mailto:` y `tel:`** presentes (aunque los `tel` se contradicen).  
-- **Títulos SEO** únicos y tono de listing correcto.  
+- **Journal 404 cerrado.** Slug humano. Siete published. Mews unpublished.  
+- **Socials y teléfono del overlay** alineados al source of truth.  
+- **`mailto:enquiries@arbour.london`** y `tel:` reales.  
+- **EST. 1999** + meta since 1999 + 26 yrs.  
+- **Rooms únicos** por property.  
+- **Form nativo en Contact** con labels.  
+- **OG images** por página.  
+- **Títulos SEO** únicos y tono de listing.  
 - **Logo** `aria-label="Arbour home"` → `/`.  
-- **Nav overlay** con páginas reales (Properties, Neighbourhoods, Notes, About, Contact).  
-- Vocabulario de marca coherente (discretion, never theatre, quiet surfaces).  
+- **Nav overlay** con páginas reales + featured property.  
+- Vocabulario de marca (discretion, never theatre, quiet surfaces).  
 - Un H1 por página.  
-- Fotografía en general de calidad de print (salvo el mismatch geográfico).  
-- Spacing de template editorial: márgenes ~72px desktop, mucho aire, rules 1px — eso **sí** es nivel marketplace alto.
+- Spacing editorial: ~72px desktop, 1px rules — nivel marketplace alto.  
+- Neighbourhoods copy larga y útil (Chelsea / Notting Hill / Hampstead / Cotswolds).
 
 ---
 
-## 7. Punch list para el archivo Framer (orden de ataque)
+## 7. Punch list que queda (orden de ataque)
 
-1. Arreglar slug y link de “The case for waiting”; borrar o mapear `:Jd2WAsZn3`.  
-2. Featured notes del home = CMS bind (título, fecha, categoría, excerpt, URL).  
-3. Un teléfono + un email en overlay, contact y footer (component variables).  
-4. Socials reales o fuera.  
-5. Contador de residences desde CMS; numeración 01–03 o 01–06, nunca duplicada.  
-6. Unificar 1999 / 2018 / 26 yrs.  
-7. Layout template de property: coords + neighbourhood desde CMS.  
-8. Rooms CMS **únicos** por ítem (o quitar el bloque si no hay campos).  
-9. Neighbourhoods: collection + detalle, o CTA honesto a `/properties?area=`.  
-10. Hero images que coincidan con el copy (nada de Manhattan en Chelsea).  
-11. Site Settings: `lang=en`, favicon, OG por página.  
-12. Alt text real en fotos no decorativas; `alt=""` solo en decorativas de verdad.  
-13. Labels en newsletter + filtros; success/error del form.  
-14. Formulario de enquiry en Contact (Framer Form).  
-15. Hover/pressed en todos los `a` / buttons; off en breakpoint phone.  
-16. Tags: `header`, `main`, `section` por bloque.  
-17. Line-height display ≥ 1.05; body ≥ 14–16px o contrastar el 11px como *caption only*.  
-18. Privacy si se captura email.  
-19. Correr **Framer performance checks** + Lighthouse mobile.  
-20. Recorrer el archivo: layers, unused CMS, unused styles (no visible en el preview).
+Mapeo a fases del pack que **aún aplican** en el canvas:
+
+1. **01 leftover:** Renumber Notes 01–07; body de waiting; Contact journal = CMS bind (o quitar Marylebone).  
+2. Home featured cards `( 01 ) ( 02 ) ( 03 )` — no dos `( 02 )`.  
+3. **04:** coords + neighbourhood desde CMS en el property layout.  
+4. **05 leftover:** VIEW de Neighbourhoods → `/properties` con AREA preseleccionada si el filtro lo permite.  
+5. **06 leftover:** heroes Cheyne (río/Chelsea) y Bibury (honey-stone). Alts por ítem.  
+6. **07:** `lang=en`, favicon custom, alts de property. OG ya está.  
+7. **09:** hover/pressed en `EXPLORE` / `VIEW ALL` / cards; off en Phone.  
+8. **10 leftover:** `header` en marketing pages; 404 con nav o un back path más rico (ya tiene RETURN).  
+9. **11 leftover:** scrim del hero; quitar “DEMO TEMPLATE — REPLACE WITH YOUR OWN PRIVACY POLICY…”.  
+10. **08 leftover:** success/error del Form + newsletter.  
+11. Correr **Framer performance checks** + Lighthouse mobile.  
+12. Recorrer el archivo: layers, unused CMS (mews unpublished), unused styles.
 
 ---
 
 ## 8. Evidencia
 
-Screenshots en `screenshots/`:
+Screenshots en `screenshots/` (reemplazados en esta pasada):
 
 | Archivo | Qué demuestra |
 |---|---|
-| `home-desktop.png` / `home-tablet.png` / `home-mobile.png` | Hero, type, spacing, responsive |
-| `nav-open-desktop.png` | Overlay, socials, teléfono 7351 8800 |
-| `properties-desktop.png` | Filtros, CLEAR lima, “06 AVAILABLE” |
-| `properties-cheyne-walk-riverside-residence-desktop.png` | Hero vs copy Chelsea |
-| `properties-bibury-stone-manor-desktop.png` | Hero vs copy Cotswolds |
-| `contact-desktop.png` | mailto, Ofcom 7946 0810 |
+| `home-desktop.png` / `home-tablet.png` / `home-mobile.png` | Hero, type 1.05, spacing, responsive |
+| `nav-open-desktop.png` | Overlay: socials reales, Mayfair 7946 0810, nav Properties…Contact |
+| `properties-desktop.png` | Filtros, CLEAR oliva, `06 RESIDENCES` |
+| `properties-cheyne-walk-riverside-residence-desktop.png` | Hero vestíbulo (no Thames) |
+| `properties-bibury-stone-manor-desktop.png` | Hero georgiano blanco (no honey-stone) |
+| `contact-desktop.png` | mailto, dos offices |
 | `this-page-does-not-exist-xyz-desktop.png` | 404 custom (bien) |
-| `notes-Jd2WAsZn3-desktop.png` | 404 desde el home (mal) |
+| `notes-the-case-for-waiting-desktop.png` | 200, título correcto, poco cuerpo |
+| `notes-Jd2WAsZn3-desktop.png` | El id crudo ahora 404 custom (bien) |
 
-Crawl técnico: Chrome 1440/768/390, `networkidle` no forzado (domcontentloaded + 1.2s). Unico interno ≠ 200: `/notes/:Jd2WAsZn3`.
+Crawl: Chrome 148, `domcontentloaded` + espera. Internos ≠ 200 solo los 404 esperados (`:Jd2WAsZn3`, mews, marylebone, `/privacy`, 404 de prueba).
 
 ---
 
@@ -364,7 +375,9 @@ No se puede certificar desde el preview:
 - unused assets, code files, breakpoints extra en el canvas  
 - reduced motion en Site Settings  
 - Lighthouse / Framer performance panel  
-- listing (byline, precio, categorías, screenshots de Marketplace)
+- listing (byline, precio, categorías, screenshots de Marketplace)  
+- submit real del Form (success/error)  
+- filtro AREA con el custom select de Framer (el harness no lo cerró)
 
 Eso es trabajo **dentro** del proyecto Framer, no del `.framer.website`.
 
