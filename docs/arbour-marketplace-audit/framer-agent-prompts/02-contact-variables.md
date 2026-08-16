@@ -14,7 +14,7 @@ Cierra **B2 / B3**. Help Links: `mailto:` / `tel:`; no broken/inactive. Help Sup
 | Skill | **`/component`** |
 | @ | Header / Nav overlay component, Footer, `@Contact` |
 | Context | Overlay (open Menu), footer LEGAL/NAVIGATE/OFFICES, Contact tel/mailto |
-| No usar | Fable, Sol, `/code` |
+| No usar | Fable, Sol, `/code`, `/cms` (teléfonos/socials son variables de componente) |
 
 Light: find-replace de datos en componentes existentes. Luna: cross-site replacement.
 

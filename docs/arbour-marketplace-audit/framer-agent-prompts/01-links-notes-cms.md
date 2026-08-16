@@ -2,6 +2,8 @@
 
 Cierra **B1** del audit. Help Links: *Broken or inactive links have been removed.* Help CMS: fields connected; unused/empty entries removed. Histórico: unique CMS content; human slugs.
 
+Ficha de picker: [`00-agent-decision.md`](00-agent-decision.md).
+
 ## Configuración
 
 | Control | Valor |

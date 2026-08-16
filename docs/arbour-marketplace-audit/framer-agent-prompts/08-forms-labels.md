@@ -8,7 +8,7 @@ Cierra **M6**. Help Accessibility: form fields clearly labeled. Help Links: inte
 |---|---|
 | Chat | **New Chat** |
 | Branch | `marketplace-qa` |
-| Modelo | **Opus 5** (o **Opus 4.7**) |
+| Modelo | **Opus 5** (si no: **Opus 4.8**, luego **4.7**. Nunca Fable) |
 | Reasoning | **Higher** |
 | Fast Mode | **Off** |
 | Skill | **`/component`** |

@@ -8,10 +8,10 @@ Cierra **m3 / m4**. Help Accessibility: contrast WCAG 4.5:1 normal / 3:1 large. 
 |---|---|
 | Chat | **New Chat** |
 | Branch | `marketplace-qa` |
-| Modelo | **Opus 5** (o **4.7**) |
+| Modelo | **Opus 5** (si no: **Opus 4.8**, luego **4.7**. Nunca Fable) |
 | Reasoning | **Higher** |
 | Fast Mode | **Off** |
-| Skill | **`/component`**; `/style` si aparece |
+| Skill | **`/component`** (no `/style`: contraste = scrim/opacidad, no paleta nueva) |
 | @ | Footer, `@Home` `@About` heroes, Properties CLEAR, new Privacy page |
 | No usar | Fable (no “ pulir ” el 404 ni el hero), `/code` |
 

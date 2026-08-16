@@ -2,7 +2,7 @@
 
 Cierra neighbourhoods que hoy mandan VIEW → `/properties`. Help Layout: pages have a clear purpose. Help CMS: repeatable content in CMS. Max quality **sin** cambiar el look del índice.
 
-Dos chats si hace falta: (A) `/cms` schema+items, (B) New Chat `/component` o layout para la detail page. Empieza por A; si el Agent termina A y pide canvas, New Chat para B con Opus.
+Dos chats: (A) `/cms` schema+items, (B) New Chat `/component` para la detail page. Empieza por A. Ficha: [`00-agent-decision.md`](00-agent-decision.md).
 
 ## Configuración (A — CMS)
 
@@ -21,10 +21,10 @@ Dos chats si hace falta: (A) `/cms` schema+items, (B) New Chat `/component` o la
 | Control | Valor |
 |---|---|
 | Chat | **New Chat** (no reciclar A) |
-| Modelo | **Opus 5** (si no está: **Opus 4.7**) |
+| Modelo | **Opus 5** (si no: **Opus 4.8**, luego **4.7**. Nunca Fable) |
 | Reasoning | **Higher** |
 | Fast Mode | **Off** |
-| Skill | **`/component`** y `/layout` si aparece |
+| Skill | **`/component`**. Solo si no está: **`/layout`**. Si ninguna: chat plano + Opus |
 | Context | Property detail layout (como referencia visual, no para copiar Manhattan) |
 
 Opus: Help — *visual judgment, nuanced multi-step*. No Fable: demasiado proactive.

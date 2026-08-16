@@ -11,7 +11,7 @@ Cierra **m1 / m2**. Help Tags: semantic tags, heading structure. Help Text: Fram
 | Modelo | **Sonnet 5** |
 | Reasoning | **Higher** |
 | Fast Mode | **Off** |
-| Skill | **`/layout`** si aparece; si no, natural language |
+| Skill | **`/layout`** si está en el menú `/`. Si no: **ninguna** (no inventes el slash) |
 | @ | Layout templates Header/Footer, text styles, main pages |
 | No usar | Fable, Sol, nueva typeface, 4º breakpoint |
 

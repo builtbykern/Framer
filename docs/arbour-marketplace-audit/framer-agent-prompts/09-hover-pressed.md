@@ -11,7 +11,7 @@ Cierra **M7**. Help Links: *Hover and active states are clearly defined*; intera
 | Modelo | **Sonnet 5** |
 | Reasoning | **Light** |
 | Fast Mode | **Off** |
-| Skill | **`/component`** (`/style` si aparece) |
+| Skill | **`/component`** (no `/style`: hover = variants, no paleta) |
 | @ | Header, Footer, Home, Properties cards, Notes cards |
 | Context | `EXPLORE →`, `VIEW ALL →`, `VIEW ALL NOTES →`, featured property cards, journal cards, overlay links |
 | No usar | Fable, `/code` (usar variants / interactions nativas) |

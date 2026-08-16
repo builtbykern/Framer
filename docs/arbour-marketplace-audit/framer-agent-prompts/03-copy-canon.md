@@ -11,12 +11,12 @@ Cierra **M1 / M2** y copy rota. Help Text: spelling/grammar; no placeholder; bal
 | Modelo | **GPT 5.5** |
 | Reasoning | **Light** |
 | Fast Mode | **Off** |
-| Skill | ninguna, o **`/cms`** si el copy vive en CMS |
+| Skill | **Ninguna** |
 | @ | `@Home` `@About` `@Properties` `@Notes` Site Settings |
 | Context | About EST. 2018; Home stats 26 yrs; Home featured numbers; meta descriptions |
-| No usar | Fable, Sol, Opus (no hace falta juicio visual), `/code` |
+| No usar | Fable, Sol, Opus, `/cms`, `/component`, `/code` |
 
-GPT 5.5: Help — *copy-heavy work*. Light: reemplazos de texto, no layout.
+GPT 5.5: Help — *copy-heavy work*. Light: reemplazos de texto, no layout. Sin `/cms`: el schema ya lo cubren 01/04. Si un string está bound al CMS, no lo reescribas aquí; anótalo.
 
 ## Prompt (después de constraints)
 

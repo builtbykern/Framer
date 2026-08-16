@@ -13,9 +13,9 @@ Official Agent can set titles, descriptions, OG, alt ([Agents → SEO](https://w
 | Modelo | **GPT 5.6 Terra** |
 | Reasoning | **Higher** |
 | Fast Mode | **Off** |
-| Skill | **`/seo`** si aparece; si no, lenguaje natural |
+| Skill | **`/seo`** si está en el menú `/`. Si no: **ninguna** (Agents `#seo`, no inventes el slash) |
 | @ | Site Settings; todas las páginas |
-| No usar | Fable, Sol, `/code` |
+| No usar | Fable, Sol, `/code`, `/cms` (no mutar schema) |
 
 Terra: Help — *large audits, consistency passes*.
 

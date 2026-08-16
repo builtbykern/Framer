@@ -1,14 +1,15 @@
 # Cómo correr este pack
 
+Ficha de picker (modelo, reasoning, skill, por qué): [`00-agent-decision.md`](00-agent-decision.md).
+
 ## Orden
 
-1. Lee [`00-agent-setup.md`](00-agent-setup.md) (modelo, reasoning, skills).
-2. Confirma [`00-source-of-truth.md`](00-source-of-truth.md).
-3. En Framer: **New Branch** → `marketplace-qa`.
-4. Fases **01 → 12**. Cada una = **New Chat**.
-5. Por chat: picker (modelo + reasoning + Fast Off) → `/` skill → `@` + layers → pega constraints → pega el prompt.
-6. Revisa Desktop / Tablet / Phone. Luego la siguiente fase.
-7. Al terminar 12: Review Changes → Apply to main → publicar preview.
+1. Lee [`00-agent-decision.md`](00-agent-decision.md) y confirma [`00-source-of-truth.md`](00-source-of-truth.md).
+2. En Framer: **New Branch** → `marketplace-qa`.
+3. Fases **01 → 12B**. Cada una = **New Chat**. 05 y 12 tienen dos chats (A luego B).
+4. Por chat: modelo + reasoning + Fast Off → `/` skill → `@` + layers → constraints → prompt.
+5. Revisa Desktop / Tablet / Phone. Luego la siguiente fase.
+6. Al terminar 12B: Review Changes → Apply to main → publicar preview.
 
 No lances dos fases en el mismo chat. Oficial: *Start a new one for each task to keep the agent focused.*
 
@@ -19,5 +20,5 @@ Ver [`../AUDIT.md`](../AUDIT.md). Blockers primero (404, teléfonos, socials), l
 ## Si el Agent se desvía
 
 - New Chat. No “sigue pero sin rediseñar” en el mismo hilo.
-- Baja a Sonnet 5 + Light si se puso creativo.
-- Nunca cambies a Fable 5 / GPT 5.6 Sol para “arreglar” un fallo.
+- Baja a Sonnet 5 + Light.
+- Nunca Fable 5 / GPT 5.6 Sol / Fast Mode / `/code`.
