@@ -106,7 +106,7 @@ Help (7 ago 2026): **Sonnet 5, Opus 4.7, GPT 5.5, Fable 5, GPT 5.6 Sol / Terra /
 |---|---|---|
 | **Sonnet 5** | Layout, edits cotidianos | 01 styles/shells, 06 Info, 08 404, 10, 12 bind Lummi, 13B |
 | **Opus 5** | Plan largo, juicio visual, multi-paso | 03 Home (plane+nav), 04 detail split, 07 Form, 09B code |
-| **GPT 5.6 Luna** | CMS + find-replace | 02 schema/items, 05 binds, 09A links |
+| **GPT 5.6 Luna** | CMS + find-replace | 02 Tags/Work/Credits, 05 binds, 09A links |
 | **GPT 5.6 Terra** | Audits, consistency | 11 SEO, 13A hygiene |
 | **GPT 5.5** | Copy-heavy | No hay fase solo-copy; fallback de Luna |
 
@@ -132,7 +132,7 @@ Fast Mode = Off. Branch = `template-build`. Chat = New Chat.
 | Fase | Trabajo | Modelo | Reasoning | Skill |
 |---|---|---|---|---|
 | **01** | Color + 5 text styles + shells | **Sonnet 5** | **Higher** | **`/layout`** (o `/style`) |
-| **02** | Collection Work + 7 ítems, sin Lummi | **Luna** | **Higher** | **`/cms`** |
+| **02** | Tags + Work + Credits (7 / 7 / 21), sin Lummi | **Luna** | **Higher** | **`/cms`** |
 | **03** | Home: Drift Plane + Nav onDark | **Opus 5** | **Higher** | **`/component`** |
 | **04** | Work detail split paper/ink | **Opus 5** | **Higher** | **`/layout`** |
 | **05** | Bind campos + Gallery stack | **Luna** | **Higher** | **`/cms`** |
@@ -161,7 +161,7 @@ Ops típicas en base: small ~50 · large ~100 · página ~150–300.
 | Fase | ≈ créditos | Banda |
 |---|---|---|
 | 01 | ~90–150 | Medio (Higher + shells) |
-| 02 | ~40–60 | Bajo (Luna CMS) |
+| 02 | ~60–90 | Medio (Luna, 3 collections) |
 | 03 | ~150–240 | Alto (Opus Home) |
 | 04 | ~150–240 | Alto (Opus split) |
 | 05 | ~40–60 | Bajo |

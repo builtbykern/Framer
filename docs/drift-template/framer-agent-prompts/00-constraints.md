@@ -43,7 +43,7 @@ Canonical facts (override any conflicting text you find):
 - Role: visual director (stills only)
 - Email studio@vale.work (mailto:studio@vale.work)
 - Instagram https://www.instagram.com/vale.work
-- Exactly 7 published Work items (see 00-source-of-truth)
+- Exactly 7 published Work items. CMS is three collections: Tags (no detail), Work (detail /work/{slug}), Credits (no detail, exactly 3 rows per Work). See 00-cms.md. Do not flatten credits or tags onto Work as Credit1 / Tag1 fields
 - Click a plane card → that item’s CMS detail page. No overlay.
 
 When finished: list every page, component, CMS collection, and CMS item you

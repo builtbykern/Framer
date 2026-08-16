@@ -29,7 +29,8 @@ Audit then fix only hygiene. Do not change art direction. Do not create pages.
 Scan for:
 - Broken internal links (only the real 404 page should 404)
 - Plane cards that do not open /work/{slug}
-- Empty CMS items; more or fewer than 7 published Work
+- Empty CMS items; more or fewer than 7 published Work, 7 Tags, or 21 Credits
+- Flattened Credit1 / Tag1 fields on Work (must not exist — credits live in Credits, chips in Tags)
 - Default layer names (Frame 1, Rectangle 2) — rename
 - Unused styles, unused pages (Index, Privacy, Journal must not exist — delete if you created them earlier)
 - More than 3 breakpoints
@@ -47,7 +48,7 @@ Do not write Template Agent Instructions in this chat. Do not publish.
 
 ## Definition of done
 
-- Informe en el chat. 7 Work. 3 breakpoints. Links del plane OK.
+- Informe en el chat. 7 Work, 7 Tags, 21 Credits. 3 breakpoints. Links del plane OK.
 
 ## No tocar
 

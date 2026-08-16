@@ -34,9 +34,10 @@ Desktop / Tablet:
 
 Left column, top to bottom:
 - Title — Display style, ink (this is the H1)
-- Definition list: Label muted + Body ink for Credit1–3. Optional year row: Label “year” + Body Year
+- Year row: Label “year” + Body
+- Credits: three rows as a list (placeholder copy OK). Each row Label muted + Body ink. Phase 05 replaces this with a Credits Collection List
 - Description — Body, max 36ch
-- Two chips: 1px line, radius 2px, pad 5×10, Label, Tag1 Tag2
+- Chip row: two chips, 1px line, radius 2px, pad 5×10, Label. Phase 05 replaces this with a Tags Collection List
 - Pager: Previous · Next, Label, gap 18
 
 Phone 390:

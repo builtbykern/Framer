@@ -1,8 +1,8 @@
-# Fase 02 — CMS Work + 7 ítems (sin Lummi)
+# Fase 02 — Collections Tags, Work, Credits
 
-**Objetivo:** Collection `Work` completa, 7 published, slugs humanos, Covers placeholder sólidos. Cero Unsplash/Lummi.
+**Objetivo:** Crear las **tres** collections y poblarlas. Cero fotos de stock. Schema: [`00-cms.md`](00-cms.md). CSV: [`cms/`](../cms/).
 
-Ficha: [`00-agent-decision.md`](00-agent-decision.md). Ítems: [`00-source-of-truth.md`](00-source-of-truth.md).
+Ficha: [`00-agent-decision.md`](00-agent-decision.md).
 
 ## Configuración
 
@@ -14,90 +14,91 @@ Ficha: [`00-agent-decision.md`](00-agent-decision.md). Ítems: [`00-source-of-tr
 | Reasoning | **Higher** |
 | Fast Mode | **Off** |
 | Skill | **`/cms`** |
-| @ | Work collection, Work detail page |
-| No usar | Fable, Sol, `/code`, plugins de fotos |
+| @ | CMS panel |
+| Adjuntar | `tags.csv`, `work.csv`, `credits.csv` si el chat acepta archivos |
+| No usar | Fable, Sol, `/code`, Unsplash, Lummi, campos Tag1/Credit1 en Work |
 
-Luna: Help — *fastest option for large CMS updates*. Higher: schema antes de crear items.
+Luna: Help — CMS grande. Higher: schema **antes** de los ítems. Orden: Tags → Work → Credits.
 
 ## Prompt (después de constraints)
 
 ```
 /cms
 
-Create or finish the Work CMS collection. Exactly 7 published items. No stock photos.
+Create three CMS collections for Drift. Do not design pages. No stock photos. Do not put credits or tags as plain fields on Work.
 
-Fields (exact names):
+A. Collection Tags (no detail page)
+Fields: Title, Slug
+Items (published): short, narrative, commission, people, still, place, identity
+(slugs = titles)
+
+B. Collection Work (detail page /work/{slug})
+Fields:
 - Title (title)
 - Slug (slug)
-- Cover (image) — for now a solid ink or muted rectangle, NOT Unsplash/Lummi
-- Gallery (gallery) — empty or the same solid placeholder repeated 4 times, no stock
+- Cover (image) — solid ink or muted rectangle only, NOT Unsplash/Lummi
+- Gallery (gallery) — empty or the same solid placeholder ×4, no stock
 - Year (number)
-- Credit1Label, Credit1Value, Credit2Label, Credit2Value, Credit3Label, Credit3Value (plain text)
 - Description (plain text)
-- Tag1, Tag2 (plain text)
-- Featured (boolean) — true on all 7
+- Tags (multi-reference → Tags)
+- Featured (boolean)
 
-Detail page slug pattern: /work/{slug}
+Exactly 7 published items, Featured true, copy verbatim:
 
-Create these 7 published items (copy verbatim):
-
-1. Title: Salt Light | slug: salt-light | year: 2024
-   Credit1Label director / Mira Lang
-   Credit2Label producer / Owen Hale
-   Credit3Label awards / YDA Nominee
-   Tag1 short | Tag2 narrative
+1. Salt Light | salt-light | 2024 | Tags: short, narrative
    Description: A coastal hour cut as rooms of weather. Still frames from a day that never quite becomes night.
-   Featured: true
 
-2. Title: The Waiting Room | slug: the-waiting-room | year: 2023
-   director C. Romer / producer Nia Voss / awards —
-   Tag1 short | Tag2 narrative
+2. The Waiting Room | the-waiting-room | 2023 | Tags: short, narrative
    Description: Two people in a municipal lobby after closing. The work is the fluorescent bank, the chairs, the clock that is wrong.
 
-3. Title: Glass Hours | slug: glass-hours | year: 2025
-   director Vale / producer Atelier Norte / awards —
-   Tag1 commission | Tag2 narrative
+3. Glass Hours | glass-hours | 2025 | Tags: commission, narrative
    Description: An architecture brief shot as weather. Interiors of a house that is mostly sky, stills only.
 
-4. Title: Inland Signal | slug: inland-signal | year: 2024
-   director Vale / producer Elena Ruiz / awards Festival of the Image, selected
-   Tag1 short | Tag2 place
+4. Inland Signal | inland-signal | 2024 | Tags: short, place
    Description: A week away from the water. Heat, distance, and a road that reads longer than it is.
 
-5. Title: After the Sitting | slug: after-the-sitting | year: 2023
-   director Vale / producer — / awards —
-   Tag1 people | Tag2 still
+5. After the Sitting | after-the-sitting | 2023 | Tags: people, still
    Description: Portraits made after the formal sitting ends. Hands, windows, the clothes people chose when they thought the work was over.
 
-6. Title: Red Room Brief | slug: red-room-brief | year: 2025
-   director Vale / producer Vestis Almanac / awards —
-   Tag1 commission | Tag2 identity
+6. Red Room Brief | red-room-brief | 2025 | Tags: commission, identity
    Description: A clothing brief as a private afternoon. Fabric against a rented interior, no set beyond the room and the street below.
 
-7. Title: Night Atlas | slug: night-atlas | year: 2022
-   director Gabe Caste / producer Lauren Altieri / awards Santa Barbara, 2023
-   Tag1 short | Tag2 narrative
+7. Night Atlas | night-atlas | 2022 | Tags: short, narrative
    Description: Fog on a closed café and the road that serves it. Still frames from a night that arrives faster than the last cars leaving.
 
-Do not create an 8th item. Do not add video fields. Do not design the detail layout in this chat.
+C. Collection Credits (no detail page)
+Fields: Label (plain text), Value (plain text), Work (reference → Work), Order (number)
+Exactly 3 credits per Work item (21 rows). Keep rows even when Value is "—".
 
-Report: field list, the 7 slugs, published count.
+salt-light: 1 director Mira Lang | 2 producer Owen Hale | 3 awards YDA Nominee
+the-waiting-room: 1 director C. Romer | 2 producer Nia Voss | 3 awards —
+glass-hours: 1 director Vale | 2 producer Atelier Norte | 3 awards —
+inland-signal: 1 director Vale | 2 producer Elena Ruiz | 3 awards Festival of the Image, selected
+after-the-sitting: 1 director Vale | 2 producer — | 3 awards —
+red-room-brief: 1 director Vale | 2 producer Vestis Almanac | 3 awards —
+night-atlas: 1 director Gabe Caste | 2 producer Lauren Altieri | 3 awards Santa Barbara, 2023
+
+If CSV files are attached, map columns to these fields instead of retyping, then verify counts.
+
+Do not create an 8th Work item. Do not add a video field. Do not create Index/Privacy collections.
+
+Report: field lists, 7 Work slugs, tag count, credit count (must be 21).
 ```
 
 ## Definition of done
 
-- 7 ítems, slugs exactos, Featured true.
-- Covers no son fotos de stock.
-- Collection se llama Work.
+- Collections `Tags` (7), `Work` (7), `Credits` (21).
+- Work.Tags = multi-ref. Credits.Work = ref.
+- Covers no son stock.
 
 ## No tocar
 
-Look del Home. Nav. Form. Lummi.
+Home. Nav. Form. Lummi.
 
 ## Verificación humana
 
-CMS grid: 7 rows, slugs legibles, descriptions correctas.
+CMS: 3 collections. Salt Light tiene 2 tags y 3 credits.
 
 ## Siguiente
 
-Insertar a mano Drift Plane en Assets si aún no está. Chat nuevo → fase 03.
+Insertar Drift Plane si falta. Chat nuevo → fase 03.

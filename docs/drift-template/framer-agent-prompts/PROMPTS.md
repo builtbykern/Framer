@@ -4,13 +4,13 @@ Un **New Chat** por bloque. Branch `template-build`. **Fast Mode Off.** Nunca Fa
 
 Antes de cada prompt, pega las [constraints](00-constraints.md). Opus: **5** → 4.8 → 4.7. `/seo` `/layout` `/audit` `/style` solo si están en el menú `/`; si no, pega el prompt sin el slash.
 
-Fuente de efectos: [Choosing a model](https://www.framer.com/help/articles/choosing-a-model-in-the-framer-agent/), [GPT 5.6](https://www.framer.com/updates/gpt-5-6), [Opus 5](https://www.framer.com/updates/opus-5), [Reasoning](https://www.framer.com/updates/agent-reasoning-and-fast-mode). Matriz: [00-agent-decision.md](00-agent-decision.md). Datos: [00-source-of-truth.md](00-source-of-truth.md). Look: [00-visual-system.md](00-visual-system.md).
+Fuente de efectos: [Choosing a model](https://www.framer.com/help/articles/choosing-a-model-in-the-framer-agent/), [GPT 5.6](https://www.framer.com/updates/gpt-5-6), [Opus 5](https://www.framer.com/updates/opus-5), [Reasoning](https://www.framer.com/updates/agent-reasoning-and-fast-mode). Matriz: [00-agent-decision.md](00-agent-decision.md). Datos: [00-source-of-truth.md](00-source-of-truth.md). CMS: [00-cms.md](00-cms.md). Look: [00-visual-system.md](00-visual-system.md). Lummi: [12-lummi-prompts.md](12-lummi-prompts.md).
 
 ## Efecto de cada modelo
 
 | Modelo | Efecto oficial | En Drift |
 |---|---|---|
-| **GPT 5.6 Luna** | CMS y find-replace, el más rápido | Schema Work, binds, links del Plane |
+| **GPT 5.6 Luna** | CMS y find-replace, el más rápido | Schema Tags/Work/Credits, binds, links del Plane |
 | **Sonnet 5** | Default. Layout y edits | Shells, Info, 404, hover, Lummi bind, instructions |
 | **GPT 5.6 Terra** | Audits y consistency | SEO, hygiene |
 | **Opus 5** | Plan + juicio visual | Home+Nav, split detail, Form, 09B code |
@@ -78,77 +78,80 @@ Report: every style name + font + desktop size, page routes, breakpoints.
 
 ---
 
-## 02 — CMS Work
+## 02 — CMS Tags, Work, Credits
 
 | | |
 |---|---|
 | **Modelo** | GPT 5.6 Luna |
 | **Reasoning** | Higher |
-| **Esfuerzo** | Bajo (~40–60) |
+| **Esfuerzo** | Medio (~60–90) |
 | **Skill** | `/cms` |
-| **@** | Work collection, Work detail |
+| **@** | CMS panel |
+| **Adjuntar** | `docs/drift-template/cms/tags.csv`, `work.csv`, `credits.csv` si el chat acepta archivos |
+
+Canon: [00-cms.md](00-cms.md). Orden: Tags → Work → Credits.
 
 ```
 /cms
 
-Create or finish the Work CMS collection. Exactly 7 published items. No stock photos.
+Create three CMS collections for Drift. Do not design pages. No stock photos. Do not put credits or tags as plain fields on Work.
 
-Fields (exact names):
+A. Collection Tags (no detail page)
+Fields: Title, Slug
+Items (published): short, narrative, commission, people, still, place, identity
+(slugs = titles)
+
+B. Collection Work (detail page /work/{slug})
+Fields:
 - Title (title)
 - Slug (slug)
-- Cover (image) — for now a solid ink or muted rectangle, NOT Unsplash/Lummi
-- Gallery (gallery) — empty or the same solid placeholder repeated 4 times, no stock
+- Cover (image) — solid ink or muted rectangle only, NOT Unsplash/Lummi
+- Gallery (gallery) — empty or the same solid placeholder ×4, no stock
 - Year (number)
-- Credit1Label, Credit1Value, Credit2Label, Credit2Value, Credit3Label, Credit3Value (plain text)
 - Description (plain text)
-- Tag1, Tag2 (plain text)
-- Featured (boolean) — true on all 7
+- Tags (multi-reference → Tags)
+- Featured (boolean)
 
-Detail page slug pattern: /work/{slug}
+Exactly 7 published items, Featured true, copy verbatim:
 
-Create these 7 published items (copy verbatim):
-
-1. Title: Salt Light | slug: salt-light | year: 2024
-   Credit1Label director / Mira Lang
-   Credit2Label producer / Owen Hale
-   Credit3Label awards / YDA Nominee
-   Tag1 short | Tag2 narrative
+1. Salt Light | salt-light | 2024 | Tags: short, narrative
    Description: A coastal hour cut as rooms of weather. Still frames from a day that never quite becomes night.
-   Featured: true
 
-2. Title: The Waiting Room | slug: the-waiting-room | year: 2023
-   director C. Romer / producer Nia Voss / awards —
-   Tag1 short | Tag2 narrative
+2. The Waiting Room | the-waiting-room | 2023 | Tags: short, narrative
    Description: Two people in a municipal lobby after closing. The work is the fluorescent bank, the chairs, the clock that is wrong.
 
-3. Title: Glass Hours | slug: glass-hours | year: 2025
-   director Vale / producer Atelier Norte / awards —
-   Tag1 commission | Tag2 narrative
+3. Glass Hours | glass-hours | 2025 | Tags: commission, narrative
    Description: An architecture brief shot as weather. Interiors of a house that is mostly sky, stills only.
 
-4. Title: Inland Signal | slug: inland-signal | year: 2024
-   director Vale / producer Elena Ruiz / awards Festival of the Image, selected
-   Tag1 short | Tag2 place
+4. Inland Signal | inland-signal | 2024 | Tags: short, place
    Description: A week away from the water. Heat, distance, and a road that reads longer than it is.
 
-5. Title: After the Sitting | slug: after-the-sitting | year: 2023
-   director Vale / producer — / awards —
-   Tag1 people | Tag2 still
+5. After the Sitting | after-the-sitting | 2023 | Tags: people, still
    Description: Portraits made after the formal sitting ends. Hands, windows, the clothes people chose when they thought the work was over.
 
-6. Title: Red Room Brief | slug: red-room-brief | year: 2025
-   director Vale / producer Vestis Almanac / awards —
-   Tag1 commission | Tag2 identity
+6. Red Room Brief | red-room-brief | 2025 | Tags: commission, identity
    Description: A clothing brief as a private afternoon. Fabric against a rented interior, no set beyond the room and the street below.
 
-7. Title: Night Atlas | slug: night-atlas | year: 2022
-   director Gabe Caste / producer Lauren Altieri / awards Santa Barbara, 2023
-   Tag1 short | Tag2 narrative
+7. Night Atlas | night-atlas | 2022 | Tags: short, narrative
    Description: Fog on a closed café and the road that serves it. Still frames from a night that arrives faster than the last cars leaving.
 
-Do not create an 8th item. Do not add video fields. Do not design the detail layout in this chat.
+C. Collection Credits (no detail page)
+Fields: Label (plain text), Value (plain text), Work (reference → Work), Order (number)
+Exactly 3 credits per Work item (21 rows). Keep rows even when Value is "—".
 
-Report: field list, the 7 slugs, published count.
+salt-light: 1 director Mira Lang | 2 producer Owen Hale | 3 awards YDA Nominee
+the-waiting-room: 1 director C. Romer | 2 producer Nia Voss | 3 awards —
+glass-hours: 1 director Vale | 2 producer Atelier Norte | 3 awards —
+inland-signal: 1 director Vale | 2 producer Elena Ruiz | 3 awards Festival of the Image, selected
+after-the-sitting: 1 director Vale | 2 producer — | 3 awards —
+red-room-brief: 1 director Vale | 2 producer Vestis Almanac | 3 awards —
+night-atlas: 1 director Gabe Caste | 2 producer Lauren Altieri | 3 awards Santa Barbara, 2023
+
+If CSV files are attached, map columns to these fields instead of retyping, then verify counts.
+
+Do not create an 8th Work item. Do not add a video field. Do not create Index/Privacy collections.
+
+Report: field lists, 7 Work slugs, tag count, credit count (must be 21).
 ```
 
 **Humano antes de 03:** insertar Drift Plane en el proyecto.
@@ -216,9 +219,10 @@ Desktop / Tablet:
 
 Left column, top to bottom:
 - Title — Display style, ink (this is the H1)
-- Definition list: Label muted + Body ink for Credit1–3. Optional year row: Label “year” + Body Year
+- Year row: Label “year” + Body
+- Credits: three rows as a list (placeholder copy OK). Each row Label muted + Body ink. Phase 05 replaces this with a Credits Collection List
 - Description — Body, max 36ch
-- Two chips: 1px line, radius 2px, pad 5×10, Label, Tag1 Tag2
+- Chip row: two chips, 1px line, radius 2px, pad 5×10, Label. Phase 05 replaces this with a Tags Collection List
 - Pager: Previous · Next, Label, gap 18
 
 Phone 390:
@@ -241,28 +245,26 @@ Report: column widths, sticky, gallery layout (must be stack not masonry), phone
 | **Reasoning** | Higher |
 | **Esfuerzo** | Bajo (~40–60) |
 | **Skill** | `/cms` |
-| **@** | Work collection, Work detail |
+| **@** | Work, Credits, Tags, Work detail |
 
 ```
 /cms
 
-Bind the Work detail page to the Work collection. Do not change layout, type, or colors.
+Bind the Work detail page. Do not change layout, type, or colors.
 
-Bind:
-- Display title → Title
-- Year if you added a year layer → Year (if there is no year layer, add a small Label+value row “year” / Year under the credits, still paper/ink)
-- Credit1Label / Credit1Value, Credit2Label / Credit2Value, Credit3Label / Credit3Value
-- Description → Description
-- Chips → Tag1, Tag2. Hide a chip if its field is empty (conditional visible)
-- Gallery stack → Gallery field. Keep vertical stack, gap 0, image width 100%, height auto
-- Previous / Next → CMS previous/next of Work, linking to that item’s detail. Labels can be “Previous” and “Next” or the adjacent titles — pick one and use it on all items
-- Optional: a quiet “VALE” or back control already in Nav is enough; do not add an Index route
+- Display H1 → Work.Title
+- Year row: Label “year” + Work.Year
+- Description → Work.Description
+- Credits block: a Collection List of Credits filtered where Credits.Work = current Work item, sort by Order. Each row: Label (Label style, muted) + Value (Body, ink). Show the row even if Value is "—"
+- Chips: a Collection List of Work.Tags. Each chip shows Tags.Title. 1px line, radius 2px
+- Gallery stack → Work.Gallery. Vertical stack, gap 0, width 100%, height auto, do not crop
+- Previous / Next → CMS pagination of Work
 
-If a credit value is “—”, still show the row.
+Do not bind leftover Credit1 / Tag1 fields — those must not exist.
 
-Open /work/salt-light and /work/after-the-sitting to verify different titles and tags.
+Verify /work/salt-light (director Mira Lang, chips short + narrative) and /work/after-the-sitting (producer —).
 
-Report: each layer → field. Any leftover static dummy text.
+Report: each layer → collection.field. Credit list count on salt-light (3).
 ```
 
 ---
@@ -525,7 +527,7 @@ Report: lang, each page title, leftover default “My Framer Site”.
 
 ## 12 — Lummi bind
 
-Humano: look y prompts en [00-visual-system.md](00-visual-system.md) §6; checklist en [12-lummi.md](12-lummi.md). Después:
+Humano: shot list [12-lummi-prompts.md](12-lummi-prompts.md) (PREFIX + LOOK + SHOT + NEGATIVE, 1 cover + 5 gallery por serie). Checklist: [12-lummi.md](12-lummi.md). Después:
 
 | | |
 |---|---|
@@ -540,13 +542,13 @@ Humano: look y prompts en [00-visual-system.md](00-visual-system.md) §6; checkl
 
 The human has imported Lummi stills into Work/{slug}/. Bind them. Do not change layout. Do not use Unsplash. Do not crop the detail gallery (height auto).
 
-For each Work item: Cover + Gallery 4–6. Then set the Drift Plane array images to the same Covers; keep the seven CMS detail links.
+For each Work item: Cover + Gallery of 5 stills (plus cover). Then set the Drift Plane array images to the same Covers; keep the seven CMS detail links.
 
 Alts: “Still from {Title}, {one factual noun phrase}.” Not “image1”.
 
-All 7 Featured remain true. Do not add items.
+All 7 Featured remain true. Do not add Work items. Do not edit Tags or Credits.
 
-Report: each slug → cover asset name → gallery count → plane card link.
+Report: each slug → cover asset name → gallery count (must be 5) → plane card link.
 ```
 
 ---
@@ -569,7 +571,8 @@ Audit then fix only hygiene. Do not change art direction. Do not create pages.
 Scan for:
 - Broken internal links (only the real 404 page should 404)
 - Plane cards that do not open /work/{slug}
-- Empty CMS items; more or fewer than 7 published Work
+- Empty CMS items; more or fewer than 7 published Work, 7 Tags, or 21 Credits
+- Flattened Credit1 / Tag1 fields on Work (must not exist)
 - Default layer names (Frame 1, Rectangle 2) — rename
 - Unused styles, unused pages (Index, Privacy, Journal must not exist — delete if you created them earlier)
 - More than 3 breakpoints
@@ -606,10 +609,9 @@ Tell future in-canvas Agents:
 - Preserve the Work detail split (sticky ~33% info / ~67% stacked uncropped gallery) on paper/ink. Home stays home-bg. Do not invert that. Gallery gap 0
 - Exactly 3 breakpoints. No Index, Privacy, or Journal unless the buyer explicitly asks
 - Stills: cinematic muted photoreal (Lummi OK). No Unsplash, no illustration, no video, no lightbox
-- Work CMS: one item = one series. Click from the Plane Array (image, title, link) must keep matching Cover + slug. When the buyer changes Cover, update the Plane card too
-- Credit1–3 labels are remappable (photographer: camera/format; designer: studio/role; DP: director/producer/awards)
-- Stills only. Prefer native Form, CMS Gallery stack, and Nav variants over code
-- Images: Lummi is OK for templates; do not insert Unsplash if the buyer wants a coherent stills set
+- Work CMS: one item = one series. Three collections: Tags (chips), Work (detail), Credits (3 rows per Work, Label + Value + Order). Do not flatten credits/tags onto Work. Click from the Plane Array (image, title, link) must keep matching Cover + slug. When the buyer changes Cover, update the Plane card too
+- Credits.Label is remappable (photographer: camera/format; designer: studio/role; DP: director/producer/awards). Keep 3 rows even if Value is "—"
+- Prefer native Form, CMS Gallery stack, and Nav variants over code
 - Edit Nav variables for email and Instagram
 
 Paste those instructions into the template’s custom Agent instructions field if it exists; otherwise output them in chat for me to paste.

@@ -30,31 +30,19 @@ Prohibido: `/work` índice, `/privacy`, `/journal`, `/blog`, cualquier otra ruta
 
 Canon de color, tipo, spacing, motion e imagen: [`00-visual-system.md`](00-visual-system.md). No hay un sexto color. No hay cuarta familia. Fase 01 crea exactamente esos styles.
 
-## CMS collection `Work`
+## CMS
 
-Un ítem = una serie. Detail path: `/work/{slug}`.
+Canon de schema e ítems: [`00-cms.md`](00-cms.md). CSV: [`cms/`](../cms/). Tres collections. No aplastar credits ni tags en campos sueltos de Work.
 
-| Campo | Tipo | Uso |
+| Collection | Detail | Qué es |
 |---|---|---|
-| Title | Title | Título de la serie |
-| Slug | Slug | `/work/{slug}` |
-| Cover | Image | Portada. También en el array del Drift Plane |
-| Gallery | Gallery | Columna derecha, stack vertical a sangre |
-| Year | Number | Meta |
-| Credit1Label | Plain text | Demo: `director` |
-| Credit1Value | Plain text | Nombre |
-| Credit2Label | Plain text | Demo: `producer` |
-| Credit2Value | Plain text | Nombre |
-| Credit3Label | Plain text | Demo: `awards` |
-| Credit3Value | Plain text | Texto de awards; puede ser `—` si no hay |
-| Description | Plain text | 2–4 frases |
-| Tag1 | Plain text | Chip. Demo a menudo `short` |
-| Tag2 | Plain text | Chip. Demo a menudo `narrative` |
-| Featured | Boolean | Si sale en el Plane. Los 7 = true |
+| `Tags` | No | Chips. 7 ítems (short, narrative, commission, people, still, place, identity) |
+| `Work` | `/work/{slug}` | 7 series. Cover, Gallery, Year, Description, Tags (multi-ref), Featured |
+| `Credits` | No | 21 filas. Label + Value + ref Work + Order. Siempre 3 por serie, aunque Value sea `—` |
 
-Placeholders de Cover/Gallery hasta la fase 12: fill sólido `ink` o `muted`, **cero** Unsplash/Lummi hasta que el prompt 12 lo pida.
+Work no tiene `Credit*` ni `Tag1`/`Tag2`. Placeholders de Cover/Gallery hasta la fase 12: fill sólido `ink` o `muted`. Cero Unsplash/Lummi hasta el prompt 12.
 
-## Siete ítems (todos published, Featured = true)
+## Siete series (todos published, Featured = true)
 
 ### 1. Salt Light
 
@@ -154,7 +142,7 @@ Variables: `email`, `instagram`.
 
 Desktop/tablet: grid 33% / 67%. Izquierda sticky, paper, padding del visual system. Derecha: Gallery stack, gap 0, width 100%, height auto, **sin crop**. Radio 0. Chips 2px.
 
-Orden izquierda: Display title → dl credits (label Label style, value Body) → description → chips Tag1 Tag2 → pager Previous / (titles via CMS) / Next.
+Orden izquierda: Display title → fila year → Collection List Credits (filtro Work actual, sort Order) → description → Collection List Tags (chips) → pager Previous / Next.
 
 Phone: una columna, meta arriba, gallery abajo.
 

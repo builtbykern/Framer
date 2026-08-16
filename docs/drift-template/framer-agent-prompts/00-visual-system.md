@@ -154,43 +154,24 @@ Cuando existan fotos, son **production stills**, no stock corporate, no ilustrac
 
 ### Look compartido (las 7 series)
 
-- Color real, un punto apagado (como negativo 35mm / Alexa, no LUT Instagram).
+- Color real, un punto apagado (Kodak Vision3 / Cooke S4, no LUT Instagram).
 - Luz: ventana, fluorescente, hora azul, tungsteno. Una fuente, no beauty dish.
-- Pocas caras sonrientes; si hay figura, no mira a cámara como headshot de LinkedIn.
-- Cero texto en la imagen, cero logo, cero watermark.
+- Si hay figura: máximo una, no mira a cámara, no sonríe. Varias series van vacías a propósito.
+- Cero texto en la imagen, cero logo, cero watermark, cero rebate de película.
 - Grain ligero **en la foto**, no overlay CSS en Framer.
-- Coherencia de set: misma temperatura en las 7. No mezclar B&W y color; **todo color**, un poco desaturado.
-- Cover: 1 still icónico, landscape 3:2 o 16:9 salvo After the Sitting (portrait 4:5).
-- Gallery: 4–6 stills, aspectos mezclados (al menos un portrait y un landscape por serie). Width ~2400px max para web.
+- Coherencia de set: misma “película” en las 7. **Todo color**, un poco desaturado. No mezclar B&W.
+- Cover: 1 still icónico. **16:9** salvo After the Sitting y Red Room Brief (**4:5**).
+- Gallery: **5 stills** por serie (no repetir el cover). Aspectos mezclados (mínimo un portrait y un landscape). ~2400px en el lado largo.
 
 ### Vetos de Lummi / plugins
 
 Unsplash, Pexels, Visual Electric “render”. Ilustración flat. 3D clay. Collage. Fake film-perforation frames. Polaroid UI.
 
-### Prompts Lummi (pegar; generar en color, cinematic still, photoreal)
+### Shot list
 
-**Salt Light — cover + gallery**  
-`Cinematic production still, 35mm, coastal hour, Atlantic concrete terrace and sea, blue hour turning to night, muted colour, no people looking at camera, no text, wide still from a short film`
+No uses un prompt genérico por serie. Canon: [`12-lummi-prompts.md`](12-lummi-prompts.md) — prefijo + look de serie + 1 cover + 5 gallery. Fase que bindea: [`12-lummi.md`](12-lummi.md).
 
-**The Waiting Room**  
-`Cinematic production still, municipal lobby after hours, fluorescent lights, empty chairs, wrong wall clock, institutional beige-green, photoreal, muted, no stock smile`
-
-**Glass Hours**  
-`Cinematic still, contemporary house that is mostly sky, glass interior, daylight as weather not furniture, architecture photography mood, muted colour, no cars, no logos`
-
-**Inland Signal**  
-`Cinematic still, inland heat, empty two-lane road, dry grass, long afternoon, photoreal muted, no billboards, no tourists`
-
-**After the Sitting**  
-`Quiet portrait still, person not posing for a brand, after a sitting, window light, clothes they chose, photoreal, muted colour, no beauty retouch, no studio cyclorama`
-
-**Red Room Brief**  
-`Fashion still as a private afternoon, fabric in a rented room, daylight, not a campaign set, photoreal muted, no logos, no runway`
-
-**Night Atlas**  
-`Night still, fog on a closed roadside café, last cars, sodium and fog, photoreal cinematic, muted, no horror tropes, no text`
-
-Archivos: `salt-light-cover`, `salt-light-01`… Assets folder `Work/{slug}/`.
+Archivos: `Work/{slug}/{slug}-cover`, `{slug}-01` … `{slug}-05`.
 
 Alts: `Still from {Title}, {one factual noun phrase}.` Nunca “image1”.
 

@@ -1,8 +1,8 @@
 # Fase 05 — Bind Work detail
 
-**Objetivo:** Cada layer del split lee CMS. Gallery stack bound. Sin rediseñar.
+**Objetivo:** Split bound a **Work + Credits + Tags**. Gallery stack. Sin rediseñar.
 
-Ficha: [`00-agent-decision.md`](00-agent-decision.md).
+Schema: [`00-cms.md`](00-cms.md).
 
 ## Configuración
 
@@ -14,49 +14,40 @@ Ficha: [`00-agent-decision.md`](00-agent-decision.md).
 | Reasoning | **Higher** |
 | Fast Mode | **Off** |
 | Skill | **`/cms`** |
-| @ | Work collection, Work detail |
-| Context | Left column layers + Gallery |
-| No usar | Fable, Sol, `/code`, cambiar el split |
-
-Luna: binds. Higher: no dejar títulos hardcoded encima del ítem.
+| @ | Work, Credits, Tags, Work detail |
+| Context | Sidebar + Gallery |
+| No usar | Fable, Sol, `/code`, Credit1Label, Tag1 como texto |
 
 ## Prompt (después de constraints)
 
 ```
 /cms
 
-Bind the Work detail page to the Work collection. Do not change layout, type, or colors.
+Bind the Work detail page. Do not change layout, type, or colors.
 
-Bind:
-- Display title → Title
-- Year if you added a year layer → Year (if there is no year layer, add a small Label+value row “year” / Year under the credits, still paper/ink)
-- Credit1Label / Credit1Value, Credit2Label / Credit2Value, Credit3Label / Credit3Value
-- Description → Description
-- Chips → Tag1, Tag2. Hide a chip if its field is empty (conditional visible)
-- Gallery stack → Gallery field. Keep vertical stack, gap 0, image width 100%, height auto
-- Previous / Next → CMS previous/next of Work, linking to that item’s detail. Labels can be “Previous” and “Next” or the adjacent titles — pick one and use it on all items
-- Optional: a quiet “VALE” or back control already in Nav is enough; do not add an Index route
+- Display H1 → Work.Title
+- Year row: Label “year” + Work.Year
+- Description → Work.Description
+- Credits block: a Collection List of Credits filtered where Credits.Work = current Work item, sort by Order. Each row: Label (Label style, muted) + Value (Body, ink). Show the row even if Value is "—"
+- Chips: a Collection List of Work.Tags. Each chip shows Tags.Title. 1px line, radius 2px
+- Gallery stack → Work.Gallery. Vertical stack, gap 0, width 100%, height auto, do not crop
+- Previous / Next → CMS pagination of Work
 
-If a credit value is “—”, still show the row.
+Do not bind leftover Credit1 / Tag1 fields — those must not exist.
 
-Open /work/salt-light and /work/after-the-sitting to verify different titles and tags.
+Verify /work/salt-light (director Mira Lang, chips short + narrative) and /work/after-the-sitting (producer —).
 
-Report: each layer → field. Any leftover static dummy text.
+Report: each layer → collection.field. Credit list count on salt-light (3).
 ```
 
 ## Definition of done
 
-- `/work/salt-light` muestra Salt Light y credits Mira Lang.
-- `/work/red-room-brief` muestra tags commission / identity.
+- Salt Light: 3 credits, 2 chips, título correcto.
 - Gallery stack, no grid.
-
-## No tocar
-
-Home. Nav links. Lummi (placeholders OK).
 
 ## Verificación humana
 
-Click 2–3 slugs. Sidebar sticky sigue. Phone stack.
+2–3 slugs. Chips vienen de Tags. Credits cambian por ítem.
 
 ## Siguiente
 

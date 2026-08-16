@@ -30,8 +30,8 @@ Tell future in-canvas Agents:
 - Preserve the Work detail split (sticky ~33% info / ~67% stacked uncropped gallery) on paper/ink. Home stays home-bg. Do not invert that. Gallery gap 0
 - Exactly 3 breakpoints. No Index, Privacy, or Journal unless the buyer explicitly asks
 - Stills: cinematic muted photoreal (Lummi OK). No Unsplash, no illustration, no video, no lightbox
-- Work CMS: one item = one series. Click from the Plane Array (image, title, link) must keep matching Cover + slug. When the buyer changes Cover, update the Plane card too
-- Credit1–3 labels are remappable (photographer: camera/format; designer: studio/role; DP: director/producer/awards)
+- Work CMS: one item = one series. Three collections: Tags (chips), Work (detail), Credits (3 rows per Work, Label + Value + Order). Do not flatten credits/tags onto Work. Click from the Plane Array (image, title, link) must keep matching Cover + slug. When the buyer changes Cover, update the Plane card too
+- Credits.Label is remappable (photographer: camera/format; designer: studio/role; DP: director/producer/awards). Keep 3 rows even if Value is "—"
 - Prefer native Form, CMS Gallery stack, and Nav variants over code
 - Edit Nav variables for email and Instagram
 
