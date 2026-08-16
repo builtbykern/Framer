@@ -153,7 +153,7 @@ Fast Mode = Off en todas. Branch = `marketplace-qa`. Chat = New Chat.
 
 | Fase | Trabajo | Modelo | Reasoning | Skill | Si la skill no está | @ / context | Prohibido extra |
 |---|---|---|---|---|---|---|---|
-| **01** | Notes: slugs humanos, 7 items, 404 del journal | **GPT 5.6 Luna** | **Higher** | **`/cms`** | No aplica (oficial) | @Notes @Home @Contact + collection Notes | `/code` |
+| **01** | Notes: 7 items, waiting in, mews duplicate unpublished | **GPT 5.6 Luna** | **Higher** | **`/cms`** | No aplica (oficial) | @Notes @Home @Contact + collection Notes | `/code`, 8º item Marylebone |
 | **02** | Teléfonos + socials en overlay/footer | **GPT 5.6 Luna** | **Light** | **`/component`** | No aplica | Overlay, Footer, @Contact | `/cms` (no son collections) |
 | **03** | Copy canon 1999 / grammar / números | **GPT 5.5** | **Light** | **Ninguna** | — | @Home @About @Properties @Notes | `/cms` `/component` `/code` |
 | **04** | Properties: coords, rooms, featured vs index | **GPT 5.6 Luna** | **Higher** | **`/cms`** | No aplica | Property detail template + collection | `/code` |

@@ -101,11 +101,20 @@ Pack completo (13 chats, **sin páginas nuevas**): **aprox. 550–1.000 crédito
 Inspect the Notes CMS collection and every link to a note on Home, Notes, and Contact.
 
 Problems to fix (do not redesign):
-1. Home journal card “The case for waiting” currently links to /notes/:Jd2WAsZn3 (raw CMS id) and 404s. Create or repair a real CMS item titled “The case for waiting.” Human slug: the-case-for-waiting. Excerpt (British English): “A market that rewards speed makes patience the rarest luxury — the right address is worth the wait.” Bind the Home card title, date, category, excerpt, and URL entirely from CMS — no overlay/static text.
-2. Home journal card “On finding quiet in Marylebone” currently points at /notes/on-proportion-light-london-row-house, whose real title is “On proportion, light, and the London row house.” Either create a matching Marylebone item with a matching slug, or retarget that card to the real item and show that item’s real title/date/category. CMS fields must equal what the card displays.
-3. Notes index claims 07 entries but numbering skips 04, and “The case for waiting” is missing from the index. End state: 7 published items, numbers 01–07 with no gaps, index lists all of them with no Limit on the Notes page (Limit is OK on Home featured only).
-4. Delete or unpublish any item whose slug is an id (contains “:” or looks like Jd2WAsZn3).
-5. Every featured/index card must be a CMS list or bound fields — no hardcoded titles on top of the wrong item.
+1. Home journal card “The case for waiting” currently links to /notes/:Jd2WAsZn3 (raw CMS id) and 404s. Create or repair a real CMS item titled “The case for waiting.” Human slug: the-case-for-waiting. Category: COUNSEL. Excerpt (British English): “A market that rewards speed makes patience the rarest luxury — the right address is worth the wait.” Bind the Home card title, date, category, excerpt, and URL entirely from CMS — no overlay/static text.
+2. Home journal card “On finding quiet in Marylebone” currently points at /notes/on-proportion-light-london-row-house. Do **not** create an eighth item. Retarget that card to the existing item and show that item’s real title, date, and category (“On proportion, light, and the London row house”).
+3. Keep exactly **7 published** notes. The Journal already has 7 valid items and none is “The case for waiting.” To make room, **unpublish** (do not delete unless you must) **“Why mews houses reward a slower second visit.”** (`/notes/mews-houses-second-visit`). It duplicates “What a second viewing is really for.”
+   Do **not** unpublish: “On instructing an agent without losing your nerve.”; “Field notes from the Colville terrace.”; “Notting Hill after the rain.”
+4. Published set after the change (renumber 01–07 with no gaps, no Limit on the Notes index):
+   - The case for waiting
+   - On proportion, light, and the London row house
+   - What a second viewing is really for
+   - On instructing an agent without losing your nerve
+   - Reading a façade as a ledger of ownership
+   - Notting Hill after the rain
+   - Field notes from the Colville terrace
+5. Delete or unpublish any item whose slug is an id (contains “:” or looks like Jd2WAsZn3).
+6. Every featured/index card must be a CMS list or bound fields — no hardcoded titles on top of the wrong item.
 
 Report: collection fields, each of the 7 slugs, which Home cards bind to which items, and any leftover 404 links.
 ```

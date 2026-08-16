@@ -36,6 +36,11 @@ DO NOT:
 
 Canonical facts (override any conflicting text you find):
 - Founded 1999. Stat “26 yrs”. Remove “EST. 2018”.
+- Notes: exactly 7 published. Include “The case for waiting.” Unpublish
+  “Why mews houses reward a slower second visit.” Do not unpublish
+  instructing-an-agent, Colville, or Notting Hill after the rain. Do not
+  create a Marylebone eighth item — retarget that Home card to the
+  existing row-house note. Never slug :Jd2WAsZn3.
 - Email enquiries@arbour.london (mailto:)
 - Mayfair +44 20 7946 0810 (tel:+442079460810)
 - Cotswolds +44 1608 649 220 (tel:+441608649220)

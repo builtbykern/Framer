@@ -23,7 +23,7 @@ No hay un prompt “haz el template perfecto”. Framer pide **un job por chat**
 | # | Archivo | Trabajo |
 |---|---|---|
 | 00 | [`00-constraints.md`](00-constraints.md) + [`00-source-of-truth.md`](00-source-of-truth.md) | Guardrails + datos únicos |
-| 01 | [`01-links-notes-cms.md`](01-links-notes-cms.md) | `/cms` Notes: slug “The case for waiting”; borrar `:Jd2WAsZn3` |
+| 01 | [`01-links-notes-cms.md`](01-links-notes-cms.md) | `/cms` Notes: waiting in; unpublish mews duplicate; no 8th item |
 | 02 | [`02-contact-variables.md`](02-contact-variables.md) | Variables Header/Footer/Contact: email, tels, socials |
 | 03 | [`03-copy-canon.md`](03-copy-canon.md) | 1999 vs 2018 vs 26 yrs; grammar; featured 01–03 |
 | 04 | [`04-properties-cms-bind.md`](04-properties-cms-bind.md) | Coords, neighbourhood, rooms únicos por ítem |
