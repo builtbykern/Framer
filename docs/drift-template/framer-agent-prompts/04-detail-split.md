@@ -14,7 +14,7 @@ Ficha: [`00-agent-decision.md`](00-agent-decision.md). Layout: [`00-source-of-tr
 | Reasoning | **Higher** |
 | Fast Mode | **Off** |
 | Skill | **`/layout`**. Si no está: chat plano + Opus |
-| @ | Work detail page, `@Home` only if you need Nav onLight |
+| @ | Work detail page, `@Home` only if you need Nav closedOnLight |
 | Context | Work detail canvas |
 | No usar | Fable, Sol, `/code`, Unsplash, sidebar negra tipo cine |
 
@@ -43,7 +43,7 @@ Left column, top to bottom:
 Phone 390:
 - Single column, pad 88 20 32. Info first, gallery below. No sticky split.
 
-Nav on this page: onLight variant (ink on paper). If onLight does not exist yet, add it without restyling Home’s onDark.
+Nav on this page: variant closedOnLight (ink VALE + plus on paper). If closedOnLight does not exist yet, add it without restyling Home’s closedOnDark. Do not put Info/Contact in the bar.
 
 No video. No lightbox. No black sidebar. No extra “related work” grid.
 
@@ -53,7 +53,7 @@ Report: column widths, sticky, gallery layout (must be stack not masonry), phone
 ## Definition of done
 
 - Split 33/67 paper, sticky info, gallery stack.
-- Phone apilado. Nav onLight.
+- Phone apilado. Nav closedOnLight (plus, no links en la barra).
 
 ## No tocar
 

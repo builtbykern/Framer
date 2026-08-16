@@ -33,13 +33,13 @@ Scan for:
 - Flattened Credit1 / Tag1 fields on Work (must not exist — credits live in Credits, chips in Tags)
 - Default layer names (Frame 1, Rectangle 2) — rename
 - Unused styles, unused pages (Index, Privacy, Journal must not exist — delete if you created them earlier)
-- More than 3 breakpoints
+- Hamburger, X close icon, or Info/Contact sitting in the top bar (must be plus + overlay)
 - Missing reduced-motion
 - Images without alt that are not decorative
 - Hardcoded colors that should be the five color styles
 - Leftover Unsplash or “My Framer Site”
 - Creator promo / framer.com/@ links
-- Performance: uncompressed giants, blur >10
+- Performance: uncompressed giants, blur >12 except the Nav overlay and page Veil
 
 Fix what you can without visual change. Report what you fixed and what needs a human.
 

@@ -24,8 +24,8 @@ La foto (cuando exista) va **a sangre en su columna**, sin marco, sin overlay de
 | Style | Hex | RGB | Uso |
 |---|---|---|---|
 | `home-bg` | `#050505` | 5 5 5 | Home, plane, scrim del Nav en Home |
-| `paper` | `#F6F3EE` | 246 243 238 | Páginas editoriales, texto del Nav onDark |
-| `ink` | `#111111` | 17 17 17 | Texto sobre paper, Nav onLight |
+| `paper` | `#F6F3EE` | 246 243 238 | Páginas editoriales, overlay Nav, Veil, chrome closedOnDark |
+| `ink` | `#111111` | 17 17 17 | Texto sobre paper, chrome closedOnLight y open |
 | `muted` | `#6B6B6B` | 107 107 107 | Labels, hint, dt, placeholders |
 | `line` | `#D9D4CC` | 217 212 204 | Rules 1px, chips, underline de inputs |
 
@@ -55,7 +55,7 @@ Home y Nav. La palabra VALE.
 | Phone 390 | 14 | 1.0 | 0.05em |
 
 **Display** — Syne ExtraBold  
-H1 del Work detail (título de serie). No usar en Home visible.
+H1 del Work detail (título de serie). También los dos links del overlay Nav (Info, Contact). No usar en Home visible.
 
 | BP | Size | Line | Tracking |
 |---|---|---|---|
@@ -82,7 +82,7 @@ Descripción de serie, bio, valores de credits, inputs.
 | Phone 390 | 15 | 1.55 | 0.01em |
 
 **Label** — IBM Plex Mono Medium  
-Nav links, hint, kicker, dt de credits, chips, pager, botones de form. Siempre **uppercase**, color `muted` salvo estado activo (`paper` en onDark, `ink` en onLight).
+Nav overlay Close, hint, kicker, dt de credits, chips, pager, botones de form. Siempre **uppercase**, color `muted` salvo estado activo (`paper` en closedOnDark, `ink` en closedOnLight y open).
 
 | BP | Size | Line | Tracking |
 |---|---|---|---|
@@ -119,7 +119,7 @@ Weights: no Regular en Syne para títulos; no Bold en Inter (el énfasis es tama
 
 **Sombras:** ninguna.
 
-**Nav:** overlay, no empuja el plane. onDark = Mark + links `paper`. onLight = Mark + links `ink`. Sin hamburguesa en Desktop/Tablet. Phone: la misma fila; si no cabe, wrap, no drawer.
+**Nav:** fijo, no empuja el plane. Cerrado: VALE a la izquierda (Mark) + **plus** al centro. Cero links Info/Contact en la barra. Abierto: overlay `paper` a viewport, plus hace flip 3D a la palabra **Close** (Label, no X). Links del overlay: Info, Contact en Display. Canon: [`00-gregor-nav.md`](00-gregor-nav.md). Mismo patrón en 1440 / 768 / 390. No hamburger, no drawer, no wrap de links.
 
 **Hint Home:** Label, `muted`, bottom 24 left 28, `pointer-events: none`.
 
@@ -137,12 +137,15 @@ Weights: no Regular en Syne para títulos; no Bold en Inter (el énfasis es tama
 |---|---|
 | Drift Plane desktop | Pan + idle drift (el componente) |
 | Drift Plane phone | Un eje + snap |
-| `prefers-reduced-motion` | Sin idle drift; snap estático |
-| Páginas paper | Estáticas. Cero scroll-scrub, ken burns, parallax, stagger de entrada |
+| Nav plus → Close | Flip `rotateX`, 0.79s, `cubic-bezier(0.77, 0, 0.175, 1)` |
+| Nav overlay | Paper a viewport; blur 12px detrás; links 0.79s stagger 60ms |
+| Veil de página | Fill `paper` + blur 12px → 0, 0.49s, `cubic-bezier(0.5, 0, 0.5, 1)`. Todas las rutas internas, incluido el click del plane |
+| `prefers-reduced-motion` | Sin idle drift; snap estático; overlay instantánea; Veil off; sin flip |
+| Páginas paper (contenido) | Estáticas. Cero scroll-scrub, ken burns, parallax, stagger de galería |
 | Hover Desktop | Opacidad ~0.7 en links. Plane cards: el hover que ya traiga el componente |
 | Phone | Hover off |
 
-Nada de Lottie, shaders, ni blur animado.
+Nada de Lottie, shaders, ni blur **salvo** el Veil y el overlay (12px). El blur no es un overlay CSS sobre las fotos del detail.
 
 ---
 
@@ -181,5 +184,6 @@ Alts: `Still from {Title}, {one factual noun phrase}.` Nunca “image1”.
 
 - Template fotógrafo wedding / masonry / lightbox.
 - Portfolio DP con sidebar negra y display pixel (la captura es **estructura**, no paleta).
+- Copia de Gregor: no Neue Rational, no X, no Overview/Work. Sí el plus, el overlay paper y el velo blur.
 - Agencia con grid de cases y hover de vídeo.
 - Dark mode en Info/Contact/detail.

@@ -120,12 +120,15 @@ Work no tiene `Credit*` ni `Tag1`/`Tag2`. Placeholders de Cover/Gallery hasta la
 
 ## Nav
 
-Componente `Nav` con variants:
+Canon de gesto: [`00-gregor-nav.md`](00-gregor-nav.md). Componente `Nav`, tres variants:
 
-- `onDark` — Home. Marca y links en paper/blanco.
-- `onLight` — Info, Contact, 404, Work detail. Marca y links en ink.
+- `closedOnDark` — Home. VALE + plus en paper.
+- `closedOnLight` — Info, Contact, 404, Work detail. VALE + plus en ink.
+- `open` — overlay paper a viewport. VALE + **Close** (Label, no X) + Info / Contact.
 
-Links: VALE → `/` · Info → `/info` · Contact → `/contact`
+Cerrado: VALE izquierda → `/`. Plus centro → abre. Cero Info/Contact en la barra.
+
+Abierto: Info → `/info`, Contact → `/contact` (Display). Abajo: email, Instagram.
 
 Variables: `email`, `instagram`.
 

@@ -4,7 +4,7 @@ Un **New Chat** por bloque. Branch `template-build`. **Fast Mode Off.** Nunca Fa
 
 Antes de cada prompt, pega las [constraints](00-constraints.md). Opus: **5** → 4.8 → 4.7. `/seo` `/layout` `/audit` `/style` solo si están en el menú `/`; si no, pega el prompt sin el slash.
 
-Fuente de efectos: [Choosing a model](https://www.framer.com/help/articles/choosing-a-model-in-the-framer-agent/), [GPT 5.6](https://www.framer.com/updates/gpt-5-6), [Opus 5](https://www.framer.com/updates/opus-5), [Reasoning](https://www.framer.com/updates/agent-reasoning-and-fast-mode). Matriz: [00-agent-decision.md](00-agent-decision.md). Datos: [00-source-of-truth.md](00-source-of-truth.md). CMS: [00-cms.md](00-cms.md). Look: [00-visual-system.md](00-visual-system.md). Lummi: [12-lummi-prompts.md](12-lummi-prompts.md).
+Fuente de efectos: [Choosing a model](https://www.framer.com/help/articles/choosing-a-model-in-the-framer-agent/), [GPT 5.6](https://www.framer.com/updates/gpt-5-6), [Opus 5](https://www.framer.com/updates/opus-5), [Reasoning](https://www.framer.com/updates/agent-reasoning-and-fast-mode). Matriz: [00-agent-decision.md](00-agent-decision.md). Datos: [00-source-of-truth.md](00-source-of-truth.md). CMS: [00-cms.md](00-cms.md). Look: [00-visual-system.md](00-visual-system.md). Nav/velo: [00-gregor-nav.md](00-gregor-nav.md). Lummi: [12-lummi-prompts.md](12-lummi-prompts.md).
 
 ## Efecto de cada modelo
 
@@ -13,7 +13,7 @@ Fuente de efectos: [Choosing a model](https://www.framer.com/help/articles/choos
 | **GPT 5.6 Luna** | CMS y find-replace, el más rápido | Schema Tags/Work/Credits, binds, links del Plane |
 | **Sonnet 5** | Default. Layout y edits | Shells, Info, 404, hover, Lummi bind, instructions |
 | **GPT 5.6 Terra** | Audits y consistency | SEO, hygiene |
-| **Opus 5** | Plan + juicio visual | Home+Nav, split detail, Form, 09B code |
+| **Opus 5** | Plan + juicio visual | Home+Nav, overlay+Veil, split detail, Form, 09B code |
 | **GPT 5.5** | Copy-heavy | Fallback de Luna |
 | **Fable 5 / Sol** | First draft / poca guía | **Veto** — inventan Index, vídeo, otro home |
 
@@ -21,7 +21,7 @@ Fuente de efectos: [Choosing a model](https://www.framer.com/help/articles/choos
 
 ## Esfuerzo
 
-Base GPT 5.5 = 1×. Luna ~0.4× · Sonnet/Terra ~0.6× · Opus 5 ~1.2×. Pack sin 09B ≈ 900–1.600 créditos. Lo caro: 03, 04, 07.
+Base GPT 5.5 = 1×. Luna ~0.4× · Sonnet/Terra ~0.6× · Opus 5 ~1.2×. Pack sin 09B ≈ 1.000–1.800 créditos. Lo caro: 03, 03B, 04, 07.
 
 ---
 
@@ -175,24 +175,75 @@ Build Home `/` only. Home is the Drift Plane. Nothing else except chrome.
 
 1. Insert the existing Drift Plane code component so it fills the viewport (width 100%, height 100vh / 100dvh). Pin it. Do not recreate it in native stacks. Do not wrap it in a marketing hero (no headline, no reel, no grid of projects besides the plane).
 
-2. Create a Nav component and place it on Home:
-   - Variant onDark (this page): Mark style for VALE, Label style for Info/Contact, color paper (not #FFF) on home-bg
+2. Create a Nav component and place it on Home. Structure only in this chat — motion (flip + Veil) is phase 03B. Follow 00-gregor-nav.md.
+   - Variant closedOnDark (this page): Mark style VALE left, color paper (not #FFF) on home-bg. Center: a plus made of two 20×2px bars (not a text glyph), paper color, hit 32px, aria-label “Open menu”
+   - Do NOT put Info or Contact in the bar. Do NOT use a hamburger, an X, or the word MENU
    - Optional 88px-tall scrim: home-bg 70% to transparent. No other gradient
-   - Links: VALE → `/` · Info → `/info` · Contact → `/contact`
+   - VALE → `/`
    - Position: top, overlay, does not push the plane down. Nav pad 22×28 desktop, 16×20 phone
-   - No hamburger on Desktop/Tablet. Phone: same row, wrap if needed, no drawer
+   - Same chrome on Phone (plus stays center). No drawer
    - Component variables: email studio@vale.work, instagram https://www.instagram.com/vale.work
+   - Stub variant closedOnLight (ink plus + VALE) for later pages; stub variant open as a full-viewport paper layer with Info / Contact in Display and the word Close (Label) instead of the plus — wiring/motion in 03B is OK if you only sketch it
 
 3. Hint, Label style, muted, bottom 24 left 28, pointer-events none:
    “Pan the plane · click a series”
 
 4. One H1 “VALE” visually hidden (sr-only / 1px clip) for semantics. No visible H1 on Home.
 
-5. Put Nav in a layout template so later pages can reuse it (onLight comes in later phases). If layout templates are awkward this chat, at least make Nav a reusable component.
+5. Put Nav in a layout template so later pages can reuse it. If layout templates are awkward this chat, at least make Nav a reusable component.
 
 6. Do not fill the Plane array with CMS links yet (phase 09A). Placeholder cards already on the component are OK. Do not add Index, footer, or extra sections.
 
-Report: how Drift Plane is placed, Nav variant names, any leftover extra sections you removed.
+Report: how Drift Plane is placed, Nav variant names (must include closedOnDark), any leftover extra sections you removed.
+```
+
+---
+
+## 03B — Overlay + Veil
+
+| | |
+|---|---|
+| **Modelo** | Opus 5 |
+| **Reasoning** | Higher |
+| **Esfuerzo** | Alto (~120–200) |
+| **Skill** | `/component` |
+| **@** | Nav, layout template, Home, Info, Contact, 404, Work detail |
+
+Canon: [00-gregor-nav.md](00-gregor-nav.md).
+
+```
+/component
+
+Finish Drift Nav motion. Follow 00-gregor-nav.md. Do not copy gregorcollienne.com type, X icon, Overview/Work, or copyright.
+
+1. Nav variants (exactly three):
+   - closedOnDark — Home. VALE (Mark) left + plus center, color paper. No Info/Contact in the bar.
+   - closedOnLight — Info, Contact, 404, Work detail. Same layout, color ink.
+   - open — full-viewport paper overlay. Chrome ink. Used on every page when the menu is open (including Home).
+
+2. Plus: two 20×2px bars (not a text glyph), crossed 0° / 90°, hit area 32px. aria-label “Open menu”.
+   Open state: the plus flips out on rotateX (perspective ~700, 0.79s, cubic-bezier(0.77, 0, 0.175, 1)). The Label word “Close” (uppercase, IBM Plex Mono / Label style) flips in at the same center. aria-label “Close menu”. Do NOT draw an X. Do NOT use a hamburger.
+
+3. Overlay content (only in variant open):
+   - Paper fill, viewport, under the chrome
+   - Center: Info → /info and Contact → /contact in Display style, stacked, ink. sr-only H1 “Menu”
+   - Bottom: Label mailto studio@vale.work left, Instagram vale.work right
+   - No bio paragraph, no Work index, no copyright, no extra routes
+   - Links enter 0.79s with opacity + rotateX(-40deg) → rest, stagger 60ms. If 3D is unreliable: opacity + 8px Y, same timing
+   - While open, blur the page behind 12px
+
+4. Page Veil (layout template, all pages):
+   - Full viewport paper fill + blur 12px, z-index below Nav
+   - On every page appear (Home, Info, Contact, 404, Work detail): start visible, after ~100ms animate 0.49s cubic-bezier(0.5, 0, 0.5, 1) to opacity 0 and blur 0, pointer-events none
+   - This is the page transition. Not a black fade, not a side wipe, not a slide of the plane.
+
+5. Wire pages: Home uses closedOnDark. Paper pages use closedOnLight. Clicking plus → open. Close / Escape / choosing a link → destination’s closed variant. Plane card clicks keep going to /work/{slug}; the Veil must play there too.
+
+6. prefers-reduced-motion: instant overlay, no flip, no blur, Veil hidden.
+
+Do not restyle type or colors. Do not add Index.
+
+Report: variant names, how the plus/Close flip is built, how the Veil Appear is set, reduced-motion.
 ```
 
 ---
@@ -228,7 +279,7 @@ Left column, top to bottom:
 Phone 390:
 - Single column, pad 88 20 32. Info first, gallery below. No sticky split.
 
-Nav on this page: onLight variant (ink on paper). If onLight does not exist yet, add it without restyling Home’s onDark.
+Nav on this page: variant closedOnLight (ink VALE + plus on paper). If closedOnLight does not exist yet, add it without restyling Home’s closedOnDark. Do not put Info/Contact in the bar.
 
 No video. No lightbox. No black sidebar. No extra “related work” grid.
 
@@ -280,7 +331,7 @@ Report: each layer → collection.field. Credit list count on salt-light (3).
 | **@** | `@Info`, Work |
 
 ```
-Build Info `/info` only. Paper background, Nav onLight. Do not change Home or the Work detail.
+Build Info `/info` only. Paper background, Nav closedOnLight (VALE + plus, no bar links). Do not change Home or the Work detail.
 
 Copy verbatim:
 - Kicker (Label): Info
@@ -313,7 +364,7 @@ Report: routes you touched, how the list binds.
 ```
 /component
 
-Build Contact `/contact` only. Paper, Nav onLight. Native Framer Form — not a code component, not an embed.
+Build Contact `/contact` only. Paper, Nav closedOnLight (VALE + plus). Native Framer Form — not a code component, not an embed.
 
 Copy:
 - Kicker (Label): Contact
@@ -347,7 +398,7 @@ Report: that the Form is the native Framer Form, field names, success copy.
 | **@** | 404 |
 
 ```
-Build the custom 404 page only. Paper, Nav onLight.
+Build the custom 404 page only. Paper, Nav closedOnLight (VALE + plus).
 
 Copy verbatim:
 - Kicker (Label): Missing
@@ -445,11 +496,13 @@ Report: the prop name, how Phone switches to snap, files you changed.
 
 Add hover and pressed variants only. Do not restyle the template.
 
-- Nav links (onDark and onLight): hover opacity ~0.7 or muted→ink/paper. Pressed slightly lower. Phone: hover off
+- Plus (closed): hover opacity ~0.7. Phone: hover off
+- Overlay links Info/Contact (variant open): hover opacity ~0.7. Pressed slightly lower
+- Overlay Close and VALE: same
 - Info title rows: hover opacity or underline
 - Detail chips: no jump; optional opacity
 - Contact Send: hover opacity
-- 404 links: same as Nav
+- 404 links: same as overlay links
 - Plane cards: if the code component already has hover scale, leave it. Do not add CSS that fights the component
 
 Interactive elements must look clickable. Do not add new colors outside the five styles.
@@ -480,7 +533,7 @@ Semantics and motion only. Do not change art direction.
 - Contact: one heading “Contact”
 - 404: one heading “Missing”
 - Work detail: the series Title is the H1 (Display)
-- Enable Framer prefers-reduced-motion / reduced motion in Site Settings if the control exists
+- Enable Framer prefers-reduced-motion / reduced motion in Site Settings if the control exists. Then: Nav overlay instant (no rotateX flip), Veil hidden, plane without idle drift
 - Body line-height remains 1.55. Do not swap or add fonts. Keep Mark, Display, Lead, Body, Label as defined in phase 01.
 
 Report: tag on each page, H1 text, reduced-motion setting.
@@ -576,12 +629,13 @@ Scan for:
 - Default layer names (Frame 1, Rectangle 2) — rename
 - Unused styles, unused pages (Index, Privacy, Journal must not exist — delete if you created them earlier)
 - More than 3 breakpoints
+- Hamburger, X close icon, or Info/Contact sitting in the top bar (must be plus + overlay)
 - Missing reduced-motion
 - Images without alt that are not decorative
 - Hardcoded colors that should be the five color styles
 - Leftover Unsplash or “My Framer Site”
 - Creator promo / framer.com/@ links
-- Performance: uncompressed giants, blur >10
+- Performance: uncompressed giants, blur >12 except the Nav overlay and page Veil
 
 Fix what you can without visual change. Report what you fixed and what needs a human.
 
@@ -605,6 +659,8 @@ Do not edit the canvas look. Write Template Agent Instructions for buyers of Dri
 
 Tell future in-canvas Agents:
 - Preserve Drift Plane as the only Home content (plus Nav + hint). Do not add a second hero, a work grid on Home, video, lightbox, or overlay viewer
+- Preserve Nav: VALE left + plus center when closed; full-viewport paper overlay when open; plus flips to the word Close (Label), never an X or hamburger. Overlay links are Info and Contact only
+- Preserve the paper Veil page transition (paper fill + 12px blur, ~0.5s). Do not replace it with a black fade or a side wipe
 - Preserve the visual system: five colors (home-bg #050505, paper #F6F3EE, ink #111111, muted #6B6B6B, line #D9D4CC); five text styles Mark/Display/Lead/Body/Label (Syne ExtraBold, Inter Regular, IBM Plex Mono Medium). Radius 0 (chips 2px). No shadows, no accent, no pixel fonts, no #FFF/#000
 - Preserve the Work detail split (sticky ~33% info / ~67% stacked uncropped gallery) on paper/ink. Home stays home-bg. Do not invert that. Gallery gap 0
 - Exactly 3 breakpoints. No Index, Privacy, or Journal unless the buyer explicitly asks

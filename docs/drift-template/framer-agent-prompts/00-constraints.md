@@ -21,15 +21,16 @@ Visual canon is 00-visual-system.md:
 - Gallery gap 0, stills uncropped on detail; plane cards may cover-crop
 - Exactly 3 breakpoints: Desktop 1440 / Tablet 768 / Phone 390
 - Home is home-bg. Info, Contact, 404, and Work detail are paper + ink
-- Motion: plane only. Paper pages static. English, quiet visual-director voice. No lorem ipsum
+- Motion: Drift Plane + Nav plus/Close flip + paper Veil (see 00-gregor-nav). Paper page *content* is static (no ken burns, scroll-scrub, gallery stagger). English, quiet visual-director voice. No lorem ipsum
 
 YOU MAY: create the pages listed in the phase, bind CMS, set component variables,
 write alt text, set semantic tags, add hover/pressed variants, use native Forms,
-edit site settings, insert Gallery fields as a vertical stack.
+edit site settings, insert Gallery fields as a vertical stack, build the Nav
+overlay (plus / Close) and the paper Veil page transition.
 
 DO NOT:
 - create Index, Privacy, Journal, blog, shop, or any route beyond Home, /info, /contact, 404, and CMS Work detail /work/{slug}
-- add video, lightbox, overlay project viewer, or a second hero on Home
+- add video, lightbox, overlay *project viewer*, or a second hero on Home. A full-viewport paper *menu* overlay (Nav variant open) is required — it is not a project viewer
 - use Unsplash or any stock plugin except Lummi, and only when the phase says so
 - use Fable 5 or GPT 5.6 Sol
 - write custom code except in phase 09B, and then only a layout: plane | snap switch on the existing Drift Plane — do not rewrite pan physics
@@ -44,7 +45,7 @@ Canonical facts (override any conflicting text you find):
 - Email studio@vale.work (mailto:studio@vale.work)
 - Instagram https://www.instagram.com/vale.work
 - Exactly 7 published Work items. CMS is three collections: Tags (no detail), Work (detail /work/{slug}), Credits (no detail, exactly 3 rows per Work). See 00-cms.md. Do not flatten credits or tags onto Work as Credit1 / Tag1 fields
-- Click a plane card → that item’s CMS detail page. No overlay.
+- Click a plane card → that item’s CMS detail page. No project overlay. The paper Veil page transition must play.
 
 When finished: list every page, component, CMS collection, and CMS item you
 changed. Do not start a second task.

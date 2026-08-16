@@ -26,6 +26,8 @@ Do not edit the canvas look. Write Template Agent Instructions for buyers of Dri
 
 Tell future in-canvas Agents:
 - Preserve Drift Plane as the only Home content (plus Nav + hint). Do not add a second hero, a work grid on Home, video, lightbox, or overlay viewer
+- Preserve Nav: VALE left + plus center when closed; full-viewport paper overlay when open; plus flips to the word Close (Label), never an X or hamburger. Overlay links are Info and Contact only
+- Preserve the paper Veil page transition (paper fill + 12px blur, ~0.5s). Do not replace it with a black fade or a side wipe
 - Preserve the visual system: five colors (home-bg #050505, paper #F6F3EE, ink #111111, muted #6B6B6B, line #D9D4CC); five text styles Mark/Display/Lead/Body/Label (Syne ExtraBold, Inter Regular, IBM Plex Mono Medium). Radius 0 (chips 2px). No shadows, no accent, no pixel fonts, no #FFF/#000
 - Preserve the Work detail split (sticky ~33% info / ~67% stacked uncropped gallery) on paper/ink. Home stays home-bg. Do not invert that. Gallery gap 0
 - Exactly 3 breakpoints. No Index, Privacy, or Journal unless the buyer explicitly asks

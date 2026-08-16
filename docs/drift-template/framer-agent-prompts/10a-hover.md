@@ -24,11 +24,13 @@ Ficha: [`00-agent-decision.md`](00-agent-decision.md).
 
 Add hover and pressed variants only. Do not restyle the template.
 
-- Nav links (onDark and onLight): hover opacity ~0.7 or muted→ink/paper. Pressed slightly lower. Phone: hover off
+- Plus (closed): hover opacity ~0.7. Phone: hover off
+- Overlay links Info/Contact (variant open): hover opacity ~0.7. Pressed slightly lower
+- Overlay Close and VALE: same
 - Info title rows: hover opacity or underline
 - Detail chips: no jump; optional opacity
 - Contact Send: hover opacity
-- 404 links: same as Nav
+- 404 links: same as overlay links
 - Plane cards: if the code component already has hover scale, leave it. Do not add CSS that fights the component
 
 Interactive elements must look clickable. Do not add new colors outside the five styles.
