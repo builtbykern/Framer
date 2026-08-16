@@ -120,7 +120,7 @@ Work no tiene `Credit*` ni `Tag1`/`Tag2`. Placeholders de Cover/Gallery hasta la
 
 ## Nav
 
-Canon de gesto: [`00-gregor-nav.md`](00-gregor-nav.md). Componente `Nav`, tres variants:
+Canon de gesto: [`00-gregor-nav.md`](00-gregor-nav.md). Componente `Nav` (no Layout Template). Tres variants. Una instancia por página.
 
 - `closedOnDark` — Home. VALE + plus en paper.
 - `closedOnLight` — Info, Contact, 404, Work detail. VALE + plus en ink.

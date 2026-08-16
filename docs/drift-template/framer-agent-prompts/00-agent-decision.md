@@ -134,7 +134,7 @@ Fast Mode = Off. Branch = `template-build`. Chat = New Chat.
 | **01** | Color + 5 text styles + shells | **Sonnet 5** | **Higher** | **`/layout`** (o `/style`) |
 | **02** | Tags + Work + Credits (7 / 7 / 21), sin Lummi | **Luna** | **Higher** | **`/cms`** |
 | **03** | Home: Drift Plane + Nav closedOnDark (VALE + plus) | **Opus 5** | **Higher** | **`/component`** |
-| **03B** | Overlay paper + flip plus→Close + Veil | **Opus 5** | **Higher** | **`/component`** |
+| **03B** | Overlay paper + plus→Close + Page Effect Fade | **Opus 5** | **Higher** | **`/component`** |
 | **04** | Work detail split paper/ink | **Opus 5** | **Higher** | **`/layout`** |
 | **05** | Bind campos + Gallery stack | **Luna** | **Higher** | **`/cms`** |
 | **06** | Info: bio + lista de títulos CMS | **Sonnet 5** | **Light** | **Ninguna** |
@@ -189,7 +189,7 @@ Pack sin 09B: **aprox. 1.000–1.800 créditos**. Lo caro es 03, 03B, 04, 07.
 |---|---|
 | Inventa Index, Privacy, vídeo, lightbox | Stop. New Chat. Constraints otra vez. |
 | Inventa hamburger, X, o links Info/Contact en la barra | Stop. New Chat. Canon 00-gregor-nav: plus + Close. |
-| Fade negro o wipe en vez del Veil paper+blur | Stop. New Chat. Fase 03B otra vez. |
+| Fade negro, Wipe, o un layer Veil / Layout Template | Stop. New Chat. Page Effect Fade + breakpoint paper. |
 | Pone Unsplash o Lummi antes de 12 | Stop. Quita las fotos. Placeholders sólidos. |
 | Reescribe el Drift Plane | Stop. New Chat. Prohibido `/code` hasta 09B. |
 | Fable/Sol/Fast Mode | Apaga. New Chat con el modelo de la matriz. |

@@ -190,16 +190,16 @@ Build Home `/` only. Home is the Drift Plane. Nothing else except chrome.
 
 4. One H1 “VALE” visually hidden (sr-only / 1px clip) for semantics. No visible H1 on Home.
 
-5. Put Nav in a layout template so later pages can reuse it. If layout templates are awkward this chat, at least make Nav a reusable component.
+5. Create Nav as a Component. Place one instance on Home only (fixed top). Do not create a Layout Template. Other pages get their instance in phase 03B.
 
 6. Do not fill the Plane array with CMS links yet (phase 09A). Placeholder cards already on the component are OK. Do not add Index, footer, or extra sections.
 
-Report: how Drift Plane is placed, Nav variant names (must include closedOnDark), any leftover extra sections you removed.
+Report: how Drift Plane is placed, Nav variant names (must include closedOnDark), confirm no Layout Template.
 ```
 
 ---
 
-## 03B — Overlay + Veil
+## 03B — Nav overlay + Page Effect
 
 | | |
 |---|---|
@@ -207,43 +207,72 @@ Report: how Drift Plane is placed, Nav variant names (must include closedOnDark)
 | **Reasoning** | Higher |
 | **Esfuerzo** | Alto (~120–200) |
 | **Skill** | `/component` |
-| **@** | Nav, layout template, Home, Info, Contact, 404, Work detail |
+| **@** | Nav, Home, Info, Contact, 404, Work detail |
 
-Canon: [00-gregor-nav.md](00-gregor-nav.md).
+Canon: [00-gregor-nav.md](00-gregor-nav.md). Cero Layout Template. Cero layer Veil.
 
 ```
 /component
 
-Finish Drift Nav motion. Follow 00-gregor-nav.md. Do not copy gregorcollienne.com type, X icon, Overview/Work, or copyright.
+Do two jobs only: (A) finish the Nav component, (B) add a native Framer Page Effect. Do not create a Layout Template. Do not add a Veil layer. Do not restyle type or colors. Do not rewrite Drift Plane.
 
-1. Nav variants (exactly three):
-   - closedOnDark — Home. VALE (Mark) left + plus center, color paper. No Info/Contact in the bar.
-   - closedOnLight — Info, Contact, 404, Work detail. Same layout, color ink.
-   - open — full-viewport paper overlay. Chrome ink. Used on every page when the menu is open (including Home).
+A. NAV COMPONENT
 
-2. Plus: two 20×2px bars (not a text glyph), crossed 0° / 90°, hit area 32px. aria-label “Open menu”.
-   Open state: the plus flips out on rotateX (perspective ~700, 0.79s, cubic-bezier(0.77, 0, 0.175, 1)). The Label word “Close” (uppercase, IBM Plex Mono / Label style) flips in at the same center. aria-label “Close menu”. Do NOT draw an X. Do NOT use a hamburger.
+1. Open the Nav component. Exactly three variants: closedOnDark, closedOnLight, open.
 
-3. Overlay content (only in variant open):
-   - Paper fill, viewport, under the chrome
-   - Center: Info → /info and Contact → /contact in Display style, stacked, ink. sr-only H1 “Menu”
-   - Bottom: Label mailto studio@vale.work left, Instagram vale.work right
-   - No bio paragraph, no Work index, no copyright, no extra routes
-   - Links enter 0.79s with opacity + rotateX(-40deg) → rest, stagger 60ms. If 3D is unreliable: opacity + 8px Y, same timing
-   - While open, blur the page behind 12px
+2. Closed variants (both):
+   - Height ~56px, width 100%. VALE (Mark) left → `/`. Plus center. Empty right.
+   - Plus = two rectangles 20×2px, 0° and 90°, not a “+” glyph. Hit 32×32. aria-label “Open menu”.
+   - closedOnDark: VALE + plus color paper. closedOnLight: ink.
+   - Remove any Info/Contact links from the bar.
 
-4. Page Veil (layout template, all pages):
-   - Full viewport paper fill + blur 12px, z-index below Nav
-   - On every page appear (Home, Info, Contact, 404, Work detail): start visible, after ~100ms animate 0.49s cubic-bezier(0.5, 0, 0.5, 1) to opacity 0 and blur 0, pointer-events none
-   - This is the page transition. Not a black fade, not a side wipe, not a slide of the plane.
+3. Variant open:
+   - A paper #F6F3EE frame, position absolute / fixed, inset 0, width 100vw, height 100vh, under the chrome.
+   - Same VALE left. Center: the word Close in Label (uppercase IBM Plex Mono). aria-label “Close menu”. Do NOT draw an X. Do NOT use a hamburger.
+   - Middle of the overlay: Info → /info and Contact → /contact, Display style, ink, stacked, gap 12. sr-only heading “Menu”.
+   - Bottom: Label studio@vale.work (mailto) left, Instagram vale.work right.
+   - No bio, no Work index, no copyright.
 
-5. Wire pages: Home uses closedOnDark. Paper pages use closedOnLight. Clicking plus → open. Close / Escape / choosing a link → destination’s closed variant. Plane card clicks keep going to /work/{slug}; the Veil must play there too.
+4. Interactions (Tap, not Hover):
+   - Plus on closedOnDark → Set Variant open
+   - Plus on closedOnLight → Set Variant open
+   - Close on open → Set Variant Previous (must return to the closed variant this instance came from)
+   - Info and Contact = normal page Links (so the Page Effect runs)
 
-6. prefers-reduced-motion: instant overlay, no flip, no blur, Veil hidden.
+5. Component transition between variants: 0.79s, cubic-bezier(0.77, 0, 0.175, 1).
+   Plus vs Close in the same center slot: closed = plus opacity 1 / Close opacity 0; open = reverse. If rotateX exists on the layer, plus rotateX 0→90 and Close 90→0. If 3D fails, opacity only, same 0.79s.
 
-Do not restyle type or colors. Do not add Index.
+6. Place a Nav instance on every page. Fixed, top, left 0, right 0, z 30.
+   - Home → closedOnDark
+   - Info, Contact, 404, Work detail → closedOnLight
+   Duplicate the instance. Do not wrap pages in a Layout Template.
 
-Report: variant names, how the plus/Close flip is built, how the Veil Appear is set, reduced-motion.
+B. PAGE EFFECT (native, once)
+
+7. Pages panel → Home. Select the Desktop 1440 breakpoint (the page itself, not a child frame).
+
+8. Right sidebar → Effects → + → Page Effect (not Appear).
+
+9. Target: All Pages.
+
+10. Preset: Fade (Crossfade if that is the name). Forbidden: Wipe, Slide, Push, Blinds, Circular, Zigzag, Inset.
+
+11. Exit: duration 0.49s, easing cubic-bezier(0.5, 0, 0.5, 1), offset 0, no mask.
+    Enter: delay 0.10s, duration 0.49s, same easing, offset 0, no mask.
+    If Blur/Filter exists: Exit 0→12px, Enter 12→0px. If it does not exist, skip blur.
+
+12. Breakpoint fill (the color BETWEEN pages):
+    - Every page including Home: Desktop breakpoint fill = paper #F6F3EE
+    - Home only: keep a child frame pinned to viewport filled home-bg #050505 that contains the Drift Plane
+    - Do not set Home’s breakpoint fill to home-bg (that flashes black)
+
+13. If a Nav instance has Page Effect → Exclude, turn it on. If that control does not exist, leave it. Do not create a Layout Template to get Exclude.
+
+14. prefers-reduced-motion: Page Effect Instant or off. Nav variant switch instant.
+
+Preview: plus opens paper overlay with Close (the word). Home → Info fades through paper. A plane card → /work/salt-light uses the same Fade. Phone 390: same plus, no hamburger.
+
+Report: variant names, which pages have a Nav instance, Page Effect target + preset + duration, breakpoint fill hex per page, whether Exclude existed.
 ```
 
 ---
@@ -279,7 +308,7 @@ Left column, top to bottom:
 Phone 390:
 - Single column, pad 88 20 32. Info first, gallery below. No sticky split.
 
-Nav on this page: variant closedOnLight (ink VALE + plus on paper). If closedOnLight does not exist yet, add it without restyling Home’s closedOnDark. Do not put Info/Contact in the bar.
+Nav on this page: an instance of the Nav component, variant closedOnLight (ink VALE + plus). If none exists, duplicate the Home instance and switch it to closedOnLight. Do not create a Layout Template. Do not put Info/Contact in the bar.
 
 No video. No lightbox. No black sidebar. No extra “related work” grid.
 
@@ -436,7 +465,7 @@ For each Featured Work item (all 7), one card:
 - Title = Title
 - Link = that item’s CMS detail URL (/work/salt-light, /work/the-waiting-room, /work/glass-hours, /work/inland-signal, /work/after-the-sitting, /work/red-room-brief, /work/night-atlas)
 
-Click (not drag) must navigate to the detail page. No project overlay, lightbox, or modal. Do not remove the Nav paper menu overlay (plus / Close). The paper Veil must play on that click.
+Click (not drag) must navigate to the detail page. No project overlay, lightbox, or modal. Do not remove the Nav (plus / Close). The Page Effect Fade must play on that click.
 
 If the component only has a generic Link per card, set those seven links. If it has a single “open” overlay, turn overlay off.
 
@@ -533,7 +562,7 @@ Semantics and motion only. Do not change art direction.
 - Contact: one heading “Contact”
 - 404: one heading “Missing”
 - Work detail: the series Title is the H1 (Display)
-- Enable Framer prefers-reduced-motion / reduced motion in Site Settings if the control exists. Then: Nav overlay instant (no rotateX flip), Veil hidden, plane without idle drift
+- Enable Framer prefers-reduced-motion / reduced motion in Site Settings if the control exists. Then: Nav overlay instant, Page Effect Instant, plane without idle drift
 - Body line-height remains 1.55. Do not swap or add fonts. Keep Mark, Display, Lead, Body, Label as defined in phase 01.
 
 Report: tag on each page, H1 text, reduced-motion setting.
@@ -635,7 +664,7 @@ Scan for:
 - Hardcoded colors that should be the five color styles
 - Leftover Unsplash or “My Framer Site”
 - Creator promo / framer.com/@ links
-- Performance: uncompressed giants, blur >12 except the Nav overlay and page Veil
+- Performance: uncompressed giants, blur >12 except optional Page Effect blur
 
 Fix what you can without visual change. Report what you fixed and what needs a human.
 
@@ -659,8 +688,8 @@ Do not edit the canvas look. Write Template Agent Instructions for buyers of Dri
 
 Tell future in-canvas Agents:
 - Preserve Drift Plane as the only Home content (plus Nav + hint). Do not add a second hero, a work grid on Home, video, lightbox, or overlay viewer
-- Preserve Nav: VALE left + plus center when closed; full-viewport paper overlay when open; plus flips to the word Close (Label), never an X or hamburger. Overlay links are Info and Contact only
-- Preserve the paper Veil page transition (paper fill + 12px blur, ~0.5s). Do not replace it with a black fade or a side wipe
+- Preserve Nav: a component instance on each page (no Layout Template). VALE left + plus center when closed; variant open = full-viewport paper overlay; plus becomes the word Close (Label), never an X or hamburger. Overlay links are Info and Contact only
+- Preserve the native Page Effect: Fade, Target All Pages, 0.49s. Breakpoint fill paper #F6F3EE on every page (Home’s inner canvas stays home-bg). No Wipe, no black fade, no Veil layer, no Layout Template
 - Preserve the visual system: five colors (home-bg #050505, paper #F6F3EE, ink #111111, muted #6B6B6B, line #D9D4CC); five text styles Mark/Display/Lead/Body/Label (Syne ExtraBold, Inter Regular, IBM Plex Mono Medium). Radius 0 (chips 2px). No shadows, no accent, no pixel fonts, no #FFF/#000
 - Preserve the Work detail split (sticky ~33% info / ~67% stacked uncropped gallery) on paper/ink. Home stays home-bg. Do not invert that. Gallery gap 0
 - Exactly 3 breakpoints. No Index, Privacy, or Journal unless the buyer explicitly asks

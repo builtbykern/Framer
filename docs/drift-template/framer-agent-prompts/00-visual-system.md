@@ -24,7 +24,7 @@ La foto (cuando exista) va **a sangre en su columna**, sin marco, sin overlay de
 | Style | Hex | RGB | Uso |
 |---|---|---|---|
 | `home-bg` | `#050505` | 5 5 5 | Home, plane, scrim del Nav en Home |
-| `paper` | `#F6F3EE` | 246 243 238 | Páginas editoriales, overlay Nav, Veil, chrome closedOnDark |
+| `paper` | `#F6F3EE` | 246 243 238 | Páginas editoriales, overlay Nav, fill del breakpoint (Page Effect) |
 | `ink` | `#111111` | 17 17 17 | Texto sobre paper, chrome closedOnLight y open |
 | `muted` | `#6B6B6B` | 107 107 107 | Labels, hint, dt, placeholders |
 | `line` | `#D9D4CC` | 217 212 204 | Rules 1px, chips, underline de inputs |
@@ -119,7 +119,7 @@ Weights: no Regular en Syne para títulos; no Bold en Inter (el énfasis es tama
 
 **Sombras:** ninguna.
 
-**Nav:** fijo, no empuja el plane. Cerrado: VALE a la izquierda (Mark) + **plus** al centro. Cero links Info/Contact en la barra. Abierto: overlay `paper` a viewport, plus hace flip 3D a la palabra **Close** (Label, no X). Links del overlay: Info, Contact en Display. Canon: [`00-gregor-nav.md`](00-gregor-nav.md). Mismo patrón en 1440 / 768 / 390. No hamburger, no drawer, no wrap de links.
+**Nav:** componente, una instancia por página (no Layout Template). Fixed. Cerrado: VALE izquierda + plus centro. Abierto: variant `open`, overlay paper, plus → palabra **Close**. Cambio de página: Page Effect Fade All Pages. Canon: [`00-gregor-nav.md`](00-gregor-nav.md).
 
 **Hint Home:** Label, `muted`, bottom 24 left 28, `pointer-events: none`.
 
@@ -137,15 +137,15 @@ Weights: no Regular en Syne para títulos; no Bold en Inter (el énfasis es tama
 |---|---|
 | Drift Plane desktop | Pan + idle drift (el componente) |
 | Drift Plane phone | Un eje + snap |
-| Nav plus → Close | Flip `rotateX`, 0.79s, `cubic-bezier(0.77, 0, 0.175, 1)` |
-| Nav overlay | Paper a viewport; blur 12px detrás; links 0.79s stagger 60ms |
-| Veil de página | Fill `paper` + blur 12px → 0, 0.49s, `cubic-bezier(0.5, 0, 0.5, 1)`. Todas las rutas internas, incluido el click del plane |
-| `prefers-reduced-motion` | Sin idle drift; snap estático; overlay instantánea; Veil off; sin flip |
+| Nav plus → Close | Variant `open`. Transition 0.79s, `cubic-bezier(0.77, 0, 0.175, 1)` |
+| Nav overlay | Variant del componente. Paper a viewport. No Layout Template |
+| Cambio de página | **Page Effect** Fade, Target All Pages, 0.49s, `cubic-bezier(0.5, 0, 0.5, 1)`, delay enter 0.10s. Breakpoint fill = `paper`. Cero Wipe/Slide. Cero layer Veil |
+| `prefers-reduced-motion` | Sin idle drift; snap estático; overlay instantánea; Page Effect Instant; sin flip |
 | Páginas paper (contenido) | Estáticas. Cero scroll-scrub, ken burns, parallax, stagger de galería |
 | Hover Desktop | Opacidad ~0.7 en links. Plane cards: el hover que ya traiga el componente |
 | Phone | Hover off |
 
-Nada de Lottie, shaders, ni blur **salvo** el Veil y el overlay (12px). El blur no es un overlay CSS sobre las fotos del detail.
+Nada de Lottie, shaders, Layout Templates, ni layer Veil. Blur solo si el Page Effect lo ofrece (12px). No blur CSS sobre la gallery del detail.
 
 ---
 

@@ -39,7 +39,7 @@ Scan for:
 - Hardcoded colors that should be the five color styles
 - Leftover Unsplash or “My Framer Site”
 - Creator promo / framer.com/@ links
-- Performance: uncompressed giants, blur >12 except the Nav overlay and page Veil
+- Performance: uncompressed giants, blur >12 except optional Page Effect blur
 
 Fix what you can without visual change. Report what you fixed and what needs a human.
 

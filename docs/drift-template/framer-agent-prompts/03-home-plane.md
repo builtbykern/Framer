@@ -46,11 +46,11 @@ Build Home `/` only. Home is the Drift Plane. Nothing else except chrome.
 
 4. One H1 “VALE” visually hidden (sr-only / 1px clip) for semantics. No visible H1 on Home.
 
-5. Put Nav in a layout template so later pages can reuse it. If layout templates are awkward this chat, at least make Nav a reusable component.
+5. Create Nav as a Component. Place one instance on Home only (fixed top). Do not create a Layout Template. Other pages get their instance in phase 03B.
 
 6. Do not fill the Plane array with CMS links yet (phase 09A). Placeholder cards already on the component are OK. Do not add Index, footer, or extra sections.
 
-Report: how Drift Plane is placed, Nav variant names (must include closedOnDark), any leftover extra sections you removed.
+Report: how Drift Plane is placed, Nav variant names (must include closedOnDark), confirm no Layout Template.
 ```
 
 ## Definition of done

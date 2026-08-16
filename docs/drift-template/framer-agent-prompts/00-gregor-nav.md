@@ -1,85 +1,49 @@
-# Nav + velo — lectura de Gregor, canon Drift
+# Nav + Page Effect — Gregor en Drift
 
-Referencia de **comportamiento**, no de copia: [gregorcollienne.com](https://gregorcollienne.com) (WordPress, tema `fstheme`, Tostaky). Drift no usa su tipo (Neue Rational), su X, Overview/Work, ni el copyright.
+Referencia de **comportamiento**: [gregorcollienne.com](https://gregorcollienne.com). No copiar Neue Rational, la X, Overview/Work, ni copyright.
 
-Si el canvas improvisa un hamburger o un fade genérico, gana este archivo.
-
----
-
-## Qué hace Gregor (hechos)
-
-Chrome cerrado: un **+** fijo arriba al centro (dos barras de 3px). No hay hamburger, no dice MENU, no hay links a la vista. El nombre vive en el canvas, no en el header.
-
-Chrome abierto: el mismo hit-target hace **flip 3D en X** (`perspective: 700px`, `rotateX`, `0.79s`, `cubic-bezier(.77, 0, .175, 1)`) y el + se convierte en **X** (las mismas barras a 45°). Debajo, pantalla completa del color light `#f5f3f0`. Links enormes (Overview, Work) entran con `translateY + rotateX(-40deg)` → identidad, stagger 60ms. El fondo se **blurea 12px** y se cubre de light.
-
-Cambio de página (no es Barba ni GSAP): interceptan el click, `html.js-transition--start`, un `::before` a viewport (`backdrop-filter: blur(12px)` + fill light opaco, `0.49s`, `cubic-bezier(.5, 0, .5, 1)`), swap del `main`, quitan la clase, el velo se levanta. Si el menú estaba abierto, lo cierran en el mismo gesto.
-
-Móvil: el mismo +, el mismo overlay. No hay patrón distinto.
+**Prohibido:** Layout Templates. Un layer “Veil”. Hamburger. Icono X. Wipe / Slide / Push.
 
 ---
 
-## Qué toma Drift
+## Nav = componente, una instancia por página
 
-| Gregor | Drift |
-|---|---|
-| + centrado | **+ centrado** (dos barras 2px, 20×20 / hit 32px) |
-| Flip 3D `rotateX` 0.79s | **El mismo flip** |
-| Close = X | Close = la palabra **Close** (Label). No X, no hamburger, no “Menu” |
-| Overlay light `#f5f3f0` | Overlay **`paper` `#F6F3EE`** (también sobre Home negro) |
-| Overview / Work | **Info**, **Contact**. Cero índice `/work` |
-| Bio en el overlay | No. La bio vive en `/info` |
-| Nombre en el canvas | **VALE** a la izquierda (Mark). El plane no lleva título gigante |
-| Velo blur 12px + fill light 0.49s | **Veil** `paper` + blur 12px, 0.49s, cada navegación interna |
+No vive en un template. Se **crea una vez** y se **coloca a mano** en Home, Info, Contact, 404 y Work detail.
 
----
+Fixed, top, left 0, right 0, z-index 30. No empuja el contenido.
 
-## Componente `Nav` (3 variants)
-
-| Variant | Dónde | Color chrome |
+| Variant | Instancia | Chrome |
 |---|---|---|
-| `closedOnDark` | Home, menú cerrado | VALE + plus en `paper` |
-| `closedOnLight` | Info, Contact, 404, Work detail, menú cerrado | VALE + plus en `ink` |
-| `open` | Cualquier página, menú abierto | Overlay `paper` a viewport. VALE + **Close** + links en `ink` |
+| `closedOnDark` | Home | VALE + plus en `paper` |
+| `closedOnLight` | Info, Contact, 404, Work detail | VALE + plus en `ink` |
+| `open` | transitorio, todas | Overlay `paper` 100vw/100vh. VALE + **Close** (Label) + Info / Contact en `ink` |
 
-`open` es uno solo: al abrir en Home el chrome pasa a ink sobre paper (si VALE siguiera `paper` sobre paper, desaparece).
+Cerrado: VALE izquierda → `/`. Plus centro (dos barras 20×2px, 0° / 90°, hit 32px). Nada a la derecha.
 
-**Cerrado (todas las breakpoints, 1440 / 768 / 390):**
+Abierto: overlay paper dentro del componente (absolute, viewport). Links Display: Info, Contact. Abajo Label: email · Instagram. Close = la palabra, no una X.
 
-- Fijo, no empuja el plane. Pad 22×28 desktop / 16×20 phone.
-- Izquierda: VALE → `/`
-- Centro: plus. `aria-label="Open menu"`. Cursor pointer.
-- Nada a la derecha. Cero Info/Contact en la barra.
-
-**Plus:** dos rectángulos 20×2px, `paper` o `ink` según variant, cruzados (0° y 90°). Radio 0. No es un carácter “+” de Syne.
-
-**Abierto:**
-
-- Overlay `paper`, z-index bajo el chrome (VALE y el trigger quedan encima).
-- El plus hace flip `rotateX` 0.79s (`cubic-bezier(0.77, 0, 0.175, 1)`) y sale. Entra **Close** (Label, uppercase) con el mismo flip. `aria-label="Close menu"`. Misma posición central. **No dibujar una X.**
-- Centro vertical: links **Info** → `/info`, **Contact** → `/contact`. Style **Display**, ink, stacked, gap ~12. Excepción: Display aquí no es H1 de serie; el H1 de la overlay es sr-only “Menu”.
-- Abajo: Label `studio@vale.work` (mailto) a la izquierda · Instagram `vale.work` a la derecha. Sin copyright, sin FB/LI.
-- Links de overlay: entrada `opacity 0` + ligero `rotateX(-40deg)` → identidad, 0.79s, stagger 60ms (Info luego Contact). Si Framer no hace 3D fiable: opacity + translateY 8px, misma curva y tiempo.
-- Fondo detrás (plane o página): blur 12px mientras `open`.
-- Escape y click en Close cierran. Click Info/Contact navega y deja `open` → closed del destino (el Veil cubre el corte).
+Tap plus → variant `open`. Tap Close → **previous variant**. Links Info/Contact = Link normal (dispara el Page Effect).
 
 ---
 
-## Veil (animación de página)
+## Cambio de página = Page Effect nativo
 
-Layer del **layout template**, viewport, `paper` fill + blur 12px, z-index **bajo** el Nav (el plus/VALE se leen durante el velo).
+No hay layer velo. No hay layout template.
 
-Cada carga de página interna (Home, Info, Contact, 404, `/work/{slug}` — también el click del plane):
+1. Pages → **Home**.
+2. Seleccionar el breakpoint **Desktop 1440** (la página, no un frame interior).
+3. Right sidebar → **Effects** → **+** → **Page Effect**.
+4. Target: **All Pages**.
+5. Preset: **Fade** (o Crossfade). Nunca Wipe, Slide, Push, Blinds, Circular, Zigzag, Inset.
+6. Exit: duration **0.49s**, easing `cubic-bezier(0.5, 0, 0.5, 1)`, offset **0**.
+7. Enter: delay **0.10s**, duration **0.49s**, misma curva, offset **0**.
+8. Si el panel tiene Blur/Filter: Exit 0→12, Enter 12→0. Si no existe, Fade + fill paper basta.
 
-1. Veil visible (paper opaco, blur 12px)
-2. A los ~100ms, 0.49s `cubic-bezier(0.5, 0, 0.5, 1)`: blur → 0, opacity → 0, `pointer-events: none`
-3. En Framer: Appear en el layer Veil, “play on page appear / every time”
+El color que se ve **entre** páginas es el **fill del breakpoint**, no el del canvas interior.
 
-No es un wipe de color de marca, no es un fade a negro, no es un slide horizontal. Es **escarcha paper**.
+- Breakpoint de **todas** las páginas (Home incluida): fill **`paper` `#F6F3EE`**.
+- Home: un frame interior a viewport fill **`home-bg`**, con el Drift Plane dentro. Así el corte es escarcha paper, no negro.
 
-`prefers-reduced-motion`: sin flip, sin blur, overlay instantánea, Veil off.
+Si el Nav tiene control **Page Effect → Exclude**, actívalo. Si no existe, el Nav se funde con la página. **No** crees un Layout Template para conseguir Exclude.
 
----
-
-## Qué no copiar
-
-Neue Rational. X. Hamburger. Palabra MENU. Overview/Work. Grid/List. Copyright. Bio en el overlay. `#FFF` / `#000`. Cuarto text style. `/code` para el velo (Appear + variants).
+`prefers-reduced-motion`: Page Effect off o Instant.

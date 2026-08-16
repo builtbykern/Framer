@@ -30,7 +30,7 @@ Semantics and motion only. Do not change art direction.
 - Contact: one heading “Contact”
 - 404: one heading “Missing”
 - Work detail: the series Title is the H1 (Display)
-- Enable Framer prefers-reduced-motion / reduced motion in Site Settings if the control exists. Then: Nav overlay instant (no rotateX flip), Veil hidden, plane without idle drift
+- Enable Framer prefers-reduced-motion / reduced motion in Site Settings if the control exists. Then: Nav overlay instant, Page Effect Instant, plane without idle drift
 - Overlay open: sr-only H1 “Menu” already asked in 03B — do not add a second visible H1 on that overlay
 - Body line-height remains 1.55. Do not swap or add fonts. Keep Mark, Display, Lead, Body, Label as defined in phase 01.
 

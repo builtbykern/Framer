@@ -1,10 +1,10 @@
-# Fase 03B — Overlay Nav + Veil
+# Fase 03B — Nav motion + Page Effect
 
-**Prerrequisito:** fase 03 hecha (plane + Nav `closedOnDark` con VALE + plus).
+**Prerrequisito:** Nav componente con VALE + plus, instancia en Home (`closedOnDark`).
 
-**Objetivo:** El gesto de [gregorcollienne.com](https://gregorcollienne.com): overlay paper a viewport, plus que hace flip a **Close** (no X), velo paper+blur en cada navegación. Canon: [`00-gregor-nav.md`](00-gregor-nav.md).
+**Objetivo:** Overlay paper (plus → palabra Close). Cambio de página con **Page Effect Fade** nativo. Cero Layout Templates. Cero layer Veil.
 
-Ficha: [`00-agent-decision.md`](00-agent-decision.md).
+Canon: [`00-gregor-nav.md`](00-gregor-nav.md).
 
 ## Configuración
 
@@ -16,61 +16,84 @@ Ficha: [`00-agent-decision.md`](00-agent-decision.md).
 | Reasoning | **Higher** |
 | Fast Mode | **Off** |
 | Skill | **`/component`** |
-| @ | Nav, layout template, Home, Info, Contact, 404, Work detail |
-| No usar | Fable, Sol, `/code`, Unsplash, hamburger, icono X, Barba, GSAP, Neue Rational |
-
-Opus: juicio del flip y del velo. Higher: variants antes de animar.
+| @ | Nav, Home, Info, Contact, 404, Work detail |
+| No usar | Fable, Sol, `/code`, Layout Template, layer Veil, hamburger, X, Wipe/Slide/Push |
 
 ## Prompt (después de constraints)
 
 ```
 /component
 
-Finish Drift Nav motion. Follow 00-gregor-nav.md. Do not copy gregorcollienne.com type, X icon, Overview/Work, or copyright.
+Do two jobs only: (A) finish the Nav component, (B) add a native Framer Page Effect. Do not create a Layout Template. Do not add a Veil layer. Do not restyle type or colors. Do not rewrite Drift Plane.
 
-1. Nav variants (exactly three):
-   - closedOnDark — Home. VALE (Mark) left + plus center, color paper. No Info/Contact in the bar.
-   - closedOnLight — Info, Contact, 404, Work detail. Same layout, color ink.
-   - open — full-viewport paper overlay. Chrome ink. Used on every page when the menu is open (including Home).
+A. NAV COMPONENT
 
-2. Plus: two 20×2px bars (not a text glyph), crossed 0° / 90°, hit area 32px. aria-label “Open menu”.
-   Open state: the plus flips out on rotateX (perspective ~700, 0.79s, cubic-bezier(0.77, 0, 0.175, 1)). The Label word “Close” (uppercase, IBM Plex Mono / Label style) flips in at the same center. aria-label “Close menu”. Do NOT draw an X. Do NOT use a hamburger.
+1. Open the Nav component. Exactly three variants: closedOnDark, closedOnLight, open.
 
-3. Overlay content (only in variant open):
-   - Paper fill, viewport, under the chrome
-   - Center: Info → /info and Contact → /contact in Display style, stacked, ink. sr-only H1 “Menu”
-   - Bottom: Label mailto studio@vale.work left, Instagram vale.work right
-   - No bio paragraph, no Work index, no copyright, no extra routes
-   - Links enter 0.79s with opacity + rotateX(-40deg) → rest, stagger 60ms. If 3D is unreliable: opacity + 8px Y, same timing
-   - While open, blur the page behind 12px
+2. Closed variants (both):
+   - Height ~56px, width 100%. VALE (Mark) left → `/`. Plus center. Empty right.
+   - Plus = two rectangles 20×2px, 0° and 90°, not a “+” glyph. Hit 32×32. aria-label “Open menu”.
+   - closedOnDark: VALE + plus color paper. closedOnLight: ink.
+   - Remove any Info/Contact links from the bar.
 
-4. Page Veil (layout template, all pages):
-   - Full viewport paper fill + blur 12px, z-index below Nav
-   - On every page appear (Home, Info, Contact, 404, Work detail): start visible, after ~100ms animate 0.49s cubic-bezier(0.5, 0, 0.5, 1) to opacity 0 and blur 0, pointer-events none
-   - This is the page transition. Not a black fade, not a side wipe, not a slide of the plane.
+3. Variant open:
+   - A paper #F6F3EE frame, position absolute / fixed, inset 0, width 100vw, height 100vh, under the chrome.
+   - Same VALE left. Center: the word Close in Label (uppercase IBM Plex Mono). aria-label “Close menu”. Do NOT draw an X. Do NOT use a hamburger.
+   - Middle of the overlay: Info → /info and Contact → /contact, Display style, ink, stacked, gap 12. sr-only heading “Menu”.
+   - Bottom: Label studio@vale.work (mailto) left, Instagram vale.work right.
+   - No bio, no Work index, no copyright.
 
-5. Wire pages: Home uses closedOnDark. Paper pages use closedOnLight. Clicking plus → open. Close / Escape / choosing a link → destination’s closed variant. Plane card clicks keep going to /work/{slug}; the Veil must play there too.
+4. Interactions (Tap, not Hover):
+   - Plus on closedOnDark → Set Variant open
+   - Plus on closedOnLight → Set Variant open
+   - Close on open → Set Variant Previous (must return to the closed variant this instance came from)
+   - Info and Contact = normal page Links (so the Page Effect runs)
 
-6. prefers-reduced-motion: instant overlay, no flip, no blur, Veil hidden.
+5. Component transition between variants: 0.79s, cubic-bezier(0.77, 0, 0.175, 1).
+   Plus vs Close in the same center slot: closed = plus opacity 1 / Close opacity 0; open = reverse. If rotateX exists on the layer, plus rotateX 0→90 and Close 90→0. If 3D fails, opacity only, same 0.79s.
 
-Do not restyle type or colors. Do not add Index.
+6. Place a Nav instance on every page. Fixed, top, left 0, right 0, z 30.
+   - Home → closedOnDark
+   - Info, Contact, 404, Work detail → closedOnLight
+   Duplicate the instance. Do not wrap pages in a Layout Template.
 
-Report: variant names, how the plus/Close flip is built, how the Veil Appear is set, reduced-motion.
+B. PAGE EFFECT (native, once)
+
+7. Pages panel → Home. Select the Desktop 1440 breakpoint (the page itself, not a child frame).
+
+8. Right sidebar → Effects → + → Page Effect (not Appear).
+
+9. Target: All Pages.
+
+10. Preset: Fade (Crossfade if that is the name). Forbidden: Wipe, Slide, Push, Blinds, Circular, Zigzag, Inset.
+
+11. Exit: duration 0.49s, easing cubic-bezier(0.5, 0, 0.5, 1), offset 0, no mask.
+    Enter: delay 0.10s, duration 0.49s, same easing, offset 0, no mask.
+    If Blur/Filter exists: Exit 0→12px, Enter 12→0px. If it does not exist, skip blur.
+
+12. Breakpoint fill (the color BETWEEN pages):
+    - Every page including Home: Desktop breakpoint fill = paper #F6F3EE
+    - Home only: keep a child frame pinned to viewport filled home-bg #050505 that contains the Drift Plane
+    - Do not set Home’s breakpoint fill to home-bg (that flashes black)
+
+13. If a Nav instance has Page Effect → Exclude, turn it on. If that control does not exist, leave it. Do not create a Layout Template to get Exclude.
+
+14. prefers-reduced-motion: Page Effect Instant or off. Nav variant switch instant.
+
+Preview: plus opens paper overlay with Close (the word). Home → Info fades through paper. A plane card → /work/salt-light uses the same Fade. Phone 390: same plus, no hamburger.
+
+Report: variant names, which pages have a Nav instance, Page Effect target + preset + duration, breakpoint fill hex per page, whether Exclude existed.
 ```
 
 ## Definition of done
 
-- Plus en todas las páginas. Open = paper + Info/Contact. Close es la palabra, no una X.
-- Click Info desde Home: velo paper, llega `/info`.
-- Click de una carta del plane: velo, llega el detail.
-
-## No tocar
-
-CMS copy. Split del detail. Form. Lummi. Física del plane.
+- Cero Layout Template. Cero layer Veil.
+- Plus en cada página. Open = paper + Close (palabra) + Info/Contact.
+- Page Effect Fade / All Pages / 0.49s. Corte paper, no negro.
 
 ## Verificación humana
 
-1440 y 390: abrir/cerrar. Home → Info. Plane → salt-light. `prefers-reduced-motion`: sin blur.
+1440 y 390: abrir/cerrar. Home → Info. Plane → salt-light. ¿Wipe? Mal. ¿Negro entre páginas? Mal (breakpoint fill no es paper).
 
 ## Siguiente
 
