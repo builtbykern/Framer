@@ -27,6 +27,7 @@ on existing pages, edit site settings.
 DO NOT:
 - invent a new visual system, dark mode, or extra breakpoint
 - create new pages or routes (no Privacy, no territory details, no extra sitemap items)
+- link to /neighbourhoods/chelsea or any /neighbourhoods/{slug} — those routes 404
 - use lorem ipsum
 - link socials to framer.com/@builtbykern
 - write custom code when a native Form, CMS field, component variant, or

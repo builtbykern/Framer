@@ -39,7 +39,7 @@ Prohibido: `https://www.framer.com/@builtbykern/`
 - Home featured residences: **3**, label explícito tipo `03 FEATURED — LONDON & COUNTRY`. Numeración `( 01 ) ( 02 ) ( 03 )`.
 - `/properties` lista **todas** las CMS items (hoy 6). Sin limit en el índice (criterio histórico GR8r).
 - Notes: **7** published. Include **The case for waiting**. Unpublish **Why mews houses reward a slower second visit** (duplicate of the second-viewing note). Do not unpublish instructing-an-agent, Colville, or Notting Hill after the rain. Do not add a Marylebone eighth item — retarget that Home card to the existing row-house note. Nunca slug `:Jd2WAsZn3`.
-- Neighbourhoods: Chelsea, Notting Hill, Hampstead, The Cotswolds on the **existing** index. VIEW → `/properties` (AREA filter if possible). **No detail pages.**
+- Neighbourhoods: Chelsea, Notting Hill, Hampstead, The Cotswolds on the **existing** index only. VIEW → `/properties`. **No `/neighbourhoods/{slug}`** (Home currently 404s to `/neighbourhoods/chelsea` — retarget). Fill the index so it is not a thin column; section backgrounds full-bleed like Home (~72px content inset, not 180px rails).
 - Coords: cada property/territory usa las suyas. No hardcodear `51.5074° N · CHELSEA` en el layout template.
 - Rooms en property detail: **únicos por ítem**, no el mismo garden court/kitchen en las 6.
 
