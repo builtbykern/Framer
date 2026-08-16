@@ -34,7 +34,7 @@ This is not a clone.
 - Drift: paper #F6F3EE + ink #111111. Mark / Display / Lead / Label only. Radius 0.
 
 Do not restyle closed variants except: plus must sit TOP-RIGHT on both closedOnDark and closedOnLight (not center). Empty center. VALE stays left.
-Do not touch Drift Plane, CMS, Info/Contact/404 page layouts, or the native Page Effect timing. If Fade + frost blur already exists, leave it. Do not strip the blur.
+Do not touch Drift Plane, CMS, Info/Contact/404 page layouts, or the native Page Effect. If Fade already exists, leave it. Do not strip Custom Code frost if the human already pasted it.
 Do not create a Layout Template. Do not add a Veil layer. Do not use Unsplash.
 
 FAIL if any of these are true when you finish:

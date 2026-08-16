@@ -1,96 +1,50 @@
-# Fase 03D — Page Effect frost (blur Gregor)
+# Fase 03D — Frost Gregor (humano, no Agent)
 
-**Prerrequisito:** Page Effect Fade All Pages ya existe (03B). Nav no se rediseña.
+Page Effect **no tiene Blur**. El Agent **no puede** editar Site Settings → Custom Code. Pedirle el frost termina en un rechazo. No corras un chat para esto.
 
-**Objetivo:** La transición de página es como Gregor: **todo el viewport se va a blur** (escarcha) mientras el Fade corre, sobre fill `paper`. No es un fade seco. No es un layer Veil. No es Wipe.
+**Tú pegas el CSS.** El Fade nativo (03B) solo enciende View Transitions; el blur vive en Custom Code.
 
-Canon: [`00-gregor-nav.md`](00-gregor-nav.md).
+Canon: [`00-gregor-nav.md`](00-gregor-nav.md). Snippet: [`frost-view-transition.html`](frost-view-transition.html).
 
-## Configuración
+## Qué hace el humano (obligatorio)
 
-| Control | Valor |
-|---|---|
-| Chat | **New Chat** |
-| Branch | `template-build` |
-| Modelo | **Opus 5** (fallback 4.8 → 4.7) |
-| Reasoning | **Higher** |
-| Fast Mode | **Off** |
-| Skill | **`/layout`** (si no está: chat plano) |
-| @ | Home — breakpoint Desktop 1440 (la página, no un frame hijo) |
-| No usar | Fable, Sol, `/code` en el Plane, Layout Template, layer Veil, Wipe/Slide/Push, Unsplash |
+1. Confirma que hay **Page Effect Fade / Crossfade**, Target **All Pages**, 0.49s. Si no existe, corre 03B (solo Fade). No pidas blur al Agent.
+2. Nav: **Page Effect → Exclude = off** (si el control existe).
+3. Breakpoint fill de todas las páginas = `paper` `#F6F3EE`. Home: frame interior `home-bg` con el Plane.
+4. Framer → **Site Settings** (engranaje) → **General** → **Custom Code** → **End of `<head>`**.
+5. Pega el bloque de [`frost-view-transition.html`](frost-view-transition.html) (incluye las tags `<style>`).
+6. Preview en **Chrome** (no Safari): Home → Info. El plane se emborrona, luego Info sale del blur sobre paper.
 
-## Prompt (después de constraints)
+Si el CSS no gana al Fade de Framer, prueba el mismo bloque en **End of `<body>`**.
+
+No añadas un frame Veil. No uses Wipe. No toques Drift Plane.
+
+## Si el Fade aún no existe (Agent, opcional)
+
+Solo entonces, New Chat · Opus 5 · Higher · `/layout` · `@` Home Desktop 1440. Constraints + este prompt. **No le pidas blur ni Custom Code.**
 
 ```
 /layout
 
-ONE JOB: make the page transition Gregor frost. The WHOLE viewport goes to blur while pages change. Do not redesign Nav. Do not touch Drift Plane layout. Do not create a Layout Template. Do not add a Veil layer. Do not use Wipe, Slide, Push, Blinds, Circular, Zigzag, or Inset.
+ONE JOB: confirm the native Page Effect Fade. You cannot add blur to Page Effects (opacity, transform, mask only). You cannot edit Site Settings Custom Code. Do not refuse this chat. Do not add a Veil layer. Do not use Wipe/Slide/Push. Do not modify Drift Plane. Do not Exclude the Nav.
 
-Reference (behavior only): gregorcollienne.com page change — the entire site frosts (blur ~12px) over a light fill, ~0.49s, then the next page sharpens. Drift fill is paper #F6F3EE, not white, not black.
+1. Pages → Home → Desktop 1440 (the page, not a child frame).
+2. Effects → Page Effect (create if missing). Target All Pages. Preset Fade/Crossfade.
+3. Exit 0.49s cubic-bezier(0.5, 0, 0.5, 1), offset 0, no mask.
+   Enter delay 0.10s, duration 0.49s, same easing.
+4. Breakpoint fill every page including Home = paper #F6F3EE. Home keeps an inner viewport frame home-bg for the Drift Plane.
+5. If Nav has Page Effect Exclude, turn it OFF.
 
-FAIL if preview is only an opacity fade (sharp photos cutting to the next page). FAIL if the flash between pages is black. FAIL if you add an overlay frame named Veil.
+Then STOP. In the report, tell the human: paste frost-view-transition.html into Site Settings → Custom Code → End of <head>. That CSS is the Gregor frost. Do not attempt it yourself.
 
-A. NATIVE PAGE EFFECT (do this first)
-
-1. Pages panel → Home. Select Desktop 1440 (the page / breakpoint itself).
-
-2. Right sidebar → Effects → the existing Page Effect (add one only if missing).
-   - Target: All Pages
-   - Preset: Fade / Crossfade
-   - Exit: duration 0.49s, easing cubic-bezier(0.5, 0, 0.5, 1), offset 0, no mask
-   - Enter: delay 0.10s, duration 0.49s, same easing, offset 0, no mask
-
-3. BLUR IS REQUIRED. On the same Page Effect, add Filter / Blur (look under Exit and Enter: “+”, “Add”, Filter, Blur, Backdrop, Frost — any of those names):
-   - Exit: blur 0px → 12px (if 12 is barely visible on the Home plane, use 16px, never above 16)
-   - Enter: blur 12px → 0px (same px as Exit)
-   - Same duration and easing as the fade. The outgoing page must go soft; the incoming page must start soft and sharpen.
-
-4. Do NOT turn on Page Effect → Exclude on the Nav. Everything including VALE / plus must frost. “Todo” means the whole viewport.
-
-5. Breakpoint fill on every page including Home = paper #F6F3EE. Home keeps an inner viewport frame filled home-bg #050505 for the Drift Plane. That inner frame is what blurs; the paper fill is the frost color between pages.
-
-B. ONLY IF THE PAGE EFFECT PANEL HAS NO BLUR / FILTER CONTROL
-
-6. Keep the Fade Page Effect (it creates the view transition). Then Site Settings → Custom Code → end of <head>, this exact CSS and nothing else (no extra libraries):
-
-<style>
-@keyframes drift-frost-out {
-  from { filter: blur(0px); }
-  to { filter: blur(12px); }
-}
-@keyframes drift-frost-in {
-  from { filter: blur(12px); }
-  to { filter: blur(0px); }
-}
-::view-transition-old(root) {
-  animation: drift-frost-out 0.49s cubic-bezier(0.5, 0, 0.5, 1) both;
-}
-::view-transition-new(root) {
-  animation: drift-frost-in 0.49s cubic-bezier(0.5, 0, 0.5, 1) 0.10s both;
-}
-</style>
-
-Do not add a full-screen overlay frame. Do not edit Drift Plane source.
-
-C. REDUCED MOTION
-
-7. prefers-reduced-motion: Page Effect Instant or off; no blur.
-
-Preview in Chrome (Page Effects are view-transition based): Home → Info, then a plane card → /work/salt-light. The stills must go blurry, then the next page comes out of blur on paper. Phone 390: same frost.
-
-Report: whether blur was set on the Page Effect (property names + px) or via Custom Code; Exclude on Nav (must be off); breakpoint fill hex; confirm no Veil layer.
+This chat is complete when Fade All Pages exists. Completing Fade is success. Missing blur in the canvas is expected.
 ```
 
 ## Definition of done
 
-- Home → Info: el plane se **emborrona**, no un corte seco.
-- Fill entre páginas = paper. Cero negro. Cero Wipe. Cero layer Veil.
-- Nav no Exclude: el chrome también entra en el frost.
-
-## Verificación humana
-
-Chrome 1440: Home → Info. ¿Las fotos siguen nítidas mientras cambia? Mal — repetir este chat. ¿Flash negro? Mal (fill no es paper).
+- Custom Code pegado por el humano.
+- Chrome: Home → Info emborrona. Cero flash negro. Cero Veil.
 
 ## Siguiente
 
-Si Open aún es paper vacío → 03C. Si Open visual ya está → fase 04 (o la que toque).
+03C (Open visual) o la fase que toque.

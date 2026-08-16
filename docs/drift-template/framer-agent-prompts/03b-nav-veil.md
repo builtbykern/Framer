@@ -65,36 +65,33 @@ B. PAGE EFFECT (native, once)
 
 11. Exit: duration 0.49s, easing cubic-bezier(0.5, 0, 0.5, 1), offset 0, no mask.
     Enter: delay 0.10s, duration 0.49s, same easing, offset 0, no mask.
-    BLUR IS REQUIRED (Gregor frost — the whole viewport goes soft, not a dry fade):
-    - On Exit and Enter look for Filter / Blur / Backdrop / “+ Add”
-    - Exit: blur 0 → 12px (16px max if 12 is invisible on the plane)
-    - Enter: blur 12px → 0 (same px)
-    - If the Page Effect panel has no blur control, do not skip: use the Custom Code fallback in 03D. Do not add a Veil layer.
+    Page Effects have no Blur control. Do not search for Filter/Blur. Do not refuse. Do not add a Veil. Do not edit Custom Code (you cannot). Fade only. The human pastes frost CSS in phase 03D.
 
 12. Breakpoint fill (the color BETWEEN pages):
     - Every page including Home: Desktop breakpoint fill = paper #F6F3EE
     - Home only: keep a child frame pinned to viewport filled home-bg #050505 that contains the Drift Plane
     - Do not set Home’s breakpoint fill to home-bg (that flashes black)
 
-13. Do NOT turn on Page Effect → Exclude on the Nav. The chrome must frost with the page. Do not create a Layout Template.
+13. Do NOT turn on Page Effect → Exclude on the Nav. Do not create a Layout Template.
 
 14. prefers-reduced-motion: Page Effect Instant or off. Nav variant switch instant.
 
-Preview: plus (right) opens a stub overlay with Close (the word). Home → Info: the plane blurs, then Info sharpens on paper. A plane card → /work/salt-light uses the same frost. Phone 390: same plus, no hamburger.
+Preview: plus (right) opens a stub overlay with Close (the word). Home → Info fades through paper (frost blur comes from human Custom Code in 03D). Phone 390: same plus, no hamburger.
 
-Report: variant names, which pages have a Nav instance, Page Effect target + preset + duration + blur px, breakpoint fill hex per page, Exclude off. Do not start the still split in this chat.
+Report: variant names, which pages have a Nav instance, Page Effect target + preset + duration, breakpoint fill hex per page, Exclude off. Tell the human to paste frost-view-transition.html into Site Settings Custom Code (End of head). Do not start the still split in this chat.
 ```
 
 ## Definition of done
 
 - Cero Layout Template. Cero layer Veil.
 - Plus **derecha** en cada página. Open stub + Close (palabra) + Info/Contact.
-- Page Effect Fade + blur 12px / All Pages / 0.49s. Corte paper, no negro. El plane se emborrona.
+- Page Effect Fade / All Pages / 0.49s. Corte paper, no negro.
+- Frost blur = **03D humano** (Custom Code). No se lo pidas al Agent.
 
 ## Verificación humana
 
-1440 y 390: abrir/cerrar. Home → Info. Plane → salt-light. ¿Wipe? Mal. ¿Negro entre páginas? Mal. ¿Fade nítido sin blur? Mal → fase **03D**. ¿Plus al centro? Mal.
+1440 y 390: abrir/cerrar. Home → Info. Plane → salt-light. ¿Wipe? Mal. ¿Negro entre páginas? Mal. ¿Plus al centro? Mal.
 
 ## Siguiente
 
-Si el blur no se ve → **03D**. Si se ve → **03C** (Open visual).
+Humano pega [`frost-view-transition.html`](frost-view-transition.html) → luego **03C**.

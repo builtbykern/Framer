@@ -1,0 +1,29 @@
+<style>
+/* Drift — Gregor frost on page change.
+   Paste in Framer: Site Settings → General → Custom Code → End of <head>.
+   Requires a native Page Effect Fade (All Pages). Preview in Chrome.
+   Do not add a Veil layer. */
+@keyframes drift-frost-out {
+  from { filter: blur(0px); opacity: 1; }
+  to { filter: blur(12px); opacity: 0; }
+}
+@keyframes drift-frost-in {
+  from { filter: blur(12px); opacity: 0; }
+  to { filter: blur(0px); opacity: 1; }
+}
+::view-transition-old(root) {
+  animation: drift-frost-out 0.49s cubic-bezier(0.5, 0, 0.5, 1) both;
+}
+::view-transition-new(root) {
+  animation: drift-frost-in 0.49s cubic-bezier(0.5, 0, 0.5, 1) 0.10s both;
+}
+::view-transition-group(root) {
+  animation-duration: 0.59s;
+}
+@media (prefers-reduced-motion: reduce) {
+  ::view-transition-old(root),
+  ::view-transition-new(root) {
+    animation: none !important;
+  }
+}
+</style>

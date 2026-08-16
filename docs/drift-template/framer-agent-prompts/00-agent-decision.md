@@ -55,7 +55,7 @@ El Agent interno edita el proyecto en el canvas: layers, componentes, CMS, estil
 
 | Skill | Fases | No usar para |
 |---|---|---|
-| **`/layout`** | 01, 04, 03D, 10B | Rediseñar Home con otro hero, 4º breakpoint |
+| `/layout` | 01, 04, 10B | Rediseñar Home con otro hero, 4º breakpoint |
 | `/style` | 01 (si no hay `/layout`) | Nueva paleta después de 01 |
 | `/seo` | 11 | Reescribir H1 de marca |
 | `/audit` | 13A | Empezar el proyecto, pass creativo |
@@ -105,7 +105,7 @@ Help (7 ago 2026): **Sonnet 5, Opus 4.7, GPT 5.5, Fable 5, GPT 5.6 Sol / Terra /
 | Modelo | Help | Aquí |
 |---|---|---|
 | **Sonnet 5** | Layout, edits cotidianos | 01 styles/shells, 06 Info, 08 404, 10, 12 bind Lummi, 13B |
-| **Opus 5** | Plan largo, juicio visual, multi-paso | 03 Home (plane+nav), 03B Page Effect frost, 03C Open visual, 04 detail split, 07 Form, 09B code |
+| **Opus 5** | Plan largo, juicio visual, multi-paso | 03 Home (plane+nav), 03B Page Effect Fade, 03C Open visual, 04 detail split, 07 Form, 09B code |
 | **GPT 5.6 Luna** | CMS + find-replace | 02 Tags/Work/Credits, 05 binds, 09A links |
 | **GPT 5.6 Terra** | Audits, consistency | 11 SEO, 13A hygiene |
 | **GPT 5.5** | Copy-heavy | No hay fase solo-copy; fallback de Luna |
@@ -134,9 +134,9 @@ Fast Mode = Off. Branch = `template-build`. Chat = New Chat.
 | **01** | Color + 5 text styles + shells | **Sonnet 5** | **Higher** | **`/layout`** (o `/style`) |
 | **02** | Tags + Work + Credits (7 / 7 / 21), sin Lummi | **Luna** | **Higher** | **`/cms`** |
 | **03** | Home: Drift Plane + Nav closedOnDark (VALE + plus) | **Opus 5** | **Higher** | **`/component`** |
-| **03B** | Plus derecha + instancias + Page Effect Fade+frost | **Opus 5** | **Higher** | **`/component`** |
+| **03B** | Plus derecha + instancias + Page Effect Fade | **Opus 5** | **Higher** | **`/component`** |
 | **03C** | Open visual: split 33/67 + still a sangre | **Opus 5** | **Higher** | **`/component`** |
-| **03D** | Solo si Fade sin blur: frost Gregor 12px | **Opus 5** | **Higher** | **`/layout`** |
+| **03D** | Frost Gregor: humano pega Custom Code | **—** | **—** | **Humano** |
 | **04** | Work detail split paper/ink | **Opus 5** | **Higher** | **`/layout`** |
 | **05** | Bind campos + Gallery stack | **Luna** | **Higher** | **`/cms`** |
 | **06** | Info: bio + lista de títulos CMS | **Sonnet 5** | **Light** | **Ninguna** |
@@ -151,7 +151,7 @@ Fast Mode = Off. Branch = `template-build`. Chat = New Chat.
 | **13A** | Audit hygiene | **Terra** | **Higher** | **`/audit`** |
 | **13B** | Template Agent Instructions | **Sonnet 5** | **Light** | **Ninguna** |
 
-**03B, 03C, 03D, 09B, 10B, 13B = New Chat aparte.** No reciclar el hilo anterior.
+**03B, 03C, 09B, 10B, 13B = New Chat aparte.** 03D es pegar CSS a mano, no un chat.
 
 ---
 
@@ -168,7 +168,7 @@ Ops típicas en base: small ~50 · large ~100 · página ~150–300.
 | 03 | ~150–240 | Alto (Opus Home) |
 | 03B | ~80–140 | Alto (Opus Page Effect) |
 | 03C | ~120–180 | Alto (Opus Open visual) |
-| 03D | ~40–80 | Medio (solo si falta el blur) |
+| 03D | 0 | Humano (Custom Code) |
 | 04 | ~150–240 | Alto (Opus split) |
 | 05 | ~40–60 | Bajo |
 | 06 | ~30–50 | Bajo |
@@ -195,7 +195,7 @@ Pack sin 09B: **aprox. 1.000–1.800 créditos**. Lo caro es 03, 03B, 03C, 04, 0
 | Inventa hamburger, X, o links Info/Contact en la barra | Stop. New Chat. Canon 00-gregor-nav: plus derecha + Close. |
 | Open es dos palabras en paper vacío, o plus al centro | Stop. New Chat. Fase 03C. Still ~67% a sangre. |
 | Fade negro, Wipe, o un layer Veil / Layout Template | Stop. New Chat. Page Effect Fade + frost + breakpoint paper. |
-| Fade nítido, sin blur en el cambio de página | Stop. New Chat. Fase 03D. Todo el viewport a 12px. |
+| Fade nítido, sin blur en Chrome | Humano pega frost-view-transition.html en Custom Code. No se lo pidas al Agent. |
 | Pone Unsplash o Lummi antes de 12 | Stop. Quita las fotos. Placeholders sólidos. |
 | Reescribe el Drift Plane | Stop. New Chat. Prohibido `/code` hasta 09B. |
 | Fable/Sol/Fast Mode | Apaga. New Chat con el modelo de la matriz. |
