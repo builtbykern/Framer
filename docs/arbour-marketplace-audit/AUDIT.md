@@ -1,6 +1,7 @@
 # Arbour — auditoría tipo reviewer de Framer Marketplace
 
 **Preview:** [https://arbour.framer.website](https://arbour.framer.website)  
+**Corrección en Framer:** prompts del Agent interno (modelo + reasoning + `/` skills) en [framer-agent-prompts/](framer-agent-prompts/)  
 **Fecha:** 16 agosto 2026  
 **Alcance:** sitio publicado (no hay archivo `.framer` en este repo; no se pudo editar el proyecto).  
 **Método:** checklist oficial de Framer + QA en Chrome (desktop 1440×900, tablet 768×1024, mobile 390×844), crawl de enlaces, overlay de navegación, filtros CMS y revisión visual.
