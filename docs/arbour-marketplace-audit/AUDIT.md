@@ -2,25 +2,23 @@
 
 **Preview:** [https://arbour.framer.website](https://arbour.framer.website)  
 **Corrección en Framer:** prompts en [framer-agent-prompts/](framer-agent-prompts/) · restante [REMAINING.md](framer-agent-prompts/REMAINING.md)  
-**Esta pasada:** 16 agosto 2026, ~19:16–19:19 UTC (`Last-Modified` Home: `Sun, 16 Aug 2026 19:16:32 GMT`)  
-**Pasada anterior:** misma fecha, ~18:17 UTC  
+**Esta pasada:** 16 agosto 2026, ~20:18–20:21 UTC (`Last-Modified` Home: `Sun, 16 Aug 2026 20:18:36 GMT`)  
+**Pasada anterior:** misma fecha, ~19:16 UTC  
 **Método:** checklist oficial Framer (Help 7 ago 2026) + Chrome 148 (1440 / 768 / 390), crawl HTTP, overlay, DOM, anchos de `section` vs viewport, revisión visual.
 
 ---
 
-## 0. Delta vs ~18:17 UTC
+## 0. Delta vs ~19:16 UTC
 
-| Hallazgo 18:17 | Ahora (~19:16) |
+| Hallazgo 19:16 | Ahora (~20:18) |
 |---|---|
-| Home → `/neighbourhoods/chelsea` **404** (único interno roto) | **Cerrado.** CTA **SEE RESIDENCES IN THIS AREA** → `/properties`. Cero `href` a `/neighbourhoods/{slug}` en Home / Properties / Neighbourhoods / Notes / About / Contact. La URL suelta sigue 404 (aceptable) |
-| `html lang=""` | **Cerrado.** `lang="en"` |
-| Frognal / Ladbroke / Royal / Colville alt = “Property hero photograph” | **Cerrado.** Alts específicos en los 4 héroes |
-| Contact leftover *DEMO TEMPLATE — … PRIVACY POLICY…* | **Cerrado.** No está en el HTML ni en el body |
-| Notes salta `[ 05 ]`; Home waiting `[ ]` | **Igual.** Featured façade sin número; lista 06, 01, 02, 04, 03, 07. Home waiting sigue `[ ]`. Artículo waiting = **04** |
-| Hover muerto, favicon default, marketing `header: 0`, scrim hero | **Igual.** Nota: **detail de Notes ya tiene `header: 1`**; Home / Properties / Neighbourhoods / Notes index / About / Contact / 404 siguen en 0 |
-| Neighbourhoods lleno; full-bleed 1440; overlay demo; coords únicas | Igual (bien) |
+| Home CTA → `/properties`; cero `href` a `/neighbourhoods/{slug}` | **Igual.** `/neighbourhoods/chelsea` sigue 404 si se escribe a mano |
+| `lang=en`; 4 alts de properties; Privacy fuera | **Igual** |
+| Notes salta `[ 05 ]`; Home waiting `[ ]`; artículo **04** | **Igual.** Featured façade sin número; lista 06, 01, 02, 04, 03, 07 |
+| Hover muerto, favicon default, marketing `header: 0`, scrim hero | **Igual.** Notes detail `header: 1`. H1 Home sigue `rgb(252, 250, 244)` sobre el cielo |
+| Neighbourhoods 2/2/1/1; full-bleed; overlay demo | Igual (bien) |
 
-**Scorecard ~8.0 → ~8.5 / 10.** El blocker de Links cayó. Sigue sin Featured: numeración CMS, hover, favicon, landmark en marketing, contraste del hero.
+Los 4 prompts restantes **no se aplicaron** (o no publicaron). **Scorecard ~8.5 / 10**, sin movimiento. Sigue sin Featured.
 
 ---
 
@@ -42,7 +40,7 @@ Hasta Framer 3.0: 3 breakpoints, 404, CMS único, cero overflow, `lang`, favicon
 
 **No Featured.** Ya no hay un 404 enlazado. El hueco es calidad de listing (CMS number, hover, favicon, `header` en páginas de marketing, scrim).
 
-| Categoría | 18:17 | Ahora | Por qué |
+| Categoría | 19:16 | Ahora | Por qué |
 |---|---|---|---|
 | Originality | 8.0 | 8.0 | |
 | Design | 8.0 | 8.0 | 404 custom bien. Favicon default |
@@ -56,7 +54,7 @@ Hasta Framer 3.0: 3 breakpoints, 404, CMS único, cero overflow, `lang`, favicon
 | Tags | 6.0 | **7.0** | `lang=en`. Marketing `header: 0`. Notes detail `header: 1` |
 | Accessibility | 6.0 | **6.5** | Lang + form labels. Scrim hero pendiente |
 | Copyright | 6.5 | 6.5 | |
-| **Media auditables** | **~8.0** | **~8.5 / 10** | **Changes requested. No Featured.** |
+| **Media auditables** | **~8.5** | **~8.5 / 10** | **Sin movimiento. Changes requested. No Featured.** |
 
 ---
 
@@ -141,7 +139,7 @@ Favicon `default-favicon-light.v1.png`. Home / Properties / Neighbourhoods / Not
 
 `screenshots/`: home 1440/768/390, `neighbourhoods-desktop` (directory `scrollY ≈ 900`), tablet/mobile, properties, Cheyne/Bibury, nav overlay, waiting, 404, `neighbourhoods-chelsea-404-desktop`.
 
-Crawl: `/tmp/arbour-audit/reaudit-1916.json`.
+Crawl: `/tmp/arbour-audit/reaudit-2018.json`.
 
 ---
 

@@ -1,6 +1,8 @@
-# Remaining prompts — credit-tight (19:16 live)
+# Remaining prompts — credit-tight (20:18 live)
 
 Live: https://arbour.framer.website · score **~8.5**. Still not Featured.
+
+El republish de las 20:18 **no cerró** ninguno de estos cuatro jobs. Mismos prompts. No re-correr lo ya cerrado.
 
 ## Cómo no quemar créditos
 
