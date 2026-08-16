@@ -26,8 +26,9 @@ No hay un prompt “haz la template perfecta”. Un job por chat.
 | 01 | [`01-system-shells.md`](01-system-shells.md) | Styles + páginas vacías |
 | 02 | [`02-cms-work.md`](02-cms-work.md) | Tags, Work, Credits (7 / 7 / 21), placeholders |
 | 03 | [`03-home-plane.md`](03-home-plane.md) | Drift Plane + Nav VALE + plus derecha |
-| 03B | [`03b-nav-veil.md`](03b-nav-veil.md) | Instancias + Page Effect Fade (Open stub) |
+| 03B | [`03b-nav-veil.md`](03b-nav-veil.md) | Instancias + Page Effect Fade+frost (Open stub) |
 | 03C | [`03c-nav-open-visual.md`](03c-nav-open-visual.md) | Open visual: Coad 33/67 + still |
+| 03D | [`03d-page-frost.md`](03d-page-frost.md) | Solo si el Fade no emborrona: frost Gregor |
 | 04 | [`04-detail-split.md`](04-detail-split.md) | Split paper, gallery stack |
 | 05 | [`05-bind-detail.md`](05-bind-detail.md) | Binds CMS |
 | 06 | [`06-info.md`](06-info.md) | Bio + lista de títulos |

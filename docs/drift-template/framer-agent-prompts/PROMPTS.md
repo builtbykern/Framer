@@ -255,20 +255,24 @@ B. PAGE EFFECT (native, once)
 
 11. Exit: duration 0.49s, easing cubic-bezier(0.5, 0, 0.5, 1), offset 0, no mask.
     Enter: delay 0.10s, duration 0.49s, same easing, offset 0, no mask.
-    If Blur/Filter exists: Exit 0→12px, Enter 12→0px. If it does not exist, skip blur.
+    BLUR IS REQUIRED (Gregor frost — the whole viewport goes soft, not a dry fade):
+    - On Exit and Enter look for Filter / Blur / Backdrop / “+ Add”
+    - Exit: blur 0 → 12px (16px max if 12 is invisible on the plane)
+    - Enter: blur 12px → 0 (same px)
+    - If the Page Effect panel has no blur control, do not skip: use the Custom Code fallback in 03D. Do not add a Veil layer.
 
 12. Breakpoint fill (the color BETWEEN pages):
     - Every page including Home: Desktop breakpoint fill = paper #F6F3EE
     - Home only: keep a child frame pinned to viewport filled home-bg #050505 that contains the Drift Plane
     - Do not set Home’s breakpoint fill to home-bg (that flashes black)
 
-13. If a Nav instance has Page Effect → Exclude, turn it on. If that control does not exist, leave it. Do not create a Layout Template to get Exclude.
+13. Do NOT turn on Page Effect → Exclude on the Nav. The chrome must frost with the page. Do not create a Layout Template.
 
 14. prefers-reduced-motion: Page Effect Instant or off. Nav variant switch instant.
 
-Preview: plus (right) opens a stub overlay with Close (the word). Home → Info fades through paper. A plane card → /work/salt-light uses the same Fade. Phone 390: same plus, no hamburger.
+Preview: plus (right) opens a stub overlay with Close (the word). Home → Info: the plane blurs, then Info sharpens on paper. A plane card → /work/salt-light uses the same frost. Phone 390: same plus, no hamburger.
 
-Report: variant names, which pages have a Nav instance, Page Effect target + preset + duration, breakpoint fill hex per page, whether Exclude existed. Do not start the still split in this chat.
+Report: variant names, which pages have a Nav instance, Page Effect target + preset + duration + blur px, breakpoint fill hex per page, Exclude off. Do not start the still split in this chat.
 ```
 
 ---
@@ -296,7 +300,7 @@ This is not a clone.
 - Drift: paper #F6F3EE + ink #111111. Mark / Display / Lead / Label only. Radius 0.
 
 Do not restyle closed variants except: plus must sit TOP-RIGHT on both closedOnDark and closedOnLight (not center). Empty center. VALE stays left.
-Do not touch Drift Plane, CMS, Info/Contact/404 page layouts, or the native Page Effect. If Fade All Pages already exists, leave it.
+Do not touch Drift Plane, CMS, Info/Contact/404 page layouts, or the native Page Effect timing. If Fade + frost blur already exists, leave it. Do not strip the blur.
 Do not create a Layout Template. Do not add a Veil layer. Do not use Unsplash.
 
 FAIL if any of these are true when you finish:
@@ -356,6 +360,80 @@ MOTION (component variants only)
 Preview at 1440: plus (right) → a photograph fills two-thirds; type lives in a paper column; Close is a word on the still. At 390: still on top, type below. Then close. Home must still be the Drift Plane.
 
 Report: open layout (column widths or phone stack), menuStill variable, Close treatment, whether plus moved to the right, confirm Page Effect was not rewritten.
+```
+
+---
+
+## 03D — Page Effect frost (blur Gregor)
+
+| | |
+|---|---|
+| **Modelo** | Opus 5 |
+| **Reasoning** | Higher |
+| **Esfuerzo** | Medio (~40–80) |
+| **Skill** | `/layout` |
+| **@** | Home Desktop 1440 (la página) |
+
+Si el Fade ya existe **sin** blur, este chat lo añade. No rediseñar Nav. Archivo: [03d-page-frost.md](03d-page-frost.md).
+
+```
+/layout
+
+ONE JOB: make the page transition Gregor frost. The WHOLE viewport goes to blur while pages change. Do not redesign Nav. Do not touch Drift Plane layout. Do not create a Layout Template. Do not add a Veil layer. Do not use Wipe, Slide, Push, Blinds, Circular, Zigzag, or Inset.
+
+Reference (behavior only): gregorcollienne.com page change — the entire site frosts (blur ~12px) over a light fill, ~0.49s, then the next page sharpens. Drift fill is paper #F6F3EE, not white, not black.
+
+FAIL if preview is only an opacity fade (sharp photos cutting to the next page). FAIL if the flash between pages is black. FAIL if you add an overlay frame named Veil.
+
+A. NATIVE PAGE EFFECT (do this first)
+
+1. Pages panel → Home. Select Desktop 1440 (the page / breakpoint itself).
+
+2. Right sidebar → Effects → the existing Page Effect (add one only if missing).
+   - Target: All Pages
+   - Preset: Fade / Crossfade
+   - Exit: duration 0.49s, easing cubic-bezier(0.5, 0, 0.5, 1), offset 0, no mask
+   - Enter: delay 0.10s, duration 0.49s, same easing, offset 0, no mask
+
+3. BLUR IS REQUIRED. On the same Page Effect, add Filter / Blur (look under Exit and Enter: “+”, “Add”, Filter, Blur, Backdrop, Frost — any of those names):
+   - Exit: blur 0px → 12px (if 12 is barely visible on the Home plane, use 16px, never above 16)
+   - Enter: blur 12px → 0px (same px as Exit)
+   - Same duration and easing as the fade. The outgoing page must go soft; the incoming page must start soft and sharpen.
+
+4. Do NOT turn on Page Effect → Exclude on the Nav. Everything including VALE / plus must frost. “Todo” means the whole viewport.
+
+5. Breakpoint fill on every page including Home = paper #F6F3EE. Home keeps an inner viewport frame filled home-bg #050505 for the Drift Plane. That inner frame is what blurs; the paper fill is the frost color between pages.
+
+B. ONLY IF THE PAGE EFFECT PANEL HAS NO BLUR / FILTER CONTROL
+
+6. Keep the Fade Page Effect (it creates the view transition). Then Site Settings → Custom Code → end of <head>, this exact CSS and nothing else (no extra libraries):
+
+<style>
+@keyframes drift-frost-out {
+  from { filter: blur(0px); }
+  to { filter: blur(12px); }
+}
+@keyframes drift-frost-in {
+  from { filter: blur(12px); }
+  to { filter: blur(0px); }
+}
+::view-transition-old(root) {
+  animation: drift-frost-out 0.49s cubic-bezier(0.5, 0, 0.5, 1) both;
+}
+::view-transition-new(root) {
+  animation: drift-frost-in 0.49s cubic-bezier(0.5, 0, 0.5, 1) 0.10s both;
+}
+</style>
+
+Do not add a full-screen overlay frame. Do not edit Drift Plane source.
+
+C. REDUCED MOTION
+
+7. prefers-reduced-motion: Page Effect Instant or off; no blur.
+
+Preview in Chrome (Page Effects are view-transition based): Home → Info, then a plane card → /work/salt-light. The stills must go blurry, then the next page comes out of blur on paper. Phone 390: same frost.
+
+Report: whether blur was set on the Page Effect (property names + px) or via Custom Code; Exclude on Nav (must be off); breakpoint fill hex; confirm no Veil layer.
 ```
 
 ---
@@ -548,7 +626,7 @@ For each Featured Work item (all 7), one card:
 - Title = Title
 - Link = that item’s CMS detail URL (/work/salt-light, /work/the-waiting-room, /work/glass-hours, /work/inland-signal, /work/after-the-sitting, /work/red-room-brief, /work/night-atlas)
 
-Click (not drag) must navigate to the detail page. No project overlay, lightbox, or modal. Do not remove the Nav (plus / Close). The Page Effect Fade must play on that click.
+Click (not drag) must navigate to the detail page. No project overlay, lightbox, or modal. Do not remove the Nav (plus / Close). The Page Effect Fade + frost blur must play on that click.
 
 If the component only has a generic Link per card, set those seven links. If it has a single “open” overlay, turn overlay off.
 
@@ -750,7 +828,7 @@ Scan for:
 - Hardcoded colors that should be the five color styles
 - Leftover Unsplash or “My Framer Site”
 - Creator promo / framer.com/@ links
-- Performance: uncompressed giants, blur >12 except optional Page Effect blur
+- Performance: uncompressed giants, blur >16 except the Page Effect frost (12–16px)
 
 Fix what you can without visual change. Report what you fixed and what needs a human.
 
@@ -775,7 +853,7 @@ Do not edit the canvas look. Write Template Agent Instructions for buyers of Dri
 Tell future in-canvas Agents:
 - Preserve Drift Plane as the only Home content (plus Nav + hint). Do not add a second hero, a work grid on Home, video, lightbox, or overlay viewer
 - Preserve Nav: a component instance on each page (no Layout Template). Closed: VALE left + plus right (not center). Open: Coad-like 33/67 — type on paper left, full-bleed still right; plus becomes the word Close (Label, paper on the still), never an X. Overlay links are Info and Contact only.
-- Preserve the native Page Effect: Fade, Target All Pages, 0.49s. Breakpoint fill paper #F6F3EE on every page (Home’s inner canvas stays home-bg). No Wipe, no black fade, no Veil layer, no Layout Template
+- Preserve the native Page Effect: Fade + frost blur 12px, Target All Pages, 0.49s. Breakpoint fill paper #F6F3EE on every page (Home’s inner canvas stays home-bg). Nav is not Excluded — the whole viewport frosts. No Wipe, no black fade, no Veil layer, no Layout Template
 - Preserve the visual system: five colors (home-bg #050505, paper #F6F3EE, ink #111111, muted #6B6B6B, line #D9D4CC); five text styles Mark/Display/Lead/Body/Label (Syne ExtraBold, Inter Regular, IBM Plex Mono Medium). Radius 0 (chips 2px). No shadows, no accent, no pixel fonts, no #FFF/#000
 - Preserve the Work detail split (sticky ~33% info / ~67% stacked uncropped gallery) on paper/ink. Home stays home-bg. Do not invert that. Gallery gap 0
 - Exactly 3 breakpoints. No Index, Privacy, or Journal unless the buyer explicitly asks

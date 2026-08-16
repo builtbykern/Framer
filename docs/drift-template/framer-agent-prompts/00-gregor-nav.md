@@ -2,7 +2,7 @@
 
 Referencia de **comportamiento** (overlay desde un plus, no una ruta): [gregorcollienne.com](https://gregorcollienne.com). Referencia de **estructura Open**: split ~33/67 tipo Ian Coad (la foto manda). No copiar Neue Rational, la X, Overview/Work, plus centrado, sidebar negra, ni copyright.
 
-Fases: **03** chrome cerrado · **03B** instancias + Page Effect Fade · **03C** Open visual (still a sangre).
+Fases: **03** chrome cerrado · **03B** instancias + Page Effect Fade+frost · **03C** Open visual · **03D** solo frost si el Fade ya existía sin blur.
 
 **Prohibido:** Layout Templates. Un layer “Veil”. Hamburger. Icono X. Wipe / Slide / Push.
 
@@ -46,13 +46,15 @@ No hay layer velo. No hay layout template.
 5. Preset: **Fade** (o Crossfade). Nunca Wipe, Slide, Push, Blinds, Circular, Zigzag, Inset.
 6. Exit: duration **0.49s**, easing `cubic-bezier(0.5, 0, 0.5, 1)`, offset **0**.
 7. Enter: delay **0.10s**, duration **0.49s**, misma curva, offset **0**.
-8. Si el panel tiene Blur/Filter: Exit 0→12, Enter 12→0. Si no existe, Fade + fill paper basta.
+8. **Blur obligatorio (frost Gregor).** Todo el viewport se emborrona, no un fade seco.
+   - Exit: Filter/Blur **0 → 12px** (máx. 16 si 12 no se ve en el plane).
+   - Enter: **12px → 0**, mismo px.
+   - Si el Page Effect no tiene Blur: fallback CSS `::view-transition-*` en fase **03D**. Nunca un layer Veil.
+9. Nav **sin** Page Effect Exclude: el chrome también entra en el frost.
 
 El color que se ve **entre** páginas es el **fill del breakpoint**, no el del canvas interior.
 
 - Breakpoint de **todas** las páginas (Home incluida): fill **`paper` `#F6F3EE`**.
 - Home: un frame interior a viewport fill **`home-bg`**, con el Drift Plane dentro. Así el corte es escarcha paper, no negro.
 
-Si el Nav tiene control **Page Effect → Exclude**, actívalo. Si no existe, el Nav se funde con la página. **No** crees un Layout Template para conseguir Exclude.
-
-`prefers-reduced-motion`: Page Effect off o Instant.
+`prefers-reduced-motion`: Page Effect off o Instant (sin blur).

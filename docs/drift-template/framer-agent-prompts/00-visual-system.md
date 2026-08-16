@@ -29,7 +29,7 @@ La foto (cuando exista) va **a sangre en su columna**, sin marco, sin overlay de
 | `muted` | `#6B6B6B` | 107 107 107 | Labels, hint, dt, placeholders |
 | `line` | `#D9D4CC` | 217 212 204 | Rules 1px, chips, underline de inputs |
 
-Prohibido: acento (naranja, azul Framer, verde), blanco puro `#FFF` (usar `paper`), negro puro `#000` (usar `home-bg`), sombras, blurs > 8px, glass, gradientes de marca. El único degradado permitido: Nav Home, `home-bg` 70% → transparente en ~88px de alto, para leer VALE sobre las fotos.
+Prohibido: acento (naranja, azul Framer, verde), blanco puro `#FFF` (usar `paper`), negro puro `#000` (usar `home-bg`), sombras, glass, gradientes de marca. Blur de UI/cards: no. Excepción: Page Effect frost 12px (máx. 16) en el cambio de página. El único degradado permitido: Nav Home, `home-bg` 70% → transparente en ~88px de alto, para leer VALE sobre las fotos.
 
 Contraste: `ink` sobre `paper` y `paper` sobre `home-bg` pasan AA para Body y Label.
 
@@ -139,13 +139,13 @@ Weights: no Regular en Syne para títulos; no Bold en Inter (el énfasis es tama
 | Drift Plane phone | Un eje + snap |
 | Nav plus → Close | Variant `open`. Transition 0.79s, `cubic-bezier(0.77, 0, 0.175, 1)` |
 | Nav overlay | Variant `open`: split 33/67, still a sangre a la derecha. No Layout Template |
-| Cambio de página | **Page Effect** Fade, Target All Pages, 0.49s, `cubic-bezier(0.5, 0, 0.5, 1)`, delay enter 0.10s. Breakpoint fill = `paper`. Cero Wipe/Slide. Cero layer Veil |
+| Cambio de página | **Page Effect** Fade + **blur 12px** (frost Gregor), Target All Pages, 0.49s, `cubic-bezier(0.5, 0, 0.5, 1)`, delay enter 0.10s. Breakpoint fill = `paper`. Nav no Exclude. Cero Wipe/Slide. Cero layer Veil |
 | `prefers-reduced-motion` | Sin idle drift; snap estático; overlay instantánea; Page Effect Instant; sin flip |
 | Páginas paper (contenido) | Estáticas. Cero scroll-scrub, ken burns, parallax, stagger de galería |
 | Hover Desktop | Opacidad ~0.7 en links. Plane cards: el hover que ya traiga el componente |
 | Phone | Hover off |
 
-Nada de Lottie, shaders, Layout Templates, ni layer Veil. Blur solo si el Page Effect lo ofrece (12px). No blur CSS sobre la gallery del detail.
+Nada de Lottie, shaders, Layout Templates, ni layer Veil. El único blur permitido: Page Effect frost **12px** (máx. 16) en el cambio de página. No blur CSS sobre la gallery del detail.
 
 ---
 
