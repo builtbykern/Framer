@@ -1,139 +1,131 @@
-# Remaining Framer Agent prompts — after 18:17 UTC re-audit
+# Remaining prompts — credit-tight (18:17 live)
 
-Live site: https://arbour.framer.website  
-Last-Modified: **Sun, 16 Aug 2026 18:17:47 GMT**  
-Score: **~8.0 / 10**. Still not Featured.
+Live: https://arbour.framer.website · score **~8.0**. Still not Featured.
 
-**Closed since 16:30 (do not re-run):**
+## Cómo no quemar créditos
 
-- Neighbourhoods filled: 2×2 grid, street copy, honest counts **2 / 2 / 1 / 1**, featured Cheyne / Ladbroke / Frognal / Bibury, CTA → `/properties`.
-- Section backgrounds **1440px** on Properties (including charcoal stats) and Neighbourhoods hero. Directory inner measure **72px**.
-- Contact journal binding, unique coords, Cheyne=Thames, Bibury=honey-stone, Home rooms `(01)(02)(03)` + VIEW, waiting article body `[04]`.
+1. **New Chat** cada bloque. Fast Mode **Off**. Reasoning **Light** (nunca Higher).
+2. Pega **solo** el bloque entre `---`. **No** pegues `00-constraints.md`. **No** pegues esta guía.
+3. **Antes** de enviar: `@` la página y **selecciona el layer** que dice el picker. El Agent sin layer rastrea el proyecto entero.
+4. Si acaba el job, **para**. No “y también revisa el resto”.
+5. **No** crear páginas. **No** `/code`. **No** Fable 5 / GPT 5.6 Sol.
 
-**Still open.** Five prompts. **Do not create** `/neighbourhoods/{slug}` pages. **Do not create** a Privacy page.
+Modelos baratos: **Luna 0.4×** · **Sonnet 5 0.6×**. Si no hay Luna → Sonnet 5 Light (no GPT 5.5).
 
-Copy from `---` to `---`. Paste into the **in-canvas Agent tab**. One prompt per turn. **Higher** on all five.
-
----
-
-## 01 — Kill the last 404 (blocker)
-
-**Skill:** none  
-**Model:** GPT 5.5  
-**Reasoning:** Higher  
-**Effort vs GPT 5.5:** 1×  
-**Why this model:** Surgical unlink. Creating `/neighbourhoods/chelsea` is forbidden.
+Cerrado (no re-correr): Neighbourhoods lleno, full-bleed 1440, coords/rooms, waiting con cuerpo.
 
 ---
 
-On **Home only**. Do **not** create `/neighbourhoods/chelsea`, `/neighbourhoods/notting-hill`, `/neighbourhoods/hampstead`, `/neighbourhoods/the-cotswolds`, or any other new page.
+## 01 — Un href (blocker)
 
-The button **SEE RESIDENCES IN THIS AREA** still points at **`/neighbourhoods/chelsea`**, which **404s**. That is the only broken internal URL on the live site.
-
-1. Change that button so it goes to the **existing** `/neighbourhoods` page. If the overlay already highlights Chelsea, keep that. If Framer cannot deep-link a filter, `/neighbourhoods` is enough.
-2. Scan the **whole project** for `href` containing `/neighbourhoods/chelsea`, `/neighbourhoods/notting-hill`, `/neighbourhoods/hampstead`, `/neighbourhoods/the-cotswolds`, or `/neighbourhoods/cotswolds`. Change every match to `/neighbourhoods` or `/properties`. **Zero** remaining hrefs to those paths.
-3. Publish. Confirm `/neighbourhoods/chelsea` is no longer linked from Home. Hitting that URL in the address bar may still 404 — that is acceptable. It must not be linked.
-
-Do not edit Neighbourhoods copy. Do not create pages.
+**Picker:** GPT 5.6 Luna · Light · sin skill · Fast Off  
+**@** `Home` · selecciona el botón **SEE RESIDENCES IN THIS AREA** (Territories)  
+**Esfuerzo:** 0.4×
 
 ---
 
-## 02 — Notes numbers 01–07, Home journal number bound
-
-**Skill:** `/cms`  
-**Model:** GPT 5.5  
-**Reasoning:** Higher  
-**Effort vs GPT 5.5:** 1×  
-**Why this model:** CMS field + collection list. Home waiting number is now **empty** (`[ ]`).
+On Home, the selected button "SEE RESIDENCES IN THIS AREA" has href `/neighbourhoods/chelsea`. Change that href to `/neighbourhoods`. Do not create pages. Do not edit copy. Stop.
 
 ---
 
-The seven published Notes must read **`[01]` `[02]` `[03]` `[04]` `[05]` `[06]` `[07]`** in collection order. There must be **no skipped number**.
+## 02 — Número 05 + bind Home
 
-Live `/notes` shows **`[07 ENTRIES]`** but the list is **`[06]` `[01]` `[02]` `[04]` `[03]` `[07]`** plus a featured **façade** item with **no number**. **`[05]` is missing.** There is no `[08]`.
-
-Also: Home journal still lists **The case for waiting.** The number next to that title is now **`[ ]` empty**, not `[04]` and not `[06]`. The waiting **article** is `[04]`. Bind the Home number to the same CMS number field as `/notes`. It must never render empty brackets.
-
-1. Open the Notes CMS. Check the number / index field on all seven published items.
-2. Re-number so published items are **01 through 07** with **no gap**. Unpublished items (including mews) must **not** consume a number in that sequence.
-3. Bind **every** Notes collection list — `/notes`, Home journal, Contact journal if it shows numbers — to that **same** field. Preview Home: waiting must show **`[04]`** (or whatever number the waiting item actually has after re-numbering), never `[ ]`.
-4. Publish. Confirm `/notes` is 01–07 with no skip, and Home waiting is not empty.
-
-Do not create or delete Notes. Do not change titles or body copy except the number field.
+**Picker:** GPT 5.6 Luna · Light · `/cms` · Fast Off  
+**@** collection **Notes** + lista journal de `Home`  
+**Esfuerzo:** 0.4×
 
 ---
 
-## 03 — lang, favicon, alts
-
-**Skill:** none  
-**Model:** Sonnet 5  
-**Reasoning:** Higher  
-**Effort vs GPT 5.5:** 0.6×  
-**Why this model:** Site Settings + alt text. Cheap.
+/cms
+1. Notes item "Reading a façade as a ledger of ownership." — set its number/index field to 05. It currently has none.
+2. Home journal card "The case for waiting." shows "[ ]". Bind that number to the same Notes number field used on /notes. That item is 04.
+Do not add, delete, unpublish, or rename notes. Do not retitle. Stop.
 
 ---
 
-Three Site Settings / CMS image jobs. Do not redesign.
+## 03 — lang=en
 
-1. Set the root `<html lang>` to **`en`**. It is still empty (`lang=""`).
-2. Replace the default Framer favicon (`default-favicon-light.v1.png`) with a 32×32 (and 180×180 apple) mark on cream `#F9F8F3`. Use an existing Arbour asset if one exists. Do not invent a new logo system.
-3. Notes CMS images that still use generic alt **Property hero photograph** must get a specific alt. At minimum fix: **A long afternoon in Frognal**, **The value of a quiet street (Ladbroke)**, **When a house is already a home (Royal Avenue)**, **What Colville Mews still teaches**. Do not use the same alt on two different photos.
-
-Publish. Confirm `document.documentElement.lang === "en"` and the favicon URL no longer contains `default-favicon`.
+**Picker:** GPT 5.6 Luna · Light · `/seo` solo si está en el menú `/` · Fast Off  
+**@** Site Settings  
+**Esfuerzo:** 0.4×
 
 ---
 
-## 04 — Hover and pressed on primary CTAs
-
-**Skill:** none  
-**Model:** GPT 5.5  
-**Reasoning:** Higher  
-**Effort vs GPT 5.5:** 1×  
-**Why this model:** Variant / interaction pass. Hover is still a no-op on live CTAs.
+Site Settings: set site language to English so html lang is `en`. Change nothing else. Stop.
 
 ---
 
-Desktop hover and pressed are still missing on primary text links. Do not restyle the rest of the template.
+## 04 — Cuatro alts
 
-1. **EXPLORE THE COLLECTION** (Home hero), **VIEW ALL RESIDENCES**, **VIEW ALL NOTES** — hover: 1px underline, or opacity **0.55**, 150–200ms. Pressed: opacity **0.4** or 1px downward shift. Keyboard focus: 1px outline, offset 2px, `#1A1A1A` on cream / `#F9F8F3` on dark.
-2. Apply the **same** hover to property cards and note cards that are links.
-3. **Phone** in the overlay: keep it **not** a link. No hover, no cursor pointer.
-4. Do not add color fills, shadows, or scale on these links.
-
-Publish. Confirm `getComputedStyle` underline or opacity changes on hover for EXPLORE.
+**Picker:** GPT 5.6 Luna · Light · `/cms` · Fast Off  
+**@** estos 4 items Properties (hero image)  
+**Esfuerzo:** 0.4×
 
 ---
 
-## 05 — Landmark, hero scrim, leftover demo line
-
-**Skill:** none  
-**Model:** Sonnet 5  
-**Reasoning:** Higher  
-**Effort vs GPT 5.5:** 0.6×  
-**Why this model:** Landmark + contrast + leftover string. Cheap.
-
----
-
-Three leftover quality items. Do not create pages.
-
-1. Wrap the top bar on Home, Properties, Neighbourhoods, Notes, Contact, and 404 in a semantic **`header`**. `document.querySelectorAll("header").length` must be **≥ 1** on those URLs. It is currently **0**.
-2. Home and Properties heroes: add a **bottom scrim** (black **40–55%** → transparent, ~40% of hero height) so the white serif title meets **WCAG 4.5:1** against the photo. Do not wash the whole image.
-3. Search the project for the leftover sentence **DEMO TEMPLATE — REPLACE THIS NOTE WITH YOUR PRIVACY POLICY BEFORE PUBLISHING.** It is still **visible on Contact**, next to the journal subscribe stack. Delete that text wherever it appears. **Do not** create `/privacy`.
-
-Publish.
+/cms
+Replace alt "Property hero photograph" on these four property heroes only:
+- Frognal Georgian Villa → "Brick Georgian villa on Frognal, Hampstead, with garden"
+- Ladbroke Grove Garden House → "Notting Hill townhouse on Ladbroke Grove with garden front"
+- Royal Avenue Lateral Apartment → "Lateral apartment façade on Royal Avenue, Chelsea"
+- Colville Mews House → "Brick mews house on Colville Terrace, Notting Hill"
+Do not change photos. Stop.
 
 ---
 
-## Optional (human, not Agent)
+## 05 — Hover en 3 links de Home
 
-After 01–05: Framer **Performance** panel plus PageSpeed / Lighthouse on `https://arbour.framer.website`. Agent cannot see Lighthouse. Target Performance **≥ 90** and no layout shift on the Home hero.
+**Picker:** Sonnet 5 · Light · `/component` · Fast Off  
+**@** `Home` · selecciona `EXPLORE →`, `VIEW ALL →`, `VIEW ALL NOTES →`  
+**Esfuerzo:** 0.6×
 
-Optional later: Neighbourhoods **VIEW RESIDENCES IN THIS AREA** could preselect the Properties AREA filter. Not required to close the 404.
+---
 
-## Do not run
+/component
+On the three selected Home links (EXPLORE →, VIEW ALL →, VIEW ALL NOTES →): add Hover opacity 0.55 (180ms) and Pressed opacity 0.4. If they share one component, edit it once. Do not change color, type, size, or any other layer. Stop.
 
-- Fast Mode, `/code`, Fable 5, GPT 5.6 Sol.
-- Creating `/neighbourhoods/chelsea` or any other new page.
-- Creating `/privacy`.
-- Changing Fraunces, Space Mono, cream `#F9F8F3`, or ~72px page padding.
-- Re-filling Neighbourhoods or re-doing full-bleed section backgrounds — those are done.
+---
+
+## 06 — Tag header (un componente)
+
+**Picker:** Sonnet 5 · Light · `/layout` solo si está en el menú `/` · Fast Off  
+**@** el componente nav / top bar compartido · selecciona su frame raíz  
+**Esfuerzo:** 0.6×
+
+---
+
+Set the selected shared top-bar component root to HTML tag `header`. Do not duplicate it. Do not edit other pages. Stop.
+
+---
+
+## 07 — Scrim solo Home hero
+
+**Picker:** Sonnet 5 · Light · sin skill · Fast Off  
+**@** `Home` · selecciona el hero (foto + título blanco)  
+**Esfuerzo:** 0.6×
+
+---
+
+On the selected Home hero only: add a bottom gradient overlay, black 50% at the bottom to transparent at ~40% height, so the white title stays readable. Do not change the photo, type, or other pages. Stop.
+
+---
+
+## 08 — Una frase en Contact
+
+**Picker:** GPT 5.6 Luna · Light · sin skill · Fast Off  
+**@** `Contact` · selecciona el texto junto a SUBSCRIBE  
+**Esfuerzo:** 0.4×
+
+---
+
+On Contact, delete the text layer that says exactly: DEMO TEMPLATE — REPLACE THIS NOTE WITH YOUR PRIVACY POLICY BEFORE PUBLISHING. Do not create a /privacy page. Do not edit the form. Stop.
+
+---
+
+## Fuera del Agent
+
+- Favicon: si no hay un mark cuadrado ya en Assets, **no** pidas uno al Agent (diseña/sube tú). El default `default-favicon-light.v1.png` es humano.
+- Neighbourhoods CTA → prefiltro AREA: no. El 404 se cierra en **01**.
+- Lighthouse / Performance panel: humano.
+
+**Total Agent si Luna está:** ~3.6× un GPT 5.5. Antes: 5 chats Higher (varios a 1×) + constraints + “scan the whole project”.
