@@ -119,7 +119,7 @@ Weights: no Regular en Syne para títulos; no Bold en Inter (el énfasis es tama
 
 **Sombras:** ninguna.
 
-**Nav:** componente, una instancia por página (no Layout Template). Fixed. Cerrado: VALE izquierda + plus centro. Abierto: variant `open`, overlay paper, plus → palabra **Close**. Cambio de página: Page Effect Fade All Pages. Canon: [`00-gregor-nav.md`](00-gregor-nav.md).
+**Nav:** componente, una instancia por página (no Layout Template). Cerrado: VALE izquierda + plus **derecha**. Abierto: split 33/67, still a sangre, **Close** (palabra). Canon: [`00-gregor-nav.md`](00-gregor-nav.md).
 
 **Hint Home:** Label, `muted`, bottom 24 left 28, `pointer-events: none`.
 
@@ -138,7 +138,7 @@ Weights: no Regular en Syne para títulos; no Bold en Inter (el énfasis es tama
 | Drift Plane desktop | Pan + idle drift (el componente) |
 | Drift Plane phone | Un eje + snap |
 | Nav plus → Close | Variant `open`. Transition 0.79s, `cubic-bezier(0.77, 0, 0.175, 1)` |
-| Nav overlay | Variant del componente. Paper a viewport. No Layout Template |
+| Nav overlay | Variant `open`: split 33/67, still a sangre a la derecha. No Layout Template |
 | Cambio de página | **Page Effect** Fade, Target All Pages, 0.49s, `cubic-bezier(0.5, 0, 0.5, 1)`, delay enter 0.10s. Breakpoint fill = `paper`. Cero Wipe/Slide. Cero layer Veil |
 | `prefers-reduced-motion` | Sin idle drift; snap estático; overlay instantánea; Page Effect Instant; sin flip |
 | Páginas paper (contenido) | Estáticas. Cero scroll-scrub, ken burns, parallax, stagger de galería |
@@ -184,6 +184,7 @@ Alts: `Still from {Title}, {one factual noun phrase}.` Nunca “image1”.
 
 - Template fotógrafo wedding / masonry / lightbox.
 - Portfolio DP con sidebar negra y display pixel (la captura es **estructura**, no paleta).
-- Copia de Gregor: no Neue Rational, no X, no Overview/Work. Sí el plus, el overlay paper y el velo blur.
+- Copia de Gregor: no Neue Rational, no X, no Overview/Work, no plus centrado. Overlay sí; Open es split visual (still), no paper vacío.
+- Copia de Coad: no sidebar negra, no pixel font. Sí el 33/67 y que la foto mande.
 - Agencia con grid de cases y hover de vídeo.
 - Dark mode en Info/Contact/detail.

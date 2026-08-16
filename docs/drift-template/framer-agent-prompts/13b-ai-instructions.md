@@ -26,7 +26,7 @@ Do not edit the canvas look. Write Template Agent Instructions for buyers of Dri
 
 Tell future in-canvas Agents:
 - Preserve Drift Plane as the only Home content (plus Nav + hint). Do not add a second hero, a work grid on Home, video, lightbox, or overlay viewer
-- Preserve Nav: a component instance on each page (no Layout Template). VALE left + plus center when closed; variant open = full-viewport paper overlay; plus becomes the word Close (Label), never an X or hamburger. Overlay links are Info and Contact only
+- Preserve Nav: a component instance on each page (no Layout Template). Closed: VALE left + plus right (not center). Open: Coad-like 33/67 — type on paper left, full-bleed still right; plus becomes the word Close (Label, paper on the still), never an X. Overlay links are Info and Contact only.
 - Preserve the native Page Effect: Fade, Target All Pages, 0.49s. Breakpoint fill paper #F6F3EE on every page (Home’s inner canvas stays home-bg). No Wipe, no black fade, no Veil layer, no Layout Template
 - Preserve the visual system: five colors (home-bg #050505, paper #F6F3EE, ink #111111, muted #6B6B6B, line #D9D4CC); five text styles Mark/Display/Lead/Body/Label (Syne ExtraBold, Inter Regular, IBM Plex Mono Medium). Radius 0 (chips 2px). No shadows, no accent, no pixel fonts, no #FFF/#000
 - Preserve the Work detail split (sticky ~33% info / ~67% stacked uncropped gallery) on paper/ink. Home stays home-bg. Do not invert that. Gallery gap 0
@@ -35,7 +35,7 @@ Tell future in-canvas Agents:
 - Work CMS: one item = one series. Three collections: Tags (chips), Work (detail), Credits (3 rows per Work, Label + Value + Order). Do not flatten credits/tags onto Work. Click from the Plane Array (image, title, link) must keep matching Cover + slug. When the buyer changes Cover, update the Plane card too
 - Credits.Label is remappable (photographer: camera/format; designer: studio/role; DP: director/producer/awards). Keep 3 rows even if Value is "—"
 - Prefer native Form, CMS Gallery stack, and Nav variants over code
-- Edit Nav variables for email and Instagram
+- Edit Nav variables for email, Instagram, and menuStill (Salt Light cover)
 
 Paste those instructions into the template’s custom Agent instructions field if it exists; otherwise output them in chat for me to paste.
 

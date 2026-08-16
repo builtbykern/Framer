@@ -48,7 +48,7 @@ El Agent interno edita el proyecto en el canvas: layers, componentes, CMS, estil
 | Escribes | Oficio | En Drift |
 |---|---|---|
 | **`/cms`** | Collections, fields, items, slugs, bind | 02, 05, 12 |
-| **`/component`** | Componentes, variants, Form nativo, Nav | 03, 03B, 07, 09A, 10A |
+| **`/component`** | Componentes, variants, Form nativo, Nav | 03, 03B, 03C, 07, 09A, 10A |
 | **`/code`** | React code component | **Solo 09B.** Snap en el Plane existente. Nunca reescribir el pan. |
 
 ### Si el menú `/` las lista
@@ -105,7 +105,7 @@ Help (7 ago 2026): **Sonnet 5, Opus 4.7, GPT 5.5, Fable 5, GPT 5.6 Sol / Terra /
 | Modelo | Help | Aquí |
 |---|---|---|
 | **Sonnet 5** | Layout, edits cotidianos | 01 styles/shells, 06 Info, 08 404, 10, 12 bind Lummi, 13B |
-| **Opus 5** | Plan largo, juicio visual, multi-paso | 03 Home (plane+nav), 03B overlay+Veil, 04 detail split, 07 Form, 09B code |
+| **Opus 5** | Plan largo, juicio visual, multi-paso | 03 Home (plane+nav), 03B Page Effect, 03C Open visual, 04 detail split, 07 Form, 09B code |
 | **GPT 5.6 Luna** | CMS + find-replace | 02 Tags/Work/Credits, 05 binds, 09A links |
 | **GPT 5.6 Terra** | Audits, consistency | 11 SEO, 13A hygiene |
 | **GPT 5.5** | Copy-heavy | No hay fase solo-copy; fallback de Luna |
@@ -117,7 +117,7 @@ Help (7 ago 2026): **Sonnet 5, Opus 4.7, GPT 5.5, Fable 5, GPT 5.6 Sol / Terra /
 | Valor | Texto Framer | Usar |
 |---|---|---|
 | **Light** | Quick edits | Un bind, Info/404 copy, hover, Lummi bind, instructions |
-| **Higher** | Plan before building | Schema CMS, páginas nuevas, Home, split, Form, SEO, audit, `/code` |
+| **Higher** | Plan before building | Schema CMS, páginas nuevas, Home, Open visual, split, Form, SEO, audit, `/code` |
 
 Si la UI dice Low / Medium / High: Light = Low, Higher = High. **No uses Medium.**
 
@@ -134,7 +134,8 @@ Fast Mode = Off. Branch = `template-build`. Chat = New Chat.
 | **01** | Color + 5 text styles + shells | **Sonnet 5** | **Higher** | **`/layout`** (o `/style`) |
 | **02** | Tags + Work + Credits (7 / 7 / 21), sin Lummi | **Luna** | **Higher** | **`/cms`** |
 | **03** | Home: Drift Plane + Nav closedOnDark (VALE + plus) | **Opus 5** | **Higher** | **`/component`** |
-| **03B** | Overlay paper + plus→Close + Page Effect Fade | **Opus 5** | **Higher** | **`/component`** |
+| **03B** | Plus derecha + instancias + Page Effect Fade | **Opus 5** | **Higher** | **`/component`** |
+| **03C** | Open visual: split 33/67 + still a sangre | **Opus 5** | **Higher** | **`/component`** |
 | **04** | Work detail split paper/ink | **Opus 5** | **Higher** | **`/layout`** |
 | **05** | Bind campos + Gallery stack | **Luna** | **Higher** | **`/cms`** |
 | **06** | Info: bio + lista de títulos CMS | **Sonnet 5** | **Light** | **Ninguna** |
@@ -149,7 +150,7 @@ Fast Mode = Off. Branch = `template-build`. Chat = New Chat.
 | **13A** | Audit hygiene | **Terra** | **Higher** | **`/audit`** |
 | **13B** | Template Agent Instructions | **Sonnet 5** | **Light** | **Ninguna** |
 
-**03B, 09B, 10B, 13B = New Chat aparte.** No reciclar el hilo anterior.
+**03B, 03C, 09B, 10B, 13B = New Chat aparte.** No reciclar el hilo anterior.
 
 ---
 
@@ -164,7 +165,8 @@ Ops típicas en base: small ~50 · large ~100 · página ~150–300.
 | 01 | ~90–150 | Medio (Higher + shells) |
 | 02 | ~60–90 | Medio (Luna, 3 collections) |
 | 03 | ~150–240 | Alto (Opus Home) |
-| 03B | ~120–200 | Alto (Opus overlay + Veil) |
+| 03B | ~80–140 | Alto (Opus Page Effect) |
+| 03C | ~120–180 | Alto (Opus Open visual) |
 | 04 | ~150–240 | Alto (Opus split) |
 | 05 | ~40–60 | Bajo |
 | 06 | ~30–50 | Bajo |
@@ -179,7 +181,7 @@ Ops típicas en base: small ~50 · large ~100 · página ~150–300.
 | 13A | ~60–120 | Medio |
 | 13B | ~30 | Bajo |
 
-Pack sin 09B: **aprox. 1.000–1.800 créditos**. Lo caro es 03, 03B, 04, 07.
+Pack sin 09B: **aprox. 1.000–1.800 créditos**. Lo caro es 03, 03B, 03C, 04, 07.
 
 ---
 
@@ -188,7 +190,8 @@ Pack sin 09B: **aprox. 1.000–1.800 créditos**. Lo caro es 03, 03B, 04, 07.
 | Síntoma | Qué hacer |
 |---|---|
 | Inventa Index, Privacy, vídeo, lightbox | Stop. New Chat. Constraints otra vez. |
-| Inventa hamburger, X, o links Info/Contact en la barra | Stop. New Chat. Canon 00-gregor-nav: plus + Close. |
+| Inventa hamburger, X, o links Info/Contact en la barra | Stop. New Chat. Canon 00-gregor-nav: plus derecha + Close. |
+| Open es dos palabras en paper vacío, o plus al centro | Stop. New Chat. Fase 03C. Still ~67% a sangre. |
 | Fade negro, Wipe, o un layer Veil / Layout Template | Stop. New Chat. Page Effect Fade + breakpoint paper. |
 | Pone Unsplash o Lummi antes de 12 | Stop. Quita las fotos. Placeholders sólidos. |
 | Reescribe el Drift Plane | Stop. New Chat. Prohibido `/code` hasta 09B. |

@@ -27,7 +27,7 @@ Ficha: [`00-agent-decision.md`](00-agent-decision.md).
 | Reasoning | **Light** |
 | Fast Mode | **Off** |
 | Skill | **`/cms`** |
-| @ | Work items, Drift Plane on Home |
+| @ | Work items, Drift Plane on Home, Nav |
 | No usar | Unsplash, Visual Electric, cambiar layout, Fable, Sol, object-fit cover en la gallery del detail |
 
 ## Prompt (después de constraints)
@@ -38,6 +38,8 @@ Ficha: [`00-agent-decision.md`](00-agent-decision.md).
 The human has imported Lummi stills into Work/{slug}/. Bind them. Do not change layout. Do not use Unsplash. Do not crop the detail gallery (height auto).
 
 For each Work item: Cover + Gallery of 5 stills (plus cover). Then set the Drift Plane array images to the same Covers; keep the seven CMS detail links.
+
+Set the Nav component variable menuStill to the Salt Light cover (same asset as Work/salt-light cover). Do not pick Unsplash. Do not change the Open split.
 
 Alts: “Still from {Title}, {one factual noun phrase}.” Not “image1”.
 
@@ -51,6 +53,7 @@ Report: each slug → cover asset → gallery count (must be 5) → plane href.
 - Mismo cover en plane y CMS.
 - Gallery stack, sin crop, 5 stills, look de still (no 3D).
 - 42 archivos: 7 covers + 35 gallery.
+- Nav `menuStill` = Cover de Salt Light.
 
 ## Verificación humana
 

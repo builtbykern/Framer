@@ -4,7 +4,7 @@ Prompts para el **Agent tab** de Framer (no External Agents / Cursor). Cada arch
 
 Fuentes: [How to build with Agents](https://www.framer.com/help/articles/how-to-build-a-website-from-scratch-with-framer-agents/), [Agents toolkit](https://www.framer.com/agents/), [Choosing a model](https://www.framer.com/help/articles/choosing-a-model-in-the-framer-agent/), [Reasoning / Fast Mode](https://www.framer.com/updates/agent-reasoning-and-fast-mode), [CMS + Agents](https://www.framer.com/help/articles/how-to-add-content-to-your-cms-with-framer-agents/), [AI-ready template](https://www.framer.com/help/articles/build-ai-ready-template/), [Template requirements](https://www.framer.com/template-requirements/).
 
-Picker: [`00-agent-decision.md`](00-agent-decision.md). Datos: [`00-source-of-truth.md`](00-source-of-truth.md). CMS: [`00-cms.md`](00-cms.md). Look: [`00-visual-system.md`](00-visual-system.md). Nav/velo: [`00-gregor-nav.md`](00-gregor-nav.md). Lummi (fase 12): [`12-lummi-prompts.md`](12-lummi-prompts.md). **Copia y pega:** [`PROMPTS.md`](PROMPTS.md).
+Picker: [`00-agent-decision.md`](00-agent-decision.md). Datos: [`00-source-of-truth.md`](00-source-of-truth.md). CMS: [`00-cms.md`](00-cms.md). Look: [`00-visual-system.md`](00-visual-system.md). Nav: [`00-gregor-nav.md`](00-gregor-nav.md). Lummi (fase 12): [`12-lummi-prompts.md`](12-lummi-prompts.md). **Copia y pega:** [`PROMPTS.md`](PROMPTS.md).
 
 ## Cómo se usa (no negociable)
 
@@ -22,11 +22,12 @@ No hay un prompt “haz la template perfecta”. Un job por chat.
 
 | # | Archivo | Trabajo |
 |---|---|---|
-| 00 | [`00-constraints.md`](00-constraints.md) + [`00-source-of-truth.md`](00-source-of-truth.md) + [`00-visual-system.md`](00-visual-system.md) + [`00-cms.md`](00-cms.md) + [`00-gregor-nav.md`](00-gregor-nav.md) | Guardrails + VALE + look + schema CMS + nav/velo |
+| 00 | [`00-constraints.md`](00-constraints.md) + [`00-source-of-truth.md`](00-source-of-truth.md) + [`00-visual-system.md`](00-visual-system.md) + [`00-cms.md`](00-cms.md) + [`00-gregor-nav.md`](00-gregor-nav.md) | Guardrails + VALE + look + schema CMS + nav |
 | 01 | [`01-system-shells.md`](01-system-shells.md) | Styles + páginas vacías |
 | 02 | [`02-cms-work.md`](02-cms-work.md) | Tags, Work, Credits (7 / 7 / 21), placeholders |
-| 03 | [`03-home-plane.md`](03-home-plane.md) | Drift Plane + Nav VALE + plus |
-| 03B | [`03b-nav-veil.md`](03b-nav-veil.md) | Overlay paper, plus→Close, Page Effect Fade |
+| 03 | [`03-home-plane.md`](03-home-plane.md) | Drift Plane + Nav VALE + plus derecha |
+| 03B | [`03b-nav-veil.md`](03b-nav-veil.md) | Instancias + Page Effect Fade (Open stub) |
+| 03C | [`03c-nav-open-visual.md`](03c-nav-open-visual.md) | Open visual: Coad 33/67 + still |
 | 04 | [`04-detail-split.md`](04-detail-split.md) | Split paper, gallery stack |
 | 05 | [`05-bind-detail.md`](05-bind-detail.md) | Binds CMS |
 | 06 | [`06-info.md`](06-info.md) | Bio + lista de títulos |

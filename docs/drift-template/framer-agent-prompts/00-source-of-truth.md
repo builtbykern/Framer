@@ -122,15 +122,15 @@ Work no tiene `Credit*` ni `Tag1`/`Tag2`. Placeholders de Cover/Gallery hasta la
 
 Canon de gesto: [`00-gregor-nav.md`](00-gregor-nav.md). Componente `Nav` (no Layout Template). Tres variants. Una instancia por página.
 
-- `closedOnDark` — Home. VALE + plus en paper.
-- `closedOnLight` — Info, Contact, 404, Work detail. VALE + plus en ink.
-- `open` — overlay paper a viewport. VALE + **Close** (Label, no X) + Info / Contact.
+- `closedOnDark` — Home. VALE izquierda + plus **derecha**, paper.
+- `closedOnLight` — Info, Contact, 404, Work detail. Igual, ink.
+- `open` — split 33/67. Izquierda tipo. Derecha still a sangre. **Close** (Label, no X) a la derecha.
 
-Cerrado: VALE izquierda → `/`. Plus centro → abre. Cero Info/Contact en la barra.
+Cerrado: VALE → `/`. Plus derecha → abre. Cero Info/Contact en la barra. Plus no va al centro (eso es Gregor).
 
-Abierto: Info → `/info`, Contact → `/contact` (Display). Abajo: email, Instagram.
+Abierto: Info → `/info`, Contact → `/contact` (Display). Lead de una línea. Email / Instagram. Still = variable `menuStill` (Cover de Salt Light cuando exista).
 
-Variables: `email`, `instagram`.
+Variables: `email`, `instagram`, `menuStill` (Image).
 
 ## Drift Plane
 

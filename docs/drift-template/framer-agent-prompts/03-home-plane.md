@@ -31,15 +31,15 @@ Build Home `/` only. Home is the Drift Plane. Nothing else except chrome.
 
 1. Insert the existing Drift Plane code component so it fills the viewport (width 100%, height 100vh / 100dvh). Pin it. Do not recreate it in native stacks. Do not wrap it in a marketing hero (no headline, no reel, no grid of projects besides the plane).
 
-2. Create a Nav component and place it on Home. Structure only in this chat — motion (flip + Veil) is phase 03B. Follow 00-gregor-nav.md.
-   - Variant closedOnDark (this page): Mark style VALE left, color paper (not #FFF) on home-bg. Center: a plus made of two 20×2px bars (not a text glyph), paper color, hit 32px, aria-label “Open menu”
+2. Create a Nav component and place it on Home. Structure only in this chat — Page Effect is 03B; visual Open (still split) is 03C. Follow 00-gregor-nav.md.
+   - Variant closedOnDark (this page): Mark style VALE left, color paper (not #FFF) on home-bg. Right: a plus made of two 20×2px bars (not a text glyph), paper color, hit 32px, aria-label “Open menu”. Not centered.
    - Do NOT put Info or Contact in the bar. Do NOT use a hamburger, an X, or the word MENU
    - Optional 88px-tall scrim: home-bg 70% to transparent. No other gradient
    - VALE → `/`
    - Position: top, overlay, does not push the plane down. Nav pad 22×28 desktop, 16×20 phone
-   - Same chrome on Phone (plus stays center). No drawer
+   - Same chrome on Phone (plus stays right). No drawer
    - Component variables: email studio@vale.work, instagram https://www.instagram.com/vale.work
-   - Stub variant closedOnLight (ink plus + VALE) for later pages; stub variant open as a full-viewport paper layer with Info / Contact in Display and the word Close (Label) instead of the plus — wiring/motion in 03B is OK if you only sketch it
+   - Stub variant closedOnLight (ink plus + VALE) for later pages; stub variant open as a full-viewport paper layer with Info / Contact in Display and the word Close (Label) instead of the plus — wiring in 03B, visual still-split in 03C
 
 3. Hint, Label style, muted, bottom 24 left 28, pointer-events none:
    “Pan the plane · click a series”
@@ -68,4 +68,4 @@ CMS fields. Detail layout. Lummi. `/code`.
 
 ## Siguiente
 
-Chat nuevo → fase 03B.
+Chat nuevo → fase 03B (Page Effect), luego 03C (Open visual).

@@ -30,7 +30,7 @@ component (plus / Close) and a native Page Effect Fade on All Pages.
 
 DO NOT:
 - create Index, Privacy, Journal, blog, shop, or any route beyond Home, /info, /contact, 404, and CMS Work detail /work/{slug}
-- add video, lightbox, overlay *project viewer*, or a second hero on Home. A full-viewport paper *menu* overlay (Nav variant open) is required — it is not a project viewer
+- add video, lightbox, overlay *project viewer*, or a second hero on Home. Nav variant open is a full-viewport *visual* menu (33/67 paper + still) — it is not a project viewer and not two words on empty paper
 - use Unsplash or any stock plugin except Lummi, and only when the phase says so
 - use Fable 5 or GPT 5.6 Sol
 - write custom code except in phase 09B, and then only a layout: plane | snap switch on the existing Drift Plane — do not rewrite pan physics
