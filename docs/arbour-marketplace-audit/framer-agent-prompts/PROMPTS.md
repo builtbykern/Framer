@@ -29,22 +29,60 @@ Qué hace el modelo **en el canvas** cuando lo eliges. Help: cada uno tiene sesg
 
 **Fast Mode** (Opus 5): generaciones más rápidas, más tokens. Efecto aquí: peor plan. **Off.**
 
-| # | Modelo | Efecto en esta fase | Skill |
-|---|---|---|---|
-| 01 | Luna | CMS rápido: slugs y binds del 404 | `/cms` |
-| 02 | Luna | Find-replace de tels/socials en componentes | `/component` |
-| 03 | GPT 5.5 | Solo copy; no rediseña | ninguna |
-| 04 | Luna | Schema + bind de 6 properties | `/cms` |
-| 05A | Luna | Collection Territories + 4 items | `/cms` |
-| 05B | Opus 5 | Detail page con juicio visual Arbour | `/component` |
-| 06 | Sonnet 5 | Swap de 2 fotos con criterio visual, sin look nuevo | `/cms` |
-| 07 | Terra | Audit SEO/lang/OG/alt a bajo coste | `/seo` (o ninguna) |
-| 08 | Opus 5 | Form nativo + estados, encaje visual | `/component` |
-| 09 | Sonnet 5 | Variants hover/pressed, resting igual | `/component` |
-| 10 | Sonnet 5 | Tags y line-height; no typeface nueva | `/layout` (o ninguna) |
-| 11 | Opus 5 | Privacy + contraste AA, look heredado | `/component` |
-| 12A | Terra | Audit hygiene site-wide | `/audit` (o ninguna) |
-| 12B | Sonnet 5 | Texto de instructions, sin canvas | ninguna |
+## Esfuerzo de cada modelo
+
+Framer cobra **AI credits**. Help: el coste no es fijo; *depends on the complexity of the request and how much work the Agent does* ([créditos](https://www.framer.com/help/articles/how-ai-credits-and-agents-pricing-work/)). Blog 16 jun 2026: la base es **GPT 5.5 = 1×**. Ops típicas en esa base: small edit ~50 · large edit ~100 · responsive ~150 · landing ~300.
+
+| Modelo | Esfuerzo (créditos vs GPT 5.5) | Velocidad | Banda | Fuente |
+|---|---|---|---|---|
+| **GPT 5.6 Luna** | **0.4×** | 2× más rápido que cualquier modelo anterior | Mínimo | [GPT 5.6](https://www.framer.com/updates/gpt-5-6) |
+| **Sonnet 5** | **0.6×** | Default, eficiente | Bajo | [Sonnet 5](https://www.framer.com/updates/sonnet-5) |
+| **GPT 5.6 Terra** | **0.6×** | ~2× vs GPT 5.5 en tests posteriores | Bajo–medio | [GPT 5.6](https://www.framer.com/updates/gpt-5-6) |
+| **GPT 5.5** | **1×** (base) | Media | Medio | [Blog créditos](https://www.framer.com/blog/ai-credits-simpler-plans-and-lower-prices/) |
+| **GPT 5.6 Sol** | **1×** (mismo que 5.5) | Media | Medio–alto creativo | [GPT 5.6](https://www.framer.com/updates/gpt-5-6) — **no usar** |
+| **Opus 5** | **1.2×** vs Sol (≈ 1.2× la base) | 1.5 min más rápido que Opus 4.8 en nav | Alto | [Opus 5](https://www.framer.com/updates/opus-5) |
+| **Opus 4.8** | **1.8×** | Más lento que Opus 5 | Más alto que 5 | Blog 16 jun; solo fallback |
+| **Fable 5** | **2×** (≈ 3.3× Sonnet 5) | Proactive, gasta más | Máximo | [Fable 5](https://www.framer.com/updates/fable-5) — **no usar** |
+
+**Reasoning también gasta esfuerzo:** Light = edit corto (~50 en base). Higher = el Agent planea y trabaja más (~100–300 en base). Fast Mode Off: no dispares tokens extra.
+
+Estimación por fase = (tipo de op) × (multiplicador). No es una factura; es el orden de magnitud que publica Framer.
+
+| # | Modelo | Reasoning | Tipo de op (base) | Esfuerzo | ≈ créditos |
+|---|---|---|---|---|---|
+| 01 | Luna 0.4× | Higher | Large CMS ~100 | Bajo | ~40 |
+| 02 | Luna 0.4× | Light | Small/large replace ~50–100 | Mínimo | ~20–40 |
+| 03 | GPT 5.5 1× | Light | Small/large copy ~50–100 | Medio | ~50–100 |
+| 04 | Luna 0.4× | Higher | Large CMS ~100–150 | Bajo–medio | ~40–60 |
+| 05A | Luna 0.4× | Higher | Large CMS ~100 | Bajo | ~40 |
+| 05B | Opus 5 1.2× | Higher | Página nueva ~150–300 | Alto | ~180–360 |
+| 06 | Sonnet 5 0.6× | Light | Small edit ~50 | Bajo | ~30 |
+| 07 | Terra 0.6× | Higher | Large audit ~100–150 | Medio | ~60–90 |
+| 08 | Opus 5 1.2× | Higher | Large / página ~100–200 | Alto | ~120–240 |
+| 09 | Sonnet 5 0.6× | Light | Small/large ~50–100 | Bajo | ~30–60 |
+| 10 | Sonnet 5 0.6× | Higher | Large site-wide ~100–150 | Medio | ~60–90 |
+| 11 | Opus 5 1.2× | Higher | Página nueva ~150–300 | Alto | ~180–360 |
+| 12A | Terra 0.6× | Higher | Large audit ~100–200 | Medio | ~60–120 |
+| 12B | Sonnet 5 0.6× | Light | Small edit ~50 | Bajo | ~30 |
+
+Pack completo (14 chats): **aprox. 900–1.700 créditos**. Lo caro es **05B / 08 / 11 (Opus 5 + Higher)**. Lo barato es Luna. Si el picker no tiene Opus 5 y caes a 4.8 (1.8×), 05B/08/11 suben ~50 %.
+
+| # | Modelo | Efecto en esta fase | Esfuerzo | Skill |
+|---|---|---|---|---|
+| 01 | Luna | CMS rápido: slugs y binds del 404 | Bajo (~40) | `/cms` |
+| 02 | Luna | Find-replace de tels/socials | Mínimo (~20–40) | `/component` |
+| 03 | GPT 5.5 | Solo copy; no rediseña | Medio (~50–100) | ninguna |
+| 04 | Luna | Schema + bind de 6 properties | Bajo–medio (~40–60) | `/cms` |
+| 05A | Luna | Collection Territories + 4 items | Bajo (~40) | `/cms` |
+| 05B | Opus 5 | Detail page con juicio visual Arbour | Alto (~180–360) | `/component` |
+| 06 | Sonnet 5 | Swap de 2 fotos, sin look nuevo | Bajo (~30) | `/cms` |
+| 07 | Terra | Audit SEO/lang/OG/alt | Medio (~60–90) | `/seo` (o ninguna) |
+| 08 | Opus 5 | Form nativo + estados | Alto (~120–240) | `/component` |
+| 09 | Sonnet 5 | Variants hover/pressed | Bajo (~30–60) | `/component` |
+| 10 | Sonnet 5 | Tags y line-height | Medio (~60–90) | `/layout` (o ninguna) |
+| 11 | Opus 5 | Privacy + contraste AA | Alto (~180–360) | `/component` |
+| 12A | Terra | Audit hygiene site-wide | Medio (~60–120) | `/audit` (o ninguna) |
+| 12B | Sonnet 5 | Instructions, sin canvas | Bajo (~30) | ninguna |
 
 ---
 
@@ -54,6 +92,7 @@ Qué hace el modelo **en el canvas** cuando lo eliges. Help: cada uno tiene sesg
 |---|---|
 | **Modelo** | GPT 5.6 Luna |
 | **Efecto** | El más rápido en CMS. Arregla slugs/binds del 404 sin rediseñar. Higher: planea schema antes de borrar el item roto. |
+| **Esfuerzo** | Bajo. Luna 0.4× × large CMS ~100 → **~40 créditos**. |
 | **Skill** | `/cms` |
 | **Reasoning** | Higher |
 | **@** | Notes collection, `@Home` `@Notes` `@Contact` |
@@ -81,6 +120,7 @@ Report: collection fields, each of the 7 slugs, which Home cards bind to which i
 |---|---|
 | **Modelo** | GPT 5.6 Luna |
 | **Efecto** | Find-replace cross-site. Unifica tres tels y socials. Light: no hay schema que planear. |
+| **Esfuerzo** | Mínimo. Luna 0.4× × small/large ~50–100 → **~20–40 créditos**. |
 | **Skill** | `/component` |
 | **Reasoning** | Light |
 | **@** | Header overlay, Footer, `@Contact` |
@@ -115,6 +155,7 @@ Scan the whole project for leftover 7351 8800 and @builtbykern. List remaining t
 |---|---|
 | **Modelo** | GPT 5.5 |
 | **Efecto** | Copy-heavy: 1999 vs 2018, grammar, numeración. No rediseña si el prompt lo prohíbe. |
+| **Esfuerzo** | Medio. GPT 5.5 1× × copy ~50–100 → **~50–100 créditos**. |
 | **Skill** | ninguna |
 | **Reasoning** | Light |
 | **@** | `@Home` `@About` `@Properties` `@Notes` |
@@ -152,6 +193,7 @@ List every string you changed.
 |---|---|
 | **Modelo** | GPT 5.6 Luna |
 | **Efecto** | CMS masivo: fields, coords, rooms únicos, contadores. Higher: decide binds antes de editar 6 ítems. |
+| **Esfuerzo** | Bajo–medio. Luna 0.4× × large CMS ~100–150 → **~40–60 créditos**. |
 | **Skill** | `/cms` |
 | **Reasoning** | Higher |
 | **@** | Properties collection, property detail template, `@Home` `@Properties` |
@@ -184,6 +226,7 @@ Report fields added, which layout layers are now bound, and a one-line rooms sum
 |---|---|
 | **Modelo** | GPT 5.6 Luna |
 | **Efecto** | Crea collection + 4 items y rewire de VIEW. No construye la detail page (eso es 05B). |
+| **Esfuerzo** | Bajo. Luna 0.4× × large CMS ~100 → **~40 créditos**. |
 | **Skill** | `/cms` |
 | **Reasoning** | Higher |
 | **@** | `@Neighbourhoods`, Properties collection |
@@ -211,6 +254,7 @@ New Chat. No reciclar 05A.
 |---|---|
 | **Modelo** | Opus 5 |
 | **Efecto** | Juicio visual + plan multi-paso. La detail page sale *como* Arbour, no como un blog genérico. Fable haría lo mismo más “expresivo” (rediseño). |
+| **Esfuerzo** | Alto. Opus 5 1.2× × página ~150–300 → **~180–360 créditos**. Lo más caro del pack. |
 | **Skill** | `/component` |
 | **Reasoning** | Higher |
 | **@** | `@Neighbourhoods`, property detail (referencia visual) |
@@ -235,6 +279,7 @@ Then connect the four index cards on @Neighbourhoods.
 |---|---|
 | **Modelo** | Sonnet 5 |
 | **Efecto** | Edit cotidiano con criterio visual. Elige foto Chelsea/Cotswolds. Luna iría más rápido y fallaría el match. Opus sobra y toca layout. |
+| **Esfuerzo** | Bajo. Sonnet 5 0.6× × small ~50 → **~30 créditos**. |
 | **Skill** | `/cms` |
 | **Reasoning** | Light |
 | **@** | Properties collection (Cheyne Walk, Bibury) |
@@ -263,6 +308,7 @@ List old vs new asset names per slug.
 |---|---|
 | **Modelo** | GPT 5.6 Terra |
 | **Efecto** | Audit + consistency barato. Llena lang/favicon/OG/alt. No reescribe H1 ni el look. |
+| **Esfuerzo** | Medio. Terra 0.6× × large audit ~100–150 → **~60–90 créditos**. |
 | **Skill** | `/seo` si está en el menú `/`; si no, ninguna |
 | **Reasoning** | Higher |
 | **@** | Site Settings, todas las páginas |
@@ -287,6 +333,7 @@ Report: lang, favicon path, pages missing OG before/after, count of alts filled.
 |---|---|
 | **Modelo** | Opus 5 |
 | **Efecto** | Multi-paso con encaje visual: Form nativo, labels, success/error. `/code` lo haría en React; Opus debe quedarse en canvas. |
+| **Esfuerzo** | Alto. Opus 5 1.2× × large/página ~100–200 → **~120–240 créditos**. |
 | **Skill** | `/component` |
 | **Reasoning** | Higher |
 | **@** | `@Contact` `@Home` `@Properties` |
@@ -322,6 +369,7 @@ List components created and which pages they sit on.
 |---|---|
 | **Modelo** | Sonnet 5 |
 | **Efecto** | Micro-edits: variants Hover/Pressed. Resting igual. Light: no hay página nueva que planear. |
+| **Esfuerzo** | Bajo. Sonnet 5 0.6× × small/large ~50–100 → **~30–60 créditos**. |
 | **Skill** | `/component` |
 | **Reasoning** | Light |
 | **@** | Header, Footer, Home, cards Properties/Notes |
@@ -349,6 +397,7 @@ List components/variants you edited.
 |---|---|
 | **Modelo** | Sonnet 5 |
 | **Efecto** | Layout direction (Help: default). Tags y line-height. Higher: mapea landmarks sin romper stacks. No cambia typeface. |
+| **Esfuerzo** | Medio. Sonnet 5 0.6× × large site-wide ~100–150 → **~60–90 créditos**. |
 | **Skill** | `/layout` si está en el menú `/`; si no, ninguna |
 | **Reasoning** | Higher |
 | **@** | Layout templates Header/Footer, text styles |
@@ -373,6 +422,7 @@ Report tag changes per page and the new H1 line-height.
 |---|---|
 | **Modelo** | Opus 5 |
 | **Efecto** | Páginas legales nuevas + juicio de contraste. Hereda Header/Footer. Fable “puliría” el hero y el 404. |
+| **Esfuerzo** | Alto. Opus 5 1.2× × página ~150–300 → **~180–360 créditos**. |
 | **Skill** | `/component` |
 | **Reasoning** | Higher |
 | **@** | Footer, `@Home` `@About`, Properties CLEAR |
@@ -397,6 +447,7 @@ List pages created and contrast method used on heroes.
 |---|---|
 | **Modelo** | GPT 5.6 Terra |
 | **Efecto** | Pase de consistencia site-wide: links, layers, styles huérfanos. Corrige hygiene, no el art direction. |
+| **Esfuerzo** | Medio. Terra 0.6× × large audit ~100–200 → **~60–120 créditos**. |
 | **Skill** | `/audit` si está en el menú `/`; si no, ninguna |
 | **Reasoning** | Higher |
 | **@** | Proyecto entero |
@@ -431,6 +482,7 @@ New Chat. No reciclar 12A.
 |---|---|
 | **Modelo** | Sonnet 5 |
 | **Efecto** | Texto estructurado, edit cotidiano. Escribe instructions del comprador. No reabre el canvas. |
+| **Esfuerzo** | Bajo. Sonnet 5 0.6× × small ~50 → **~30 créditos**. |
 | **Skill** | ninguna |
 | **Reasoning** | Light |
 | **@** | Site Settings / Template Agent instructions |
