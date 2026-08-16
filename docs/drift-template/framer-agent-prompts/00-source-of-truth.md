@@ -26,27 +26,9 @@ Datos únicos. Si el canvas contradice este archivo, gana este archivo.
 
 Prohibido: `/work` índice, `/privacy`, `/journal`, `/blog`, cualquier otra ruta.
 
-## Color styles (fase 01, no cambiar después)
+## Look
 
-| Style | Hex | Uso |
-|---|---|---|
-| `home-bg` | `#050505` | Home, plane |
-| `paper` | `#F6F3EE` | Info, Contact, 404, detail |
-| `ink` | `#111111` | Texto en paper |
-| `muted` | `#6B6B6B` | Labels, hint, meta dt |
-| `line` | `#D9D4CC` | Rules, chip borders en paper |
-
-En Home el texto del Nav es paper/blanco sobre `home-bg`. No inventar un sexto color.
-
-## Text styles (fase 01, no cambiar después)
-
-| Style | Font (Framer) | Uso |
-|---|---|---|
-| Display | Syne ExtraBold | Título de serie en el detail |
-| Body | Inter Regular | Descripción, bio, form values |
-| Label | IBM Plex Mono | Nav, hint, dt de credits, chips, kicker |
-
-Tamaños de partida (Agent puede afinar en 01, no reinventar la familia): Display ~64–72px desktop / ~40px phone, tracking negativo. Body 15–16px, line-height 1.5. Label 10–11px, uppercase, letter-spacing ~0.14em.
+Canon de color, tipo, spacing, motion e imagen: [`00-visual-system.md`](00-visual-system.md). No hay un sexto color. No hay cuarta familia. Fase 01 crea exactamente esos styles.
 
 ## CMS collection `Work`
 
@@ -170,7 +152,7 @@ Variables: `email`, `instagram`.
 
 ## Detail (Work)
 
-Desktop/tablet: grid 33% / 67%. Izquierda sticky, paper, padding amplio. Derecha: Gallery stack, gap 0, full width of column.
+Desktop/tablet: grid 33% / 67%. Izquierda sticky, paper, padding del visual system. Derecha: Gallery stack, gap 0, width 100%, height auto, **sin crop**. Radio 0. Chips 2px.
 
 Orden izquierda: Display title → dl credits (label Label style, value Body) → description → chips Tag1 Tag2 → pager Previous / (titles via CMS) / Next.
 

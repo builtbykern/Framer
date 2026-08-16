@@ -4,7 +4,7 @@ Prompts para el **Agent tab** de Framer (no External Agents / Cursor). Cada arch
 
 Fuentes: [How to build with Agents](https://www.framer.com/help/articles/how-to-build-a-website-from-scratch-with-framer-agents/), [Agents toolkit](https://www.framer.com/agents/), [Choosing a model](https://www.framer.com/help/articles/choosing-a-model-in-the-framer-agent/), [Reasoning / Fast Mode](https://www.framer.com/updates/agent-reasoning-and-fast-mode), [CMS + Agents](https://www.framer.com/help/articles/how-to-add-content-to-your-cms-with-framer-agents/), [AI-ready template](https://www.framer.com/help/articles/build-ai-ready-template/), [Template requirements](https://www.framer.com/template-requirements/).
 
-Picker: [`00-agent-decision.md`](00-agent-decision.md). Datos: [`00-source-of-truth.md`](00-source-of-truth.md). **Copia y pega:** [`PROMPTS.md`](PROMPTS.md).
+Picker: [`00-agent-decision.md`](00-agent-decision.md). Datos: [`00-source-of-truth.md`](00-source-of-truth.md). Look: [`00-visual-system.md`](00-visual-system.md). **Copia y pega:** [`PROMPTS.md`](PROMPTS.md).
 
 ## Cómo se usa (no negociable)
 
@@ -22,7 +22,7 @@ No hay un prompt “haz la template perfecta”. Un job por chat.
 
 | # | Archivo | Trabajo |
 |---|---|---|
-| 00 | [`00-constraints.md`](00-constraints.md) + [`00-source-of-truth.md`](00-source-of-truth.md) | Guardrails + VALE + 7 series |
+| 00 | [`00-constraints.md`](00-constraints.md) + [`00-source-of-truth.md`](00-source-of-truth.md) + [`00-visual-system.md`](00-visual-system.md) | Guardrails + VALE + look (tipo, color, imagen) |
 | 01 | [`01-system-shells.md`](01-system-shells.md) | Styles + páginas vacías |
 | 02 | [`02-cms-work.md`](02-cms-work.md) | Collection Work, 7 ítems, placeholders |
 | 03 | [`03-home-plane.md`](03-home-plane.md) | Drift Plane + Nav onDark |

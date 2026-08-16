@@ -13,12 +13,15 @@ text, responsive, links, CMS, native features over custom code, purposeful
 effects, organized assets, semantic tags, accessibility, performance, copyright.
 Do not add ads or creator self-promo.
 
-PRESERVE (once phase 01 has set them — never invent a second system):
+PRESERVE (once phase 01 has set them — never invent a second system).
+Visual canon is 00-visual-system.md:
 - Color styles only: home-bg #050505, paper #F6F3EE, ink #111111, muted #6B6B6B, line #D9D4CC
-- Text styles: Display = Syne ExtraBold (project titles), Body = Inter Regular, Label = IBM Plex Mono
+- Text styles only: Mark (Syne ExtraBold 15), Display (Syne ExtraBold 68/52/40), Lead (Inter 22/20/18), Body (Inter 15/1.55), Label (IBM Plex Mono Medium 11, uppercase 0.14em)
+- Radius 0 (chips max 2px). No shadows, no extra accent, no pixel fonts, no white #FFF, no black #000
+- Gallery gap 0, stills uncropped on detail; plane cards may cover-crop
 - Exactly 3 breakpoints: Desktop 1440 / Tablet 768 / Phone 390
-- Home is black (home-bg). Info, Contact, 404, and Work detail are paper + ink
-- English copy, quiet visual-director voice. No lorem ipsum
+- Home is home-bg. Info, Contact, 404, and Work detail are paper + ink
+- Motion: plane only. Paper pages static. English, quiet visual-director voice. No lorem ipsum
 
 YOU MAY: create the pages listed in the phase, bind CMS, set component variables,
 write alt text, set semantic tags, add hover/pressed variants, use native Forms,

@@ -27,10 +27,10 @@ Opus: Help — forms nativos, multi-paso. Higher: labels + success/error.
 Build Contact `/contact` only. Paper, Nav onLight. Native Framer Form — not a code component, not an embed.
 
 Copy:
-- Kicker: Contact
-- Lead: Enquiries: studio@vale.work with mailto:studio@vale.work
+- Kicker (Label): Contact
+- Lead (Lead style): Enquiries: studio@vale.work with mailto:studio@vale.work
 
-Form fields (Label style for labels, Body for inputs, bottom border line color, no heavy boxes):
+Form fields (Label style for labels, Body for inputs, 1px line as border-bottom only, radius 0, no boxes, no fill):
 - Name — text, required, autocomplete name
 - Email — email, required, autocomplete email
 - Inquiry — select: People, Place, Commission, Other (default Other)

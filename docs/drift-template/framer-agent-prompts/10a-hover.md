@@ -26,7 +26,7 @@ Add hover and pressed variants only. Do not restyle the template.
 
 - Nav links (onDark and onLight): hover opacity ~0.7 or muted→ink/paper. Pressed slightly lower. Phone: hover off
 - Info title rows: hover opacity or underline
-- Detail chips: no jump; optional  opacity
+- Detail chips: no jump; optional opacity
 - Contact Send: hover opacity
 - 404 links: same as Nav
 - Plane cards: if the code component already has hover scale, leave it. Do not add CSS that fights the component

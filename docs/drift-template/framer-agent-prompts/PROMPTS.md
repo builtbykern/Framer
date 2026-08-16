@@ -4,7 +4,7 @@ Un **New Chat** por bloque. Branch `template-build`. **Fast Mode Off.** Nunca Fa
 
 Antes de cada prompt, pega las [constraints](00-constraints.md). Opus: **5** → 4.8 → 4.7. `/seo` `/layout` `/audit` `/style` solo si están en el menú `/`; si no, pega el prompt sin el slash.
 
-Fuente de efectos: [Choosing a model](https://www.framer.com/help/articles/choosing-a-model-in-the-framer-agent/), [GPT 5.6](https://www.framer.com/updates/gpt-5-6), [Opus 5](https://www.framer.com/updates/opus-5), [Reasoning](https://www.framer.com/updates/agent-reasoning-and-fast-mode). Matriz: [00-agent-decision.md](00-agent-decision.md). Datos: [00-source-of-truth.md](00-source-of-truth.md).
+Fuente de efectos: [Choosing a model](https://www.framer.com/help/articles/choosing-a-model-in-the-framer-agent/), [GPT 5.6](https://www.framer.com/updates/gpt-5-6), [Opus 5](https://www.framer.com/updates/opus-5), [Reasoning](https://www.framer.com/updates/agent-reasoning-and-fast-mode). Matriz: [00-agent-decision.md](00-agent-decision.md). Datos: [00-source-of-truth.md](00-source-of-truth.md). Look: [00-visual-system.md](00-visual-system.md).
 
 ## Efecto de cada modelo
 
@@ -38,34 +38,42 @@ Base GPT 5.5 = 1×. Luna ~0.4× · Sonnet/Terra ~0.6× · Opus 5 ~1.2×. Pack si
 ```
 /layout
 
-Create only the design system and empty page shells for the Drift template. Do not add CMS items, photos, forms, or long copy.
+Create only the Drift design system and empty page shells. Follow the numbers. Do not invent a sixth color, a fourth font family, or “a nicer accent”.
 
-1. Color styles (exact names and hex):
+1. Color styles (exact names and hex — five only):
    - home-bg #050505
    - paper #F6F3EE
    - ink #111111
    - muted #6B6B6B
    - line #D9D4CC
-   Use these styles everywhere. No leftover default blues/purples.
+   Never use #FFFFFF or #000000. Never add shadow styles.
 
-2. Text styles (Framer fonts, exact names):
-   - Display = Syne ExtraBold — for series titles later
-   - Body = Inter Regular — body copy
-   - Label = IBM Plex Mono — nav, meta labels, chips
-   Sizes: Display ~68px desktop / ~40px phone, tight tracking. Body 15px, line-height 1.5. Label 11px, uppercase, letter-spacing 0.14em.
+2. Text styles (exact names, Framer fonts, sizes). Create all five:
 
-3. Breakpoints only: Desktop 1440, Tablet 768, Phone 390. Do not add a fourth.
+   Mark — Syne ExtraBold. Desktop/Tablet 15px / line 1.0 / tracking 0.06em. Phone 14 / 1.0 / 0.05em. Use later for VALE.
 
-4. Pages (empty shells, no sections of fake content):
-   - Home `/` — fill home-bg, full viewport, no extra blocks
+   Display — Syne ExtraBold. Desktop 68px / 0.90 / -0.04em. Tablet 52 / 0.90 / -0.03em. Phone 40 / 0.92 / -0.03em. Project titles only.
+
+   Lead — Inter Regular. Desktop 22 / 1.35 / 0. Tablet 20 / 1.35. Phone 18 / 1.4. Info/Contact/404 leads.
+
+   Body — Inter Regular. All breakpoints 15px / 1.55 / 0.01em.
+
+   Label — IBM Plex Mono Medium. Desktop/Tablet 11 / 1.2 / 0.14em. Phone 10 / 1.2 / 0.12em. Set text transform Uppercase on this style if Framer allows.
+
+3. Defaults: radius 0 everywhere. 1px borders use `line`. No drop shadows. No blur.
+
+4. Breakpoints only: Desktop 1440, Tablet 768, Phone 390.
+
+5. Empty shells, no photos, no long copy:
+   - Home `/` — fill home-bg, full viewport
    - Info `/info` — fill paper
    - Contact `/contact` — fill paper
-   - 404 — fill paper, custom 404 page (empty except background)
-   - A CMS detail page for a collection you may create as an empty shell named Work, path `/work/{slug}`, fill paper. If you cannot create the CMS page without a collection, create the Work collection with Title + Slug only and no items. Do not invent extra fields yet.
+   - 404 — fill paper
+   - Work CMS detail `/work/{slug}` — fill paper. If you need a collection to create the page, Title + Slug only, no items yet.
 
-5. Do not insert Drift Plane yet. Do not write VALE copy yet. Do not add Index, Privacy, or Journal pages.
+6. Do not insert Drift Plane. Do not add Index, Privacy, Journal.
 
-Report: style names, page routes, breakpoints.
+Report: every style name + font + desktop size, page routes, breakpoints.
 ```
 
 ---
@@ -165,13 +173,14 @@ Build Home `/` only. Home is the Drift Plane. Nothing else except chrome.
 1. Insert the existing Drift Plane code component so it fills the viewport (width 100%, height 100vh / 100dvh). Pin it. Do not recreate it in native stacks. Do not wrap it in a marketing hero (no headline, no reel, no grid of projects besides the plane).
 
 2. Create a Nav component and place it on Home:
-   - Variant onDark (this page): mark and links in paper/white on the black home-bg
+   - Variant onDark (this page): Mark style for VALE, Label style for Info/Contact, color paper (not #FFF) on home-bg
+   - Optional 88px-tall scrim: home-bg 70% to transparent. No other gradient
    - Links: VALE → `/` · Info → `/info` · Contact → `/contact`
-   - Position: top, overlay, does not push the plane down
-   - Label text style. Quiet. No hamburger unless Phone needs it; on Phone a simple row or wrap is fine
+   - Position: top, overlay, does not push the plane down. Nav pad 22×28 desktop, 16×20 phone
+   - No hamburger on Desktop/Tablet. Phone: same row, wrap if needed, no drawer
    - Component variables: email studio@vale.work, instagram https://www.instagram.com/vale.work
 
-3. Hint, Label style, muted, bottom-left, pointer-events none:
+3. Hint, Label style, muted, bottom 24 left 28, pointer-events none:
    “Pan the plane · click a series”
 
 4. One H1 “VALE” visually hidden (sr-only / 1px clip) for semantics. No visible H1 on Home.
@@ -198,22 +207,22 @@ Report: how Drift Plane is placed, Nav variant names, any leftover extra section
 ```
 /layout
 
-Design the Work CMS detail page only. Do not change Home.
+Design the Work CMS detail page only. Do not change Home. Follow 00-visual-system: paper/ink, radius 0, chips 2px, no shadows, no black sidebar.
 
 Desktop / Tablet:
 - Two columns: left ~33% (minmax 280px), right ~67%
-- Left is position sticky, top 0, height 100vh, overflow auto, fill paper, padding ~96px 36px 40px (clear the Nav)
-- Right is a vertical stack of images, width 100%, gap 0 (full-bleed in the column). Insert the CMS Gallery field from Insert → Fields. Change its layout from grid to a vertical stack. If Gallery is empty, keep the stack ready.
+- Left is position sticky, top 0, height 100vh, overflow auto, fill paper, padding 96px 36px 40px, gap 28 between blocks
+- Right: CMS Gallery as a **vertical stack**, gap **0**. Each image width 100%, height auto — do **not** crop (no object-fit cover on the detail gallery).
 
-Left column, top to bottom (bind later in phase 05; use sample layers named to match fields):
-- Title — Display style, ink
-- Definition list of credits: three rows Label (muted) + value (Body/ink): Credit1, Credit2, Credit3
-- Description — Body, max ~36ch
-- Two chips: 1px line border, Label style, Tag1 and Tag2
-- Pager: Previous · Next in Label style (use Framer CMS pagination / previous-next if available; otherwise placeholder text links)
+Left column, top to bottom:
+- Title — Display style, ink (this is the H1)
+- Definition list: Label muted + Body ink for Credit1–3. Optional year row: Label “year” + Body Year
+- Description — Body, max 36ch
+- Two chips: 1px line, radius 2px, pad 5×10, Label, Tag1 Tag2
+- Pager: Previous · Next, Label, gap 18
 
 Phone 390:
-- Single column. Info stack first, gallery below. No sticky split.
+- Single column, pad 88 20 32. Info first, gallery below. No sticky split.
 
 Nav on this page: onLight variant (ink on paper). If onLight does not exist yet, add it without restyling Home’s onDark.
 
@@ -273,16 +282,16 @@ Build Info `/info` only. Paper background, Nav onLight. Do not change Home or th
 
 Copy verbatim:
 - Kicker (Label): Info
-- Lead (larger Body or Display at small size): Vale is a visual director working in stills. Selected work is published as series — not as a dump of single frames.
-- Body: Available for a small number of commissions each year. The plane on the home is the archive. This page is for when you already know the title.
+- Lead (Lead style): Vale is a visual director working in stills. Selected work is published as series — not as a dump of single frames.
+- Body (Body style): Available for a small number of commissions each year. The plane on the home is the archive. This page is for when you already know the title.
 
 Below, a Collection List of Work, all 7, sorted by Year descending:
-- Each row is the Title (Display or strong Body) linking to that item’s CMS detail page
-- Optional muted Year on the same row
-- No thumbnails, no hover image, no grid of covers
+- Each row is the Title (use Body or Mark 15, not Display). Linking to that item’s CMS detail page
+- Optional muted Year, Label style, on the same row
+- 1px line between rows. No thumbnails, no hover image, no grid of covers
 - This is not a page at `/work`. Do not create `/work`.
 
-Keep the page narrow (~640–720px content). Generous top padding under Nav.
+Keep the page measure 640–720px. Page pad X 36 desktop / 20 phone. Top padding under Nav ~112.
 
 Report: routes you touched, how the list binds.
 ```
@@ -305,10 +314,10 @@ Report: routes you touched, how the list binds.
 Build Contact `/contact` only. Paper, Nav onLight. Native Framer Form — not a code component, not an embed.
 
 Copy:
-- Kicker: Contact
-- Lead: Enquiries: studio@vale.work with mailto:studio@vale.work
+- Kicker (Label): Contact
+- Lead (Lead style): Enquiries: studio@vale.work with mailto:studio@vale.work
 
-Form fields (Label style for labels, Body for inputs, bottom border line color, no heavy boxes):
+Form fields (Label style for labels, Body for inputs, 1px line as border-bottom only, radius 0, no boxes, no fill):
 - Name — text, required, autocomplete name
 - Email — email, required, autocomplete email
 - Inquiry — select: People, Place, Commission, Other (default Other)
@@ -340,11 +349,11 @@ Build the custom 404 page only. Paper, Nav onLight.
 
 Copy verbatim:
 - Kicker (Label): Missing
-- Lead: This series is not on the plane.
-- A text link: Return to the plane → `/`
+- Lead (Lead style): This series is not on the plane.
+- A text link (Label): Return to the plane → `/`
 - Optional second link: Info → `/info`
 
-Do not add illustrations, search, or a list of projects (Info already has the list).
+Measure 640–720. Paper. Radius 0. No illustrations.
 Do not change other pages.
 
 Report: 404 route, links.
@@ -436,7 +445,7 @@ Add hover and pressed variants only. Do not restyle the template.
 
 - Nav links (onDark and onLight): hover opacity ~0.7 or muted→ink/paper. Pressed slightly lower. Phone: hover off
 - Info title rows: hover opacity or underline
-- Detail chips: no jump; optional  opacity
+- Detail chips: no jump; optional opacity
 - Contact Send: hover opacity
 - 404 links: same as Nav
 - Plane cards: if the code component already has hover scale, leave it. Do not add CSS that fights the component
@@ -470,7 +479,7 @@ Semantics and motion only. Do not change art direction.
 - 404: one heading “Missing”
 - Work detail: the series Title is the H1 (Display)
 - Enable Framer prefers-reduced-motion / reduced motion in Site Settings if the control exists
-- Body line-height remains ~1.5. Do not swap Syne / Inter / IBM Plex Mono
+- Body line-height remains 1.55. Do not swap or add fonts. Keep Mark, Display, Lead, Body, Label as defined in phase 01.
 
 Report: tag on each page, H1 text, reduced-motion setting.
 ```
@@ -516,7 +525,7 @@ Report: lang, each page title, leftover default “My Framer Site”.
 
 ## 12 — Lummi bind
 
-Humano: plugin Lummi, Cover + 4–6 stills por slug (ver [12-lummi.md](12-lummi.md)). Después:
+Humano: look y prompts en [00-visual-system.md](00-visual-system.md) §6; checklist en [12-lummi.md](12-lummi.md). Después:
 
 | | |
 |---|---|
@@ -529,11 +538,11 @@ Humano: plugin Lummi, Cover + 4–6 stills por slug (ver [12-lummi.md](12-lummi.
 ```
 /cms
 
-The human has imported Lummi stills into the project. Bind them. Do not change layout. Do not use Unsplash.
+The human has imported Lummi stills into Work/{slug}/. Bind them. Do not change layout. Do not use Unsplash. Do not crop the detail gallery (height auto).
 
-For each Work item, set Cover and Gallery (4–6 images, stacked). Use the assets named for that slug. Then set the Drift Plane array images to the same Covers, keeping the seven CMS detail links.
+For each Work item: Cover + Gallery 4–6. Then set the Drift Plane array images to the same Covers; keep the seven CMS detail links.
 
-Alts: short, factual, English, e.g. “Still from Salt Light, coastal hour.” Not “image1”.
+Alts: “Still from {Title}, {one factual noun phrase}.” Not “image1”.
 
 All 7 Featured remain true. Do not add items.
 
@@ -593,9 +602,10 @@ Do not edit the canvas look. Write Template Agent Instructions for buyers of Dri
 
 Tell future in-canvas Agents:
 - Preserve Drift Plane as the only Home content (plus Nav + hint). Do not add a second hero, a work grid on Home, video, lightbox, or overlay viewer
-- Preserve the Work detail split (sticky ~33% info / ~67% stacked gallery) on paper/ink. Home stays home-bg black. Do not invert that
-- Preserve Syne ExtraBold + Inter + IBM Plex Mono and the five color styles (home-bg, paper, ink, muted, line)
+- Preserve the visual system: five colors (home-bg #050505, paper #F6F3EE, ink #111111, muted #6B6B6B, line #D9D4CC); five text styles Mark/Display/Lead/Body/Label (Syne ExtraBold, Inter Regular, IBM Plex Mono Medium). Radius 0 (chips 2px). No shadows, no accent, no pixel fonts, no #FFF/#000
+- Preserve the Work detail split (sticky ~33% info / ~67% stacked uncropped gallery) on paper/ink. Home stays home-bg. Do not invert that. Gallery gap 0
 - Exactly 3 breakpoints. No Index, Privacy, or Journal unless the buyer explicitly asks
+- Stills: cinematic muted photoreal (Lummi OK). No Unsplash, no illustration, no video, no lightbox
 - Work CMS: one item = one series. Click from the Plane Array (image, title, link) must keep matching Cover + slug. When the buyer changes Cover, update the Plane card too
 - Credit1–3 labels are remappable (photographer: camera/format; designer: studio/role; DP: director/producer/awards)
 - Stills only. Prefer native Form, CMS Gallery stack, and Nav variants over code

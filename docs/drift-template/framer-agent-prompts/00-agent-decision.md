@@ -35,7 +35,7 @@ El Agent interno edita el proyecto en el canvas: layers, componentes, CMS, estil
 5. **Fast Mode = Off**.
 6. `/` → solo la skill de la fase. Si no está en el menú, no inventes el slash; pega el prompt en chat plano.
 7. `@` → páginas / collections de la fase. Selecciona layers → Add to Agent.
-8. Pega [`00-constraints.md`](00-constraints.md).
+8. Pega [`00-constraints.md`](00-constraints.md). El look está en [`00-visual-system.md`](00-visual-system.md).
 9. Pega el prompt de la fase.
 10. Revisa Desktop 1440 / Tablet 768 / Phone 390. Si se desvía: **New Chat**. No “sigue pero sin rediseñar”.
 
@@ -131,7 +131,7 @@ Fast Mode = Off. Branch = `template-build`. Chat = New Chat.
 
 | Fase | Trabajo | Modelo | Reasoning | Skill |
 |---|---|---|---|---|
-| **01** | Color/text styles + shells de páginas | **Sonnet 5** | **Higher** | **`/layout`** (o `/style`) |
+| **01** | Color + 5 text styles + shells | **Sonnet 5** | **Higher** | **`/layout`** (o `/style`) |
 | **02** | Collection Work + 7 ítems, sin Lummi | **Luna** | **Higher** | **`/cms`** |
 | **03** | Home: Drift Plane + Nav onDark | **Opus 5** | **Higher** | **`/component`** |
 | **04** | Work detail split paper/ink | **Opus 5** | **Higher** | **`/layout`** |

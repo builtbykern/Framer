@@ -24,16 +24,16 @@ Build Info `/info` only. Paper background, Nav onLight. Do not change Home or th
 
 Copy verbatim:
 - Kicker (Label): Info
-- Lead (larger Body or Display at small size): Vale is a visual director working in stills. Selected work is published as series — not as a dump of single frames.
-- Body: Available for a small number of commissions each year. The plane on the home is the archive. This page is for when you already know the title.
+- Lead (Lead style): Vale is a visual director working in stills. Selected work is published as series — not as a dump of single frames.
+- Body (Body style): Available for a small number of commissions each year. The plane on the home is the archive. This page is for when you already know the title.
 
 Below, a Collection List of Work, all 7, sorted by Year descending:
-- Each row is the Title (Display or strong Body) linking to that item’s CMS detail page
-- Optional muted Year on the same row
-- No thumbnails, no hover image, no grid of covers
+- Each row is the Title (Display at a smaller override is forbidden — use Body or Mark, not a second Display size). Prefer Body 15 for the list, or Mark 15. Linking to that item’s CMS detail page
+- Optional muted Year, Label style, on the same row
+- 1px line between rows. No thumbnails, no hover image, no grid of covers
 - This is not a page at `/work`. Do not create `/work`.
 
-Keep the page narrow (~640–720px content). Generous top padding under Nav.
+Keep the page measure 640–720px. Page pad X 36 desktop / 20 phone. Top padding under Nav ~112.
 
 Report: routes you touched, how the list binds.
 ```

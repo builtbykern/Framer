@@ -1,6 +1,6 @@
 # Fase 04 — Work detail: split paper / ink
 
-**Objetivo:** Una CMS detail page con la estructura de la captura (1/3 sticky + 2/3 media) y paleta Gregor (paper, no negro).
+**Objetivo:** Una CMS detail page con la estructura de la captura (1/3 sticky + 2/3 media) y el look de [`00-visual-system.md`](00-visual-system.md) (paper, Display 68, gallery gap 0, sin crop, radio 0).
 
 Ficha: [`00-agent-decision.md`](00-agent-decision.md). Layout: [`00-source-of-truth.md`](00-source-of-truth.md) § Detail.
 
@@ -25,22 +25,22 @@ Opus: juicio visual del split. Higher: planear sticky + stack antes de dibujar.
 ```
 /layout
 
-Design the Work CMS detail page only. Do not change Home.
+Design the Work CMS detail page only. Do not change Home. Follow 00-visual-system: paper/ink, radius 0, chips 2px, no shadows, no black sidebar.
 
 Desktop / Tablet:
 - Two columns: left ~33% (minmax 280px), right ~67%
-- Left is position sticky, top 0, height 100vh, overflow auto, fill paper, padding ~96px 36px 40px (clear the Nav)
-- Right is a vertical stack of images, width 100%, gap 0 (full-bleed in the column). Insert the CMS Gallery field from Insert → Fields. Change its layout from grid to a vertical stack. If Gallery is empty, keep the stack ready.
+- Left is position sticky, top 0, height 100vh, overflow auto, fill paper, padding 96px 36px 40px, gap 28 between blocks
+- Right: CMS Gallery as a **vertical stack**, gap **0**. Each image width 100%, height auto — do **not** crop (no object-fit cover on the detail gallery).
 
-Left column, top to bottom (bind later in phase 05; use sample layers named to match fields):
-- Title — Display style, ink
-- Definition list of credits: three rows Label (muted) + value (Body/ink): Credit1, Credit2, Credit3
-- Description — Body, max ~36ch
-- Two chips: 1px line border, Label style, Tag1 and Tag2
-- Pager: Previous · Next in Label style (use Framer CMS pagination / previous-next if available; otherwise placeholder text links)
+Left column, top to bottom:
+- Title — Display style, ink (this is the H1)
+- Definition list: Label muted + Body ink for Credit1–3. Optional year row: Label “year” + Body Year
+- Description — Body, max 36ch
+- Two chips: 1px line, radius 2px, pad 5×10, Label, Tag1 Tag2
+- Pager: Previous · Next, Label, gap 18
 
 Phone 390:
-- Single column. Info stack first, gallery below. No sticky split.
+- Single column, pad 88 20 32. Info first, gallery below. No sticky split.
 
 Nav on this page: onLight variant (ink on paper). If onLight does not exist yet, add it without restyling Home’s onDark.
 

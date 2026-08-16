@@ -2,7 +2,7 @@
 
 **Prerrequisito humano:** el code component **Drift Plane** está en el proyecto (Assets / Insert). El Agent no lo genera.
 
-**Objetivo:** Home = plane a viewport + chrome mínimo. Ningún otro hero.
+**Objetivo:** Home = plane a viewport + chrome mínimo. Mark + Label según [`00-visual-system.md`](00-visual-system.md). Ningún otro hero.
 
 Ficha: [`00-agent-decision.md`](00-agent-decision.md).
 
@@ -32,13 +32,14 @@ Build Home `/` only. Home is the Drift Plane. Nothing else except chrome.
 1. Insert the existing Drift Plane code component so it fills the viewport (width 100%, height 100vh / 100dvh). Pin it. Do not recreate it in native stacks. Do not wrap it in a marketing hero (no headline, no reel, no grid of projects besides the plane).
 
 2. Create a Nav component and place it on Home:
-   - Variant onDark (this page): mark and links in paper/white on the black home-bg
+   - Variant onDark (this page): Mark style for VALE, Label style for Info/Contact, color paper (not #FFF) on home-bg
+   - Optional 88px-tall scrim: home-bg 70% to transparent. No other gradient
    - Links: VALE → `/` · Info → `/info` · Contact → `/contact`
-   - Position: top, overlay, does not push the plane down
-   - Label text style. Quiet. No hamburger unless Phone needs it; on Phone a simple row or wrap is fine
+   - Position: top, overlay, does not push the plane down. Nav pad 22×28 desktop, 16×20 phone
+   - No hamburger on Desktop/Tablet. Phone: same row, wrap if needed, no drawer
    - Component variables: email studio@vale.work, instagram https://www.instagram.com/vale.work
 
-3. Hint, Label style, muted, bottom-left, pointer-events none:
+3. Hint, Label style, muted, bottom 24 left 28, pointer-events none:
    “Pan the plane · click a series”
 
 4. One H1 “VALE” visually hidden (sr-only / 1px clip) for semantics. No visible H1 on Home.

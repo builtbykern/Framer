@@ -31,7 +31,7 @@ Semantics and motion only. Do not change art direction.
 - 404: one heading “Missing”
 - Work detail: the series Title is the H1 (Display)
 - Enable Framer prefers-reduced-motion / reduced motion in Site Settings if the control exists
-- Body line-height remains ~1.5. Do not swap Syne / Inter / IBM Plex Mono
+- Body line-height remains 1.55. Do not swap or add fonts. Keep Mark, Display, Lead, Body, Label as defined in phase 01.
 
 Report: tag on each page, H1 text, reduced-motion setting.
 ```
