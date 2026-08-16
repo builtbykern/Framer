@@ -4,22 +4,47 @@ Un **New Chat** por bloque. Branch `marketplace-qa`. **Fast Mode Off.** Nunca Fa
 
 Antes de cada prompt, pega las [constraints](00-constraints.md). Opus: **5** → 4.8 → 4.7. `/seo` `/layout` `/audit` solo si están en el menú `/`; si no, pega el prompt sin el slash.
 
-| # | Modelo | Skill |
-|---|---|---|
-| 01 | GPT 5.6 Luna | `/cms` |
-| 02 | GPT 5.6 Luna | `/component` |
-| 03 | GPT 5.5 | ninguna |
-| 04 | GPT 5.6 Luna | `/cms` |
-| 05A | GPT 5.6 Luna | `/cms` |
-| 05B | Opus 5 | `/component` |
-| 06 | Sonnet 5 | `/cms` |
-| 07 | GPT 5.6 Terra | `/seo` (o ninguna) |
-| 08 | Opus 5 | `/component` |
-| 09 | Sonnet 5 | `/component` |
-| 10 | Sonnet 5 | `/layout` (o ninguna) |
-| 11 | Opus 5 | `/component` |
-| 12A | GPT 5.6 Terra | `/audit` (o ninguna) |
-| 12B | Sonnet 5 | ninguna |
+Fuente de efectos: [Choosing a model](https://www.framer.com/help/articles/choosing-a-model-in-the-framer-agent/) (7 ago 2026), [GPT 5.6](https://www.framer.com/updates/gpt-5-6), [Opus 5](https://www.framer.com/updates/opus-5), [Reasoning](https://www.framer.com/updates/agent-reasoning-and-fast-mode).
+
+## Efecto de cada modelo
+
+Qué hace el modelo **en el canvas** cuando lo eliges. Help: cada uno tiene sesgo de planning, iniciativa creativa, velocidad y créditos.
+
+| Modelo | Efecto oficial (Help / Updates) | Qué produce en Arbour | Créditos / velocidad |
+|---|---|---|---|
+| **GPT 5.6 Luna** | El más rápido. CMS grande y find-replace cross-site. | Cambia datos, slugs, binds, teléfonos. Casi no rediseña. | 2× más rápido; ~0.4× créditos vs GPT 5.5 |
+| **GPT 5.5** | Copy-heavy, otras perspectivas, páginas estructuradas. | Reescribe texto (1999, grammar). No toca layout si se lo prohibes. | Baseline de copy |
+| **GPT 5.6 Terra** | Audits grandes, redesigns, pases de consistencia, más barato. | Revisa SEO/alts/hygiene y corrige sin inventar look. | ~0.6× créditos vs GPT 5.5 |
+| **Sonnet 5** | Default. Layout, diseño original eficiente, edits cotidianos. | Hover, tags, swap de 6 fotos, instructions. Conservador. | Default del picker |
+| **Opus 5** | Plan largo, juicio visual, ejecución multi-paso. Mismo score que Fable en nav, ~0.5× créditos de Fable. | Páginas nuevas que deben *parecer* Arbour (Territories, Form, Privacy). | ~1.2× créditos vs Sol; fallback 4.8 → 4.7 |
+| **Fable 5** | El más *proactive*. Va más allá del brief. First drafts, detalles expresivos, sistemas nuevos. | Rediseña. **No usar.** | Más caro que Opus 5 para el mismo score de nav |
+| **GPT 5.6 Sol** | Creativo más fuerte, poca guía, diseños “acabados”. | Cambia la esencia. **No usar.** | Baseline creativo GPT 5.6 |
+
+**Reasoning** (picker, 12 ago 2026):
+
+| Valor | Efecto |
+|---|---|
+| **Light** | Edits rápidos. Empieza a construir ya. Poco plan. |
+| **Higher** | Piensa el schema/página **antes** de tocar. Más lento, menos errores de CMS. |
+
+**Fast Mode** (Opus 5): generaciones más rápidas, más tokens. Efecto aquí: peor plan. **Off.**
+
+| # | Modelo | Efecto en esta fase | Skill |
+|---|---|---|---|
+| 01 | Luna | CMS rápido: slugs y binds del 404 | `/cms` |
+| 02 | Luna | Find-replace de tels/socials en componentes | `/component` |
+| 03 | GPT 5.5 | Solo copy; no rediseña | ninguna |
+| 04 | Luna | Schema + bind de 6 properties | `/cms` |
+| 05A | Luna | Collection Territories + 4 items | `/cms` |
+| 05B | Opus 5 | Detail page con juicio visual Arbour | `/component` |
+| 06 | Sonnet 5 | Swap de 2 fotos con criterio visual, sin look nuevo | `/cms` |
+| 07 | Terra | Audit SEO/lang/OG/alt a bajo coste | `/seo` (o ninguna) |
+| 08 | Opus 5 | Form nativo + estados, encaje visual | `/component` |
+| 09 | Sonnet 5 | Variants hover/pressed, resting igual | `/component` |
+| 10 | Sonnet 5 | Tags y line-height; no typeface nueva | `/layout` (o ninguna) |
+| 11 | Opus 5 | Privacy + contraste AA, look heredado | `/component` |
+| 12A | Terra | Audit hygiene site-wide | `/audit` (o ninguna) |
+| 12B | Sonnet 5 | Texto de instructions, sin canvas | ninguna |
 
 ---
 
@@ -28,6 +53,7 @@ Antes de cada prompt, pega las [constraints](00-constraints.md). Opus: **5** →
 | | |
 |---|---|
 | **Modelo** | GPT 5.6 Luna |
+| **Efecto** | El más rápido en CMS. Arregla slugs/binds del 404 sin rediseñar. Higher: planea schema antes de borrar el item roto. |
 | **Skill** | `/cms` |
 | **Reasoning** | Higher |
 | **@** | Notes collection, `@Home` `@Notes` `@Contact` |
@@ -54,6 +80,7 @@ Report: collection fields, each of the 7 slugs, which Home cards bind to which i
 | | |
 |---|---|
 | **Modelo** | GPT 5.6 Luna |
+| **Efecto** | Find-replace cross-site. Unifica tres tels y socials. Light: no hay schema que planear. |
 | **Skill** | `/component` |
 | **Reasoning** | Light |
 | **@** | Header overlay, Footer, `@Contact` |
@@ -87,6 +114,7 @@ Scan the whole project for leftover 7351 8800 and @builtbykern. List remaining t
 | | |
 |---|---|
 | **Modelo** | GPT 5.5 |
+| **Efecto** | Copy-heavy: 1999 vs 2018, grammar, numeración. No rediseña si el prompt lo prohíbe. |
 | **Skill** | ninguna |
 | **Reasoning** | Light |
 | **@** | `@Home` `@About` `@Properties` `@Notes` |
@@ -123,6 +151,7 @@ List every string you changed.
 | | |
 |---|---|
 | **Modelo** | GPT 5.6 Luna |
+| **Efecto** | CMS masivo: fields, coords, rooms únicos, contadores. Higher: decide binds antes de editar 6 ítems. |
 | **Skill** | `/cms` |
 | **Reasoning** | Higher |
 | **@** | Properties collection, property detail template, `@Home` `@Properties` |
@@ -154,6 +183,7 @@ Report fields added, which layout layers are now bound, and a one-line rooms sum
 | | |
 |---|---|
 | **Modelo** | GPT 5.6 Luna |
+| **Efecto** | Crea collection + 4 items y rewire de VIEW. No construye la detail page (eso es 05B). |
 | **Skill** | `/cms` |
 | **Reasoning** | Higher |
 | **@** | `@Neighbourhoods`, Properties collection |
@@ -180,6 +210,7 @@ New Chat. No reciclar 05A.
 | | |
 |---|---|
 | **Modelo** | Opus 5 |
+| **Efecto** | Juicio visual + plan multi-paso. La detail page sale *como* Arbour, no como un blog genérico. Fable haría lo mismo más “expresivo” (rediseño). |
 | **Skill** | `/component` |
 | **Reasoning** | Higher |
 | **@** | `@Neighbourhoods`, property detail (referencia visual) |
@@ -203,6 +234,7 @@ Then connect the four index cards on @Neighbourhoods.
 | | |
 |---|---|
 | **Modelo** | Sonnet 5 |
+| **Efecto** | Edit cotidiano con criterio visual. Elige foto Chelsea/Cotswolds. Luna iría más rápido y fallaría el match. Opus sobra y toca layout. |
 | **Skill** | `/cms` |
 | **Reasoning** | Light |
 | **@** | Properties collection (Cheyne Walk, Bibury) |
@@ -230,6 +262,7 @@ List old vs new asset names per slug.
 | | |
 |---|---|
 | **Modelo** | GPT 5.6 Terra |
+| **Efecto** | Audit + consistency barato. Llena lang/favicon/OG/alt. No reescribe H1 ni el look. |
 | **Skill** | `/seo` si está en el menú `/`; si no, ninguna |
 | **Reasoning** | Higher |
 | **@** | Site Settings, todas las páginas |
@@ -253,6 +286,7 @@ Report: lang, favicon path, pages missing OG before/after, count of alts filled.
 | | |
 |---|---|
 | **Modelo** | Opus 5 |
+| **Efecto** | Multi-paso con encaje visual: Form nativo, labels, success/error. `/code` lo haría en React; Opus debe quedarse en canvas. |
 | **Skill** | `/component` |
 | **Reasoning** | Higher |
 | **@** | `@Contact` `@Home` `@Properties` |
@@ -287,6 +321,7 @@ List components created and which pages they sit on.
 | | |
 |---|---|
 | **Modelo** | Sonnet 5 |
+| **Efecto** | Micro-edits: variants Hover/Pressed. Resting igual. Light: no hay página nueva que planear. |
 | **Skill** | `/component` |
 | **Reasoning** | Light |
 | **@** | Header, Footer, Home, cards Properties/Notes |
@@ -313,6 +348,7 @@ List components/variants you edited.
 | | |
 |---|---|
 | **Modelo** | Sonnet 5 |
+| **Efecto** | Layout direction (Help: default). Tags y line-height. Higher: mapea landmarks sin romper stacks. No cambia typeface. |
 | **Skill** | `/layout` si está en el menú `/`; si no, ninguna |
 | **Reasoning** | Higher |
 | **@** | Layout templates Header/Footer, text styles |
@@ -336,6 +372,7 @@ Report tag changes per page and the new H1 line-height.
 | | |
 |---|---|
 | **Modelo** | Opus 5 |
+| **Efecto** | Páginas legales nuevas + juicio de contraste. Hereda Header/Footer. Fable “puliría” el hero y el 404. |
 | **Skill** | `/component` |
 | **Reasoning** | Higher |
 | **@** | Footer, `@Home` `@About`, Properties CLEAR |
@@ -359,6 +396,7 @@ List pages created and contrast method used on heroes.
 | | |
 |---|---|
 | **Modelo** | GPT 5.6 Terra |
+| **Efecto** | Pase de consistencia site-wide: links, layers, styles huérfanos. Corrige hygiene, no el art direction. |
 | **Skill** | `/audit` si está en el menú `/`; si no, ninguna |
 | **Reasoning** | Higher |
 | **@** | Proyecto entero |
@@ -392,6 +430,7 @@ New Chat. No reciclar 12A.
 | | |
 |---|---|
 | **Modelo** | Sonnet 5 |
+| **Efecto** | Texto estructurado, edit cotidiano. Escribe instructions del comprador. No reabre el canvas. |
 | **Skill** | ninguna |
 | **Reasoning** | Light |
 | **@** | Site Settings / Template Agent instructions |
