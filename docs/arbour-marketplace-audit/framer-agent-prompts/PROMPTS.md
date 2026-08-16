@@ -16,7 +16,7 @@ Qué hace el modelo **en el canvas** cuando lo eliges. Help: cada uno tiene sesg
 | **GPT 5.5** | Copy-heavy, otras perspectivas, páginas estructuradas. | Reescribe texto (1999, grammar). No toca layout si se lo prohibes. | Baseline de copy |
 | **GPT 5.6 Terra** | Audits grandes, redesigns, pases de consistencia, más barato. | Revisa SEO/alts/hygiene y corrige sin inventar look. | ~0.6× créditos vs GPT 5.5 |
 | **Sonnet 5** | Default. Layout, diseño original eficiente, edits cotidianos. | Hover, tags, swap de 6 fotos, instructions. Conservador. | Default del picker |
-| **Opus 5** | Plan largo, juicio visual, ejecución multi-paso. Mismo score que Fable en nav, ~0.5× créditos de Fable. | Páginas nuevas que deben *parecer* Arbour (Territories, Form, Privacy). | ~1.2× créditos vs Sol; fallback 4.8 → 4.7 |
+| **Opus 5** | Plan largo, juicio visual, ejecución multi-paso. Mismo score que Fable en nav, ~0.5× créditos de Fable. | Solo el Form nativo **en Contact existente**. No páginas nuevas. | ~1.2× créditos vs Sol; fallback 4.8 → 4.7 |
 | **Fable 5** | El más *proactive*. Va más allá del brief. First drafts, detalles expresivos, sistemas nuevos. | Rediseña. **No usar.** | Más caro que Opus 5 para el mismo score de nav |
 | **GPT 5.6 Sol** | Creativo más fuerte, poca guía, diseños “acabados”. | Cambia la esencia. **No usar.** | Baseline creativo GPT 5.6 |
 
@@ -54,18 +54,17 @@ Estimación por fase = (tipo de op) × (multiplicador). No es una factura; es el
 | 02 | Luna 0.4× | Light | Small/large replace ~50–100 | Mínimo | ~20–40 |
 | 03 | GPT 5.5 1× | Light | Small/large copy ~50–100 | Medio | ~50–100 |
 | 04 | Luna 0.4× | Higher | Large CMS ~100–150 | Bajo–medio | ~40–60 |
-| 05A | Luna 0.4× | Higher | Large CMS ~100 | Bajo | ~40 |
-| 05B | Opus 5 1.2× | Higher | Página nueva ~150–300 | Alto | ~180–360 |
+| 05 | Luna 0.4× | Light | Small link/label ~50 | Mínimo | ~20 |
 | 06 | Sonnet 5 0.6× | Light | Small edit ~50 | Bajo | ~30 |
 | 07 | Terra 0.6× | Higher | Large audit ~100–150 | Medio | ~60–90 |
-| 08 | Opus 5 1.2× | Higher | Large / página ~100–200 | Alto | ~120–240 |
+| 08 | Opus 5 1.2× | Higher | Large form on existing page ~100–200 | Alto | ~120–240 |
 | 09 | Sonnet 5 0.6× | Light | Small/large ~50–100 | Bajo | ~30–60 |
 | 10 | Sonnet 5 0.6× | Higher | Large site-wide ~100–150 | Medio | ~60–90 |
-| 11 | Opus 5 1.2× | Higher | Página nueva ~150–300 | Alto | ~180–360 |
+| 11 | Sonnet 5 0.6× | Light | Small contrast ~50 | Bajo | ~30 |
 | 12A | Terra 0.6× | Higher | Large audit ~100–200 | Medio | ~60–120 |
 | 12B | Sonnet 5 0.6× | Light | Small edit ~50 | Bajo | ~30 |
 
-Pack completo (14 chats): **aprox. 900–1.700 créditos**. Lo caro es **05B / 08 / 11 (Opus 5 + Higher)**. Lo barato es Luna. Si el picker no tiene Opus 5 y caes a 4.8 (1.8×), 05B/08/11 suben ~50 %.
+Pack completo (13 chats, **sin páginas nuevas**): **aprox. 550–1.000 créditos**. Lo único alto es **08 (Opus 5 + Form en Contact)**. Luna cubre CMS. 05 y 11 ya no son Opus.
 
 | # | Modelo | Efecto en esta fase | Esfuerzo | Skill |
 |---|---|---|---|---|
@@ -73,14 +72,13 @@ Pack completo (14 chats): **aprox. 900–1.700 créditos**. Lo caro es **05B / 0
 | 02 | Luna | Find-replace de tels/socials | Mínimo (~20–40) | `/component` |
 | 03 | GPT 5.5 | Solo copy; no rediseña | Medio (~50–100) | ninguna |
 | 04 | Luna | Schema + bind de 6 properties | Bajo–medio (~40–60) | `/cms` |
-| 05A | Luna | Collection Territories + 4 items | Bajo (~40) | `/cms` |
-| 05B | Opus 5 | Detail page con juicio visual Arbour | Alto (~180–360) | `/component` |
+| 05 | Luna | VIEW de Neighbourhoods → `/properties` existente | Mínimo (~20) | `/component` |
 | 06 | Sonnet 5 | Swap de 2 fotos, sin look nuevo | Bajo (~30) | `/cms` |
 | 07 | Terra | Audit SEO/lang/OG/alt | Medio (~60–90) | `/seo` (o ninguna) |
-| 08 | Opus 5 | Form nativo + estados | Alto (~120–240) | `/component` |
+| 08 | Opus 5 | Form nativo **en Contact** (no página nueva) | Alto (~120–240) | `/component` |
 | 09 | Sonnet 5 | Variants hover/pressed | Bajo (~30–60) | `/component` |
 | 10 | Sonnet 5 | Tags y line-height | Medio (~60–90) | `/layout` (o ninguna) |
-| 11 | Opus 5 | Privacy + contraste AA | Alto (~180–360) | `/component` |
+| 11 | Sonnet 5 | Contraste + acento, sin Privacy | Bajo (~30) | `/component` |
 | 12A | Terra | Audit hygiene site-wide | Medio (~60–120) | `/audit` (o ninguna) |
 | 12B | Sonnet 5 | Instructions, sin canvas | Bajo (~30) | ninguna |
 
@@ -220,55 +218,30 @@ Report fields added, which layout layers are now bound, and a one-line rooms sum
 
 ---
 
-## 05A — Territories CMS
+## 05 — Neighbourhoods VIEW (páginas existentes)
 
 | | |
 |---|---|
 | **Modelo** | GPT 5.6 Luna |
-| **Efecto** | Crea collection + 4 items y rewire de VIEW. No construye la detail page (eso es 05B). |
-| **Esfuerzo** | Bajo. Luna 0.4× × large CMS ~100 → **~40 créditos**. |
-| **Skill** | `/cms` |
-| **Reasoning** | Higher |
-| **@** | `@Neighbourhoods`, Properties collection |
-
-```
-/cms
-
-Create a Territories (or Neighbourhoods) CMS collection if one does not exist.
-
-Items (4): Chelsea, Notting Hill, Hampstead, The Cotswolds.
-Human slugs. Fields at least: Name, Slug, Coordinates, Short intro (the current directory paragraphs), Hero image, Body, optional reference to Properties in that area.
-
-Keep the existing Neighbourhoods index look. Change only the destination of VIEW → so each card goes to its CMS detail page, not to /properties.
-
-Do not invent a fifth territory.
-```
-
----
-
-## 05B — Territories detail page
-
-New Chat. No reciclar 05A.
-
-| | |
-|---|---|
-| **Modelo** | Opus 5 |
-| **Efecto** | Juicio visual + plan multi-paso. La detail page sale *como* Arbour, no como un blog genérico. Fable haría lo mismo más “expresivo” (rediseño). |
-| **Esfuerzo** | Alto. Opus 5 1.2× × página ~150–300 → **~180–360 créditos**. Lo más caro del pack. |
+| **Efecto** | Find-replace de links/labels. No crea collection ni detail. |
+| **Esfuerzo** | Mínimo. Luna 0.4× × small ~50 → **~20 créditos**. |
 | **Skill** | `/component` |
-| **Reasoning** | Higher |
-| **@** | `@Neighbourhoods`, property detail (referencia visual) |
+| **Reasoning** | Light |
+| **@** | `@Neighbourhoods`, `@Properties` |
 
 ```
 /component
 
-Build a Territories CMS detail layout that feels like the existing Arbour property detail (split editorial, cream, Fraunces + Space Mono, 1px rules, same header/footer) but for a neighbourhood — not a house.
+Do not create any new pages, routes, CMS collections, or detail layouts.
 
-Include: bound name, coordinates, intro, body, and a CMS list of properties filtered by that territory. CTA “START A CONVERSATION” still goes to Contact.
+Keep the existing Neighbourhoods index look.
 
-Match spacing and type styles already in the project. No new palette, no extra breakpoint, no code component.
+Each of the four cards (Chelsea, Notting Hill, Hampstead, The Cotswolds) currently sends VIEW → to /properties with no explanation.
 
-Then connect the four index cards on @Neighbourhoods.
+Preferred: point VIEW at the existing /properties page with that AREA filter already applied, if the project can do that without a new page.
+If a pre-filtered URL is impossible, keep href=/properties and change the control label to “See residences in this area” (British English, Space Mono, same treatment as other VIEW → links).
+
+Do not add neighbourhood detail pages. Do not add a Territories collection.
 ```
 
 ---
@@ -343,7 +316,7 @@ No uses `/code`. Form nativo.
 ```
 /component
 
-Forms and labels only. Use native Framer Form. Do not write a code component.
+Forms and labels only. Use native Framer Form. Do not write a code component. Do not create a new page — edit Home, Properties, and Contact in place.
 
 1. Home newsletter: visible label (or aria-label) for the email field — not placeholder-only. Placeholder may stay “your@email.com”. Submit needs a success state and an error state (invalid/empty). Keep SUBSCRIBE → styling.
 
@@ -416,27 +389,28 @@ Report tag changes per page and the new H1 line-height.
 
 ---
 
-## 11 — Legal y contraste
+## 11 — Contraste y acento
 
 | | |
 |---|---|
-| **Modelo** | Opus 5 |
-| **Efecto** | Páginas legales nuevas + juicio de contraste. Hereda Header/Footer. Fable “puliría” el hero y el 404. |
-| **Esfuerzo** | Alto. Opus 5 1.2× × página ~150–300 → **~180–360 créditos**. |
+| **Modelo** | Sonnet 5 |
+| **Efecto** | Edit cotidiano: scrim + un acento. Sin páginas legales. |
+| **Esfuerzo** | Bajo. Sonnet 5 0.6× × small ~50 → **~30 créditos**. |
 | **Skill** | `/component` |
-| **Reasoning** | Higher |
-| **@** | Footer, `@Home` `@About`, Properties CLEAR |
+| **Reasoning** | Light |
+| **@** | `@Home` `@About`, Properties CLEAR, `@Contact` |
 
 ```
 /component
 
-Three polish items. Do not redesign the brand.
+Two polish items on existing pages only. Do not create pages. Do not redesign the brand.
 
 1. Contrast: Home and About heroes have small white meta on bright sky. Add a subtle scrim or move meta onto a darker part of the photo so WCAG 4.5:1 holds for that small Space Mono. Do not flatten the photography.
 2. CLEAR button on Properties uses lime. Either keep lime as the single accent and use it on primary buttons consistently, or retint CLEAR to olive/charcoal already in the system. Pick one accent. Check 4.5:1 on the label.
-3. Because the site collects email, add a short Privacy page (and link it in the footer LEGAL row) in Arbour voice: demo agency, what the form stores, how to change the page after purchase. Optional Terms one-pager. Do not add cookie banners unless native and necessary. Match footer/type. No new palette.
 
-List pages created and contrast method used on heroes.
+Do not add Privacy, Terms, or cookie pages. If the newsletter/contact form needs a legal note, add one short line on the existing Contact or newsletter block: “Demo template — replace with your own privacy policy before publishing.” Same type styles. No new route.
+
+List contrast method used on heroes. List no new pages.
 ```
 
 ---
@@ -467,7 +441,7 @@ Scan for:
 - Creator promo / leftover @builtbykern links
 - Performance: oversized uncompressed images, excessive blurs (>10)
 
-Fix what you can without visual change. Report what you fixed and what needs a human.
+Fix what you can without visual change. Do not create new pages. Report what you fixed and what needs a human.
 
 Do not write Template Agent Instructions in this chat. Do not publish.
 ```
@@ -493,12 +467,12 @@ Do not edit the canvas look. Write Template Agent Instructions for buyers of thi
 Tell future in-canvas Agents:
 - preserve Fraunces + Space Mono, cream, 72px-class padding, hamburger overlay, custom 404
 - edit CMS and component variables for contact/socials
-- do not add breakpoints or lorem
+- do not add breakpoints, lorem, or new pages
 - prefer native Form, CMS, and component variants over code
 
 Paste those instructions into the template’s custom Agent instructions field if it exists; otherwise output them in chat for me to paste.
 
-Finally list remaining manual checks: Framer Performance panel, Desktop/Tablet/Phone walkthrough, form submit, filters, all 7 notes, 4 territories, 6 properties.
+Finally list remaining manual checks: Framer Performance panel, Desktop/Tablet/Phone walkthrough, form submit, filters, all 7 notes, Neighbourhoods index (4 cards → /properties), 6 properties.
 
 Do not publish.
 ```

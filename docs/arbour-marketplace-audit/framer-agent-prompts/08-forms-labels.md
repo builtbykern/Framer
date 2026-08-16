@@ -23,7 +23,7 @@ Opus: form + estados success/error + encaje visual. Native Framer Form.
 ```
 /component
 
-Forms and labels only. Use native Framer Form. Do not write a code component.
+Forms and labels only. Use native Framer Form. Do not write a code component. Do not create a new page.
 
 1. Home newsletter: visible label (or aria-label) for the email field — not placeholder-only. Placeholder may stay “your@email.com”. Submit needs a success state and an error state (invalid/empty). Keep SUBSCRIBE → styling.
 

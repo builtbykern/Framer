@@ -21,11 +21,12 @@ DO NOT REDESIGN. Preserve:
 - existing 3 breakpoints only (Desktop / Tablet / Phone)
 
 You MAY: bind CMS, fix slugs, set component variables, reuse existing styles,
-write alt text, set semantic tags, add hover/pressed variants, use native Forms,
-edit site settings.
+write alt text, set semantic tags, add hover/pressed variants, use native Forms
+on existing pages, edit site settings.
 
 DO NOT:
 - invent a new visual system, dark mode, or extra breakpoint
+- create new pages or routes (no Privacy, no territory details, no extra sitemap items)
 - use lorem ipsum
 - link socials to framer.com/@builtbykern
 - write custom code when a native Form, CMS field, component variant, or

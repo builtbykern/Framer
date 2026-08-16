@@ -49,11 +49,11 @@ Nombradas en el toolkit de [framer.com/agents](https://www.framer.com/agents/) y
 
 | Escribes | Label en UI | Oficio | En Arbour |
 |---|---|---|---|
-| **`/cms`** | Write content | Collections, fields, items, slugs, import, bind a lists/detail pages | 01, 04, 05A, 06 |
-| **`/component`** | With variants | Componentes reutilizables, variants (Hover/Pressed/breakpoint), overlay, forms nativos | 02, 05B, 08, 09, 11 |
+| **`/cms`** | Write content | Collections, fields, items, slugs, import, bind a lists/detail pages | 01, 04, 06 |
+| **`/component`** | With variants | Componentes reutilizables, variants (Hover/Pressed/breakpoint), overlay, forms nativos | 02, 05, 08, 09, 11 |
 | **`/code`** | Custom component | React code component | **Veto.** Help Code + Academy: nativo primero. Forms, hover, CMS y filtros no son código. |
 
-Help CMS+Agents ([add content with Agents](https://www.framer.com/help/articles/how-to-add-content-to-your-cms-with-framer-agents/)): el Agent es fuerte creando collections e items; el bind a detail pages con filtros/condicionales hay que **revisar a mano**. Por eso 05 está partido en A (`/cms`) y B (`/component`).
+Help CMS+Agents ([add content with Agents](https://www.framer.com/help/articles/how-to-add-content-to-your-cms-with-framer-agents/)): el Agent es fuerte creando collections e items. **Este pack no crea páginas nuevas** (ni Territories detail ni Privacy). 05 solo rewirea VIEW en el índice existente.
 
 ### 3.2 Extendidas (el menú `/` puede listarlas)
 
@@ -63,7 +63,7 @@ Framer no publica un catálogo Help con más nombres. El copy oficial sí dice q
 
 | Si el menú muestra | Úsala solo en | No la uses para |
 |---|---|---|
-| Layout / `/layout` | **10**, y **05B** si no hay `/component` suficiente para la detail page | Rediseñar Home, grids nuevos, 4º breakpoint |
+| Layout / `/layout` | **10** | Rediseñar Home, grids nuevos, 4º breakpoint, páginas nuevas |
 | Style / `/style` | **ninguna fase como primaria.** Arbour no cambia paleta ni typeface | Dark mode, nueva paleta, motion extra |
 | SEO / `/seo` | **07** | Reescribir H1, “mejorar el copy” |
 | Audit / `/audit` | **12A** (último) | Empezar el proyecto, “hacer un pass creativo” |
@@ -128,7 +128,7 @@ Updates posteriores (siguen en el picker si tu build las tiene):
 | **GPT 5.5** | Copy-heavy | Canon 1999 / grammar / numeración. No layout. |
 | **GPT 5.6 Terra** | Audits grandes, consistency, menor coste | SEO/a11y metadata + hygiene final |
 | **Sonnet 5** | Default. Layout, edits cotidianos, diseño eficiente | Hover, type tags, swap de 6 fotos (juicio visual barato) |
-| **Opus 5** | Plan largo, juicio visual, multi-paso | Detail page Territories, Form nativo, páginas legales que deben *parecer* Arbour |
+| **Opus 5** | Plan largo, juicio visual, multi-paso | Form nativo **en Contact existente**. No Territories detail. No Privacy. |
 
 ---
 
@@ -157,18 +157,17 @@ Fast Mode = Off en todas. Branch = `marketplace-qa`. Chat = New Chat.
 | **02** | Teléfonos + socials en overlay/footer | **GPT 5.6 Luna** | **Light** | **`/component`** | No aplica | Overlay, Footer, @Contact | `/cms` (no son collections) |
 | **03** | Copy canon 1999 / grammar / números | **GPT 5.5** | **Light** | **Ninguna** | — | @Home @About @Properties @Notes | `/cms` `/component` `/code` |
 | **04** | Properties: coords, rooms, featured vs index | **GPT 5.6 Luna** | **Higher** | **`/cms`** | No aplica | Property detail template + collection | `/code` |
-| **05A** | Territories collection + 4 items | **GPT 5.6 Luna** | **Higher** | **`/cms`** | No aplica | @Neighbourhoods, Properties (refs) | Canvas layout en este chat |
-| **05B** | Detail page Territories (look Arbour) | **Opus 5** | **Higher** | **`/component`** | `/layout` si existe; si no, chat plano + Opus | Property detail como *referencia* visual | `/code` Fable Sol |
-| **06** | Heroes/fotos = copy (no Manhattan, no garage) | **Sonnet 5** | **Light** | **`/cms`** | No aplica | 6 property items + 4 territories | Luna (va rápido y elige mal la foto) |
+| **05** | VIEW Neighbourhoods → `/properties` existente | **GPT 5.6 Luna** | **Light** | **`/component`** | No aplica | @Neighbourhoods @Properties | Páginas/collection nuevas |
+| **06** | Heroes/fotos = copy (no Manhattan, no garage) | **Sonnet 5** | **Light** | **`/cms`** | No aplica | 6 property items | Luna (va rápido y elige mal la foto) |
 | **07** | `lang`, favicon, OG, alts, titles únicos | **GPT 5.6 Terra** | **Higher** | **`/seo`** | Chat plano (Agents `#seo`) | Site Settings + todas las páginas | `/cms` (no mutar schema) |
-| **08** | Form Contact, newsletter labels, filtros | **Opus 5** | **Higher** | **`/component`** | Chat plano + Opus | @Contact, Home newsletter, Properties filters | **`/code`** |
+| **08** | Form Contact, newsletter labels, filtros | **Opus 5** | **Higher** | **`/component`** | Chat plano + Opus | @Contact, Home newsletter, Properties filters | **`/code`**, página nueva |
 | **09** | Hover / pressed en links y cards | **Sonnet 5** | **Light** | **`/component`** | Chat plano + Sonnet | Nav, cards, VIEW ALL | `/style` (no retocar paleta) |
 | **10** | Tags header/nav/main/footer, H1, line-height | **Sonnet 5** | **Higher** | **`/layout`** | Chat plano + Sonnet | Layout templates, text styles | Nueva typeface, 4º breakpoint |
-| **11** | Privacy/Cookies + contraste AA | **Opus 5** | **Higher** | **`/component`** | Chat plano + Opus | Footer, heroes, CLEAR | `/style` como paleta nueva |
-| **12A** | Audit links/a11y/hygiene y fix mínimo | **GPT 5.6 Terra** | **Higher** | **`/audit`** | Chat plano (Agents `#audit`) | Proyecto entero | Rediseño, `/code` nuevo |
+| **11** | Contraste AA + un acento | **Sonnet 5** | **Light** | **`/component`** | Chat plano + Sonnet | Heroes, CLEAR, Contact | Privacy/Terms nuevas |
+| **12A** | Audit links/a11y/hygiene y fix mínimo | **GPT 5.6 Terra** | **Higher** | **`/audit`** | Chat plano (Agents `#audit`) | Proyecto entero | Rediseño, `/code` nuevo, páginas nuevas |
 | **12B** | Template Agent Instructions para el comprador | **Sonnet 5** | **Light** | **Ninguna** | — | Site Settings / Template instructions | Cambiar el look “para el Agent” |
 
-**05B y 12B son New Chat aparte.** No reciclar 05A ni 12A.
+**12B es New Chat aparte.** No reciclar 12A. No hay 05B.
 
 ---
 
@@ -182,25 +181,23 @@ Fast Mode = Off en todas. Branch = `marketplace-qa`. Chat = New Chat.
 
 **04 Luna + Higher + `/cms`** — Seis detalles con coords/rooms hardcodeados. Schema + bind, no copy.
 
-**05A Luna + Higher + `/cms`** — Help: collection + items primero, páginas después.
+**05 Luna + Light + `/component`** — VIEW del índice existente → `/properties` (filtro AREA o label honesto). Sin collection. Sin detail.
 
-**05B Opus 5 + Higher + `/component`** — Help Opus: juicio visual multi-paso. La detail page tiene que parecer Arbour, no un blog genérico. Fable vetado aunque el benchmark de nav sea similar.
-
-**06 Sonnet 5 + Light + `/cms`** — Seis (más four) swaps. El cuello es visual (Chelsea ≠ skyline), no throughput. Luna elegiría Unsplash rápido y mal. Opus sobra y retoca layout.
+**06 Sonnet 5 + Light + `/cms`** — Seis swaps. El cuello es visual (Chelsea ≠ skyline), no throughput. Luna elegiría Unsplash rápido y mal. Opus sobra y retoca layout.
 
 **07 Terra + Higher + `/seo`** — Help Terra: audits/consistency. Agents `#seo`: titles, descriptions, OG, alt. Higher: site-wide sin picar H1.
 
-**08 Opus 5 + Higher + `/component`** — Form nativo + estados + labels + filtros. Academy: código solo si el canvas no puede. Canvas puede.
+**08 Opus 5 + Higher + `/component`** — Form nativo **en Contact existente** + labels + filtros. No página nueva. Academy: código solo si el canvas no puede.
 
 **09 Sonnet 5 + Light + `/component`** — Hover = variants. Edit cotidiano. Higher no hace falta.
 
-**10 Sonnet 5 + Higher + `/layout`** — Help Sonnet: layout direction. Higher: mapa de tags sin romper stacks. No Opus: no es página nueva.
+**10 Sonnet 5 + Higher + `/layout`** — Help Sonnet: layout direction. Higher: mapa de tags sin romper stacks.
 
-**11 Opus 5 + Higher + `/component`** — Páginas legales nuevas + scrim de contraste. Deben heredar Header/Footer/type. Opus planifica; Fable las haría “más expresivas”.
+**11 Sonnet 5 + Light + `/component`** — Scrim + un acento en páginas existentes. Sin Privacy/Terms.
 
-**12A Terra + Higher + `/audit`** — Copy oficial: *scans … broken links, accessibility, inconsistencies, then fixes them.* Terra es el modelo de audit.
+**12A Terra + Higher + `/audit`** — Copy oficial: *scans … broken links, accessibility, inconsistencies, then fixes them.* Terra es el modelo de audit. No crear páginas para “arreglar” hygiene.
 
-**12B Sonnet 5 + Light + ninguna** — Instructions para el Agent del comprador. No es un audit y no debe reabrir el canvas.
+**12B Sonnet 5 + Light + ninguna** — Instructions para el Agent del comprador. Incluir: no añadir páginas ni breakpoints.
 
 ---
 

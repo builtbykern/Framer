@@ -38,7 +38,7 @@ Scan for:
 - Creator promo / leftover @builtbykern links
 - Performance: oversized uncompressed images, excessive blurs (>10)
 
-Fix what you can without visual change. Report what you fixed and what needs a human.
+Fix what you can without visual change. Do not create new pages. Report what you fixed and what needs a human.
 
 Do not write Template Agent Instructions in this chat. Do not publish.
 ```
@@ -64,12 +64,12 @@ Do not edit the canvas look. Write Template Agent Instructions for buyers of thi
 Tell future in-canvas Agents:
 - preserve Fraunces + Space Mono, cream, 72px-class padding, hamburger overlay, custom 404
 - edit CMS and component variables for contact/socials
-- do not add breakpoints or lorem
+- do not add breakpoints, lorem, or new pages
 - prefer native Form, CMS, and component variants over code
 
 Paste those instructions into the template’s custom Agent instructions field if it exists; otherwise output them in chat for me to paste.
 
-Finally list remaining manual checks: Framer Performance panel, Desktop/Tablet/Phone walkthrough, form submit, filters, all 7 notes, 4 territories, 6 properties.
+Finally list remaining manual checks: Framer Performance panel, Desktop/Tablet/Phone walkthrough, form submit, filters, all 7 notes, Neighbourhoods index (4 cards → /properties), 6 properties.
 
 Do not publish.
 ```
@@ -86,7 +86,7 @@ Art direction, Fraunces + Space Mono, `#F9F8F3`, overlay, 404, extra breakpoint,
 
 ## Verificación humana
 
-Desktop 1440 · Tablet 768 · Phone 390. Walkthrough del branch preview: form, filtros, 7 notes, 4 territories, 6 properties. Sin overflow. Sin 404 nuevos.
+Desktop 1440 · Tablet 768 · Phone 390. Walkthrough del branch preview: form, filtros, 7 notes, Neighbourhoods → `/properties`, 6 properties. Sin overflow. Sin 404 nuevos. Sin rutas nuevas.
 
 ## Después
 

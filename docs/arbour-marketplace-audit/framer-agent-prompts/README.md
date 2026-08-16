@@ -27,13 +27,13 @@ No hay un prompt “haz el template perfecto”. Framer pide **un job por chat**
 | 02 | [`02-contact-variables.md`](02-contact-variables.md) | Variables Header/Footer/Contact: email, tels, socials |
 | 03 | [`03-copy-canon.md`](03-copy-canon.md) | 1999 vs 2018 vs 26 yrs; grammar; featured 01–03 |
 | 04 | [`04-properties-cms-bind.md`](04-properties-cms-bind.md) | Coords, neighbourhood, rooms únicos por ítem |
-| 05 | [`05-territories-cms.md`](05-territories-cms.md) | Collection Territories + detail pages (dos chats: A `/cms`, B `/component`) |
+| 05 | [`05-territories-cms.md`](05-territories-cms.md) | VIEW Neighbourhoods → `/properties` existente (sin detail pages) |
 | 06 | [`06-assets-match-copy.md`](06-assets-match-copy.md) | Heroes Cheyne Walk / Bibury alineados al brief |
 | 07 | [`07-site-settings-seo.md`](07-site-settings-seo.md) | `lang=en`, favicon, OG, alts |
-| 08 | [`08-forms-labels.md`](08-forms-labels.md) | Labels, success/error, Form nativo en Contact |
+| 08 | [`08-forms-labels.md`](08-forms-labels.md) | Labels, success/error, Form nativo **en Contact** |
 | 09 | [`09-hover-pressed.md`](09-hover-pressed.md) | Hover/active; pressed; hover off en Phone |
 | 10 | [`10-semantics-type.md`](10-semantics-type.md) | Tags `header`/`main`/`section`; line-height |
-| 11 | [`11-legal-contrast.md`](11-legal-contrast.md) | Privacy; scrim; un acento |
+| 11 | [`11-legal-contrast.md`](11-legal-contrast.md) | Scrim + un acento; **sin** Privacy nueva |
 | 12 | [`12-hygiene-ai-instructions.md`](12-hygiene-ai-instructions.md) | Hygiene (12A) + instrucciones AI del template (12B) |
 
 ## Verificación humana tras cada fase
@@ -42,7 +42,7 @@ Desktop **1440**, Tablet **768**, Phone **390**. Click del flujo tocado. Sin ove
 
 ## Fuera de alcance
 
-Listing de Marketplace (byline, screenshots, precio). Code components nuevos. Cuarto breakpoint. Cambiar el 404.
+Listing de Marketplace (byline, screenshots, precio). Code components nuevos. Cuarto breakpoint. Cambiar el 404. **Páginas nuevas** (Privacy, Territories detail, rutas extra).
 
 ## Si el Agent se desvía
 

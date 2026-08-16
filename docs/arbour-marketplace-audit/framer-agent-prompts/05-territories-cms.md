@@ -1,76 +1,53 @@
-# Fase 05 — Territories CMS + páginas detalle
+# Fase 05 — Neighbourhoods: VIEW en páginas existentes
 
-**Objetivo (Help):** Layout + CMS. Neighbourhoods hoy mandan VIEW → `/properties`. Pages have a clear purpose; repeatable content in CMS. El índice actual se queda.
+**Objetivo (Help):** Links + Layout. Hoy las cuatro cards VIEW → `/properties` sin decir que es el índice de casas. **No hay páginas detalle nuevas.** El índice Neighbourhoods se queda.
 
-Dos chats: (A) `/cms` schema+items, (B) New Chat `/component` para la detail page. Empieza por A. Ficha: [`00-agent-decision.md`](00-agent-decision.md).
+Ficha: [`00-agent-decision.md`](00-agent-decision.md).
 
-## Configuración (A — CMS)
+## Configuración
 
 | Control | Valor |
 |---|---|
 | Chat | **New Chat** |
 | Branch | `marketplace-qa` |
 | Modelo | **GPT 5.6 Luna** |
-| Reasoning | **Higher** |
+| Reasoning | **Light** |
 | Fast Mode | **Off** |
-| Skill | **`/cms`** |
-| @ | `@Neighbourhoods`, Properties collection (for references) |
+| Skill | **`/component`** |
+| @ | `@Neighbourhoods`, `@Properties` |
+| Context | Las cuatro cards VIEW → |
+| No usar | Fable, Sol, `/code`, collection nueva, CMS detail pages |
 
-## Configuración (B — página detalle, si hace falta)
-
-| Control | Valor |
-|---|---|
-| Chat | **New Chat** (no reciclar A) |
-| Modelo | **Opus 5** (si no: **Opus 4.8**, luego **4.7**. Nunca Fable) |
-| Reasoning | **Higher** |
-| Fast Mode | **Off** |
-| Skill | **`/component`**. Solo si no está: **`/layout`**. Si ninguna: chat plano + Opus |
-| Context | Property detail layout (como referencia visual, no para copiar Manhattan) |
-
-Opus: Help — *visual judgment, nuanced multi-step*. No Fable: demasiado proactive.
-
-## Prompt A (después de constraints)
-
-```
-/cms
-
-Create a Territories (or Neighbourhoods) CMS collection if one does not exist.
-
-Items (4): Chelsea, Notting Hill, Hampstead, The Cotswolds.
-Human slugs. Fields at least: Name, Slug, Coordinates, Short intro (the current directory paragraphs), Hero image, Body, optional reference to Properties in that area.
-
-Keep the existing Neighbourhoods index look. Change only the destination of VIEW → so each card goes to its CMS detail page, not to /properties.
-
-Do not invent a fifth territory.
-```
-
-## Prompt B (New Chat, después de constraints)
+## Prompt (después de constraints)
 
 ```
 /component
 
-Build a Territories CMS detail layout that feels like the existing Arbour property detail (split editorial, cream, Fraunces + Space Mono, 1px rules, same header/footer) but for a neighbourhood — not a house.
+Do not create any new pages, routes, CMS collections, or detail layouts.
 
-Include: bound name, coordinates, intro, body, and a CMS list of properties filtered by that territory. CTA “START A CONVERSATION” still goes to Contact.
+Keep the existing Neighbourhoods index look.
 
-Match spacing and type styles already in the project. No new palette, no extra breakpoint, no code component.
+Each of the four cards (Chelsea, Notting Hill, Hampstead, The Cotswolds) currently sends VIEW → to /properties with no explanation.
 
-Then connect the four index cards on @Neighbourhoods.
+Preferred: point VIEW at the existing /properties page with that AREA filter already applied, if the project can do that without a new page.
+If a pre-filtered URL is impossible, keep href=/properties and change the control label to “See residences in this area” (British English, Space Mono, same treatment as other VIEW → links).
+
+Do not add neighbourhood detail pages. Do not add a Territories collection.
 ```
 
 ## Definition of done
 
-- Chelsea VIEW → `/neighbourhoods/chelsea` (o slug humano), no `/properties`.
-- Detalle lista solo casas de esa área.
+- Cero rutas nuevas (`/neighbourhoods/chelsea`, etc.).
 - Índice visualmente igual.
+- VIEW ya no finge un detalle de territorio.
 
 ## No tocar
 
-Look del índice Neighbourhoods. Paleta, typefaces, 404, extra breakpoint, `/code`, quinto territory. Publicar main.
+Look del índice. Paleta, typefaces, 404, extra breakpoint, `/code`. Publicar main.
 
 ## Verificación humana
 
-Desktop 1440 · Tablet 768 · Phone 390. Chelsea VIEW → detalle de territorio, no `/properties`. Índice se ve igual.
+Desktop 1440 · Tablet 768 · Phone 390. VIEW abre `/properties` (filtrado o con el nuevo label). Sitemap sin páginas extra.
 
 ## Siguiente
 
