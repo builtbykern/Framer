@@ -2,23 +2,22 @@
 
 **Preview:** [https://arbour.framer.website](https://arbour.framer.website)  
 **Corrección en Framer:** prompts en [framer-agent-prompts/](framer-agent-prompts/) · restante [REMAINING.md](framer-agent-prompts/REMAINING.md)  
-**Esta pasada:** 16 agosto 2026, ~20:18–20:21 UTC (`Last-Modified` Home: `Sun, 16 Aug 2026 20:18:36 GMT`)  
-**Pasada anterior:** misma fecha, ~19:16 UTC  
+**Esta pasada:** 16 agosto 2026, ~20:30–20:33 UTC (`Last-Modified` Home: `Sun, 16 Aug 2026 20:30:42 GMT`)  
+**Pasada anterior:** misma fecha, ~20:18 UTC  
 **Método:** checklist oficial Framer (Help 7 ago 2026) + Chrome 148 (1440 / 768 / 390), crawl HTTP, overlay, DOM, anchos de `section` vs viewport, revisión visual.
 
 ---
 
-## 0. Delta vs ~19:16 UTC
+## 0. Delta vs ~20:18 UTC
 
-| Hallazgo 19:16 | Ahora (~20:18) |
+| Hallazgo 20:18 | Ahora (~20:30) |
 |---|---|
-| Home CTA → `/properties`; cero `href` a `/neighbourhoods/{slug}` | **Igual.** `/neighbourhoods/chelsea` sigue 404 si se escribe a mano |
-| `lang=en`; 4 alts de properties; Privacy fuera | **Igual** |
-| Notes salta `[ 05 ]`; Home waiting `[ ]`; artículo **04** | **Igual.** Featured façade sin número; lista 06, 01, 02, 04, 03, 07 |
-| Hover muerto, favicon default, marketing `header: 0`, scrim hero | **Igual.** Notes detail `header: 1`. H1 Home sigue `rgb(252, 250, 244)` sobre el cielo |
-| Neighbourhoods 2/2/1/1; full-bleed; overlay demo | Igual (bien) |
+| Marketing `header: 0` (`nav: 1`) | **Cerrado.** Home / Properties / Neighbourhoods / Notes index / About / Contact / property details: **`header: 1`**. Notes detail: `header: 2`. 404 sigue sin header (aceptable). `nav: 0` en reposo (el overlay no cuenta cerrado) |
+| Notes salta `[ 05 ]`; Home waiting `[ ]`; artículo **04** | **Igual** |
+| Hover muerto; favicon default; scrim hero (H1 `rgb(252, 250, 244)`) | **Igual** |
+| Home CTA → `/properties`; `lang=en`; 4 alts; Privacy fuera; directory 2/2/1/1 | Igual (bien) |
 
-Los 4 prompts restantes **no se aplicaron** (o no publicaron). **Scorecard ~8.5 / 10**, sin movimiento. Sigue sin Featured.
+**Scorecard ~8.5 → ~8.7 / 10.** Landmark de marketing cerrado. Sigue sin Featured: CMS number, hover, favicon, contraste del hero.
 
 ---
 
@@ -38,23 +37,23 @@ Hasta Framer 3.0: 3 breakpoints, 404, CMS único, cero overflow, `lang`, favicon
 
 ## 3. Veredicto
 
-**No Featured.** Ya no hay un 404 enlazado. El hueco es calidad de listing (CMS number, hover, favicon, `header` en páginas de marketing, scrim).
+**No Featured.** Ya no hay un 404 enlazado. El hueco es calidad de listing (CMS number, hover, favicon, scrim).
 
-| Categoría | 19:16 | Ahora | Por qué |
+| Categoría | 20:18 | Ahora | Por qué |
 |---|---|---|---|
 | Originality | 8.0 | 8.0 | |
 | Design | 8.0 | 8.0 | 404 custom bien. Favicon default |
 | Layout | 8.0 | 8.0 | Full-bleed y directory se mantienen |
-| Text | 7.5 | **7.5** | Privacy fuera. Home journal `[ ]`. Notes salta 05 |
+| Text | 7.5 | 7.5 | Home journal `[ ]`. Notes salta 05 |
 | Responsive | 8.5 | 8.5 | Cero overflow 6×3 |
-| Links | 5.5 | **7.5** | 404 enlazado cerrado. Hover sigue sin cambio |
-| CMS | 8.0 | 8.0 | Coords/rooms/waiting. Número Home no bindea. Façade sin 05 |
+| Links | 7.5 | 7.5 | 404 enlazado cerrado. Hover sigue sin cambio |
+| CMS | 8.0 | 8.0 | Número Home no bindea. Façade sin 05 |
 | Effects | 7.5 | 7.5 | |
-| Assets | 7.5 | **8.5** | Cuatro héroes con alt específico. Cheyne/Bibury OK |
-| Tags | 6.0 | **7.0** | `lang=en`. Marketing `header: 0`. Notes detail `header: 1` |
-| Accessibility | 6.0 | **6.5** | Lang + form labels. Scrim hero pendiente |
+| Assets | 8.5 | 8.5 | Cuatro héroes con alt específico |
+| Tags | 7.0 | **8.0** | `lang=en`. Marketing `header: 1` |
+| Accessibility | 6.5 | 6.5 | Form labels. Scrim hero pendiente |
 | Copyright | 6.5 | 6.5 | |
-| **Media auditables** | **~8.5** | **~8.5 / 10** | **Sin movimiento. Changes requested. No Featured.** |
+| **Media auditables** | **~8.5** | **~8.7 / 10** | **Changes requested. No Featured.** |
 
 ---
 
@@ -93,23 +92,24 @@ Ninguno. El 404 enlazado de Home está cerrado.
 
 `EXPLORE →` / `VIEW ALL →` / `VIEW ALL NOTES →`: sin cambio de opacity / decoration / transform. `VIEW ALL →` en cream sobre foto (`rgb(252, 250, 244)`).
 
-#### M3. Favicon + landmark marketing + scrim
+#### M3. Favicon + scrim
 
-Favicon `default-favicon-light.v1.png`. Home / Properties / Neighbourhoods / Notes index / About / Contact: `header: 0` (el top bar es `nav`). H1 Home blanco `rgb(252, 250, 244)` sobre cielo — scrim no aplicado.
+Favicon `default-favicon-light.v1.png`. H1 Home blanco `rgb(252, 250, 244)` sobre cielo — scrim no aplicado.
 
 ---
 
-### Cerrados esta pasada (antes blocker / major)
+### Cerrados esta pasada
 
-- Home `/neighbourhoods/chelsea` **404**.
-- `html lang=en`.
-- Alts Frognal / Ladbroke / Royal / Colville.
-- Leftover Privacy en Contact.
+- Marketing **`header: 1`** (Home, Properties, Neighbourhoods, Notes index, About, Contact, property details).
+
+Cerrados antes: Home 404 enlazado, `lang=en`, 4 alts, leftover Privacy, Neighbourhoods fill, full-bleed.
 
 ---
 
 ### Minor
 
+- Notes detail ahora `header: 2` (duplicado de landmark). 404 sin header.
+- `nav: 0` con el overlay cerrado.
 - Neighbourhoods alts genéricos (“Neighbourhood territory photograph” / “Territory”). CTAs del directory → `/properties` sin prefiltro AREA.
 - Display 84 / 88.2 ≈ 1.05.
 - Overlay Mayfair `+44 20 7946 0810`, socials demo. EST. 1999.
@@ -119,7 +119,7 @@ Favicon `default-favicon-light.v1.png`. Home / Properties / Neighbourhoods / Not
 
 ## 6. Lo que está bien
 
-404 custom. Cero overflow. Waiting 200 + cuerpo. Featured Home 01–03 + VIEW. Coords/rooms únicos. Heroes Cheyne/Bibury + 4 alts nuevos. Form Contact. OG. `lang=en`. Overlay contact data. Neighbourhoods con stock honesto. Full-bleed Properties. Cero links a `/neighbourhoods/{slug}`. Mews unpublished. `Jd2WAsZn3` no es href.
+404 custom. Cero overflow. Waiting 200 + cuerpo. Featured Home 01–03 + VIEW. Coords/rooms únicos. Heroes + alts. Form Contact. OG. `lang=en`. Overlay contact data. Neighbourhoods honesto. Full-bleed. Marketing `header`. Cero links a `/neighbourhoods/{slug}`. Mews unpublished.
 
 ---
 
@@ -127,11 +127,10 @@ Favicon `default-favicon-light.v1.png`. Home / Properties / Neighbourhoods / Not
 
 1. Notes: façade = **05**; bind número del journal Home (no `[ ]`).  
 2. Hover/pressed en `EXPLORE →` / `VIEW ALL →` / `VIEW ALL NOTES →`.  
-3. Tag `header` en el nav compartido de **marketing** (no rehacer Notes detail).  
-4. Scrim solo en hero de Home.  
-5. Favicon: humano (no pedir un mark al Agent).  
-6. (Opcional) AREA preseleccionada; alts de territories.  
-7. Performance panel + Lighthouse (humano).
+3. Scrim solo en hero de Home.  
+4. Favicon: humano (no pedir un mark al Agent).  
+5. (Opcional) AREA preseleccionada; alts de territories.  
+6. Performance panel + Lighthouse (humano).
 
 ---
 
@@ -139,7 +138,7 @@ Favicon `default-favicon-light.v1.png`. Home / Properties / Neighbourhoods / Not
 
 `screenshots/`: home 1440/768/390, `neighbourhoods-desktop` (directory `scrollY ≈ 900`), tablet/mobile, properties, Cheyne/Bibury, nav overlay, waiting, 404, `neighbourhoods-chelsea-404-desktop`.
 
-Crawl: `/tmp/arbour-audit/reaudit-2018.json`.
+Crawl: `/tmp/arbour-audit/reaudit-2030.json`.
 
 ---
 

@@ -1,8 +1,8 @@
-# Remaining prompts — credit-tight (20:18 live)
+# Remaining prompts — credit-tight (20:30 live)
 
-Live: https://arbour.framer.website · score **~8.5**. Still not Featured.
+Live: https://arbour.framer.website · score **~8.7**. Still not Featured.
 
-El republish de las 20:18 **no cerró** ninguno de estos cuatro jobs. Mismos prompts. No re-correr lo ya cerrado.
+**Cerrado a las 20:30:** tag `header` en marketing. No re-correr ese chat.
 
 ## Cómo no quemar créditos
 
@@ -14,7 +14,7 @@ El republish de las 20:18 **no cerró** ninguno de estos cuatro jobs. Mismos pro
 
 Modelos: **Luna 0.4×** · **Sonnet 5 0.6×**. Si no hay Luna → Sonnet 5 Light.
 
-**No re-correr:** Home 404, `lang=en`, 4 alts de properties, leftover Privacy, Neighbourhoods fill, full-bleed.
+**No re-correr:** Home 404, `lang=en`, 4 alts, Privacy, Neighbourhoods fill, full-bleed, **header de marketing**.
 
 ---
 
@@ -46,19 +46,7 @@ On the three selected Home links (EXPLORE →, VIEW ALL →, VIEW ALL NOTES →)
 
 ---
 
-## 03 — Tag header (nav de marketing)
-
-**Picker:** Sonnet 5 · Light · `/layout` solo si está en el menú `/` · Fast Off  
-**@** el componente nav / top bar de **Home** (el mismo que Properties / Neighbourhoods / Notes index / About / Contact) · frame raíz  
-**Esfuerzo:** 0.6×
-
----
-
-Set the selected shared marketing top-bar component root to HTML tag `header`. Do not edit Notes detail templates (they already use header). Do not duplicate the bar. Stop.
-
----
-
-## 04 — Scrim solo Home hero
+## 03 — Scrim solo Home hero
 
 **Picker:** Sonnet 5 · Light · sin skill · Fast Off  
 **@** `Home` · selecciona el hero (foto + título blanco)  
@@ -72,8 +60,8 @@ On the selected Home hero only: add a bottom gradient overlay, black 50% at the 
 
 ## Fuera del Agent
 
-- **Favicon:** súbelo tú. El live sigue en `default-favicon-light.v1.png`. No pidas un mark al Agent.
-- Neighbourhoods CTA → prefiltro AREA / alts “Territory”: no. No cierra Featured.
+- **Favicon:** súbelo tú. El live sigue en `default-favicon-light.v1.png`.
+- No toques Notes detail (`header: 2` ya). No restaures `nav` en un chat extra.
 - Lighthouse / Performance panel: humano.
 
-**Total Agent si Luna está:** ~2.2× un GPT 5.5.
+**Total Agent si Luna está:** ~1.6× un GPT 5.5.
