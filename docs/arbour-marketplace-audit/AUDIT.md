@@ -2,22 +2,24 @@
 
 **Preview:** [https://arbour.framer.website](https://arbour.framer.website)  
 **Corrección en Framer:** prompts en [framer-agent-prompts/](framer-agent-prompts/) · restante [REMAINING.md](framer-agent-prompts/REMAINING.md)  
-**Esta pasada:** 16 agosto 2026, ~20:30–20:33 UTC (`Last-Modified` Home: `Sun, 16 Aug 2026 20:30:42 GMT`)  
-**Pasada anterior:** misma fecha, ~20:18 UTC  
+**Esta pasada:** 16 agosto 2026, verificación ~20:42 UTC sobre el mismo HTML (`Last-Modified` Home: `Sun, 16 Aug 2026 20:30:42 GMT`)  
+**Pasada anterior:** misma fecha, crawl ~20:30 UTC  
 **Método:** checklist oficial Framer (Help 7 ago 2026) + Chrome 148 (1440 / 768 / 390), crawl HTTP, overlay, DOM, anchos de `section` vs viewport, revisión visual.
 
 ---
 
-## 0. Delta vs ~20:18 UTC
+## 0. Corrección vs crawl 20:30
 
-| Hallazgo 20:18 | Ahora (~20:30) |
+El preview **no se republicó** (mismo `Last-Modified` 20:30:42). El crawl midió mal el hero: el H1 sigue cream, pero **sí hay scrim**.
+
+| Ítem que el 20:30 marcó abierto | Live 20:42 |
 |---|---|
-| Marketing `header: 0` (`nav: 1`) | **Cerrado.** Home / Properties / Neighbourhoods / Notes index / About / Contact / property details: **`header: 1`**. Notes detail: `header: 2`. 404 sigue sin header (aceptable). `nav: 0` en reposo (el overlay no cuenta cerrado) |
-| Notes salta `[ 05 ]`; Home waiting `[ ]`; artículo **04** | **Igual** |
-| Hover muerto; favicon default; scrim hero (H1 `rgb(252, 250, 244)`) | **Igual** |
-| Home CTA → `/properties`; `lang=en`; 4 alts; Privacy fuera; directory 2/2/1/1 | Igual (bien) |
+| Scrim hero | **Cerrado.** Layers `Hero Bottom Gradient` (`transparent` 40% → black 50%), `Meta Contrast Scrim`, `Vignette` |
+| Notes `[ 05 ]` / Home waiting `[ ]` | **Sigue abierto.** Featured façade sin número; lista 06, 01, 02, 04, 03, 07. Home: `[ ] — 09 MAY 2026 — … The case for waiting.` Artículo = **04** |
+| Hover `EXPLORE →` | **Sigue abierto en el publicado.** Con `:hover` true, opacity/decoration/transform no cambian. Hay un span hijo `opacity 0.35` + `scaleX 0` (underline preparado) que **no** pasa a 1 |
+| Favicon default | **Igual** |
 
-**Scorecard ~8.5 → ~8.7 / 10.** Landmark de marketing cerrado. Sigue sin Featured: CMS number, hover, favicon, contraste del hero.
+**Scorecard ~8.7 → ~8.8 / 10.** Scrim contaba. Sigue sin Featured: CMS number, hover publicado, favicon.
 
 ---
 
@@ -37,23 +39,23 @@ Hasta Framer 3.0: 3 breakpoints, 404, CMS único, cero overflow, `lang`, favicon
 
 ## 3. Veredicto
 
-**No Featured.** Ya no hay un 404 enlazado. El hueco es calidad de listing (CMS number, hover, favicon, scrim).
+**No Featured.** Ya no hay un 404 enlazado. El hueco es CMS number, hover en el preview publicado, favicon.
 
-| Categoría | 20:18 | Ahora | Por qué |
+| Categoría | 20:30 | Ahora | Por qué |
 |---|---|---|---|
 | Originality | 8.0 | 8.0 | |
-| Design | 8.0 | 8.0 | 404 custom bien. Favicon default |
-| Layout | 8.0 | 8.0 | Full-bleed y directory se mantienen |
+| Design | 8.0 | 8.0 | Favicon default |
+| Layout | 8.0 | 8.0 | |
 | Text | 7.5 | 7.5 | Home journal `[ ]`. Notes salta 05 |
-| Responsive | 8.5 | 8.5 | Cero overflow 6×3 |
-| Links | 7.5 | 7.5 | 404 enlazado cerrado. Hover sigue sin cambio |
+| Responsive | 8.5 | 8.5 | |
+| Links | 7.5 | 7.5 | Hover publicado sin cambio visual |
 | CMS | 8.0 | 8.0 | Número Home no bindea. Façade sin 05 |
 | Effects | 7.5 | 7.5 | |
-| Assets | 8.5 | 8.5 | Cuatro héroes con alt específico |
-| Tags | 7.0 | **8.0** | `lang=en`. Marketing `header: 1` |
-| Accessibility | 6.5 | 6.5 | Form labels. Scrim hero pendiente |
+| Assets | 8.5 | 8.5 | |
+| Tags | 8.0 | 8.0 | |
+| Accessibility | 6.5 | **7.5** | Scrim hero presente (`Hero Bottom Gradient`) |
 | Copyright | 6.5 | 6.5 | |
-| **Media auditables** | **~8.5** | **~8.7 / 10** | **Changes requested. No Featured.** |
+| **Media auditables** | **~8.7** | **~8.8 / 10** | **Changes requested. No Featured.** |
 
 ---
 
@@ -92,17 +94,17 @@ Ninguno. El 404 enlazado de Home está cerrado.
 
 `EXPLORE →` / `VIEW ALL →` / `VIEW ALL NOTES →`: sin cambio de opacity / decoration / transform. `VIEW ALL →` en cream sobre foto (`rgb(252, 250, 244)`).
 
-#### M3. Favicon + scrim
+#### M3. Favicon
 
-Favicon `default-favicon-light.v1.png`. H1 Home blanco `rgb(252, 250, 244)` sobre cielo — scrim no aplicado.
+Favicon `default-favicon-light.v1.png`.
 
 ---
 
-### Cerrados esta pasada
+### Cerrados esta verificación
 
-- Marketing **`header: 1`** (Home, Properties, Neighbourhoods, Notes index, About, Contact, property details).
+- **Scrim Home:** `Hero Bottom Gradient`, `Meta Contrast Scrim`, `Vignette`. El H1 sigue cream a propósito.
 
-Cerrados antes: Home 404 enlazado, `lang=en`, 4 alts, leftover Privacy, Neighbourhoods fill, full-bleed.
+Cerrados antes: `header` marketing, Home 404 enlazado, `lang=en`, 4 alts, leftover Privacy, Neighbourhoods fill, full-bleed.
 
 ---
 
@@ -119,18 +121,17 @@ Cerrados antes: Home 404 enlazado, `lang=en`, 4 alts, leftover Privacy, Neighbou
 
 ## 6. Lo que está bien
 
-404 custom. Cero overflow. Waiting 200 + cuerpo. Featured Home 01–03 + VIEW. Coords/rooms únicos. Heroes + alts. Form Contact. OG. `lang=en`. Overlay contact data. Neighbourhoods honesto. Full-bleed. Marketing `header`. Cero links a `/neighbourhoods/{slug}`. Mews unpublished.
+404 custom. Cero overflow. Waiting 200 + cuerpo. Featured Home 01–03 + VIEW. Coords/rooms únicos. Heroes + alts. Form Contact. OG. `lang=en`. Overlay contact data. Neighbourhoods honesto. Full-bleed. Marketing `header`. **Scrim hero.** Cero links a `/neighbourhoods/{slug}`. Mews unpublished.
 
 ---
 
 ## 7. Punch list
 
 1. Notes: façade = **05**; bind número del journal Home (no `[ ]`).  
-2. Hover/pressed en `EXPLORE →` / `VIEW ALL →` / `VIEW ALL NOTES →`.  
-3. Scrim solo en hero de Home.  
-4. Favicon: humano (no pedir un mark al Agent).  
-5. (Opcional) AREA preseleccionada; alts de territories.  
-6. Performance panel + Lighthouse (humano).
+2. Hover/pressed en `EXPLORE →` / `VIEW ALL →` / `VIEW ALL NOTES →` (en el preview publicado el underline hijo sigue en `scaleX 0`).  
+3. Favicon: humano.  
+4. (Opcional) AREA preseleccionada; alts de territories.  
+5. Performance panel + Lighthouse (humano).
 
 ---
 
