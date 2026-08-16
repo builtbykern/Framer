@@ -1,6 +1,6 @@
 # Fase 12 — Hygiene audit + instrucciones AI del template
 
-Cierra **hygiene** y deja el archivo AI-ready. Help Assets: named folders, no dupes. Help Code: native first. [AI-ready templates](https://www.framer.com/help/articles/build-ai-ready-template/): custom instructions for the buyer’s Agent.
+**Objetivo (Help):** Assets + Code + AI-ready. Nombrar layers/components, styles no huérfanos, 3 breakpoints, reduced motion, performance. Pegar instrucciones del template para compradores ([AI-ready](https://www.framer.com/help/articles/build-ai-ready-template/)).
 
 Dos chats: **12A** audit/fix, **12B** instructions. No reciclar el hilo. No rediseñar.
 
@@ -79,6 +79,14 @@ Do not publish.
 - Informe de hygiene en el chat 12A.
 - Instructions del template pegadas o listadas en 12B.
 - Tú recorres preview del **branch** (no main) en 1440 / 768 / 390.
+
+## No tocar
+
+Art direction, Fraunces + Space Mono, `#F9F8F3`, overlay, 404, extra breakpoint, `/code` nuevo, listing de Marketplace. Publicar main (hasta Review Changes humano).
+
+## Verificación humana
+
+Desktop 1440 · Tablet 768 · Phone 390. Walkthrough del branch preview: form, filtros, 7 notes, 4 territories, 6 properties. Sin overflow. Sin 404 nuevos.
 
 ## Después
 

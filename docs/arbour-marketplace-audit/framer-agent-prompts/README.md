@@ -1,24 +1,47 @@
 # Cómo correr este pack
 
-Ficha de picker (modelo, reasoning, skill, por qué): [`00-agent-decision.md`](00-agent-decision.md).
+Prompts para el **Agent tab** de Framer (no External Agents / Cursor). Cada archivo de fase = **un chat nuevo**.
 
-## Orden
+Fuentes: [How to build with Agents](https://www.framer.com/help/articles/how-to-build-a-website-from-scratch-with-framer-agents/), [Agents toolkit](https://www.framer.com/agents/) (`/` skills, `@` pages/CMS/styles, context de layers, un chat por tarea, branch), [template best practices](https://www.framer.com/template-requirements/), [AI-ready template](https://www.framer.com/help/articles/build-ai-ready-template/).
 
-1. Lee [`00-agent-decision.md`](00-agent-decision.md) y confirma [`00-source-of-truth.md`](00-source-of-truth.md).
-2. En Framer: **New Branch** → `marketplace-qa`.
-3. Fases **01 → 12B**. Cada una = **New Chat**. 05 y 12 tienen dos chats (A luego B).
-4. Por chat: modelo + reasoning + Fast Off → `/` skill → `@` + layers → constraints → prompt.
-5. Revisa Desktop / Tablet / Phone. Luego la siguiente fase.
-6. Al terminar 12B: Review Changes → Apply to main → publicar preview.
+Hallazgos: [`../AUDIT.md`](../AUDIT.md). Datos: [`00-source-of-truth.md`](00-source-of-truth.md). Picker (modelo / reasoning / skill): [`00-agent-decision.md`](00-agent-decision.md).
 
-No lances dos fases en el mismo chat. Oficial: *Start a new one for each task to keep the agent focused.*
+## Cómo se usa (oficial, no negociable)
 
-## Hallazgos que estos prompts cierran
+1. Crear branch **`marketplace-qa`** (los edits del Agent no van a main hasta Review Changes).
+2. Pegar **[`00-constraints.md`](00-constraints.md)** al inicio de cada chat (o como Template Agent Instructions).
+3. Un prompt de fase. Parar. Revisar canvas en Desktop / Tablet / Phone.
+4. **New Chat** para la siguiente fase. Seleccionar layers y `@` páginas/CMS/collections que el prompt indique. Skills: `/cms`, `/component` (nunca `/code` en este pack).
+5. No publicar **main** hasta terminar la fase 12.
 
-Ver [`../AUDIT.md`](../AUDIT.md). Blockers primero (404, teléfonos, socials), luego CMS, assets, a11y.
+No hay un prompt “haz el template perfecto”. Framer pide **un job por chat**.
+
+## Orden de archivos
+
+| # | Archivo | Trabajo |
+|---|---|---|
+| 00 | [`00-constraints.md`](00-constraints.md) + [`00-source-of-truth.md`](00-source-of-truth.md) | Guardrails + datos únicos |
+| 01 | [`01-links-notes-cms.md`](01-links-notes-cms.md) | `/cms` Notes: slug “The case for waiting”; borrar `:Jd2WAsZn3` |
+| 02 | [`02-contact-variables.md`](02-contact-variables.md) | Variables Header/Footer/Contact: email, tels, socials |
+| 03 | [`03-copy-canon.md`](03-copy-canon.md) | 1999 vs 2018 vs 26 yrs; grammar; featured 01–03 |
+| 04 | [`04-properties-cms-bind.md`](04-properties-cms-bind.md) | Coords, neighbourhood, rooms únicos por ítem |
+| 05 | [`05-territories-cms.md`](05-territories-cms.md) | Collection Territories + detail pages (dos chats: A `/cms`, B `/component`) |
+| 06 | [`06-assets-match-copy.md`](06-assets-match-copy.md) | Heroes Cheyne Walk / Bibury alineados al brief |
+| 07 | [`07-site-settings-seo.md`](07-site-settings-seo.md) | `lang=en`, favicon, OG, alts |
+| 08 | [`08-forms-labels.md`](08-forms-labels.md) | Labels, success/error, Form nativo en Contact |
+| 09 | [`09-hover-pressed.md`](09-hover-pressed.md) | Hover/active; pressed; hover off en Phone |
+| 10 | [`10-semantics-type.md`](10-semantics-type.md) | Tags `header`/`main`/`section`; line-height |
+| 11 | [`11-legal-contrast.md`](11-legal-contrast.md) | Privacy; scrim; un acento |
+| 12 | [`12-hygiene-ai-instructions.md`](12-hygiene-ai-instructions.md) | Hygiene (12A) + instrucciones AI del template (12B) |
+
+## Verificación humana tras cada fase
+
+Desktop **1440**, Tablet **768**, Phone **390**. Click del flujo tocado. Sin overflow. Sin 404 nuevos. Tras **01–02** el home ya no puede 404 ni mostrar tres teléfonos.
+
+## Fuera de alcance
+
+Listing de Marketplace (byline, screenshots, precio). Code components nuevos. Cuarto breakpoint. Cambiar el 404.
 
 ## Si el Agent se desvía
 
-- New Chat. No “sigue pero sin rediseñar” en el mismo hilo.
-- Baja a Sonnet 5 + Light.
-- Nunca Fable 5 / GPT 5.6 Sol / Fast Mode / `/code`.
+New Chat. No “sigue pero sin rediseñar” en el mismo hilo. Baja a Sonnet 5 + Light. Nunca Fable 5 / GPT 5.6 Sol / Fast Mode / `/code`.

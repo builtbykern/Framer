@@ -1,6 +1,6 @@
 # Fase 07 — Site settings, lang, favicon, OG, alt
 
-Cierra **M5**. Help Accessibility: title + description; contrast. Help Tags: meaningful alt. Histórico Bicky: social thumbnail, site language English, metadata.
+**Objetivo (Help):** Accessibility + Tags. Cierra **M5**. Title + description; meaningful alt. Histórico: social thumbnail, site language English, metadata. `lang=en`, favicon, OG por página, alts no vacíos en fotos de contenido.
 
 Official Agent can set titles, descriptions, OG, alt ([Agents → SEO](https://www.framer.com/agents/)).
 
@@ -39,6 +39,14 @@ Report: lang, favicon path, pages missing OG before/after, count of alts filled.
 - Favicon ≠ default Framer.
 - Home tiene `og:image`.
 - Heroes de properties con alt específico.
+
+## No tocar
+
+H1s visibles, look, extra breakpoint, `/cms` schema, `/code`. Publicar main.
+
+## Verificación humana
+
+Desktop 1440 · Tablet 768 · Phone 390. `html lang=en`. Favicon ≠ default Framer. Home tiene `og:image`.
 
 ## Siguiente
 

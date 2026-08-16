@@ -1,6 +1,6 @@
 # Fase 10 — Semántica y tipografía (sin rediseñar)
 
-Cierra **m1 / m2**. Help Tags: semantic tags, heading structure. Help Text: Framer fonts (ya Fraunces/Space Mono); balanced text. Histórico: H1–H6; section/nav/footer; 3 breakpoints.
+**Objetivo (Help):** Tags + Text. Cierra **m1 / m2**. Semantic tags, heading structure. Framer fonts (Fraunces + Space Mono); balanced text. Tags `header`/`main`/`section`; display line-height ≥ 1.05; Space Mono 11px solo captions.
 
 ## Configuración
 
@@ -36,6 +36,14 @@ Report tag changes per page and the new H1 line-height.
 - Landmark `header` o equivalente en páginas de marketing.
 - Un H1. Descenders de “Journal” no recortados.
 - Cero overflow 1440 / 768 / 390.
+
+## No tocar
+
+Typefaces nuevas, 4º breakpoint, look salvo line-height de display si recorta descenders. `/code`. Publicar main.
+
+## Verificación humana
+
+Desktop 1440 · Tablet 768 · Phone 390. Un H1 por página. Descenders de “Journal” no recortados. Sin overflow.
 
 ## Siguiente
 

@@ -1,6 +1,6 @@
 # Fase 08 — Forms, labels, success/error
 
-Cierra **M6**. Help Accessibility: form fields clearly labeled. Help Links: interactive elements recognizable. Native Form — no `/code`.
+**Objetivo (Help):** Accessibility + Links. Cierra **M6**. Form fields clearly labeled; interactive elements recognizable. Labels en newsletter + filtros; success/error; **Form nativo** en Contact (name, email, message, property interest). Native Form — no `/code`.
 
 ## Configuración
 
@@ -46,6 +46,14 @@ List components created and which pages they sit on.
 - Newsletter: label + success visible al enviar test.
 - Contact: form nativo, no solo mailto.
 - Filtros siguen funcionando (fase 04).
+
+## No tocar
+
+Headline de Contact, paleta nueva, `/code`, extra breakpoint, 404. Publicar main.
+
+## Verificación humana
+
+Desktop 1440 · Tablet 768 · Phone 390. Newsletter: label + success. Contact: form nativo. Filtros intactos.
 
 ## Siguiente
 

@@ -45,4 +45,4 @@ Prohibido: `https://www.framer.com/@builtbykern/`
 
 ## Visual lock (no negociable)
 
-Fraunces (display) + Space Mono (meta/UI). Cream canvas. ~72px side padding desktop. 1px rules. Hamburger overlay. Custom 404 copy: “A fine address, quietly misplaced.”
+Fraunces (display) + Space Mono (meta/UI). Cream canvas **`#F9F8F3`**. ~72px side padding desktop. 1px rules. Hamburger overlay. Custom 404 copy: “A fine address, quietly misplaced.” Tono: quiet luxury / never theatre.

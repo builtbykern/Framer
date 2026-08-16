@@ -1,6 +1,6 @@
 # Fase 03 — Copy canon (1999, grammar, numeración)
 
-Cierra **M1 / M2** y copy rota. Help Text: spelling/grammar; no placeholder; balanced text.
+**Objetivo (Help):** Text. Cierra **M1 / M2**. Spelling/grammar; no placeholder; balanced text.
 
 ## Configuración
 
@@ -50,6 +50,14 @@ List every string you changed.
 - Cero “2018” como año de fundación.
 - Home featured 01–03 únicos.
 - Journal excerpt gramaticalmente correcto.
+
+## No tocar
+
+Layout, type sizes, colors, images, CMS schema, `/code`. Publicar main.
+
+## Verificación humana
+
+Desktop 1440 · Tablet 768 · Phone 390. Cero “EST. 2018”. Featured ( 01 ) ( 02 ) ( 03 ).
 
 ## Siguiente
 

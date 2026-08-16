@@ -1,6 +1,6 @@
 # Fase 06 — Assets vs copy (fotos que coinciden con el brief)
 
-Cierra **M4**. Help Assets: polished, high quality. Help Copyright: original or licensed. Histórico: unique CMS images.
+**Objetivo (Help):** Assets + Copyright. Cierra **M4**. Polished, high quality; original or licensed. Histórico: unique CMS images. Cheyne Walk = Támesis/Chelsea; Bibury = honey-stone manor.
 
 ## Configuración
 
@@ -42,6 +42,14 @@ List old vs new asset names per slug.
 - Cheyne Walk hero no es Manhattan.
 - Bibury hero no es garage door urbano.
 - Alt no vacío.
+
+## No tocar
+
+Layout, paleta, typefaces, resto de fotos que sí coinciden, extra breakpoint, `/code`. Publicar main.
+
+## Verificación humana
+
+Desktop 1440 · Tablet 768 · Phone 390. Cheyne Walk hero ≠ Manhattan. Bibury hero ≠ garage door.
 
 ## Siguiente
 

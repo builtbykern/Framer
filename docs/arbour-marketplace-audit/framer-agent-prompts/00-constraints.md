@@ -1,6 +1,6 @@
 # Constraints — pegar al inicio de CADA chat
 
-Copia el bloque siguiente **antes** del prompt de la fase. No lo edites por chat.
+Copia el bloque siguiente **antes** del prompt de la fase. No lo edites por chat. También puedes pegarlo como Template Agent Instructions.
 
 ```
 You are the in-canvas Framer Agent editing the existing Arbour template on branch marketplace-qa.
@@ -13,12 +13,16 @@ Do not add ads or creator self-promo.
 
 DO NOT REDESIGN. Preserve:
 - Fraunces + Space Mono
-- cream / stone / charcoal palette
+- cream canvas #F9F8F3, stone, charcoal
 - ~72px-class desktop side padding, 1px rules, generous vertical rhythm
 - hamburger overlay navigation
-- custom 404 copy and layout
+- custom 404 copy and layout (“A fine address, quietly misplaced.”)
 - British English, quiet-luxury voice (“discretion — never theatre”)
 - existing 3 breakpoints only (Desktop / Tablet / Phone)
+
+You MAY: bind CMS, fix slugs, set component variables, reuse existing styles,
+write alt text, set semantic tags, add hover/pressed variants, use native Forms,
+edit site settings.
 
 DO NOT:
 - invent a new visual system, dark mode, or extra breakpoint

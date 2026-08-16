@@ -1,6 +1,6 @@
 # Fase 01 — Notes CMS: slugs, featured, cero 404
 
-Cierra **B1** del audit. Help Links: *Broken or inactive links have been removed.* Help CMS: fields connected; unused/empty entries removed. Histórico: unique CMS content; human slugs.
+**Objetivo (Help):** Links + CMS. Cierra **B1** del audit. *Broken or inactive links have been removed.* Fields connected; unused/empty entries removed. Histórico: unique CMS content; human slugs.
 
 Ficha de picker: [`00-agent-decision.md`](00-agent-decision.md).
 
@@ -43,6 +43,14 @@ Report: collection fields, each of the 7 slugs, which Home cards bind to which i
 - Ningún `href` con `:Jd2WAsZn3`.
 - Card 01 título = artículo abierto.
 - `/notes` muestra 7, números 01–07.
+
+## No tocar
+
+Look (`#F9F8F3`, Fraunces + Space Mono, overlay, 404). Extra breakpoint. Lorem. `/code`. Promo Framer. Publicar main.
+
+## Verificación humana
+
+Desktop 1440 · Tablet 768 · Phone 390. Click Home journal → nota real (no 404). Sin overflow.
 
 ## Siguiente
 

@@ -1,6 +1,6 @@
 # Fase 02 — Teléfonos, email, socials (component variables)
 
-Cierra **B2 / B3**. Help Links: `mailto:` / `tel:`; no broken/inactive. Help Support: *Advertisements and unrelated promotions have been removed.*
+**Objetivo (Help):** Links + Support. Cierra **B2 / B3**. `mailto:` / `tel:`; no broken/inactive. *Advertisements and unrelated promotions have been removed.*
 
 ## Configuración
 
@@ -47,6 +47,14 @@ Scan the whole project for leftover 7351 8800 and @builtbykern. List remaining t
 - Menu phone = 7946 0810 = Contact Mayfair.
 - Tres socials ≠ framer.com.
 - `tel:` y `mailto:` vivos.
+
+## No tocar
+
+Look, overlay layout, 404, extra breakpoint, `/code`, `/cms`. Publicar main.
+
+## Verificación humana
+
+Desktop 1440 · Tablet 768 · Phone 390. Abrir menú: un teléfono (Mayfair). Tres socials ≠ framer.com. Tras 01–02 el home no 404 ni muestra tres teléfonos.
 
 ## Siguiente
 

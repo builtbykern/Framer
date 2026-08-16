@@ -1,6 +1,6 @@
 # Fase 11 — Legal, contraste, acento
 
-Cierra **m3 / m4**. Help Accessibility: contrast WCAG 4.5:1 normal / 3:1 large. Community publish checklist: privacy if you collect email.
+**Objetivo (Help):** Accessibility. Cierra **m3 / m4**. Contrast WCAG 4.5:1 normal / 3:1 large. Privacy (y Terms si hay form); scrim en meta sobre cielo claro; unificar acento lima/oliva.
 
 ## Configuración
 
@@ -34,6 +34,14 @@ List pages created and contrast method used on heroes.
 - Meta del hero legible sobre el cielo.
 - Un acento, no lima vs oliva aleatorio.
 - Footer → Privacy.
+
+## No tocar
+
+Fotografía aplanada, paleta nueva, cookie banner innecesario, 404, extra breakpoint, `/code`. Publicar main.
+
+## Verificación humana
+
+Desktop 1440 · Tablet 768 · Phone 390. Meta del hero legible. Footer → Privacy. Un acento.
 
 ## Siguiente
 

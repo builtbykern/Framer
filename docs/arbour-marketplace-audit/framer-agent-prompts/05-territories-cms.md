@@ -1,6 +1,6 @@
 # Fase 05 — Territories CMS + páginas detalle
 
-Cierra neighbourhoods que hoy mandan VIEW → `/properties`. Help Layout: pages have a clear purpose. Help CMS: repeatable content in CMS. Max quality **sin** cambiar el look del índice.
+**Objetivo (Help):** Layout + CMS. Neighbourhoods hoy mandan VIEW → `/properties`. Pages have a clear purpose; repeatable content in CMS. El índice actual se queda.
 
 Dos chats: (A) `/cms` schema+items, (B) New Chat `/component` para la detail page. Empieza por A. Ficha: [`00-agent-decision.md`](00-agent-decision.md).
 
@@ -63,6 +63,14 @@ Then connect the four index cards on @Neighbourhoods.
 - Chelsea VIEW → `/neighbourhoods/chelsea` (o slug humano), no `/properties`.
 - Detalle lista solo casas de esa área.
 - Índice visualmente igual.
+
+## No tocar
+
+Look del índice Neighbourhoods. Paleta, typefaces, 404, extra breakpoint, `/code`, quinto territory. Publicar main.
+
+## Verificación humana
+
+Desktop 1440 · Tablet 768 · Phone 390. Chelsea VIEW → detalle de territorio, no `/properties`. Índice se ve igual.
 
 ## Siguiente
 

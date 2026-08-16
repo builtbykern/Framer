@@ -1,6 +1,6 @@
 # Fase 09 — Hover / pressed / no hover en Phone
 
-Cierra **M7**. Help Links: *Hover and active states are clearly defined*; interactive elements recognizable. Histórico 24 Seven: hover + pressed; disable hover on mobile.
+**Objetivo (Help):** Links. Cierra **M7**. *Hover and active states are clearly defined*; interactive elements recognizable. Hover/active en todos los `a`/buttons; pressed; hover off en Phone.
 
 ## Configuración
 
@@ -40,6 +40,14 @@ List components/variants you edited.
 - Desktop: EXPLORE → cambia en hover.
 - Phone: no queda “pegado” el hover.
 - Resting look igual.
+
+## No tocar
+
+Resting look, paleta nueva, bounce, scale >1.02, `/code`, extra breakpoint. Publicar main.
+
+## Verificación humana
+
+Desktop 1440: EXPLORE → cambia en hover. Phone 390: hover no queda pegado. Tablet 768: sin overflow.
 
 ## Siguiente
 

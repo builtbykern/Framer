@@ -1,6 +1,6 @@
 # Fase 04 — Properties CMS bind (coords, rooms, contadores)
 
-Cierra **M3**. Help CMS: repeatable content in CMS; fields connected; clear naming. Histórico Bicky: unique CMS content (text + images). GR8r: no Limit on CMS index pages.
+**Objetivo (Help):** CMS. Cierra **M3**. Repeatable content in CMS; fields connected; clear naming. Histórico: unique CMS content (text + images). Sin Limit en el índice (GR8r).
 
 ## Configuración
 
@@ -45,6 +45,14 @@ Report fields added, which layout layers are now bound, and a one-line rooms sum
 - Frognal detail no dice CHELSEA en coords.
 - Rooms de Bibury ≠ Cheyne Walk.
 - `/properties` sigue filtrando Chelsea → Cheyne Walk + Royal Avenue.
+
+## No tocar
+
+Look del detail template, heroes (fase 06), extra breakpoint, `/code`. Publicar main.
+
+## Verificación humana
+
+Desktop 1440 · Tablet 768 · Phone 390. Frognal detail ≠ CHELSEA. Filtro Chelsea sigue funcionando.
 
 ## Siguiente
 
