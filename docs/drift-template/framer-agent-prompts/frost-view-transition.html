@@ -1,0 +1,126 @@
+<!-- LEGACY. Do not paste if 03D native Settle (Scrim 6px + PageSurface y -32) is in the canvas. Kept only as a rollback note. -->
+<style>
+/* Drift — DO NOT USE. Native Settle replaced this. */
+@keyframes drift-frost-out {
+  from { filter: blur(0px); opacity: 1; }
+  to { filter: blur(12px); opacity: 0; }
+}
+@keyframes drift-frost-in {
+  from { filter: blur(12px); opacity: 0; }
+  to { filter: blur(0px); opacity: 1; }
+}
+::view-transition-old(root) {
+  animation: drift-frost-out 0.49s cubic-bezier(0.5, 0, 0.5, 1) both;
+}
+::view-transition-new(root) {
+  animation: drift-frost-in 0.49s cubic-bezier(0.5, 0, 0.5, 1) 0.10s both;
+}
+::view-transition-group(root) {
+  animation-duration: 0.59s;
+}
+#drift-frost {
+  position: fixed;
+  inset: 0;
+  z-index: 2147483646;
+  pointer-events: none;
+  background: rgba(246, 243, 238, 0.45);
+  -webkit-backdrop-filter: blur(12px);
+  backdrop-filter: blur(12px);
+  -webkit-transform: translateZ(0);
+  transform: translateZ(0);
+  opacity: 0;
+  transition: opacity 0.49s cubic-bezier(0.5, 0, 0.5, 1);
+}
+#drift-frost.on {
+  opacity: 1;
+  pointer-events: auto;
+}
+#drift-frost.no-anim {
+  transition: none;
+}
+@media (prefers-reduced-motion: reduce) {
+  ::view-transition-old(root),
+  ::view-transition-new(root) {
+    animation: none !important;
+  }
+  #drift-frost {
+    display: none !important;
+  }
+}
+</style>
+<script>
+(function () {
+  var KEY = "drift-frost";
+  var MS = 490;
+
+  function reduceMotion() {
+    return window.matchMedia("(prefers-reduced-motion: reduce)").matches;
+  }
+
+  function needsJsFrost() {
+    if (reduceMotion()) return false;
+    var ua = navigator.userAgent || "";
+    if (/CriOS|FxiOS|EdgiOS|OPiOS/.test(ua)) return true;
+    if (/Firefox\//.test(ua)) return true;
+    if (/Safari\//.test(ua) && !/Chrome\//.test(ua) && !/Chromium\//.test(ua) && !/Android/.test(ua)) return true;
+    return false;
+  }
+
+  function overlay() {
+    var el = document.getElementById("drift-frost");
+    if (el) return el;
+    el = document.createElement("div");
+    el.id = "drift-frost";
+    el.setAttribute("aria-hidden", "true");
+    document.documentElement.appendChild(el);
+    return el;
+  }
+
+  function isInternal(href) {
+    try {
+      var next = new URL(href, location.href);
+      if (next.origin !== location.origin) return false;
+      if (next.protocol === "mailto:" || next.protocol === "tel:") return false;
+      return next.pathname !== location.pathname || next.search !== location.search;
+    } catch (err) {
+      return false;
+    }
+  }
+
+  if (needsJsFrost() && sessionStorage.getItem(KEY) === "1") {
+    sessionStorage.removeItem(KEY);
+    var el = overlay();
+    el.classList.add("no-anim", "on");
+    void el.offsetWidth;
+    el.classList.remove("no-anim");
+    requestAnimationFrame(function () {
+      requestAnimationFrame(function () {
+        el.classList.remove("on");
+      });
+    });
+  }
+
+  if (!needsJsFrost()) return;
+
+  document.addEventListener(
+    "click",
+    function (e) {
+      if (e.button !== 0) return;
+      if (e.metaKey || e.ctrlKey || e.shiftKey || e.altKey) return;
+      var a = e.target.closest("a[href]");
+      if (!a) return;
+      if (a.target && a.target !== "" && a.target !== "_self") return;
+      if (a.hasAttribute("download")) return;
+      if (!isInternal(a.href)) return;
+      e.preventDefault();
+      e.stopImmediatePropagation();
+      sessionStorage.setItem(KEY, "1");
+      overlay().classList.add("on");
+      window.setTimeout(function () {
+        location.href = a.href;
+      }, MS);
+    },
+    true
+  );
+})();
+</script>
