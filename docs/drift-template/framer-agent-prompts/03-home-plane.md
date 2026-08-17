@@ -31,7 +31,7 @@ Build Home `/` only. Home is the Drift Plane. Nothing else except chrome.
 
 1. Insert the existing Drift Plane code component so it fills the viewport (width 100%, height 100vh / 100dvh). Pin it. Do not recreate it in native stacks. Do not wrap it in a marketing hero (no headline, no reel, no grid of projects besides the plane).
 
-2. Create a Nav component and place it on Home. Structure only in this chat — Page Effect is 03B; visual Open (still split) is 03C. Follow 00-gregor-nav.md.
+2. Create a Nav component and place it on Home. Structure only in this chat — instances on other pages are 03B; visual Open (still split) is 03C; Settle (small blur + bg lowers) is 03D. Follow 00-gregor-nav.md.
    - Variant closedOnDark (this page): Mark style VALE left, color paper (not #FFF) on home-bg. Right: a plus made of two 20×2px bars (not a text glyph), paper color, hit 32px, aria-label “Open menu”. Not centered.
    - Do NOT put Info or Contact in the bar. Do NOT use a hamburger, an X, or the word MENU
    - Optional 88px-tall scrim: home-bg 70% to transparent. No other gradient
@@ -68,4 +68,4 @@ CMS fields. Detail layout. Lummi. `/code`.
 
 ## Siguiente
 
-Chat nuevo → fase 03B (Page Effect), luego 03C (Open visual).
+Chat nuevo → fase 03B (instancias Nav), luego 03C (Open visual), luego 03D (Settle).

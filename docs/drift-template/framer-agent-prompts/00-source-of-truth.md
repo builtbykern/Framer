@@ -130,6 +130,8 @@ Cerrado: VALE → `/`. Plus derecha → abre. Cero Info/Contact en la barra. Plu
 
 Abierto: Info → `/info`, Contact → `/contact` (Display). Lead de una línea. Email / Instagram. Still = variable `menuStill` (Cover de Salt Light cuando exista).
 
+Settle (03D): **Scrim** 6px (paper 16%) sobre lo que ya está en pantalla. **MenuSurface** / **PageSurface** baja (`y −32 → 0`, phone `−20`). Close / atrás = inverso. Home plane sin translate. Cero Custom Code. Cero Page Effect Fade.
+
 Variables: `email`, `instagram`, `menuStill` (Image).
 
 ## Drift Plane

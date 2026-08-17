@@ -12,7 +12,7 @@ Picker: [`00-agent-decision.md`](00-agent-decision.md). Datos: [`00-source-of-tr
 2. Insertar a mano el code component **Drift Plane** (antes de la fase 03).
 3. Pegar **[`00-constraints.md`](00-constraints.md)** al inicio de cada chat.
 4. Un prompt de fase. Parar. Revisar **1440 / 768 / 390**. Afinar a mano si hace falta.
-5. Tras 03B: pegar **[`frost-view-transition.html`](frost-view-transition.html)** en Site Settings → Custom Code (End of `<head>`). El Agent no puede hacerlo.
+5. Tras 03C: fase **03D** Settle nativo (Scrim 6px + bg baja). Si pegaste frost-view-transition.html, bórralo.
 6. **New Chat** para la siguiente fase. `@` páginas/CMS. Skills: las de la matriz. **`/code` solo en 09B**.
 7. **Lummi en la fase 12**, cuando el sitio ya se recorre. Cero Unsplash.
 8. No publicar **main** hasta 13B.
@@ -27,9 +27,9 @@ No hay un prompt “haz la template perfecta”. Un job por chat.
 | 01 | [`01-system-shells.md`](01-system-shells.md) | Styles + páginas vacías |
 | 02 | [`02-cms-work.md`](02-cms-work.md) | Tags, Work, Credits (7 / 7 / 21), placeholders |
 | 03 | [`03-home-plane.md`](03-home-plane.md) | Drift Plane + Nav VALE + plus derecha |
-| 03B | [`03b-nav-veil.md`](03b-nav-veil.md) | Instancias + Page Effect Fade (Open stub) |
+| 03B | [`03b-nav-veil.md`](03b-nav-veil.md) | Instancias Nav (Open stub) |
 | 03C | [`03c-nav-open-visual.md`](03c-nav-open-visual.md) | Open visual: Coad 33/67 + still |
-| 03D | [`03d-page-frost.md`](03d-page-frost.md) + [`frost-view-transition.html`](frost-view-transition.html) | **Humano:** pegar frost CSS |
+| 03D | [`03d-page-frost.md`](03d-page-frost.md) | Settle: blur 6px + bg baja (inverso al salir) |
 | 04 | [`04-detail-split.md`](04-detail-split.md) | Split paper, gallery stack |
 | 05 | [`05-bind-detail.md`](05-bind-detail.md) | Binds CMS |
 | 06 | [`06-info.md`](06-info.md) | Bio + lista de títulos |

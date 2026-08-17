@@ -1,10 +1,10 @@
-# Fase 03B — Nav closed + Page Effect
+# Fase 03B — Nav closed + instancias
 
 **Prerrequisito:** Nav componente con VALE + plus, instancia en Home (`closedOnDark`).
 
-**Objetivo:** Plus a la **derecha**. Instancias en todas las páginas. Cambio de página con **Page Effect Fade** nativo. Open puede quedar en stub; el Open **visual** es la fase **03C**.
+**Objetivo:** Plus a la **derecha**. Instancias en todas las páginas. Open stub. El Settle de página (blur 6px + bg baja) es **03D**. No Page Effect.
 
-Canon: [`00-gregor-nav.md`](00-gregor-nav.md). Cero Layout Templates. Cero layer Veil.
+Canon: [`00-gregor-nav.md`](00-gregor-nav.md). Cero Layout Templates.
 
 ## Configuración
 
@@ -17,14 +17,14 @@ Canon: [`00-gregor-nav.md`](00-gregor-nav.md). Cero Layout Templates. Cero layer
 | Fast Mode | **Off** |
 | Skill | **`/component`** |
 | @ | Nav, Home, Info, Contact, 404, Work detail |
-| No usar | Fable, Sol, `/code`, Layout Template, layer Veil, hamburger, X, Wipe/Slide/Push |
+| No usar | Fable, Sol, `/code`, Layout Template, hamburger, X, Wipe/Slide/Push, Custom Code |
 
 ## Prompt (después de constraints)
 
 ```
 /component
 
-Do two jobs only: (A) finish closed Nav + instances, (B) add a native Framer Page Effect. Do not create a Layout Template. Do not add a Veil layer. Do not restyle type or colors. Do not rewrite Drift Plane. Do not design the visual Open split — that is the next chat (03C). A working stub for variant open is enough.
+Do one job: finish closed Nav + instances on every page. Do not create a Layout Template. Do not add Custom Code. Do not restyle type or colors. Do not rewrite Drift Plane. Do not design the visual Open split (03C). Do not build the Scrim / PageSurface settle (03D). Do not add a Page Effect (it has no blur and does not run in Safari — 03D replaces it with a native layer).
 
 A. NAV COMPONENT
 
@@ -44,7 +44,7 @@ A. NAV COMPONENT
    - Plus on closedOnDark → Set Variant open
    - Plus on closedOnLight → Set Variant open
    - Close on open → Set Variant Previous
-   - Info and Contact = normal page Links (so the Page Effect runs)
+   - Info and Contact = page Links for now (03D will add Scrim delay)
 
 5. Component transition: 0.79s, cubic-bezier(0.77, 0, 0.175, 1). Plus and Close share the top-right slot: closed plus opacity 1 / Close 0; open reverse. Skip rotateX unless it already works.
 
@@ -53,45 +53,22 @@ A. NAV COMPONENT
    - Info, Contact, 404, Work detail → closedOnLight
    Duplicate the instance. Do not wrap pages in a Layout Template.
 
-B. PAGE EFFECT (native, once)
+7. Breakpoint fill: every page including Home = paper #F6F3EE. Home keeps an inner viewport frame filled home-bg for the Drift Plane. Do not add a Page Effect.
 
-7. Pages panel → Home. Select the Desktop 1440 breakpoint (the page itself, not a child frame).
+Preview: plus (right) opens a stub overlay with Close (the word). Phone 390: same plus, no hamburger.
 
-8. Right sidebar → Effects → + → Page Effect (not Appear).
-
-9. Target: All Pages.
-
-10. Preset: Fade (Crossfade if that is the name). Forbidden: Wipe, Slide, Push, Blinds, Circular, Zigzag, Inset.
-
-11. Exit: duration 0.49s, easing cubic-bezier(0.5, 0, 0.5, 1), offset 0, no mask.
-    Enter: delay 0.10s, duration 0.49s, same easing, offset 0, no mask.
-    Page Effects have no Blur control. Do not search for Filter/Blur. Do not refuse. Do not add a Veil. Do not edit Custom Code (you cannot). Fade only. The human pastes frost CSS in phase 03D.
-
-12. Breakpoint fill (the color BETWEEN pages):
-    - Every page including Home: Desktop breakpoint fill = paper #F6F3EE
-    - Home only: keep a child frame pinned to viewport filled home-bg #050505 that contains the Drift Plane
-    - Do not set Home’s breakpoint fill to home-bg (that flashes black)
-
-13. Do NOT turn on Page Effect → Exclude on the Nav. Do not create a Layout Template.
-
-14. prefers-reduced-motion: Page Effect Instant or off. Nav variant switch instant.
-
-Preview: plus (right) opens a stub overlay with Close (the word). Home → Info fades through paper (frost blur comes from human Custom Code in 03D). Phone 390: same plus, no hamburger.
-
-Report: variant names, which pages have a Nav instance, Page Effect target + preset + duration, breakpoint fill hex per page, Exclude off. Tell the human to paste frost-view-transition.html into Site Settings Custom Code (End of head). Do not start the still split in this chat.
+Report: variant names, which pages have a Nav instance, confirm no Layout Template and no Page Effect added. Do not start the still split or Scrim settle in this chat.
 ```
 
 ## Definition of done
 
-- Cero Layout Template. Cero layer Veil.
-- Plus **derecha** en cada página. Open stub + Close (palabra) + Info/Contact.
-- Page Effect Fade / All Pages / 0.49s. Corte paper, no negro.
-- Frost blur = **03D humano** (Custom Code). No se lo pidas al Agent.
+- Cero Layout Template. Plus **derecha** en cada página. Open stub + Close (palabra) + Info/Contact.
+- Cero Page Effect (Settle nativo es 03D; si queda Fade, Instant).
 
 ## Verificación humana
 
-1440 y 390: abrir/cerrar. Home → Info. Plane → salt-light. ¿Wipe? Mal. ¿Negro entre páginas? Mal. ¿Plus al centro? Mal.
+1440 y 390: abrir/cerrar. ¿Plus al centro? Mal. ¿Hamburger? Mal.
 
 ## Siguiente
 
-Humano pega [`frost-view-transition.html`](frost-view-transition.html) → luego **03C**.
+Chat nuevo → **03C** (Open visual), luego **03D** (Settle nativo).

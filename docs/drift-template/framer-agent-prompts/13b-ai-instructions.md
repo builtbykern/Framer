@@ -26,8 +26,8 @@ Do not edit the canvas look. Write Template Agent Instructions for buyers of Dri
 
 Tell future in-canvas Agents:
 - Preserve Drift Plane as the only Home content (plus Nav + hint). Do not add a second hero, a work grid on Home, video, lightbox, or overlay viewer
-- Preserve Nav: a component instance on each page (no Layout Template). Closed: VALE left + plus right (not center). Open: Coad-like 33/67 — type on paper left, full-bleed still right; plus becomes the word Close (Label, paper on the still), never an X. Overlay links are Info and Contact only.
-- Preserve the native Page Effect: Fade, Target All Pages, 0.49s. Breakpoint fill paper #F6F3EE on every page (Home’s inner canvas stays home-bg). Nav is not Excluded. Preserve Site Settings Custom Code frost (`::view-transition-old/new(root)` blur 12px). No Wipe, no black fade, no Veil layer, no Layout Template
+- Preserve Nav: a component instance on each page (no Layout Template). Closed: VALE left + plus right (not center). Open: Coad-like 33/67; plus becomes Close (Label), never an X. MenuSurface lowers in (y -32); Close is the inverse. Overlay links are Info and Contact only.
+- Preserve Settle motion: Scrim 6px (paper 16%), PageSurface y -32 on paper pages. Do not translate the Drift Plane. No Page Effect Fade, no Custom Code frost, no 12px Gregor veil, no Layout Template. Breakpoint fill paper #F6F3EE (Home inner canvas home-bg).
 - Preserve the visual system: five colors (home-bg #050505, paper #F6F3EE, ink #111111, muted #6B6B6B, line #D9D4CC); five text styles Mark/Display/Lead/Body/Label (Syne ExtraBold, Inter Regular, IBM Plex Mono Medium). Radius 0 (chips 2px). No shadows, no accent, no pixel fonts, no #FFF/#000
 - Preserve the Work detail split (sticky ~33% info / ~67% stacked uncropped gallery) on paper/ink. Home stays home-bg. Do not invert that. Gallery gap 0
 - Exactly 3 breakpoints. No Index, Privacy, or Journal unless the buyer explicitly asks

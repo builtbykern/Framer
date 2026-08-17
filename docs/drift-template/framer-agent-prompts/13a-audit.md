@@ -39,8 +39,8 @@ Scan for:
 - Hardcoded colors that should be the five color styles
 - Leftover Unsplash or “My Framer Site”
 - Creator promo / framer.com/@ links
-- Do not remove Site Settings Custom Code for ::view-transition frost
-- Performance: uncompressed giants, blur >16 except the Custom Code frost (12px on ::view-transition-*)
+- Do not add a 12px full-screen frost or Custom Code view-transition snippet. If leftover frost Custom Code is present, flag it for the human to delete (you cannot edit Site Settings Custom Code)
+- Performance: uncompressed giants, blur >6 except the Scrim (6px)
 
 Fix what you can without visual change. Report what you fixed and what needs a human.
 

@@ -13,7 +13,7 @@ Fuente de efectos: [Choosing a model](https://www.framer.com/help/articles/choos
 | **GPT 5.6 Luna** | CMS y find-replace, el más rápido | Schema Tags/Work/Credits, binds, links del Plane |
 | **Sonnet 5** | Default. Layout y edits | Shells, Info, 404, hover, Lummi bind, instructions |
 | **GPT 5.6 Terra** | Audits y consistency | SEO, hygiene |
-| **Opus 5** | Plan + juicio visual | Home+Nav, Page Effect, Open visual, split detail, Form, 09B code |
+| **Opus 5** | Plan + juicio visual | Home+Nav, Open visual, Settle, split detail, Form, 09B code |
 | **GPT 5.5** | Copy-heavy | Fallback de Luna |
 | **Fable 5 / Sol** | First draft / poca guía | **Veto** — inventan Index, vídeo, otro home |
 
@@ -175,7 +175,7 @@ Build Home `/` only. Home is the Drift Plane. Nothing else except chrome.
 
 1. Insert the existing Drift Plane code component so it fills the viewport (width 100%, height 100vh / 100dvh). Pin it. Do not recreate it in native stacks. Do not wrap it in a marketing hero (no headline, no reel, no grid of projects besides the plane).
 
-2. Create a Nav component and place it on Home. Structure only in this chat — Page Effect is 03B; visual Open (still split) is 03C. Follow 00-gregor-nav.md.
+2. Create a Nav component and place it on Home. Structure only in this chat — instances on other pages are 03B; visual Open (still split) is 03C; Settle (small blur + bg lowers) is 03D. Follow 00-gregor-nav.md.
    - Variant closedOnDark (this page): Mark style VALE left, color paper (not #FFF) on home-bg. Right: a plus made of two 20×2px bars (not a text glyph), paper color, hit 32px, aria-label “Open menu”. Not centered.
    - Do NOT put Info or Contact in the bar. Do NOT use a hamburger, an X, or the word MENU
    - Optional 88px-tall scrim: home-bg 70% to transparent. No other gradient
@@ -199,7 +199,7 @@ Report: how Drift Plane is placed, Nav variant names (must include closedOnDark)
 
 ---
 
-## 03B — Nav closed + Page Effect
+## 03B — Nav closed + instancias
 
 | | |
 |---|---|
@@ -209,12 +209,12 @@ Report: how Drift Plane is placed, Nav variant names (must include closedOnDark)
 | **Skill** | `/component` |
 | **@** | Nav, Home, Info, Contact, 404, Work detail |
 
-Canon: [00-gregor-nav.md](00-gregor-nav.md). Cero Layout Template. Cero layer Veil. Open visual = **03C**.
+Canon: [00-gregor-nav.md](00-gregor-nav.md). Cero Layout Template. Cero Page Effect. Open visual = **03C**. Settle = **03D**.
 
 ```
 /component
 
-Do two jobs only: (A) finish closed Nav + instances, (B) add a native Framer Page Effect. Do not create a Layout Template. Do not add a Veil layer. Do not restyle type or colors. Do not rewrite Drift Plane. Do not design the visual Open split — that is the next chat (03C). A working stub for variant open is enough.
+Do one job: finish closed Nav + instances on every page. Do not create a Layout Template. Do not add Custom Code. Do not restyle type or colors. Do not rewrite Drift Plane. Do not design the visual Open split (03C). Do not build the Scrim / PageSurface settle (03D). Do not add a Page Effect (it has no blur and does not run in Safari — 03D replaces it with a native layer).
 
 A. NAV COMPONENT
 
@@ -234,7 +234,7 @@ A. NAV COMPONENT
    - Plus on closedOnDark → Set Variant open
    - Plus on closedOnLight → Set Variant open
    - Close on open → Set Variant Previous
-   - Info and Contact = normal page Links (so the Page Effect runs)
+   - Info and Contact = page Links for now (03D will add Scrim delay)
 
 5. Component transition: 0.79s, cubic-bezier(0.77, 0, 0.175, 1). Plus and Close share the top-right slot: closed plus opacity 1 / Close 0; open reverse. Skip rotateX unless it already works.
 
@@ -243,32 +243,11 @@ A. NAV COMPONENT
    - Info, Contact, 404, Work detail → closedOnLight
    Duplicate the instance. Do not wrap pages in a Layout Template.
 
-B. PAGE EFFECT (native, once)
+7. Breakpoint fill: every page including Home = paper #F6F3EE. Home keeps an inner viewport frame filled home-bg for the Drift Plane. Do not add a Page Effect.
 
-7. Pages panel → Home. Select the Desktop 1440 breakpoint (the page itself, not a child frame).
+Preview: plus (right) opens a stub overlay with Close (the word). Phone 390: same plus, no hamburger.
 
-8. Right sidebar → Effects → + → Page Effect (not Appear).
-
-9. Target: All Pages.
-
-10. Preset: Fade (Crossfade if that is the name). Forbidden: Wipe, Slide, Push, Blinds, Circular, Zigzag, Inset.
-
-11. Exit: duration 0.49s, easing cubic-bezier(0.5, 0, 0.5, 1), offset 0, no mask.
-    Enter: delay 0.10s, duration 0.49s, same easing, offset 0, no mask.
-    Page Effects have no Blur control. Do not search for Filter/Blur. Do not refuse. Do not add a Veil. Do not edit Custom Code (you cannot). Fade only. The human pastes frost CSS in phase 03D.
-
-12. Breakpoint fill (the color BETWEEN pages):
-    - Every page including Home: Desktop breakpoint fill = paper #F6F3EE
-    - Home only: keep a child frame pinned to viewport filled home-bg #050505 that contains the Drift Plane
-    - Do not set Home’s breakpoint fill to home-bg (that flashes black)
-
-13. Do NOT turn on Page Effect → Exclude on the Nav. Do not create a Layout Template.
-
-14. prefers-reduced-motion: Page Effect Instant or off. Nav variant switch instant.
-
-Preview: plus (right) opens a stub overlay with Close (the word). Home → Info fades through paper (frost blur comes from human Custom Code in 03D). Phone 390: same plus, no hamburger.
-
-Report: variant names, which pages have a Nav instance, Page Effect target + preset + duration, breakpoint fill hex per page, Exclude off. Tell the human to paste frost-view-transition.html into Site Settings Custom Code (End of head). Do not start the still split in this chat.
+Report: variant names, which pages have a Nav instance, confirm no Layout Template and no Page Effect added. Do not start the still split or Scrim settle in this chat.
 ```
 
 ---
@@ -283,7 +262,7 @@ Report: variant names, which pages have a Nav instance, Page Effect target + pre
 | **Skill** | `/component` |
 | **@** | Nav (el componente). Si hace falta: Home |
 
-Si Open ya es paper vacío con dos palabras, este chat lo sustituye. No rehacer Page Effect. Canon: [00-gregor-nav.md](00-gregor-nav.md) · archivo: [03c-nav-open-visual.md](03c-nav-open-visual.md).
+Si Open ya es paper vacío con dos palabras, este chat lo sustituye. No añadir Page Effect. Si un Scrim nativo ya existe, déjalo. Si pegaste Custom Code frost, bórralo (humano). Canon: [00-gregor-nav.md](00-gregor-nav.md) · archivo: [03c-nav-open-visual.md](03c-nav-open-visual.md).
 
 ```
 /component
@@ -296,8 +275,8 @@ This is not a clone.
 - Drift: paper #F6F3EE + ink #111111. Mark / Display / Lead / Label only. Radius 0.
 
 Do not restyle closed variants except: plus must sit TOP-RIGHT on both closedOnDark and closedOnLight (not center). Empty center. VALE stays left.
-Do not touch Drift Plane, CMS, Info/Contact/404 page layouts, or the native Page Effect. If Fade already exists, leave it. Do not strip Custom Code frost if the human already pasted it.
-Do not create a Layout Template. Do not add a Veil layer. Do not use Unsplash.
+Do not touch Drift Plane, CMS, Info/Contact/404 page layouts. If a Scrim already exists inside Nav, leave it. Do not add a Page Effect Fade.
+Do not create a Layout Template. Do not use Unsplash.
 
 FAIL if any of these are true when you finish:
 - Open is two Display words on empty paper
@@ -343,10 +322,10 @@ MOTION (component variants only)
 6. Keep existing Tap wiring. If missing:
    - Plus (both closed) → Set Variant open
    - Close → Set Variant Previous
-   - Info and Contact = page Links (so Page Effect can run). Not Set Variant.
+   - Info and Contact = page Links for now (03D adds Scrim delay). Not Set Variant.
 
 7. Transition 0.79s, cubic-bezier(0.77, 0, 0.175, 1):
-   - Still: opacity 0→1 and scale 1.06→1 (transform origin center). This is the “visual” of Open.
+   - Still: opacity 0→1 and scale 1.03→1 (transform origin center). Y of the 33/67 block is phase 03D (MenuSurface).
    - Left type: opacity 0→1, delay 0.12s. No stagger per line.
    - Plus and Close share the top-right slot: closed plus opacity 1 / Close 0; open reverse. Skip rotateX unless it already works.
    - prefers-reduced-motion: instant, scale 1.
@@ -355,21 +334,71 @@ MOTION (component variants only)
 
 Preview at 1440: plus (right) → a photograph fills two-thirds; type lives in a paper column; Close is a word on the still. At 390: still on top, type below. Then close. Home must still be the Drift Plane.
 
-Report: open layout (column widths or phone stack), menuStill variable, Close treatment, whether plus moved to the right, confirm Page Effect was not rewritten.
+Report: open layout (column widths or phone stack), menuStill variable, Close treatment, whether plus moved to the right, confirm Page Effect was not added.
 ```
 
 ---
 
-## 03D — Frost Gregor (humano, no Agent)
+## 03D — Settle nativo (blur 6px + bg baja)
 
-Page Effect no tiene Blur. El Agent no edita Custom Code. **No corras un chat para el frost.**
+| | |
+|---|---|
+| **Modelo** | Opus 5 |
+| **Reasoning** | Higher |
+| **Esfuerzo** | Alto (~80–140) |
+| **Skill** | `/component` |
+| **@** | Nav, Home, Info, Contact, 404, Work detail |
 
-1. Site Settings → General → Custom Code → **End of `<head>`**
-2. Pega [`frost-view-transition.html`](frost-view-transition.html) (con las tags `<style>`).
-3. Preview en **Chrome**: Home → Info. Si no se ve el blur, el mismo bloque en End of `<body>`.
-4. Checklist: [03d-page-frost.md](03d-page-frost.md)
+Sutilmente distinto a Gregor. Archivo: [03d-page-frost.md](03d-page-frost.md). Si pegaste frost-view-transition.html, **bórralo**.
 
-Si aún no hay Page Effect Fade, corre 03B (solo Fade) y luego pega el CSS.
+```
+/component
+
+ONE JOB: native settle motion — a SMALL blur on what is already on screen, and the incoming surface’s background lowers into place. Leaving / going back is the exact inverse. Chrome and Safari. Layers + variants + Appear only.
+
+Do not clone Gregor’s full-screen frost. Do not use Custom Code. Do not use Page Effect (no blur, dead in Safari). Do not create a Layout Template. Do not modify Drift Plane physics. Do not restyle type or colors. Do not change Open’s 33/67 structure.
+
+A. SCRIM (tiny blur of what is on screen)
+
+1. Component named Scrim. Variants: clear | dim.
+   - Fixed, inset 0, 100vw × 100vh, radius 0, z 35 (behind the 33/67 surface, above Home/Work content).
+   - Fill paper #F6F3EE at 16% opacity.
+   - Background Blur / Backdrop Blur 6px. If missing: Filter Blur 6, paper 28%. Do not abort. Do not use 12px.
+   - clear: opacity 0, pointer-events none.
+   - dim: opacity 1, pointer-events none.
+   - Transition 0.49s, cubic-bezier(0.5, 0, 0.5, 1). Reduced motion: instant.
+
+2. Place one Scrim instance inside Nav, full viewport.
+
+B. MENU — surface lowers; close is inverse
+
+3. In variant open, wrap the 33/67 block in a frame named MenuSurface.
+   - closedOnDark / closedOnLight: MenuSurface opacity 0, y -32. Scrim clear.
+   - open: MenuSurface opacity 1, y 0. Scrim dim.
+   - 0.79s cubic-bezier(0.77, 0, 0.175, 1). Phone y -20.
+   - Still scale 1.03→1 max. Close → Previous already reverses this.
+
+C. PAPER PAGES — Work / Info / Contact / 404 bg lowers in
+
+4. Wrap page content except Nav in PageSurface.
+   - Appear: opacity 0.7, y -32 → opacity 1, y 0. 0.49s, delay 0.10s, cubic-bezier(0.5, 0, 0.5, 1). Phone y -20.
+   - No filter on gallery stills. Home: do not translate Drift Plane.
+
+D. EXIT / BACK
+
+5. VALE, Info, Contact: Tap → Scrim dim → Go to Page delay 0.35s.
+   Home Nav Scrim starts dim, Appear → clear.
+
+6. Work pager Previous/Next if they exist: same 0.35s delay. If not built, skip.
+
+E. PAGE EFFECT OFF
+
+7. If Page Effect Fade exists: Instant or remove. No Slide/Push/Wipe.
+
+Preview Safari + Chrome: plus — slight blur, menu lowers. Close — inverse. Home → Info — paper lowers. Back — inverse.
+
+Report: Scrim px and paper %, MenuSurface y, PageSurface Appear, link delays, Page Effect Instant/removed.
+```
 
 ---
 
@@ -561,7 +590,7 @@ For each Featured Work item (all 7), one card:
 - Title = Title
 - Link = that item’s CMS detail URL (/work/salt-light, /work/the-waiting-room, /work/glass-hours, /work/inland-signal, /work/after-the-sitting, /work/red-room-brief, /work/night-atlas)
 
-Click (not drag) must navigate to the detail page. No project overlay, lightbox, or modal. Do not remove the Nav (plus / Close). The Page Effect Fade must play on that click.
+Click (not drag) must navigate to the detail page. No project overlay, lightbox, or modal. Do not remove the Nav (plus / Close). The Work PageSurface should lower in (phase 03D).
 
 If the component only has a generic Link per card, set those seven links. If it has a single “open” overlay, turn overlay off.
 
@@ -658,7 +687,7 @@ Semantics and motion only. Do not change art direction.
 - Contact: one heading “Contact”
 - 404: one heading “Missing”
 - Work detail: the series Title is the H1 (Display)
-- Enable Framer prefers-reduced-motion / reduced motion in Site Settings if the control exists. Then: Nav overlay instant, Page Effect Instant, plane without idle drift
+- Enable Framer prefers-reduced-motion / reduced motion in Site Settings if the control exists. Then: Nav overlay instant, Scrim and Y instant, Page Effect Instant if it still exists, plane without idle drift
 - Overlay open: sr-only H1 “Menu” already asked in 03C — do not add a second visible H1 on that overlay
 - Body line-height remains 1.55. Do not swap or add fonts. Keep Mark, Display, Lead, Body, Label as defined in phase 01.
 
@@ -763,8 +792,8 @@ Scan for:
 - Hardcoded colors that should be the five color styles
 - Leftover Unsplash or “My Framer Site”
 - Creator promo / framer.com/@ links
-- Do not remove Site Settings Custom Code for ::view-transition frost
-- Performance: uncompressed giants, blur >16 except the Custom Code frost (12px on ::view-transition-*)
+- Do not add a 12px full-screen frost or Custom Code view-transition snippet. If leftover frost Custom Code is present, flag it for the human to delete (you cannot edit Site Settings Custom Code)
+- Performance: uncompressed giants, blur >6 except the Scrim (6px)
 
 Fix what you can without visual change. Report what you fixed and what needs a human.
 
@@ -788,8 +817,8 @@ Do not edit the canvas look. Write Template Agent Instructions for buyers of Dri
 
 Tell future in-canvas Agents:
 - Preserve Drift Plane as the only Home content (plus Nav + hint). Do not add a second hero, a work grid on Home, video, lightbox, or overlay viewer
-- Preserve Nav: a component instance on each page (no Layout Template). Closed: VALE left + plus right (not center). Open: Coad-like 33/67 — type on paper left, full-bleed still right; plus becomes the word Close (Label, paper on the still), never an X. Overlay links are Info and Contact only.
-- Preserve the native Page Effect: Fade, Target All Pages, 0.49s. Breakpoint fill paper #F6F3EE on every page (Home’s inner canvas stays home-bg). Nav is not Excluded. Preserve Site Settings Custom Code frost (`::view-transition-old/new(root)` blur 12px). No Wipe, no black fade, no Veil layer, no Layout Template
+- Preserve Nav: a component instance on each page (no Layout Template). Closed: VALE left + plus right (not center). Open: Coad-like 33/67; plus becomes Close (Label), never an X. MenuSurface lowers in (y -32); Close is the inverse. Overlay links are Info and Contact only.
+- Preserve Settle motion: Scrim 6px (paper 16%), PageSurface y -32 on paper pages. Do not translate the Drift Plane. No Page Effect Fade, no Custom Code frost, no 12px Gregor veil, no Layout Template. Breakpoint fill paper #F6F3EE (Home inner canvas home-bg).
 - Preserve the visual system: five colors (home-bg #050505, paper #F6F3EE, ink #111111, muted #6B6B6B, line #D9D4CC); five text styles Mark/Display/Lead/Body/Label (Syne ExtraBold, Inter Regular, IBM Plex Mono Medium). Radius 0 (chips 2px). No shadows, no accent, no pixel fonts, no #FFF/#000
 - Preserve the Work detail split (sticky ~33% info / ~67% stacked uncropped gallery) on paper/ink. Home stays home-bg. Do not invert that. Gallery gap 0
 - Exactly 3 breakpoints. No Index, Privacy, or Journal unless the buyer explicitly asks

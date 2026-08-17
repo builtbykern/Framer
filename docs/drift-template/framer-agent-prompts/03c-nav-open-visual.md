@@ -1,6 +1,6 @@
 # Fase 03C — Nav Open visual (especializado)
 
-**Prerrequisito:** Nav con tres variants, plus a la **derecha**, instancia en cada página. Page Effect Fade ya puede existir (03B). Si Open es paper vacío con dos palabras, este chat lo sustituye.
+**Prerrequisito:** Nav con tres variants, plus a la **derecha**, instancia en cada página. Si Open es paper vacío con dos palabras, este chat lo sustituye. Settle (blur 6 + bg baja) es **03D**.
 
 **Objetivo:** `open` es una **página visual**. El still manda (~67%). El tipo es columna editorial (~33%), paper, no sidebar negra. Mix **Coad split × overlay Gregor**. No clonar ninguno.
 
@@ -19,7 +19,7 @@ Canon: [`00-gregor-nav.md`](00-gregor-nav.md).
 | @ | Nav (selecciona el componente). Si hace falta: Home |
 | No usar | Fable, Sol, `/code`, Layout Template, layer Veil, hamburger, X, Wipe, Unsplash, segundo still, bio |
 
-Este chat **no** toca Page Effect ni Drift Plane. Solo variant `open` (+ plus a la derecha si aún está al centro).
+Este chat **no** toca Drift Plane ni añade Page Effect. Solo variant `open` (+ plus a la derecha si aún está al centro).
 
 ## Prompt (después de constraints)
 
@@ -34,8 +34,8 @@ This is not a clone.
 - Drift: paper #F6F3EE + ink #111111. Mark / Display / Lead / Label only. Radius 0.
 
 Do not restyle closed variants except: plus must sit TOP-RIGHT on both closedOnDark and closedOnLight (not center). Empty center. VALE stays left.
-Do not touch Drift Plane, CMS, Info/Contact/404 page layouts, or the native Page Effect. If Fade already exists, leave it. Do not strip Custom Code frost if the human already pasted it.
-Do not create a Layout Template. Do not add a Veil layer. Do not use Unsplash.
+Do not touch Drift Plane, CMS, Info/Contact/404 page layouts. If a Scrim already exists inside Nav, leave it. Do not add a Page Effect Fade.
+Do not create a Layout Template. Do not use Unsplash.
 
 FAIL if any of these are true when you finish:
 - Open is two Display words on empty paper
@@ -81,10 +81,10 @@ MOTION (component variants only)
 6. Keep existing Tap wiring. If missing:
    - Plus (both closed) → Set Variant open
    - Close → Set Variant Previous
-   - Info and Contact = page Links (so Page Effect can run). Not Set Variant.
+   - Info and Contact = page Links for now (03D adds Scrim delay). Not Set Variant.
 
 7. Transition 0.79s, cubic-bezier(0.77, 0, 0.175, 1):
-   - Still: opacity 0→1 and scale 1.06→1 (transform origin center). This is the “visual” of Open.
+   - Still: opacity 0→1 and scale 1.03→1 (transform origin center). Y of the 33/67 block is phase 03D (MenuSurface).
    - Left type: opacity 0→1, delay 0.12s. No stagger per line.
    - Plus and Close share the top-right slot: closed plus opacity 1 / Close 0; open reverse. Skip rotateX unless it already works.
    - prefers-reduced-motion: instant, scale 1.
@@ -93,7 +93,7 @@ MOTION (component variants only)
 
 Preview at 1440: plus (right) → a photograph fills two-thirds; type lives in a paper column; Close is a word on the still. At 390: still on top, type below. Then close. Home must still be the Drift Plane.
 
-Report: open layout (column widths or phone stack), menuStill variable, Close treatment, whether plus moved to the right, confirm Page Effect was not rewritten.
+Report: open layout (column widths or phone stack), menuStill variable, Close treatment, whether plus moved to the right.
 ```
 
 ## Definition of done
@@ -101,7 +101,7 @@ Report: open layout (column widths or phone stack), menuStill variable, Close tr
 - Open ≠ Gregor (no plus centro, no X, no Overview/Work).
 - Open ≠ paper vacío. Still ≥ ~67% desktop, cover, a sangre.
 - Close = palabra, slot derecho. Plus cerrado a la derecha.
-- Page Effect intacto. Cero Layout Template. Cero Veil.
+- Cero Layout Template. Settle (Scrim + Y) es 03D.
 
 ## Verificación humana
 
@@ -109,4 +109,4 @@ Report: open layout (column widths or phone stack), menuStill variable, Close tr
 
 ## Siguiente
 
-Chat nuevo → fase 04. Si Lummi ya existe, bindea `menuStill` a Cover de Salt Light en fase 12 (no aquí).
+Chat nuevo → fase **03D** (Settle: blur 6px + bg baja). Si Lummi ya existe, `menuStill` en fase 12.

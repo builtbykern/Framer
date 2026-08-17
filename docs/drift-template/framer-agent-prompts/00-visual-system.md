@@ -24,12 +24,12 @@ La foto (cuando exista) va **a sangre en su columna**, sin marco, sin overlay de
 | Style | Hex | RGB | Uso |
 |---|---|---|---|
 | `home-bg` | `#050505` | 5 5 5 | Home, plane, scrim del Nav en Home |
-| `paper` | `#F6F3EE` | 246 243 238 | Páginas editoriales, overlay Nav, fill del breakpoint (Page Effect) |
+| `paper` | `#F6F3EE` | 246 243 238 | Páginas editoriales, overlay Nav, fill del breakpoint |
 | `ink` | `#111111` | 17 17 17 | Texto sobre paper, chrome closedOnLight y open |
 | `muted` | `#6B6B6B` | 107 107 107 | Labels, hint, dt, placeholders |
 | `line` | `#D9D4CC` | 217 212 204 | Rules 1px, chips, underline de inputs |
 
-Prohibido: acento (naranja, azul Framer, verde), blanco puro `#FFF` (usar `paper`), negro puro `#000` (usar `home-bg`), sombras, glass, gradientes de marca. Blur de UI/cards: no. Excepción: frost 12px en Custom Code al cambiar de página. El único degradado permitido: Nav Home, `home-bg` 70% → transparente en ~88px de alto, para leer VALE sobre las fotos.
+Prohibido: acento (naranja, azul Framer, verde), blanco puro `#FFF` (usar `paper`), negro puro `#000` (usar `home-bg`), sombras, glass, gradientes de marca. Blur de UI/cards: no. Excepción: Scrim nativo Background Blur **6px** (no 12) al abrir menú o cambiar de página. El único degradado permitido: Nav Home, `home-bg` 70% → transparente en ~88px de alto, para leer VALE sobre las fotos.
 
 Contraste: `ink` sobre `paper` y `paper` sobre `home-bg` pasan AA para Body y Label.
 
@@ -137,15 +137,15 @@ Weights: no Regular en Syne para títulos; no Bold en Inter (el énfasis es tama
 |---|---|
 | Drift Plane desktop | Pan + idle drift (el componente) |
 | Drift Plane phone | Un eje + snap |
-| Nav plus → Close | Variant `open`. Transition 0.79s, `cubic-bezier(0.77, 0, 0.175, 1)` |
-| Nav overlay | Variant `open`: split 33/67, still a sangre a la derecha. No Layout Template |
-| Cambio de página | **Page Effect** Fade, Target All Pages, 0.49s, `cubic-bezier(0.5, 0, 0.5, 1)`, delay enter 0.10s. Frost blur 12px = Custom Code humano (`frost-view-transition.html`). Breakpoint fill = `paper`. Nav no Exclude. Cero Wipe/Slide. Cero layer Veil |
-| `prefers-reduced-motion` | Sin idle drift; snap estático; overlay instantánea; Page Effect Instant; sin flip |
-| Páginas paper (contenido) | Estáticas. Cero scroll-scrub, ken burns, parallax, stagger de galería |
+| Nav plus → Close | Variant `open`. MenuSurface y −32→0. Scrim dim 6px. 0.79s `cubic-bezier(0.77, 0, 0.175, 1)`. Close = inverso |
+| Nav overlay | Variant `open`: split 33/67, still a sangre. No Layout Template |
+| Cambio de página | Scrim 6px + PageSurface **baja** (y −32→0, 0.49s). Home plane sin Y. Cero Page Effect Fade. Cero Custom Code |
+| `prefers-reduced-motion` | Sin idle drift; snap estático; Scrim y Y instantáneos |
+| Páginas paper (contenido) | Sin ken burns, parallax ni stagger de galería. Appear solo: PageSurface y −32 |
 | Hover Desktop | Opacidad ~0.7 en links. Plane cards: el hover que ya traiga el componente |
 | Phone | Hover off |
 
-Nada de Lottie, shaders, Layout Templates, ni layer Veil. El único blur permitido: frost de cambio de página en Custom Code **12px**. No blur CSS sobre la gallery del detail.
+Nada de Lottie, shaders, Layout Templates, ni Page Effect Fade. El único blur permitido: Scrim nativo **6px**. No blur CSS sobre la gallery del detail.
 
 ---
 
