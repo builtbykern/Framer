@@ -55,7 +55,7 @@ B. MENU — surface lowers; close is inverse
    - open: MenuSurface opacity 1, y 0. Scrim dim.
    - Same 0.79s cubic-bezier(0.77, 0, 0.175, 1) as BrandRoll/open. Phone y -20.
    - Still may keep a light scale 1.03→1. No 1.06 slam. No rotateX.
-   - BrandRoll on open → Set Variant Previous already reverses MenuSurface and VALE↔MENU. Do not add a second animation.
+   - BrandRoll on open → Set Variant Previous already reverses MenuSurface. BrandRoll stays VALE (loop independent). Do not add a second animation.
 
 C. PAPER PAGES — Work / Info / Contact / 404 bg lowers in
 
@@ -87,7 +87,7 @@ F. DO NOT
 - Layout Template
 - Abort
 
-Preview Safari + Chrome: BrandRoll VALE→MENU — page blurs slightly, menu lowers in. Tap MENU — menu lifts, blur clears, MENU→VALE. Home → Info — slight blur, paper surface lowers. Back — inverse.
+Preview Safari + Chrome: tap centered VALE — page blurs slightly, menu lowers in. Tap VALE again — menu lifts, blur clears. Home → Info — slight blur, paper surface lowers. Back — inverse.
 
 Report: Scrim px and paper %, MenuSurface y, PageSurface Appear, which links have 0.35s delay, Page Effect Instant/removed.
 ```
@@ -95,12 +95,12 @@ Report: Scrim px and paper %, MenuSurface y, PageSurface Appear, which links hav
 ## Definition of done
 
 - Blur **6px**, scrim paper **16%**. No velo 12px.
-- Menú y páginas paper: Y −32 → 0 al entrar; BrandRoll MENU→VALE / atrás es el inverso.
+- Menú y páginas paper: Y −32 → 0 al entrar; tap VALE / atrás es el inverso.
 - Home plane sin translate. Safari = Chrome.
 
 ## Verificación humana
 
-Safari: BrandRoll VALE / MENU (¿el menú baja y sube?). Home → Info (¿el paper baja?). Atrás. ¿Slide completo tipo Push? Mal (solo 32px).
+Safari: BrandRoll VALE auto-roll (¿el menú baja y sube al tap?). Home → Info (¿el paper baja?). Atrás. ¿Slide completo tipo Push? Mal (solo 32px).
 
 ## Siguiente
 

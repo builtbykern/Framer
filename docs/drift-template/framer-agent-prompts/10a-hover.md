@@ -24,9 +24,9 @@ Ficha: [`00-agent-decision.md`](00-agent-decision.md).
 
 Add hover and pressed variants only. Do not restyle the template.
 
-- BrandRoll (closed): hover IS the VALE→MENU roll. Do not also fade opacity. Phone: hover off; tap still opens
+- BrandRoll: no hover. The roll is an auto Loop. Do not add opacity hover on it. Phone: loop stays on; tap still opens
 - Overlay links Info/Contact (variant open): hover opacity ~0.7. Pressed slightly lower
-- Overlay home VALE (left column) and BrandRoll MENU: BrandRoll stays a roll, not an opacity fade; left VALE opacity ~0.7
+- Overlay home VALE (left column): opacity ~0.7. Do not loop that one — only BrandRoll loops
 - Info title rows: hover opacity or underline
 - Detail chips: no jump; optional opacity
 - Contact Send: hover opacity

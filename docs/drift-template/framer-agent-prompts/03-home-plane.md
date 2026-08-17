@@ -2,7 +2,7 @@
 
 **Prerrequisito humano:** el code component **Drift Plane** está en el proyecto (Assets / Insert). El Agent no lo genera.
 
-**Objetivo:** Home = plane a viewport + chrome mínimo: **BrandRoll** centrado (VALE ↔ MENU). Mark según [`00-visual-system.md`](00-visual-system.md). Gesto: [`00-gregor-nav.md`](00-gregor-nav.md). Ningún otro hero.
+**Objetivo:** Home = plane a viewport + chrome mínimo: **BrandRoll** centrado (un texto **VALE**, auto-roll). Mark según [`00-visual-system.md`](00-visual-system.md). Gesto: [`00-gregor-nav.md`](00-gregor-nav.md). Ningún otro hero.
 
 Ficha: [`00-agent-decision.md`](00-agent-decision.md).
 
@@ -39,17 +39,18 @@ Build Home `/` only. Home is the Drift Plane. Nothing else except chrome.
    - Do NOT insert the LetterRollMenu code component (that is a 3–5 row menu). Steal only the dual-layer vertical roll.
 
    BrandRoll (Mark style, uppercase, paper color on home-bg — not #FFF):
-   - Idle: VALE. Hover Desktop + later variant open: rolls to MENU.
-   - Both words are 4 letters. Overflow hidden. Dual-layer Y swap (LetterRollMenu “Roll” idea). Prefer 4 letter cells: V/M, A/E, L/N, E/U, stagger 0.03s from center, ~0.45s. If per-letter fails: whole-word Y −100%. Width = wider word (MENU) so the mark does not jump.
+   - ONE word only: VALE. Never MENU. Never a second label.
+   - Dual-layer of the same letters, overflow hidden. AUTO loop: roll ~0.45s, stagger 0.03s from center, rest 2.0s, repeat forever. Prefer 4 letter cells (both layers say V A L E). If per-letter fails: two stacked VALE layers, whole-word Y loop.
+   - Trigger = Loop / repeating animation. NOT Hover. NOT While Hovering. Phone loops too.
+   - Reduced motion: static VALE, loop off.
    - Not a link to `/`. Tap → Set Variant open. Hit 44×32 minimum. aria-label “Open menu”.
-   - Phone: no hover. Tap still opens.
    - Optional 88px-tall scrim behind the bar: home-bg 70% to transparent. No other gradient.
 
    - Position: top, overlay, does not push the plane down. Nav pad 22×28 desktop, 16×20 phone
-   - Same chrome on Phone (BrandRoll stays centered). No drawer
+   - Same chrome on Phone (BrandRoll stays centered, still looping). No drawer
    - Component variables: email studio@vale.work, instagram https://www.instagram.com/vale.work
-   - Stub variant closedOnLight (ink BrandRoll) for later pages
-   - Stub variant open: full-viewport paper, Info / Contact in Display, BrandRoll shows MENU and tap → Previous — wiring in 03B, visual still-split in 03C
+   - Stub variant closedOnLight (ink BrandRoll, same auto-roll)
+   - Stub variant open: full-viewport paper, Info / Contact in Display, BrandRoll still says VALE (loop continues), tap → Previous — wiring in 03B, visual still-split in 03C
 
 3. Hint, Label style, muted, bottom 24 left 28, pointer-events none:
    “Pan the plane · click a series”
@@ -60,7 +61,7 @@ Build Home `/` only. Home is the Drift Plane. Nothing else except chrome.
 
 6. Do not fill the Plane array with CMS links yet (phase 09A). Placeholder cards already on the component are OK. Do not add Index, footer, or extra sections.
 
-Report: how Drift Plane is placed, Nav variant names (must include closedOnDark), confirm BrandRoll is centered VALE↔MENU, confirm no plus and no LetterRollMenu, confirm no Layout Template.
+Report: how Drift Plane is placed, Nav variant names (must include closedOnDark), confirm BrandRoll is centered VALE with auto-roll (no hover, no MENU), confirm no plus and no LetterRollMenu, confirm no Layout Template.
 ```
 
 ## Definition of done
@@ -74,7 +75,7 @@ CMS fields. Detail layout. Lummi. `/code`.
 
 ## Verificación humana
 
-1440: plane + VALE al centro; hover → MENU. 390: tap abre, plane sigue siendo el fondo (snap viene en 09B).
+1440: plane + VALE al centro, rollando solo (sin hover). 390: igual, tap abre.
 
 ## Siguiente
 

@@ -33,7 +33,7 @@ Scan for:
 - Flattened Credit1 / Tag1 fields on Work (must not exist — credits live in Credits, chips in Tags)
 - Default layer names (Frame 1, Rectangle 2) — rename
 - Unused styles, unused pages (Index, Privacy, Journal must not exist — delete if you created them earlier)
-- Hamburger, plus, X, Close label, or Info/Contact sitting in the top bar (must be centered BrandRoll VALE↔MENU + overlay). Do not insert LetterRollMenu
+- Hamburger, plus, X, Close, MENU, or Info/Contact sitting in the top bar (must be centered BrandRoll: one word VALE, auto-roll loop, no hover). Do not insert LetterRollMenu
 - Missing reduced-motion
 - Images without alt that are not decorative
 - Hardcoded colors that should be the five color styles

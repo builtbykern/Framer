@@ -133,7 +133,7 @@ Fast Mode = Off. Branch = `template-build`. Chat = New Chat.
 |---|---|---|---|---|
 | **01** | Color + 5 text styles + shells | **Sonnet 5** | **Higher** | **`/layout`** (o `/style`) |
 | **02** | Tags + Work + Credits (7 / 7 / 21), sin Lummi | **Luna** | **Higher** | **`/cms`** |
-| **03** | Home: Drift Plane + BrandRoll VALE↔MENU | **Opus 5** | **Higher** | **`/component`** |
+| **03** | Home: Drift Plane + BrandRoll VALE auto-roll | **Opus 5** | **Higher** | **`/component`** |
 | **03B** | BrandRoll centrado + instancias Nav | **Opus 5** | **Higher** | **`/component`** |
 | **03C** | Open visual: split 33/67 + still a sangre | **Opus 5** | **Higher** | **`/component`** |
 | **03D** | Settle: Scrim 6px + bg baja (inverso al salir) | **Opus 5** | **Higher** | **`/component`** |
@@ -192,9 +192,9 @@ Pack sin 09B: **aprox. 1.000–1.800 créditos**. Lo caro es 03, 03B, 03C, 03D, 
 | Síntoma | Qué hacer |
 |---|---|
 | Inventa Index, Privacy, vídeo, lightbox | Stop. New Chat. Constraints otra vez. |
-| Inventa hamburger, plus, X, Close, o links Info/Contact en la barra | Stop. New Chat. Canon 00-gregor-nav: BrandRoll centrado VALE↔MENU. |
-| Open es dos palabras en paper vacío, o plus/Close en la barra | Stop. New Chat. Fase 03C. Still ~67% a sangre. BrandRoll centro. |
-| Inserta LetterRollMenu (menú de filas) | Stop. Quita el componente. Un solo texto BrandRoll. |
+| Inventa hamburger, plus, X, Close, MENU, o links Info/Contact en la barra | Stop. New Chat. Canon 00-gregor-nav: BrandRoll centrado, un VALE, auto-roll. |
+| Open es dos palabras en paper vacío, o plus/Close en la barra | Stop. New Chat. Fase 03C. Still ~67% a sangre. BrandRoll centro, VALE. |
+| Inserta LetterRollMenu o usa Hover para el roll | Stop. Quita el componente. Un texto VALE. Loop, no hover. |
 | Fade negro, Wipe, Push, o Layout Template | Stop. New Chat. Settle nativo (Scrim 6px + Y −32). |
 | Velo Gregor 12px / Custom Code frost | Stop. 03D: Scrim 6px, paper 16%, bg baja. Borrar Custom Code. |
 | Open o Work sin bajar el bg | Stop. New Chat 03D. MenuSurface / PageSurface y −32. |

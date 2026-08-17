@@ -2,7 +2,7 @@
 
 **Prerrequisito:** Nav con tres variants, BrandRoll centrado, instancia en cada página. Si Open es paper vacío con dos palabras, este chat lo sustituye. Settle (blur 6 + bg baja) es **03D**.
 
-**Objetivo:** `open` es una **página visual**. El still manda (~67%). El tipo es columna editorial (~33%), paper, no sidebar negra. Mix **Coad split × overlay Gregor**. No clonar ninguno. BrandRoll sigue en el centro (MENU).
+**Objetivo:** `open` es una **página visual**. El still manda (~67%). El tipo es columna editorial (~33%), paper, no sidebar negra. Mix **Coad split × overlay Gregor**. No clonar ninguno. BrandRoll sigue en el centro (**VALE**, auto-roll).
 
 Canon: [`00-gregor-nav.md`](00-gregor-nav.md).
 
@@ -31,18 +31,18 @@ ONE JOB: redesign Nav variant `open` so the menu is a visual page. The still is 
 This is not a clone.
 - From Gregor: only the overlay *behavior* — one control opens a full-viewport layer; it is not a route. Do not copy plus, X, Overview/Work, long bio, Neue Rational, or empty paper with two words.
 - From Ian Coad (structure only): ~33 / 67 split, photograph dominates, type sits in a quiet editorial column. Do not copy the black sidebar or pixel font.
-- From LetterRollMenu: only the dual-layer roll on ONE word (already BrandRoll). Do not insert LetterRollMenu.
+- From LetterRollMenu: only the dual-layer roll on ONE word (VALE), looping, no hover. Do not insert LetterRollMenu.
 - Drift: paper #F6F3EE + ink #111111. Mark / Display / Lead / Label only. Radius 0.
 
-Closed bar must stay: BrandRoll dead-center, VALE idle, rolls to MENU on hover. No plus. No VALE on the left. No Close.
+Closed bar must stay: BrandRoll dead-center, one word VALE, auto-roll loop (no hover). No plus. No MENU. No Close.
 Do not touch Drift Plane, CMS, Info/Contact/404 page layouts. If a Scrim already exists inside Nav, leave it. Do not add a Page Effect Fade.
 Do not create a Layout Template. Do not use Unsplash.
 
 FAIL if any of these are true when you finish:
 - Open is two Display words on empty paper
 - The still is a thumbnail, card, inset, or less than ~60% of the desktop width
-- A plus, hamburger, X, or the word Close exists anywhere
-- BrandRoll is not centered, or closed still shows VALE on the left
+- A plus, hamburger, X, Close, or MENU exists anywhere
+- BrandRoll is not centered, shows a second word, or uses Hover instead of Loop
 - Overlay lists Overview, Work, Journal, or a biography paragraph
 - A dim/gradient covers the whole still
 - Ken burns loop, glass, drop shadow, or radius on the still
@@ -67,16 +67,16 @@ DESKTOP 1440 / TABLET 768 — variant open
    - This crop is allowed (menu still ≠ detail gallery). Do not letterbox. Do not put two images.
 
 4. BrandRoll stays in the TOP CENTER of the viewport (same slot as closed), z above the still:
-   - Shows MENU (already rolled). Color paper #F6F3EE so it reads on the still. Tap → Set Variant Previous. aria-label “Close menu”.
+   - Still says VALE. Loop continues. Color paper #F6F3EE so it reads on the still. Tap → Set Variant Previous. aria-label “Close menu”.
    - If a future light still kills contrast, add only an 88px-tall scrim behind BrandRoll (home-bg 40% → transparent). Never dim the whole photograph.
-   - Do not add a Close label.
+   - Do not add a Close label. Do not add MENU.
 
 PHONE 390 — variant open
 
 5. Column, still first (this must still feel like a photo page):
    - Still: width 100%, height 50vh, cover, full bleed, radius 0.
    - Then paper: VALE (→ `/`), Info, Contact, Lead, email / Instagram. Pad 40 20 32.
-   - BrandRoll stays top-center OVER the still, color paper, shows MENU.
+   - BrandRoll stays top-center OVER the still, color paper, still says VALE, loop continues.
 
 MOTION (component variants only)
 
@@ -88,21 +88,21 @@ MOTION (component variants only)
 7. Transition 0.79s, cubic-bezier(0.77, 0, 0.175, 1):
    - Still: opacity 0→1 and scale 1.03→1 (transform origin center). Y of the 33/67 block is phase 03D (MenuSurface).
    - Left type: opacity 0→1, delay 0.12s. No stagger per line.
-   - BrandRoll: VALE→MENU on open, reverse on Previous. Letter roll ~0.45s. Skip rotateX.
-   - prefers-reduced-motion: instant, scale 1, hard cut VALE/MENU.
+   - BrandRoll: VALE auto-roll loop continues (no hover, no MENU swap). Skip rotateX.
+   - prefers-reduced-motion: instant, scale 1, BrandRoll loop off.
 
 8. Variables on the component: `email`, `instagram`, `menuStill`. Do not hardcode a second address.
 
-Preview at 1440: centered VALE → MENU, a photograph fills two-thirds; type lives in a paper column; tap MENU to close. At 390: still on top, type below. Home must still be the Drift Plane.
+Preview at 1440: centered VALE rolls by itself; tap opens — a photograph fills two-thirds; type lives in a paper column; tap VALE to close. At 390: still on top, type below. Home must still be the Drift Plane.
 
-Report: open layout (column widths or phone stack), menuStill variable, BrandRoll treatment, confirm no plus / Close / LetterRollMenu.
+Report: open layout (column widths or phone stack), menuStill variable, BrandRoll is one word VALE with Loop, confirm no plus / Close / MENU / LetterRollMenu.
 ```
 
 ## Definition of done
 
 - Open ≠ Gregor (no plus, no X, no Overview/Work).
 - Open ≠ paper vacío. Still ≥ ~67% desktop, cover, a sangre.
-- Barra = BrandRoll centrado (VALE / MENU). Cero Close. Cero plus.
+- Barra = BrandRoll centrado, un texto VALE, auto-roll. Cero Close. Cero plus. Cero MENU.
 - Cero Layout Template. Settle (Scrim + Y) es 03D.
 
 ## Verificación humana

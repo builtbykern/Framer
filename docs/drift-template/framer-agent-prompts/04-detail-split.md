@@ -43,7 +43,7 @@ Left column, top to bottom:
 Phone 390:
 - Single column, pad 88 20 32. Info first, gallery below. No sticky split.
 
-Nav on this page: an instance of the Nav component, variant closedOnLight (ink BrandRoll VALE↔MENU, centered). If none exists, duplicate the Home instance and switch it to closedOnLight. Do not create a Layout Template. Do not put Info/Contact in the bar. Do not add a plus.
+Nav on this page: an instance of the Nav component, variant closedOnLight (ink BrandRoll VALE auto-roll, centered). If none exists, duplicate the Home instance and switch it to closedOnLight. Do not create a Layout Template. Do not put Info/Contact in the bar. Do not add a plus.
 
 No video. No lightbox. No black sidebar. No extra “related work” grid.
 

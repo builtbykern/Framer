@@ -26,7 +26,7 @@ No hay un prompt “haz la template perfecta”. Un job por chat.
 | 00 | [`00-constraints.md`](00-constraints.md) + [`00-source-of-truth.md`](00-source-of-truth.md) + [`00-visual-system.md`](00-visual-system.md) + [`00-cms.md`](00-cms.md) + [`00-gregor-nav.md`](00-gregor-nav.md) | Guardrails + VALE + look + schema CMS + nav |
 | 01 | [`01-system-shells.md`](01-system-shells.md) | Styles + páginas vacías |
 | 02 | [`02-cms-work.md`](02-cms-work.md) | Tags, Work, Credits (7 / 7 / 21), placeholders |
-| 03 | [`03-home-plane.md`](03-home-plane.md) | Drift Plane + BrandRoll centrado (VALE↔MENU) |
+| 03 | [`03-home-plane.md`](03-home-plane.md) | Drift Plane + BrandRoll centrado (VALE auto-roll) |
 | 03B | [`03b-nav-veil.md`](03b-nav-veil.md) | BrandRoll centrado + instancias (Open stub) |
 | 03C | [`03c-nav-open-visual.md`](03c-nav-open-visual.md) | Open visual: Coad 33/67 + still |
 | 03D | [`03d-page-frost.md`](03d-page-frost.md) | Settle: blur 6px + bg baja (inverso al salir) |

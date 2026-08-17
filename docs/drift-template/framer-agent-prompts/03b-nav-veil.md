@@ -2,7 +2,7 @@
 
 **Prerrequisito:** Nav componente con BrandRoll, instancia en Home (`closedOnDark`).
 
-**Objetivo:** BrandRoll centrado en todas las páginas. Open stub. El Settle de página (blur 6px + bg baja) es **03D**. No Page Effect. No plus. No Close.
+**Objetivo:** BrandRoll centrado en todas las páginas. Un texto **VALE**, auto-roll (sin hover). Open stub. El Settle de página es **03D**. No Page Effect. No plus. No Close. No MENU.
 
 Canon: [`00-gregor-nav.md`](00-gregor-nav.md). Cero Layout Templates.
 
@@ -17,7 +17,7 @@ Canon: [`00-gregor-nav.md`](00-gregor-nav.md). Cero Layout Templates.
 | Fast Mode | **Off** |
 | Skill | **`/component`** |
 | @ | Nav, Home, Info, Contact, 404, Work detail |
-| No usar | Fable, Sol, `/code`, Layout Template, hamburger, plus, X, Close, LetterRollMenu, Wipe/Slide/Push, Custom Code |
+| No usar | Fable, Sol, `/code`, Layout Template, hamburger, plus, X, Close, MENU, LetterRollMenu, Wipe/Slide/Push, Custom Code |
 
 ## Prompt (después de constraints)
 
@@ -32,23 +32,27 @@ A. NAV COMPONENT
 
 2. Closed variants (both):
    - Height ~56px, width 100%. ONE control: BrandRoll, dead-center. Empty left. Empty right.
-   - Delete any plus, hamburger, X, Close label, or VALE-on-the-left.
+   - Delete any plus, hamburger, X, Close label, MENU label, or VALE-on-the-left.
    - Delete Info/Contact from the bar if present.
-   - BrandRoll: Mark, uppercase. Idle VALE. Hover Desktop rolls to MENU (dual-layer Y, overflow hidden; 4 cells V/M A/E L/N E/U if possible; else whole-word). Width = MENU so it does not jump.
+   - BrandRoll: Mark, uppercase. ONE word: VALE. Never MENU.
+   - Dual-layer of the same letters, overflow hidden. AUTO loop (no hover): roll ~0.45s, stagger 0.03s from center, rest 2.0s, repeat forever. Prefer 4 letter cells both saying V A L E. If per-letter fails: two stacked VALE layers, whole-word Y loop.
+   - Trigger = Loop / repeating animation. NOT Hover. NOT While Hovering. Phone loops too.
+   - Reduced motion: static VALE, loop off.
    - closedOnDark: paper. closedOnLight: ink.
    - Tap BrandRoll → Set Variant open. aria-label “Open menu”. Not a link to `/`.
 
 3. Variant open — stub only (03C replaces this with a still split):
-   - Full-viewport paper. BrandRoll stays centered, shows MENU, tap → Set Variant Previous. aria-label “Close menu”.
-   - Info → /info and Contact → /contact in Display, stacked. No Overview, no Work, no bio, no hamburger, no Close word, no plus.
+   - Full-viewport paper. BrandRoll stays centered, still says VALE, loop continues, tap → Set Variant Previous. aria-label “Close menu”.
+   - Info → /info and Contact → /contact in Display, stacked. No Overview, no Work, no bio, no hamburger, no Close word, no plus, no MENU.
 
-4. Interactions (Tap, not Hover-to-navigate):
+4. Interactions:
    - BrandRoll on closedOnDark → Set Variant open
    - BrandRoll on closedOnLight → Set Variant open
    - BrandRoll on open → Set Variant Previous
    - Info and Contact = page Links for now (03D will add Scrim delay)
+   - Do not use Hover to open, close, or drive the roll.
 
-5. Component transition: 0.79s, cubic-bezier(0.77, 0, 0.175, 1). BrandRoll letter roll ~0.45s. Reduced motion: instant VALE/MENU, no Y.
+5. Component transition: 0.79s, cubic-bezier(0.77, 0, 0.175, 1). BrandRoll loop is independent of that.
 
 6. Place a Nav instance on every page. Fixed, top, left 0, right 0, z 30.
    - Home → closedOnDark
@@ -57,18 +61,18 @@ A. NAV COMPONENT
 
 7. Breakpoint fill: every page including Home = paper #F6F3EE. Home keeps an inner viewport frame filled home-bg for the Drift Plane. Do not add a Page Effect.
 
-Preview: centered VALE; hover (desktop) → MENU; tap opens a stub overlay with MENU still centered. Phone 390: same, no hamburger, no plus.
+Preview: centered VALE rolls by itself (no hover). Tap opens a stub overlay; VALE still centered and still looping. Phone 390: same auto-roll, no hamburger, no plus.
 
-Report: variant names, which pages have a Nav instance, confirm BrandRoll is the only bar control, confirm no plus / Close / LetterRollMenu / Layout Template / Page Effect. Do not start the still split or Scrim settle in this chat.
+Report: variant names, which pages have a Nav instance, confirm BrandRoll is one word VALE with Loop (not Hover), confirm no plus / Close / MENU / LetterRollMenu / Layout Template / Page Effect. Do not start the still split or Scrim settle in this chat.
 ```
 
 ## Definition of done
 
-- Cero Layout Template. BrandRoll **centrado** en cada página. Open stub + MENU + Info/Contact. Cero plus. Cero Close.
+- Cero Layout Template. BrandRoll **centrado** en cada página: **VALE** auto-roll. Open stub + Info/Contact. Cero plus. Cero Close. Cero MENU.
 
 ## Verificación humana
 
-1440 y 390: abrir/cerrar desde el centro. ¿Plus? Mal. ¿Hamburger? Mal. ¿VALE a la izquierda? Mal.
+1440 y 390: ¿rueda solo, sin hover? Abrir/cerrar desde el centro. ¿Plus / MENU / hamburger? Mal.
 
 ## Siguiente
 
