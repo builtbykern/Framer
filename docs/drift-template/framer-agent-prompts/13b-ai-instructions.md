@@ -26,7 +26,7 @@ Do not edit the canvas look. Write Template Agent Instructions for buyers of Dri
 
 Tell future in-canvas Agents:
 - Preserve Drift Plane as the only Home content (plus Nav + hint). Do not add a second hero, a work grid on Home, video, lightbox, or overlay viewer
-- Preserve Nav: a component instance on each page (no Layout Template). Closed: VALE left + plus right (not center). Open: Coad-like 33/67; plus becomes Close (Label), never an X. MenuSurface lowers in (y -32); Close is the inverse. Overlay links are Info and Contact only.
+- Preserve Nav: a component instance on each page (no Layout Template). Bar is only BrandRoll, centered: VALE rolls to MENU (hover + open). Tap opens/closes the overlay. Never a plus, hamburger, X, or Close label. Do not insert LetterRollMenu. Open: Coad-like 33/67. Overlay links are Info and Contact; overlay VALE (left column) goes to `/`. MenuSurface lowers in (y -32); BrandRoll MENU→VALE is the inverse.
 - Preserve Settle motion: Scrim 6px (paper 16%), PageSurface y -32 on paper pages. Do not translate the Drift Plane. No Page Effect Fade, no Custom Code frost, no 12px Gregor veil, no Layout Template. Breakpoint fill paper #F6F3EE (Home inner canvas home-bg).
 - Preserve the visual system: five colors (home-bg #050505, paper #F6F3EE, ink #111111, muted #6B6B6B, line #D9D4CC); five text styles Mark/Display/Lead/Body/Label (Syne ExtraBold, Inter Regular, IBM Plex Mono Medium). Radius 0 (chips 2px). No shadows, no accent, no pixel fonts, no #FFF/#000
 - Preserve the Work detail split (sticky ~33% info / ~67% stacked uncropped gallery) on paper/ink. Home stays home-bg. Do not invert that. Gallery gap 0

@@ -21,16 +21,16 @@ Visual canon is 00-visual-system.md:
 - Gallery gap 0, stills uncropped on detail; plane cards may cover-crop
 - Exactly 3 breakpoints: Desktop 1440 / Tablet 768 / Phone 390
 - Home is home-bg. Info, Contact, 404, and Work detail are paper + ink
-- Motion: Drift Plane + Nav plus/Close variants + native Settle (Scrim 6px, incoming paper/menu y -32→0, inverse on close/back). No Page Effect Fade. No Layout Templates. No Custom Code frost. Paper page *content* has no ken burns, scroll-scrub, or gallery stagger. English, quiet visual-director voice. No lorem ipsum
+- Motion: Drift Plane + Nav BrandRoll (VALE↔MENU, centered) + native Settle (Scrim 6px, incoming paper/menu y -32→0, inverse on close/back). No plus, no Close word, no hamburger, no X. No Page Effect Fade. No Layout Templates. No Custom Code frost. Do not insert LetterRollMenu. Paper page *content* has no ken burns, scroll-scrub, or gallery stagger. English, quiet visual-director voice. No lorem ipsum
 
 YOU MAY: create the pages listed in the phase, bind CMS, set component variables,
 write alt text, set semantic tags, add hover/pressed variants, use native Forms,
 edit site settings, insert Gallery fields as a vertical stack, build the Nav
-component (plus / Close) and a native Scrim + PageSurface/MenuSurface settle (small blur, bg lowers).
+component (centered BrandRoll VALE↔MENU) and a native Scrim + PageSurface/MenuSurface settle (small blur, bg lowers).
 
 DO NOT:
 - create Index, Privacy, Journal, blog, shop, or any route beyond Home, /info, /contact, 404, and CMS Work detail /work/{slug}
-- add video, lightbox, overlay *project viewer*, or a second hero on Home. Nav variant open is a full-viewport *visual* menu (33/67 paper + still). A Scrim (paper 16% + 6px background blur) plus lowering surfaces on page/menu change is required — it is not a project viewer and not a Gregor 12px veil
+- add video, lightbox, overlay *project viewer*, or a second hero on Home. Nav bar is only BrandRoll, centered (VALE rolls to MENU). Variant open is a full-viewport *visual* menu (33/67 paper + still). A Scrim (paper 16% + 6px background blur) plus lowering surfaces on page/menu change is required — it is not a project viewer and not a Gregor 12px veil. Do not insert LetterRollMenu (multi-row). Do not add a plus, Close label, hamburger, or X
 - use Unsplash or any stock plugin except Lummi, and only when the phase says so
 - use Fable 5 or GPT 5.6 Sol
 - write custom code except phase 09B: layout plane|snap on the existing Drift Plane — do not rewrite pan physics. Do not edit Site Settings Custom Code. Do not add a Page Effect Fade (Safari skips it; Settle is native layers)

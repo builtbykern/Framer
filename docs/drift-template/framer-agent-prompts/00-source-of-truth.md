@@ -122,15 +122,15 @@ Work no tiene `Credit*` ni `Tag1`/`Tag2`. Placeholders de Cover/Gallery hasta la
 
 Canon de gesto: [`00-gregor-nav.md`](00-gregor-nav.md). Componente `Nav` (no Layout Template). Tres variants. Una instancia por página.
 
-- `closedOnDark` — Home. VALE izquierda + plus **derecha**, paper.
+- `closedOnDark` — Home. **BrandRoll** centrado: **VALE**, paper. Hover/open rueda a **MENU**.
 - `closedOnLight` — Info, Contact, 404, Work detail. Igual, ink.
-- `open` — split 33/67. Izquierda tipo. Derecha still a sangre. **Close** (Label, no X) a la derecha.
+- `open` — split 33/67. Izquierda tipo. Derecha still a sangre. BrandRoll sigue centrado, muestra **MENU**, paper. Tap cierra.
 
-Cerrado: VALE → `/`. Plus derecha → abre. Cero Info/Contact en la barra. Plus no va al centro (eso es Gregor).
+Cerrado: un solo control, centro. No es link a `/`. Tap → abre. Cero plus, Cero Close, Cero Info/Contact en la barra. Cero LetterRollMenu.
 
-Abierto: Info → `/info`, Contact → `/contact` (Display). Lead de una línea. Email / Instagram. Still = variable `menuStill` (Cover de Salt Light cuando exista).
+Abierto: Info → `/info`, Contact → `/contact` (Display). VALE en la columna paper → `/`. Lead de una línea. Email / Instagram. Still = variable `menuStill` (Cover de Salt Light cuando exista).
 
-Settle (03D): **Scrim** 6px (paper 16%) sobre lo que ya está en pantalla. **MenuSurface** / **PageSurface** baja (`y −32 → 0`, phone `−20`). Close / atrás = inverso. Home plane sin translate. Cero Custom Code. Cero Page Effect Fade.
+Settle (03D): **Scrim** 6px (paper 16%) sobre lo que ya está en pantalla. **MenuSurface** / **PageSurface** baja (`y −32 → 0`, phone `−20`). BrandRoll MENU → VALE al cerrar. Home plane sin translate. Cero Custom Code. Cero Page Effect Fade.
 
 Variables: `email`, `instagram`, `menuStill` (Image).
 

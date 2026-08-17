@@ -46,7 +46,7 @@ Optical: títulos con leading apretado; meta en caja, tracking abierto, never it
 Nombres exactos. Tamaños en px. Line-height en decimal.
 
 **Mark** — Syne ExtraBold  
-Home y Nav. La palabra VALE.
+Home y Nav. BrandRoll: **VALE** / **MENU**.
 
 | BP | Size | Line | Tracking |
 |---|---|---|---|
@@ -82,7 +82,7 @@ Descripción de serie, bio, valores de credits, inputs.
 | Phone 390 | 15 | 1.55 | 0.01em |
 
 **Label** — IBM Plex Mono Medium  
-Nav overlay Close, hint, kicker, dt de credits, chips, pager, botones de form. Siempre **uppercase**, color `muted` salvo estado activo (`paper` en closedOnDark, `ink` en closedOnLight y open).
+Hint, kicker, dt de credits, chips, pager, botones de form. Siempre **uppercase**, color `muted` salvo estado activo (`paper` en closedOnDark, `ink` en closedOnLight). El toggle del Nav es Mark (VALE/MENU), no Label.
 
 | BP | Size | Line | Tracking |
 |---|---|---|---|
@@ -119,7 +119,7 @@ Weights: no Regular en Syne para títulos; no Bold en Inter (el énfasis es tama
 
 **Sombras:** ninguna.
 
-**Nav:** componente, una instancia por página (no Layout Template). Cerrado: VALE izquierda + plus **derecha**. Abierto: split 33/67, still a sangre, **Close** (palabra). Canon: [`00-gregor-nav.md`](00-gregor-nav.md).
+**Nav:** componente, una instancia por página (no Layout Template). Barra: solo **BrandRoll** centrado (VALE ↔ MENU). Abierto: split 33/67, still a sangre. Sin plus, sin Close, sin LetterRollMenu. Canon: [`00-gregor-nav.md`](00-gregor-nav.md).
 
 **Hint Home:** Label, `muted`, bottom 24 left 28, `pointer-events: none`.
 
@@ -137,12 +137,12 @@ Weights: no Regular en Syne para títulos; no Bold en Inter (el énfasis es tama
 |---|---|
 | Drift Plane desktop | Pan + idle drift (el componente) |
 | Drift Plane phone | Un eje + snap |
-| Nav plus → Close | Variant `open`. MenuSurface y −32→0. Scrim dim 6px. 0.79s `cubic-bezier(0.77, 0, 0.175, 1)`. Close = inverso |
+| Nav BrandRoll | Closed: VALE. Hover + `open`: roll a MENU (~0.45s, stagger 0.03s). Tap abre/cierra. MenuSurface y −32→0. Scrim dim 6px. 0.79s `cubic-bezier(0.77, 0, 0.175, 1)` |
 | Nav overlay | Variant `open`: split 33/67, still a sangre. No Layout Template |
 | Cambio de página | Scrim 6px + PageSurface **baja** (y −32→0, 0.49s). Home plane sin Y. Cero Page Effect Fade. Cero Custom Code |
-| `prefers-reduced-motion` | Sin idle drift; snap estático; Scrim y Y instantáneos |
+| `prefers-reduced-motion` | Sin idle drift; snap estático; Scrim, Y y BrandRoll instantáneos |
 | Páginas paper (contenido) | Sin ken burns, parallax ni stagger de galería. Appear solo: PageSurface y −32 |
-| Hover Desktop | Opacidad ~0.7 en links. Plane cards: el hover que ya traiga el componente |
+| Hover Desktop | BrandRoll: VALE→MENU. Links: opacidad ~0.7. Plane cards: el hover que ya traiga el componente |
 | Phone | Hover off |
 
 Nada de Lottie, shaders, Layout Templates, ni Page Effect Fade. El único blur permitido: Scrim nativo **6px**. No blur CSS sobre la gallery del detail.
@@ -184,7 +184,8 @@ Alts: `Still from {Title}, {one factual noun phrase}.` Nunca “image1”.
 
 - Template fotógrafo wedding / masonry / lightbox.
 - Portfolio DP con sidebar negra y display pixel (la captura es **estructura**, no paleta).
-- Copia de Gregor: no Neue Rational, no X, no Overview/Work, no plus centrado. Overlay sí; Open es split visual (still), no paper vacío.
+- Copia de Gregor: no Neue Rational, no X, no Overview/Work, no plus. Overlay sí; Open es split visual (still), no paper vacío. BrandRoll centrado no es el plus de Gregor.
+- LetterRollMenu: el roll dual-layer sí; el menú de 3–5 filas no. No insertar el componente.
 - Copia de Coad: no sidebar negra, no pixel font. Sí el 33/67 y que la foto mande.
 - Agencia con grid de cases y hover de vídeo.
 - Dark mode en Info/Contact/detail.

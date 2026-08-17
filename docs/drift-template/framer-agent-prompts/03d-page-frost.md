@@ -53,9 +53,9 @@ B. MENU — surface lowers; close is inverse
 3. In variant open, wrap the 33/67 block (paper column + still) in a frame named MenuSurface.
    - closedOnDark / closedOnLight: MenuSurface opacity 0, y -32 (hidden above). Scrim clear.
    - open: MenuSurface opacity 1, y 0. Scrim dim.
-   - Same 0.79s cubic-bezier(0.77, 0, 0.175, 1) as plus/Close. Phone y -20.
+   - Same 0.79s cubic-bezier(0.77, 0, 0.175, 1) as BrandRoll/open. Phone y -20.
    - Still may keep a light scale 1.03→1. No 1.06 slam. No rotateX.
-   - Close → Set Variant Previous already reverses this. Do not add a second animation.
+   - BrandRoll on open → Set Variant Previous already reverses MenuSurface and VALE↔MENU. Do not add a second animation.
 
 C. PAPER PAGES — Work / Info / Contact / 404 bg lowers in
 
@@ -67,7 +67,7 @@ C. PAPER PAGES — Work / Info / Contact / 404 bg lowers in
 
 D. EXIT / BACK
 
-5. VALE, Info, Contact (and any in-page link to `/`, `/info`, `/contact`):
+5. VALE (overlay home link), Info, Contact (and any in-page link to `/`, `/info`, `/contact`):
    Tap, in order:
    - Set Variant Scrim → dim
    - Go to Page, delay 0.35s
@@ -87,7 +87,7 @@ F. DO NOT
 - Layout Template
 - Abort
 
-Preview Safari + Chrome: plus opens — page blurs slightly, menu lowers in. Close — menu lifts, blur clears. Home → Info — slight blur, paper surface lowers. Back — inverse.
+Preview Safari + Chrome: BrandRoll VALE→MENU — page blurs slightly, menu lowers in. Tap MENU — menu lifts, blur clears, MENU→VALE. Home → Info — slight blur, paper surface lowers. Back — inverse.
 
 Report: Scrim px and paper %, MenuSurface y, PageSurface Appear, which links have 0.35s delay, Page Effect Instant/removed.
 ```
@@ -95,12 +95,12 @@ Report: Scrim px and paper %, MenuSurface y, PageSurface Appear, which links hav
 ## Definition of done
 
 - Blur **6px**, scrim paper **16%**. No velo 12px.
-- Menú y páginas paper: Y −32 → 0 al entrar; Close / atrás es el inverso.
+- Menú y páginas paper: Y −32 → 0 al entrar; BrandRoll MENU→VALE / atrás es el inverso.
 - Home plane sin translate. Safari = Chrome.
 
 ## Verificación humana
 
-Safari: plus / Close (¿el menú baja y sube?). Home → Info (¿el paper baja?). Atrás. ¿Slide completo tipo Push? Mal (solo 32px).
+Safari: BrandRoll VALE / MENU (¿el menú baja y sube?). Home → Info (¿el paper baja?). Atrás. ¿Slide completo tipo Push? Mal (solo 32px).
 
 ## Siguiente
 

@@ -168,6 +168,8 @@ Report: field lists, 7 Work slugs, tag count, credit count (must be 21).
 | **Skill** | `/component` |
 | **@** | `@Home`, Drift Plane |
 
+Archivo: [03-home-plane.md](03-home-plane.md). BrandRoll centrado VALE↔MENU. Cero plus.
+
 ```
 /component
 
@@ -176,14 +178,24 @@ Build Home `/` only. Home is the Drift Plane. Nothing else except chrome.
 1. Insert the existing Drift Plane code component so it fills the viewport (width 100%, height 100vh / 100dvh). Pin it. Do not recreate it in native stacks. Do not wrap it in a marketing hero (no headline, no reel, no grid of projects besides the plane).
 
 2. Create a Nav component and place it on Home. Structure only in this chat — instances on other pages are 03B; visual Open (still split) is 03C; Settle (small blur + bg lowers) is 03D. Follow 00-gregor-nav.md.
-   - Variant closedOnDark (this page): Mark style VALE left, color paper (not #FFF) on home-bg. Right: a plus made of two 20×2px bars (not a text glyph), paper color, hit 32px, aria-label “Open menu”. Not centered.
-   - Do NOT put Info or Contact in the bar. Do NOT use a hamburger, an X, or the word MENU
-   - Optional 88px-tall scrim: home-bg 70% to transparent. No other gradient
-   - VALE → `/`
+
+   Closed bar (variant closedOnDark):
+   - Height ~56px, width 100%. ONE control only: BrandRoll, dead-center (horizontal + vertical). Empty left. Empty right.
+   - Do NOT put VALE on the left. Do NOT add a plus, hamburger, X, or the word Close. Do NOT put Info or Contact in the bar.
+   - Do NOT insert the LetterRollMenu code component (that is a 3–5 row menu). Steal only the dual-layer vertical roll.
+
+   BrandRoll (Mark style, uppercase, paper color on home-bg — not #FFF):
+   - Idle: VALE. Hover Desktop + later variant open: rolls to MENU.
+   - Both words are 4 letters. Overflow hidden. Dual-layer Y swap. Prefer 4 letter cells: V/M, A/E, L/N, E/U, stagger 0.03s from center, ~0.45s. If per-letter fails: whole-word Y −100%. Width = wider word (MENU) so the mark does not jump.
+   - Not a link to `/`. Tap → Set Variant open. Hit 44×32 minimum. aria-label “Open menu”.
+   - Phone: no hover. Tap still opens.
+   - Optional 88px-tall scrim behind the bar: home-bg 70% to transparent. No other gradient.
+
    - Position: top, overlay, does not push the plane down. Nav pad 22×28 desktop, 16×20 phone
-   - Same chrome on Phone (plus stays right). No drawer
+   - Same chrome on Phone (BrandRoll stays centered). No drawer
    - Component variables: email studio@vale.work, instagram https://www.instagram.com/vale.work
-   - Stub variant closedOnLight (ink plus + VALE) for later pages; stub variant open as a full-viewport paper layer with Info / Contact in Display and the word Close (Label) instead of the plus — wiring in 03B, visual still-split in 03C
+   - Stub variant closedOnLight (ink BrandRoll) for later pages
+   - Stub variant open: full-viewport paper, Info / Contact in Display, BrandRoll shows MENU and tap → Previous — wiring in 03B, visual still-split in 03C
 
 3. Hint, Label style, muted, bottom 24 left 28, pointer-events none:
    “Pan the plane · click a series”
@@ -194,7 +206,7 @@ Build Home `/` only. Home is the Drift Plane. Nothing else except chrome.
 
 6. Do not fill the Plane array with CMS links yet (phase 09A). Placeholder cards already on the component are OK. Do not add Index, footer, or extra sections.
 
-Report: how Drift Plane is placed, Nav variant names (must include closedOnDark), confirm no Layout Template.
+Report: how Drift Plane is placed, Nav variant names (must include closedOnDark), confirm BrandRoll is centered VALE↔MENU, confirm no plus and no LetterRollMenu, confirm no Layout Template.
 ```
 
 ---
@@ -209,34 +221,36 @@ Report: how Drift Plane is placed, Nav variant names (must include closedOnDark)
 | **Skill** | `/component` |
 | **@** | Nav, Home, Info, Contact, 404, Work detail |
 
-Canon: [00-gregor-nav.md](00-gregor-nav.md). Cero Layout Template. Cero Page Effect. Open visual = **03C**. Settle = **03D**.
+Canon: [00-gregor-nav.md](00-gregor-nav.md). Cero Layout Template. Cero Page Effect. Open visual = **03C**. Settle = **03D**. Si el Nav aún tiene plus, este chat lo borra.
 
 ```
 /component
 
-Do one job: finish closed Nav + instances on every page. Do not create a Layout Template. Do not add Custom Code. Do not restyle type or colors. Do not rewrite Drift Plane. Do not design the visual Open split (03C). Do not build the Scrim / PageSurface settle (03D). Do not add a Page Effect (it has no blur and does not run in Safari — 03D replaces it with a native layer).
+Do one job: finish closed Nav + instances on every page. Do not create a Layout Template. Do not add Custom Code. Do not restyle type or colors. Do not rewrite Drift Plane. Do not design the visual Open split (03C). Do not build the Scrim / PageSurface settle (03D). Do not add a Page Effect. Do not insert LetterRollMenu.
 
 A. NAV COMPONENT
 
 1. Open the Nav component. Exactly three variants: closedOnDark, closedOnLight, open.
 
 2. Closed variants (both):
-   - Height ~56px, width 100%. VALE (Mark) left → `/`. Plus on the RIGHT (not center — that is Gregor). Empty center.
-   - Plus = two rectangles 20×2px, 0° and 90°, not a “+” glyph. Hit 32×32. aria-label “Open menu”.
-   - closedOnDark: VALE + plus color paper. closedOnLight: ink.
-   - Remove any Info/Contact links from the bar.
+   - Height ~56px, width 100%. ONE control: BrandRoll, dead-center. Empty left. Empty right.
+   - Delete any plus, hamburger, X, Close label, or VALE-on-the-left.
+   - Delete Info/Contact from the bar if present.
+   - BrandRoll: Mark, uppercase. Idle VALE. Hover Desktop rolls to MENU (dual-layer Y, overflow hidden; 4 cells V/M A/E L/N E/U if possible; else whole-word). Width = MENU so it does not jump.
+   - closedOnDark: paper. closedOnLight: ink.
+   - Tap BrandRoll → Set Variant open. aria-label “Open menu”. Not a link to `/`.
 
 3. Variant open — stub only (03C replaces this with a still split):
-   - Full-viewport paper. VALE left. The word Close (Label, not an X) top-right, same slot as the plus.
-   - Info → /info and Contact → /contact in Display, stacked. No Overview, no Work, no bio, no hamburger.
+   - Full-viewport paper. BrandRoll stays centered, shows MENU, tap → Set Variant Previous. aria-label “Close menu”.
+   - Info → /info and Contact → /contact in Display, stacked. No Overview, no Work, no bio, no hamburger, no Close word, no plus.
 
-4. Interactions (Tap, not Hover):
-   - Plus on closedOnDark → Set Variant open
-   - Plus on closedOnLight → Set Variant open
-   - Close on open → Set Variant Previous
+4. Interactions (Tap, not Hover-to-navigate):
+   - BrandRoll on closedOnDark → Set Variant open
+   - BrandRoll on closedOnLight → Set Variant open
+   - BrandRoll on open → Set Variant Previous
    - Info and Contact = page Links for now (03D will add Scrim delay)
 
-5. Component transition: 0.79s, cubic-bezier(0.77, 0, 0.175, 1). Plus and Close share the top-right slot: closed plus opacity 1 / Close 0; open reverse. Skip rotateX unless it already works.
+5. Component transition: 0.79s, cubic-bezier(0.77, 0, 0.175, 1). BrandRoll letter roll ~0.45s. Reduced motion: instant VALE/MENU, no Y.
 
 6. Place a Nav instance on every page. Fixed, top, left 0, right 0, z 30.
    - Home → closedOnDark
@@ -245,9 +259,9 @@ A. NAV COMPONENT
 
 7. Breakpoint fill: every page including Home = paper #F6F3EE. Home keeps an inner viewport frame filled home-bg for the Drift Plane. Do not add a Page Effect.
 
-Preview: plus (right) opens a stub overlay with Close (the word). Phone 390: same plus, no hamburger.
+Preview: centered VALE; hover (desktop) → MENU; tap opens a stub overlay with MENU still centered. Phone 390: same, no hamburger, no plus.
 
-Report: variant names, which pages have a Nav instance, confirm no Layout Template and no Page Effect added. Do not start the still split or Scrim settle in this chat.
+Report: variant names, which pages have a Nav instance, confirm BrandRoll is the only bar control, confirm no plus / Close / LetterRollMenu / Layout Template / Page Effect. Do not start the still split or Scrim settle in this chat.
 ```
 
 ---
@@ -270,22 +284,24 @@ Si Open ya es paper vacío con dos palabras, este chat lo sustituye. No añadir 
 ONE JOB: redesign Nav variant `open` so the menu is a visual page. The still is the menu. Type is a caption column.
 
 This is not a clone.
-- From Gregor: only the overlay *behavior* — plus opens a full-viewport layer; it is not a route. Do not copy centered plus, X, Overview/Work, long bio, Neue Rational, or empty paper with two words.
+- From Gregor: only the overlay *behavior* — one control opens a full-viewport layer; it is not a route. Do not copy plus, X, Overview/Work, long bio, Neue Rational, or empty paper with two words.
 - From Ian Coad (structure only): ~33 / 67 split, photograph dominates, type sits in a quiet editorial column. Do not copy the black sidebar or pixel font.
+- From LetterRollMenu: only the dual-layer roll on ONE word (already BrandRoll). Do not insert LetterRollMenu.
 - Drift: paper #F6F3EE + ink #111111. Mark / Display / Lead / Label only. Radius 0.
 
-Do not restyle closed variants except: plus must sit TOP-RIGHT on both closedOnDark and closedOnLight (not center). Empty center. VALE stays left.
+Closed bar must stay: BrandRoll dead-center, VALE idle, rolls to MENU on hover. No plus. No VALE on the left. No Close.
 Do not touch Drift Plane, CMS, Info/Contact/404 page layouts. If a Scrim already exists inside Nav, leave it. Do not add a Page Effect Fade.
 Do not create a Layout Template. Do not use Unsplash.
 
 FAIL if any of these are true when you finish:
 - Open is two Display words on empty paper
 - The still is a thumbnail, card, inset, or less than ~60% of the desktop width
-- Close is an X, a hamburger, or sits in the center
-- Plus is still centered when closed
+- A plus, hamburger, X, or the word Close exists anywhere
+- BrandRoll is not centered, or closed still shows VALE on the left
 - Overlay lists Overview, Work, Journal, or a biography paragraph
-- A dim/gradient covers the whole still (a tiny top-right scrim for Close is OK)
+- A dim/gradient covers the whole still
 - Ken burns loop, glass, drop shadow, or radius on the still
+- LetterRollMenu was inserted
 
 DESKTOP 1440 / TABLET 768 — variant open
 
@@ -295,7 +311,7 @@ DESKTOP 1440 / TABLET 768 — variant open
 
 2. LEFT column — same editorial stack as the Work-detail sidebar, not a nav bar:
    Padding 96 36 40. Column. Justify space-between. Ink on paper.
-   - Top: VALE in Mark → `/`
+   - Top: VALE in Mark → `/`  (this is the home link; it is NOT the bar toggle)
    - Middle: Info → /info then Contact → /contact, Display, stacked, gap 8, ink. Under them one Lead line only: “Selected work is published as series.” No second paragraph.
    - Bottom: Label muted, uppercase: studio@vale.work (mailto:studio@vale.work) and vale.work (https://www.instagram.com/vale.work), gap 18, row or wrap.
    - sr-only heading “Menu”. No visible H1 besides the Display links.
@@ -305,36 +321,36 @@ DESKTOP 1440 / TABLET 768 — variant open
    - Component variable `menuStill` (Image). Until Lummi exists: solid fill ink #111111 (not a stock photo).
    - This crop is allowed (menu still ≠ detail gallery). Do not letterbox. Do not put two images.
 
-4. Close — same TOP-RIGHT slot as the plus (not center):
-   - The word Close in Label (IBM Plex Mono, uppercase). Never an X glyph. Never “MENU”.
-   - Color paper #F6F3EE so it reads on the still. Hit 32×32 minimum. aria-label “Close menu”.
-   - If the placeholder is ink, paper Close is enough. If a future light still kills contrast, add only an 88px-tall scrim in the top-right corner (home-bg 40% → transparent). Never dim the whole photograph.
+4. BrandRoll stays in the TOP CENTER of the viewport (same slot as closed), z above the still:
+   - Shows MENU (already rolled). Color paper #F6F3EE so it reads on the still. Tap → Set Variant Previous. aria-label “Close menu”.
+   - If a future light still kills contrast, add only an 88px-tall scrim behind BrandRoll (home-bg 40% → transparent). Never dim the whole photograph.
+   - Do not add a Close label.
 
 PHONE 390 — variant open
 
 5. Column, still first (this must still feel like a photo page):
    - Still: width 100%, height 50vh, cover, full bleed, radius 0.
-   - Then paper: VALE, Info, Contact, Lead, email / Instagram. Pad 40 20 32.
-   - Close top-right OVER the still, color paper.
+   - Then paper: VALE (→ `/`), Info, Contact, Lead, email / Instagram. Pad 40 20 32.
+   - BrandRoll stays top-center OVER the still, color paper, shows MENU.
 
 MOTION (component variants only)
 
 6. Keep existing Tap wiring. If missing:
-   - Plus (both closed) → Set Variant open
-   - Close → Set Variant Previous
+   - BrandRoll (both closed) → Set Variant open
+   - BrandRoll on open → Set Variant Previous
    - Info and Contact = page Links for now (03D adds Scrim delay). Not Set Variant.
 
 7. Transition 0.79s, cubic-bezier(0.77, 0, 0.175, 1):
    - Still: opacity 0→1 and scale 1.03→1 (transform origin center). Y of the 33/67 block is phase 03D (MenuSurface).
    - Left type: opacity 0→1, delay 0.12s. No stagger per line.
-   - Plus and Close share the top-right slot: closed plus opacity 1 / Close 0; open reverse. Skip rotateX unless it already works.
-   - prefers-reduced-motion: instant, scale 1.
+   - BrandRoll: VALE→MENU on open, reverse on Previous. Letter roll ~0.45s. Skip rotateX.
+   - prefers-reduced-motion: instant, scale 1, hard cut VALE/MENU.
 
 8. Variables on the component: `email`, `instagram`, `menuStill`. Do not hardcode a second address.
 
-Preview at 1440: plus (right) → a photograph fills two-thirds; type lives in a paper column; Close is a word on the still. At 390: still on top, type below. Then close. Home must still be the Drift Plane.
+Preview at 1440: centered VALE → MENU, a photograph fills two-thirds; type lives in a paper column; tap MENU to close. At 390: still on top, type below. Home must still be the Drift Plane.
 
-Report: open layout (column widths or phone stack), menuStill variable, Close treatment, whether plus moved to the right, confirm Page Effect was not added.
+Report: open layout (column widths or phone stack), menuStill variable, BrandRoll treatment, confirm no plus / Close / LetterRollMenu.
 ```
 
 ---
@@ -376,7 +392,7 @@ B. MENU — surface lowers; close is inverse
    - closedOnDark / closedOnLight: MenuSurface opacity 0, y -32. Scrim clear.
    - open: MenuSurface opacity 1, y 0. Scrim dim.
    - 0.79s cubic-bezier(0.77, 0, 0.175, 1). Phone y -20.
-   - Still scale 1.03→1 max. Close → Previous already reverses this.
+   - Still scale 1.03→1 max. BrandRoll on open → Previous already reverses this.
 
 C. PAPER PAGES — Work / Info / Contact / 404 bg lowers in
 
@@ -386,7 +402,7 @@ C. PAPER PAGES — Work / Info / Contact / 404 bg lowers in
 
 D. EXIT / BACK
 
-5. VALE, Info, Contact: Tap → Scrim dim → Go to Page delay 0.35s.
+5. Overlay VALE (home link), Info, Contact: Tap → Scrim dim → Go to Page delay 0.35s.
    Home Nav Scrim starts dim, Appear → clear.
 
 6. Work pager Previous/Next if they exist: same 0.35s delay. If not built, skip.
@@ -395,7 +411,7 @@ E. PAGE EFFECT OFF
 
 7. If Page Effect Fade exists: Instant or remove. No Slide/Push/Wipe.
 
-Preview Safari + Chrome: plus — slight blur, menu lowers. Close — inverse. Home → Info — paper lowers. Back — inverse.
+Preview Safari + Chrome: BrandRoll VALE→MENU — slight blur, menu lowers. Tap MENU — inverse. Home → Info — paper lowers. Back — inverse.
 
 Report: Scrim px and paper %, MenuSurface y, PageSurface Appear, link delays, Page Effect Instant/removed.
 ```
@@ -433,7 +449,7 @@ Left column, top to bottom:
 Phone 390:
 - Single column, pad 88 20 32. Info first, gallery below. No sticky split.
 
-Nav on this page: an instance of the Nav component, variant closedOnLight (ink VALE + plus). If none exists, duplicate the Home instance and switch it to closedOnLight. Do not create a Layout Template. Do not put Info/Contact in the bar.
+Nav on this page: an instance of the Nav component, variant closedOnLight (ink BrandRoll VALE↔MENU, centered). If none exists, duplicate the Home instance and switch it to closedOnLight. Do not create a Layout Template. Do not put Info/Contact in the bar. Do not add a plus.
 
 No video. No lightbox. No black sidebar. No extra “related work” grid.
 
@@ -485,7 +501,7 @@ Report: each layer → collection.field. Credit list count on salt-light (3).
 | **@** | `@Info`, Work |
 
 ```
-Build Info `/info` only. Paper background, Nav closedOnLight (VALE + plus, no bar links). Do not change Home or the Work detail.
+Build Info `/info` only. Paper background, Nav closedOnLight (centered BrandRoll VALE↔MENU, no bar links). Do not change Home or the Work detail.
 
 Copy verbatim:
 - Kicker (Label): Info
@@ -518,7 +534,7 @@ Report: routes you touched, how the list binds.
 ```
 /component
 
-Build Contact `/contact` only. Paper, Nav closedOnLight (VALE + plus). Native Framer Form — not a code component, not an embed.
+Build Contact `/contact` only. Paper, Nav closedOnLight (centered BrandRoll VALE↔MENU). Native Framer Form — not a code component, not an embed.
 
 Copy:
 - Kicker (Label): Contact
@@ -552,7 +568,7 @@ Report: that the Form is the native Framer Form, field names, success copy.
 | **@** | 404 |
 
 ```
-Build the custom 404 page only. Paper, Nav closedOnLight (VALE + plus).
+Build the custom 404 page only. Paper, Nav closedOnLight (centered BrandRoll VALE↔MENU).
 
 Copy verbatim:
 - Kicker (Label): Missing
@@ -590,7 +606,7 @@ For each Featured Work item (all 7), one card:
 - Title = Title
 - Link = that item’s CMS detail URL (/work/salt-light, /work/the-waiting-room, /work/glass-hours, /work/inland-signal, /work/after-the-sitting, /work/red-room-brief, /work/night-atlas)
 
-Click (not drag) must navigate to the detail page. No project overlay, lightbox, or modal. Do not remove the Nav (plus / Close). The Work PageSurface should lower in (phase 03D).
+Click (not drag) must navigate to the detail page. No project overlay, lightbox, or modal. Do not remove the Nav (BrandRoll VALE↔MENU). The Work PageSurface should lower in (phase 03D).
 
 If the component only has a generic Link per card, set those seven links. If it has a single “open” overlay, turn overlay off.
 
@@ -650,9 +666,9 @@ Report: the prop name, how Phone switches to snap, files you changed.
 
 Add hover and pressed variants only. Do not restyle the template.
 
-- Plus (closed): hover opacity ~0.7. Phone: hover off
+- BrandRoll (closed): hover IS the VALE→MENU roll. Do not also fade opacity. Phone: hover off; tap still opens
 - Overlay links Info/Contact (variant open): hover opacity ~0.7. Pressed slightly lower
-- Overlay Close and VALE: same
+- Overlay home VALE (left column) and BrandRoll MENU: BrandRoll stays a roll, not an opacity fade; left VALE opacity ~0.7
 - Info title rows: hover opacity or underline
 - Detail chips: no jump; optional opacity
 - Contact Send: hover opacity
@@ -687,7 +703,7 @@ Semantics and motion only. Do not change art direction.
 - Contact: one heading “Contact”
 - 404: one heading “Missing”
 - Work detail: the series Title is the H1 (Display)
-- Enable Framer prefers-reduced-motion / reduced motion in Site Settings if the control exists. Then: Nav overlay instant, Scrim and Y instant, Page Effect Instant if it still exists, plane without idle drift
+- Enable Framer prefers-reduced-motion / reduced motion in Site Settings if the control exists. Then: Nav overlay instant, BrandRoll hard-cut VALE/MENU, Scrim and Y instant, Page Effect Instant if it still exists, plane without idle drift
 - Overlay open: sr-only H1 “Menu” already asked in 03C — do not add a second visible H1 on that overlay
 - Body line-height remains 1.55. Do not swap or add fonts. Keep Mark, Display, Lead, Body, Label as defined in phase 01.
 
@@ -786,7 +802,7 @@ Scan for:
 - Default layer names (Frame 1, Rectangle 2) — rename
 - Unused styles, unused pages (Index, Privacy, Journal must not exist — delete if you created them earlier)
 - More than 3 breakpoints
-- Hamburger, X close icon, or Info/Contact sitting in the top bar (must be plus + overlay)
+- Hamburger, plus, X, Close label, or Info/Contact sitting in the top bar (must be centered BrandRoll VALE↔MENU + overlay). Do not insert LetterRollMenu
 - Missing reduced-motion
 - Images without alt that are not decorative
 - Hardcoded colors that should be the five color styles
@@ -817,7 +833,7 @@ Do not edit the canvas look. Write Template Agent Instructions for buyers of Dri
 
 Tell future in-canvas Agents:
 - Preserve Drift Plane as the only Home content (plus Nav + hint). Do not add a second hero, a work grid on Home, video, lightbox, or overlay viewer
-- Preserve Nav: a component instance on each page (no Layout Template). Closed: VALE left + plus right (not center). Open: Coad-like 33/67; plus becomes Close (Label), never an X. MenuSurface lowers in (y -32); Close is the inverse. Overlay links are Info and Contact only.
+- Preserve Nav: a component instance on each page (no Layout Template). Bar is only BrandRoll, centered: VALE rolls to MENU (hover + open). Tap opens/closes the overlay. Never a plus, hamburger, X, or Close label. Do not insert LetterRollMenu. Open: Coad-like 33/67. Overlay links are Info and Contact; overlay VALE (left column) goes to `/`. MenuSurface lowers in (y -32); BrandRoll MENU→VALE is the inverse.
 - Preserve Settle motion: Scrim 6px (paper 16%), PageSurface y -32 on paper pages. Do not translate the Drift Plane. No Page Effect Fade, no Custom Code frost, no 12px Gregor veil, no Layout Template. Breakpoint fill paper #F6F3EE (Home inner canvas home-bg).
 - Preserve the visual system: five colors (home-bg #050505, paper #F6F3EE, ink #111111, muted #6B6B6B, line #D9D4CC); five text styles Mark/Display/Lead/Body/Label (Syne ExtraBold, Inter Regular, IBM Plex Mono Medium). Radius 0 (chips 2px). No shadows, no accent, no pixel fonts, no #FFF/#000
 - Preserve the Work detail split (sticky ~33% info / ~67% stacked uncropped gallery) on paper/ink. Home stays home-bg. Do not invert that. Gallery gap 0

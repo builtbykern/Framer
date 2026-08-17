@@ -33,7 +33,7 @@ For each Featured Work item (all 7), one card:
 - Title = Title
 - Link = that item’s CMS detail URL (/work/salt-light, /work/the-waiting-room, /work/glass-hours, /work/inland-signal, /work/after-the-sitting, /work/red-room-brief, /work/night-atlas)
 
-Click (not drag) must navigate to the detail page. No project overlay, lightbox, or modal. Do not remove the Nav (plus / Close). The Work PageSurface should lower in (phase 03D).
+Click (not drag) must navigate to the detail page. No project overlay, lightbox, or modal. Do not remove the Nav (BrandRoll VALE↔MENU). The Work PageSurface should lower in (phase 03D).
 
 If the component only has a generic Link per card, set those seven links. If it has a single “open” overlay, turn overlay off.
 

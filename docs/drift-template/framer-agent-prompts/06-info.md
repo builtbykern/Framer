@@ -20,7 +20,7 @@ Ficha: [`00-agent-decision.md`](00-agent-decision.md). Copy: [`00-source-of-trut
 ## Prompt (después de constraints)
 
 ```
-Build Info `/info` only. Paper background, Nav closedOnLight (VALE + plus, no bar links). Do not change Home or the Work detail.
+Build Info `/info` only. Paper background, Nav closedOnLight (centered BrandRoll VALE↔MENU, no bar links). Do not change Home or the Work detail.
 
 Copy verbatim:
 - Kicker (Label): Info

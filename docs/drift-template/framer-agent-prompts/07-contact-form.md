@@ -24,7 +24,7 @@ Opus: Help — forms nativos, multi-paso. Higher: labels + success/error.
 ```
 /component
 
-Build Contact `/contact` only. Paper, Nav closedOnLight (VALE + plus). Native Framer Form — not a code component, not an embed.
+Build Contact `/contact` only. Paper, Nav closedOnLight (centered BrandRoll VALE↔MENU). Native Framer Form — not a code component, not an embed.
 
 Copy:
 - Kicker (Label): Contact

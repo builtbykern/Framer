@@ -43,7 +43,7 @@ Left column, top to bottom:
 Phone 390:
 - Single column, pad 88 20 32. Info first, gallery below. No sticky split.
 
-Nav on this page: an instance of the Nav component, variant closedOnLight (ink VALE + plus). If none exists, duplicate the Home instance and switch it to closedOnLight. Do not create a Layout Template. Do not put Info/Contact in the bar.
+Nav on this page: an instance of the Nav component, variant closedOnLight (ink BrandRoll VALE↔MENU, centered). If none exists, duplicate the Home instance and switch it to closedOnLight. Do not create a Layout Template. Do not put Info/Contact in the bar. Do not add a plus.
 
 No video. No lightbox. No black sidebar. No extra “related work” grid.
 
@@ -53,7 +53,7 @@ Report: column widths, sticky, gallery layout (must be stack not masonry), phone
 ## Definition of done
 
 - Split 33/67 paper, sticky info, gallery stack.
-- Phone apilado. Nav closedOnLight (plus, no links en la barra).
+- Phone apilado. Nav closedOnLight (BrandRoll centrado, no links en la barra).
 
 ## No tocar
 
