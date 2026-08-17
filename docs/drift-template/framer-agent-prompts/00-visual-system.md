@@ -12,7 +12,8 @@ Dos superficies, nunca un toggle dark/light.
 
 | Superficie | Fondo | Texto | Qué es |
 |---|---|---|---|
-| **Home** | `home-bg` | `paper` | El plane. UI casi invisible. |
+| **Home Desktop / Tablet** | `home-bg` | `paper` | Drift Plane. UI casi invisible. |
+| **Home Phone** | `home-bg` | `paper` | Archivo: una fila por serie. |
 | **Resto** | `paper` | `ink` | Info, Contact, 404, Work detail. Editorial. |
 
 La foto (cuando exista) va **a sangre en su columna**, sin marco, sin overlay de gradiente, sin caption encima.
@@ -112,6 +113,9 @@ Weights: no Regular en Syne para títulos; no Bold en Inter (el énfasis es tama
 | Chip gap | 8 | 8 | |
 | Form field gap | 18 | 16 | |
 | Gallery gap | **0** | **0** | Stills a sangre, sin filete |
+| Phone series pad | — | 72 20 48 | Home Phone: lista bajo el Nav |
+| Phone series gap | — | **56** | Entre bloques (una fila = una serie) |
+| Phone thumb gap | — | **8** | Grid 2 col de Gallery. Radio 0 |
 
 **Radio:** 0 en todo (inputs, botones, imágenes). Chips: **2px** máximo, no pill.
 
@@ -127,7 +131,7 @@ Weights: no Regular en Syne para títulos; no Bold en Inter (el énfasis es tama
 
 **Pager:** Label, gap 18. Disabled = `muted` al 40%.
 
-**Imágenes detail:** width 100%, height auto, object-fit **none/contain** — **no crop**. El still se ve entero. Plane cards: object-fit **cover** (el componente recorta al marco de la carta).
+**Imágenes detail:** width 100%, height auto, object-fit **none/contain** — **no crop**. El still se ve entero. Plane cards y thumbs del Home Phone: object-fit **cover**. Radio **0** (no clonar radios de dumps tipo timeline).
 
 ---
 
@@ -135,12 +139,12 @@ Weights: no Regular en Syne para títulos; no Bold en Inter (el énfasis es tama
 
 | Dónde | Qué |
 |---|---|
-| Drift Plane desktop | Pan + idle drift (el componente) |
-| Drift Plane phone | Un eje + snap |
+| Drift Plane desktop/tablet | Pan + idle drift (el componente) |
+| Home Phone | Scroll nativo. Cero Plane. Cero snap `/code` |
 | Nav BrandRoll | Un texto VALE, auto-roll loop (~0.45s + rest 2s, stagger 0.03s). Sin hover. Tap abre/cierra. MenuSurface y −32→0. Scrim dim 6px. 0.79s `cubic-bezier(0.77, 0, 0.175, 1)` |
 | Nav overlay | Variant `open`: split 33/67, still a sangre. No Layout Template |
 | Cambio de página | Scrim 6px + PageSurface **baja** (y −32→0, 0.49s). Home plane sin Y. Cero Page Effect Fade. Cero Custom Code |
-| `prefers-reduced-motion` | Sin idle drift; snap estático; Scrim y Y instantáneos; BrandRoll loop off |
+| `prefers-reduced-motion` | Sin idle drift; Scrim y Y instantáneos; BrandRoll loop off |
 | Páginas paper (contenido) | Sin ken burns, parallax ni stagger de galería. Appear solo: PageSurface y −32 |
 | Hover Desktop | BrandRoll: sin hover (el roll es auto). Links: opacidad ~0.7. Plane cards: el hover que ya traiga el componente |
 | Phone | Hover off |
@@ -187,5 +191,6 @@ Alts: `Still from {Title}, {one factual noun phrase}.` Nunca “image1”.
 - Copia de Gregor: no Neue Rational, no X, no Overview/Work, no plus. Overlay sí; Open es split visual (still), no paper vacío. BrandRoll centrado no es el plus de Gregor.
 - LetterRollMenu: el roll dual-layer en **loop** sí; el menú de 3–5 filas no; el hover no. No insertar el componente. Una palabra: VALE.
 - Copia de Coad: no sidebar negra, no pixel font. Sí el 33/67 y que la foto mande.
+- Dump tipo timeline/gallery: no `#000`/`#FFF`, no radios 8–12, no fechas como título, no nav Work/Devlogs/Gallery. En Phone sí: una fila por serie, meta quieta, grid de stills, aire entre bloques.
 - Agencia con grid de cases y hover de vídeo.
 - Dark mode en Info/Contact/detail.

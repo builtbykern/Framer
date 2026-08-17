@@ -1,6 +1,6 @@
 # Prompts — modelo + skill (Agent tab)
 
-Un **New Chat** por bloque. Branch `template-build`. **Fast Mode Off.** Nunca Fable 5 ni GPT 5.6 Sol. **`/code` solo en 09B.**
+Un **New Chat** por bloque. Branch `template-build`. **Fast Mode Off.** Nunca Fable 5 ni GPT 5.6 Sol. **Cero `/code`.**
 
 Antes de cada prompt, pega las [constraints](00-constraints.md). Opus: **5** → 4.8 → 4.7. `/seo` `/layout` `/audit` `/style` solo si están en el menú `/`; si no, pega el prompt sin el slash.
 
@@ -13,7 +13,7 @@ Fuente de efectos: [Choosing a model](https://www.framer.com/help/articles/choos
 | **GPT 5.6 Luna** | CMS y find-replace, el más rápido | Schema Tags/Work/Credits, binds, links del Plane |
 | **Sonnet 5** | Default. Layout y edits | Shells, Info, 404, hover, Lummi bind, instructions |
 | **GPT 5.6 Terra** | Audits y consistency | SEO, hygiene |
-| **Opus 5** | Plan + juicio visual | Home+Nav, Open visual, Settle, split detail, Form, 09B code |
+| **Opus 5** | Plan + juicio visual | Home+Nav, Open visual, Settle, split detail, Form, Phone rows |
 | **GPT 5.5** | Copy-heavy | Fallback de Luna |
 | **Fable 5 / Sol** | First draft / poca guía | **Veto** — inventan Index, vídeo, otro home |
 
@@ -21,7 +21,7 @@ Fuente de efectos: [Choosing a model](https://www.framer.com/help/articles/choos
 
 ## Esfuerzo
 
-Base GPT 5.5 = 1×. Luna ~0.4× · Sonnet/Terra ~0.6× · Opus 5 ~1.2×. Pack sin 09B ≈ 1.000–1.800 créditos. Lo caro: 03, 03B, 03C, 04, 07.
+Base GPT 5.5 = 1×. Luna ~0.4× · Sonnet/Terra ~0.6× · Opus 5 ~1.2×. Pack ≈ 1.100–1.900 créditos. Lo caro: 03, 03B, 03C, 03D, 04, 07, 09B.
 
 ---
 
@@ -620,38 +620,62 @@ Do not add new cards beyond the 7. Do not change pan physics.
 Report: how many cards, each title → href.
 ```
 
-Si Phone ya es un eje + snap: saltar 09B.
+Chat nuevo → **09B** (Home Phone: una fila por serie). No snap `/code`.
 
 ---
 
-## 09B — snap (solo si hace falta)
+## 09B — Home Phone: una fila por serie
 
 | | |
 |---|---|
 | **Modelo** | Opus 5 |
 | **Reasoning** | Higher |
-| **Esfuerzo** | Alto (~120–200) |
-| **Skill** | `/code` |
-| **@** | Drift Plane code |
+| **Esfuerzo** | Alto (~80–140) |
+| **Skill** | `/layout` |
+| **@** | `@Home`, Work collection |
+
+Archivo: [09b-plane-snap.md](09b-plane-snap.md). Desktop = Plane. Phone = filas CMS. Cero `/code`.
 
 ```
-/code
+/layout
 
-Edit the existing Drift Plane code component only. Do not replace it. Do not change the desktop pan physics.
+ONE JOB: Phone 390 Home only. Desktop 1440 and Tablet 768 stay the Drift Plane. Do not rewrite pan physics. Do not add a /work index route.
 
-Add a layout mode:
-- `plane` (default): current 2D pan + idle drift
-- `snap`: one axis (horizontal or vertical — pick the one that already fits the card row), snap to a card, still click-to-open the same links
+A. BREAKPOINT SPLIT
 
-Expose it as a property control (Enum: plane | snap) and/or follow breakpoints:
-- Desktop 1440 and Tablet 768 → plane
-- Phone 390 → snap
+1. Home, Phone 390:
+   - Hide the Drift Plane instance (visible false). Do not delete it.
+   - Hide the hint “Pan the plane · click a series”.
+   - Page scrolls. Fill home-bg #050505. Nav stays BrandRoll (closedOnDark, paper VALE, auto-roll).
 
-Respect prefers-reduced-motion: no idle drift in either mode.
+2. Home, Desktop and Tablet:
+   - Plane stays fullscreen. Do not add the phone list here. Do not add a second hero.
 
-Do not add overlay/lightbox. Do not fetch CMS from internals (keep Array + link props). Do not restyle Nav.
+B. PHONE LIST — one row per series
 
-Report: the prop name, how Phone switches to snap, files you changed.
+3. On Home Phone, a Collection List of Work, Featured = true, all 7. Sort Year descending. Gap 56 between items. Padding 72 20 48 (clear the Nav). Width 100%.
+
+4. Each item is one vertical block (not a card, no fill, no shadow, no radius):
+   - Row of meta, gap 12, margin bottom 14:
+     - Title: Mark, paper, 14px. Link to that item’s CMS detail.
+     - Year: Label, muted, uppercase.
+     - Optional Label muted: “5 stills” (or gallery count). No calendar date as the title.
+   - Then a 2-column grid of that item’s Gallery stills. Gap 8. Each cell: width 1fr, aspect-ratio 1/1, object-fit cover, radius 0, overflow hidden. Placeholders ink/muted are fine until Lummi.
+   - If Gallery is empty, show Cover in the same 2-col grid (repeat Cover up to 4 cells) — do not fetch Unsplash.
+   - The whole block (title + grid) links to /work/{slug}. No lightbox. No overlay viewer.
+
+5. FAIL if:
+   - This list is visible at 1440 or 768
+   - Images have radius > 0
+   - Background is #000 or text is #FFF
+   - You added Work / Devlogs / Gallery links in the bar
+   - You created /work index
+   - You used /code or edited Drift Plane physics
+   - Masonry / irregular collage / ken burns
+
+Preview 390: scroll seven dark rows, each a title + tight still grid; tap opens the series. Preview 1440: still only the Plane.
+
+Report: Collection List filters, how Plane is hidden on Phone, grid gap, confirm radius 0 and no /code.
 ```
 
 ---
@@ -802,6 +826,7 @@ Audit then fix only hygiene. Do not change art direction. Do not create pages.
 Scan for:
 - Broken internal links (only the real 404 page should 404)
 - Plane cards that do not open /work/{slug}
+- Phone Home still showing the Plane, or the Phone series list visible at 1440/768
 - Empty CMS items; more or fewer than 7 published Work, 7 Tags, or 21 Credits
 - Flattened Credit1 / Tag1 fields on Work (must not exist)
 - Default layer names (Frame 1, Rectangle 2) — rename
@@ -837,7 +862,7 @@ Do not write Template Agent Instructions in this chat. Do not publish.
 Do not edit the canvas look. Write Template Agent Instructions for buyers of Drift (Help: AI-ready template).
 
 Tell future in-canvas Agents:
-- Preserve Drift Plane as the only Home content (plus Nav + hint). Do not add a second hero, a work grid on Home, video, lightbox, or overlay viewer
+- Preserve Drift Plane as the only Desktop/Tablet Home content (plus Nav + hint). Phone Home is a Collection List: one row per Featured Work (2-col still grid, radius 0, home-bg). Do not show that list at 1440/768. Do not add a second hero, video, lightbox, overlay viewer, or /work index
 - Preserve Nav: a component instance on each page (no Layout Template). Bar is only BrandRoll, centered: one word VALE with an auto letter-roll loop (no hover, never MENU). Tap opens/closes the overlay. Never a plus, hamburger, X, or Close label. Do not insert LetterRollMenu. Open: Coad-like 33/67. Overlay links are Info and Contact; overlay VALE (left column) goes to `/` and does not roll. MenuSurface lowers in (y -32).
 - Preserve Settle motion: Scrim 6px (paper 16%), PageSurface y -32 on paper pages. Do not translate the Drift Plane. No Page Effect Fade, no Custom Code frost, no 12px Gregor veil, no Layout Template. Breakpoint fill paper #F6F3EE (Home inner canvas home-bg).
 - Preserve the visual system: five colors (home-bg #050505, paper #F6F3EE, ink #111111, muted #6B6B6B, line #D9D4CC); five text styles Mark/Display/Lead/Body/Label (Syne ExtraBold, Inter Regular, IBM Plex Mono Medium). Radius 0 (chips 2px). No shadows, no accent, no pixel fonts, no #FFF/#000
@@ -851,7 +876,7 @@ Tell future in-canvas Agents:
 
 Paste those instructions into the template’s custom Agent instructions field if it exists; otherwise output them in chat for me to paste.
 
-Finally list remaining manual checks: Performance panel, Desktop/Tablet/Phone, form submit, 7 Work slugs from the plane, Info list, 404, Lummi alts.
+Finally list remaining manual checks: Performance panel, Desktop/Tablet/Phone, form submit, 7 Work slugs from the plane (desktop) and from Phone rows, Info list, 404, Lummi alts.
 
 Do not publish.
 ```

@@ -18,7 +18,7 @@ Datos únicos. Si el canvas contradice este archivo, gana este archivo.
 
 | Ruta | Página |
 |---|---|
-| `/` | Home (Drift Plane a viewport) |
+| `/` | Home — Desktop/Tablet: Drift Plane a viewport. Phone: Collection List, una fila por serie |
 | `/work/{slug}` | CMS Work detail |
 | `/info` | Info |
 | `/contact` | Contact |
@@ -137,10 +137,10 @@ Variables: `email`, `instagram`, `menuStill` (Image).
 ## Drift Plane
 
 - Code component ya existente. No regenerar la física.
-- Home: fullscreen, único contenido aparte del Nav y el hint.
-- Datos: property control Array (image, title, link) → 7 ítems Featured, link = CMS detail.
-- Click (sin drag) = navegar a `/work/{slug}`.
-- Phone: un eje + snap (`layout: snap`). Desktop/tablet: `layout: plane`.
+- **Desktop 1440 / Tablet 768:** fullscreen, único contenido aparte del Nav y el hint.
+- **Phone 390:** el Plane está **oculto**. Home = Collection List de Work (Featured), una fila por serie, grid 2 col de Gallery, gap 8, radio 0, `home-bg`. Tap → `/work/{slug}`. No es una ruta Index.
+- Datos del Plane (desktop): property control Array (image, title, link) → 7 ítems Featured, link = CMS detail.
+- Click en carta (sin drag) = navegar a `/work/{slug}`.
 - `prefers-reduced-motion`: sin idle drift.
 
 ## Detail (Work)
@@ -153,4 +153,4 @@ Phone: una columna, meta arriba, gallery abajo.
 
 ## Veto
 
-Index `/work`, Privacy, Journal, vídeo, lightbox, Unsplash, Fable 5, Sol, cuarto breakpoint, publicar main, `/code` fuera de 09B.
+Index `/work`, Privacy, Journal, vídeo, lightbox, Unsplash, Fable 5, Sol, cuarto breakpoint, publicar main, `/code`.

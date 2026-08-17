@@ -13,7 +13,7 @@ Picker: [`00-agent-decision.md`](00-agent-decision.md). Datos: [`00-source-of-tr
 3. Pegar **[`00-constraints.md`](00-constraints.md)** al inicio de cada chat.
 4. Un prompt de fase. Parar. Revisar **1440 / 768 / 390**. Afinar a mano si hace falta.
 5. Tras 03C: fase **03D** Settle nativo (Scrim 6px + bg baja). Si pegaste frost-view-transition.html, bórralo.
-6. **New Chat** para la siguiente fase. `@` páginas/CMS. Skills: las de la matriz. **`/code` solo en 09B**.
+6. **New Chat** para la siguiente fase. `@` páginas/CMS. Skills: las de la matriz. **Cero `/code`.**
 7. **Lummi en la fase 12**, cuando el sitio ya se recorre. Cero Unsplash.
 8. No publicar **main** hasta 13B.
 
@@ -36,7 +36,7 @@ No hay un prompt “haz la template perfecta”. Un job por chat.
 | 07 | [`07-contact-form.md`](07-contact-form.md) | Form nativo |
 | 08 | [`08-404.md`](08-404.md) | 404 |
 | 09A | [`09a-plane-links.md`](09a-plane-links.md) | Array → `/work/{slug}` |
-| 09B | [`09b-plane-snap.md`](09b-plane-snap.md) | `/code` snap Phone **si hace falta** |
+| 09B | [`09b-plane-snap.md`](09b-plane-snap.md) | Home Phone: una fila por serie (no snap) |
 | 10A | [`10a-hover.md`](10a-hover.md) | Hover/pressed |
 | 10B | [`10b-semantics.md`](10b-semantics.md) | Tags, H1, reduced motion |
 | 11 | [`11-seo.md`](11-seo.md) | lang, titles, OG |
@@ -54,4 +54,4 @@ Listing Marketplace. Privacy. Vídeo. Light/dark switch. Cuarto breakpoint. Rege
 
 ## Si el Agent se desvía
 
-New Chat. Baja a Sonnet 5 + Light. Nunca Fable 5 / GPT 5.6 Sol / Fast Mode. `/code` solo 09B.
+New Chat. Baja a Sonnet 5 + Light. Nunca Fable 5 / GPT 5.6 Sol / Fast Mode. Cero `/code`.

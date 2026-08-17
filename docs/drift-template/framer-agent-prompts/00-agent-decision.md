@@ -49,13 +49,13 @@ El Agent interno edita el proyecto en el canvas: layers, componentes, CMS, estil
 |---|---|---|
 | **`/cms`** | Collections, fields, items, slugs, bind | 02, 05, 12 |
 | **`/component`** | Componentes, variants, Form nativo, Nav | 03, 03B, 03C, 03D, 07, 09A, 10A |
-| **`/code`** | React code component | **Solo 09B.** Snap en el Plane existente. Nunca reescribir el pan. |
+| **`/code`** | React code component | **Nunca.** El Plane ya está insertado. Phone Home = Collection List nativo. |
 
 ### Si el menú `/` las lista
 
 | Skill | Fases | No usar para |
 |---|---|---|
-| `/layout` | 01, 04, 10B | Rediseñar Home con otro hero, 4º breakpoint |
+| `/layout` | 01, 04, **09B**, 10B | Rediseñar Home desktop con otro hero, 4º breakpoint |
 | `/style` | 01 (si no hay `/layout`) | Nueva paleta después de 01 |
 | `/seo` | 11 | Reescribir H1 de marca |
 | `/audit` | 13A | Empezar el proyecto, pass creativo |
@@ -73,7 +73,7 @@ Nunca pegues un slash que no viste en el menú de ese chat.
 
 | Veto | Motivo |
 |---|---|
-| `/code` en 01–08, 10–13 | Native first. Gallery stack, Form, hover = canvas |
+| `/code` en cualquier fase | Native first. Gallery stack, Form, hover, Phone rows = canvas |
 | Dos skills en el mismo chat | Un trabajo por chat. 09, 10 y 13 van partidos |
 | `/audit` o `/seo` al inicio | Reescriben el sitio |
 
@@ -105,7 +105,7 @@ Help (7 ago 2026): **Sonnet 5, Opus 4.7, GPT 5.5, Fable 5, GPT 5.6 Sol / Terra /
 | Modelo | Help | Aquí |
 |---|---|---|
 | **Sonnet 5** | Layout, edits cotidianos | 01 styles/shells, 06 Info, 08 404, 10, 12 bind Lummi, 13B |
-| **Opus 5** | Plan largo, juicio visual, multi-paso | 03 Home, 03B Nav, 03C Open, 03D Settle, 04 detail, 07 Form, 09B code |
+| **Opus 5** | Plan largo, juicio visual, multi-paso | 03 Home, 03B Nav, 03C Open, 03D Settle, 04 detail, 07 Form, 09B Phone rows |
 | **GPT 5.6 Luna** | CMS + find-replace | 02 Tags/Work/Credits, 05 binds, 09A links |
 | **GPT 5.6 Terra** | Audits, consistency | 11 SEO, 13A hygiene |
 | **GPT 5.5** | Copy-heavy | No hay fase solo-copy; fallback de Luna |
@@ -143,7 +143,7 @@ Fast Mode = Off. Branch = `template-build`. Chat = New Chat.
 | **07** | Contact Form nativo | **Opus 5** | **Higher** | **`/component`** |
 | **08** | 404 custom | **Sonnet 5** | **Light** | **Ninguna** |
 | **09A** | Array del Plane → links CMS | **Luna** | **Light** | **`/component`** |
-| **09B** | Solo si no hay snap: `/code` layout plane\|snap | **Opus 5** | **Higher** | **`/code`** |
+| **09B** | Home Phone: una fila por serie (ocultar Plane) | **Opus 5** | **Higher** | **`/layout`** |
 | **10A** | Hover/pressed Nav y chips | **Sonnet 5** | **Light** | **`/component`** |
 | **10B** | Tags header/main, reduced motion | **Sonnet 5** | **Higher** | **`/layout`** |
 | **11** | lang, titles, OG, alts | **Terra** | **Higher** | **`/seo`** |
@@ -175,7 +175,7 @@ Ops típicas en base: small ~50 · large ~100 · página ~150–300.
 | 07 | ~120–240 | Alto (Form) |
 | 08 | ~30 | Bajo |
 | 09A | ~20–40 | Mínimo |
-| 09B | ~120–200 | Alto, **solo si hace falta** |
+| 09B | ~80–140 | Alto (Opus Phone rows) |
 | 10A | ~30–60 | Bajo |
 | 10B | ~60–90 | Medio |
 | 11 | ~60–90 | Medio |
@@ -183,7 +183,7 @@ Ops típicas en base: small ~50 · large ~100 · página ~150–300.
 | 13A | ~60–120 | Medio |
 | 13B | ~30 | Bajo |
 
-Pack sin 09B: **aprox. 1.000–1.800 créditos**. Lo caro es 03, 03B, 03C, 03D, 04, 07.
+Pack: **aprox. 1.100–1.900 créditos**. Lo caro es 03, 03B, 03C, 03D, 04, 07, 09B.
 
 ---
 
@@ -199,7 +199,8 @@ Pack sin 09B: **aprox. 1.000–1.800 créditos**. Lo caro es 03, 03B, 03C, 03D, 
 | Velo Gregor 12px / Custom Code frost | Stop. 03D: Scrim 6px, paper 16%, bg baja. Borrar Custom Code. |
 | Open o Work sin bajar el bg | Stop. New Chat 03D. MenuSurface / PageSurface y −32. |
 | Pone Unsplash o Lummi antes de 12 | Stop. Quita las fotos. Placeholders sólidos. |
-| Reescribe el Drift Plane | Stop. New Chat. Prohibido `/code` hasta 09B. |
+| Reescribe el Drift Plane o usa `/code` | Stop. New Chat. Phone = filas CMS, no snap. |
+| Phone Home sigue siendo el Plane, o el listado sale en 1440 | Stop. New Chat 09B. |
 | Fable/Sol/Fast Mode | Apaga. New Chat con el modelo de la matriz. |
 | Cambia Syne / paper / 3 breakpoints | Stop. New Chat. Sonnet 5 + Light. |
 | Picker sin Opus 5 / Luna / Terra | Cadena §4. Nunca sustituyas por Sol/Fable. |

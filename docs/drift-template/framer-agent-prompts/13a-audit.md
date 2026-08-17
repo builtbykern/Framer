@@ -29,6 +29,7 @@ Audit then fix only hygiene. Do not change art direction. Do not create pages.
 Scan for:
 - Broken internal links (only the real 404 page should 404)
 - Plane cards that do not open /work/{slug}
+- Phone Home still showing the Plane, or the Phone series list visible at 1440/768
 - Empty CMS items; more or fewer than 7 published Work, 7 Tags, or 21 Credits
 - Flattened Credit1 / Tag1 fields on Work (must not exist — credits live in Credits, chips in Tags)
 - Default layer names (Frame 1, Rectangle 2) — rename

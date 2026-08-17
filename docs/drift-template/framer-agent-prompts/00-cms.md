@@ -37,12 +37,12 @@ Un ítem = una serie. Detail page **sí**. Slug pattern `/work/{slug}`.
 |---|---|---|
 | Title | Title | H1 Display |
 | Slug | Slug | `/work/{slug}` |
-| Cover | Image | Plane + OG. Placeholder sólido hasta 12 |
+| Cover | Image | Plane, Phone rows, OG. Placeholder sólido hasta 12 |
 | Gallery | Gallery | Stack vertical a sangre, **5 stills** en fase 12 |
 | Year | Number | Fila meta “year” |
 | Description | Plain text | 2–4 frases, Body |
 | Tags | Multi-reference → Tags | Chips. Demo: exactamente 2 |
-| Featured | Boolean | Plane. Los 7 = true |
+| Featured | Boolean | Plane + Phone rows. Los 7 = true |
 
 Sin campos Credit* ni Tag1/Tag2 en Work.
 

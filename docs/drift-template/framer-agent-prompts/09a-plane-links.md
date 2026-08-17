@@ -53,8 +53,8 @@ Física del pan. Detail layout. Fotos Lummi.
 
 ## Verificación humana
 
-Click vs drag. Los 7 slugs. Phone: si el pan 2D es inutilizable, anota y pasa a 09B.
+Click vs drag. Los 7 slugs. 1440: plane. 390: las filas son **09B**.
 
 ## Siguiente
 
-Si el plane en Phone ya es un eje + snap: saltar 09B → 10A. Si no: chat nuevo → 09B.
+Chat nuevo → **09B** (Home Phone: una fila por serie). No snap `/code`.

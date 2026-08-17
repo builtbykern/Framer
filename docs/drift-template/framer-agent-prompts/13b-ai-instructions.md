@@ -25,7 +25,7 @@ Ficha: [`00-agent-decision.md`](00-agent-decision.md).
 Do not edit the canvas look. Write Template Agent Instructions for buyers of Drift (Help: AI-ready template).
 
 Tell future in-canvas Agents:
-- Preserve Drift Plane as the only Home content (plus Nav + hint). Do not add a second hero, a work grid on Home, video, lightbox, or overlay viewer
+- Preserve Drift Plane as the only Desktop/Tablet Home content (plus Nav + hint). Phone Home is a Collection List: one row per Featured Work (2-col still grid, radius 0, home-bg). Do not show that list at 1440/768. Do not add a second hero, video, lightbox, overlay viewer, or /work index
 - Preserve Nav: a component instance on each page (no Layout Template). Bar is only BrandRoll, centered: one word VALE with an auto letter-roll loop (no hover, never MENU). Tap opens/closes the overlay. Never a plus, hamburger, X, or Close label. Do not insert LetterRollMenu. Open: Coad-like 33/67. Overlay links are Info and Contact; overlay VALE (left column) goes to `/` and does not roll. MenuSurface lowers in (y -32).
 - Preserve Settle motion: Scrim 6px (paper 16%), PageSurface y -32 on paper pages. Do not translate the Drift Plane. No Page Effect Fade, no Custom Code frost, no 12px Gregor veil, no Layout Template. Breakpoint fill paper #F6F3EE (Home inner canvas home-bg).
 - Preserve the visual system: five colors (home-bg #050505, paper #F6F3EE, ink #111111, muted #6B6B6B, line #D9D4CC); five text styles Mark/Display/Lead/Body/Label (Syne ExtraBold, Inter Regular, IBM Plex Mono Medium). Radius 0 (chips 2px). No shadows, no accent, no pixel fonts, no #FFF/#000
@@ -39,7 +39,7 @@ Tell future in-canvas Agents:
 
 Paste those instructions into the template’s custom Agent instructions field if it exists; otherwise output them in chat for me to paste.
 
-Finally list remaining manual checks: Performance panel, Desktop/Tablet/Phone, form submit, 7 Work slugs from the plane, Info list, 404, Lummi alts.
+Finally list remaining manual checks: Performance panel, Desktop/Tablet/Phone, form submit, 7 Work slugs from the plane (desktop) and from Phone rows, Info list, 404, Lummi alts.
 
 Do not publish.
 ```

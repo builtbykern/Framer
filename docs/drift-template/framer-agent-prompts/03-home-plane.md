@@ -67,7 +67,7 @@ Report: how Drift Plane is placed, Nav variant names (must include closedOnDark)
 ## Definition of done
 
 - Home negro, plane fullscreen, Nav = BrandRoll centrado (sin plus, sin Close, sin links en la barra), hint visible.
-- Cero bloques tipo “featured work” aparte del plane.
+- Cero bloques tipo “featured work” en Desktop/Tablet. Phone rows = fase **09B**.
 
 ## No tocar
 
@@ -75,7 +75,7 @@ CMS fields. Detail layout. Lummi. `/code`.
 
 ## Verificación humana
 
-1440: plane + VALE al centro, rollando solo (sin hover). 390: igual, tap abre.
+1440: plane + VALE al centro, rollando solo (sin hover). 390: plane de momento; las filas son 09B.
 
 ## Siguiente
 

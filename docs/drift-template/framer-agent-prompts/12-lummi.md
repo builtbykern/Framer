@@ -14,7 +14,7 @@ Ficha: [`00-agent-decision.md`](00-agent-decision.md).
 2. Abrir [`12-lummi-prompts.md`](12-lummi-prompts.md). Por slug: **1 cover + 5 gallery**. Pegar PREFIX + LOOK + SHOT + NEGATIVE. Un still por generación. Aspecto del shot. No un prompt genérico por serie.
 3. Cover 16:9 excepto After the Sitting y Red Room Brief (4:5). Gallery: no repetir el cover. ~2400px lado largo.
 4. Archivos: `Work/{slug}/{slug}-cover`, `{slug}-01` … `{slug}-05`.
-5. En el detail: stills **sin crop**. En el plane: cover-crop del componente.
+5. En el detail: stills **sin crop**. En el plane: cover-crop del componente. En Home Phone (filas 09B): mismas Gallery, object-fit **cover**, **radius 0**.
 6. Si un still parece stock, beauty o CGI: regenerar esa toma, no la serie entera.
 
 ## Configuración del chat
@@ -35,9 +35,9 @@ Ficha: [`00-agent-decision.md`](00-agent-decision.md).
 ```
 /cms
 
-The human has imported Lummi stills into Work/{slug}/. Bind them. Do not change layout. Do not use Unsplash. Do not crop the detail gallery (height auto).
+The human has imported Lummi stills into Work/{slug}/. Bind them. Do not change layout. Do not use Unsplash. Do not crop the detail gallery (height auto). Phone Home rows stay 2-col cover thumbs radius 0.
 
-For each Work item: Cover + Gallery of 5 stills (plus cover). Then set the Drift Plane array images to the same Covers; keep the seven CMS detail links.
+For each Work item: Cover + Gallery of 5 stills (plus cover). Then set the Drift Plane array images to the same Covers; keep the seven CMS detail links. Phone Collection List uses the same Gallery.
 
 Set the Nav component variable menuStill to the Salt Light cover (same asset as Work/salt-light cover). Do not pick Unsplash. Do not change the Open split.
 
