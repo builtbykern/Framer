@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>onlyframer.lol — pay to rank Framer work</title>
+    <meta
+      name="description"
+      content="A paid leaderboard for Framer templates, components, and plugins only. Outbid for #1 this week."
+    />
+    <style>
+      :root {
+        --bg: #0c0c0b;
+        --ink: #f4f1ea;
+        --mute: #8a8578;
+        --line: #2a2924;
+        --accent: #c8ff3d;
+        --card: #141411;
+      }
+      * {
+        box-sizing: border-box;
+      }
+      html,
+      body {
+        margin: 0;
+        background: var(--bg);
+        color: var(--ink);
+        font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+      }
+      body {
+        min-height: 100vh;
+      }
+      a {
+        color: inherit;
+      }
+      .wrap {
+        max-width: 720px;
+        margin: 0 auto;
+        padding: 40px 20px 80px;
+      }
+      header h1 {
+        font-size: 42px;
+        letter-spacing: -0.06em;
+        margin: 0 0 8px;
+        font-weight: 700;
+      }
+      header h1 span {
+        color: var(--accent);
+      }
+      .lede {
+        color: var(--mute);
+        font-size: 16px;
+        line-height: 1.45;
+        max-width: 38em;
+      }
+      .rule {
+        margin: 28px 0;
+        border: 0;
+        border-top: 1px solid var(--line);
+      }
+      .claim {
+        text-align: center;
+      }
+      .claim h2 {
+        font-size: 28px;
+        letter-spacing: -0.04em;
+        margin: 0 0 8px;
+      }
+      .claim p {
+        color: var(--mute);
+        font-size: 13px;
+        margin: 0 0 18px;
+      }
+      form {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+      }
+      input,
+      button {
+        font: inherit;
+        border-radius: 999px;
+        border: 1px solid var(--line);
+        height: 46px;
+        padding: 0 16px;
+      }
+      input {
+        background: var(--card);
+        color: var(--ink);
+      }
+      button {
+        background: var(--accent);
+        color: #111;
+        font-weight: 700;
+        border: 0;
+        cursor: pointer;
+      }
+      button:disabled {
+        opacity: 0.45;
+        cursor: not-allowed;
+      }
+      .note {
+        font-size: 12px;
+        color: var(--mute);
+        text-align: center;
+      }
+      ol {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+      }
+      li {
+        display: grid;
+        grid-template-columns: 36px 1fr auto;
+        gap: 12px;
+        align-items: start;
+        padding: 16px 0;
+        border-bottom: 1px solid var(--line);
+      }
+      .rank {
+        font-variant-numeric: tabular-nums;
+        color: var(--mute);
+        padding-top: 2px;
+      }
+      .title {
+        font-weight: 650;
+        letter-spacing: -0.03em;
+      }
+      .meta {
+        color: var(--mute);
+        font-size: 13px;
+        margin-top: 4px;
+      }
+      .bid {
+        font-variant-numeric: tabular-nums;
+        font-size: 13px;
+        color: var(--accent);
+        white-space: nowrap;
+      }
+      footer {
+        margin-top: 40px;
+        color: var(--mute);
+        font-size: 12px;
+        line-height: 1.5;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="wrap">
+      <header>
+        <h1>onlyframer<span>.lol</span></h1>
+        <p class="lede">
+          Paid board for Framer Marketplace work only — templates, components,
+          plugins. No SaaS. No agencies. No “hire me” gigs. Your bid is your
+          rank this week.
+        </p>
+      </header>
+      <hr class="rule" />
+      <section class="claim">
+        <h2>Claim #1 for $201</h2>
+        <p>
+          Paste a framer.com/marketplace URL. Anything else gets rejected.
+          Payments hook up next (Polar), this page is the board.
+        </p>
+        <form id="claim" action="#" method="get">
+          <input
+            name="url"
+            required
+            placeholder="https://www.framer.com/marketplace/components/…"
+            autocomplete="off"
+            spellcheck="false"
+          />
+          <button type="submit" disabled>Outbid — coming next</button>
+        </form>
+        <p class="note">Seed the board with real Kern listings before launch.</p>
+      </section>
+      <hr class="rule" />
+      <ol>
+        <li>
+          <span class="rank">#1</span>
+          <div>
+            <div class="title">FlowingMenu</div>
+            <div class="meta">Component · BuiltByKern · directional nav reveals</div>
+          </div>
+          <span class="bid">$200</span>
+        </li>
+        <li>
+          <span class="rank">#2</span>
+          <div>
+            <div class="title">Kinetic Line</div>
+            <div class="meta">Component · BuiltByKern · physics divider</div>
+          </div>
+          <span class="bid">$80</span>
+        </li>
+        <li>
+          <span class="rank">#3</span>
+          <div>
+            <div class="title">InfiniteCarousel3D</div>
+            <div class="meta">Component · BuiltByKern · 3D carousel</div>
+          </div>
+          <span class="bid">$40</span>
+        </li>
+        <li>
+          <span class="rank">#4</span>
+          <div>
+            <div class="title">Spiral 3D Gallery</div>
+            <div class="meta">Component · BuiltByKern · free listing</div>
+          </div>
+          <span class="bid">$12</span>
+        </li>
+      </ol>
+      <footer>
+        Domain to buy: <strong>onlyframer.lol</strong> (free as of 20 Aug 2026).
+        Backups: justframer.lol, madeinframer.lol, framerdrop.lol. Do not buy
+        topdesigners.lol. Launch: tweet to Framer/X, seed 4 Kern URLs, then open
+        bids. Empty board = dead board.
+      </footer>
+    </div>
+  </body>
+</html>
