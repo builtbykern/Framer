@@ -111,7 +111,7 @@ Remove `marginLeft` / `marginTop` and redundant `transformOrigin` once `x`/`y` c
 ## Files
 
 - Primary: Framer component module for `Kern_FillingPoint` (to be added/updated in repo from the provided source).
-- This spec: `docs/superpowers/specs/2026-07-24-kern-filling-point-exit-origin-design.md`
+- This spec: `components/filling-point/2026-07-24-kern-filling-point-exit-origin-design.md`
 
 ## Spec self-review
 

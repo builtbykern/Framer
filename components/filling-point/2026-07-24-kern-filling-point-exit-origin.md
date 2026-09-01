@@ -12,8 +12,8 @@
 
 - Phase 1 only: exit-origin geometry + freeze — no API/control/visual redesign changes
 - Preserve enter/exit cascade timing, energy presets, press scale, reduced-motion opacity path, a11y naming/focus behavior
-- Single Framer code-component file at repo root: `Kern_FillingPoint.tsx`
-- Spec source of truth: `docs/superpowers/specs/2026-07-24-kern-filling-point-exit-origin-design.md`
+- Single Framer code-component file: `components/filling-point/Kern_FillingPoint.tsx`
+- Spec source of truth: `components/filling-point/2026-07-24-kern-filling-point-exit-origin-design.md`
 - Verification is Framer-preview / manual interaction (no test runner in this repo); do not scaffold a test harness in phase 1
 - Branch: `cursor/filling-point-exit-origin-fdff`
 
@@ -21,9 +21,9 @@
 
 | File | Responsibility |
 |---|---|
-| `Kern_FillingPoint.tsx` | Full Framer CTA component; owns session origin, cascade, fill layer geometry |
-| `docs/superpowers/specs/2026-07-24-kern-filling-point-exit-origin-design.md` | Approved design (status → Approved when impl starts) |
-| `docs/superpowers/plans/2026-07-24-kern-filling-point-exit-origin.md` | This plan |
+| `components/filling-point/Kern_FillingPoint.tsx` | Full Framer CTA component; owns session origin, cascade, fill layer geometry |
+| `components/filling-point/2026-07-24-kern-filling-point-exit-origin-design.md` | Approved design (status → Approved when impl starts) |
+| `components/filling-point/2026-07-24-kern-filling-point-exit-origin.md` | This plan |
 
 ---
 
@@ -31,7 +31,7 @@
 
 **Files:**
 - Create: `Kern_FillingPoint.tsx`
-- Modify: `docs/superpowers/specs/2026-07-24-kern-filling-point-exit-origin-design.md` (status line only)
+- Modify: `components/filling-point/2026-07-24-kern-filling-point-exit-origin-design.md` (status line only)
 
 **Interfaces:**
 - Consumes: User-provided `Kern_FillingPoint` source from the conversation (full component + `addPropertyControls`)
@@ -39,7 +39,7 @@
 
 - [ ] **Step 1: Mark spec approved**
 
-In `docs/superpowers/specs/2026-07-24-kern-filling-point-exit-origin-design.md`, change:
+In `components/filling-point/2026-07-24-kern-filling-point-exit-origin-design.md`, change:
 
 ```markdown
 **Status:** Pending user review
@@ -103,7 +103,7 @@ Leave `animate` / `transition` / keys unchanged in this task.
 Run:
 
 ```bash
-test -f /workspace/Kern_FillingPoint.tsx && rg -n 'marginLeft|transformOrigin|x: "-50%"' /workspace/Kern_FillingPoint.tsx
+test -f /workspace/components/filling-point/Kern_FillingPoint.tsx && rg -n 'marginLeft|transformOrigin|x: "-50%"' /workspace/components/filling-point/Kern_FillingPoint.tsx
 ```
 
 Expected:
@@ -114,7 +114,7 @@ Expected:
 - [ ] **Step 5: Commit**
 
 ```bash
-git add Kern_FillingPoint.tsx docs/superpowers/specs/2026-07-24-kern-filling-point-exit-origin-design.md
+git add components/filling-point/Kern_FillingPoint.tsx components/filling-point/2026-07-24-kern-filling-point-exit-origin-design.md
 git commit -m "$(cat <<'EOF'
 fix: center Kern Filling Point fills with Motion x/y
 
@@ -221,7 +221,7 @@ Confirm `onPointerMove` only writes `pointerRef` and never mutates `entryOriginR
 Run:
 
 ```bash
-rg -n 'entryOriginRef|pointerRef|onPointerMove|phase === "exiting"' /workspace/Kern_FillingPoint.tsx
+rg -n 'entryOriginRef|pointerRef|onPointerMove|phase === "exiting"' /workspace/components/filling-point/Kern_FillingPoint.tsx
 ```
 
 Expected:
@@ -243,7 +243,7 @@ After pasting/updating the component in Framer, verify:
 - [ ] **Step 5: Commit and update PR**
 
 ```bash
-git add Kern_FillingPoint.tsx
+git add components/filling-point/Kern_FillingPoint.tsx
 git commit -m "$(cat <<'EOF'
 fix: freeze fill exit origin for Kern Filling Point
 

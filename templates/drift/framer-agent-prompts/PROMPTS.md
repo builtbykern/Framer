@@ -87,7 +87,7 @@ Report: every style name + font + desktop size, page routes, breakpoints.
 | **Esfuerzo** | Medio (~60–90) |
 | **Skill** | `/cms` |
 | **@** | CMS panel |
-| **Adjuntar** | `docs/drift-template/cms/tags.csv`, `work.csv`, `credits.csv` si el chat acepta archivos |
+| **Adjuntar** | `templates/drift/cms/tags.csv`, `work.csv`, `credits.csv` si el chat acepta archivos |
 
 Canon: [00-cms.md](00-cms.md). Orden: Tags → Work → Credits.
 
