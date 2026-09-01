@@ -1,6 +1,6 @@
-# Halden
+# Halden Photographer
 
-Template nueva de Framer Marketplace. Portafolio de fotografía editorial. No reutiliza otras templates.
+Live Framer Marketplace template ($29). Portafolio de fotografía editorial. No reutiliza otras templates.
 
 ## Tema
 

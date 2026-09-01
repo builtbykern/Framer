@@ -1,31 +1,31 @@
 # BuiltByKern
 
-Studio repo for Framer templates and code components. Canvas work stays in Framer; this tree holds source, agent packs, and the Marketplace checklist for the live Arbour template.
+Studio repo for Framer Marketplace templates and components. Canvas work stays in Framer; this tree holds source, agent packs, and listing notes.
+
+Marketplace truth as of 1 Sep 2026. Prices are listing prices only — no remix or sale counts.
 
 ## Layout
 
 ```
-templates/     Framer template packs and prototypes
-components/    Reusable Framer code components
+templates/     Live templates, plus the Drift Plane pack
+components/    Live Marketplace components
 ```
 
-## Templates
+## Live templates
 
-| Name | Path | What lives here |
+| Listing | Price | Path | What lives here |
+|---|---|---|---|
+| **Arbour** | $59 | [`templates/arbour/`](templates/arbour/) | Marketplace audit, listing checklist, Framer Agent prompts, preview screenshots. Preview: https://arbour.framer.website |
+| **Halden Photographer** | $29 | [`templates/halden/`](templates/halden/) | Photography portfolio (pannable plane, split project pages) plus a local Vite preview of the same structure. |
+
+## Live components
+
+| Listing | Path | What lives here |
 |---|---|---|
-| **Arbour** | [`templates/arbour/`](templates/arbour/) | Named live template. Marketplace audit, listing checklist, Framer Agent prompts, preview screenshots. Preview: https://arbour.framer.website |
-| **Halden** | [`templates/halden/`](templates/halden/) | Photography portfolio prototype (pannable plane, split project pages). |
-| **Drift** | [`templates/drift/`](templates/drift/) | Template agent pack around Drift Plane: visual system, CMS CSVs, in-canvas prompts. |
+| **Filling Point** | [`components/filling-point/`](components/filling-point/) | Live Marketplace component (`Kern_FillingPoint.tsx`) plus the exit-origin spec and plan. |
+| **Drift Plane** | [`templates/drift/`](templates/drift/) | Live Marketplace component. This folder is the visual system, CMS CSVs, and in-canvas prompts around Drift Plane — not an unreleased template. |
 
-Arbour is the named live template. Halden and Drift are packs/prototypes in this repo, not extra live listing names.
-
-## Components
-
-| Name | Path | What lives here |
-|---|---|---|
-| **Kern Filling Point** | [`components/filling-point/`](components/filling-point/) | Framer code component (`Kern_FillingPoint.tsx`) plus the exit-origin spec and plan. |
-
-## Local preview (Halden)
+## Local preview (Halden Photographer)
 
 ```bash
 cd templates/halden
