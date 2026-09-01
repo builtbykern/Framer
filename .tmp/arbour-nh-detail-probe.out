@@ -1,0 +1,23 @@
+{
+  "pageMethods": [
+    "path",
+    "collectionId",
+    "clone",
+    "getActiveCollectionItem"
+  ],
+  "createResult": {
+    "id": "UgzOC4nyU",
+    "path": "/neighbourhoods-detail-probe",
+    "collectionId": null
+  },
+  "setResult": {
+    "collectionId": null,
+    "path": "/neighbourhoods-detail-probe"
+  },
+  "dslResult": {
+    "message": "Commands applied cleanly.",
+    "collectionId": null
+  },
+  "removed": true,
+  "finalCollectionId": null
+}

@@ -1,0 +1,93 @@
+{
+  "territoryFile": null,
+  "allNames": [
+    "Arbour_InertiaFrame.tsx",
+    "Arbour_StatsBand.tsx",
+    "Arbour_ScrollCue.tsx",
+    "Arbour_EditorialReveal.tsx",
+    "Arbour_UnderlineLink.tsx",
+    "Arbour_MenuIcon.tsx",
+    "Arbour_NoiseEffect.tsx",
+    "Arbour_ProgressiveBlur.tsx",
+    "Arbour_StopScroll.tsx",
+    "Arbour_LoadingScreen.tsx",
+    "Arbour_SmoothScroll.tsx",
+    "Arbour_PrimaryButton.tsx",
+    "Arbour_FormButton.tsx",
+    "Arbour_SectionHeader.tsx",
+    "Arbour_Copyright.tsx",
+    "Arbour_ArticleCard.tsx",
+    "HideHorizontalScrollbar.tsx",
+    "Arbour_PropertyCard.tsx"
+  ],
+  "rails": [
+    {
+      "bp": "P",
+      "id": "uGXrCjuAT",
+      "display": "Arbour_TerritoryRail",
+      "component": "MxeAzs2A7r9z5wIAtPij",
+      "path": [
+        "Home",
+        "Desktop",
+        "Territories Section",
+        "u7ILl18T3"
+      ]
+    },
+    {
+      "bp": "P",
+      "id": "U3TeNUVXvuGXrCjuAT",
+      "display": "Arbour_TerritoryRail",
+      "component": "MxeAzs2A7r9z5wIAtPij",
+      "path": [
+        "Home",
+        "Tablet",
+        "Territories Section",
+        "U3TeNUVXvu7ILl18T3"
+      ]
+    },
+    {
+      "bp": "P",
+      "id": "pmAxXUJ0ouGXrCjuAT",
+      "display": "Arbour_TerritoryRail",
+      "component": "MxeAzs2A7r9z5wIAtPij",
+      "path": [
+        "Home",
+        "Phone",
+        "Territories Section",
+        "pmAxXUJ0ou7ILl18T3"
+      ]
+    }
+  ],
+  "blurs": [
+    {
+      "bp": "P",
+      "id": "AorZcTogz",
+      "display": "Scroll Blur",
+      "component": "eITABUpGF0ytPyxYWYqu",
+      "path": [
+        "Home",
+        "Desktop"
+      ]
+    },
+    {
+      "bp": "P",
+      "id": "U3TeNUVXvAorZcTogz",
+      "display": "Scroll Blur",
+      "component": "eITABUpGF0ytPyxYWYqu",
+      "path": [
+        "Home",
+        "Tablet"
+      ]
+    },
+    {
+      "bp": "P",
+      "id": "pmAxXUJ0oAorZcTogz",
+      "display": "Scroll Blur",
+      "component": "eITABUpGF0ytPyxYWYqu",
+      "path": [
+        "Home",
+        "Phone"
+      ]
+    }
+  ]
+}

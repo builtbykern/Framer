@@ -1,0 +1,146 @@
+{
+  "applied": 521,
+  "logCount": 278,
+  "sample": [
+    "/|Desktop|Hero Section → shell bleed",
+    "/|Desktop|Text Content Column → width 90%",
+    "/|Desktop|Territories Header → width 90%",
+    "/|Desktop|(unnamed) → width 90%",
+    "/|Desktop|Portfolio Container → width 90%",
+    "/|Desktop|Content → width 90%",
+    "/|Desktop|(unnamed) → width 90%",
+    "/|Desktop|(unnamed) → width 90%",
+    "/|Desktop|Process List → width 90%",
+    "/|Desktop|Arbour_StatsBand → width 90%",
+    "/|Desktop|Recognition Header → width 90%",
+    "/|Desktop|Recognition List → width 90%",
+    "/|Desktop|(unnamed) → width 90%",
+    "/|Desktop|(unnamed) → width 90%",
+    "/|Desktop|(unnamed) → width 90%",
+    "/|Desktop|Journal Deck → width 90%",
+    "/|Desktop|Content Area → width 90%",
+    "/|Tablet|Hero Section → shell bleed",
+    "/|Tablet|Text Content Column → width 90%",
+    "/|Tablet|Territories Header → width 90%",
+    "/|Tablet|(unnamed) → width 90%",
+    "/|Tablet|Portfolio Container → width 90%",
+    "/|Tablet|Content → width 90%",
+    "/|Tablet|(unnamed) → width 90%",
+    "/|Tablet|(unnamed) → width 90%",
+    "/|Tablet|Process List → width 90%",
+    "/|Tablet|Arbour_StatsBand → width 90%",
+    "/|Tablet|Recognition Header → width 90%",
+    "/|Tablet|Recognition List → width 90%",
+    "/|Tablet|(unnamed) → width 90%",
+    "/|Tablet|(unnamed) → width 90%",
+    "/|Tablet|(unnamed) → width 90%",
+    "/|Tablet|Journal Deck → width 90%",
+    "/|Tablet|Content Area → width 90%",
+    "/|Phone|Hero Section → shell bleed",
+    "/|Phone|Text Content Column → width 90%",
+    "/|Phone|Subheadline → width 90%",
+    "/|Phone|Territories Header → width 90%",
+    "/|Phone|(unnamed) → width 90%",
+    "/|Phone|Portfolio Container → width 90%",
+    "/|Phone|Bottom → shell bleed",
+    "/|Phone|(unnamed) → width 90%",
+    "/|Phone|(unnamed) → width 90%",
+    "/|Phone|Process List → width 90%",
+    "/|Phone|Arbour_StatsBand → width 90%",
+    "/|Phone|Recognition Header → width 90%",
+    "/|Phone|Recognition List → width 90%",
+    "/|Phone|(unnamed) → width 90%",
+    "/|Phone|(unnamed) → width 90%",
+    "/|Phone|(unnamed) → width 90%",
+    "/|Phone|Journal Deck → width 90%",
+    "/|Phone|Content Area → width 90%",
+    "/properties|Desktop|Properties Hero → width 90%",
+    "/properties|Desktop|Hero Copy → width 90%",
+    "/properties|Desktop|Collection Discovery → width 90%",
+    "/properties|Desktop|Properties Grid → width 90%",
+    "/properties|Desktop|Market Editorial → width 90%",
+    "/properties|Desktop|(unnamed) → width 90%",
+    "/properties|Desktop|Private Viewing Process → width 90%",
+    "/properties|Desktop|Continue Your Search → width 90%"
+  ],
+  "results": [
+    {
+      "i": 0,
+      "errors": null,
+      "warnings": []
+    },
+    {
+      "i": 80,
+      "errors": {
+        "Invalid value `padding=\"128px 5% 128px 5%\"`. Part \"5%\" is not valid, \"%\" is not supported, use \"px\". Part \"5%\" is not valid, \"%\" is not supported, use \"px\". Expected ${number}px | ${number}px ${number}px | ${number}px ${number}px ${number}px ${number}px.": [
+          "cFtWJlabj"
+        ],
+        "Invalid value `padding=\"96px 5% 96px 5%\"`. Part \"5%\" is not valid, \"%\" is not supported, use \"px\". Part \"5%\" is not valid, \"%\" is not supported, use \"px\". Expected ${number}px | ${number}px ${number}px | ${number}px ${number}px ${number}px ${number}px.": [
+          "SScKalu3BcFtWJlabj"
+        ]
+      },
+      "warnings": []
+    },
+    {
+      "i": 160,
+      "errors": {
+        "Invalid value `padding=\"64px 5% 64px 5%\"`. Part \"5%\" is not valid, \"%\" is not supported, use \"px\". Part \"5%\" is not valid, \"%\" is not supported, use \"px\". Expected ${number}px | ${number}px ${number}px | ${number}px ${number}px ${number}px ${number}px.": [
+          "EK6d5SyWLcFtWJlabj",
+          "Qonafp_oDNrbMmTnFX",
+          "Qonafp_oDKraraKF0A"
+        ],
+        "Invalid value `padding=\"128px 5% 128px 5%\"`. Part \"5%\" is not valid, \"%\" is not supported, use \"px\". Part \"5%\" is not valid, \"%\" is not supported, use \"px\". Expected ${number}px | ${number}px ${number}px | ${number}px ${number}px ${number}px ${number}px.": [
+          "NrbMmTnFX",
+          "KraraKF0A"
+        ],
+        "Invalid value `padding=\"96px 5% 96px 5%\"`. Part \"5%\" is not valid, \"%\" is not supported, use \"px\". Part \"5%\" is not valid, \"%\" is not supported, use \"px\". Expected ${number}px | ${number}px ${number}px | ${number}px ${number}px ${number}px ${number}px.": [
+          "aJLpuUP0qNrbMmTnFX",
+          "aJLpuUP0qKraraKF0A"
+        ]
+      },
+      "warnings": []
+    },
+    {
+      "i": 240,
+      "errors": null,
+      "warnings": []
+    },
+    {
+      "i": 320,
+      "errors": {
+        "Invalid value `padding=\"128px 5% 128px 5%\"`. Part \"5%\" is not valid, \"%\" is not supported, use \"px\". Part \"5%\" is not valid, \"%\" is not supported, use \"px\". Expected ${number}px | ${number}px ${number}px | ${number}px ${number}px ${number}px ${number}px.": [
+          "lODMk6Egu"
+        ],
+        "Invalid value `padding=\"96px 5% 96px 5%\"`. Part \"5%\" is not valid, \"%\" is not supported, use \"px\". Part \"5%\" is not valid, \"%\" is not supported, use \"px\". Expected ${number}px | ${number}px ${number}px | ${number}px ${number}px ${number}px ${number}px.": [
+          "IQmBTrFpblODMk6Egu"
+        ]
+      },
+      "warnings": []
+    },
+    {
+      "i": 400,
+      "errors": {
+        "Invalid value `padding=\"64px 5% 64px 5%\"`. Part \"5%\" is not valid, \"%\" is not supported, use \"px\". Part \"5%\" is not valid, \"%\" is not supported, use \"px\". Expected ${number}px | ${number}px ${number}px | ${number}px ${number}px ${number}px ${number}px.": [
+          "MrTKJzwELlODMk6Egu"
+        ]
+      },
+      "warnings": []
+    },
+    {
+      "i": 480,
+      "errors": {
+        "Invalid value `width=\"100%\"`. Percentage and fraction sizes are not supported on ground or variant-root nodes. Use a fixed pixel value or size a child frame instead.": [
+          "d5T0Tmau8",
+          "mxXljrpyb",
+          "ZOGQS2oqd"
+        ],
+        "Invalid value `height=\"42vh\"`. \"vh\" is not supported for height on this node because it does not support viewport sizing. Use px, %, fr, auto, or fit-image instead, or apply viewport height to a child frame.": [
+          "AJACjRktH",
+          "r_MNi8Z5D",
+          "xJ6o4_ghF"
+        ]
+      },
+      "warnings": []
+    }
+  ]
+}

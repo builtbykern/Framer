@@ -1,0 +1,75 @@
+{
+  "id": "KzA2jsd",
+  "name": "Arbour_StatsBand.tsx"
+}
+len 64324
+// @framerDisableUnlink
+// Arbour StatsBand — editorial statistics band (max 6).
+
+import {
+    addPropertyControls,
+    ControlType,
+    useIsOnFramerCanvas,
+    useIsStaticRenderer,
+} from "framer"
+import {
+    animate,
+    motion,
+    useAnimationControls,
+    useInView,
+    useMotionValue,
+    useReducedMotion,
+    useTransform,
+} from "framer-motion"
+import {
+    startTransition,
+    useCallback,
+    useEffect,
+    useMemo,
+    useRef,
+    useState,
+    type CSSProperties,
+} from "react"
+
+type MotionMode = "off" | "subtle" | "full"
+type SemanticMode = "description-list" | "region"
+type LayoutMode = "wide" | "compact" | "phone"
+
+interface StatItem {
+    id?: string
+    label: string
+    prefix: string
+    number: number
+    suffix: string
+    useCountTarget: boolean
+    countTarget: number
+}
+
+interface Arbour_StatsBandProps {
+    stats: StatItem[]
+    accent?: string
+    value?: string
+    label?: string
+    border?: string
+    valueSizeTablet?: number
+    valueSizeMobile?: number
+    mode?: MotionMode
+    contentGroup?: {
+        stats?: StatItem[]
+    }
+    background: string
+    surfaceColor?: string
+    gradientTint?: string
+    gradientStrength?: number
+    overlayIntensity?: number
+    showTexture?: boolean
+    textureOpacity?: number
+    accentColor: string
+    valueColor: string
+    labelColor: string
+    dividerColor?: string
+    borderColor: string
+    appearanceGroup?: {
+        background?: string
+        accentColor?: string
+        valueColor?: string

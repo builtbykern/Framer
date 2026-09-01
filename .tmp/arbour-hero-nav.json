@@ -1,0 +1,94 @@
+{
+  "prod": {
+    "deploymentTime": 1786301285048,
+    "optimizationStatus": "optimizing",
+    "url": "https://arbour.framer.website",
+    "currentPageUrl": "https://arbour.framer.website/"
+  },
+  "hero": {
+    "name": "Hero Section",
+    "id": "iq0rlFlTE",
+    "mw": "90%",
+    "w": "100%",
+    "h": "100vh",
+    "pad": "0px 0px 64px 0px",
+    "pos": "relative",
+    "cx": null,
+    "left": null,
+    "kids": [
+      {
+        "name": "Image Layer",
+        "id": "cJgmqsWkI",
+        "mw": null,
+        "w": "100%",
+        "h": "100%",
+        "pad": null,
+        "pos": "absolute",
+        "cx": null,
+        "left": "0px",
+        "kids": [
+          {
+            "name": "Entrance Image Container",
+            "id": "IFLE4S10p",
+            "mw": null,
+            "w": "100%",
+            "h": "100%",
+            "pad": null,
+            "pos": "relative",
+            "cx": null,
+            "left": null,
+            "kids": []
+          }
+        ]
+      },
+      {
+        "name": "Gradient Overlay",
+        "id": "qpE9wJcPm",
+        "mw": null,
+        "w": "100%",
+        "h": "100%",
+        "pad": null,
+        "pos": "absolute",
+        "cx": null,
+        "left": "0px",
+        "kids": []
+      },
+      {
+        "name": "Text Content Column",
+        "id": "ET8JHTjC5",
+        "mw": "90%",
+        "w": "1fr",
+        "h": "100%",
+        "pad": "0px 48px 0px 48px",
+        "pos": "relative",
+        "cx": null,
+        "left": null,
+        "kids": [
+          {
+            "id": "dI0COT2Rr",
+            "mw": null,
+            "w": "100%",
+            "h": "auto",
+            "pad": null,
+            "pos": "relative",
+            "cx": null,
+            "left": null,
+            "kids": []
+          }
+        ]
+      }
+    ]
+  },
+  "nav": {
+    "name": "Nav",
+    "id": "CLzbrTVVb",
+    "mw": null,
+    "w": "100%",
+    "h": "auto",
+    "pad": null,
+    "pos": "fixed",
+    "cx": null,
+    "left": "0px",
+    "kids": []
+  }
+}

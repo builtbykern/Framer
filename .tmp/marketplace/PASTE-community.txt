@@ -1,0 +1,31 @@
+Shipped Scroll Blur — soft backdrop blur for section chrome, not another hard strip or solid veil.
+
+Kern_ScrollBlur soft-masks full-frame backdrop-filter so dense blur at the pinned edge fades into clear content. Safari-safe (no opacity on filter layers).
+
+Shapes from the panel:
+
+→ Edge — vertical fade
+→ U — cupped clear center
+→ ∩ — hard center, soft sides
+
+Modes:
+
+→ Always On
+→ Follow Scroll (show while scrolling, hide after Settle)
+→ Off on canvas when you need a clean artboard
+
+Also in the box:
+
+→ Strength 2–10 px (Safari-safe peak)
+→ Adaptive layers + off-screen pause
+→ prefers-reduced-motion fallback
+→ Framer + Framer Motion only — zero external deps
+
+Drop it fixed over nav or footer chrome. Defaults are subtle — editorial out of the box.
+
+Marketplace: [paste link after publish]
+Preview: [paste published URL]
+
+WDUT — Edge under nav, or ∩ over a hero dock?
+
+— BuiltByKern · built brutally well

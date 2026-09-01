@@ -1,0 +1,81 @@
+{
+  "lines": [
+    "SET I3SpHi24vsxhzAXUR_ maxWidth=\"100%\";",
+    "SET I3SpHi24vsxhzAXUR_ width=\"100%\";",
+    "SET rL2ZHlVqgsxhzAXUR_ width=\"100%\";",
+    "SET rL2ZHlVqgsxhzAXUR_ maxWidth=\"100%\";",
+    "SET GBmgkcS5csxhzAXUR_ maxWidth=\"100%\";",
+    "SET GBmgkcS5csxhzAXUR_ width=\"100%\";",
+    "SET WLQAqm0QzsxhzAXUR_ width=\"100%\";",
+    "SET WLQAqm0QzsxhzAXUR_ maxWidth=\"100%\";",
+    "SET dzeGSJmBBsxhzAXUR_ width=\"100%\";",
+    "SET dzeGSJmBBsxhzAXUR_ maxWidth=\"100%\";",
+    "SET sxhzAXUR_ width=\"100%\";",
+    "SET sxhzAXUR_ maxWidth=\"100%\";"
+  ],
+  "log": [
+    {
+      "variant": "Desktop",
+      "id": "sxhzAXUR_",
+      "w": "1fr",
+      "mw": "1920px",
+      "h": "0px",
+      "pad": null
+    },
+    {
+      "variant": "Tablet - Close",
+      "id": "I3SpHi24vsxhzAXUR_",
+      "w": "1fr",
+      "mw": "90%",
+      "h": "0px",
+      "pad": null
+    },
+    "FIX close Tablet - Close",
+    {
+      "variant": "Tablet - Open",
+      "id": "rL2ZHlVqgsxhzAXUR_",
+      "w": "1fr",
+      "mw": "1920px",
+      "h": "1fr",
+      "pad": null
+    },
+    "FIX open Tablet - Open",
+    {
+      "variant": "Phone - Close",
+      "id": "GBmgkcS5csxhzAXUR_",
+      "w": "1fr",
+      "mw": "90%",
+      "h": "0px",
+      "pad": null
+    },
+    "FIX close Phone - Close",
+    {
+      "variant": "Phone - Open",
+      "id": "WLQAqm0QzsxhzAXUR_",
+      "w": "1fr",
+      "mw": "1920px",
+      "h": "1fr",
+      "pad": null
+    },
+    "FIX open Phone - Open",
+    {
+      "variant": "Desktop - Open",
+      "id": "dzeGSJmBBsxhzAXUR_",
+      "w": "1fr",
+      "mw": "1920px",
+      "h": "1fr",
+      "pad": null
+    },
+    "FIX open Desktop - Open",
+    {
+      "variant": "Desktop",
+      "id": "sxhzAXUR_",
+      "w": "1fr",
+      "mw": "1920px",
+      "h": "0px"
+    },
+    "FIX Desktop container"
+  ],
+  "errors": null,
+  "warnings": []
+}

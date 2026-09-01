@@ -1,0 +1,100 @@
+{
+  "leftover90withHPad": [],
+  "leftoverCount": 0,
+  "navTop": {
+    "w": "90%",
+    "pad": "16px 0px 16px 0px"
+  },
+  "shellSample": [
+    {
+      "path": "/properties",
+      "bp": "Desktop",
+      "name": "Enquiry CTA",
+      "pad": "128px 48px 128px 48px"
+    },
+    {
+      "path": "/properties",
+      "bp": "Tablet",
+      "name": "Enquiry CTA",
+      "pad": "96px 40px 96px 40px"
+    },
+    {
+      "path": "/properties",
+      "bp": "Phone",
+      "name": "Enquiry CTA",
+      "pad": "64px 16px 64px 16px"
+    },
+    {
+      "path": "/neighbourhoods",
+      "bp": "Desktop",
+      "name": "Territory Grid Section",
+      "pad": "128px 48px 128px 48px"
+    },
+    {
+      "path": "/neighbourhoods",
+      "bp": "Desktop",
+      "name": "How We Read A Place",
+      "pad": "128px 48px 128px 48px"
+    },
+    {
+      "path": "/neighbourhoods",
+      "bp": "Tablet",
+      "name": "Territory Grid Section",
+      "pad": "96px 40px 96px 40px"
+    },
+    {
+      "path": "/neighbourhoods",
+      "bp": "Tablet",
+      "name": "How We Read A Place",
+      "pad": "96px 40px 96px 40px"
+    },
+    {
+      "path": "/neighbourhoods",
+      "bp": "Phone",
+      "name": "Territory Grid Section",
+      "pad": "64px 16px 64px 16px"
+    },
+    {
+      "path": "/neighbourhoods",
+      "bp": "Phone",
+      "name": "How We Read A Place",
+      "pad": "64px 16px 64px 16px"
+    },
+    {
+      "path": "/notes",
+      "bp": "Desktop",
+      "name": "Journal Manifesto",
+      "pad": "128px 48px 128px 48px"
+    },
+    {
+      "path": "/notes",
+      "bp": "Tablet",
+      "name": "Journal Manifesto",
+      "pad": "96px 40px 96px 40px"
+    },
+    {
+      "path": "/notes",
+      "bp": "Phone",
+      "name": "Journal Manifesto",
+      "pad": "64px 16px 64px 16px"
+    },
+    {
+      "path": "/about",
+      "bp": "Desktop",
+      "name": "Beat 3 — Manifesto",
+      "pad": "128px 48px 128px 48px"
+    },
+    {
+      "path": "/about",
+      "bp": "Desktop",
+      "name": "Editorial Pause — Arbour in Practice",
+      "pad": "96px 48px 96px 48px"
+    },
+    {
+      "path": "/about",
+      "bp": "Desktop",
+      "name": "Enquiry CTA",
+      "pad": "128px 48px 128px 48px"
+    }
+  ]
+}

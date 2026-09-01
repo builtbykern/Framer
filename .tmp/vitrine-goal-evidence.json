@@ -1,0 +1,762 @@
+{
+  "project": "Fair Platform",
+  "lint": {
+    "message": "Commands: 15 errors."
+  },
+  "evidence": [
+    {
+      "type": "WebPageNode",
+      "id": "augiA20Il",
+      "name": "Home",
+      "attributes": {
+        "path": "/"
+      },
+      "children": [
+        {
+          "type": "FrameNode",
+          "name": "Desktop",
+          "id": "WQLkyLRf1",
+          "attributes": {
+            "stackDirection": "vertical",
+            "overflow": "clip"
+          },
+          "children": [
+            {
+              "type": "ComponentInstanceNode",
+              "id": "NBF_dDp3H",
+              "name": "Nav",
+              "component": "IhgjBMpmC",
+              "$componentDisplayName": "Nav"
+            },
+            {
+              "type": "FrameNode",
+              "name": "Piece List",
+              "id": "yAd2lMDSW",
+              "attributes": {
+                "stackDirection": "horizontal",
+                "overflow": "auto",
+                "hideScrollbars": true
+              },
+              "$truncated": true,
+              "$descendantCount": 6
+            },
+            {
+              "type": "RichTextNode",
+              "name": "Mark",
+              "id": "YuQho50Zq",
+              "$truncated": true,
+              "$descendantCount": 2
+            }
+          ]
+        },
+        {
+          "type": "FrameNode",
+          "name": "Tablet",
+          "id": "t62LHpSTa",
+          "attributes": {
+            "stackDirection": "vertical"
+          },
+          "children": [
+            {
+              "type": "ComponentInstanceNode",
+              "id": "t62LHpSTaNBF_dDp3H",
+              "name": "Nav",
+              "component": "IhgjBMpmC",
+              "$componentDisplayName": "Nav"
+            },
+            {
+              "type": "FrameNode",
+              "name": "Piece List",
+              "id": "t62LHpSTayAd2lMDSW",
+              "attributes": {
+                "stackDirection": "vertical",
+                "overflow": "auto",
+                "hideScrollbars": true
+              },
+              "$truncated": true,
+              "$descendantCount": 6
+            },
+            {
+              "type": "RichTextNode",
+              "name": "Mark",
+              "id": "t62LHpSTaYuQho50Zq",
+              "$truncated": true,
+              "$descendantCount": 2
+            }
+          ]
+        },
+        {
+          "type": "FrameNode",
+          "name": "Phone",
+          "id": "u75vHQkAR",
+          "attributes": {
+            "stackDirection": "vertical"
+          },
+          "children": [
+            {
+              "type": "ComponentInstanceNode",
+              "id": "u75vHQkARNBF_dDp3H",
+              "name": "Nav",
+              "component": "IhgjBMpmC",
+              "$componentDisplayName": "Nav"
+            },
+            {
+              "type": "FrameNode",
+              "name": "Piece List",
+              "id": "u75vHQkARyAd2lMDSW",
+              "attributes": {
+                "stackDirection": "vertical",
+                "overflow": "auto",
+                "hideScrollbars": true
+              },
+              "$truncated": true,
+              "$descendantCount": 6
+            },
+            {
+              "type": "RichTextNode",
+              "name": "Mark",
+              "id": "u75vHQkARYuQho50Zq",
+              "$truncated": true,
+              "$descendantCount": 2
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "WebPageNode",
+      "id": "FZFYEKdG1",
+      "name": "/piece/:Piece",
+      "attributes": {
+        "path": "/piece/:Piece",
+        "layoutTemplate": "null"
+      },
+      "children": [
+        {
+          "type": "FrameNode",
+          "name": "Desktop",
+          "id": "dKIZmzj_1",
+          "attributes": {
+            "stackDirection": "vertical",
+            "overflow": "clip"
+          },
+          "children": [
+            {
+              "type": "ComponentInstanceNode",
+              "id": "RHoEs0FRc",
+              "name": "Nav",
+              "component": "IhgjBMpmC",
+              "$componentDisplayName": "Nav"
+            },
+            {
+              "type": "FrameNode",
+              "name": "Article",
+              "id": "yBOTItE1V",
+              "attributes": {
+                "stackDirection": "vertical"
+              },
+              "$truncated": true,
+              "$descendantCount": 5
+            }
+          ]
+        },
+        {
+          "type": "FrameNode",
+          "name": "Tablet",
+          "id": "gFY0Qf8vi",
+          "attributes": {
+            "stackDirection": "vertical",
+            "overflow": "clip"
+          },
+          "children": [
+            {
+              "type": "ComponentInstanceNode",
+              "id": "gFY0Qf8viRHoEs0FRc",
+              "name": "Nav",
+              "component": "IhgjBMpmC",
+              "$componentDisplayName": "Nav"
+            },
+            {
+              "type": "FrameNode",
+              "name": "Article",
+              "id": "gFY0Qf8viyBOTItE1V",
+              "attributes": {
+                "stackDirection": "vertical"
+              },
+              "$truncated": true,
+              "$descendantCount": 5
+            }
+          ]
+        },
+        {
+          "type": "FrameNode",
+          "name": "Phone",
+          "id": "RRanDQOK5",
+          "attributes": {
+            "stackDirection": "vertical",
+            "overflow": "clip"
+          },
+          "children": [
+            {
+              "type": "ComponentInstanceNode",
+              "id": "RRanDQOK5RHoEs0FRc",
+              "name": "Nav",
+              "component": "IhgjBMpmC",
+              "$componentDisplayName": "Nav"
+            },
+            {
+              "type": "FrameNode",
+              "name": "Article",
+              "id": "RRanDQOK5yBOTItE1V",
+              "attributes": {
+                "stackDirection": "vertical"
+              },
+              "$truncated": true,
+              "$descendantCount": 5
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "WebPageNode",
+      "id": "eT5aUzOXW",
+      "name": "/info",
+      "attributes": {
+        "path": "/info",
+        "layoutTemplate": "null"
+      },
+      "children": [
+        {
+          "type": "FrameNode",
+          "name": "Desktop",
+          "id": "tVu2ncruf",
+          "attributes": {
+            "stackDirection": "vertical",
+            "overflow": "clip"
+          },
+          "children": [
+            {
+              "type": "ComponentInstanceNode",
+              "id": "oSrkdzMjI",
+              "name": "Nav",
+              "component": "IhgjBMpmC",
+              "$componentDisplayName": "Nav"
+            },
+            {
+              "type": "FrameNode",
+              "name": "Article",
+              "id": "V0k3Oe2i8",
+              "attributes": {
+                "stackDirection": "vertical"
+              },
+              "$truncated": true,
+              "$descendantCount": 6
+            }
+          ]
+        },
+        {
+          "type": "FrameNode",
+          "name": "Tablet",
+          "id": "hRNnw_VA2",
+          "attributes": {
+            "stackDirection": "vertical",
+            "overflow": "clip"
+          },
+          "children": [
+            {
+              "type": "ComponentInstanceNode",
+              "id": "hRNnw_VA2oSrkdzMjI",
+              "name": "Nav",
+              "component": "IhgjBMpmC",
+              "$componentDisplayName": "Nav"
+            },
+            {
+              "type": "FrameNode",
+              "name": "Article",
+              "id": "hRNnw_VA2V0k3Oe2i8",
+              "attributes": {
+                "stackDirection": "vertical"
+              },
+              "$truncated": true,
+              "$descendantCount": 6
+            }
+          ]
+        },
+        {
+          "type": "FrameNode",
+          "name": "Phone",
+          "id": "EU24xAeMI",
+          "attributes": {
+            "stackDirection": "vertical",
+            "overflow": "clip"
+          },
+          "children": [
+            {
+              "type": "ComponentInstanceNode",
+              "id": "EU24xAeMIoSrkdzMjI",
+              "name": "Nav",
+              "component": "IhgjBMpmC",
+              "$componentDisplayName": "Nav"
+            },
+            {
+              "type": "FrameNode",
+              "name": "Article",
+              "id": "EU24xAeMIV0k3Oe2i8",
+              "attributes": {
+                "stackDirection": "vertical"
+              },
+              "$truncated": true,
+              "$descendantCount": 6
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "WebPageNode",
+      "id": "pTPGQ4L6O",
+      "name": "/contact",
+      "attributes": {
+        "path": "/contact",
+        "layoutTemplate": "null"
+      },
+      "children": [
+        {
+          "type": "FrameNode",
+          "name": "Desktop",
+          "id": "J1kd1wjJe",
+          "attributes": {
+            "stackDirection": "vertical",
+            "overflow": "clip"
+          },
+          "children": [
+            {
+              "type": "ComponentInstanceNode",
+              "id": "ZF0dPB4g_",
+              "name": "Nav",
+              "component": "IhgjBMpmC",
+              "$componentDisplayName": "Nav"
+            },
+            {
+              "type": "FrameNode",
+              "name": "Article",
+              "id": "mRmEjTFrV",
+              "attributes": {
+                "stackDirection": "vertical"
+              },
+              "$truncated": true,
+              "$descendantCount": 6
+            }
+          ]
+        },
+        {
+          "type": "FrameNode",
+          "name": "Tablet",
+          "id": "XX7urzdEP",
+          "attributes": {
+            "stackDirection": "vertical",
+            "overflow": "clip"
+          },
+          "children": [
+            {
+              "type": "ComponentInstanceNode",
+              "id": "XX7urzdEPZF0dPB4g_",
+              "name": "Nav",
+              "component": "IhgjBMpmC",
+              "$componentDisplayName": "Nav"
+            },
+            {
+              "type": "FrameNode",
+              "name": "Article",
+              "id": "XX7urzdEPmRmEjTFrV",
+              "attributes": {
+                "stackDirection": "vertical"
+              },
+              "$truncated": true,
+              "$descendantCount": 6
+            }
+          ]
+        },
+        {
+          "type": "FrameNode",
+          "name": "Phone",
+          "id": "XCr9mFaYB",
+          "attributes": {
+            "stackDirection": "vertical",
+            "overflow": "clip"
+          },
+          "children": [
+            {
+              "type": "ComponentInstanceNode",
+              "id": "XCr9mFaYBZF0dPB4g_",
+              "name": "Nav",
+              "component": "IhgjBMpmC",
+              "$componentDisplayName": "Nav"
+            },
+            {
+              "type": "FrameNode",
+              "name": "Article",
+              "id": "XCr9mFaYBmRmEjTFrV",
+              "attributes": {
+                "stackDirection": "vertical"
+              },
+              "$truncated": true,
+              "$descendantCount": 6
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "WebPageNode",
+      "id": "GPILtKFJP",
+      "name": "/404",
+      "attributes": {
+        "path": "/404",
+        "layoutTemplate": "null"
+      },
+      "children": [
+        {
+          "type": "FrameNode",
+          "name": "Desktop",
+          "id": "pWw0UM2JG",
+          "attributes": {
+            "stackDirection": "vertical",
+            "overflow": "clip"
+          },
+          "children": [
+            {
+              "type": "ComponentInstanceNode",
+              "id": "zfk3t7j3f",
+              "name": "Nav",
+              "component": "IhgjBMpmC",
+              "$componentDisplayName": "Nav"
+            },
+            {
+              "type": "FrameNode",
+              "name": "Article",
+              "id": "SJhrh_vcd",
+              "attributes": {
+                "stackDirection": "vertical"
+              },
+              "$truncated": true,
+              "$descendantCount": 6
+            }
+          ]
+        },
+        {
+          "type": "FrameNode",
+          "name": "Tablet",
+          "id": "w02m12a91",
+          "attributes": {
+            "stackDirection": "vertical",
+            "overflow": "clip"
+          },
+          "children": [
+            {
+              "type": "ComponentInstanceNode",
+              "id": "w02m12a91zfk3t7j3f",
+              "name": "Nav",
+              "component": "IhgjBMpmC",
+              "$componentDisplayName": "Nav"
+            },
+            {
+              "type": "FrameNode",
+              "name": "Article",
+              "id": "w02m12a91SJhrh_vcd",
+              "attributes": {
+                "stackDirection": "vertical"
+              },
+              "$truncated": true,
+              "$descendantCount": 6
+            }
+          ]
+        },
+        {
+          "type": "FrameNode",
+          "name": "Phone",
+          "id": "U9F5gXIMe",
+          "attributes": {
+            "stackDirection": "vertical",
+            "overflow": "clip"
+          },
+          "children": [
+            {
+              "type": "ComponentInstanceNode",
+              "id": "U9F5gXIMezfk3t7j3f",
+              "name": "Nav",
+              "component": "IhgjBMpmC",
+              "$componentDisplayName": "Nav"
+            },
+            {
+              "type": "FrameNode",
+              "name": "Article",
+              "id": "U9F5gXIMeSJhrh_vcd",
+              "attributes": {
+                "stackDirection": "vertical"
+              },
+              "$truncated": true,
+              "$descendantCount": 6
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "FrameNode",
+      "name": "Phone",
+      "id": "u75vHQkAR",
+      "attributes": {
+        "stackDirection": "vertical"
+      },
+      "children": [
+        {
+          "type": "ComponentInstanceNode",
+          "id": "u75vHQkARNBF_dDp3H",
+          "name": "Nav",
+          "component": "IhgjBMpmC",
+          "$componentDisplayName": "Nav"
+        },
+        {
+          "type": "FrameNode",
+          "name": "Piece List",
+          "id": "u75vHQkARyAd2lMDSW",
+          "attributes": {
+            "stackDirection": "vertical",
+            "overflow": "auto",
+            "hideScrollbars": true
+          },
+          "children": [
+            {
+              "type": "FrameNode",
+              "name": "Piece Item",
+              "id": "u75vHQkARO2btPltNw",
+              "attributes": {
+                "stackDirection": "vertical"
+              },
+              "$truncated": true,
+              "$descendantCount": 1
+            },
+            {
+              "type": "FrameNode",
+              "name": "Empty State",
+              "id": "u75vHQkARQOtlLO_kh",
+              "attributes": {
+                "stackDirection": "vertical"
+              },
+              "$truncated": true,
+              "$descendantCount": 3
+            }
+          ]
+        },
+        {
+          "type": "RichTextNode",
+          "name": "Mark",
+          "id": "u75vHQkARYuQho50Zq",
+          "children": [
+            {
+              "type": "TextBlock",
+              "id": "v:u75vHQkARYuQho50Zq:0",
+              "attributes": {
+                "tag": "p"
+              },
+              "$truncated": true,
+              "$descendantCount": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "FrameNode",
+      "name": "Piece List",
+      "id": "u75vHQkARyAd2lMDSW",
+      "attributes": {
+        "stackDirection": "vertical",
+        "overflow": "auto",
+        "hideScrollbars": true
+      },
+      "children": [
+        {
+          "type": "FrameNode",
+          "name": "Piece Item",
+          "id": "u75vHQkARO2btPltNw",
+          "attributes": {
+            "stackDirection": "vertical"
+          },
+          "children": [
+            {
+              "type": "ComponentInstanceNode",
+              "id": "u75vHQkARaIET_2yab",
+              "name": "Piece Card",
+              "component": "OdvHkNWXz",
+              "$componentDisplayName": "Piece Card"
+            }
+          ]
+        },
+        {
+          "type": "FrameNode",
+          "name": "Empty State",
+          "id": "u75vHQkARQOtlLO_kh",
+          "attributes": {
+            "stackDirection": "vertical"
+          },
+          "children": [
+            {
+              "type": "RichTextNode",
+              "name": "Empty",
+              "id": "u75vHQkARR2pga7_AP",
+              "$truncated": true,
+              "$descendantCount": 2
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "ComponentNode",
+      "id": "IhgjBMpmC",
+      "name": "Nav",
+      "children": [
+        {
+          "type": "FrameNode",
+          "name": "Desktop",
+          "id": "GiR6fF7o5",
+          "attributes": {
+            "stackDirection": "vertical"
+          },
+          "children": [
+            {
+              "type": "FrameNode",
+              "name": "Row",
+              "id": "yZes1fNVs",
+              "attributes": {
+                "stackDirection": "horizontal"
+              },
+              "$truncated": true,
+              "$descendantCount": 13
+            },
+            {
+              "type": "FrameNode",
+              "name": "Rule",
+              "id": "eGJAoz6x_",
+              "attributes": {
+                "stackDirection": "horizontal"
+              }
+            }
+          ]
+        },
+        {
+          "type": "FrameNode",
+          "name": "Tablet",
+          "id": "Nx5jccWgM",
+          "attributes": {
+            "stackDirection": "vertical"
+          },
+          "children": [
+            {
+              "type": "FrameNode",
+              "name": "Row",
+              "id": "Nx5jccWgMyZes1fNVs",
+              "attributes": {
+                "stackDirection": "horizontal"
+              },
+              "$truncated": true,
+              "$descendantCount": 13
+            },
+            {
+              "type": "FrameNode",
+              "name": "Rule",
+              "id": "Nx5jccWgMeGJAoz6x_",
+              "attributes": {
+                "stackDirection": "horizontal"
+              }
+            }
+          ]
+        },
+        {
+          "type": "FrameNode",
+          "name": "Phone",
+          "id": "tKUMOkWpP",
+          "attributes": {
+            "stackDirection": "vertical"
+          },
+          "children": [
+            {
+              "type": "FrameNode",
+              "name": "Row",
+              "id": "tKUMOkWpPyZes1fNVs",
+              "attributes": {
+                "stackDirection": "horizontal"
+              },
+              "$truncated": true,
+              "$descendantCount": 13
+            },
+            {
+              "type": "FrameNode",
+              "name": "Rule",
+              "id": "tKUMOkWpPeGJAoz6x_",
+              "attributes": {
+                "stackDirection": "horizontal"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "ComponentInstanceNode",
+      "id": "NBF_dDp3H",
+      "name": "Nav",
+      "component": "IhgjBMpmC",
+      "$componentDisplayName": "Nav"
+    },
+    {
+      "type": "FrameNode",
+      "name": "Piece List",
+      "id": "yAd2lMDSW",
+      "attributes": {
+        "stackDirection": "horizontal",
+        "overflow": "auto",
+        "hideScrollbars": true
+      },
+      "children": [
+        {
+          "type": "FrameNode",
+          "name": "Piece Item",
+          "id": "O2btPltNw",
+          "attributes": {
+            "stackDirection": "vertical"
+          },
+          "children": [
+            {
+              "type": "ComponentInstanceNode",
+              "id": "aIET_2yab",
+              "name": "Piece Card",
+              "component": "OdvHkNWXz",
+              "$componentDisplayName": "Piece Card"
+            }
+          ]
+        },
+        {
+          "type": "FrameNode",
+          "name": "Empty State",
+          "id": "QOtlLO_kh",
+          "attributes": {
+            "stackDirection": "vertical"
+          },
+          "children": [
+            {
+              "type": "RichTextNode",
+              "name": "Empty",
+              "id": "R2pga7_AP",
+              "$truncated": true,
+              "$descendantCount": 2
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

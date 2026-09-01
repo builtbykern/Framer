@@ -1,0 +1,637 @@
+{
+  "leftovers": [],
+  "leftoverCount": 0,
+  "shellIssues": [
+    {
+      "kind": "filled+maxW",
+      "path": "/",
+      "bp": "Tablet",
+      "name": "Hero Section",
+      "id": "wBAtV56MEiq0rlFlTE",
+      "mw": "90%"
+    },
+    {
+      "kind": "filled+maxW",
+      "path": "/",
+      "bp": "Phone",
+      "name": "Hero Section",
+      "id": "mcL3MFzFViq0rlFlTE",
+      "mw": "90%"
+    },
+    {
+      "kind": "filled+maxW",
+      "path": "/properties",
+      "bp": "Desktop",
+      "name": "Properties Hero",
+      "id": "mGwrwOsDS",
+      "mw": "90%"
+    },
+    {
+      "kind": "filled+maxW",
+      "path": "/properties",
+      "bp": "Desktop",
+      "name": "Collection Discovery",
+      "id": "Ox1AZj6Eq",
+      "mw": "90%"
+    },
+    {
+      "kind": "filled+maxW",
+      "path": "/properties",
+      "bp": "Desktop",
+      "name": "Properties Grid",
+      "id": "gn2phxXn5",
+      "mw": "90%"
+    },
+    {
+      "kind": "filled+maxW",
+      "path": "/properties",
+      "bp": "Desktop",
+      "name": "Market Editorial",
+      "id": "APChY780b",
+      "mw": "90%"
+    },
+    {
+      "kind": "filled+maxW",
+      "path": "/properties",
+      "bp": "Desktop",
+      "name": "Private Viewing Process",
+      "id": "pC9Un5Mw5",
+      "mw": "90%"
+    },
+    {
+      "kind": "filled+maxW",
+      "path": "/properties",
+      "bp": "Desktop",
+      "name": "Enquiry CTA",
+      "id": "cFtWJlabj",
+      "mw": "90%"
+    },
+    {
+      "kind": "filled+maxW",
+      "path": "/properties",
+      "bp": "Tablet",
+      "name": "Properties Hero",
+      "id": "SScKalu3BmGwrwOsDS",
+      "mw": "90%"
+    },
+    {
+      "kind": "filled+maxW",
+      "path": "/properties",
+      "bp": "Tablet",
+      "name": "Collection Discovery",
+      "id": "SScKalu3BOx1AZj6Eq",
+      "mw": "90%"
+    },
+    {
+      "kind": "filled+maxW",
+      "path": "/properties",
+      "bp": "Tablet",
+      "name": "Properties Grid",
+      "id": "SScKalu3Bgn2phxXn5",
+      "mw": "90%"
+    },
+    {
+      "kind": "filled+maxW",
+      "path": "/properties",
+      "bp": "Tablet",
+      "name": "Market Editorial",
+      "id": "SScKalu3BAPChY780b",
+      "mw": "90%"
+    },
+    {
+      "kind": "filled+maxW",
+      "path": "/properties",
+      "bp": "Tablet",
+      "name": "Private Viewing Process",
+      "id": "SScKalu3BpC9Un5Mw5",
+      "mw": "90%"
+    },
+    {
+      "kind": "filled+maxW",
+      "path": "/properties",
+      "bp": "Tablet",
+      "name": "Enquiry CTA",
+      "id": "SScKalu3BcFtWJlabj",
+      "mw": "90%"
+    },
+    {
+      "kind": "filled+maxW",
+      "path": "/properties",
+      "bp": "Phone",
+      "name": "Properties Hero",
+      "id": "EK6d5SyWLmGwrwOsDS",
+      "mw": "90%"
+    },
+    {
+      "kind": "filled+maxW",
+      "path": "/properties",
+      "bp": "Phone",
+      "name": "Collection Discovery",
+      "id": "EK6d5SyWLOx1AZj6Eq",
+      "mw": "90%"
+    },
+    {
+      "kind": "filled+maxW",
+      "path": "/properties",
+      "bp": "Phone",
+      "name": "Properties Grid",
+      "id": "EK6d5SyWLgn2phxXn5",
+      "mw": "90%"
+    },
+    {
+      "kind": "filled+maxW",
+      "path": "/properties",
+      "bp": "Phone",
+      "name": "Market Editorial",
+      "id": "EK6d5SyWLAPChY780b",
+      "mw": "90%"
+    },
+    {
+      "kind": "filled+maxW",
+      "path": "/properties",
+      "bp": "Phone",
+      "name": "Private Viewing Process",
+      "id": "EK6d5SyWLpC9Un5Mw5",
+      "mw": "90%"
+    },
+    {
+      "kind": "filled+maxW",
+      "path": "/properties",
+      "bp": "Phone",
+      "name": "Enquiry CTA",
+      "id": "EK6d5SyWLcFtWJlabj",
+      "mw": "90%"
+    },
+    {
+      "kind": "filled+maxW",
+      "path": "/neighbourhoods",
+      "bp": "Desktop",
+      "name": "Neighbourhoods Hero",
+      "id": "ycUqIc8V3",
+      "mw": "90%"
+    },
+    {
+      "kind": "filled+maxW",
+      "path": "/neighbourhoods",
+      "bp": "Desktop",
+      "name": "Territory Grid Section",
+      "id": "NrbMmTnFX",
+      "mw": "90%"
+    },
+    {
+      "kind": "filled+maxW",
+      "path": "/neighbourhoods",
+      "bp": "Desktop",
+      "name": "How We Read A Place",
+      "id": "KraraKF0A",
+      "mw": "90%"
+    },
+    {
+      "kind": "filled+maxW",
+      "path": "/neighbourhoods",
+      "bp": "Tablet",
+      "name": "Neighbourhoods Hero",
+      "id": "aJLpuUP0qycUqIc8V3",
+      "mw": "90%"
+    },
+    {
+      "kind": "filled+maxW",
+      "path": "/neighbourhoods",
+      "bp": "Tablet",
+      "name": "Territory Grid Section",
+      "id": "aJLpuUP0qNrbMmTnFX",
+      "mw": "90%"
+    },
+    {
+      "kind": "filled+maxW",
+      "path": "/neighbourhoods",
+      "bp": "Tablet",
+      "name": "How We Read A Place",
+      "id": "aJLpuUP0qKraraKF0A",
+      "mw": "90%"
+    },
+    {
+      "kind": "filled+maxW",
+      "path": "/neighbourhoods",
+      "bp": "Phone",
+      "name": "Neighbourhoods Hero",
+      "id": "Qonafp_oDycUqIc8V3",
+      "mw": "90%"
+    },
+    {
+      "kind": "filled+maxW",
+      "path": "/neighbourhoods",
+      "bp": "Phone",
+      "name": "Territory Grid Section",
+      "id": "Qonafp_oDNrbMmTnFX",
+      "mw": "90%"
+    },
+    {
+      "kind": "filled+maxW",
+      "path": "/neighbourhoods",
+      "bp": "Phone",
+      "name": "How We Read A Place",
+      "id": "Qonafp_oDKraraKF0A",
+      "mw": "90%"
+    },
+    {
+      "kind": "filled+maxW",
+      "path": "/about",
+      "bp": "Desktop",
+      "name": "Opening Image Field",
+      "id": "rbeJ3XqVd",
+      "mw": "90%"
+    },
+    {
+      "kind": "filled+maxW",
+      "path": "/about",
+      "bp": "Desktop",
+      "name": "Opening Copy",
+      "id": "QzWTnDkey",
+      "mw": "90%"
+    },
+    {
+      "kind": "filled+maxW",
+      "path": "/about",
+      "bp": "Tablet",
+      "name": "Opening Image Field",
+      "id": "xvqDXw58erbeJ3XqVd",
+      "mw": "90%"
+    },
+    {
+      "kind": "filled+maxW",
+      "path": "/about",
+      "bp": "Tablet",
+      "name": "Opening Copy",
+      "id": "xvqDXw58eQzWTnDkey",
+      "mw": "90%"
+    },
+    {
+      "kind": "filled+maxW",
+      "path": "/about",
+      "bp": "Phone",
+      "name": "Opening Image Field",
+      "id": "CYNrpU04trbeJ3XqVd",
+      "mw": "90%"
+    },
+    {
+      "kind": "filled+maxW",
+      "path": "/about",
+      "bp": "Phone",
+      "name": "Opening Copy",
+      "id": "CYNrpU04tQzWTnDkey",
+      "mw": "90%"
+    },
+    {
+      "kind": "filled+maxW",
+      "path": "/contact",
+      "bp": "Desktop",
+      "name": "Hero Entrance Media",
+      "id": "WLSMm5iy1",
+      "mw": "90%"
+    },
+    {
+      "kind": "filled+maxW",
+      "path": "/contact",
+      "bp": "Tablet",
+      "name": "Hero Entrance Media",
+      "id": "qjv2S9WpaWLSMm5iy1",
+      "mw": "90%"
+    },
+    {
+      "kind": "filled+maxW",
+      "path": "/contact",
+      "bp": "Phone",
+      "name": "Hero Entrance Media",
+      "id": "jEM0wBo2vWLSMm5iy1",
+      "mw": "90%"
+    },
+    {
+      "kind": "filled+maxW",
+      "path": "/notes/:slug",
+      "bp": "Desktop",
+      "name": "(unnamed)",
+      "id": "XfQIW7biv",
+      "mw": "90%"
+    },
+    {
+      "kind": "filled+maxW",
+      "path": "/notes/:slug",
+      "bp": "Tablet",
+      "name": "(unnamed)",
+      "id": "gZUAlaJJ1XfQIW7biv",
+      "mw": "90%"
+    },
+    {
+      "kind": "filled+maxW",
+      "path": "/notes/:slug",
+      "bp": "Phone",
+      "name": "(unnamed)",
+      "id": "EavJve6uGXfQIW7biv",
+      "mw": "90%"
+    },
+    {
+      "kind": "filled+maxW",
+      "path": "comp:Arbour_PrincipalProfile",
+      "bp": "Desktop",
+      "name": "Desktop",
+      "id": "d5T0Tmau8",
+      "mw": "1104px"
+    },
+    {
+      "kind": "filled+maxW",
+      "path": "comp:Arbour_PrincipalProfile",
+      "bp": "Desktop",
+      "name": "Portrait",
+      "id": "j_gymdr8H",
+      "mw": "520px"
+    },
+    {
+      "kind": "filled+maxW",
+      "path": "comp:Arbour_PrincipalProfile",
+      "bp": "Tablet",
+      "name": "Tablet",
+      "id": "mxXljrpyb",
+      "mw": "1104px"
+    },
+    {
+      "kind": "filled+maxW",
+      "path": "comp:Arbour_PrincipalProfile",
+      "bp": "Tablet",
+      "name": "Portrait",
+      "id": "mxXljrpybj_gymdr8H",
+      "mw": "520px"
+    },
+    {
+      "kind": "filled+maxW",
+      "path": "comp:Arbour_PrincipalProfile",
+      "bp": "Phone",
+      "name": "Phone",
+      "id": "ZOGQS2oqd",
+      "mw": "1104px"
+    },
+    {
+      "kind": "filled+maxW",
+      "path": "comp:Arbour_PrincipalProfile",
+      "bp": "Phone",
+      "name": "Portrait",
+      "id": "ZOGQS2oqdj_gymdr8H",
+      "mw": "520px"
+    }
+  ],
+  "fixedH": [
+    {
+      "path": "/",
+      "bp": "Tablet",
+      "name": "Arbour_TerritoryRail",
+      "id": "wBAtV56MECDv8aL5JZ",
+      "h": 501,
+      "w": "1fr",
+      "mw": null,
+      "trail": "//Territories Section/(unnamed)/Arbour_TerritoryRail"
+    },
+    {
+      "path": "comp:Footer",
+      "bp": "Desktop",
+      "name": "Desktop",
+      "id": "N8Ge7eNRv",
+      "h": 719,
+      "w": "1200px",
+      "mw": null,
+      "trail": "Footer/Desktop"
+    },
+    {
+      "path": "comp:Footer",
+      "bp": "Tablet",
+      "name": "Tablet",
+      "id": "AWGNXf96_",
+      "h": 719,
+      "w": "810px",
+      "mw": null,
+      "trail": "Footer/Tablet"
+    },
+    {
+      "path": "comp:Footer",
+      "bp": "Tablet",
+      "name": "Rail Property 01",
+      "id": "AWGNXf96_zB5gRQpsx",
+      "h": 185,
+      "w": "1.1fr",
+      "mw": null,
+      "trail": "Footer/Tablet/Editorial Property Rail/Rail Property 01"
+    },
+    {
+      "path": "comp:Footer",
+      "bp": "Tablet",
+      "name": "Rail Property 02",
+      "id": "AWGNXf96_Gw6SpCmNF",
+      "h": 148,
+      "w": "0.9fr",
+      "mw": null,
+      "trail": "Footer/Tablet/Editorial Property Rail/Rail Property 02"
+    },
+    {
+      "path": "comp:Footer",
+      "bp": "Tablet",
+      "name": "Rail Property 03",
+      "id": "AWGNXf96_xwEYq4Rn8",
+      "h": 230,
+      "w": "1.25fr",
+      "mw": null,
+      "trail": "Footer/Tablet/Editorial Property Rail/Rail Property 03"
+    },
+    {
+      "path": "comp:Footer",
+      "bp": "Tablet",
+      "name": "Rail Property 04",
+      "id": "AWGNXf96_UwTa3p2JA",
+      "h": 170,
+      "w": "0.95fr",
+      "mw": null,
+      "trail": "Footer/Tablet/Editorial Property Rail/Rail Property 04"
+    },
+    {
+      "path": "comp:Footer",
+      "bp": "Tablet",
+      "name": "Rail Property 05",
+      "id": "AWGNXf96_C92PIZqD_",
+      "h": 150,
+      "w": "1.2fr",
+      "mw": null,
+      "trail": "Footer/Tablet/Editorial Property Rail/Rail Property 05"
+    },
+    {
+      "path": "comp:Footer",
+      "bp": "Phone",
+      "name": "Phone",
+      "id": "IitvyCHtz",
+      "h": 719,
+      "w": "390px",
+      "mw": null,
+      "trail": "Footer/Phone"
+    },
+    {
+      "path": "comp:Footer",
+      "bp": "Phone",
+      "name": "Rail Property 03",
+      "id": "IitvyCHtzxwEYq4Rn8",
+      "h": 156,
+      "w": "1.2fr",
+      "mw": null,
+      "trail": "Footer/Phone/Editorial Property Rail/Rail Property 03"
+    },
+    {
+      "path": "comp:Arbour Neighbourhood Feature",
+      "bp": "Desktop",
+      "name": "Desktop",
+      "id": "AJACjRktH",
+      "h": 420,
+      "w": "728px",
+      "mw": null,
+      "trail": "Arbour Neighbourhood Feature/Desktop"
+    },
+    {
+      "path": "comp:Arbour Neighbourhood Feature",
+      "bp": "Tablet",
+      "name": "Tablet",
+      "id": "r_MNi8Z5D",
+      "h": 420,
+      "w": "488px",
+      "mw": null,
+      "trail": "Arbour Neighbourhood Feature/Tablet"
+    },
+    {
+      "path": "comp:Arbour Neighbourhood Feature",
+      "bp": "Phone",
+      "name": "Phone",
+      "id": "xJ6o4_ghF",
+      "h": 420,
+      "w": "350px",
+      "mw": null,
+      "trail": "Arbour Neighbourhood Feature/Phone"
+    }
+  ],
+  "fixedHCount": 13,
+  "bpSummaries": [
+    {
+      "path": "/",
+      "bp": "Desktop",
+      "tops": 12
+    },
+    {
+      "path": "/",
+      "bp": "Tablet",
+      "tops": 12
+    },
+    {
+      "path": "/",
+      "bp": "Phone",
+      "tops": 12
+    },
+    {
+      "path": "/properties",
+      "bp": "Desktop",
+      "tops": 4
+    },
+    {
+      "path": "/properties",
+      "bp": "Tablet",
+      "tops": 4
+    },
+    {
+      "path": "/properties",
+      "bp": "Phone",
+      "tops": 4
+    },
+    {
+      "path": "/neighbourhoods",
+      "bp": "Desktop",
+      "tops": 4
+    },
+    {
+      "path": "/neighbourhoods",
+      "bp": "Tablet",
+      "tops": 4
+    },
+    {
+      "path": "/neighbourhoods",
+      "bp": "Phone",
+      "tops": 4
+    },
+    {
+      "path": "/notes",
+      "bp": "Desktop",
+      "tops": 5
+    },
+    {
+      "path": "/notes",
+      "bp": "Tablet",
+      "tops": 5
+    },
+    {
+      "path": "/notes",
+      "bp": "Phone",
+      "tops": 5
+    },
+    {
+      "path": "/about",
+      "bp": "Desktop",
+      "tops": 10
+    },
+    {
+      "path": "/about",
+      "bp": "Tablet",
+      "tops": 10
+    },
+    {
+      "path": "/about",
+      "bp": "Phone",
+      "tops": 10
+    },
+    {
+      "path": "/contact",
+      "bp": "Desktop",
+      "tops": 7
+    },
+    {
+      "path": "/contact",
+      "bp": "Tablet",
+      "tops": 7
+    },
+    {
+      "path": "/contact",
+      "bp": "Phone",
+      "tops": 7
+    },
+    {
+      "path": "/properties/:slug",
+      "bp": "Desktop",
+      "tops": 11
+    },
+    {
+      "path": "/properties/:slug",
+      "bp": "Tablet",
+      "tops": 11
+    },
+    {
+      "path": "/properties/:slug",
+      "bp": "Phone",
+      "tops": 11
+    },
+    {
+      "path": "/notes/:slug",
+      "bp": "Desktop",
+      "tops": 10
+    },
+    {
+      "path": "/notes/:slug",
+      "bp": "Tablet",
+      "tops": 10
+    },
+    {
+      "path": "/notes/:slug",
+      "bp": "Phone",
+      "tops": 10
+    }
+  ]
+}

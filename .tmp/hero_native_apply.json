@@ -1,0 +1,42 @@
+{
+  "message": "Commands: 4 errors. Lint: 4 warnings.",
+  "errors": {
+    "Invalid value `position=\"absolute\"`. Absolute positioning requires one explicit horizontal pin (left or right) and one explicit vertical pin (top or bottom).": [
+      "HeroMedia"
+    ],
+    "Invalid value `left=\"-10%\"`. Expected a pixel value like \"10px\".": [
+      "HeroMedia"
+    ],
+    "Invalid value `top=\"-15%\"`. Expected a pixel value like \"10px\".": [
+      "HeroMedia"
+    ],
+    "Invalid value `top=\"auto\"`. Expected a pixel value like \"10px\".": [
+      "BottomScrim"
+    ]
+  },
+  "linter": {
+    "warnings": {
+      "Element is positioned outside its parent's clipped bounds and may be hidden": [
+        {
+          "id": "HeroMedia",
+          "clippedBy": "cJgmqsWkI"
+        },
+        {
+          "id": "BottomMedia",
+          "clippedBy": "sQUykbPr6"
+        }
+      ],
+      "Content inside a full-bleed or proportional layout should set a maxWidth so large screens don't cause huge content": [
+        "NFy40_8W1",
+        "sQUykbPr6"
+      ]
+    }
+  },
+  "renamedIds": {
+    "HeroMedia": "U_Lsvi_pr",
+    "HeroVignette": "oCB3wFThX",
+    "BottomMedia": "oLVcxQZdc",
+    "BottomVignette": "goGd9nWwA",
+    "BottomScrim": "OJmixEFvJ"
+  }
+}

@@ -1,0 +1,74 @@
+{
+  "books": [
+    {
+      "url": "https://images.unsplash.com/photo-1502979932800-33d311b7ce56?crop=entropy&cs=srgb&fm=jpg&ixlib=rb-4.1.0&q=85&w=1600",
+      "alt": "selective focus photography of opened textbook"
+    },
+    {
+      "url": "https://images.unsplash.com/photo-1594305342010-1f62e803490f?crop=entropy&cs=srgb&fm=jpg&ixlib=rb-4.1.0&q=85&w=1600",
+      "alt": "white book page on white table"
+    },
+    {
+      "url": "https://images.unsplash.com/photo-1532348374062-fee19177e98f?crop=entropy&cs=srgb&fm=jpg&ixlib=rb-4.1.0&q=85&w=1600",
+      "alt": "selective focus photography of opened book"
+    },
+    {
+      "url": "https://images.unsplash.com/photo-1517770413964-df8ca61194a6?crop=entropy&cs=srgb&fm=jpg&ixlib=rb-4.1.0&q=85&w=1600",
+      "alt": "bokeh photography of open book"
+    }
+  ],
+  "press": [
+    {
+      "url": "https://images.unsplash.com/photo-1777621543796-f6c62717d932?crop=entropy&cs=srgb&fm=jpg&ixlib=rb-4.1.0&q=85&w=1600",
+      "alt": "Antique printing press trays filled with metal type"
+    },
+    {
+      "url": "https://images.unsplash.com/photo-1575839127405-acda7759a2e8?crop=entropy&cs=srgb&fm=jpg&ixlib=rb-4.1.0&q=85&w=1600",
+      "alt": "a close up of a metal grate on a table"
+    },
+    {
+      "url": "https://images.unsplash.com/photo-1579689040486-cddbfd9449f3?crop=entropy&cs=srgb&fm=jpg&ixlib=rb-4.1.0&q=85&w=1600",
+      "alt": "brown and black concrete building"
+    },
+    {
+      "url": "https://images.unsplash.com/photo-1776320267046-48aad358db5b?crop=entropy&cs=srgb&fm=jpg&ixlib=rb-4.1.0&q=85&w=1600",
+      "alt": "Close-up of antique wooden letterpress type blocks"
+    }
+  ],
+  "paper": [
+    {
+      "url": "https://images.unsplash.com/photo-1562240020-ce31ccb0fa7d?crop=entropy&cs=srgb&fm=jpg&ixlib=rb-4.1.0&q=85&w=1200",
+      "alt": "pile of printing papers"
+    },
+    {
+      "url": "https://images.unsplash.com/photo-1654003937537-f81dba980c02?crop=entropy&cs=srgb&fm=jpg&ixlib=rb-4.1.0&q=85&w=1200",
+      "alt": "a black and white photo of a piece of wood"
+    },
+    {
+      "url": "https://images.unsplash.com/photo-1622100223492-9a839fba8672?crop=entropy&cs=srgb&fm=jpg&ixlib=rb-4.1.0&q=85&w=1200",
+      "alt": "white and brown book page"
+    },
+    {
+      "url": "https://images.unsplash.com/photo-1646137088139-ffd7cf2d26ae?crop=entropy&cs=srgb&fm=jpg&ixlib=rb-4.1.0&q=85&w=1200",
+      "alt": "a stack of brown paper sitting on top of a table"
+    }
+  ],
+  "spines": [
+    {
+      "url": "https://images.unsplash.com/photo-1603058817990-2b9a9abbce86?crop=entropy&cs=srgb&fm=jpg&ixlib=rb-4.1.0&q=85&w=1200",
+      "alt": "brown wooden book shelf with books"
+    },
+    {
+      "url": "https://images.unsplash.com/photo-1600181982553-ce7d36051c01?crop=entropy&cs=srgb&fm=jpg&ixlib=rb-4.1.0&q=85&w=1200",
+      "alt": "brown wooden book shelf with books"
+    },
+    {
+      "url": "https://images.unsplash.com/photo-1739133086794-6424277dbfd0?crop=entropy&cs=srgb&fm=jpg&ixlib=rb-4.1.0&q=85&w=1200",
+      "alt": "A book shelf filled with lots of books"
+    },
+    {
+      "url": "https://images.unsplash.com/photo-1631891256090-0042b3784a1b?crop=entropy&cs=srgb&fm=jpg&ixlib=rb-4.1.0&q=85&w=1200",
+      "alt": "a book shelf filled with lots of books"
+    }
+  ]
+}

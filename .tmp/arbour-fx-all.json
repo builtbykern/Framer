@@ -1,0 +1,91 @@
+{
+  "rows": [
+    {
+      "path": "/",
+      "noise": 1,
+      "blur": 1,
+      "cue": 0,
+      "atmKids": [
+        "Arbour_NoiseEffect",
+        "Scroll Blur"
+      ]
+    },
+    {
+      "path": "/properties",
+      "noise": 1,
+      "blur": 1,
+      "cue": 0,
+      "atmKids": [
+        "Arbour_NoiseEffect",
+        "Scroll Blur"
+      ]
+    },
+    {
+      "path": "/neighbourhoods",
+      "noise": 1,
+      "blur": 1,
+      "cue": 0,
+      "atmKids": [
+        "Arbour_NoiseEffect",
+        "Scroll Blur"
+      ]
+    },
+    {
+      "path": "/notes",
+      "noise": 1,
+      "blur": 1,
+      "cue": 0,
+      "atmKids": [
+        "Arbour_NoiseEffect",
+        "Scroll Blur"
+      ]
+    },
+    {
+      "path": "/about",
+      "noise": 1,
+      "blur": 1,
+      "cue": 0,
+      "atmKids": [
+        "Arbour_NoiseEffect",
+        "Scroll Blur"
+      ]
+    },
+    {
+      "path": "/contact",
+      "noise": 1,
+      "blur": 1,
+      "cue": 0,
+      "atmKids": [
+        "Arbour_NoiseEffect",
+        "Scroll Blur"
+      ]
+    },
+    {
+      "path": "/properties/:slug",
+      "noise": 1,
+      "blur": 1,
+      "cue": 1,
+      "atmKids": [
+        "Arbour_NoiseEffect",
+        "Scroll Blur"
+      ]
+    },
+    {
+      "path": "/notes/:slug",
+      "noise": 1,
+      "blur": 1,
+      "cue": 1,
+      "atmKids": [
+        "Arbour_NoiseEffect",
+        "Scroll Blur"
+      ]
+    },
+    {
+      "path": "/404",
+      "noise": 0,
+      "blur": 0,
+      "cue": 0,
+      "atmKids": []
+    }
+  ]
+}

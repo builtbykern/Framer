@@ -1,0 +1,20 @@
+{
+  "message": "Commands: 3 errors. Lint: 12 warnings.",
+  "errors": {
+    "Invalid value `aspectRatio=\"null\"`. Expected a number.": [
+      "hX5NduSNi",
+      "aJLpuUP0qhX5NduSNi",
+      "Qonafp_oDhX5NduSNi"
+    ]
+  },
+  "order": [
+    "Territory Photograph",
+    "Territory Dossier"
+  ],
+  "photoH": "220px",
+  "dossierPad": "24px",
+  "dossierGap": "12px",
+  "cardDir": "vertical",
+  "cardH": "auto",
+  "border": "1px solid rgba(28, 27, 22, 0.10)"
+}

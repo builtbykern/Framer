@@ -1,0 +1,5126 @@
+EXPORT_START
+// @framerDisableUnlink
+// @framerSupportedLayoutWidth: any
+// @framerSupportedLayoutHeight: auto
+// @framerIntrinsicWidth 1600
+// @framerIntrinsicHeight 1200
+
+/**
+ * Kern_QuoteIntake — Multi-step project quote calculator with live indicative range and optional editorial rail.
+ * Version: 2.2.0
+ * Palette anchors: #0a0a0a (base) · #ffffff (highlights)
+ */
+
+import { addPropertyControls, ControlType, useIsOnFramerCanvas } from "framer"
+import {
+    AnimatePresence,
+    motion,
+    useInView,
+    useMotionValue,
+    useMotionValueEvent,
+    useReducedMotion,
+    useSpring,
+} from "framer-motion"
+import {
+    useState,
+    useMemo,
+    useCallback,
+    useEffect,
+    useLayoutEffect,
+    useRef,
+    startTransition,
+    type CSSProperties,
+} from "react"
+
+interface SimpleFormulaLineItem {
+    label: string
+    quantityFieldKey: string
+    unitPrice: number
+}
+
+interface KeyMultiplierRow {
+    key: string
+    multiplier: number
+}
+
+interface LineContribution {
+    label: string
+    quantityFieldKey: string
+    quantity: number
+    unitPrice: number
+    lineSubtotal: number
+    contributionAfterMultipliers: number
+}
+
+interface IntentOption {
+    title: string
+    helperText?: string
+    key: string
+}
+
+interface QuantityField {
+    label: string
+    helperText?: string
+    key: string
+    min: number
+    max: number
+    step: number
+    defaultValue: number
+}
+
+interface TimelineOption {
+    label: string
+    key: string
+}
+
+type FormValue = string | number | boolean | undefined
+type FormDataState = Record<string, FormValue>
+
+interface Kern_QuoteIntakeProps {
+    style?: CSSProperties
+    step1: {
+        screenTitle: string
+        screenSubtitle: string
+        primaryButtonLabel: string
+        intentOptions: IntentOption[]
+        hideSingleOptionPicker: boolean
+    }
+    step2: {
+        screenTitle: string
+        screenSubtitle: string
+        primaryButtonLabel: string
+        quantityFields: QuantityField[]
+        quantityControlType: "stepper" | "slider"
+    }
+    step3: {
+        screenTitle: string
+        screenSubtitle: string
+        primaryButtonLabel: string
+        timelineBucketLabel: string
+        timelineBucketHelper: string
+        timelineBucketOptions: TimelineOption[]
+        rushToggleLabel: string
+        rushToggleHelper: string
+    }
+    step4: {
+        screenTitle: string
+        screenSubtitle: string
+        primaryButtonLabel: string
+        showContactFields: boolean
+        submittingButtonLabel: string
+        emailLabel: string
+        emailHelper: string
+        noteLabel: string
+        noteHelper: string
+        disclaimerText: string
+        consentCheckboxLabel: string
+        consentCheckboxHelper: string
+    }
+    narrative: {
+        productTitle: string
+        supportingLine: string
+        showStepList: boolean
+        step1Label: string
+        step2Label: string
+        step3Label: string
+        step4Label: string
+        backButtonLabel: string
+        ariaLabel: string
+        previewImageUrl: string
+        previewImageAlt: string
+    }
+    typography: {
+        titleFont: CSSProperties
+        labelFont: CSSProperties
+        inputFont: CSSProperties
+        buttonFont: CSSProperties
+        cardFont: CSSProperties
+        smallPrintFont: CSSProperties
+        titleFontSizeDesktop: number
+        titleFontSizeTablet: number
+        titleFontSizeMobile: number
+        labelFontSizeDesktop: number
+        labelFontSizeTablet: number
+        labelFontSizeMobile: number
+    }
+    colors: {
+        backgroundColor: string
+        cardBackground: string
+        textPrimary: string
+        textSecondary: string
+        border: string
+        accent: string
+        moreOptions?: {
+            secondaryButtonColor?: string
+            secondaryButtonTextColor?: string
+            focusRingColor?: string
+            overlayScrimColor?: string
+        }
+    }
+    cardStyle: {
+        showBackground: boolean
+        backdropBlur: number
+        showShadow: boolean
+        shadowIntensity: number
+        moreOptions?: {
+            pageGlowIntensity?: number
+            showRimHighlight?: boolean
+        }
+    }
+    layout: {
+        borderRadius: number
+        globalMaxWidth: number
+        contentMinWidth: number
+        contentMaxWidth: number
+        minPageHeight: number
+        useRailLayout: boolean
+        railWidth: number
+        railGap: number
+        collapseBreakpoint: number
+        mobileBreakpoint: number
+        tabletBreakpoint: number
+        desktopBreakpoint: number
+        pagePaddingDesktop: number
+        pagePaddingTablet: number
+        pagePaddingMobile: number
+        cardPaddingDesktop: number
+        cardPaddingTablet: number
+        cardPaddingMobile: number
+        sectionGapDesktop: number
+        sectionGapTablet: number
+        sectionGapMobile: number
+        fieldGapDesktop: number
+        fieldGapTablet: number
+        fieldGapMobile: number
+        buttonHeightDesktop: number
+        buttonHeightTablet: number
+        buttonHeightMobile: number
+    }
+    motionConfig: {
+        intensity: number
+        moreOptions: {
+            personality: "calm" | "balanced" | "snappy"
+            stiffness?: number
+            damping?: number
+            mass?: number
+        }
+    }
+    submission: {
+        formulaLineItems: SimpleFormulaLineItem[]
+        showAdvancedPricing: boolean
+        pricing: {
+            rushMultiplierWhenChecked: number
+            intentMultiplierOverrides: KeyMultiplierRow[]
+            timelineMultiplierOverrides: KeyMultiplierRow[]
+        }
+        estimateDisplay: {
+            currencySymbol: string
+            rangeLowPercent: number
+            rangeHighPercent: number
+            showLineBreakdown: boolean
+            breakdownStaggerMs: number
+        }
+        successScreenCopy: {
+            screenTitle: string
+            screenSubtitle: string
+            primaryButtonLabel: string
+            nextStep1Text?: string
+            nextStep2Text?: string
+            nextStep3Text?: string
+        }
+    }
+    accessibility: {
+        announceStepChanges: boolean
+        announceEstimateRange: boolean
+    }
+}
+
+interface Props extends Kern_QuoteIntakeProps {}
+
+const OPTION_TILE_STYLES = {
+    idle: {
+        backgroundColor: "rgba(247, 244, 237, 0.03)",
+        borderColor: "rgba(247, 244, 237, 0.15)",
+        borderWidth: "1px",
+    },
+    selected: {
+        backgroundColor: "rgba(201, 162, 39, 0.10)",
+        borderColor: "#C9A227",
+        borderWidth: "2px",
+        boxShadow: "inset 0 0 24px rgba(201, 162, 39, 0.15)",
+    },
+    hover: {
+        borderColor: "rgba(247, 244, 237, 0.28)",
+    },
+} as const
+
+const DEFAULT_PROPS: Kern_QuoteIntakeProps = {
+    step1: {
+        screenTitle: "What are you building?",
+        screenSubtitle: "Select the project type that best fits your needs",
+        primaryButtonLabel: "Next",
+        hideSingleOptionPicker: true,
+        intentOptions: [
+            {
+                title: "Marketing site",
+                helperText: "Multi-page structure with content management",
+                key: "marketing-site",
+            },
+            {
+                title: "Product UI with CMS",
+                helperText: "Interactive app interface with dynamic data",
+                key: "product-ui-cms",
+            },
+            {
+                title: "Launch landing",
+                helperText: "Single conversion page with form integration",
+                key: "launch-landing",
+            },
+            {
+                title: "Motion-led storytelling",
+                helperText: "Scroll-driven narrative with custom animations",
+                key: "motion-storytelling",
+            },
+        ],
+    },
+    step2: {
+        screenTitle: "Define your scope",
+        screenSubtitle: "These inputs shape the estimate range",
+        primaryButtonLabel: "Continue",
+        quantityControlType: "slider",
+        quantityFields: [
+            {
+                label: "Unique page layouts",
+                helperText: "Distinct templates you need",
+                key: "pages",
+                min: 1,
+                max: 50,
+                step: 1,
+                defaultValue: 5,
+            },
+            {
+                label: "CMS collections",
+                helperText: "Dynamic content types",
+                key: "cms",
+                min: 0,
+                max: 20,
+                step: 1,
+                defaultValue: 2,
+            },
+            {
+                label: "Custom code components",
+                helperText: "Interactive elements beyond standard Framer",
+                key: "components",
+                min: 0,
+                max: 30,
+                step: 1,
+                defaultValue: 3,
+            },
+        ],
+    },
+    step3: {
+        screenTitle: "Timeline and delivery",
+        screenSubtitle: "When you need it affects resource allocation",
+        primaryButtonLabel: "Continue",
+        timelineBucketLabel: "Target delivery window",
+        timelineBucketHelper: "Select the timeframe that works for your launch",
+        timelineBucketOptions: [
+            { label: "Standard (4–6 weeks)", key: "standard" },
+            { label: "Accelerated (2–3 weeks)", key: "expedited" },
+            { label: "Flexible timeline", key: "extended" },
+        ],
+        rushToggleLabel: "Rush delivery needed",
+        rushToggleHelper:
+            "Requires dedicated capacity and adds approximately 30% to the estimate",
+    },
+    step4: {
+        screenTitle: "Review your estimate",
+        screenSubtitle:
+            "Confirm scope and timeline, then open the summary with your indicative range",
+        primaryButtonLabel: "View summary",
+        showContactFields: false,
+        submittingButtonLabel: "Opening summary…",
+        emailLabel: "Email address",
+        emailHelper: "Optional — for your own records or a paired form",
+        noteLabel: "Additional context (optional)",
+        noteHelper: "Share anything that might affect scope or timeline",
+        disclaimerText:
+            "This estimate is indicative only and does not constitute a binding quote or contract. Final pricing will be determined following a detailed discovery process and scope review.",
+        consentCheckboxLabel: "I understand this is an indicative range only",
+        consentCheckboxHelper:
+            "No data is sent automatically. Connect a Framer Form or external service separately if you need lead capture.",
+    },
+    narrative: {
+        productTitle: "Project estimate",
+        supportingLine: "Get a ballpark quote in minutes",
+        showStepList: true,
+        step1Label: "Project type",
+        step2Label: "Scope",
+        step3Label: "Timeline",
+        step4Label: "Summary",
+        backButtonLabel: "Back",
+        ariaLabel: "Project quote calculator",
+        previewImageUrl: "",
+        previewImageAlt: "Decorative preview for marketplace listing",
+    },
+    typography: {
+        titleFont: {
+            fontSize: "40px",
+            fontWeight: 400,
+            letterSpacing: "-0.04em",
+            lineHeight: "1.05em",
+            fontFamily:
+                "Georgia, 'Iowan Old Style', 'Palatino Linotype', serif",
+        },
+        labelFont: {
+            fontSize: "14px",
+            fontWeight: 500,
+            letterSpacing: "-0.01em",
+            lineHeight: "1.4em",
+            fontFamily: "Inter, system-ui, sans-serif",
+        },
+        cardFont: {
+            fontSize: "16px",
+            fontWeight: 600,
+            letterSpacing: "-0.015em",
+            lineHeight: "1.3em",
+            fontFamily: "Inter, system-ui, sans-serif",
+        },
+        inputFont: {
+            fontSize: "15px",
+            fontWeight: 400,
+            letterSpacing: "-0.005em",
+            lineHeight: "1.5em",
+            fontFamily: "Inter, system-ui, sans-serif",
+        },
+        buttonFont: {
+            fontSize: "14px",
+            fontWeight: 600,
+            letterSpacing: "-0.01em",
+            lineHeight: "1em",
+            fontFamily: "Inter, system-ui, sans-serif",
+        },
+        smallPrintFont: {
+            fontSize: "12px",
+            fontWeight: 400,
+            letterSpacing: "-0.005em",
+            lineHeight: "1.4em",
+            fontFamily: "Inter, system-ui, sans-serif",
+        },
+        titleFontSizeDesktop: 40,
+        titleFontSizeTablet: 34,
+        titleFontSizeMobile: 28,
+        labelFontSizeDesktop: 14,
+        labelFontSizeTablet: 13,
+        labelFontSizeMobile: 12,
+    },
+    colors: {
+        backgroundColor: "#0a0a0a",
+        cardBackground: "rgba(14, 13, 11, 0.72)",
+        textPrimary: "#ffffff",
+        textSecondary: "rgba(245, 240, 230, 0.55)",
+        accent: "#D4AF37",
+        border: "rgba(245, 240, 230, 0.14)",
+        moreOptions: {
+            secondaryButtonColor: "rgba(247, 244, 237, 0.08)",
+            secondaryButtonTextColor: "#F7F4ED",
+            focusRingColor: "#C9A227",
+            overlayScrimColor: "rgba(10, 10, 9, 0.85)",
+        },
+    },
+    cardStyle: {
+        showBackground: true,
+        backdropBlur: 48,
+        showShadow: true,
+        shadowIntensity: 1,
+        moreOptions: {
+            pageGlowIntensity: 1,
+            showRimHighlight: true,
+        },
+    },
+    layout: {
+        borderRadius: 8,
+        globalMaxWidth: 1200,
+        contentMinWidth: 360,
+        contentMaxWidth: 640,
+        minPageHeight: 0,
+        useRailLayout: false,
+        railWidth: 280,
+        railGap: 80,
+        collapseBreakpoint: 768,
+        mobileBreakpoint: 480,
+        tabletBreakpoint: 810,
+        desktopBreakpoint: 1440,
+        pagePaddingDesktop: 24,
+        pagePaddingTablet: 20,
+        pagePaddingMobile: 12,
+        cardPaddingDesktop: 24,
+        cardPaddingTablet: 20,
+        cardPaddingMobile: 16,
+        sectionGapDesktop: 20,
+        sectionGapTablet: 18,
+        sectionGapMobile: 14,
+        fieldGapDesktop: 16,
+        fieldGapTablet: 14,
+        fieldGapMobile: 12,
+        buttonHeightDesktop: 48,
+        buttonHeightTablet: 46,
+        buttonHeightMobile: 44,
+    },
+    motionConfig: {
+        intensity: 1,
+        moreOptions: {
+            personality: "balanced",
+            stiffness: 90,
+            damping: 18,
+            mass: 1.1,
+        },
+    },
+    submission: {
+        showAdvancedPricing: false,
+        pricing: {
+            rushMultiplierWhenChecked: 1.3,
+            intentMultiplierOverrides: [] as KeyMultiplierRow[],
+            timelineMultiplierOverrides: [] as KeyMultiplierRow[],
+        },
+        estimateDisplay: {
+            currencySymbol: "$",
+            rangeLowPercent: 0.9,
+            rangeHighPercent: 1.1,
+            showLineBreakdown: true,
+            breakdownStaggerMs: 40,
+        },
+        formulaLineItems: [
+            {
+                label: "Page design and build",
+                quantityFieldKey: "pages",
+                unitPrice: 500,
+            },
+            {
+                label: "CMS setup and integration",
+                quantityFieldKey: "cms",
+                unitPrice: 300,
+            },
+            {
+                label: "Custom interactive components",
+                quantityFieldKey: "components",
+                unitPrice: 400,
+            },
+        ],
+        successScreenCopy: {
+            screenTitle: "Indicative estimate",
+            screenSubtitle:
+                "Use this range for planning. Final pricing follows discovery and scope review.",
+            primaryButtonLabel: "Start over",
+            nextStep1Text:
+                "Share this summary with your team or client as a ballpark",
+            nextStep2Text:
+                "Add a Framer Form or CRM next to this component if you need lead capture",
+            nextStep3Text:
+                "Tune formula line items and multipliers in component settings to match your rates",
+        },
+    },
+    accessibility: {
+        announceStepChanges: true,
+        announceEstimateRange: true,
+    },
+}
+
+interface MotionSpringValues {
+    stiffness: number
+    damping: number
+    mass: number
+}
+
+/** NORMA_03 / kern-framer-motion-definitive presets (explicit values, no generic labels). */
+const MOTION_SPRING_PRESETS: Record<
+    Kern_QuoteIntakeProps["motionConfig"]["moreOptions"]["personality"],
+    MotionSpringValues
+> = {
+    calm: { stiffness: 60, damping: 20, mass: 1.2 },
+    balanced: { stiffness: 90, damping: 18, mass: 1.1 },
+    snappy: { stiffness: 120, damping: 14, mass: 0.9 },
+}
+
+const MOTION_SPRING_INSTANT: MotionSpringValues = {
+    stiffness: 10000,
+    damping: 1000,
+    mass: 0.01,
+}
+
+function resolveMotionSpring(
+    personality: Kern_QuoteIntakeProps["motionConfig"]["moreOptions"]["personality"],
+    overrides?: Partial<MotionSpringValues>
+): MotionSpringValues {
+    const base =
+        MOTION_SPRING_PRESETS[personality] ?? MOTION_SPRING_PRESETS.balanced
+    return {
+        stiffness: overrides?.stiffness ?? base.stiffness,
+        damping: overrides?.damping ?? base.damping,
+        mass: overrides?.mass ?? base.mass,
+    }
+}
+
+function clampLayoutDimension(
+    value: number,
+    floor: number,
+    ceiling: number
+): number {
+    if (!Number.isFinite(value)) return floor
+    return Math.min(ceiling, Math.max(floor, value))
+}
+
+interface QuoteContentColumnBounds {
+    width: string
+    minWidth: number
+    maxWidth: number | undefined
+}
+
+function resolveQuoteContentColumnBounds(params: {
+    showRail: boolean
+    contentMinWidth: number
+    contentMaxWidth: number
+    globalMaxWidth: number
+}): QuoteContentColumnBounds {
+    const shellMax = clampLayoutDimension(params.globalMaxWidth, 400, 1600)
+    const minW = clampLayoutDimension(params.contentMinWidth, 280, shellMax)
+    const maxW = clampLayoutDimension(params.contentMaxWidth, minW, shellMax)
+
+    if (params.showRail) {
+        return { width: "100%", minWidth: 0, maxWidth: undefined }
+    }
+
+    return { width: "100%", minWidth: minW, maxWidth: maxW }
+}
+
+function resolveQuotePageMinHeight(minPageHeight: number): number | undefined {
+    if (typeof minPageHeight === "number" && minPageHeight > 0) {
+        return clampLayoutDimension(minPageHeight, 320, 1200)
+    }
+    return undefined
+}
+
+type BreakpointTier = "mobile" | "tablet" | "desktop"
+
+function resolveBreakpointTier(
+    containerWidth: number,
+    mobileBreakpoint: number,
+    tabletBreakpoint: number
+): BreakpointTier {
+    if (containerWidth < mobileBreakpoint) return "mobile"
+    if (containerWidth < tabletBreakpoint) return "tablet"
+    return "desktop"
+}
+
+function resolveTierNumber(
+    containerWidth: number,
+    mobileBreakpoint: number,
+    tabletBreakpoint: number,
+    desktop: number,
+    tablet: number,
+    mobile: number
+): number {
+    const tier = resolveBreakpointTier(
+        containerWidth,
+        mobileBreakpoint,
+        tabletBreakpoint
+    )
+    if (tier === "mobile") return mobile
+    if (tier === "tablet") return tablet
+    return desktop
+}
+
+function resolveFluidFontSize(
+    fontSizeDesktop: number,
+    fontSizeTablet: number,
+    fontSizeMobile: number,
+    containerWidth: number,
+    mobileBreakpoint: number,
+    tabletBreakpoint: number
+): string {
+    const desktop = clampLayoutDimension(fontSizeDesktop, 10, 96)
+    const tablet = clampLayoutDimension(fontSizeTablet, 10, 96)
+    const mobile = clampLayoutDimension(fontSizeMobile, 10, 96)
+    const minSize = Math.min(mobile, tablet, desktop)
+    const maxSize = Math.max(mobile, tablet, desktop)
+    const mid = Math.round((tablet + desktop) / 2)
+    return `clamp(${minSize}px, calc(${mid}px + (100cqi - ${tabletBreakpoint}px) * 0.015), ${maxSize}px)`
+}
+
+interface QuoteEstimateEngineResult {
+    baseSubtotal: number
+    totalEstimate: number
+    lineContributions: LineContribution[]
+    intentMult: number
+    timelineMult: number
+    rushMult: number
+}
+
+function computeQuoteEstimateEngine(
+    formData: FormDataState,
+    formulaLineItems: SimpleFormulaLineItem[],
+    showAdvancedPricing: boolean,
+    intentMultiplierOverrides: KeyMultiplierRow[],
+    timelineMultiplierOverrides: KeyMultiplierRow[],
+    rushMultiplierWhenChecked: number
+): QuoteEstimateEngineResult {
+    const lineContributionsBase = formulaLineItems.map((lineItem) => {
+        const raw = formData[lineItem.quantityFieldKey]
+        const quantity =
+            typeof raw === "number"
+                ? raw
+                : typeof raw === "string"
+                  ? Number.parseFloat(raw) || 0
+                  : 0
+        const lineSubtotal = quantity * lineItem.unitPrice
+        return {
+            label: lineItem.label,
+            quantityFieldKey: lineItem.quantityFieldKey,
+            quantity,
+            unitPrice: lineItem.unitPrice,
+            lineSubtotal,
+            contributionAfterMultipliers: 0,
+        }
+    })
+
+    const baseSubtotal = lineContributionsBase.reduce(
+        (sum, line) => sum + line.lineSubtotal,
+        0
+    )
+
+    const intentKey = String(formData.intent ?? "")
+    const timelineKey = String(formData.timeline ?? "")
+
+    const lookupMult = (rows: KeyMultiplierRow[], key: string): number => {
+        const hit = rows.find((row) => row.key === key)
+        if (!hit || typeof hit.multiplier !== "number") return 1
+        return Number.isFinite(hit.multiplier) && hit.multiplier > 0
+            ? hit.multiplier
+            : 1
+    }
+
+    const intentMult = showAdvancedPricing
+        ? lookupMult(intentMultiplierOverrides, intentKey)
+        : 1
+    const timelineMult = showAdvancedPricing
+        ? lookupMult(timelineMultiplierOverrides, timelineKey)
+        : 1
+
+    const rushBase =
+        typeof rushMultiplierWhenChecked === "number" &&
+        Number.isFinite(rushMultiplierWhenChecked) &&
+        rushMultiplierWhenChecked > 0
+            ? rushMultiplierWhenChecked
+            : 1.3
+    const rushMult = formData.rush === true ? rushBase : 1
+
+    const combined = baseSubtotal * intentMult * timelineMult * rushMult
+    const totalEstimate = Math.round(combined)
+
+    let allocated = 0
+    const n = lineContributionsBase.length
+    const lineContributions: LineContribution[] =
+        baseSubtotal <= 0 || n === 0
+            ? lineContributionsBase.map((line) => ({
+                  ...line,
+                  contributionAfterMultipliers: 0,
+              }))
+            : lineContributionsBase.map((line, index) => {
+                  const isLast = index === n - 1
+                  const share = line.lineSubtotal / baseSubtotal
+                  const portion = isLast
+                      ? Math.max(0, totalEstimate - allocated)
+                      : Math.round(totalEstimate * share)
+                  if (!isLast) allocated += portion
+                  return {
+                      ...line,
+                      contributionAfterMultipliers: Math.max(0, portion),
+                  }
+              })
+
+    return {
+        baseSubtotal,
+        totalEstimate,
+        lineContributions,
+        intentMult,
+        timelineMult,
+        rushMult,
+    }
+}
+
+function validateEmailAddress(email: string): boolean {
+    return /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email)
+}
+
+function formatEstimateRange(
+    totalEstimate: number,
+    rangeLowPercent: number,
+    rangeHighPercent: number,
+    currencySymbol: string
+): { rangeLow: number; rangeHigh: number; text: string } {
+    const rangeLow = Math.round(totalEstimate * rangeLowPercent)
+    const rangeHigh = Math.round(totalEstimate * rangeHighPercent)
+    const text = `${currencySymbol}${rangeLow.toLocaleString()} – ${currencySymbol}${rangeHigh.toLocaleString()}`
+    return { rangeLow, rangeHigh, text }
+}
+
+function validateQuoteStep(
+    step: number,
+    formData: FormDataState,
+    quantityFields: QuantityField[],
+    showContactFields: boolean
+): Record<string, string | undefined> {
+    const errors: Record<string, string | undefined> = {}
+
+    if (step === 1) {
+        if (!formData.intent) {
+            errors.intent = "Select a project type to continue"
+        }
+    } else if (step === 2) {
+        for (const field of quantityFields) {
+            const value = formData[field.key]
+            if (value === undefined || value === null || value === "") {
+                errors[field.key] = "Enter a value for this field"
+            } else {
+                const n =
+                    typeof value === "number"
+                        ? value
+                        : Number.parseFloat(String(value))
+                if (Number.isNaN(n)) {
+                    errors[field.key] = "Enter a valid number"
+                } else if (n < field.min) {
+                    errors[field.key] = `Minimum value is ${field.min}`
+                } else if (n > field.max) {
+                    errors[field.key] = `Maximum value is ${field.max}`
+                }
+            }
+        }
+    } else if (step === 3) {
+        if (!formData.timeline) {
+            errors.timeline = "Select a delivery window"
+        }
+    } else if (step === 4 && showContactFields) {
+        if (!formData.email || String(formData.email).trim() === "") {
+            errors.email = "Enter your email address"
+        } else if (!validateEmailAddress(String(formData.email))) {
+            errors.email = "Enter a valid email address"
+        }
+        if (!formData.consent) {
+            errors.consent = "Confirm before continuing"
+        }
+    }
+
+    return errors
+}
+
+function mergeQuoteProps(p: Partial<Props>): Kern_QuoteIntakeProps {
+    return {
+        step1: {
+            ...DEFAULT_PROPS.step1,
+            ...p.step1,
+            intentOptions:
+                p.step1?.intentOptions ?? DEFAULT_PROPS.step1.intentOptions,
+        },
+        step2: {
+            ...DEFAULT_PROPS.step2,
+            ...p.step2,
+            quantityFields:
+                p.step2?.quantityFields ?? DEFAULT_PROPS.step2.quantityFields,
+        },
+        step3: {
+            ...DEFAULT_PROPS.step3,
+            ...p.step3,
+            timelineBucketOptions:
+                p.step3?.timelineBucketOptions ??
+                DEFAULT_PROPS.step3.timelineBucketOptions,
+        },
+        step4: { ...DEFAULT_PROPS.step4, ...p.step4 },
+        narrative: { ...DEFAULT_PROPS.narrative, ...p.narrative },
+        typography: { ...DEFAULT_PROPS.typography, ...p.typography },
+        colors: {
+            ...DEFAULT_PROPS.colors,
+            ...p.colors,
+            moreOptions: {
+                ...DEFAULT_PROPS.colors.moreOptions,
+                ...p.colors?.moreOptions,
+            },
+        },
+        cardStyle: {
+            ...DEFAULT_PROPS.cardStyle,
+            ...p.cardStyle,
+            moreOptions: {
+                ...DEFAULT_PROPS.cardStyle.moreOptions,
+                ...p.cardStyle?.moreOptions,
+            },
+        },
+        layout: { ...DEFAULT_PROPS.layout, ...p.layout },
+        motionConfig: {
+            ...DEFAULT_PROPS.motionConfig,
+            ...p.motionConfig,
+            moreOptions: {
+                ...DEFAULT_PROPS.motionConfig.moreOptions,
+                ...p.motionConfig?.moreOptions,
+            },
+        },
+        submission: {
+            ...DEFAULT_PROPS.submission,
+            ...p.submission,
+            showAdvancedPricing:
+                p.submission?.showAdvancedPricing ??
+                DEFAULT_PROPS.submission.showAdvancedPricing,
+            pricing: {
+                ...DEFAULT_PROPS.submission.pricing,
+                ...p.submission?.pricing,
+                intentMultiplierOverrides:
+                    p.submission?.pricing?.intentMultiplierOverrides ??
+                    DEFAULT_PROPS.submission.pricing.intentMultiplierOverrides,
+                timelineMultiplierOverrides:
+                    p.submission?.pricing?.timelineMultiplierOverrides ??
+                    DEFAULT_PROPS.submission.pricing
+                        .timelineMultiplierOverrides,
+            },
+            estimateDisplay: {
+                ...DEFAULT_PROPS.submission.estimateDisplay,
+                ...p.submission?.estimateDisplay,
+            },
+            formulaLineItems:
+                p.submission?.formulaLineItems ??
+                DEFAULT_PROPS.submission.formulaLineItems,
+            successScreenCopy: {
+                ...DEFAULT_PROPS.submission.successScreenCopy,
+                ...p.submission?.successScreenCopy,
+            },
+        },
+        accessibility: {
+            ...DEFAULT_PROPS.accessibility,
+            ...p.accessibility,
+        },
+    }
+}
+
+interface QuoteStepSurfaceProps {
+    colors: {
+        backgroundColor: string
+        cardBackground: string
+        textPrimary: string
+        textSecondary: string
+        border: string
+        accent: string
+        moreOptions?: {
+            secondaryButtonColor?: string
+            secondaryButtonTextColor?: string
+            focusRingColor?: string
+            overlayScrimColor?: string
+        }
+    }
+    typography: {
+        titleFont: CSSProperties
+        labelFont: CSSProperties
+        inputFont: CSSProperties
+        buttonFont: CSSProperties
+        cardFont: CSSProperties
+        smallPrintFont: CSSProperties
+    }
+    responsiveSectionGap: number
+    responsiveFieldGap: number
+    borderRadius: number
+    responsiveButtonHeight: number
+    windowWidth: number
+    isOnCanvas: boolean
+    prefersReducedMotion: boolean
+    allowMicroMotion: boolean
+    formData: FormDataState
+    validationErrors: Record<string, string | undefined>
+    attemptedNext: boolean
+    onPatchFormField: (key: string, value: FormValue) => void
+    onClearFieldError: (key: string) => void
+}
+
+interface QuoteOptionTileProps {
+    optionKey: string
+    label: string
+    helperText?: string
+    selected: boolean
+    onSelect: () => void
+    allowMicroMotion: boolean
+    colors: {
+        textPrimary: string
+        textSecondary: string
+        moreOptions?: {
+            focusRingColor?: string
+        }
+    }
+    cardFont: CSSProperties
+    borderRadius: number
+    windowWidth: number
+}
+
+function QuoteOptionTile(props: QuoteOptionTileProps) {
+    const {
+        optionKey,
+        label,
+        helperText,
+        selected,
+        onSelect,
+        allowMicroMotion,
+        colors,
+        cardFont,
+        borderRadius,
+        windowWidth,
+    } = props
+
+    const focusRingColor = colors.moreOptions?.focusRingColor ?? "#C9A227"
+
+    return (
+        <motion.button
+            type="button"
+            role="radio"
+            aria-checked={selected}
+            whileHover={allowMicroMotion ? { y: -1 } : undefined}
+            whileTap={allowMicroMotion ? { scale: 0.99 } : undefined}
+            transition={allowMicroMotion ? { duration: 0.15 } : undefined}
+            onClick={onSelect}
+            style={{
+                ...cardFont,
+                padding: windowWidth < 480 ? 14 : 16,
+                borderRadius,
+                border: `${selected ? OPTION_TILE_STYLES.selected.borderWidth : OPTION_TILE_STYLES.idle.borderWidth} solid ${selected ? OPTION_TILE_STYLES.selected.borderColor : OPTION_TILE_STYLES.idle.borderColor}`,
+                backgroundColor: selected
+                    ? OPTION_TILE_STYLES.selected.backgroundColor
+                    : OPTION_TILE_STYLES.idle.backgroundColor,
+                boxShadow: selected
+                    ? OPTION_TILE_STYLES.selected.boxShadow
+                    : "none",
+                color: colors.textPrimary,
+                cursor: "pointer",
+                textAlign: "left",
+                display: "flex",
+                flexDirection: "column",
+                gap: 8,
+                outline: `2px solid transparent`,
+                outlineOffset: 2,
+                fontWeight: selected
+                    ? Number(cardFont.fontWeight || 600) * 1.05
+                    : cardFont.fontWeight,
+            }}
+            onFocus={(e) => {
+                e.currentTarget.style.outline = `2px solid ${focusRingColor}`
+            }}
+            onBlur={(e) => {
+                e.currentTarget.style.outline = "2px solid transparent"
+            }}
+            onMouseEnter={(e) => {
+                if (allowMicroMotion && !selected) {
+                    e.currentTarget.style.borderColor =
+                        OPTION_TILE_STYLES.hover.borderColor
+                }
+            }}
+            onMouseLeave={(e) => {
+                if (!selected) {
+                    e.currentTarget.style.borderColor =
+                        OPTION_TILE_STYLES.idle.borderColor
+                }
+            }}
+        >
+            <div>{label}</div>
+            {helperText ? (
+                <div
+                    style={{
+                        fontSize: windowWidth < 480 ? "12px" : "12px",
+                        fontWeight: 400,
+                        color: colors.textSecondary,
+                        lineHeight: "1.4em",
+                    }}
+                >
+                    {helperText}
+                </div>
+            ) : null}
+        </motion.button>
+    )
+}
+
+interface QuoteStepNavProps {
+    currentStep: number
+    backButtonLabel: string
+    primaryButtonLabels: {
+        step1: string
+        step2: string
+        step3: string
+        step4: string
+    }
+    onBack: () => void
+    onNext: () => void
+    colors: {
+        accent: string
+        backgroundColor: string
+        border: string
+        moreOptions?: {
+            secondaryButtonColor?: string
+            secondaryButtonTextColor?: string
+        }
+    }
+    typography: {
+        buttonFont: CSSProperties
+    }
+    responsiveButtonHeight: number
+    responsiveFieldGap: number
+    borderRadius: number
+}
+
+function QuoteStepNav(props: QuoteStepNavProps) {
+    const {
+        currentStep,
+        backButtonLabel,
+        primaryButtonLabels,
+        onBack,
+        onNext,
+        colors,
+        typography,
+        responsiveButtonHeight,
+        responsiveFieldGap,
+        borderRadius,
+    } = props
+
+    const secondaryBg =
+        colors.moreOptions?.secondaryButtonColor ?? "rgba(247, 244, 237, 0.08)"
+    const secondaryText =
+        colors.moreOptions?.secondaryButtonTextColor ?? "#F7F4ED"
+
+    const primaryLabel =
+        currentStep === 1
+            ? primaryButtonLabels.step1
+            : currentStep === 2
+              ? primaryButtonLabels.step2
+              : currentStep === 3
+                ? primaryButtonLabels.step3
+                : primaryButtonLabels.step4
+
+    return (
+        <div
+            style={{
+                display: "flex",
+                gap: responsiveFieldGap,
+                marginTop: responsiveFieldGap * 1.25,
+            }}
+        >
+            {currentStep > 1 ? (
+                <button
+                    type="button"
+                    onClick={onBack}
+                    style={{
+                        ...typography.buttonFont,
+                        height: responsiveButtonHeight,
+                        minHeight: responsiveButtonHeight,
+                        padding: "0 24px",
+                        backgroundColor: secondaryBg,
+                        color: secondaryText,
+                        border: `1px solid ${colors.border}`,
+                        borderRadius,
+                        cursor: "pointer",
+                        opacity: 1,
+                        transition: "none",
+                    }}
+                >
+                    {backButtonLabel}
+                </button>
+            ) : null}
+            <button
+                type="button"
+                onClick={onNext}
+                style={{
+                    ...typography.buttonFont,
+                    height: responsiveButtonHeight,
+                    minHeight: responsiveButtonHeight,
+                    flex: 1,
+                    background:
+                        "linear-gradient(180deg, #C9A227 0%, #B08F1F 100%)",
+                    color: "#F7F4ED",
+                    border: "none",
+                    borderRadius,
+                    cursor: "pointer",
+                    opacity: 1,
+                    letterSpacing: "-0.015em",
+                    transition: "none",
+                }}
+                onMouseEnter={(e) => {
+                    e.currentTarget.style.filter = "brightness(1.02)"
+                }}
+                onMouseLeave={(e) => {
+                    e.currentTarget.style.filter = "brightness(1)"
+                }}
+            >
+                {primaryLabel}
+            </button>
+        </div>
+    )
+}
+
+interface QuoteStep1IntentProps extends QuoteStepSurfaceProps {
+    step1: {
+        screenTitle: string
+        screenSubtitle: string
+        primaryButtonLabel: string
+        intentOptions: IntentOption[]
+        hideSingleOptionPicker: boolean
+    }
+    intentOptions: IntentOption[]
+    stepTitleId: string
+}
+
+function QuoteStep1Intent(props: QuoteStep1IntentProps) {
+    const {
+        step1,
+        intentOptions,
+        colors,
+        typography,
+        borderRadius,
+        windowWidth,
+        allowMicroMotion,
+        formData,
+        validationErrors,
+        attemptedNext,
+        onPatchFormField,
+        onClearFieldError,
+        responsiveFieldGap,
+        responsiveSectionGap,
+        stepTitleId,
+    } = props
+
+    const { hideSingleOptionPicker } = step1
+
+    if (hideSingleOptionPicker && intentOptions.length <= 1) {
+        return null
+    }
+
+    return (
+        <div
+            role="radiogroup"
+            aria-labelledby={stepTitleId}
+            style={{
+                display: "flex",
+                flexDirection: "column",
+                gap: responsiveFieldGap,
+                marginTop: responsiveSectionGap * 0.5,
+            }}
+        >
+            {intentOptions.map((option) => (
+                <QuoteOptionTile
+                    key={option.key}
+                    optionKey={option.key}
+                    label={option.title}
+                    helperText={option.helperText}
+                    selected={formData.intent === option.key}
+                    onSelect={() => {
+                        onPatchFormField("intent", option.key)
+                        if (attemptedNext) {
+                            onClearFieldError("intent")
+                        }
+                    }}
+                    allowMicroMotion={allowMicroMotion}
+                    colors={{
+                        textPrimary: colors.textPrimary,
+                        textSecondary: colors.textSecondary,
+                    }}
+                    cardFont={typography.cardFont}
+                    borderRadius={borderRadius}
+                    windowWidth={windowWidth}
+                />
+            ))}
+            {attemptedNext && validationErrors.intent ? (
+                <div
+                    style={{
+                        ...typography.smallPrintFont,
+                        color: "#FF5588",
+                        fontSize: "12px",
+                    }}
+                >
+                    {validationErrors.intent}
+                </div>
+            ) : null}
+        </div>
+    )
+}
+
+interface QuoteStep2ScopeProps extends QuoteStepSurfaceProps {
+    quantityFields: QuantityField[]
+    quantityControlType: "stepper" | "slider"
+}
+
+function QuoteStep2Scope(props: QuoteStep2ScopeProps) {
+    const {
+        quantityFields,
+        quantityControlType,
+        colors,
+        typography,
+        borderRadius,
+        windowWidth,
+        responsiveSectionGap,
+        responsiveFieldGap,
+        formData,
+        validationErrors,
+        attemptedNext,
+        onPatchFormField,
+        onClearFieldError,
+    } = props
+
+    return (
+        <div
+            style={{
+                display: "flex",
+                flexDirection: "column",
+                gap: responsiveSectionGap,
+                marginTop: responsiveSectionGap * 0.5,
+            }}
+        >
+            {quantityFields.map((field) => (
+                <div
+                    key={field.key}
+                    style={{
+                        display: "flex",
+                        flexDirection: "column",
+                        gap: responsiveFieldGap * 0.5,
+                    }}
+                >
+                    <div
+                        style={{
+                            display: "flex",
+                            justifyContent: "space-between",
+                            alignItems: "center",
+                            gap: 12,
+                        }}
+                    >
+                        <label
+                            style={{
+                                ...typography.labelFont,
+                                color: colors.textPrimary,
+                            }}
+                        >
+                            {field.label}
+                        </label>
+                        <span
+                            style={{
+                                ...typography.labelFont,
+                                color: colors.textPrimary,
+                                fontVariantNumeric: "tabular-nums",
+                                fontWeight: 600,
+                            }}
+                        >
+                            {(formData[field.key] as number | undefined) ??
+                                field.defaultValue}
+                        </span>
+                    </div>
+                    {field.helperText ? (
+                        <div
+                            style={{
+                                ...typography.smallPrintFont,
+                                color: colors.textSecondary,
+                                fontSize:
+                                    windowWidth < 480 ? "12px" : undefined,
+                            }}
+                        >
+                            {field.helperText}
+                        </div>
+                    ) : null}
+                    {quantityControlType === "slider" ? (
+                        <div
+                            style={{
+                                position: "relative",
+                                width: "100%",
+                                minHeight: windowWidth < 480 ? 44 : 32,
+                                display: "flex",
+                                alignItems: "center",
+                            }}
+                        >
+                            <input
+                                type="range"
+                                min={field.min}
+                                max={field.max}
+                                step={field.step}
+                                value={
+                                    (formData[field.key] as
+                                        | number
+                                        | undefined) ?? field.defaultValue
+                                }
+                                onChange={(e) => {
+                                    const v = Number(e.target.value)
+                                    onPatchFormField(field.key, v)
+                                    if (attemptedNext) {
+                                        onClearFieldError(field.key)
+                                    }
+                                }}
+                                style={{
+                                    width: "100%",
+                                    height: windowWidth < 480 ? 44 : 32,
+                                    cursor: "pointer",
+                                    accentColor: colors.accent,
+                                    appearance: "none",
+                                    WebkitAppearance: "none",
+                                    background: `linear-gradient(to right, ${colors.accent} 0%, ${colors.accent} ${((((formData[field.key] as number | undefined) ?? field.defaultValue) - field.min) / (field.max - field.min)) * 100}%, ${colors.border} ${((((formData[field.key] as number | undefined) ?? field.defaultValue) - field.min) / (field.max - field.min)) * 100}%, ${colors.border} 100%)`,
+                                    borderRadius: 999,
+                                    outline: "none",
+                                }}
+                                onFocus={(e) => {
+                                    e.currentTarget.style.outline = `2px solid ${colors.moreOptions?.focusRingColor ?? colors.accent}`
+                                    e.currentTarget.style.outlineOffset = "2px"
+                                }}
+                                onBlur={(e) => {
+                                    e.currentTarget.style.outline = "none"
+                                }}
+                            />
+                            <style>
+                                {`
+                                    input[type="range"]::-webkit-slider-thumb {
+                                        appearance: none;
+                                        width: 20px;
+                                        height: 20px;
+                                        border-radius: 50%;
+                                        background: ${colors.accent};
+                                        cursor: pointer;
+                                        border: 2px solid ${colors.backgroundColor};
+                                        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+                                    }
+                                    input[type="range"]::-moz-range-thumb {
+                                        width: 20px;
+                                        height: 20px;
+                                        border-radius: 50%;
+                                        background: ${colors.accent};
+                                        cursor: pointer;
+                                        border: 2px solid ${colors.backgroundColor};
+                                        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+                                    }
+                                `}
+                            </style>
+                        </div>
+                    ) : (
+                        <input
+                            type="number"
+                            min={field.min}
+                            max={field.max}
+                            step={field.step}
+                            value={
+                                (formData[field.key] as number | undefined) ??
+                                field.defaultValue
+                            }
+                            onChange={(e) => {
+                                const v = Number(e.target.value)
+                                onPatchFormField(field.key, v)
+                                if (attemptedNext) {
+                                    onClearFieldError(field.key)
+                                }
+                            }}
+                            style={{
+                                ...typography.inputFont,
+                                padding: "12px 16px",
+                                borderRadius,
+                                border: `1px solid ${colors.border}`,
+                                backgroundColor: colors.cardBackground,
+                                color: colors.textPrimary,
+                            }}
+                        />
+                    )}
+                    {attemptedNext && validationErrors[field.key] ? (
+                        <div
+                            style={{
+                                ...typography.smallPrintFont,
+                                color: "#FF5588",
+                                fontSize: "12px",
+                            }}
+                        >
+                            {validationErrors[field.key]}
+                        </div>
+                    ) : null}
+                </div>
+            ))}
+        </div>
+    )
+}
+
+interface QuoteStep3TimelineProps extends QuoteStepSurfaceProps {
+    step3: {
+        screenTitle: string
+        screenSubtitle: string
+        primaryButtonLabel: string
+        timelineBucketLabel: string
+        timelineBucketHelper: string
+        timelineBucketOptions: TimelineOption[]
+        rushToggleLabel: string
+        rushToggleHelper: string
+    }
+    timelineBucketOptions: TimelineOption[]
+}
+
+function QuoteStep3Timeline(props: QuoteStep3TimelineProps) {
+    const {
+        step3,
+        timelineBucketOptions,
+        colors,
+        typography,
+        borderRadius,
+        windowWidth,
+        allowMicroMotion,
+        responsiveSectionGap,
+        responsiveFieldGap,
+        formData,
+        validationErrors,
+        attemptedNext,
+        onPatchFormField,
+        onClearFieldError,
+    } = props
+
+    const {
+        timelineBucketLabel,
+        timelineBucketHelper,
+        rushToggleLabel,
+        rushToggleHelper,
+    } = step3
+
+    return (
+        <div
+            style={{
+                display: "flex",
+                flexDirection: "column",
+                gap: responsiveSectionGap,
+                marginTop: responsiveSectionGap * 0.5,
+            }}
+        >
+            <div
+                style={{
+                    display: "flex",
+                    flexDirection: "column",
+                    gap: responsiveFieldGap * 0.5,
+                }}
+            >
+                <label
+                    style={{
+                        ...typography.labelFont,
+                        color: colors.textPrimary,
+                    }}
+                >
+                    {timelineBucketLabel}
+                </label>
+                {timelineBucketHelper ? (
+                    <div
+                        style={{
+                            ...typography.smallPrintFont,
+                            color: colors.textSecondary,
+                            fontSize: windowWidth < 480 ? "12px" : undefined,
+                        }}
+                    >
+                        {timelineBucketHelper}
+                    </div>
+                ) : null}
+                <div
+                    style={{
+                        display: "flex",
+                        flexDirection: "column",
+                        gap: responsiveFieldGap,
+                    }}
+                >
+                    {timelineBucketOptions.map((option) => (
+                        <QuoteOptionTile
+                            key={option.key}
+                            optionKey={option.key}
+                            label={option.label}
+                            selected={formData.timeline === option.key}
+                            onSelect={() => {
+                                onPatchFormField("timeline", option.key)
+                                if (attemptedNext) {
+                                    onClearFieldError("timeline")
+                                }
+                            }}
+                            allowMicroMotion={allowMicroMotion}
+                            colors={{
+                                textPrimary: colors.textPrimary,
+                                textSecondary: colors.textSecondary,
+                            }}
+                            cardFont={typography.cardFont}
+                            borderRadius={borderRadius}
+                            windowWidth={windowWidth}
+                        />
+                    ))}
+                </div>
+                {attemptedNext && validationErrors.timeline ? (
+                    <div
+                        style={{
+                            ...typography.smallPrintFont,
+                            color: "#FF5588",
+                            fontSize: "12px",
+                        }}
+                    >
+                        {validationErrors.timeline}
+                    </div>
+                ) : null}
+            </div>
+            <div
+                style={{
+                    display: "flex",
+                    flexDirection: "column",
+                    gap: responsiveFieldGap * 0.5,
+                }}
+            >
+                <label
+                    style={{
+                        display: "flex",
+                        alignItems: "center",
+                        gap: 12,
+                        cursor: "pointer",
+                    }}
+                >
+                    <input
+                        type="checkbox"
+                        checked={Boolean(formData.rush)}
+                        onChange={(e) => {
+                            onPatchFormField("rush", e.target.checked)
+                        }}
+                        style={{
+                            width: 18,
+                            height: 18,
+                            cursor: "pointer",
+                            accentColor: colors.accent,
+                        }}
+                    />
+                    <span
+                        style={{
+                            ...typography.labelFont,
+                            color: colors.textPrimary,
+                        }}
+                    >
+                        {rushToggleLabel}
+                    </span>
+                </label>
+                {rushToggleHelper ? (
+                    <div
+                        style={{
+                            ...typography.smallPrintFont,
+                            color: colors.textSecondary,
+                            fontSize: windowWidth < 480 ? "12px" : undefined,
+                            paddingLeft: 30,
+                        }}
+                    >
+                        {rushToggleHelper}
+                    </div>
+                ) : null}
+            </div>
+        </div>
+    )
+}
+
+interface QuoteStep4ContactProps extends QuoteStepSurfaceProps {
+    step4: {
+        screenTitle: string
+        screenSubtitle: string
+        primaryButtonLabel: string
+        submittingButtonLabel: string
+        emailLabel: string
+        emailHelper: string
+        noteLabel: string
+        noteHelper: string
+        disclaimerText: string
+        consentCheckboxLabel: string
+        consentCheckboxHelper: string
+    }
+}
+
+function QuoteStep4Contact(props: QuoteStep4ContactProps) {
+    const {
+        step4,
+        colors,
+        typography,
+        borderRadius,
+        windowWidth,
+        responsiveSectionGap,
+        responsiveFieldGap,
+        formData,
+        validationErrors,
+        attemptedNext,
+        onPatchFormField,
+        onClearFieldError,
+    } = props
+
+    const {
+        emailLabel,
+        emailHelper,
+        noteLabel,
+        noteHelper,
+        disclaimerText,
+        consentCheckboxLabel,
+        consentCheckboxHelper,
+    } = step4
+
+    const focusRingColor = colors.moreOptions?.focusRingColor ?? "#C9A227"
+
+    const inputBaseStyle: CSSProperties = {
+        ...typography.inputFont,
+        padding: "12px 16px",
+        borderRadius,
+        border: `1px solid rgba(247, 244, 237, 0.25)`,
+        backgroundColor: "rgba(0, 0, 0, 0.25)",
+        color: colors.textPrimary,
+        boxShadow: "inset 0 1px 2px rgba(0, 0, 0, 0.35)",
+        outline: "none",
+        transition: "border-color 0.2s ease, box-shadow 0.2s ease",
+    }
+
+    return (
+        <div
+            style={{
+                display: "flex",
+                flexDirection: "column",
+                gap: responsiveSectionGap,
+                marginTop: responsiveSectionGap * 0.5,
+            }}
+        >
+            <div
+                style={{
+                    display: "flex",
+                    flexDirection: "column",
+                    gap: responsiveFieldGap * 0.5,
+                }}
+            >
+                <label
+                    style={{
+                        ...typography.labelFont,
+                        color: colors.textPrimary,
+                    }}
+                >
+                    {emailLabel}
+                </label>
+                {emailHelper ? (
+                    <div
+                        style={{
+                            ...typography.smallPrintFont,
+                            color: colors.textSecondary,
+                            fontSize: windowWidth < 480 ? "12px" : undefined,
+                        }}
+                    >
+                        {emailHelper}
+                    </div>
+                ) : null}
+                <input
+                    type="email"
+                    value={String(formData.email ?? "")}
+                    onChange={(e) => {
+                        onPatchFormField("email", e.target.value)
+                        if (attemptedNext) {
+                            onClearFieldError("email")
+                        }
+                    }}
+                    placeholder="your@email.com"
+                    autoComplete="email"
+                    style={{
+                        ...inputBaseStyle,
+                        fontSize:
+                            windowWidth < 480
+                                ? "16px"
+                                : typography.inputFont.fontSize,
+                    }}
+                    onFocus={(e) => {
+                        e.currentTarget.style.borderColor = focusRingColor
+                        e.currentTarget.style.boxShadow = `inset 0 1px 2px rgba(0, 0, 0, 0.35), 0 0 0 2px ${focusRingColor}`
+                    }}
+                    onBlur={(e) => {
+                        e.currentTarget.style.borderColor =
+                            "rgba(247, 244, 237, 0.25)"
+                        e.currentTarget.style.boxShadow =
+                            "inset 0 1px 2px rgba(0, 0, 0, 0.35)"
+                    }}
+                />
+                {attemptedNext && validationErrors.email ? (
+                    <div
+                        style={{
+                            ...typography.smallPrintFont,
+                            color: "#FF5588",
+                            fontSize: "12px",
+                        }}
+                    >
+                        {validationErrors.email}
+                    </div>
+                ) : null}
+            </div>
+            <div
+                style={{
+                    display: "flex",
+                    flexDirection: "column",
+                    gap: responsiveFieldGap * 0.5,
+                }}
+            >
+                <label
+                    style={{
+                        ...typography.labelFont,
+                        color: colors.textPrimary,
+                    }}
+                >
+                    {noteLabel}
+                </label>
+                {noteHelper ? (
+                    <div
+                        style={{
+                            ...typography.smallPrintFont,
+                            color: colors.textSecondary,
+                            fontSize: windowWidth < 480 ? "12px" : undefined,
+                        }}
+                    >
+                        {noteHelper}
+                    </div>
+                ) : null}
+                <textarea
+                    value={String(formData.note ?? "")}
+                    onChange={(e) => {
+                        onPatchFormField("note", e.target.value)
+                    }}
+                    placeholder="Any additional details..."
+                    rows={4}
+                    style={{
+                        ...inputBaseStyle,
+                        resize: "vertical",
+                    }}
+                    onFocus={(e) => {
+                        e.currentTarget.style.borderColor = focusRingColor
+                        e.currentTarget.style.boxShadow = `inset 0 1px 2px rgba(0, 0, 0, 0.35), 0 0 0 2px ${focusRingColor}`
+                    }}
+                    onBlur={(e) => {
+                        e.currentTarget.style.borderColor =
+                            "rgba(247, 244, 237, 0.25)"
+                        e.currentTarget.style.boxShadow =
+                            "inset 0 1px 2px rgba(0, 0, 0, 0.35)"
+                    }}
+                />
+            </div>
+            <div
+                style={{
+                    ...typography.smallPrintFont,
+                    color: colors.textSecondary,
+                    opacity: 0.75,
+                    maxWidth: "40em",
+                    lineHeight: "1.5em",
+                    fontSize: windowWidth < 480 ? "12px" : undefined,
+                }}
+            >
+                {disclaimerText}
+            </div>
+            <div
+                style={{
+                    display: "flex",
+                    flexDirection: "column",
+                    gap: responsiveFieldGap * 0.5,
+                }}
+            >
+                <label
+                    style={{
+                        display: "flex",
+                        alignItems: "flex-start",
+                        gap: 12,
+                        cursor: "pointer",
+                        ...typography.smallPrintFont,
+                        color: colors.textPrimary,
+                    }}
+                >
+                    <input
+                        type="checkbox"
+                        checked={Boolean(formData.consent)}
+                        onChange={(e) => {
+                            onPatchFormField("consent", e.target.checked)
+                            if (attemptedNext) {
+                                onClearFieldError("consent")
+                            }
+                        }}
+                        style={{
+                            width: 18,
+                            height: 18,
+                            flexShrink: 0,
+                            marginTop: 2,
+                            cursor: "pointer",
+                            accentColor: colors.accent,
+                        }}
+                    />
+                    <span style={{ flex: 1 }}>{consentCheckboxLabel}</span>
+                </label>
+                {consentCheckboxHelper ? (
+                    <div
+                        style={{
+                            ...typography.smallPrintFont,
+                            color: colors.textSecondary,
+                            opacity: 0.75,
+                            fontSize: windowWidth < 480 ? "11px" : "12px",
+                            paddingLeft: 30,
+                        }}
+                    >
+                        {consentCheckboxHelper}
+                    </div>
+                ) : null}
+                {attemptedNext && validationErrors.consent ? (
+                    <div
+                        style={{
+                            ...typography.smallPrintFont,
+                            color: "#FF5588",
+                            fontSize: "12px",
+                            paddingLeft: 30,
+                        }}
+                    >
+                        {validationErrors.consent}
+                    </div>
+                ) : null}
+            </div>
+        </div>
+    )
+}
+
+interface QuoteAnimatedEstimateProps {
+    totalEstimate: number
+    rangeLowPercent: number
+    rangeHighPercent: number
+    currencySymbol: string
+    isOnCanvas: boolean
+    prefersReducedMotion: boolean
+    springConfig: {
+        stiffness: number
+        damping: number
+        mass: number
+    }
+    windowWidth: number
+    textColor: string
+    estimateFont: CSSProperties
+    variant: "compact" | "hero"
+}
+
+function QuoteAnimatedEstimate(props: QuoteAnimatedEstimateProps) {
+    const {
+        totalEstimate,
+        rangeLowPercent,
+        rangeHighPercent,
+        currencySymbol,
+        isOnCanvas,
+        prefersReducedMotion,
+        springConfig,
+        windowWidth,
+        textColor,
+        estimateFont,
+        variant,
+    } = props
+
+    const totalTarget = useMotionValue(0)
+    const totalSpring = useSpring(totalTarget, springConfig)
+
+    const [smoothedTotal, setSmoothedTotal] = useState(totalEstimate)
+
+    useLayoutEffect(() => {
+        totalTarget.set(totalEstimate)
+    }, [totalEstimate, totalTarget])
+
+    useMotionValueEvent(totalSpring, "change", (v) => {
+        if (!isOnCanvas && !prefersReducedMotion) {
+            startTransition(() => {
+                setSmoothedTotal(Math.round(v))
+            })
+        }
+    })
+
+    useLayoutEffect(() => {
+        if (isOnCanvas || prefersReducedMotion) {
+            startTransition(() => {
+                setSmoothedTotal(totalEstimate)
+            })
+        }
+    }, [isOnCanvas, prefersReducedMotion, totalEstimate])
+
+    const displayTotal =
+        isOnCanvas || prefersReducedMotion ? totalEstimate : smoothedTotal
+
+    const { text: rangeText } = formatEstimateRange(
+        displayTotal,
+        rangeLowPercent,
+        rangeHighPercent,
+        currencySymbol
+    )
+
+    const isCompact = variant === "compact"
+
+    return (
+        <motion.span
+            aria-live="polite"
+            aria-atomic="true"
+            style={{
+                ...estimateFont,
+                color: textColor,
+                fontVariantNumeric: "tabular-nums",
+                letterSpacing: "-0.02em",
+                lineHeight: "1.15em",
+                display: "block",
+                willChange:
+                    isOnCanvas || prefersReducedMotion
+                        ? "auto"
+                        : "transform, opacity",
+                ...(isCompact
+                    ? {
+                          fontSize: windowWidth < 480 ? "13px" : "15px",
+                          fontWeight: 600,
+                          whiteSpace: "nowrap",
+                          overflow: "hidden",
+                          textOverflow: "ellipsis",
+                          maxWidth: "100%",
+                          textAlign: "right",
+                          marginTop: 0,
+                      }
+                    : {
+                          fontSize:
+                              windowWidth < 480
+                                  ? "22px"
+                                  : windowWidth < 720
+                                    ? "26px"
+                                    : "30px",
+                          fontWeight: 600,
+                          marginTop: 4,
+                          wordBreak: "break-word",
+                      }),
+            }}
+        >
+            {rangeText}
+        </motion.span>
+    )
+}
+
+interface QuoteStep4ReviewFooterProps {
+    lineContributions: LineContribution[]
+    showLineBreakdown: boolean
+    breakdownStaggerSec: number
+    totalEstimate: number
+    rangeLowPercent: number
+    rangeHighPercent: number
+    currencySymbol: string
+    isOnCanvas: boolean
+    prefersReducedMotion: boolean
+    springConfig: {
+        stiffness: number
+        damping: number
+        mass: number
+    }
+    colors: {
+        textPrimary: string
+        textSecondary: string
+    }
+    typography: {
+        smallPrintFont: CSSProperties
+        labelFont: CSSProperties
+    }
+    windowWidth: number
+    responsiveSectionGap: number
+    responsiveFieldGap: number
+    intentOptions: IntentOption[]
+    quantityFields: QuantityField[]
+    formData: FormDataState
+}
+
+function QuoteStep4ReviewFooter(props: QuoteStep4ReviewFooterProps) {
+    const {
+        lineContributions,
+        showLineBreakdown,
+        breakdownStaggerSec,
+        totalEstimate,
+        rangeLowPercent,
+        rangeHighPercent,
+        currencySymbol,
+        isOnCanvas,
+        prefersReducedMotion,
+        springConfig,
+        colors,
+        typography,
+        windowWidth,
+        responsiveSectionGap,
+        responsiveFieldGap,
+        intentOptions,
+        quantityFields,
+        formData,
+    } = props
+
+    return (
+        <div
+            style={{
+                display: "flex",
+                flexDirection: "column",
+                gap: responsiveSectionGap,
+                marginTop: responsiveSectionGap * 0.75,
+            }}
+        >
+            {/* Selection recap — visually quieter */}
+            <div
+                style={{
+                    display: "flex",
+                    flexDirection: "column",
+                    gap: responsiveFieldGap * 0.5,
+                }}
+            >
+                <div
+                    style={{
+                        ...typography.smallPrintFont,
+                        color: colors.textSecondary,
+                        textTransform: "uppercase",
+                        letterSpacing: "0.15em",
+                        fontSize: windowWidth < 480 ? "9px" : "10px",
+                        opacity: 0.5,
+                    }}
+                >
+                    Selection recap
+                </div>
+                {intentOptions
+                    .filter((o) => o.key === formData.intent)
+                    .map((o) => (
+                        <div
+                            key="intent-row"
+                            style={{
+                                display: "flex",
+                                justifyContent: "space-between",
+                                gap: 12,
+                                ...typography.smallPrintFont,
+                                color: colors.textSecondary,
+                                fontSize: windowWidth < 480 ? "11px" : "12px",
+                                opacity: 0.6,
+                                flexWrap: "wrap",
+                            }}
+                        >
+                            <span>Project type</span>
+                            <span style={{ fontWeight: 500 }}>{o.title}</span>
+                        </div>
+                    ))}
+                {quantityFields.map((field) => (
+                    <div
+                        key={field.key}
+                        style={{
+                            display: "flex",
+                            justifyContent: "space-between",
+                            gap: 12,
+                            ...typography.smallPrintFont,
+                            color: colors.textSecondary,
+                            fontSize: windowWidth < 480 ? "11px" : "12px",
+                            opacity: 0.6,
+                            flexWrap: "wrap",
+                        }}
+                    >
+                        <span>{field.label}</span>
+                        <span style={{ fontWeight: 500 }}>
+                            {String(formData[field.key] ?? field.defaultValue)}
+                        </span>
+                    </div>
+                ))}
+            </div>
+
+            {/* Indicative project cost - visual hero */}
+            <div
+                style={{
+                    display: "flex",
+                    flexDirection: "column",
+                    gap: responsiveFieldGap * 1.25,
+                    paddingTop: responsiveSectionGap * 1.25,
+                    borderTop: `1px solid ${colors.textSecondary}`,
+                    opacity: 0.18,
+                }}
+            >
+                <div
+                    style={{
+                        ...typography.smallPrintFont,
+                        color: colors.textSecondary,
+                        textTransform: "uppercase",
+                        letterSpacing: "0.08em",
+                        fontSize: windowWidth < 480 ? "11px" : "12px",
+                        opacity: 0.75,
+                    }}
+                >
+                    Indicative project cost
+                </div>
+                <QuoteAnimatedEstimate
+                    totalEstimate={totalEstimate}
+                    rangeLowPercent={rangeLowPercent}
+                    rangeHighPercent={rangeHighPercent}
+                    currencySymbol={currencySymbol}
+                    isOnCanvas={isOnCanvas}
+                    prefersReducedMotion={prefersReducedMotion}
+                    springConfig={springConfig}
+                    windowWidth={windowWidth}
+                    textColor={colors.textPrimary}
+                    estimateFont={typography.labelFont}
+                    variant="hero"
+                />
+                <div
+                    style={{
+                        ...typography.smallPrintFont,
+                        color: colors.textSecondary,
+                        opacity: 0.6,
+                        maxWidth: "34em",
+                        lineHeight: "1.5em",
+                        fontSize: windowWidth < 480 ? "11px" : "12px",
+                    }}
+                >
+                    Based on the scope you described. Final pricing depends on
+                    discovery.
+                </div>
+
+                {/* Line breakdown - secondary */}
+                {showLineBreakdown ? (
+                    <div
+                        style={{
+                            display: "flex",
+                            flexDirection: "column",
+                            gap: responsiveFieldGap * 0.35,
+                            marginTop: responsiveFieldGap * 0.75,
+                        }}
+                    >
+                        <div
+                            style={{
+                                ...typography.smallPrintFont,
+                                color: colors.textSecondary,
+                                textTransform: "uppercase",
+                                letterSpacing: "0.08em",
+                                fontSize: windowWidth < 480 ? "9px" : "10px",
+                                opacity: 0.45,
+                            }}
+                        >
+                            Line breakdown
+                        </div>
+                        {lineContributions.map((line, index) =>
+                            isOnCanvas || prefersReducedMotion ? (
+                                <div
+                                    key={line.quantityFieldKey}
+                                    style={{
+                                        display: "flex",
+                                        justifyContent: "space-between",
+                                        gap: 12,
+                                        ...typography.smallPrintFont,
+                                        color: colors.textSecondary,
+                                        fontSize:
+                                            windowWidth < 480 ? "11px" : "12px",
+                                        opacity: 0.55,
+                                        flexWrap: "wrap",
+                                    }}
+                                >
+                                    <span>{line.label}</span>
+                                    <span
+                                        style={{
+                                            fontWeight: 500,
+                                            fontVariantNumeric: "tabular-nums",
+                                        }}
+                                    >
+                                        {currencySymbol}
+                                        {line.contributionAfterMultipliers.toLocaleString()}
+                                    </span>
+                                </div>
+                            ) : (
+                                <motion.div
+                                    key={line.quantityFieldKey}
+                                    initial={{ opacity: 0, x: -8 }}
+                                    animate={{ opacity: 1, x: 0 }}
+                                    transition={{
+                                        delay: index * breakdownStaggerSec,
+                                        duration: 0.28,
+                                        ease: [0.22, 1, 0.36, 1],
+                                    }}
+                                    style={{
+                                        display: "flex",
+                                        justifyContent: "space-between",
+                                        gap: 12,
+                                        ...typography.smallPrintFont,
+                                        color: colors.textSecondary,
+                                        fontSize:
+                                            windowWidth < 480 ? "11px" : "12px",
+                                        opacity: 0.55,
+                                        flexWrap: "wrap",
+                                    }}
+                                >
+                                    <span>{line.label}</span>
+                                    <span
+                                        style={{
+                                            fontWeight: 500,
+                                            fontVariantNumeric: "tabular-nums",
+                                        }}
+                                    >
+                                        {currencySymbol}
+                                        {line.contributionAfterMultipliers.toLocaleString()}
+                                    </span>
+                                </motion.div>
+                            )
+                        )}
+                    </div>
+                ) : null}
+            </div>
+        </div>
+    )
+}
+
+interface QuoteSuccessPanelProps {
+    successScreenCopy: {
+        screenTitle: string
+        screenSubtitle: string
+        primaryButtonLabel: string
+        nextStep1Text?: string
+        nextStep2Text?: string
+        nextStep3Text?: string
+    }
+    totalEstimate: number
+    rangeLowPercent: number
+    rangeHighPercent: number
+    currencySymbol: string
+    isOnCanvas: boolean
+    prefersReducedMotion: boolean
+    springConfig: {
+        stiffness: number
+        damping: number
+        mass: number
+    }
+    colors: {
+        backgroundColor: string
+        textPrimary: string
+        textSecondary: string
+        accent: string
+    }
+    typography: {
+        titleFont: CSSProperties
+        labelFont: CSSProperties
+        buttonFont: CSSProperties
+        smallPrintFont: CSSProperties
+    }
+    estimateFont: CSSProperties
+    windowWidth: number
+    responsiveSectionGap: number
+    responsiveFieldGap: number
+    responsiveButtonHeight: number
+    borderRadius: number
+    onReset: () => void
+}
+
+function QuoteSuccessPanel(props: QuoteSuccessPanelProps) {
+    const {
+        successScreenCopy,
+        totalEstimate,
+        rangeLowPercent,
+        rangeHighPercent,
+        currencySymbol,
+        isOnCanvas,
+        prefersReducedMotion,
+        springConfig,
+        colors,
+        typography,
+        windowWidth,
+        responsiveSectionGap,
+        responsiveFieldGap,
+        responsiveButtonHeight,
+        borderRadius,
+        onReset,
+        estimateFont,
+    } = props
+
+    const successSpring = useMemo(() => {
+        if (isOnCanvas || prefersReducedMotion) {
+            return { duration: 0 }
+        }
+        const spring = MOTION_SPRING_PRESETS.calm
+        return {
+            type: "spring" as const,
+            stiffness: spring.stiffness,
+            damping: spring.damping,
+            mass: spring.mass,
+        }
+    }, [isOnCanvas, prefersReducedMotion])
+
+    const shouldAnimate = !isOnCanvas && !prefersReducedMotion
+
+    return (
+        <div
+            style={{
+                display: "flex",
+                flexDirection: "column",
+                gap: responsiveSectionGap * 1.5,
+            }}
+        >
+            <motion.div
+                initial={
+                    shouldAnimate ? { opacity: 0, y: 12 } : { opacity: 1, y: 0 }
+                }
+                animate={{ opacity: 1, y: 0 }}
+                transition={
+                    shouldAnimate
+                        ? { ...successSpring, delay: 0 }
+                        : { duration: 0 }
+                }
+                style={{
+                    ...typography.titleFont,
+                    color: colors.textPrimary,
+                    fontSize: windowWidth < 480 ? "24px" : undefined,
+                    lineHeight: "1.15em",
+                }}
+            >
+                {successScreenCopy.screenTitle}
+            </motion.div>
+            <motion.div
+                initial={
+                    shouldAnimate ? { opacity: 0, y: 12 } : { opacity: 1, y: 0 }
+                }
+                animate={{ opacity: 1, y: 0 }}
+                transition={
+                    shouldAnimate
+                        ? { ...successSpring, delay: 0.08 }
+                        : { duration: 0 }
+                }
+                style={{
+                    ...typography.labelFont,
+                    color: colors.textSecondary,
+                }}
+            >
+                {successScreenCopy.screenSubtitle}
+            </motion.div>
+            <motion.div
+                initial={
+                    shouldAnimate ? { opacity: 0, y: 12 } : { opacity: 1, y: 0 }
+                }
+                animate={{ opacity: 1, y: 0 }}
+                transition={
+                    shouldAnimate
+                        ? { ...successSpring, delay: 0.14 }
+                        : { duration: 0 }
+                }
+                style={{
+                    display: "flex",
+                    flexDirection: "column",
+                    gap: responsiveFieldGap * 0.75,
+                    paddingTop: responsiveSectionGap * 1.5,
+                    paddingBottom: responsiveSectionGap * 0.5,
+                    borderTop: `1px solid ${colors.textSecondary}`,
+                    borderBottom: `1px solid ${colors.textSecondary}`,
+                    opacity: 0.18,
+                }}
+            >
+                <div
+                    style={{
+                        ...typography.smallPrintFont,
+                        color: colors.textSecondary,
+                        textTransform: "uppercase",
+                        letterSpacing: "0.08em",
+                        fontSize: windowWidth < 480 ? "11px" : "12px",
+                        opacity: 0.75,
+                    }}
+                >
+                    Indicative range
+                </div>
+                <QuoteAnimatedEstimate
+                    totalEstimate={totalEstimate}
+                    rangeLowPercent={rangeLowPercent}
+                    rangeHighPercent={rangeHighPercent}
+                    currencySymbol={currencySymbol}
+                    isOnCanvas={isOnCanvas}
+                    prefersReducedMotion={prefersReducedMotion}
+                    springConfig={springConfig}
+                    windowWidth={windowWidth}
+                    textColor={colors.textPrimary}
+                    estimateFont={estimateFont}
+                    variant="hero"
+                />
+            </motion.div>
+            <motion.div
+                initial={
+                    shouldAnimate ? { opacity: 0, y: 12 } : { opacity: 1, y: 0 }
+                }
+                animate={{ opacity: 1, y: 0 }}
+                transition={
+                    shouldAnimate
+                        ? { ...successSpring, delay: 0.2 }
+                        : { duration: 0 }
+                }
+                style={{
+                    display: "flex",
+                    flexDirection: "column",
+                    gap: responsiveFieldGap,
+                }}
+            >
+                {successScreenCopy.nextStep1Text ? (
+                    <div
+                        style={{
+                            ...typography.smallPrintFont,
+                            color: colors.textPrimary,
+                            display: "flex",
+                            gap: 12,
+                            alignItems: "flex-start",
+                        }}
+                    >
+                        <span style={{ color: colors.accent }}>→</span>
+                        <span>{successScreenCopy.nextStep1Text}</span>
+                    </div>
+                ) : null}
+                {successScreenCopy.nextStep2Text ? (
+                    <div
+                        style={{
+                            ...typography.smallPrintFont,
+                            color: colors.textPrimary,
+                            display: "flex",
+                            gap: 12,
+                            alignItems: "flex-start",
+                        }}
+                    >
+                        <span style={{ color: colors.accent }}>→</span>
+                        <span>{successScreenCopy.nextStep2Text}</span>
+                    </div>
+                ) : null}
+                {successScreenCopy.nextStep3Text ? (
+                    <div
+                        style={{
+                            ...typography.smallPrintFont,
+                            color: colors.textPrimary,
+                            display: "flex",
+                            gap: 12,
+                            alignItems: "flex-start",
+                        }}
+                    >
+                        <span style={{ color: colors.accent }}>→</span>
+                        <span>{successScreenCopy.nextStep3Text}</span>
+                    </div>
+                ) : null}
+            </motion.div>
+            <motion.button
+                type="button"
+                initial={
+                    shouldAnimate ? { opacity: 0, y: 12 } : { opacity: 1, y: 0 }
+                }
+                animate={{ opacity: 1, y: 0 }}
+                transition={
+                    shouldAnimate
+                        ? { ...successSpring, delay: 0.28 }
+                        : { duration: 0 }
+                }
+                style={{
+                    ...typography.buttonFont,
+                    height: responsiveButtonHeight,
+                    background:
+                        "linear-gradient(180deg, #C9A227 0%, #B08F1F 100%)",
+                    color: "#F7F4ED",
+                    border: "none",
+                    borderRadius,
+                    cursor: "pointer",
+                    marginTop: responsiveSectionGap,
+                    letterSpacing: "-0.015em",
+                }}
+                onClick={onReset}
+                onMouseEnter={(e) => {
+                    e.currentTarget.style.filter = "brightness(1.02)"
+                }}
+                onMouseLeave={(e) => {
+                    e.currentTarget.style.filter = "brightness(1)"
+                }}
+            >
+                {successScreenCopy.primaryButtonLabel}
+            </motion.button>
+        </div>
+    )
+}
+
+interface QuoteCardFrameProps {
+    showBackground: boolean
+    backdropBlur: number
+    showShadow: boolean
+    shadowIntensity: number
+    cardBackground: string
+    border: string
+    borderRadius: number
+    responsiveCardPadding: number
+    children: React.ReactNode
+}
+
+function QuoteCardFrame(props: QuoteCardFrameProps) {
+    const {
+        showBackground,
+        backdropBlur,
+        showShadow,
+        shadowIntensity,
+        cardBackground,
+        border,
+        borderRadius,
+        responsiveCardPadding,
+        children,
+    } = props
+
+    const boxShadow = useMemo(() => {
+        if (!showShadow) return "none"
+        const intensity = shadowIntensity
+        return `0 ${16 * intensity}px ${48 * intensity}px rgba(0, 0, 0, ${0.18 * intensity}), 0 ${4 * intensity}px ${12 * intensity}px rgba(0, 0, 0, ${0.12 * intensity})`
+    }, [showShadow, shadowIntensity])
+
+    return (
+        <div
+            style={{
+                width: "100%",
+                minWidth: 0,
+                backgroundColor: showBackground
+                    ? cardBackground
+                    : "transparent",
+                padding: responsiveCardPadding,
+                borderRadius,
+                border: showBackground ? `1px solid ${border}` : "none",
+                backdropFilter:
+                    backdropBlur > 0 ? `blur(${backdropBlur}px)` : "none",
+                WebkitBackdropFilter:
+                    backdropBlur > 0 ? `blur(${backdropBlur}px)` : "none",
+                boxShadow: showBackground
+                    ? `inset 1px 1px 0 rgba(247, 244, 237, 0.15), ${boxShadow}`
+                    : boxShadow,
+            }}
+        >
+            {children}
+        </div>
+    )
+}
+
+export default function Kern_QuoteIntake(p: Partial<Props>) {
+    const props = useMemo(() => mergeQuoteProps(p), [p])
+    const {
+        style,
+        step1,
+        step2,
+        step3,
+        step4,
+        narrative,
+        typography,
+        colors,
+        cardStyle,
+        layout,
+        motionConfig,
+        submission,
+        accessibility,
+    } = props
+
+    const { intentOptions, hideSingleOptionPicker } = step1
+    const { quantityFields, quantityControlType } = step2
+    const {
+        timelineBucketLabel,
+        timelineBucketHelper,
+        timelineBucketOptions,
+        rushToggleLabel,
+        rushToggleHelper,
+    } = step3
+    const {
+        emailLabel,
+        emailHelper,
+        noteLabel,
+        noteHelper,
+        disclaimerText,
+        consentCheckboxLabel,
+        consentCheckboxHelper,
+        primaryButtonLabel: step4PrimaryLabel,
+        showContactFields,
+    } = step4
+    const {
+        borderRadius,
+        globalMaxWidth,
+        contentMinWidth,
+        contentMaxWidth,
+        minPageHeight,
+        useRailLayout,
+        railWidth,
+        railGap,
+        collapseBreakpoint,
+        mobileBreakpoint,
+        tabletBreakpoint,
+        pagePaddingDesktop,
+        pagePaddingTablet,
+        pagePaddingMobile,
+        cardPaddingDesktop,
+        cardPaddingTablet,
+        cardPaddingMobile,
+        sectionGapDesktop,
+        sectionGapTablet,
+        sectionGapMobile,
+        fieldGapDesktop,
+        fieldGapTablet,
+        fieldGapMobile,
+        buttonHeightDesktop,
+        buttonHeightTablet,
+        buttonHeightMobile,
+    } = layout
+
+    const {
+        formulaLineItems,
+        showAdvancedPricing,
+        pricing,
+        estimateDisplay,
+        successScreenCopy,
+    } = submission
+    const {
+        rushMultiplierWhenChecked,
+        intentMultiplierOverrides,
+        timelineMultiplierOverrides,
+    } = pricing
+    const { announceStepChanges, announceEstimateRange } = accessibility
+    const { backButtonLabel, ariaLabel, previewImageUrl, previewImageAlt } =
+        narrative
+
+    const isOnCanvas = useIsOnFramerCanvas()
+    const prefersReducedMotion = useReducedMotion() ?? false
+
+    const [currentStep, setCurrentStep] = useState(1)
+    const [formData, setFormData] = useState<FormDataState>({})
+    const rootRef = useRef<HTMLDivElement | null>(null)
+    const [containerWidth, setContainerWidth] = useState(1024)
+    const [isSubmitted, setIsSubmitted] = useState(false)
+    const [validationErrors, setValidationErrors] = useState<
+        Record<string, string | undefined>
+    >({})
+    const [attemptedNext, setAttemptedNext] = useState(false)
+    const stepBodyRef = useRef<HTMLDivElement | null>(null)
+    const stepHeadingRef = useRef<HTMLDivElement | null>(null)
+    const skipStepFocusRef = useRef<boolean>(true)
+    const isStepBodyInView = useInView(stepBodyRef, {
+        amount: 0.15,
+        once: false,
+    })
+
+    useLayoutEffect(() => {
+        if (skipStepFocusRef.current) {
+            skipStepFocusRef.current = false
+            return
+        }
+        if (isOnCanvas || isSubmitted) return
+        const id = requestAnimationFrame(() => {
+            stepHeadingRef.current?.focus()
+        })
+        return () => cancelAnimationFrame(id)
+    }, [currentStep, isOnCanvas, isSubmitted])
+
+    useLayoutEffect(() => {
+        const root = rootRef.current
+        if (!root || typeof ResizeObserver === "undefined") return
+
+        const measure = () => {
+            const width = root.getBoundingClientRect().width
+            if (width > 0) {
+                startTransition(() => setContainerWidth(width))
+            }
+        }
+
+        measure()
+        const observer = new ResizeObserver(() => measure())
+        observer.observe(root)
+        return () => observer.disconnect()
+    }, [])
+
+    useEffect(() => {
+        startTransition(() => {
+            setFormData((prev) => {
+                const next = { ...prev }
+                for (const field of quantityFields) {
+                    if (next[field.key] === undefined) {
+                        next[field.key] = field.defaultValue
+                    }
+                }
+                return next
+            })
+        })
+    }, [quantityFields])
+
+    const isCollapsed = containerWidth < collapseBreakpoint
+    const showRail = useRailLayout && !isCollapsed
+
+    const layoutSpacing = useMemo(
+        () => ({
+            pagePadding: resolveTierNumber(
+                containerWidth,
+                mobileBreakpoint,
+                tabletBreakpoint,
+                pagePaddingDesktop,
+                pagePaddingTablet,
+                pagePaddingMobile
+            ),
+            cardPadding: resolveTierNumber(
+                containerWidth,
+                mobileBreakpoint,
+                tabletBreakpoint,
+                cardPaddingDesktop,
+                cardPaddingTablet,
+                cardPaddingMobile
+            ),
+            sectionGap: resolveTierNumber(
+                containerWidth,
+                mobileBreakpoint,
+                tabletBreakpoint,
+                sectionGapDesktop,
+                sectionGapTablet,
+                sectionGapMobile
+            ),
+            fieldGap: resolveTierNumber(
+                containerWidth,
+                mobileBreakpoint,
+                tabletBreakpoint,
+                fieldGapDesktop,
+                fieldGapTablet,
+                fieldGapMobile
+            ),
+            buttonHeight: Math.max(
+                44,
+                resolveTierNumber(
+                    containerWidth,
+                    mobileBreakpoint,
+                    tabletBreakpoint,
+                    buttonHeightDesktop,
+                    buttonHeightTablet,
+                    buttonHeightMobile
+                )
+            ),
+        }),
+        [
+            containerWidth,
+            mobileBreakpoint,
+            tabletBreakpoint,
+            pagePaddingDesktop,
+            pagePaddingTablet,
+            pagePaddingMobile,
+            cardPaddingDesktop,
+            cardPaddingTablet,
+            cardPaddingMobile,
+            sectionGapDesktop,
+            sectionGapTablet,
+            sectionGapMobile,
+            fieldGapDesktop,
+            fieldGapTablet,
+            fieldGapMobile,
+            buttonHeightDesktop,
+            buttonHeightTablet,
+            buttonHeightMobile,
+        ]
+    )
+
+    const responsiveTitleFontSize = useMemo(
+        () =>
+            resolveFluidFontSize(
+                typography.titleFontSizeDesktop,
+                typography.titleFontSizeTablet,
+                typography.titleFontSizeMobile,
+                containerWidth,
+                mobileBreakpoint,
+                tabletBreakpoint
+            ),
+        [
+            typography.titleFontSizeDesktop,
+            typography.titleFontSizeTablet,
+            typography.titleFontSizeMobile,
+            containerWidth,
+            mobileBreakpoint,
+            tabletBreakpoint,
+        ]
+    )
+
+    const responsiveLabelFontSize = useMemo(
+        () =>
+            resolveFluidFontSize(
+                typography.labelFontSizeDesktop,
+                typography.labelFontSizeTablet,
+                typography.labelFontSizeMobile,
+                containerWidth,
+                mobileBreakpoint,
+                tabletBreakpoint
+            ),
+        [
+            typography.labelFontSizeDesktop,
+            typography.labelFontSizeTablet,
+            typography.labelFontSizeMobile,
+            containerWidth,
+            mobileBreakpoint,
+            tabletBreakpoint,
+        ]
+    )
+
+    const contentColumnBounds = useMemo(
+        () =>
+            resolveQuoteContentColumnBounds({
+                showRail,
+                contentMinWidth,
+                contentMaxWidth,
+                globalMaxWidth,
+            }),
+        [showRail, contentMinWidth, contentMaxWidth, globalMaxWidth]
+    )
+
+    const pageMinHeight = useMemo(
+        () => resolveQuotePageMinHeight(minPageHeight),
+        [minPageHeight]
+    )
+
+    const {
+        pagePadding: responsivePadding,
+        cardPadding: responsiveCardPadding,
+        sectionGap: responsiveSectionGap,
+        fieldGap: responsiveFieldGap,
+        buttonHeight: responsiveButtonHeight,
+    } = layoutSpacing
+
+    const backdropBlur = useMemo(() => {
+        if (!cardStyle.showBackground) return 0
+        if (prefersReducedMotion) return 0
+        if (isOnCanvas) return Math.min(cardStyle.backdropBlur, 16)
+        return cardStyle.backdropBlur
+    }, [
+        isOnCanvas,
+        prefersReducedMotion,
+        cardStyle.showBackground,
+        cardStyle.backdropBlur,
+    ])
+
+    const boxShadow = useMemo(() => {
+        if (!cardStyle.showShadow) return "none"
+        const intensity = cardStyle.shadowIntensity
+        return `0 ${8 * intensity}px ${32 * intensity}px rgba(0, 0, 0, ${0.2 * intensity}), 0 ${2 * intensity}px ${8 * intensity}px rgba(0, 0, 0, ${0.15 * intensity})`
+    }, [cardStyle.showShadow, cardStyle.shadowIntensity])
+
+    const estimateEngine = useMemo(
+        () =>
+            computeQuoteEstimateEngine(
+                formData,
+                formulaLineItems,
+                showAdvancedPricing,
+                intentMultiplierOverrides,
+                timelineMultiplierOverrides,
+                rushMultiplierWhenChecked
+            ),
+        [
+            formData,
+            formulaLineItems,
+            showAdvancedPricing,
+            intentMultiplierOverrides,
+            timelineMultiplierOverrides,
+            rushMultiplierWhenChecked,
+        ]
+    )
+
+    const totalEstimate = estimateEngine.totalEstimate
+
+    const rangeLowPercent = useMemo(() => {
+        const v = estimateDisplay.rangeLowPercent
+        return typeof v === "number" && Number.isFinite(v) && v > 0 ? v : 0.9
+    }, [estimateDisplay.rangeLowPercent])
+
+    const rangeHighPercent = useMemo(() => {
+        const v = estimateDisplay.rangeHighPercent
+        return typeof v === "number" && Number.isFinite(v) && v > 0 ? v : 1.1
+    }, [estimateDisplay.rangeHighPercent])
+
+    const breakdownStaggerSec = useMemo(() => {
+        const ms = estimateDisplay.breakdownStaggerMs
+        if (typeof ms === "number" && Number.isFinite(ms) && ms >= 0) {
+            return ms / 1000
+        }
+        return 0.04
+    }, [estimateDisplay.breakdownStaggerMs])
+
+    const currencySymbol =
+        estimateDisplay.currencySymbol &&
+        estimateDisplay.currencySymbol.trim() !== ""
+            ? estimateDisplay.currencySymbol
+            : "$"
+
+    const motionSpring = useMemo(
+        () =>
+            resolveMotionSpring(motionConfig.moreOptions.personality, {
+                stiffness: motionConfig.moreOptions.stiffness,
+                damping: motionConfig.moreOptions.damping,
+                mass: motionConfig.moreOptions.mass,
+            }),
+        [motionConfig.moreOptions]
+    )
+
+    const estimateSpringConfig = useMemo(
+        () =>
+            isOnCanvas || prefersReducedMotion
+                ? MOTION_SPRING_INSTANT
+                : motionSpring,
+        [isOnCanvas, prefersReducedMotion, motionSpring]
+    )
+
+    const allowMicroMotion = !isOnCanvas && !prefersReducedMotion
+
+    const estimateFont = typography.labelFont
+
+    const stepLabels = [
+        narrative.step1Label,
+        narrative.step2Label,
+        narrative.step3Label,
+        narrative.step4Label,
+    ]
+
+    const successSpring = useMemo(() => {
+        if (isOnCanvas || prefersReducedMotion) {
+            return { duration: 0 }
+        }
+        const spring = MOTION_SPRING_PRESETS.calm
+        return {
+            type: "spring" as const,
+            stiffness: spring.stiffness,
+            damping: spring.damping,
+            mass: spring.mass,
+        }
+    }, [isOnCanvas, prefersReducedMotion])
+
+    const stepTransition = useMemo(() => {
+        if (isOnCanvas || prefersReducedMotion) {
+            return {
+                initial: { opacity: 1, y: 0 },
+                animate: { opacity: 1, y: 0 },
+                exit: { opacity: 1, y: 0 },
+                transition: { duration: 0 },
+            }
+        }
+        const intensity =
+            typeof motionConfig.intensity === "number" &&
+            Number.isFinite(motionConfig.intensity)
+                ? Math.max(0.25, Math.min(motionConfig.intensity, 2))
+                : 1
+        const yEnter = Math.min(12, 12 * intensity)
+        const yExit = Math.min(12, 8 * intensity)
+        return {
+            initial: { opacity: 0, y: yEnter },
+            animate: { opacity: 1, y: 0 },
+            exit: { opacity: 0, y: -yExit },
+            transition: {
+                type: "spring" as const,
+                stiffness: motionSpring.stiffness,
+                damping: motionSpring.damping,
+                mass: motionSpring.mass,
+            },
+        }
+    }, [isOnCanvas, prefersReducedMotion, motionConfig.intensity, motionSpring])
+
+    const validateCurrentStep = useCallback((): boolean => {
+        const errors = validateQuoteStep(
+            currentStep,
+            formData,
+            quantityFields,
+            showContactFields
+        )
+        startTransition(() => setValidationErrors(errors))
+        return Object.keys(errors).length === 0
+    }, [currentStep, formData, quantityFields, showContactFields])
+
+    const handleNext = useCallback(() => {
+        startTransition(() => setAttemptedNext(true))
+        if (!validateCurrentStep()) return
+
+        if (currentStep < 4) {
+            startTransition(() => {
+                setCurrentStep(currentStep + 1)
+                setAttemptedNext(false)
+                setValidationErrors({})
+            })
+            return
+        }
+
+        startTransition(() => {
+            setIsSubmitted(true)
+            setAttemptedNext(false)
+            setValidationErrors({})
+        })
+    }, [currentStep, validateCurrentStep])
+
+    const handleBack = useCallback(() => {
+        if (currentStep > 1) {
+            startTransition(() => {
+                setCurrentStep(currentStep - 1)
+                setAttemptedNext(false)
+                setValidationErrors({})
+            })
+        }
+    }, [currentStep])
+
+    const onPatchFormField = useCallback((key: string, value: FormValue) => {
+        startTransition(() => {
+            setFormData((prev) => ({
+                ...prev,
+                [key]: value,
+            }))
+        })
+    }, [])
+
+    const onClearFieldError = useCallback((key: string) => {
+        startTransition(() => {
+            setValidationErrors((prev) => ({
+                ...prev,
+                [key]: undefined,
+            }))
+        })
+    }, [])
+
+    const stepScreens = useMemo(
+        () => [step1, step2, step3, step4],
+        [step1, step2, step3, step4]
+    )
+    const activeStepScreen = stepScreens[currentStep - 1] ?? step4
+    const currentScreenTitle = activeStepScreen.screenTitle
+    const currentScreenSubtitle = activeStepScreen.screenSubtitle
+
+    const visuallyHidden: CSSProperties = {
+        position: "absolute",
+        width: 1,
+        height: 1,
+        padding: 0,
+        margin: -1,
+        overflow: "hidden",
+        clipPath: "inset(50%)",
+        whiteSpace: "nowrap",
+        border: 0,
+    }
+
+    const formattedEstimate = formatEstimateRange(
+        totalEstimate,
+        rangeLowPercent,
+        rangeHighPercent,
+        currencySymbol
+    )
+
+    const showStepIndexInCard = !(showRail && narrative.showStepList)
+
+    const stepLiveMessage =
+        announceStepChanges && !isSubmitted
+            ? `Step ${currentStep} of 4: ${currentScreenTitle}`
+            : ""
+    const estimateLiveMessage =
+        announceEstimateRange && currentStep === 4 && !isSubmitted
+            ? `Indicative range ${formattedEstimate.text}`
+            : ""
+
+    const secondaryBg =
+        colors.moreOptions?.secondaryButtonColor ?? "rgba(247, 244, 237, 0.08)"
+    const secondaryText =
+        colors.moreOptions?.secondaryButtonTextColor ?? colors.textPrimary
+
+    const pageGlowIntensity = useMemo(() => {
+        const intensity = cardStyle.moreOptions?.pageGlowIntensity ?? 1
+        return Math.max(0, Math.min(intensity, 2))
+    }, [cardStyle.moreOptions?.pageGlowIntensity])
+
+    const railStyle: CSSProperties = {
+        width: railWidth,
+        flexShrink: 0,
+        display: "flex",
+        flexDirection: "column",
+        gap: responsiveSectionGap * 1.5,
+        paddingRight: railGap,
+        borderRight: `1px solid ${colors.border}`,
+    }
+
+    const renderProgressBlock = (compact: boolean) => (
+        <div
+            style={{
+                display: "flex",
+                flexDirection: "column",
+                gap: responsiveFieldGap,
+                marginBottom: compact ? 0 : responsiveSectionGap,
+            }}
+        >
+            {compact ? (
+                <div
+                    style={{
+                        ...typography.smallPrintFont,
+                        color: colors.textSecondary,
+                        textTransform: "uppercase",
+                        fontVariantNumeric: "tabular-nums",
+                        letterSpacing: "0.05em",
+                        fontSize: containerWidth < 480 ? "10px" : "11px",
+                        opacity: 0.7,
+                    }}
+                    aria-hidden="true"
+                >
+                    {String(currentStep).padStart(2, "0")} / 04
+                </div>
+            ) : null}
+            <div
+                role="progressbar"
+                aria-label="Form progress"
+                aria-valuemin={1}
+                aria-valuemax={4}
+                aria-valuenow={currentStep}
+                style={{ display: "flex", gap: 4 }}
+            >
+                {stepLabels.map((_, index) => {
+                    const stepNumber = index + 1
+                    const isComplete = stepNumber < currentStep
+                    const isActive = stepNumber === currentStep
+                    return (
+                        <div
+                            key={stepNumber}
+                            style={{
+                                flex: 1,
+                                height: 3,
+                                borderRadius: 1.5,
+                                backgroundColor:
+                                    isComplete || isActive
+                                        ? colors.accent
+                                        : colors.border,
+                                opacity: isComplete || isActive ? 1 : 0.15,
+                                transition:
+                                    isOnCanvas || prefersReducedMotion
+                                        ? "none"
+                                        : "opacity 0.25s ease, background-color 0.25s ease",
+                            }}
+                        />
+                    )
+                })}
+            </div>
+            {narrative.showStepList && (
+                <div
+                    style={{
+                        display: "flex",
+                        flexDirection: "column",
+                        gap: compact ? 8 : 10,
+                    }}
+                >
+                    {stepLabels.map((label, index) => {
+                        const stepNumber = index + 1
+                        const isActive = stepNumber === currentStep
+                        const isComplete = stepNumber < currentStep
+                        return (
+                            <div
+                                key={label}
+                                style={{
+                                    display: "flex",
+                                    alignItems: "center",
+                                    gap: 10,
+                                    opacity: isActive
+                                        ? 1
+                                        : isComplete
+                                          ? 0.55
+                                          : 0.35,
+                                }}
+                            >
+                                <div
+                                    style={{
+                                        width: 22,
+                                        height: 22,
+                                        borderRadius: "50%",
+                                        border: `1px solid ${isActive ? colors.accent : colors.border}`,
+                                        color: isActive
+                                            ? colors.accent
+                                            : colors.textSecondary,
+                                        fontSize: 11,
+                                        display: "flex",
+                                        alignItems: "center",
+                                        justifyContent: "center",
+                                        ...typography.smallPrintFont,
+                                    }}
+                                >
+                                    {stepNumber}
+                                </div>
+                                <span
+                                    style={{
+                                        ...typography.labelFont,
+                                        color: isActive
+                                            ? colors.textPrimary
+                                            : colors.textSecondary,
+                                        fontWeight: isActive ? 600 : 400,
+                                    }}
+                                >
+                                    {label}
+                                </span>
+                            </div>
+                        )
+                    })}
+                </div>
+            )}
+        </div>
+    )
+
+    const renderStepBody = () => (
+        <AnimatePresence mode="wait">
+            <motion.div
+                ref={stepBodyRef}
+                key={currentStep}
+                initial={
+                    isOnCanvas || prefersReducedMotion || !isStepBodyInView
+                        ? { opacity: 1, y: 0 }
+                        : stepTransition.initial
+                }
+                animate={stepTransition.animate}
+                exit={stepTransition.exit}
+                transition={stepTransition.transition}
+                style={{
+                    display: "flex",
+                    flexDirection: "column",
+                    gap: responsiveSectionGap,
+                    willChange:
+                        isOnCanvas || prefersReducedMotion
+                            ? "auto"
+                            : isStepBodyInView
+                              ? "transform, opacity"
+                              : "auto",
+                }}
+            >
+                <div
+                    style={{
+                        display: "flex",
+                        flexDirection: "column",
+                        gap: responsiveFieldGap * 0.5,
+                    }}
+                >
+                    {showStepIndexInCard ? (
+                        <div
+                            style={{
+                                ...typography.smallPrintFont,
+                                color: colors.textSecondary,
+                                textTransform: "uppercase",
+                                fontVariantNumeric: "tabular-nums",
+                                letterSpacing: "0.05em",
+                                fontSize:
+                                    containerWidth < 480 ? "10px" : "11px",
+                                opacity: 0.7,
+                            }}
+                            aria-hidden="true"
+                        >
+                            {String(currentStep).padStart(2, "0")} / 04
+                        </div>
+                    ) : null}
+                    <div
+                        ref={stepHeadingRef}
+                        tabIndex={-1}
+                        style={{
+                            ...typography.titleFont,
+                            color: colors.textPrimary,
+                            fontSize: responsiveTitleFontSize,
+                            outline: "none",
+                        }}
+                        id={`step-${currentStep}-title`}
+                    >
+                        {currentScreenTitle}
+                    </div>
+                    <div
+                        style={{
+                            ...typography.labelFont,
+                            color: colors.textSecondary,
+                            fontSize: responsiveLabelFontSize,
+                        }}
+                    >
+                        {currentScreenSubtitle}
+                    </div>
+                </div>
+
+                {currentStep === 4 && !showContactFields && disclaimerText ? (
+                    <div
+                        style={{
+                            ...typography.smallPrintFont,
+                            color: colors.textSecondary,
+                            opacity: 0.75,
+                            maxWidth: "40em",
+                            lineHeight: "1.5em",
+                            fontSize: containerWidth < 480 ? "12px" : undefined,
+                        }}
+                    >
+                        {disclaimerText}
+                    </div>
+                ) : null}
+
+                {(currentStep === 2 || currentStep === 3) && (
+                    <div
+                        style={{
+                            display: "flex",
+                            flexDirection:
+                                containerWidth < 600 ? "column" : "row",
+                            justifyContent: "space-between",
+                            alignItems:
+                                containerWidth < 600 ? "flex-start" : "center",
+                            gap: responsiveFieldGap,
+                            paddingTop: responsiveFieldGap * 0.75,
+                            paddingBottom: responsiveFieldGap * 0.75,
+                            borderTop: `1px solid ${colors.border}`,
+                            borderBottom: `1px solid ${colors.border}`,
+                            opacity: 0.85,
+                        }}
+                    >
+                        <div
+                            style={{
+                                ...typography.smallPrintFont,
+                                color: colors.textSecondary,
+                                textTransform: "uppercase",
+                                letterSpacing: "0.05em",
+                                fontSize:
+                                    containerWidth < 480 ? "10px" : "11px",
+                            }}
+                        >
+                            Indicative range
+                        </div>
+                        <div
+                            style={{
+                                flex: 1,
+                                minWidth: 0,
+                                display: "flex",
+                                justifyContent: "flex-end",
+                            }}
+                        >
+                            <QuoteAnimatedEstimate
+                                totalEstimate={totalEstimate}
+                                rangeLowPercent={rangeLowPercent}
+                                rangeHighPercent={rangeHighPercent}
+                                currencySymbol={currencySymbol}
+                                isOnCanvas={isOnCanvas}
+                                prefersReducedMotion={prefersReducedMotion}
+                                springConfig={estimateSpringConfig}
+                                windowWidth={containerWidth}
+                                textColor={colors.textPrimary}
+                                estimateFont={estimateFont}
+                                variant="compact"
+                            />
+                        </div>
+                    </div>
+                )}
+
+                {currentStep === 1 && (
+                    <QuoteStep1Intent
+                        step1={step1}
+                        intentOptions={intentOptions}
+                        stepTitleId={`step-${currentStep}-title`}
+                        colors={colors}
+                        typography={typography}
+                        responsiveSectionGap={responsiveSectionGap}
+                        responsiveFieldGap={responsiveFieldGap}
+                        borderRadius={borderRadius}
+                        responsiveButtonHeight={responsiveButtonHeight}
+                        windowWidth={containerWidth}
+                        isOnCanvas={isOnCanvas}
+                        prefersReducedMotion={prefersReducedMotion}
+                        allowMicroMotion={allowMicroMotion}
+                        formData={formData}
+                        validationErrors={validationErrors}
+                        attemptedNext={attemptedNext}
+                        onPatchFormField={onPatchFormField}
+                        onClearFieldError={onClearFieldError}
+                    />
+                )}
+
+                {currentStep === 2 && (
+                    <QuoteStep2Scope
+                        quantityFields={quantityFields}
+                        quantityControlType={quantityControlType}
+                        colors={colors}
+                        typography={typography}
+                        responsiveSectionGap={responsiveSectionGap}
+                        responsiveFieldGap={responsiveFieldGap}
+                        borderRadius={borderRadius}
+                        responsiveButtonHeight={responsiveButtonHeight}
+                        windowWidth={containerWidth}
+                        isOnCanvas={isOnCanvas}
+                        prefersReducedMotion={prefersReducedMotion}
+                        allowMicroMotion={allowMicroMotion}
+                        formData={formData}
+                        validationErrors={validationErrors}
+                        attemptedNext={attemptedNext}
+                        onPatchFormField={onPatchFormField}
+                        onClearFieldError={onClearFieldError}
+                    />
+                )}
+
+                {currentStep === 3 && (
+                    <QuoteStep3Timeline
+                        step3={step3}
+                        timelineBucketOptions={timelineBucketOptions}
+                        colors={colors}
+                        typography={typography}
+                        responsiveSectionGap={responsiveSectionGap}
+                        responsiveFieldGap={responsiveFieldGap}
+                        borderRadius={borderRadius}
+                        responsiveButtonHeight={responsiveButtonHeight}
+                        windowWidth={containerWidth}
+                        isOnCanvas={isOnCanvas}
+                        prefersReducedMotion={prefersReducedMotion}
+                        allowMicroMotion={allowMicroMotion}
+                        formData={formData}
+                        validationErrors={validationErrors}
+                        attemptedNext={attemptedNext}
+                        onPatchFormField={onPatchFormField}
+                        onClearFieldError={onClearFieldError}
+                    />
+                )}
+
+                {currentStep === 4 && showContactFields ? (
+                    <QuoteStep4Contact
+                        step4={step4}
+                        colors={colors}
+                        typography={typography}
+                        responsiveSectionGap={responsiveSectionGap}
+                        responsiveFieldGap={responsiveFieldGap}
+                        borderRadius={borderRadius}
+                        responsiveButtonHeight={responsiveButtonHeight}
+                        windowWidth={containerWidth}
+                        isOnCanvas={isOnCanvas}
+                        prefersReducedMotion={prefersReducedMotion}
+                        allowMicroMotion={allowMicroMotion}
+                        formData={formData}
+                        validationErrors={validationErrors}
+                        attemptedNext={attemptedNext}
+                        onPatchFormField={onPatchFormField}
+                        onClearFieldError={onClearFieldError}
+                    />
+                ) : null}
+
+                {currentStep === 4 ? (
+                    <QuoteStep4ReviewFooter
+                        lineContributions={estimateEngine.lineContributions}
+                        showLineBreakdown={estimateDisplay.showLineBreakdown}
+                        breakdownStaggerSec={breakdownStaggerSec}
+                        totalEstimate={totalEstimate}
+                        rangeLowPercent={rangeLowPercent}
+                        rangeHighPercent={rangeHighPercent}
+                        currencySymbol={currencySymbol}
+                        isOnCanvas={isOnCanvas}
+                        prefersReducedMotion={prefersReducedMotion}
+                        springConfig={estimateSpringConfig}
+                        colors={{
+                            textPrimary: colors.textPrimary,
+                            textSecondary: colors.textSecondary,
+                        }}
+                        typography={{
+                            smallPrintFont: typography.smallPrintFont,
+                            labelFont: typography.labelFont,
+                        }}
+                        windowWidth={containerWidth}
+                        responsiveSectionGap={responsiveSectionGap}
+                        responsiveFieldGap={responsiveFieldGap}
+                        intentOptions={intentOptions}
+                        quantityFields={quantityFields}
+                        formData={formData}
+                    />
+                ) : null}
+
+                <QuoteStepNav
+                    currentStep={currentStep}
+                    backButtonLabel={backButtonLabel}
+                    primaryButtonLabels={{
+                        step1: step1.primaryButtonLabel,
+                        step2: step2.primaryButtonLabel,
+                        step3: step3.primaryButtonLabel,
+                        step4: step4PrimaryLabel,
+                    }}
+                    onBack={handleBack}
+                    onNext={handleNext}
+                    colors={{
+                        accent: colors.accent,
+                        backgroundColor: colors.backgroundColor,
+                        border: colors.border,
+                        moreOptions: colors.moreOptions,
+                    }}
+                    typography={{ buttonFont: typography.buttonFont }}
+                    responsiveButtonHeight={responsiveButtonHeight}
+                    responsiveFieldGap={responsiveFieldGap}
+                    borderRadius={borderRadius}
+                />
+            </motion.div>
+        </AnimatePresence>
+    )
+
+    return (
+        <div
+            ref={rootRef}
+            role="region"
+            aria-label={ariaLabel || narrative.productTitle}
+            style={{
+                width: "100%",
+                height: "auto",
+                minHeight: pageMinHeight,
+                maxHeight: "100%",
+                position: "relative",
+                display: "flex",
+                flexDirection: "column",
+                justifyContent: "flex-start",
+                alignItems: "stretch",
+                backgroundColor: colors.backgroundColor,
+                padding: responsivePadding,
+                overflow: "hidden",
+                boxSizing: "border-box",
+                ...style,
+            }}
+        >
+            {/* Soft radial gradient background layer */}
+            <div
+                style={{
+                    position: "absolute",
+                    inset: 0,
+                    pointerEvents: "none",
+                    zIndex: 0,
+                    opacity: isOnCanvas
+                        ? 0.5 * pageGlowIntensity
+                        : pageGlowIntensity,
+                }}
+            >
+                <div
+                    style={{
+                        position: "absolute",
+                        top: "-20%",
+                        left: "-10%",
+                        width: "50%",
+                        height: "50%",
+                        background: `radial-gradient(circle, ${colors.accent}12 0%, transparent 70%)`,
+                        filter: "blur(40px)",
+                    }}
+                />
+                <div
+                    style={{
+                        position: "absolute",
+                        bottom: "-20%",
+                        right: "-10%",
+                        width: "50%",
+                        height: "50%",
+                        background: `radial-gradient(circle, ${colors.accent}0F 0%, transparent 70%)`,
+                        filter: "blur(40px)",
+                    }}
+                />
+            </div>
+
+            <div
+                style={{
+                    width: "100%",
+                    maxWidth: globalMaxWidth,
+                    margin: "0 auto",
+                    display: "flex",
+                    flexDirection: showRail ? "row" : "column",
+                    alignItems: showRail ? "stretch" : "center",
+                    gap: showRail ? 0 : responsiveSectionGap,
+                    position: "relative",
+                    zIndex: 1,
+                    flex: "0 0 auto",
+                }}
+            >
+                {showRail ? (
+                    <aside style={railStyle}>
+                        <div
+                            style={{
+                                ...typography.titleFont,
+                                color: colors.textPrimary,
+                                fontSize: responsiveTitleFontSize,
+                                lineHeight: "1.08em",
+                            }}
+                        >
+                            {narrative.productTitle}
+                        </div>
+                        <div
+                            style={{
+                                ...typography.labelFont,
+                                color: colors.textSecondary,
+                                fontSize: "13px",
+                                opacity: 0.62,
+                            }}
+                        >
+                            {narrative.supportingLine}
+                        </div>
+                        {narrative.showStepList
+                            ? renderProgressBlock(true)
+                            : null}
+                    </aside>
+                ) : null}
+                <div
+                    style={{
+                        flex: 1,
+                        minWidth: contentColumnBounds.minWidth,
+                        width: contentColumnBounds.width,
+                        maxWidth: contentColumnBounds.maxWidth,
+                    }}
+                >
+                    {stepLiveMessage ? (
+                        <div
+                            aria-live="polite"
+                            aria-atomic="true"
+                            style={visuallyHidden}
+                        >
+                            {stepLiveMessage}
+                        </div>
+                    ) : null}
+                    {estimateLiveMessage ? (
+                        <div
+                            aria-live="polite"
+                            aria-atomic="true"
+                            style={visuallyHidden}
+                        >
+                            {estimateLiveMessage}
+                        </div>
+                    ) : null}
+                    <QuoteCardFrame
+                        showBackground={cardStyle.showBackground}
+                        backdropBlur={backdropBlur}
+                        showShadow={cardStyle.showShadow}
+                        shadowIntensity={cardStyle.shadowIntensity}
+                        cardBackground={colors.cardBackground}
+                        border={colors.border}
+                        borderRadius={borderRadius}
+                        responsiveCardPadding={responsiveCardPadding}
+                    >
+                        {previewImageUrl.trim().length > 0 ? (
+                            <img
+                                src={previewImageUrl}
+                                alt={previewImageAlt}
+                                style={{
+                                    width: "100%",
+                                    maxHeight: 120,
+                                    objectFit: "cover",
+                                    borderRadius: borderRadius * 0.75,
+                                    marginBottom: responsiveFieldGap,
+                                }}
+                            />
+                        ) : null}
+                        {!isSubmitted ? (
+                            <>
+                                {!showRail ? (
+                                    <div
+                                        style={{
+                                            display: "flex",
+                                            flexDirection: "column",
+                                            gap: responsiveFieldGap,
+                                            marginBottom:
+                                                responsiveSectionGap * 1.25,
+                                        }}
+                                    >
+                                        <div
+                                            style={{
+                                                ...typography.titleFont,
+                                                color: colors.textPrimary,
+                                                fontSize:
+                                                    responsiveTitleFontSize,
+                                                lineHeight: "1.08em",
+                                            }}
+                                        >
+                                            {narrative.productTitle}
+                                        </div>
+                                        <div
+                                            style={{
+                                                ...typography.labelFont,
+                                                color: colors.textSecondary,
+                                                fontSize:
+                                                    containerWidth < 480
+                                                        ? "14px"
+                                                        : undefined,
+                                            }}
+                                        >
+                                            {narrative.supportingLine}
+                                        </div>
+                                    </div>
+                                ) : null}
+                                {!showRail && narrative.showStepList ? (
+                                    <div
+                                        style={{
+                                            marginBottom: responsiveSectionGap,
+                                        }}
+                                    >
+                                        {renderProgressBlock(false)}
+                                    </div>
+                                ) : null}
+                                {renderStepBody()}
+                            </>
+                        ) : (
+                            <QuoteSuccessPanel
+                                successScreenCopy={successScreenCopy}
+                                totalEstimate={totalEstimate}
+                                rangeLowPercent={rangeLowPercent}
+                                rangeHighPercent={rangeHighPercent}
+                                currencySymbol={currencySymbol}
+                                isOnCanvas={isOnCanvas}
+                                prefersReducedMotion={prefersReducedMotion}
+                                springConfig={estimateSpringConfig}
+                                colors={{
+                                    backgroundColor: colors.backgroundColor,
+                                    textPrimary: colors.textPrimary,
+                                    textSecondary: colors.textSecondary,
+                                    accent: colors.accent,
+                                }}
+                                typography={{
+                                    titleFont: typography.titleFont,
+                                    labelFont: typography.labelFont,
+                                    buttonFont: typography.buttonFont,
+                                    smallPrintFont: typography.smallPrintFont,
+                                }}
+                                estimateFont={estimateFont}
+                                windowWidth={containerWidth}
+                                responsiveSectionGap={responsiveSectionGap}
+                                responsiveFieldGap={responsiveFieldGap}
+                                responsiveButtonHeight={responsiveButtonHeight}
+                                borderRadius={borderRadius}
+                                onReset={() => {
+                                    startTransition(() => {
+                                        skipStepFocusRef.current = true
+                                        setIsSubmitted(false)
+                                        setCurrentStep(1)
+                                        setFormData({})
+                                        setAttemptedNext(false)
+                                        setValidationErrors({})
+                                    })
+                                }}
+                            />
+                        )}
+                    </QuoteCardFrame>
+                </div>
+            </div>
+        </div>
+    )
+}
+
+Kern_QuoteIntake.defaultProps = { ...DEFAULT_PROPS }
+
+addPropertyControls(Kern_QuoteIntake, {
+    step1: {
+        type: ControlType.Object,
+        title: "Step 1: Intent",
+        icon: "layout",
+        controls: {
+            screenTitle: {
+                type: ControlType.String,
+                title: "Screen Title",
+                description: "Main heading for the active step inside the card",
+                defaultValue: "Indicative Framer project scope",
+            },
+            screenSubtitle: {
+                type: ControlType.String,
+                title: "Screen Subtitle",
+                description: "Supporting text under the step title",
+                defaultValue:
+                    "These inputs shape the indicative estimate range",
+            },
+            intentOptions: {
+                type: ControlType.Array,
+                title: "Intent Options",
+                description: "Up to 6 project type choices",
+                control: {
+                    type: ControlType.Object,
+                    controls: {
+                        title: {
+                            type: ControlType.String,
+                            title: "Title",
+                            defaultValue: "Marketing site",
+                            description: "Display name for this option",
+                        },
+                        key: {
+                            type: ControlType.String,
+                            title: "Key",
+                            defaultValue: "marketing-site",
+                            description: "Unique identifier for this option",
+                        },
+                        helperText: {
+                            type: ControlType.String,
+                            title: "Helper Text",
+                            defaultValue: "Multi-page site with CMS",
+                            description: "Supporting description text",
+                        },
+                    },
+                },
+                maxCount: 6,
+                defaultValue: DEFAULT_PROPS.step1.intentOptions,
+            },
+            primaryButtonLabel: {
+                type: ControlType.String,
+                title: "Button Label",
+                description: "Primary action label for this step",
+                defaultValue: "Next",
+            },
+            hideSingleOptionPicker: {
+                type: ControlType.Boolean,
+                title: "Hide Single Option",
+                description:
+                    "Auto-skip this step when only one intent option exists",
+                defaultValue: true,
+                enabledTitle: "Yes",
+                disabledTitle: "No",
+            },
+        },
+    },
+    step2: {
+        type: ControlType.Object,
+        title: "Step 2: Quantity",
+        icon: "settings",
+        controls: {
+            screenTitle: {
+                type: ControlType.String,
+                title: "Screen Title",
+                defaultValue: "Describe your scope",
+                description: "Main heading for step 2",
+            },
+            screenSubtitle: {
+                type: ControlType.String,
+                title: "Screen Subtitle",
+                defaultValue:
+                    "These inputs represent relative scope for your Framer build and adjust the indicative range",
+                description: "Supporting text under the step title",
+            },
+            quantityFields: {
+                type: ControlType.Array,
+                title: "Quantity Fields",
+                description: "Up to 5 numeric scope inputs",
+                control: {
+                    type: ControlType.Object,
+                    controls: {
+                        label: {
+                            type: ControlType.String,
+                            title: "Label",
+                            defaultValue: "Unique page layouts",
+                            description: "Field label",
+                        },
+                        key: {
+                            type: ControlType.String,
+                            title: "Key",
+                            defaultValue: "pages",
+                            description:
+                                "Unique key; must match formula line items",
+                        },
+                        helperText: {
+                            type: ControlType.String,
+                            title: "Helper Text",
+                            defaultValue: "Distinct templates you need",
+                            description: "Supporting description",
+                        },
+                        defaultValue: {
+                            type: ControlType.Number,
+                            title: "Default",
+                            defaultValue: 5,
+                            min: 0,
+                            max: 999,
+                            step: 1,
+                            displayStepper: true,
+                            description: "Initial quantity value",
+                        },
+                        min: {
+                            type: ControlType.Number,
+                            title: "Min",
+                            defaultValue: 1,
+                            min: 0,
+                            max: 999,
+                            step: 1,
+                            displayStepper: true,
+                            description: "Minimum allowed value",
+                        },
+                        max: {
+                            type: ControlType.Number,
+                            title: "Max",
+                            defaultValue: 50,
+                            min: 1,
+                            max: 9999,
+                            step: 1,
+                            displayStepper: true,
+                            description: "Maximum allowed value",
+                        },
+                        step: {
+                            type: ControlType.Number,
+                            title: "Step",
+                            defaultValue: 1,
+                            min: 1,
+                            max: 100,
+                            step: 1,
+                            displayStepper: true,
+                            description: "Increment step for stepper or slider",
+                        },
+                    },
+                },
+                maxCount: 5,
+                defaultValue: DEFAULT_PROPS.step2.quantityFields,
+            },
+            quantityControlType: {
+                type: ControlType.Enum,
+                title: "Quantity Control",
+                description: "UI style for numeric inputs",
+                options: ["stepper", "slider"],
+                optionTitles: ["Stepper", "Slider"],
+                defaultValue: "slider",
+                displaySegmentedControl: true,
+            },
+            primaryButtonLabel: {
+                type: ControlType.String,
+                title: "Button Label",
+                defaultValue: "Continue",
+                description: "Primary action label for this step",
+            },
+        },
+    },
+    step3: {
+        type: ControlType.Object,
+        title: "Step 3: Timeline",
+        icon: "calendar",
+        controls: {
+            screenTitle: {
+                type: ControlType.String,
+                title: "Screen Title",
+                defaultValue: "Schedule and delivery",
+                description: "Main heading for step 3",
+            },
+            screenSubtitle: {
+                type: ControlType.String,
+                title: "Screen Subtitle",
+                defaultValue:
+                    "When you need the build affects resource allocation",
+                description: "Supporting text under the step title",
+            },
+            timelineBucketLabel: {
+                type: ControlType.String,
+                title: "Timeline Label",
+                defaultValue: "Target delivery window",
+                description: "Label for timeline selector",
+            },
+            timelineBucketHelper: {
+                type: ControlType.String,
+                title: "Timeline Helper",
+                defaultValue: "Select the timeframe that works for your launch",
+                description: "Supporting text for timeline field",
+            },
+            timelineBucketOptions: {
+                type: ControlType.Array,
+                title: "Timeline Options",
+                description: "Available timeline choices",
+                control: {
+                    type: ControlType.Object,
+                    controls: {
+                        label: {
+                            type: ControlType.String,
+                            title: "Label",
+                            defaultValue: "Standard",
+                            description: "Display name",
+                        },
+                        key: {
+                            type: ControlType.String,
+                            title: "Key",
+                            defaultValue: "standard",
+                            description: "Unique identifier",
+                        },
+                    },
+                },
+                defaultValue: DEFAULT_PROPS.step3.timelineBucketOptions,
+            },
+            rushToggleLabel: {
+                type: ControlType.String,
+                title: "Rush Toggle Label",
+                defaultValue: "Rush delivery needed",
+                description: "Label for rush delivery toggle",
+            },
+            rushToggleHelper: {
+                type: ControlType.String,
+                title: "Rush Toggle Helper",
+                defaultValue:
+                    "Requires dedicated capacity and adds approximately 30% to the estimate",
+                description: "Supporting text for rush toggle",
+                displayTextArea: true,
+            },
+            primaryButtonLabel: {
+                type: ControlType.String,
+                title: "Button Label",
+                defaultValue: "Continue",
+                description: "Primary action label for this step",
+            },
+        },
+    },
+    step4: {
+        type: ControlType.Object,
+        title: "Step 4: Review",
+        icon: "preview",
+        controls: {
+            screenTitle: {
+                type: ControlType.String,
+                title: "Screen Title",
+                defaultValue: "Review your estimate",
+                description: "Main heading for step 4",
+            },
+            screenSubtitle: {
+                type: ControlType.String,
+                title: "Screen Subtitle",
+                defaultValue:
+                    "Confirm scope and timeline, then open the summary with your indicative range",
+                description: "Supporting text under the step title",
+            },
+            showContactFields: {
+                type: ControlType.Boolean,
+                title: "Contact fields",
+                defaultValue: false,
+                enabledTitle: "Show",
+                disabledTitle: "Hide",
+                description:
+                    "Optional email, note, and consent fields. Calculator mode keeps them hidden; no data is sent from this component.",
+            },
+            emailLabel: {
+                type: ControlType.String,
+                title: "Email Label",
+                defaultValue: "Email address",
+                description: "Label for email input field",
+                hidden: ({ showContactFields }) => !showContactFields,
+            },
+            emailHelper: {
+                type: ControlType.String,
+                title: "Email Helper",
+                defaultValue:
+                    "Optional — for your own records or a paired form",
+                description: "Supporting text for email field",
+                hidden: ({ showContactFields }) => !showContactFields,
+            },
+            noteLabel: {
+                type: ControlType.String,
+                title: "Note Label",
+                defaultValue: "Additional context (optional)",
+                description: "Label for optional notes textarea",
+                hidden: ({ showContactFields }) => !showContactFields,
+            },
+            noteHelper: {
+                type: ControlType.String,
+                title: "Note Helper",
+                defaultValue:
+                    "Share anything that might affect scope or timeline",
+                description: "Supporting text for notes field",
+                hidden: ({ showContactFields }) => !showContactFields,
+            },
+            disclaimerText: {
+                type: ControlType.String,
+                title: "Disclaimer",
+                defaultValue: DEFAULT_PROPS.step4.disclaimerText,
+                description: "Legal disclaimer on the review step",
+                displayTextArea: true,
+            },
+            primaryButtonLabel: {
+                type: ControlType.String,
+                title: "Button Label",
+                defaultValue: "View summary",
+                description: "Opens the estimate summary screen",
+            },
+            submittingButtonLabel: {
+                type: ControlType.String,
+                title: "Submitting Label",
+                defaultValue: "Opening summary…",
+                description:
+                    "Unused in calculator mode (kept for contact-field layouts)",
+                hidden: () => true,
+            },
+            consentCheckboxLabel: {
+                type: ControlType.String,
+                title: "Consent Label",
+                defaultValue: DEFAULT_PROPS.step4.consentCheckboxLabel,
+                description: "Checkbox label text",
+                hidden: ({ showContactFields }) => !showContactFields,
+            },
+            consentCheckboxHelper: {
+                type: ControlType.String,
+                title: "Consent Helper",
+                defaultValue: DEFAULT_PROPS.step4.consentCheckboxHelper,
+                description: "Supporting text for consent checkbox",
+                displayTextArea: true,
+                hidden: ({ showContactFields }) => !showContactFields,
+            },
+        },
+    },
+    narrative: {
+        type: ControlType.Object,
+        title: "Narrative",
+        icon: "text",
+        controls: {
+            ariaLabel: {
+                type: ControlType.String,
+                title: "Region label",
+                defaultValue: "Project quote calculator",
+                description:
+                    "Accessible name for the root region (screen readers)",
+            },
+            productTitle: {
+                type: ControlType.String,
+                title: "Product Title",
+                defaultValue: "Framer project estimate",
+                description:
+                    "Shown in single-column layout header and in the left rail when rail layout is enabled",
+            },
+            supportingLine: {
+                type: ControlType.String,
+                title: "Supporting Line",
+                defaultValue: "Get a ballpark quote in a few minutes",
+                description: "Short supporting line under the product title",
+                displayTextArea: true,
+            },
+            showStepList: {
+                type: ControlType.Boolean,
+                title: "Show Step List",
+                defaultValue: true,
+                enabledTitle: "Show",
+                disabledTitle: "Hide",
+                description:
+                    "When rail layout is off, shows progress bar and step counter in the card. When rail is on, step list appears in the left rail.",
+            },
+            step1Label: {
+                type: ControlType.String,
+                title: "Step 1 Label",
+                defaultValue: "Project type",
+                description: "Label for step 1 in the progress list",
+            },
+            step2Label: {
+                type: ControlType.String,
+                title: "Step 2 Label",
+                defaultValue: "Scope",
+                description: "Label for step 2 in the progress list",
+            },
+            step3Label: {
+                type: ControlType.String,
+                title: "Step 3 Label",
+                defaultValue: "Timeline",
+                description: "Label for step 3 in the progress list",
+            },
+            step4Label: {
+                type: ControlType.String,
+                title: "Step 4 Label",
+                defaultValue: "Summary",
+                description: "Label for step 4 in the progress list",
+            },
+            backButtonLabel: {
+                type: ControlType.String,
+                title: "Back Button",
+                defaultValue: "Back",
+                description: "Label for the secondary back navigation control",
+            },
+            previewImageUrl: {
+                type: ControlType.String,
+                title: "Preview image URL",
+                defaultValue: "",
+                description:
+                    "Optional listing/demo image above the card (leave empty to hide)",
+            },
+            previewImageAlt: {
+                type: ControlType.String,
+                title: "Preview image alt",
+                defaultValue: "Decorative preview for marketplace listing",
+                description:
+                    "Accessible description for the optional preview image",
+            },
+        },
+    },
+    accessibility: {
+        type: ControlType.Object,
+        title: "Accessibility",
+        icon: "accessibility",
+        controls: {
+            announceStepChanges: {
+                type: ControlType.Boolean,
+                title: "Announce Steps",
+                defaultValue: true,
+                enabledTitle: "On",
+                disabledTitle: "Off",
+                description:
+                    "Polite live region updates when the active step changes",
+            },
+            announceEstimateRange: {
+                type: ControlType.Boolean,
+                title: "Announce Estimate",
+                defaultValue: true,
+                enabledTitle: "On",
+                disabledTitle: "Off",
+                description:
+                    "Polite live region updates when the indicative cost range changes on step 4",
+            },
+        },
+    },
+    typography: {
+        type: ControlType.Object,
+        title: "Typography",
+        icon: "font",
+        controls: {
+            titleFont: {
+                type: ControlType.Font,
+                title: "Title Font",
+                controls: "extended",
+                defaultFontType: "serif",
+                defaultValue: {
+                    fontSize: "40px",
+                    variant: "Regular",
+                    letterSpacing: "-0.04em",
+                    lineHeight: "1.05em",
+                    fontFamily:
+                        "Georgia, 'Iowan Old Style', 'Palatino Linotype', serif",
+                },
+                description:
+                    "Display headings. Estimate range uses Label font for stable width during animation.",
+            },
+            labelFont: {
+                type: ControlType.Font,
+                title: "Label Font",
+                controls: "extended",
+                defaultFontType: "sans-serif",
+                defaultValue: {
+                    fontSize: "14px",
+                    variant: "Medium",
+                    letterSpacing: "-0.01em",
+                    lineHeight: "1.4em",
+                    fontFamily: "Inter, system-ui, sans-serif",
+                },
+                description:
+                    "UI labels and animated estimate range (tabular nums)",
+            },
+            cardFont: {
+                type: ControlType.Font,
+                title: "Card Font",
+                controls: "extended",
+                defaultFontType: "sans-serif",
+                defaultValue: {
+                    fontSize: "16px",
+                    variant: "Semibold",
+                    letterSpacing: "-0.015em",
+                    lineHeight: "1.3em",
+                },
+                description: "Option tiles and timeline buttons",
+            },
+            inputFont: {
+                type: ControlType.Font,
+                title: "Input Font",
+                controls: "extended",
+                defaultFontType: "sans-serif",
+                defaultValue: {
+                    fontSize: "15px",
+                    variant: "Regular",
+                    letterSpacing: "-0.005em",
+                    lineHeight: "1.5em",
+                },
+                description: "Text inside inputs",
+            },
+            buttonFont: {
+                type: ControlType.Font,
+                title: "Button Font",
+                controls: "extended",
+                defaultFontType: "sans-serif",
+                defaultValue: {
+                    fontSize: "14px",
+                    variant: "Semibold",
+                    letterSpacing: "-0.01em",
+                    lineHeight: "1em",
+                },
+                description: "Button labels",
+            },
+            smallPrintFont: {
+                type: ControlType.Font,
+                title: "Small Print Font",
+                controls: "extended",
+                defaultFontType: "sans-serif",
+                defaultValue: {
+                    fontSize: "12px",
+                    variant: "Regular",
+                    letterSpacing: "-0.005em",
+                    lineHeight: "1.4em",
+                },
+                description: "Helper text, disclaimers, captions",
+            },
+            titleFontSizeDesktop: {
+                type: ControlType.Number,
+                title: "Title size (desktop)",
+                defaultValue: 40,
+                min: 20,
+                max: 72,
+                step: 1,
+                unit: "px",
+                displayStepper: true,
+                description:
+                    "Step heading size at desktop widths (≥ tablet breakpoint)",
+            },
+            titleFontSizeTablet: {
+                type: ControlType.Number,
+                title: "Title size (tablet)",
+                defaultValue: 34,
+                min: 18,
+                max: 64,
+                step: 1,
+                unit: "px",
+                displayStepper: true,
+                description:
+                    "Step heading size between mobile and tablet breakpoints",
+            },
+            titleFontSizeMobile: {
+                type: ControlType.Number,
+                title: "Title size (mobile)",
+                defaultValue: 28,
+                min: 16,
+                max: 48,
+                step: 1,
+                unit: "px",
+                displayStepper: true,
+                description: "Step heading size below the mobile breakpoint",
+            },
+            labelFontSizeDesktop: {
+                type: ControlType.Number,
+                title: "Label size (desktop)",
+                defaultValue: 14,
+                min: 10,
+                max: 24,
+                step: 1,
+                unit: "px",
+                displayStepper: true,
+                description: "Subtitle and UI label size on desktop",
+            },
+            labelFontSizeTablet: {
+                type: ControlType.Number,
+                title: "Label size (tablet)",
+                defaultValue: 13,
+                min: 10,
+                max: 22,
+                step: 1,
+                unit: "px",
+                displayStepper: true,
+                description: "Subtitle and UI label size on tablet",
+            },
+            labelFontSizeMobile: {
+                type: ControlType.Number,
+                title: "Label size (mobile)",
+                defaultValue: 12,
+                min: 10,
+                max: 20,
+                step: 1,
+                unit: "px",
+                displayStepper: true,
+                description: "Subtitle and UI label size on mobile",
+            },
+        },
+    },
+    colors: {
+        type: ControlType.Object,
+        title: "Theme",
+        icon: "color",
+        controls: {
+            backgroundColor: {
+                type: ControlType.Color,
+                title: "Background",
+                defaultValue: "#0a0a0a",
+                description: "Page background",
+            },
+            cardBackground: {
+                type: ControlType.Color,
+                title: "Card",
+                defaultValue: "rgba(14, 13, 11, 0.72)",
+                description: "Card surface fill",
+            },
+            textPrimary: {
+                type: ControlType.Color,
+                title: "Text Primary",
+                defaultValue: "#ffffff",
+                description: "Primary text",
+            },
+            textSecondary: {
+                type: ControlType.Color,
+                title: "Text Secondary",
+                defaultValue: "rgba(245, 240, 230, 0.55)",
+                description: "Secondary text",
+            },
+            accent: {
+                type: ControlType.Color,
+                title: "Accent",
+                defaultValue: "#D4AF37",
+                description: "Accent for progress, selection, primary button",
+            },
+            border: {
+                type: ControlType.Color,
+                title: "Border",
+                defaultValue: "rgba(245, 240, 230, 0.14)",
+                description: "Borders and dividers",
+            },
+            moreOptions: {
+                type: ControlType.Object,
+                title: "More colors",
+                controls: {
+                    secondaryButtonColor: {
+                        type: ControlType.Color,
+                        title: "Secondary Button",
+                        defaultValue: "rgba(247, 244, 237, 0.08)",
+                        description: "Back button background",
+                    },
+                    secondaryButtonTextColor: {
+                        type: ControlType.Color,
+                        title: "Secondary Button Text",
+                        defaultValue: "#F7F4ED",
+                        description: "Back button text",
+                    },
+                    focusRingColor: {
+                        type: ControlType.Color,
+                        title: "Focus Ring",
+                        defaultValue: "#C9A227",
+                        description: "Focus ring color for keyboard users",
+                    },
+                    overlayScrimColor: {
+                        type: ControlType.Color,
+                        title: "Overlay Scrim",
+                        defaultValue: "rgba(10, 10, 9, 0.85)",
+                        description:
+                            "Reserved for modal overlays if used later",
+                    },
+                },
+            },
+        },
+    },
+    cardStyle: {
+        type: ControlType.Object,
+        title: "Card Style",
+        icon: "effect",
+        controls: {
+            showBackground: {
+                type: ControlType.Boolean,
+                title: "Show Background",
+                defaultValue: true,
+                enabledTitle: "Show",
+                disabledTitle: "Hide",
+                description: "Card fill and border",
+            },
+            backdropBlur: {
+                type: ControlType.Number,
+                title: "Backdrop Blur",
+                defaultValue: 48,
+                min: 0,
+                max: 100,
+                step: 1,
+                unit: "px",
+                displayStepper: true,
+                description:
+                    "Glass blur; clamped on canvas and disabled for reduced motion",
+                hidden: ({ showBackground }) => !showBackground,
+            },
+            showShadow: {
+                type: ControlType.Boolean,
+                title: "Show Shadow",
+                defaultValue: true,
+                enabledTitle: "Show",
+                disabledTitle: "Hide",
+                description: "Drop shadow behind the card surface",
+                hidden: ({ showBackground }) => !showBackground,
+            },
+            shadowIntensity: {
+                type: ControlType.Number,
+                title: "Shadow Intensity",
+                defaultValue: 1,
+                min: 0,
+                max: 3,
+                step: 0.1,
+                displayStepper: true,
+                description: "Scales card drop shadow strength",
+                hidden: ({ showBackground, showShadow }) =>
+                    !showBackground || !showShadow,
+            },
+            moreOptions: {
+                type: ControlType.Object,
+                title: "Atmosphere",
+                icon: "effect",
+                controls: {
+                    pageGlowIntensity: {
+                        type: ControlType.Number,
+                        title: "Page glow intensity",
+                        defaultValue: 1,
+                        min: 0,
+                        max: 2,
+                        step: 0.1,
+                        displayStepper: true,
+                        description:
+                            "Controls the opacity of the radial gradient background atmosphere",
+                        hidden: ({ showBackground }) => !showBackground,
+                    },
+                    showRimHighlight: {
+                        type: ControlType.Boolean,
+                        title: "Rim highlight",
+                        defaultValue: true,
+                        enabledTitle: "Show",
+                        disabledTitle: "Hide",
+                        description:
+                            "Subtle inset highlight on card top/left edges",
+                        hidden: ({ showBackground }) => !showBackground,
+                    },
+                },
+            },
+        },
+    },
+    layout: {
+        type: ControlType.Object,
+        title: "Layout",
+        icon: "layout",
+        controls: {
+            mobileBreakpoint: {
+                type: ControlType.Number,
+                title: "Mobile breakpoint",
+                defaultValue: 480,
+                min: 320,
+                max: 600,
+                step: 8,
+                unit: "px",
+                displayStepper: true,
+                description:
+                    "Container width below which mobile spacing/fonts apply",
+            },
+            tabletBreakpoint: {
+                type: ControlType.Number,
+                title: "Tablet breakpoint",
+                defaultValue: 810,
+                min: 600,
+                max: 1200,
+                step: 8,
+                unit: "px",
+                displayStepper: true,
+                description: "Container width below which tablet tier applies",
+            },
+            desktopBreakpoint: {
+                type: ControlType.Number,
+                title: "Desktop breakpoint",
+                defaultValue: 1440,
+                min: 1024,
+                max: 1920,
+                step: 16,
+                unit: "px",
+                displayStepper: true,
+                description:
+                    "Reference width for desktop layout (used in fluid type scaling)",
+            },
+            pagePaddingDesktop: {
+                type: ControlType.Number,
+                title: "Page padding (desktop)",
+                defaultValue: 24,
+                min: 0,
+                max: 100,
+                step: 1,
+                unit: "px",
+                displayStepper: true,
+                description: "Outer padding on desktop widths",
+            },
+            pagePaddingTablet: {
+                type: ControlType.Number,
+                title: "Page padding (tablet)",
+                defaultValue: 20,
+                min: 0,
+                max: 100,
+                step: 1,
+                unit: "px",
+                displayStepper: true,
+                description: "Outer padding on tablet widths",
+            },
+            pagePaddingMobile: {
+                type: ControlType.Number,
+                title: "Page padding (mobile)",
+                defaultValue: 12,
+                min: 0,
+                max: 80,
+                step: 1,
+                unit: "px",
+                displayStepper: true,
+                description: "Outer padding on mobile widths",
+            },
+            cardPaddingDesktop: {
+                type: ControlType.Number,
+                title: "Card padding (desktop)",
+                defaultValue: 24,
+                min: 0,
+                max: 100,
+                step: 1,
+                unit: "px",
+                displayStepper: true,
+                description: "Inner card padding on desktop",
+            },
+            cardPaddingTablet: {
+                type: ControlType.Number,
+                title: "Card padding (tablet)",
+                defaultValue: 20,
+                min: 0,
+                max: 100,
+                step: 1,
+                unit: "px",
+                displayStepper: true,
+                description: "Inner card padding on tablet",
+            },
+            cardPaddingMobile: {
+                type: ControlType.Number,
+                title: "Card padding (mobile)",
+                defaultValue: 16,
+                min: 0,
+                max: 80,
+                step: 1,
+                unit: "px",
+                displayStepper: true,
+                description: "Inner card padding on mobile",
+            },
+            sectionGapDesktop: {
+                type: ControlType.Number,
+                title: "Section gap (desktop)",
+                defaultValue: 20,
+                min: 0,
+                max: 100,
+                step: 1,
+                unit: "px",
+                displayStepper: true,
+                description: "Vertical gap between major sections on desktop",
+            },
+            sectionGapTablet: {
+                type: ControlType.Number,
+                title: "Section gap (tablet)",
+                defaultValue: 18,
+                min: 0,
+                max: 100,
+                step: 1,
+                unit: "px",
+                displayStepper: true,
+                description: "Vertical gap between major sections on tablet",
+            },
+            sectionGapMobile: {
+                type: ControlType.Number,
+                title: "Section gap (mobile)",
+                defaultValue: 14,
+                min: 0,
+                max: 80,
+                step: 1,
+                unit: "px",
+                displayStepper: true,
+                description: "Vertical gap between major sections on mobile",
+            },
+            fieldGapDesktop: {
+                type: ControlType.Number,
+                title: "Field gap (desktop)",
+                defaultValue: 16,
+                min: 0,
+                max: 50,
+                step: 1,
+                unit: "px",
+                displayStepper: true,
+                description: "Gap between fields on desktop",
+            },
+            fieldGapTablet: {
+                type: ControlType.Number,
+                title: "Field gap (tablet)",
+                defaultValue: 14,
+                min: 0,
+                max: 50,
+                step: 1,
+                unit: "px",
+                displayStepper: true,
+                description: "Gap between fields on tablet",
+            },
+            fieldGapMobile: {
+                type: ControlType.Number,
+                title: "Field gap (mobile)",
+                defaultValue: 12,
+                min: 0,
+                max: 40,
+                step: 1,
+                unit: "px",
+                displayStepper: true,
+                description: "Gap between fields on mobile",
+            },
+            buttonHeightDesktop: {
+                type: ControlType.Number,
+                title: "Button height (desktop)",
+                defaultValue: 48,
+                min: 44,
+                max: 80,
+                step: 1,
+                unit: "px",
+                displayStepper: true,
+                description: "Primary button height on desktop",
+            },
+            buttonHeightTablet: {
+                type: ControlType.Number,
+                title: "Button height (tablet)",
+                defaultValue: 46,
+                min: 44,
+                max: 80,
+                step: 1,
+                unit: "px",
+                displayStepper: true,
+                description: "Primary button height on tablet",
+            },
+            buttonHeightMobile: {
+                type: ControlType.Number,
+                title: "Button height (mobile)",
+                defaultValue: 44,
+                min: 44,
+                max: 72,
+                step: 1,
+                unit: "px",
+                displayStepper: true,
+                description: "Primary button height on mobile (min 44px touch)",
+            },
+            globalMaxWidth: {
+                type: ControlType.Number,
+                title: "Max Width",
+                defaultValue: 1200,
+                min: 400,
+                max: 1600,
+                step: 8,
+                unit: "px",
+                displayStepper: true,
+                description: "Max width of the page shell (rail + card)",
+            },
+            contentMinWidth: {
+                type: ControlType.Number,
+                title: "Card Min Width",
+                defaultValue: 360,
+                min: 280,
+                max: 1200,
+                step: 8,
+                unit: "px",
+                displayStepper: true,
+                description:
+                    "Minimum form card width. Single-column: stable floor; rail: card column floor.",
+                hidden: ({ useRailLayout }) => useRailLayout,
+            },
+            contentMaxWidth: {
+                type: ControlType.Number,
+                title: "Card Max Width",
+                defaultValue: 640,
+                min: 320,
+                max: 1200,
+                step: 8,
+                unit: "px",
+                displayStepper: true,
+                description: "Maximum form card width in single-column layout.",
+                hidden: ({ useRailLayout }) => useRailLayout,
+            },
+            minPageHeight: {
+                type: ControlType.Number,
+                title: "Min Page Height",
+                defaultValue: 0,
+                min: 0,
+                max: 1200,
+                step: 8,
+                unit: "px",
+                displayStepper: true,
+                description:
+                    "0 = hug content (no dead space). Raise only if you need a taller floor.",
+            },
+            useRailLayout: {
+                type: ControlType.Boolean,
+                title: "Rail Layout",
+                defaultValue: false,
+                enabledTitle: "Two columns",
+                disabledTitle: "Single column",
+                description:
+                    "Left rail with title and step list; main card on the right (collapses below breakpoint)",
+            },
+            railWidth: {
+                type: ControlType.Number,
+                title: "Rail Width",
+                defaultValue: 280,
+                min: 200,
+                max: 500,
+                step: 4,
+                unit: "px",
+                displayStepper: true,
+                description: "Width of the left editorial rail column",
+                hidden: ({ useRailLayout }) => !useRailLayout,
+            },
+            railGap: {
+                type: ControlType.Number,
+                title: "Rail Gap",
+                defaultValue: 80,
+                min: 16,
+                max: 100,
+                step: 4,
+                unit: "px",
+                displayStepper: true,
+                description: "Space between rail and main card",
+                hidden: ({ useRailLayout }) => !useRailLayout,
+            },
+            collapseBreakpoint: {
+                type: ControlType.Number,
+                title: "Collapse Breakpoint",
+                defaultValue: 768,
+                min: 390,
+                max: 1024,
+                step: 8,
+                unit: "px",
+                displayStepper: true,
+                description:
+                    "Container width below which rail collapses to single column",
+                hidden: ({ useRailLayout }) => !useRailLayout,
+            },
+            borderRadius: {
+                type: ControlType.Number,
+                title: "Border Radius",
+                defaultValue: 8,
+                min: 0,
+                max: 32,
+                step: 1,
+                unit: "px",
+                displayStepper: true,
+                description: "Corner radius for card, inputs, and buttons",
+            },
+        },
+    },
+    motionConfig: {
+        type: ControlType.Object,
+        title: "Motion",
+        icon: "effect",
+        controls: {
+            intensity: {
+                type: ControlType.Number,
+                title: "Intensity",
+                defaultValue: 1,
+                min: 0,
+                max: 2,
+                step: 0.1,
+                displayStepper: true,
+                description: "Scales step transition travel slightly",
+            },
+            moreOptions: {
+                type: ControlType.Object,
+                title: "Spring overrides",
+                icon: "interaction",
+                controls: {
+                    personality: {
+                        type: ControlType.Enum,
+                        title: "Personality",
+                        options: ["calm", "balanced", "snappy"],
+                        optionTitles: ["Calm", "Balanced", "Snappy"],
+                        defaultValue: "balanced",
+                        displaySegmentedControl: true,
+                        description: "Spring preset for step transitions",
+                    },
+                    stiffness: {
+                        type: ControlType.Number,
+                        title: "Stiffness",
+                        defaultValue: 90,
+                        min: 1,
+                        max: 500,
+                        step: 1,
+                        displayStepper: true,
+                        description: "Spring stiffness for step transitions",
+                    },
+                    damping: {
+                        type: ControlType.Number,
+                        title: "Damping",
+                        defaultValue: 18,
+                        min: 1,
+                        max: 100,
+                        step: 1,
+                        displayStepper: true,
+                        description: "Spring damping for step transitions",
+                    },
+                    mass: {
+                        type: ControlType.Number,
+                        title: "Mass",
+                        defaultValue: 1.1,
+                        min: 0.1,
+                        max: 10,
+                        step: 0.1,
+                        displayStepper: true,
+                        description: "Spring mass for step transitions",
+                    },
+                },
+            },
+        },
+    },
+    submission: {
+        type: ControlType.Object,
+        title: "Formula & summary",
+        icon: "database",
+        controls: {
+            showAdvancedPricing: {
+                type: ControlType.Boolean,
+                title: "Advanced pricing",
+                defaultValue: false,
+                enabledTitle: "Show",
+                disabledTitle: "Hide",
+                description:
+                    "Reveals optional per-intent and per-timeline multiplier rows in the inspector",
+            },
+            pricing: {
+                type: ControlType.Object,
+                title: "Multipliers",
+                icon: "settings",
+                controls: {
+                    rushMultiplierWhenChecked: {
+                        type: ControlType.Number,
+                        title: "Rush multiplier",
+                        defaultValue: 1.3,
+                        min: 1,
+                        max: 3,
+                        step: 0.05,
+                        displayStepper: true,
+                        description:
+                            "Applied to the line sum when rush delivery is checked in step 3",
+                    },
+                    intentMultiplierOverrides: {
+                        type: ControlType.Array,
+                        title: "Intent multipliers",
+                        description:
+                            "Multiply the estimate when the Step 1 intent key matches; keys must match intent option keys",
+                        hidden: (props) =>
+                            !props.submission?.showAdvancedPricing,
+                        control: {
+                            type: ControlType.Object,
+                            controls: {
+                                key: {
+                                    type: ControlType.String,
+                                    title: "Intent key",
+                                    defaultValue: "marketing-site",
+                                    description:
+                                        "Exact key from Step 1 intent options",
+                                },
+                                multiplier: {
+                                    type: ControlType.Number,
+                                    title: "Multiplier",
+                                    defaultValue: 1,
+                                    min: 0.1,
+                                    max: 5,
+                                    step: 0.05,
+                                    displayStepper: true,
+                                    description:
+                                        "Positive factor applied when this intent is selected",
+                                },
+                            },
+                        },
+                        defaultValue:
+                            DEFAULT_PROPS.submission.pricing
+                                .intentMultiplierOverrides,
+                    },
+                    timelineMultiplierOverrides: {
+                        type: ControlType.Array,
+                        title: "Timeline multipliers",
+                        description:
+                            "Multiply the estimate when the Step 3 timeline key matches",
+                        hidden: (props) =>
+                            !props.submission?.showAdvancedPricing,
+                        control: {
+                            type: ControlType.Object,
+                            controls: {
+                                key: {
+                                    type: ControlType.String,
+                                    title: "Timeline key",
+                                    defaultValue: "standard",
+                                    description:
+                                        "Exact key from Step 3 timeline options",
+                                },
+                                multiplier: {
+                                    type: ControlType.Number,
+                                    title: "Multiplier",
+                                    defaultValue: 1,
+                                    min: 0.1,
+                                    max: 5,
+                                    step: 0.05,
+                                    displayStepper: true,
+                                    description:
+                                        "Positive factor applied when this timeline bucket is selected",
+                                },
+                            },
+                        },
+                        defaultValue:
+                            DEFAULT_PROPS.submission.pricing
+                                .timelineMultiplierOverrides,
+                    },
+                },
+            },
+            estimateDisplay: {
+                type: ControlType.Object,
+                title: "Estimate display",
+                icon: "preview",
+                controls: {
+                    currencySymbol: {
+                        type: ControlType.String,
+                        title: "Currency symbol",
+                        defaultValue: "$",
+                        description: "Prefix shown before formatted numbers",
+                    },
+                    rangeLowPercent: {
+                        type: ControlType.Number,
+                        title: "Range low %",
+                        defaultValue: 0.9,
+                        min: 0.5,
+                        max: 1,
+                        step: 0.01,
+                        unit: "%",
+                        displayStepper: true,
+                        description:
+                            "Lower bound of the displayed band as a fraction of the animated total",
+                    },
+                    rangeHighPercent: {
+                        type: ControlType.Number,
+                        title: "Range high %",
+                        defaultValue: 1.1,
+                        min: 1,
+                        max: 2,
+                        step: 0.01,
+                        unit: "%",
+                        displayStepper: true,
+                        description:
+                            "Upper bound of the displayed band as a fraction of the animated total",
+                    },
+                    showLineBreakdown: {
+                        type: ControlType.Boolean,
+                        title: "Show breakdown",
+                        defaultValue: true,
+                        enabledTitle: "Show",
+                        disabledTitle: "Hide",
+                        description:
+                            "Lists each formula line with its contribution after multipliers on step 4",
+                    },
+                    breakdownStaggerMs: {
+                        type: ControlType.Number,
+                        title: "Breakdown stagger (ms)",
+                        defaultValue: 40,
+                        min: 0,
+                        max: 200,
+                        step: 5,
+                        unit: "ms",
+                        displayStepper: true,
+                        description:
+                            "Delay between each breakdown row animation in published preview",
+                    },
+                },
+            },
+            formulaLineItems: {
+                type: ControlType.Array,
+                title: "Formula line items",
+                description:
+                    "Each line multiplies a Step 2 field key by unit price for the live calculator.",
+                control: {
+                    type: ControlType.Object,
+                    controls: {
+                        label: {
+                            type: ControlType.String,
+                            defaultValue: "Page design and build",
+                            description: "Label in recap and breakdown",
+                        },
+                        quantityFieldKey: {
+                            type: ControlType.String,
+                            defaultValue: "pages",
+                            description:
+                                "Must match a Step 2 quantity field key",
+                        },
+                        unitPrice: {
+                            type: ControlType.Number,
+                            title: "Unit price",
+                            defaultValue: 500,
+                            min: 0,
+                            max: 100000,
+                            step: 50,
+                            displayStepper: true,
+                            description: "Currency units per quantity unit",
+                        },
+                    },
+                },
+                defaultValue: DEFAULT_PROPS.submission.formulaLineItems,
+            },
+            successScreenCopy: {
+                type: ControlType.Object,
+                title: "Summary screen",
+                icon: "preview",
+                controls: {
+                    screenTitle: {
+                        type: ControlType.String,
+                        title: "Title",
+                        defaultValue: "Indicative estimate",
+                        description: "Headline on the summary state",
+                    },
+                    screenSubtitle: {
+                        type: ControlType.String,
+                        title: "Subtitle",
+                        defaultValue:
+                            "Use this range for planning. Final pricing follows discovery and scope review.",
+                        description: "Supporting line under the summary title",
+                    },
+                    primaryButtonLabel: {
+                        type: ControlType.String,
+                        title: "Button label",
+                        defaultValue: "Start over",
+                        description: "Label for resetting the calculator flow",
+                    },
+                    nextStep1Text: {
+                        type: ControlType.String,
+                        title: "Next step 1",
+                        defaultValue:
+                            "Share this summary with your team or client as a ballpark",
+                        description: "First bullet on the summary screen",
+                    },
+                    nextStep2Text: {
+                        type: ControlType.String,
+                        title: "Next step 2",
+                        defaultValue:
+                            "Add a Framer Form or CRM next to this component if you need lead capture",
+                        description: "Second bullet on the summary screen",
+                    },
+                    nextStep3Text: {
+                        type: ControlType.String,
+                        title: "Next step 3",
+                        defaultValue:
+                            "Tune formula line items and multipliers in component settings to match your rates",
+                        description: "Third bullet on the summary screen",
+                    },
+                },
+            },
+        },
+    },
+})
+
+EXPORT_END

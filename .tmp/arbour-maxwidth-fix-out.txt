@@ -1,0 +1,384 @@
+{
+  "applied": 25,
+  "notes": [
+    "SET /|Desktop|Process Section NONE→1200 id=H_KIxioFT",
+    "SET /|Tablet|Process Section NONE→1200 id=wBAtV56MEH_KIxioFT",
+    "SET /|Phone|Process Section NONE→1200 id=mcL3MFzFVH_KIxioFT",
+    "SET /|Desktop|Arbour_StatsBand NONE→1200 id=CMv32_lLx",
+    "SET /|Tablet|Arbour_StatsBand NONE→1200 id=wBAtV56MECMv32_lLx",
+    "SET /|Phone|Arbour_StatsBand NONE→1200 id=mcL3MFzFVCMv32_lLx",
+    "SET /notes|Desktop|Journal Manifesto NONE→1200 id=p7CGH_nWX",
+    "SET /notes|Tablet|Journal Manifesto NONE→1200 id=LptqEiXVpp7CGH_nWX",
+    "SET /notes|Phone|Journal Manifesto NONE→1200 id=INUKgvAnap7CGH_nWX",
+    "SET /contact|Desktop|Contact Hero NONE→1200 id=jmmPpci8t",
+    "SET /contact|Tablet|Contact Hero NONE→1200 id=qjv2S9WpajmmPpci8t",
+    "SET /contact|Phone|Contact Hero NONE→1200 id=jEM0wBo2vjmmPpci8t",
+    "SET /contact|Desktop|Contact Opening NONE→1200 id=vv0Vi0hbh",
+    "SET /contact|Tablet|Contact Opening NONE→1200 id=qjv2S9Wpavv0Vi0hbh",
+    "SET /contact|Phone|Contact Opening NONE→1200 id=jEM0wBo2vvv0Vi0hbh",
+    "SET /notes/:slug|Desktop|Journal Text Column NONE→1200 id=HR7GLyyBT",
+    "SET /notes/:slug|Tablet|Journal Text Column NONE→1200 id=gZUAlaJJ1HR7GLyyBT",
+    "SET /notes/:slug|Phone|Journal Text Column NONE→1200 id=EavJve6uGHR7GLyyBT",
+    "ok /properties/:slug|Desktop|Property Specs Band",
+    "ok /properties/:slug|Tablet|Property Specs Band",
+    "SET /properties/:slug|Phone|Property Specs Band NONE→1200 id=MrTKJzwELaqUTeKNkU",
+    "ok /properties/:slug|Desktop|Chapter Intro",
+    "ok /properties/:slug|Tablet|Chapter Intro",
+    "SET /properties/:slug|Phone|Chapter Intro NONE→1200 id=MrTKJzwELubrig7P0R",
+    "ok /notes/:slug|Desktop|Specs Strip",
+    "ok /notes/:slug|Tablet|Specs Strip",
+    "SET /notes/:slug|Phone|Specs Strip NONE→1200 id=EavJve6uGOE3uHiT52",
+    "ok /notes/:slug|Desktop|Closing Chapter",
+    "ok /notes/:slug|Tablet|Closing Chapter",
+    "SET /notes/:slug|Phone|Closing Chapter NONE→1200 id=EavJve6uGVeGntwuIg",
+    "SET /|Desktop|Hero>Text Content Column NONE→1200 id=ET8JHTjC5",
+    "SET /|Tablet|Hero>Text Content Column NONE→1200 id=wBAtV56MEET8JHTjC5",
+    "SET /|Phone|Hero>Text Content Column NONE→1200 id=mcL3MFzFVET8JHTjC5"
+  ],
+  "dslPreview": [
+    "SET H_KIxioFT maxWidth=\"1200px\";",
+    "SET wBAtV56MEH_KIxioFT maxWidth=\"1200px\";",
+    "SET mcL3MFzFVH_KIxioFT maxWidth=\"1200px\";",
+    "SET CMv32_lLx maxWidth=\"1200px\";",
+    "SET wBAtV56MECMv32_lLx maxWidth=\"1200px\";",
+    "SET mcL3MFzFVCMv32_lLx maxWidth=\"1200px\";",
+    "SET p7CGH_nWX maxWidth=\"1200px\";",
+    "SET LptqEiXVpp7CGH_nWX maxWidth=\"1200px\";",
+    "SET INUKgvAnap7CGH_nWX maxWidth=\"1200px\";",
+    "SET jmmPpci8t maxWidth=\"1200px\";",
+    "SET qjv2S9WpajmmPpci8t maxWidth=\"1200px\";",
+    "SET jEM0wBo2vjmmPpci8t maxWidth=\"1200px\";",
+    "SET vv0Vi0hbh maxWidth=\"1200px\";",
+    "SET qjv2S9Wpavv0Vi0hbh maxWidth=\"1200px\";",
+    "SET jEM0wBo2vvv0Vi0hbh maxWidth=\"1200px\";",
+    "SET HR7GLyyBT maxWidth=\"1200px\";",
+    "SET gZUAlaJJ1HR7GLyyBT maxWidth=\"1200px\";",
+    "SET EavJve6uGHR7GLyyBT maxWidth=\"1200px\";",
+    "SET MrTKJzwELaqUTeKNkU maxWidth=\"1200px\";",
+    "SET MrTKJzwELubrig7P0R maxWidth=\"1200px\";",
+    "SET EavJve6uGOE3uHiT52 maxWidth=\"1200px\";",
+    "SET EavJve6uGVeGntwuIg maxWidth=\"1200px\";",
+    "SET ET8JHTjC5 maxWidth=\"1200px\";",
+    "SET wBAtV56MEET8JHTjC5 maxWidth=\"1200px\";",
+    "SET mcL3MFzFVET8JHTjC5 maxWidth=\"1200px\";"
+  ],
+  "result": {
+    "message": "Lint: 3 errors, 33 warnings.",
+    "linter": {
+      "warnings": {
+        "Text contrast against its background is too low": [
+          {
+            "id": "v:NSDs1we7r:0:0",
+            "theme": "light",
+            "text": "The Arbour style is defined by quiet sur",
+            "fontWeight": "400",
+            "color": "rgb(252, 250, 244)",
+            "requiredContrast": 1.8,
+            "backgroundContrasts": [
+              "1.0 for rgb(252, 250, 244)"
+            ],
+            "sampledFromGradientStops": false,
+            "backgroundNodeIds": [
+              "PYd9q93eW"
+            ]
+          },
+          {
+            "id": "v:NSDs1we7r:0:0",
+            "theme": "dark",
+            "text": "The Arbour style is defined by quiet sur",
+            "fontWeight": "400",
+            "color": "rgb(252, 250, 244)",
+            "requiredContrast": 1.8,
+            "backgroundContrasts": [
+              "1.0 for rgb(252, 250, 244)"
+            ],
+            "sampledFromGradientStops": false,
+            "backgroundNodeIds": [
+              "PYd9q93eW"
+            ]
+          }
+        ],
+        "Element has zero height": [
+          "EavJve6uGOE3uHiT52",
+          "EavJve6uGVeGntwuIg"
+        ],
+        "Content inside a full-bleed or proportional layout should set a maxWidth so large screens don't cause huge content": [
+          "NFy40_8W1",
+          "iq0rlFlTE",
+          "v0hRg6_73"
+        ],
+        "Visible siblings in a stack might be too close. If this is not intended, set `gap` on the parent or wrap either sibling in a frame with `padding`.": [
+          {
+            "id": "mcL3MFzFV",
+            "siblingIds": [
+              "mcL3MFzFViq0rlFlTE",
+              "mcL3MFzFVa6KIAp6Ii"
+            ],
+            "spacing": -714.7,
+            "minSpacing": 4,
+            "axis": "vertical"
+          },
+          {
+            "id": "mcL3MFzFV",
+            "siblingIds": [
+              "mcL3MFzFVa6KIAp6Ii",
+              "mcL3MFzFVbkyM_6J5N"
+            ],
+            "spacing": -425.71,
+            "minSpacing": 4,
+            "axis": "vertical"
+          },
+          {
+            "id": "mcL3MFzFV",
+            "siblingIds": [
+              "mcL3MFzFVbkyM_6J5N",
+              "mcL3MFzFVVXxBSnkhU"
+            ],
+            "spacing": -407.59,
+            "minSpacing": 4,
+            "axis": "vertical"
+          },
+          {
+            "id": "mcL3MFzFV",
+            "siblingIds": [
+              "mcL3MFzFVVXxBSnkhU",
+              "mcL3MFzFVZsKgeszB_"
+            ],
+            "spacing": -400.11,
+            "minSpacing": 4,
+            "axis": "vertical"
+          },
+          {
+            "id": "mcL3MFzFV",
+            "siblingIds": [
+              "mcL3MFzFVZsKgeszB_",
+              "mcL3MFzFVH_KIxioFT"
+            ],
+            "spacing": -401.65,
+            "minSpacing": 4,
+            "axis": "vertical"
+          },
+          {
+            "id": "mcL3MFzFVtOn8dp9rd",
+            "siblingIds": [
+              "mcL3MFzFVoIT9IrRiy",
+              "mcL3MFzFVko3Oouocy"
+            ],
+            "spacing": -300,
+            "minSpacing": 4,
+            "axis": "vertical"
+          },
+          {
+            "id": "mcL3MFzFVtOn8dp9rd",
+            "siblingIds": [
+              "mcL3MFzFVko3Oouocy",
+              "mcL3MFzFVeAt1AYMf9"
+            ],
+            "spacing": -300,
+            "minSpacing": 4,
+            "axis": "vertical"
+          },
+          {
+            "id": "mcL3MFzFVtOn8dp9rd",
+            "siblingIds": [
+              "mcL3MFzFVeAt1AYMf9",
+              "mcL3MFzFVw3kyse_7s"
+            ],
+            "spacing": -250,
+            "minSpacing": 4,
+            "axis": "vertical"
+          },
+          {
+            "id": "INUKgvAna",
+            "siblingIds": [
+              "INUKgvAnawY1tfyIdc",
+              "INUKgvAnap7CGH_nWX"
+            ],
+            "spacing": -571.4300000000001,
+            "minSpacing": 4,
+            "axis": "vertical"
+          },
+          {
+            "id": "jEM0wBo2v",
+            "siblingIds": [
+              "jEM0wBo2vR3nS8tMqV",
+              "jEM0wBo2vjmmPpci8t"
+            ],
+            "spacing": -1359.7199999999998,
+            "minSpacing": 4,
+            "axis": "vertical"
+          },
+          {
+            "id": "jEM0wBo2v",
+            "siblingIds": [
+              "jEM0wBo2vjmmPpci8t",
+              "jEM0wBo2vvv0Vi0hbh"
+            ],
+            "spacing": -651.62,
+            "minSpacing": 4,
+            "axis": "vertical"
+          },
+          {
+            "id": "jEM0wBo2v",
+            "siblingIds": [
+              "jEM0wBo2vvv0Vi0hbh",
+              "jEM0wBo2vliyenGbOL"
+            ],
+            "spacing": -396.61,
+            "minSpacing": 4,
+            "axis": "vertical"
+          },
+          {
+            "id": "jEM0wBo2vvv0Vi0hbh",
+            "siblingIds": [
+              "jEM0wBo2vf6WUp6SN5",
+              "jEM0wBo2vw1lCAnw5U"
+            ],
+            "spacing": -308.27,
+            "minSpacing": 4,
+            "axis": "vertical"
+          },
+          {
+            "id": "jEM0wBo2vpuCbB_BBh",
+            "siblingIds": [
+              "jEM0wBo2vjaoBzZ16E",
+              "jEM0wBo2vLUWFM6muE"
+            ],
+            "spacing": -258.45,
+            "minSpacing": 4,
+            "axis": "vertical"
+          },
+          {
+            "id": "jEM0wBo2vpuCbB_BBh",
+            "siblingIds": [
+              "jEM0wBo2vLUWFM6muE",
+              "jEM0wBo2vaClZLZOdE"
+            ],
+            "spacing": -288.5,
+            "minSpacing": 4,
+            "axis": "vertical"
+          },
+          {
+            "id": "EavJve6uG",
+            "siblingIds": [
+              "EavJve6uGTYvLnLN5L",
+              "EavJve6uGF88MmOdES"
+            ],
+            "spacing": -392.62,
+            "minSpacing": 4,
+            "axis": "vertical"
+          },
+          {
+            "id": "MrTKJzwEL",
+            "siblingIds": [
+              "MrTKJzwELOA3sHhDMv",
+              "MrTKJzwELvlElPVCV7"
+            ],
+            "spacing": -409.18999999999994,
+            "minSpacing": 4,
+            "axis": "vertical"
+          },
+          {
+            "id": "MrTKJzwEL",
+            "siblingIds": [
+              "MrTKJzwELvlElPVCV7",
+              "MrTKJzwELlP4ZL6y0c"
+            ],
+            "spacing": -404.15,
+            "minSpacing": 4,
+            "axis": "vertical"
+          },
+          {
+            "id": "MrTKJzwEL",
+            "siblingIds": [
+              "MrTKJzwELlP4ZL6y0c",
+              "MrTKJzwELuZ8oOXu4y"
+            ],
+            "spacing": -433.75,
+            "minSpacing": 4,
+            "axis": "vertical"
+          },
+          {
+            "id": "MrTKJzwEL",
+            "siblingIds": [
+              "MrTKJzwELuZ8oOXu4y",
+              "MrTKJzwELlODMk6Egu"
+            ],
+            "spacing": -307.38,
+            "minSpacing": 4,
+            "axis": "vertical"
+          },
+          {
+            "id": "MrTKJzwEL",
+            "siblingIds": [
+              "MrTKJzwELlODMk6Egu",
+              "MrTKJzwELaqUTeKNkU"
+            ],
+            "spacing": -367.38,
+            "minSpacing": 4,
+            "axis": "vertical"
+          },
+          {
+            "id": "MrTKJzwEL",
+            "siblingIds": [
+              "MrTKJzwELaqUTeKNkU",
+              "MrTKJzwELubrig7P0R"
+            ],
+            "spacing": -353.85,
+            "minSpacing": 4,
+            "axis": "vertical"
+          },
+          {
+            "id": "mcL3MFzFViq0rlFlTE",
+            "siblingIds": [
+              "mcL3MFzFVqpE9wJcPm",
+              "mcL3MFzFVET8JHTjC5"
+            ],
+            "spacing": -593.8,
+            "minSpacing": 4,
+            "axis": "vertical"
+          }
+        ],
+        "Links cannot be nested. Remove the `link` from either the nested element or the enclosing linked element.": [
+          {
+            "id": "jFTgrH9Eq",
+            "outerId": "uONXSHosa"
+          },
+          {
+            "id": "qjv2S9WpajFTgrH9Eq",
+            "outerId": "qjv2S9WpauONXSHosa"
+          },
+          {
+            "id": "jEM0wBo2vjFTgrH9Eq",
+            "outerId": "jEM0wBo2vuONXSHosa"
+          }
+        ]
+      },
+      "errors": {
+        "Border is incomplete": [
+          {
+            "id": "WLSMm5iy1",
+            "missing": [
+              "width",
+              "color"
+            ]
+          },
+          {
+            "id": "qjv2S9WpaWLSMm5iy1",
+            "missing": [
+              "width",
+              "color"
+            ]
+          },
+          {
+            "id": "jEM0wBo2vWLSMm5iy1",
+            "missing": [
+              "width",
+              "color"
+            ]
+          }
+        ]
+      }
+    }
+  }
+}

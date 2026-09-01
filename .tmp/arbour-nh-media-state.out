@@ -1,0 +1,54 @@
+{
+  "media": [
+    {
+      "id": "z2kRrpzAZ",
+      "name": "Arbour_TerritoryHoverMedia",
+      "parentTrail": [
+        "Territory Checkerboard",
+        "Territory Card",
+        "Territory Photograph"
+      ],
+      "component": "codeFile/nMMl08t:default",
+      "image": "var(--variable-dM8yn13g7)",
+      "imageB": "var(--variable-ppzgDk7Mi)"
+    },
+    {
+      "id": "aJLpuUP0qz2kRrpzAZ",
+      "name": "Arbour_TerritoryHoverMedia",
+      "parentTrail": [
+        "Territory Checkerboard",
+        "Territory Card",
+        "Territory Photograph"
+      ],
+      "component": "codeFile/nMMl08t:default",
+      "image": "var(--variable-dM8yn13g7)",
+      "imageB": "var(--variable-ppzgDk7Mi)"
+    },
+    {
+      "id": "Qonafp_oDz2kRrpzAZ",
+      "name": "Arbour_TerritoryHoverMedia",
+      "parentTrail": [
+        "Territory Checkerboard",
+        "Territory Card",
+        "Territory Photograph"
+      ],
+      "component": "codeFile/nMMl08t:default",
+      "image": "var(--variable-dM8yn13g7)",
+      "imageB": "var(--variable-ppzgDk7Mi)"
+    }
+  ],
+  "photo": {
+    "h": "320px",
+    "fill": "rgba(0, 0, 0, 0)",
+    "kids": [
+      "z2kRrpzAZ:Arbour_TerritoryHoverMedia"
+    ]
+  },
+  "card": {
+    "order": [
+      "Territory Photograph",
+      "Territory Dossier"
+    ],
+    "dossierBorder": "1px solid rgba(28, 27, 22, 0.10)"
+  }
+}

@@ -1,0 +1,907 @@
+{
+  "collectedAt": "2026-08-09T17:30:29.922Z",
+  "expectLTop": {
+    "Desktop": 128,
+    "Tablet": 96,
+    "Phone": 64
+  },
+  "heroAirShort": [
+    {
+      "path": "/",
+      "bp": "Desktop",
+      "id": "iq0rlFlTE",
+      "name": "Hero Section",
+      "depth": 1,
+      "top": 0,
+      "expectTop": 128,
+      "short": true,
+      "raw": "0px 0px 64px 0px",
+      "chain": "Desktop > Hero Section"
+    },
+    {
+      "path": "/",
+      "bp": "Phone",
+      "id": "mcL3MFzFViq0rlFlTE",
+      "name": "Hero Section",
+      "depth": 1,
+      "top": 0,
+      "expectTop": 64,
+      "short": true,
+      "raw": "0px 0px 64px 0px",
+      "chain": "Phone > Hero Section"
+    },
+    {
+      "path": "/",
+      "bp": "Tablet",
+      "id": "wBAtV56MEiq0rlFlTE",
+      "name": "Hero Section",
+      "depth": 1,
+      "top": 0,
+      "expectTop": 96,
+      "short": true,
+      "raw": "0px 0px 64px 0px",
+      "chain": "Tablet > Hero Section"
+    },
+    {
+      "path": "/about",
+      "bp": "Desktop",
+      "id": "QzWTnDkey",
+      "name": "Opening Copy",
+      "depth": 2,
+      "top": 32,
+      "expectTop": 128,
+      "short": true,
+      "raw": "32px 48px 64px 48px",
+      "chain": "Desktop > Beat 1 — Portrait Stage > Opening Copy"
+    },
+    {
+      "path": "/about",
+      "bp": "Phone",
+      "id": "CYNrpU04tQzWTnDkey",
+      "name": "Opening Copy",
+      "depth": 2,
+      "top": 24,
+      "expectTop": 64,
+      "short": true,
+      "raw": "24px 16px 40px 16px",
+      "chain": "Phone > Beat 1 — Portrait Stage > Opening Copy"
+    },
+    {
+      "path": "/about",
+      "bp": "Tablet",
+      "id": "xvqDXw58eQzWTnDkey",
+      "name": "Opening Copy",
+      "depth": 2,
+      "top": 24,
+      "expectTop": 96,
+      "short": true,
+      "raw": "24px 40px 48px 40px",
+      "chain": "Tablet > Beat 1 — Portrait Stage > Opening Copy"
+    },
+    {
+      "path": "/contact",
+      "bp": "Desktop",
+      "id": "AATw4pip9",
+      "name": "Hero Copy",
+      "depth": 2,
+      "top": 0,
+      "expectTop": 128,
+      "short": true,
+      "raw": "0px 48px 0px 0px",
+      "chain": "Desktop > Contact Hero > Hero Copy"
+    },
+    {
+      "path": "/contact",
+      "bp": "Phone",
+      "id": "jEM0wBo2vAATw4pip9",
+      "name": "Hero Copy",
+      "depth": 2,
+      "top": 40,
+      "expectTop": 64,
+      "short": true,
+      "raw": "40px 0px 40px 0px",
+      "chain": "Phone > Contact Hero > Hero Copy"
+    },
+    {
+      "path": "/contact",
+      "bp": "Tablet",
+      "id": "qjv2S9WpaAATw4pip9",
+      "name": "Hero Copy",
+      "depth": 2,
+      "top": 0,
+      "expectTop": 96,
+      "short": true,
+      "raw": "0px 40px 0px 0px",
+      "chain": "Tablet > Contact Hero > Hero Copy"
+    },
+    {
+      "path": "/notes",
+      "bp": "Desktop",
+      "id": "NPRkgYRMH",
+      "name": "Hero Copy",
+      "depth": 3,
+      "top": 64,
+      "expectTop": 128,
+      "short": true,
+      "raw": "64px 0px 64px 0px",
+      "chain": "Desktop > Journal > Notes Hero > Hero Copy"
+    },
+    {
+      "path": "/notes",
+      "bp": "Tablet",
+      "id": "LptqEiXVpNPRkgYRMH",
+      "name": "Hero Copy",
+      "depth": 3,
+      "top": 72,
+      "expectTop": 96,
+      "short": true,
+      "raw": "72px 0px 48px 0px",
+      "chain": "Tablet > Journal > Notes Hero > Hero Copy"
+    },
+    {
+      "path": "/notes/:slug",
+      "bp": "Desktop",
+      "id": "rZDvGuaZD",
+      "name": "Journal Hero Image",
+      "depth": 1,
+      "top": 64,
+      "expectTop": 128,
+      "short": true,
+      "raw": "64px 48px 0px 48px",
+      "chain": "Desktop > Journal Hero Image"
+    },
+    {
+      "path": "/notes/:slug",
+      "bp": "Phone",
+      "id": "EavJve6uGrZDvGuaZD",
+      "name": "Journal Hero Image",
+      "depth": 1,
+      "top": 40,
+      "expectTop": 64,
+      "short": true,
+      "raw": "40px 16px 0px 16px",
+      "chain": "Phone > Journal Hero Image"
+    },
+    {
+      "path": "/notes/:slug",
+      "bp": "Tablet",
+      "id": "gZUAlaJJ1rZDvGuaZD",
+      "name": "Journal Hero Image",
+      "depth": 1,
+      "top": 48,
+      "expectTop": 96,
+      "short": true,
+      "raw": "48px 40px 0px 40px",
+      "chain": "Tablet > Journal Hero Image"
+    },
+    {
+      "path": "/properties",
+      "bp": "Desktop",
+      "id": "iA6G6kCq1",
+      "name": "Hero Meta Row",
+      "depth": 4,
+      "top": 32,
+      "expectTop": 128,
+      "short": true,
+      "raw": "32px 0px 0px 0px",
+      "chain": "Properties Content > Properties Hero > Hero Copy > Hero Meta Row"
+    },
+    {
+      "path": "/properties",
+      "bp": "Phone",
+      "id": "EK6d5SyWLiA6G6kCq1",
+      "name": "Hero Meta Row",
+      "depth": 4,
+      "top": 32,
+      "expectTop": 64,
+      "short": true,
+      "raw": "32px 0px 0px 0px",
+      "chain": "Properties Content > Properties Hero > Hero Copy > Hero Meta Row"
+    },
+    {
+      "path": "/properties",
+      "bp": "Tablet",
+      "id": "SScKalu3BiA6G6kCq1",
+      "name": "Hero Meta Row",
+      "depth": 4,
+      "top": 48,
+      "expectTop": 96,
+      "short": true,
+      "raw": "48px 0px 0px 0px",
+      "chain": "Properties Content > Properties Hero > Hero Copy > Hero Meta Row"
+    }
+  ],
+  "heroAirAllHeroish": [
+    {
+      "path": "/",
+      "bp": "Desktop",
+      "id": "iq0rlFlTE",
+      "name": "Hero Section",
+      "depth": 1,
+      "top": 0,
+      "expectTop": 128,
+      "short": true,
+      "raw": "0px 0px 64px 0px",
+      "chain": "Desktop > Hero Section"
+    },
+    {
+      "path": "/",
+      "bp": "Tablet",
+      "id": "wBAtV56MEiq0rlFlTE",
+      "name": "Hero Section",
+      "depth": 1,
+      "top": 0,
+      "expectTop": 96,
+      "short": true,
+      "raw": "0px 0px 64px 0px",
+      "chain": "Tablet > Hero Section"
+    },
+    {
+      "path": "/",
+      "bp": "Phone",
+      "id": "mcL3MFzFViq0rlFlTE",
+      "name": "Hero Section",
+      "depth": 1,
+      "top": 0,
+      "expectTop": 64,
+      "short": true,
+      "raw": "0px 0px 64px 0px",
+      "chain": "Phone > Hero Section"
+    },
+    {
+      "path": "/properties",
+      "bp": "Desktop",
+      "id": "L9uNRqah7",
+      "name": "Hero Copy",
+      "depth": 3,
+      "top": 128,
+      "expectTop": 128,
+      "short": false,
+      "raw": "128px 48px 64px 48px",
+      "chain": "Desktop > Properties Content > Properties Hero > Hero Copy"
+    },
+    {
+      "path": "/properties",
+      "bp": "Desktop",
+      "id": "iA6G6kCq1",
+      "name": "Hero Meta Row",
+      "depth": 4,
+      "top": 32,
+      "expectTop": 128,
+      "short": true,
+      "raw": "32px 0px 0px 0px",
+      "chain": "Properties Content > Properties Hero > Hero Copy > Hero Meta Row"
+    },
+    {
+      "path": "/properties",
+      "bp": "Tablet",
+      "id": "SScKalu3BL9uNRqah7",
+      "name": "Hero Copy",
+      "depth": 3,
+      "top": 96,
+      "expectTop": 96,
+      "short": false,
+      "raw": "96px 40px 48px 40px",
+      "chain": "Tablet > Properties Content > Properties Hero > Hero Copy"
+    },
+    {
+      "path": "/properties",
+      "bp": "Tablet",
+      "id": "SScKalu3BiA6G6kCq1",
+      "name": "Hero Meta Row",
+      "depth": 4,
+      "top": 48,
+      "expectTop": 96,
+      "short": true,
+      "raw": "48px 0px 0px 0px",
+      "chain": "Properties Content > Properties Hero > Hero Copy > Hero Meta Row"
+    },
+    {
+      "path": "/properties",
+      "bp": "Phone",
+      "id": "EK6d5SyWLL9uNRqah7",
+      "name": "Hero Copy",
+      "depth": 3,
+      "top": 64,
+      "expectTop": 64,
+      "short": false,
+      "raw": "64px 16px 48px 16px",
+      "chain": "Phone > Properties Content > Properties Hero > Hero Copy"
+    },
+    {
+      "path": "/properties",
+      "bp": "Phone",
+      "id": "EK6d5SyWLiA6G6kCq1",
+      "name": "Hero Meta Row",
+      "depth": 4,
+      "top": 32,
+      "expectTop": 64,
+      "short": true,
+      "raw": "32px 0px 0px 0px",
+      "chain": "Properties Content > Properties Hero > Hero Copy > Hero Meta Row"
+    },
+    {
+      "path": "/neighbourhoods",
+      "bp": "Desktop",
+      "id": "I1ekolXeW",
+      "name": "Hero Copy",
+      "depth": 3,
+      "top": 128,
+      "expectTop": 128,
+      "short": false,
+      "raw": "128px 48px 128px 48px",
+      "chain": "Desktop > Neighbourhoods Content > Neighbourhoods Hero > Hero Copy"
+    },
+    {
+      "path": "/neighbourhoods",
+      "bp": "Tablet",
+      "id": "aJLpuUP0qI1ekolXeW",
+      "name": "Hero Copy",
+      "depth": 3,
+      "top": 96,
+      "expectTop": 96,
+      "short": false,
+      "raw": "96px 40px 48px 40px",
+      "chain": "Tablet > Neighbourhoods Content > Neighbourhoods Hero > Hero Copy"
+    },
+    {
+      "path": "/neighbourhoods",
+      "bp": "Phone",
+      "id": "Qonafp_oDI1ekolXeW",
+      "name": "Hero Copy",
+      "depth": 3,
+      "top": 64,
+      "expectTop": 64,
+      "short": false,
+      "raw": "64px 16px 40px 16px",
+      "chain": "Phone > Neighbourhoods Content > Neighbourhoods Hero > Hero Copy"
+    },
+    {
+      "path": "/notes",
+      "bp": "Desktop",
+      "id": "NPRkgYRMH",
+      "name": "Hero Copy",
+      "depth": 3,
+      "top": 64,
+      "expectTop": 128,
+      "short": true,
+      "raw": "64px 0px 64px 0px",
+      "chain": "Desktop > Journal > Notes Hero > Hero Copy"
+    },
+    {
+      "path": "/notes",
+      "bp": "Tablet",
+      "id": "LptqEiXVpNPRkgYRMH",
+      "name": "Hero Copy",
+      "depth": 3,
+      "top": 72,
+      "expectTop": 96,
+      "short": true,
+      "raw": "72px 0px 48px 0px",
+      "chain": "Tablet > Journal > Notes Hero > Hero Copy"
+    },
+    {
+      "path": "/notes",
+      "bp": "Phone",
+      "id": "INUKgvAnaNPRkgYRMH",
+      "name": "Hero Copy",
+      "depth": 3,
+      "top": 64,
+      "expectTop": 64,
+      "short": false,
+      "raw": "64px 0px 48px 0px",
+      "chain": "Phone > Journal > Notes Hero > Hero Copy"
+    },
+    {
+      "path": "/about",
+      "bp": "Desktop",
+      "id": "QzWTnDkey",
+      "name": "Opening Copy",
+      "depth": 2,
+      "top": 32,
+      "expectTop": 128,
+      "short": true,
+      "raw": "32px 48px 64px 48px",
+      "chain": "Desktop > Beat 1 — Portrait Stage > Opening Copy"
+    },
+    {
+      "path": "/about",
+      "bp": "Desktop",
+      "id": "aYHA5hByk",
+      "name": "Opening Meta",
+      "depth": 3,
+      "top": 32,
+      "expectTop": 128,
+      "short": true,
+      "raw": "32px 0px 0px 0px",
+      "chain": "Desktop > Beat 1 — Portrait Stage > Opening Copy > Opening Meta"
+    },
+    {
+      "path": "/about",
+      "bp": "Tablet",
+      "id": "xvqDXw58eQzWTnDkey",
+      "name": "Opening Copy",
+      "depth": 2,
+      "top": 24,
+      "expectTop": 96,
+      "short": true,
+      "raw": "24px 40px 48px 40px",
+      "chain": "Tablet > Beat 1 — Portrait Stage > Opening Copy"
+    },
+    {
+      "path": "/about",
+      "bp": "Tablet",
+      "id": "xvqDXw58eaYHA5hByk",
+      "name": "Opening Meta",
+      "depth": 3,
+      "top": 32,
+      "expectTop": 96,
+      "short": true,
+      "raw": "32px 0px 0px 0px",
+      "chain": "Tablet > Beat 1 — Portrait Stage > Opening Copy > Opening Meta"
+    },
+    {
+      "path": "/about",
+      "bp": "Phone",
+      "id": "CYNrpU04tQzWTnDkey",
+      "name": "Opening Copy",
+      "depth": 2,
+      "top": 24,
+      "expectTop": 64,
+      "short": true,
+      "raw": "24px 16px 40px 16px",
+      "chain": "Phone > Beat 1 — Portrait Stage > Opening Copy"
+    },
+    {
+      "path": "/about",
+      "bp": "Phone",
+      "id": "CYNrpU04taYHA5hByk",
+      "name": "Opening Meta",
+      "depth": 3,
+      "top": 24,
+      "expectTop": 64,
+      "short": true,
+      "raw": "24px 0px 0px 0px",
+      "chain": "Phone > Beat 1 — Portrait Stage > Opening Copy > Opening Meta"
+    },
+    {
+      "path": "/contact",
+      "bp": "Desktop",
+      "id": "jmmPpci8t",
+      "name": "Contact Hero",
+      "depth": 1,
+      "top": 128,
+      "expectTop": 128,
+      "short": false,
+      "raw": "128px 48px 64px 48px",
+      "chain": "Desktop > Contact Hero"
+    },
+    {
+      "path": "/contact",
+      "bp": "Desktop",
+      "id": "AATw4pip9",
+      "name": "Hero Copy",
+      "depth": 2,
+      "top": 0,
+      "expectTop": 128,
+      "short": true,
+      "raw": "0px 48px 0px 0px",
+      "chain": "Desktop > Contact Hero > Hero Copy"
+    },
+    {
+      "path": "/contact",
+      "bp": "Desktop",
+      "id": "vv0Vi0hbh",
+      "name": "Contact Opening",
+      "depth": 1,
+      "top": 128,
+      "expectTop": 128,
+      "short": false,
+      "raw": "128px 48px 128px 48px",
+      "chain": "Desktop > Contact Opening"
+    },
+    {
+      "path": "/contact",
+      "bp": "Desktop",
+      "id": "w1lCAnw5U",
+      "name": "Opening Note",
+      "depth": 2,
+      "top": 32,
+      "expectTop": 128,
+      "short": true,
+      "raw": "32px 0px 0px 0px",
+      "chain": "Desktop > Contact Opening > Opening Note"
+    },
+    {
+      "path": "/contact",
+      "bp": "Tablet",
+      "id": "qjv2S9WpajmmPpci8t",
+      "name": "Contact Hero",
+      "depth": 1,
+      "top": 96,
+      "expectTop": 96,
+      "short": false,
+      "raw": "96px 40px 48px 40px",
+      "chain": "Tablet > Contact Hero"
+    },
+    {
+      "path": "/contact",
+      "bp": "Tablet",
+      "id": "qjv2S9WpaAATw4pip9",
+      "name": "Hero Copy",
+      "depth": 2,
+      "top": 0,
+      "expectTop": 96,
+      "short": true,
+      "raw": "0px 40px 0px 0px",
+      "chain": "Tablet > Contact Hero > Hero Copy"
+    },
+    {
+      "path": "/contact",
+      "bp": "Tablet",
+      "id": "qjv2S9Wpavv0Vi0hbh",
+      "name": "Contact Opening",
+      "depth": 1,
+      "top": 96,
+      "expectTop": 96,
+      "short": false,
+      "raw": "96px 40px 96px 40px",
+      "chain": "Tablet > Contact Opening"
+    },
+    {
+      "path": "/contact",
+      "bp": "Tablet",
+      "id": "qjv2S9Wpaw1lCAnw5U",
+      "name": "Opening Note",
+      "depth": 2,
+      "top": 24,
+      "expectTop": 96,
+      "short": true,
+      "raw": "24px 0px 0px 0px",
+      "chain": "Tablet > Contact Opening > Opening Note"
+    },
+    {
+      "path": "/contact",
+      "bp": "Phone",
+      "id": "jEM0wBo2vjmmPpci8t",
+      "name": "Contact Hero",
+      "depth": 1,
+      "top": 64,
+      "expectTop": 64,
+      "short": false,
+      "raw": "64px 16px 40px 16px",
+      "chain": "Phone > Contact Hero"
+    },
+    {
+      "path": "/contact",
+      "bp": "Phone",
+      "id": "jEM0wBo2vAATw4pip9",
+      "name": "Hero Copy",
+      "depth": 2,
+      "top": 40,
+      "expectTop": 64,
+      "short": true,
+      "raw": "40px 0px 40px 0px",
+      "chain": "Phone > Contact Hero > Hero Copy"
+    },
+    {
+      "path": "/contact",
+      "bp": "Phone",
+      "id": "jEM0wBo2vvv0Vi0hbh",
+      "name": "Contact Opening",
+      "depth": 1,
+      "top": 64,
+      "expectTop": 64,
+      "short": false,
+      "raw": "64px 16px 64px 16px",
+      "chain": "Phone > Contact Opening"
+    },
+    {
+      "path": "/contact",
+      "bp": "Phone",
+      "id": "jEM0wBo2vw1lCAnw5U",
+      "name": "Opening Note",
+      "depth": 2,
+      "top": 24,
+      "expectTop": 64,
+      "short": true,
+      "raw": "24px 0px 0px 0px",
+      "chain": "Phone > Contact Opening > Opening Note"
+    },
+    {
+      "path": "/properties/:slug",
+      "bp": "Desktop",
+      "id": "lODMk6Egu",
+      "name": "Property Hero",
+      "depth": 1,
+      "top": 128,
+      "expectTop": 128,
+      "short": false,
+      "raw": "128px 48px 128px 48px",
+      "chain": "Desktop > Property Hero"
+    },
+    {
+      "path": "/properties/:slug",
+      "bp": "Desktop",
+      "id": "ubrig7P0R",
+      "name": "Chapter Intro",
+      "depth": 1,
+      "top": 128,
+      "expectTop": 128,
+      "short": false,
+      "raw": "128px 48px 128px 48px",
+      "chain": "Desktop > Chapter Intro"
+    },
+    {
+      "path": "/properties/:slug",
+      "bp": "Tablet",
+      "id": "IQmBTrFpblODMk6Egu",
+      "name": "Property Hero",
+      "depth": 1,
+      "top": 96,
+      "expectTop": 96,
+      "short": false,
+      "raw": "96px 40px 96px 40px",
+      "chain": "Tablet > Property Hero"
+    },
+    {
+      "path": "/properties/:slug",
+      "bp": "Tablet",
+      "id": "IQmBTrFpbubrig7P0R",
+      "name": "Chapter Intro",
+      "depth": 1,
+      "top": 96,
+      "expectTop": 96,
+      "short": false,
+      "raw": "96px 40px 96px 40px",
+      "chain": "Tablet > Chapter Intro"
+    },
+    {
+      "path": "/properties/:slug",
+      "bp": "Phone",
+      "id": "MrTKJzwELlODMk6Egu",
+      "name": "Property Hero",
+      "depth": 1,
+      "top": 64,
+      "expectTop": 64,
+      "short": false,
+      "raw": "64px 16px 64px 16px",
+      "chain": "Phone > Property Hero"
+    },
+    {
+      "path": "/properties/:slug",
+      "bp": "Phone",
+      "id": "MrTKJzwELubrig7P0R",
+      "name": "Chapter Intro",
+      "depth": 1,
+      "top": 64,
+      "expectTop": 64,
+      "short": false,
+      "raw": "64px 16px 64px 16px",
+      "chain": "Phone > Chapter Intro"
+    },
+    {
+      "path": "/notes/:slug",
+      "bp": "Desktop",
+      "id": "TYvLnLN5L",
+      "name": "Article Hero Meta",
+      "depth": 1,
+      "top": 128,
+      "expectTop": 128,
+      "short": false,
+      "raw": "128px 48px 0px 48px",
+      "chain": "Desktop > Article Hero Meta"
+    },
+    {
+      "path": "/notes/:slug",
+      "bp": "Desktop",
+      "id": "rZDvGuaZD",
+      "name": "Journal Hero Image",
+      "depth": 1,
+      "top": 64,
+      "expectTop": 128,
+      "short": true,
+      "raw": "64px 48px 0px 48px",
+      "chain": "Desktop > Journal Hero Image"
+    },
+    {
+      "path": "/notes/:slug",
+      "bp": "Tablet",
+      "id": "gZUAlaJJ1TYvLnLN5L",
+      "name": "Article Hero Meta",
+      "depth": 1,
+      "top": 96,
+      "expectTop": 96,
+      "short": false,
+      "raw": "96px 40px 0px 40px",
+      "chain": "Tablet > Article Hero Meta"
+    },
+    {
+      "path": "/notes/:slug",
+      "bp": "Tablet",
+      "id": "gZUAlaJJ1rZDvGuaZD",
+      "name": "Journal Hero Image",
+      "depth": 1,
+      "top": 48,
+      "expectTop": 96,
+      "short": true,
+      "raw": "48px 40px 0px 40px",
+      "chain": "Tablet > Journal Hero Image"
+    },
+    {
+      "path": "/notes/:slug",
+      "bp": "Phone",
+      "id": "EavJve6uGTYvLnLN5L",
+      "name": "Article Hero Meta",
+      "depth": 1,
+      "top": 64,
+      "expectTop": 64,
+      "short": false,
+      "raw": "64px 16px 0px 16px",
+      "chain": "Phone > Article Hero Meta"
+    },
+    {
+      "path": "/notes/:slug",
+      "bp": "Phone",
+      "id": "EavJve6uGrZDvGuaZD",
+      "name": "Journal Hero Image",
+      "depth": 1,
+      "top": 40,
+      "expectTop": 64,
+      "short": true,
+      "raw": "40px 16px 0px 16px",
+      "chain": "Phone > Journal Hero Image"
+    }
+  ],
+  "imageReuseAcrossPages": [],
+  "noiseByPage": [
+    {
+      "path": "/",
+      "bp": "Desktop",
+      "noise": false
+    },
+    {
+      "path": "/",
+      "bp": "Tablet",
+      "noise": false
+    },
+    {
+      "path": "/",
+      "bp": "Phone",
+      "noise": false
+    },
+    {
+      "path": "/properties",
+      "bp": "Desktop",
+      "noise": true
+    },
+    {
+      "path": "/properties",
+      "bp": "Tablet",
+      "noise": true
+    },
+    {
+      "path": "/properties",
+      "bp": "Phone",
+      "noise": true
+    },
+    {
+      "path": "/neighbourhoods",
+      "bp": "Desktop",
+      "noise": true
+    },
+    {
+      "path": "/neighbourhoods",
+      "bp": "Tablet",
+      "noise": true
+    },
+    {
+      "path": "/neighbourhoods",
+      "bp": "Phone",
+      "noise": true
+    },
+    {
+      "path": "/notes",
+      "bp": "Desktop",
+      "noise": false
+    },
+    {
+      "path": "/notes",
+      "bp": "Tablet",
+      "noise": false
+    },
+    {
+      "path": "/notes",
+      "bp": "Phone",
+      "noise": false
+    },
+    {
+      "path": "/about",
+      "bp": "Desktop",
+      "noise": true
+    },
+    {
+      "path": "/about",
+      "bp": "Tablet",
+      "noise": true
+    },
+    {
+      "path": "/about",
+      "bp": "Phone",
+      "noise": true
+    },
+    {
+      "path": "/contact",
+      "bp": "Desktop",
+      "noise": true
+    },
+    {
+      "path": "/contact",
+      "bp": "Tablet",
+      "noise": true
+    },
+    {
+      "path": "/contact",
+      "bp": "Phone",
+      "noise": true
+    },
+    {
+      "path": "/properties/:slug",
+      "bp": "Desktop",
+      "noise": true
+    },
+    {
+      "path": "/properties/:slug",
+      "bp": "Tablet",
+      "noise": true
+    },
+    {
+      "path": "/properties/:slug",
+      "bp": "Phone",
+      "noise": true
+    },
+    {
+      "path": "/notes/:slug",
+      "bp": "Desktop",
+      "noise": true
+    },
+    {
+      "path": "/notes/:slug",
+      "bp": "Tablet",
+      "noise": true
+    },
+    {
+      "path": "/notes/:slug",
+      "bp": "Phone",
+      "noise": true
+    }
+  ],
+  "hardButtons": [
+    {
+      "path": "/notes/:slug",
+      "bp": "Desktop",
+      "id": "IfYR6VpwS",
+      "name": "Submit Button",
+      "bg": "rgba(0, 0, 0, 0)"
+    },
+    {
+      "path": "/notes/:slug",
+      "bp": "Tablet",
+      "id": "gZUAlaJJ1IfYR6VpwS",
+      "name": "Submit Button",
+      "bg": "rgba(0, 0, 0, 0)"
+    },
+    {
+      "path": "/notes/:slug",
+      "bp": "Phone",
+      "id": "EavJve6uGIfYR6VpwS",
+      "name": "Submit Button",
+      "bg": "rgba(0, 0, 0, 0)"
+    }
+  ],
+  "counts": {
+    "airShort": 17,
+    "reuse": 0,
+    "hardButtons": 3
+  }
+}

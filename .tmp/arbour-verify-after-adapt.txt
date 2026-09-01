@@ -1,0 +1,82 @@
+{
+  "ok": true,
+  "sessionId": "3",
+  "blocking": false,
+  "warningCount": 0,
+  "errors": [],
+  "changes": [
+    {
+      "type": "WebPage",
+      "nodeId": "kZL5hI0oT",
+      "name": "Home",
+      "status": "updated"
+    },
+    {
+      "type": "WebPage",
+      "nodeId": "OdFhPn9yz",
+      "name": "/about",
+      "status": "updated"
+    },
+    {
+      "type": "WebPage",
+      "nodeId": "c7qpzB7hR",
+      "name": "/contact",
+      "status": "updated"
+    },
+    {
+      "type": "WebPage",
+      "nodeId": "dZfxmFpqB",
+      "name": "/neighbourhoods",
+      "status": "updated"
+    },
+    {
+      "type": "WebPage",
+      "nodeId": "s8RpZIiJ8",
+      "name": "/notes",
+      "status": "updated"
+    },
+    {
+      "type": "WebPage",
+      "nodeId": "YPPO8pJ92",
+      "name": "/notes/:slug",
+      "status": "updated"
+    },
+    {
+      "type": "WebPage",
+      "nodeId": "uBAGmujMa",
+      "name": "/properties",
+      "status": "updated"
+    },
+    {
+      "type": "WebPage",
+      "nodeId": "OhRUQROL4",
+      "name": "/properties/:slug",
+      "status": "updated"
+    },
+    {
+      "type": "SmartComponent",
+      "nodeId": "GViAPxZ97",
+      "name": "Arbour_PrincipalProfile",
+      "status": "updated"
+    },
+    {
+      "type": "SmartComponent",
+      "nodeId": "pXUahiblU",
+      "name": "Footer",
+      "status": "updated"
+    },
+    {
+      "type": "SmartComponent",
+      "nodeId": "ynpqYJGOd",
+      "name": "Nav",
+      "status": "updated"
+    }
+  ],
+  "changesCount": 11,
+  "status": "ready",
+  "deferredCount": 0,
+  "rect": null,
+  "rectError": null,
+  "hasScreenshot": false,
+  "screenshotError": null
+}

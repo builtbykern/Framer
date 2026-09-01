@@ -1,0 +1,43 @@
+MOVE {"message":"Commands: 1 error. Lint: 6 warnings.","errors":{"Invalid value `width=\"calc(50% - 12px)\"`. Expected a size value like \"200px\", \"50%\", \"1fr\", \"100vh\", \"auto\", or \"fit-image\".":["lIX6py1V0"]}}
+DELROWS {"message":"Lint: 6 warnings."}
+FILTERS {"message":"Commands: 4 errors. Lint: 6 warnings.","errors":{"Invalid value `collectionList.filters.0.transforms.0.value=\"var(--variable-ilQ96ocgq)\"`. - Expected one of:\n  - variable (Invalid value `var(--variable-ilQ96ocgq)`. Expected an existing variable, but it could not be found.)\n  - option (Expected one of: For Sale, Under Offer, Let Agreed.)\n  - \"null\".":["D1P7aRrFn"],"Invalid value `collectionList.filters.2.transforms.0=\"{\"name\":\"greaterThan\",\"value\":\"var(--variable-RJEDdFSrI)\"}\"`. - Expected one of:\n  - json string\n  - object:\n    - value:\n      - number\n      - variable (Invalid value `var(--variable-RJEDdFSrI)`. Expected an existing variable, but it could not be found.)\n      - string (\"var(--variable-RJEDdFSrI)\" is not a valid number).":["D1P7aRrFn"],"Invalid value `collectionList.filters.3.transforms.0=\"{\"name\":\"lessThan\",\"value\":\"var(--variable-MO1UzXqjU)\"}\"`. - Expected one of:\n  - json string\n  - object:\n    - value:\n      - number\n      - variable (Invalid value `var(--variable-MO1UzXqjU)`. Expected an existing variable, but it could not be found.)\n      - string (\"var(--variable-MO1UzXqjU)\" is not a valid number).":["D1P7aRrFn"],"Invalid value `collectionList.filters.4.transforms.0=\"{\"name\":\"greaterThan\",\"value\":\"var(--variable-qLVzKQ5S2)\"}\"`. - Expected one of:\n  - json string\n  - object:\n    - value:\n      - number\n      - variable (Invalid value `var(--variable-qLVzKQ5S2)`. Expected an existing variable, but it could not be found.)\n      - string (\"var(--variable-qLVzKQ5S2)\" is not a valid number).":["D1P7aRrFn"]}}
+GRID {
+  "kids": [
+    {
+      "id": "D1P7aRrFn",
+      "name": "Properties Collection",
+      "list": {
+        "collection": "Properties",
+        "repeatedDescendantId": "lIX6py1V0"
+      }
+    }
+  ],
+  "listNode": {
+    "id": "D1P7aRrFn",
+    "attrs": {
+      "layout": "stack",
+      "stackDirection": "horizontal",
+      "stackDistribution": "start",
+      "stackAlignment": "start",
+      "stackWrapEnabled": true,
+      "gap": "24px",
+      "position": "relative",
+      "collectionList": {
+        "collection": "Properties",
+        "repeatedDescendantId": "lIX6py1V0"
+      },
+      "width": "1fr",
+      "height": "auto"
+    },
+    "kids": [
+      {
+        "id": "lIX6py1V0",
+        "name": "Property Link"
+      },
+      {
+        "id": "UGNyoXRw7",
+        "name": "Empty State"
+      }
+    ]
+  }
+}

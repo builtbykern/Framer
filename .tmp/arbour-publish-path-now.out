@@ -1,0 +1,53 @@
+{
+  "ok": true,
+  "preview": {
+    "changesCount": 2,
+    "status": "ready",
+    "urls": {
+      "production": "https://arbour.framer.website"
+    }
+  },
+  "confirmed": {
+    "status": "published",
+    "message": "Site published to production (version 25fa39d34).",
+    "urls": {
+      "production": "https://arbour.framer.website",
+      "published": "https://arbour.framer.website"
+    },
+    "version": {
+      "id": "25fa39d34"
+    },
+    "versions": [
+      {
+        "id": "25fa39d34",
+        "timestamp": 1785587528,
+        "publishedBy": "BuiltBy Kern"
+      }
+    ],
+    "keys": [
+      "action",
+      "status",
+      "message",
+      "stagingEnabled",
+      "publishTarget",
+      "versions",
+      "urls",
+      "version",
+      "nextAction"
+    ]
+  },
+  "publishInfo": {
+    "production": {
+      "deploymentTime": 1785587528801,
+      "optimizationStatus": "optimizing",
+      "url": "https://arbour.framer.website",
+      "currentPageUrl": "https://arbour.framer.website/"
+    },
+    "staging": {
+      "deploymentTime": 1785587528801,
+      "optimizationStatus": "optimizing",
+      "url": "https://minimum-directions-600719.framer.app",
+      "currentPageUrl": "https://minimum-directions-600719.framer.app/"
+    }
+  }
+}

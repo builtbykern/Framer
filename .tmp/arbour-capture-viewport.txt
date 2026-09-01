@@ -1,0 +1,10 @@
+Capturing 7 assets → /Users/noel/Desktop/Framer/docs/projects/arbour/media
+• d-home-process (still/desktop) … ok docs/projects/arbour/media/stills/d-home-process.png
+• d-props-hero (still/desktop) … ok docs/projects/arbour/media/stills/d-props-hero.png
+• d-props-filters (still/desktop) … ok docs/projects/arbour/media/stills/d-props-filters.png
+• d-props-market (still/desktop) … ok docs/projects/arbour/media/stills/d-props-market.png
+• d-contact-hero (still/desktop) … ok docs/projects/arbour/media/stills/d-contact-hero.png
+• m-neighbourhoods (still/mobile) … ok docs/projects/arbour/media/stills/m-neighbourhoods.png
+• m-contact (still/mobile) … ok docs/projects/arbour/media/stills/m-contact.png
+
+Done: 7 ok, 0 fail → docs/projects/arbour/media/INDEX.md

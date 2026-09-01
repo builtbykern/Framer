@@ -1,0 +1,22 @@
+count 15
+
+=== a6KIAp6Ii Territories Section
+{}
+
+=== du1d5C2G_ Territories Header
+{}
+
+=== NI_MCXJgQ Territories Title
+{}
+
+=== S4UV9Lj4g Territories Headline
+{}
+
+=== CDv8aL5JZ Arbour_TerritoryRail
+{
+  "$control__territories": "[{\"type\":\"object\",\"value\":{\"name\":{\"type\":\"string\",\"value\":\"Chelsea\"},\"imageUrl\":{\"type\":\"string\",\"value\":\"https://framerusercontent.com/images/8IGPbFclzfRApOAIssLZgmHsnw.png\"},\"slug\":{\"type\":\"string\",\"value\":\"chelsea\"},\"alt\":{\"type\":\"string\",\"value\":\"Explore prime Chelsea homes for sale, from Cheyne Walk river frontages to quiet garden squares off the King's Road.\"},\"coords\":{\"type\":\"string\",\"value\":\"51.4875° N — 0.1687° W\"}},\"id\":\"Rq8xarlZO\"},{\"type\":\"object\",\"value\":{\"name\":{\"type\":\"string\",\"value\":\"Notting Hill\"},\"imageUrl\":{\"type\":\"string\",\"value\":\"https://framerusercontent.com/images/AOaAcGKE51AkwHdqIubUdXQHRf8.png\"},\"slug\":{\"type\":\"string\",\"value\":\"notting-hill\"},\"alt\":{\"type\":\"string\",\"value\":\"Discover Notting Hill's finest pastel townhouses and garden squares, moments from Portobello Road.\"},\"coords\":{\"type\":\"string\",\"value\":\"51.5090° N — 0.1963° W\"}},\"id\":\"nZkSSjWbj\"},{\"type\":\"object\",\"value\":{\"name\":{\"type\":\"string\",\"value\":\"Hampstead\"},\"imageUrl\":{\"type\":\"string\",\"value\":\"https://framerusercontent.com/images/cCQCSnQDjuSX1xXtwUtrzIHQ.png\"},\"slug\":{\"type\":\"string\",\"value\":\"hampstead\"},\"alt\":{\"type\":\"string\",\"value\":\"Search Hampstead's finest period houses, moments from the Heath and Kenwood House.\"},\"coords\":{\"type\":\"string\",\"value\":\"51.5560° N — 0.1780° W\"}},\"id\":\"pAZcemnpB\"},{\"type\":\"object\",\"value\":{\"name\":{\"type\":\"string\",\"value\":\"The Cotswolds\"},\"imageUrl\":{\"type\":\"string\",\"value\":\"https://framerusercontent.com/images/UT2rfsfKG6VCT8OfYxd7DZWEA0.png\"},\"slug\":{\"type\":\"string\",\"value\":\"the-cotswolds\"},\"alt\":{\"type\":\"string\",\"value\":\"Browse country houses and cottages for sale across the Cotswolds' finest villages.\"},\"coords\":{\"type\":\"string\",\"value\":\"51.8330° N — 1.8433° W\"}},\"id\":\"Q7tj2W1Ae\"}]",
+  "$control__content": "{\"itemLimit\":{\"type\":\"number\",\"value\":12},\"linkBase\":{\"type\":\"string\",\"value\":\"/neighbourhoods\"},\"ariaLabel\":{\"type\":\"string\",\"value\":\"Territories\"}}",
+  "$control__layout": "{\"contentPosition\":{\"type\":\"enum\",\"value\":\"top\"},\"textAlign\":{\"type\":\"enum\",\"value\":\"center\"},\"contentPadding\":{\"type\":\"number\",\"value\":40},\"contentPaddingTop\":{\"type\":\"number\",\"value\":120},\"contentPaddingBottom\":{\"type\":\"nu
+
+=== wBAtV56MEa6KIAp6Ii Territories Section
+{}

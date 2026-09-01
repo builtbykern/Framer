@@ -1,0 +1,1 @@
+Soft backdrop blur for section chrome — Edge, U, or ∩ shapes. Always On or Follow Scroll. Safari-safe, no hard cut lines.

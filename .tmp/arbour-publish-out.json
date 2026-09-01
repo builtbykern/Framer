@@ -1,0 +1,65 @@
+{
+  "status": "ready",
+  "changesCount": 3,
+  "errors": [],
+  "confirmationHash": "157yyma",
+  "changes": [
+    {
+      "type": "WebPage",
+      "nodeId": "augiA20Il",
+      "name": "Home",
+      "status": "updated"
+    },
+    {
+      "type": "WebPage",
+      "nodeId": "c7qpzB7hR",
+      "name": "/contact",
+      "status": "updated"
+    },
+    {
+      "type": "WebPage",
+      "nodeId": "uBAGmujMa",
+      "name": "/properties-2",
+      "status": "updated"
+    }
+  ]
+}
+{
+  "step": "published",
+  "status": "published",
+  "version": {
+    "id": "27fcdaddd"
+  },
+  "rawKeys": [
+    "action",
+    "status",
+    "message",
+    "stagingEnabled",
+    "publishTarget",
+    "versions",
+    "urls",
+    "version",
+    "nextAction"
+  ],
+  "confirmed": {
+    "action": "confirm_publish",
+    "status": "published",
+    "message": "Site published to production (version 27fcdaddd).",
+    "stagingEnabled": false,
+    "publishTarget": "production",
+    "versions": [
+      {
+        "id": "27fcdaddd",
+        "timestamp": 1785412587,
+        "publishedBy": "BuiltBy Kern"
+      }
+    ],
+    "urls": {
+      "production": "https://arbour.framer.website",
+      "published": "https://arbour.framer.website"
+    },
+    "version": {
+      "id": "27fcdaddd"
+    }
+  }
+}

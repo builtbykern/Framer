@@ -1,0 +1,23 @@
+Most edge blurs in Framer are either a hard strip or a solid veil. They look fine in a demo, then fight Safari masks or wash the content underneath.
+
+Kern_ScrollBlur is full-frame soft backdrop blur for real section chrome — sticky navs, footer docks, editorial bands. Soft masks fade dense blur at the pinned edge into nearly clear content. No hard mid-line cut. No color overlay. No opacity tricks on the filter layers (those kill CSS masks and turn the effect into a box).
+
+Three shapes from the panel:
+
+→ Edge — classic vertical fade from the pinned side
+→ U — cupped: clear center, dense sides
+→ ∩ — inverted U: hard center, soft left/right wings
+
+Modes:
+
+→ Always On — pinned chrome, always visible
+→ Follow Scroll — shows while scrolling, hides after Settle (idle delay — not a fade)
+→ Off — hide on canvas when you need a clean artboard
+
+Strength stays in a Safari-safe peak range (2–10 px). Adaptive layer count (2 at low strength, 4 when you need depth). Off-screen work pauses. prefers-reduced-motion keeps a gentler static blur and disables Follow Scroll.
+
+Drop it fixed over your breakpoint, pin Position top or bottom, pick Shape + Strength, preview Follow Scroll in Preview/publish (canvas shows Always On for that mode so editing stays readable).
+
+Single self-contained .tsx — Framer + Framer Motion only, no helper imports.
+
+Built brutally well by KERN.

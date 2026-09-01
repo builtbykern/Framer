@@ -1,0 +1,214 @@
+{
+  "hitCount": 16,
+  "hits": [
+    {
+      "path": "/",
+      "bp": "Desktop",
+      "name": "Desktop",
+      "id": "PYd9q93eW",
+      "key": "width",
+      "v": "1200px",
+      "d": 0
+    },
+    {
+      "path": "/properties",
+      "bp": "Desktop",
+      "name": "Desktop",
+      "id": "obfRB9jeb",
+      "key": "width",
+      "v": "1200px",
+      "d": 0
+    },
+    {
+      "path": "/neighbourhoods",
+      "bp": "Desktop",
+      "name": "Desktop",
+      "id": "LmDrAnCZU",
+      "key": "width",
+      "v": "1200px",
+      "d": 0
+    },
+    {
+      "path": "/notes",
+      "bp": "Desktop",
+      "name": "Desktop",
+      "id": "T4DtVCP3y",
+      "key": "width",
+      "v": "1200px",
+      "d": 0
+    },
+    {
+      "path": "/about",
+      "bp": "Desktop",
+      "name": "Desktop",
+      "id": "hd9EqB_ax",
+      "key": "width",
+      "v": "1200px",
+      "d": 0
+    },
+    {
+      "path": "/contact",
+      "bp": "Desktop",
+      "name": "Desktop",
+      "id": "eSIn17Npa",
+      "key": "width",
+      "v": "1200px",
+      "d": 0
+    },
+    {
+      "path": "/properties/:slug",
+      "bp": "Desktop",
+      "name": "Desktop",
+      "id": "ym6hx2Otc",
+      "key": "width",
+      "v": "1200px",
+      "d": 0
+    },
+    {
+      "path": "/notes/:slug",
+      "bp": "Desktop",
+      "name": "Desktop",
+      "id": "n1MGlvW2_",
+      "key": "width",
+      "v": "1200px",
+      "d": 0
+    },
+    {
+      "path": "comp:Nav",
+      "bp": "Desktop",
+      "name": "Desktop",
+      "id": "YrKq9_bDB",
+      "key": "width",
+      "v": "1200px",
+      "d": 0
+    },
+    {
+      "path": "comp:Nav",
+      "bp": "Desktop - Open",
+      "name": "Desktop - Open",
+      "id": "dzeGSJmBB",
+      "key": "width",
+      "v": "1200px",
+      "d": 0
+    },
+    {
+      "path": "comp:Footer",
+      "bp": "Desktop",
+      "name": "Desktop",
+      "id": "N8Ge7eNRv",
+      "key": "width",
+      "v": "1200px",
+      "d": 0
+    },
+    {
+      "path": "comp:Arbour_PrincipalProfile",
+      "bp": "Desktop",
+      "name": "Desktop",
+      "id": "d5T0Tmau8",
+      "key": "maxWidth",
+      "v": "1104px",
+      "d": 0
+    },
+    {
+      "path": "comp:Arbour_PrincipalProfile",
+      "bp": "Desktop",
+      "name": "Desktop",
+      "id": "d5T0Tmau8",
+      "key": "width",
+      "v": "1104px",
+      "d": 0
+    },
+    {
+      "path": "comp:Arbour_PrincipalProfile",
+      "bp": "Tablet",
+      "name": "Tablet",
+      "id": "mxXljrpyb",
+      "key": "maxWidth",
+      "v": "1104px",
+      "d": 0
+    },
+    {
+      "path": "comp:Arbour_PrincipalProfile",
+      "bp": "Phone",
+      "name": "Phone",
+      "id": "ZOGQS2oqd",
+      "key": "maxWidth",
+      "v": "1104px",
+      "d": 0
+    },
+    {
+      "missingComp": "Arbour_StatsBand"
+    }
+  ],
+  "rails": [
+    {
+      "name": "Arbour_TerritoryRail",
+      "id": "CDv8aL5JZ",
+      "w": "1fr",
+      "h": "auto",
+      "cid": "local-module:codeFile/il4DSn9:default"
+    },
+    {
+      "name": "Arbour_StatsBand",
+      "id": "CMv32_lLx",
+      "mw": "90%",
+      "w": "1fr",
+      "h": "auto",
+      "cid": "local-module:codeFile/KzA2jsd:default"
+    },
+    {
+      "name": "Arbour_TerritoryRail",
+      "id": "wBAtV56MECDv8aL5JZ",
+      "w": "1fr",
+      "h": "501px",
+      "cid": "local-module:codeFile/il4DSn9:default"
+    },
+    {
+      "name": "Arbour_StatsBand",
+      "id": "wBAtV56MECMv32_lLx",
+      "mw": "90%",
+      "w": "1fr",
+      "h": "auto",
+      "cid": "local-module:codeFile/KzA2jsd:default"
+    },
+    {
+      "name": "Arbour_TerritoryRail",
+      "id": "mcL3MFzFVCDv8aL5JZ",
+      "w": "1fr",
+      "h": "auto",
+      "cid": "local-module:codeFile/il4DSn9:default"
+    },
+    {
+      "name": "Arbour_StatsBand",
+      "id": "mcL3MFzFVCMv32_lLx",
+      "mw": "90%",
+      "w": "1fr",
+      "h": "auto",
+      "cid": "local-module:codeFile/KzA2jsd:default"
+    },
+    {
+      "name": "Arbour_StatsBand",
+      "id": "d65nHXHKZ",
+      "mw": "90%",
+      "w": "1fr",
+      "h": "auto",
+      "cid": "local-module:codeFile/KzA2jsd:default"
+    },
+    {
+      "name": "Arbour_StatsBand",
+      "id": "SScKalu3Bd65nHXHKZ",
+      "mw": "90%",
+      "w": "1fr",
+      "h": "auto",
+      "cid": "local-module:codeFile/KzA2jsd:default"
+    },
+    {
+      "name": "Arbour_StatsBand",
+      "id": "EK6d5SyWLd65nHXHKZ",
+      "mw": "90%",
+      "w": "1fr",
+      "h": "auto",
+      "cid": "local-module:codeFile/KzA2jsd:default"
+    }
+  ]
+}

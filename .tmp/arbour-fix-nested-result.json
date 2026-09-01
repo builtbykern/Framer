@@ -1,0 +1,352 @@
+[
+  {
+    "pagePath": "/",
+    "dsl": "SET CAdGD1vAP $control__decorative=true; SET h0vfeOTBw $control__decorative=true; SET f2fxMg6nz $control__decorative=true; SET LL2hvcJ80 $control__decorative=true",
+    "res": {
+      "message": "Lint: 2 warnings.",
+      "linter": {
+        "warnings": {
+          "Content inside a full-bleed or proportional layout should set a maxWidth so large screens don't cause huge content": [
+            "QWUEMYFj7",
+            "vyLrJ6ztM"
+          ]
+        }
+      }
+    }
+  },
+  {
+    "pagePath": "/properties-2",
+    "dsl": "SET gAOwaKVbo $control__decorative=true",
+    "res": {
+      "message": "Lint: 6 warnings.",
+      "linter": {
+        "warnings": {
+          "Visible siblings in a stack might be too close. If this is not intended, set `gap` on the parent or wrap either sibling in a frame with `padding`.": [
+            {
+              "id": "pXUtBMLpu",
+              "siblingIds": [
+                "pC9Un5Mw5",
+                "gn2phxXn5"
+              ],
+              "spacing": -720,
+              "minSpacing": 4,
+              "axis": "vertical"
+            },
+            {
+              "id": "pXUtBMLpu",
+              "siblingIds": [
+                "gn2phxXn5",
+                "APChY780b"
+              ],
+              "spacing": -510,
+              "minSpacing": 4,
+              "axis": "vertical"
+            },
+            {
+              "id": "pXUtBMLpu",
+              "siblingIds": [
+                "APChY780b",
+                "Ox1AZj6Eq"
+              ],
+              "spacing": -610,
+              "minSpacing": 4,
+              "axis": "vertical"
+            },
+            {
+              "id": "pXUtBMLpu",
+              "siblingIds": [
+                "Ox1AZj6Eq",
+                "mGwrwOsDS"
+              ],
+              "spacing": -400,
+              "minSpacing": 4,
+              "axis": "vertical"
+            },
+            {
+              "id": "pXUtBMLpu",
+              "siblingIds": [
+                "mGwrwOsDS",
+                "ivqFzeVAZ"
+              ],
+              "spacing": -376.03,
+              "minSpacing": 4,
+              "axis": "vertical"
+            },
+            {
+              "id": "pXUtBMLpu",
+              "siblingIds": [
+                "ivqFzeVAZ",
+                "cFtWJlabj"
+              ],
+              "spacing": -473.97,
+              "minSpacing": 4,
+              "axis": "vertical"
+            }
+          ]
+        }
+      }
+    }
+  },
+  {
+    "pagePath": "/contact",
+    "dsl": "SET BMhLvwqld $control__decorative=true",
+    "res": {
+      "message": "Lint: 2 warnings.",
+      "linter": {
+        "warnings": {
+          "Visible siblings in a stack might be too close. If this is not intended, set `gap` on the parent or wrap either sibling in a frame with `padding`.": [
+            {
+              "id": "eSIn17Npa",
+              "siblingIds": [
+                "vv0Vi0hbh",
+                "jmmPpci8t"
+              ],
+              "spacing": -780,
+              "minSpacing": 4,
+              "axis": "vertical"
+            },
+            {
+              "id": "eSIn17Npa",
+              "siblingIds": [
+                "jmmPpci8t",
+                "R3nS8tMqV"
+              ],
+              "spacing": -395.35,
+              "minSpacing": 4,
+              "axis": "vertical"
+            }
+          ]
+        }
+      }
+    }
+  },
+  {
+    "pagePath": "/",
+    "replica": true,
+    "res": {
+      "message": "Lint: 5 warnings.",
+      "linter": {
+        "warnings": {
+          "Visible siblings in a stack might be too close. If this is not intended, set `gap` on the parent or wrap either sibling in a frame with `padding`.": [
+            {
+              "id": "pmAxXUJ0o",
+              "siblingIds": [
+                "pmAxXUJ0oQWUEMYFj7",
+                "pmAxXUJ0oCXKn_oqE0"
+              ],
+              "spacing": -714.7,
+              "minSpacing": 4,
+              "axis": "vertical"
+            },
+            {
+              "id": "pmAxXUJ0o",
+              "siblingIds": [
+                "pmAxXUJ0oCXKn_oqE0",
+                "pmAxXUJ0oU9mwOiQun"
+              ],
+              "spacing": -425.71,
+              "minSpacing": 4,
+              "axis": "vertical"
+            },
+            {
+              "id": "pmAxXUJ0o",
+              "siblingIds": [
+                "pmAxXUJ0oU9mwOiQun",
+                "pmAxXUJ0oPWy2_wM2R"
+              ],
+              "spacing": -407.59,
+              "minSpacing": 4,
+              "axis": "vertical"
+            },
+            {
+              "id": "pmAxXUJ0o",
+              "siblingIds": [
+                "pmAxXUJ0oPWy2_wM2R",
+                "pmAxXUJ0oz3aj0E0xy"
+              ],
+              "spacing": -400.11,
+              "minSpacing": 4,
+              "axis": "vertical"
+            },
+            {
+              "id": "pmAxXUJ0o",
+              "siblingIds": [
+                "pmAxXUJ0oz3aj0E0xy",
+                "pmAxXUJ0ovyLrJ6ztM"
+              ],
+              "spacing": -401.65,
+              "minSpacing": 4,
+              "axis": "vertical"
+            }
+          ]
+        }
+      }
+    }
+  },
+  {
+    "pagePath": "/properties-2",
+    "replica": true,
+    "res": {
+      "message": "Lint: 10 warnings.",
+      "linter": {
+        "warnings": {
+          "Visible siblings in a stack might be too close. If this is not intended, set `gap` on the parent or wrap either sibling in a frame with `padding`.": [
+            {
+              "id": "SScKalu3BpXUtBMLpu",
+              "siblingIds": [
+                "SScKalu3BpC9Un5Mw5",
+                "SScKalu3BAPChY780b"
+              ],
+              "spacing": -670,
+              "minSpacing": 4,
+              "axis": "vertical"
+            },
+            {
+              "id": "SScKalu3BpXUtBMLpu",
+              "siblingIds": [
+                "SScKalu3BAPChY780b",
+                "SScKalu3BOx1AZj6Eq"
+              ],
+              "spacing": -610,
+              "minSpacing": 4,
+              "axis": "vertical"
+            },
+            {
+              "id": "SScKalu3BpXUtBMLpu",
+              "siblingIds": [
+                "SScKalu3BOx1AZj6Eq",
+                "SScKalu3BmGwrwOsDS"
+              ],
+              "spacing": -400,
+              "minSpacing": 4,
+              "axis": "vertical"
+            },
+            {
+              "id": "SScKalu3BpXUtBMLpu",
+              "siblingIds": [
+                "SScKalu3BmGwrwOsDS",
+                "SScKalu3BivqFzeVAZ"
+              ],
+              "spacing": -376.03,
+              "minSpacing": 4,
+              "axis": "vertical"
+            },
+            {
+              "id": "SScKalu3BpXUtBMLpu",
+              "siblingIds": [
+                "SScKalu3BivqFzeVAZ",
+                "SScKalu3BcFtWJlabj"
+              ],
+              "spacing": -473.97,
+              "minSpacing": 4,
+              "axis": "vertical"
+            },
+            {
+              "id": "EK6d5SyWLpXUtBMLpu",
+              "siblingIds": [
+                "EK6d5SyWLOx1AZj6Eq",
+                "EK6d5SyWLpC9Un5Mw5"
+              ],
+              "spacing": -500,
+              "minSpacing": 4,
+              "axis": "vertical"
+            },
+            {
+              "id": "EK6d5SyWLpXUtBMLpu",
+              "siblingIds": [
+                "EK6d5SyWLpC9Un5Mw5",
+                "EK6d5SyWLmGwrwOsDS"
+              ],
+              "spacing": -400,
+              "minSpacing": 4,
+              "axis": "vertical"
+            },
+            {
+              "id": "EK6d5SyWLpXUtBMLpu",
+              "siblingIds": [
+                "EK6d5SyWLmGwrwOsDS",
+                "EK6d5SyWLAPChY780b"
+              ],
+              "spacing": -450,
+              "minSpacing": 4,
+              "axis": "vertical"
+            },
+            {
+              "id": "EK6d5SyWLpXUtBMLpu",
+              "siblingIds": [
+                "EK6d5SyWLAPChY780b",
+                "EK6d5SyWLivqFzeVAZ"
+              ],
+              "spacing": -326.03,
+              "minSpacing": 4,
+              "axis": "vertical"
+            },
+            {
+              "id": "EK6d5SyWLpXUtBMLpu",
+              "siblingIds": [
+                "EK6d5SyWLivqFzeVAZ",
+                "EK6d5SyWLcFtWJlabj"
+              ],
+              "spacing": -473.97,
+              "minSpacing": 4,
+              "axis": "vertical"
+            }
+          ]
+        }
+      }
+    }
+  },
+  {
+    "pagePath": "/contact",
+    "replica": true,
+    "res": {
+      "message": "Lint: 4 warnings.",
+      "linter": {
+        "warnings": {
+          "Visible siblings in a stack might be too close. If this is not intended, set `gap` on the parent or wrap either sibling in a frame with `padding`.": [
+            {
+              "id": "qjv2S9Wpa",
+              "siblingIds": [
+                "qjv2S9WpajmmPpci8t",
+                "qjv2S9Wpavv0Vi0hbh"
+              ],
+              "spacing": -431.62,
+              "minSpacing": 4,
+              "axis": "vertical"
+            },
+            {
+              "id": "qjv2S9Wpa",
+              "siblingIds": [
+                "qjv2S9Wpavv0Vi0hbh",
+                "qjv2S9WpaR3nS8tMqV"
+              ],
+              "spacing": -395.35,
+              "minSpacing": 4,
+              "axis": "vertical"
+            },
+            {
+              "id": "jEM0wBo2v",
+              "siblingIds": [
+                "jEM0wBo2vR3nS8tMqV",
+                "jEM0wBo2vjmmPpci8t"
+              ],
+              "spacing": -1053.61,
+              "minSpacing": 4,
+              "axis": "vertical"
+            },
+            {
+              "id": "jEM0wBo2v",
+              "siblingIds": [
+                "jEM0wBo2vjmmPpci8t",
+                "jEM0wBo2vvv0Vi0hbh"
+              ],
+              "spacing": -431.62,
+              "minSpacing": 4,
+              "axis": "vertical"
+            }
+          ]
+        }
+      }
+    }
+  }
+]

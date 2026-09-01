@@ -1,0 +1,149 @@
+{
+  "imageishCount": 6,
+  "imageish": [
+    {
+      "bp": "D",
+      "id": "hX5NduSNi",
+      "type": "FrameNode",
+      "name": "Territory Photograph",
+      "path": [
+        "Territory Card"
+      ],
+      "controls": {},
+      "position": "relative",
+      "w": "1fr",
+      "h": "380px"
+    },
+    {
+      "bp": "D",
+      "id": "z2kRrpzAZ",
+      "type": "ComponentInstanceNode",
+      "name": "Arbour_TerritoryHoverMedia",
+      "path": [
+        "Territory Card",
+        "Territory Photograph"
+      ],
+      "controls": {
+        "$control__image": "var(--variable-dM8yn13g7)",
+        "$control__imageB": "var(--variable-ppzgDk7Mi)",
+        "$control__interval": "900",
+        "$control__zoom": "1.04",
+        "$control__showView": "false",
+        "$control__viewLabel": "VIEW →",
+        "$control__accent": "var(--token-db86917b-d19e-4fd7-8dc5-e260f1f35cb1)"
+      },
+      "position": "absolute",
+      "w": "100%",
+      "h": "100%"
+    },
+    {
+      "bp": "T",
+      "id": "aJLpuUP0qhX5NduSNi",
+      "type": "FrameNode",
+      "name": "Territory Photograph",
+      "path": [
+        "Territory Card"
+      ],
+      "controls": {},
+      "position": "relative",
+      "w": "1fr",
+      "h": "300px"
+    },
+    {
+      "bp": "T",
+      "id": "aJLpuUP0qz2kRrpzAZ",
+      "type": "ComponentInstanceNode",
+      "name": "Arbour_TerritoryHoverMedia",
+      "path": [
+        "Territory Card",
+        "Territory Photograph"
+      ],
+      "controls": {
+        "$control__image": "var(--variable-dM8yn13g7)",
+        "$control__imageB": "var(--variable-ppzgDk7Mi)",
+        "$control__interval": "900",
+        "$control__zoom": "1.04",
+        "$control__showView": "false",
+        "$control__viewLabel": "VIEW →",
+        "$control__accent": "var(--token-db86917b-d19e-4fd7-8dc5-e260f1f35cb1)"
+      },
+      "position": "absolute",
+      "w": "100%",
+      "h": "100%"
+    },
+    {
+      "bp": "P",
+      "id": "Qonafp_oDhX5NduSNi",
+      "type": "FrameNode",
+      "name": "Territory Photograph",
+      "path": [
+        "Territory Card"
+      ],
+      "controls": {},
+      "position": "relative",
+      "w": "1fr",
+      "h": "300px"
+    },
+    {
+      "bp": "P",
+      "id": "Qonafp_oDz2kRrpzAZ",
+      "type": "ComponentInstanceNode",
+      "name": "Arbour_TerritoryHoverMedia",
+      "path": [
+        "Territory Card",
+        "Territory Photograph"
+      ],
+      "controls": {
+        "$control__image": "var(--variable-dM8yn13g7)",
+        "$control__imageB": "var(--variable-ppzgDk7Mi)",
+        "$control__interval": "900",
+        "$control__zoom": "1.04",
+        "$control__showView": "false",
+        "$control__viewLabel": "VIEW →",
+        "$control__accent": "var(--token-db86917b-d19e-4fd7-8dc5-e260f1f35cb1)"
+      },
+      "position": "absolute",
+      "w": "100%",
+      "h": "100%"
+    }
+  ],
+  "vars": {
+    "fields": [
+      {
+        "id": "tBUaKupCV",
+        "name": "Name",
+        "type": "string"
+      },
+      {
+        "id": "mNRagFPfJ",
+        "name": "Intro",
+        "type": "string"
+      },
+      {
+        "id": "dM8yn13g7",
+        "name": "Hero Image",
+        "type": "image"
+      },
+      {
+        "id": "ZIEwtEwXa",
+        "name": "Highlights",
+        "type": "string"
+      },
+      {
+        "id": "c8BGAzFA4",
+        "name": "SEO Title",
+        "type": "string"
+      },
+      {
+        "id": "MSw6_cI4R",
+        "name": "SEO Description",
+        "type": "string"
+      },
+      {
+        "id": "ppzgDk7Mi",
+        "name": "Map",
+        "type": "image"
+      }
+    ]
+  }
+}

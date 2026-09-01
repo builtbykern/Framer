@@ -1,0 +1,18 @@
+The glass follows. Type does not.
+
+One radial glass lens sits on your type. Move the mouse and the glass tracks. The letters stay where they are.
+
+Two scenes:
+→ Line — the whole string rises through the lens
+→ Drift — each word walks through once
+
+Play:
+→ Hover — type parked. Glass follows if Lens is On.
+→ Once — plays through and holds
+→ Loop — rises and falls
+
+Paper is transparent on drop, so the page shows through. Ink is the letters. Fringe is the color split at the rim. Scale is optical size. Amount is travel and pinch. 0 is still.
+
+Lens is mouse only. On a phone, Hover, Once, and Loop still run. Reduced motion freezes the same tree.
+
+Built brutally well by KERN.

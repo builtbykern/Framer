@@ -1,0 +1,497 @@
+{
+  "maxWIssueCount": 0,
+  "maxWIssues": [],
+  "fixedDesktop": [],
+  "fixedDesktopCount": 0,
+  "topSummary": [
+    {
+      "path": "/",
+      "sections": [
+        {
+          "name": "Hero Section",
+          "mw": "90%",
+          "h": "100vh",
+          "filled": false,
+          "kidMax": [
+            "Image Layer:-/100%",
+            "Gradient Overlay:-/100%",
+            "Text Content Column:90%/100%"
+          ]
+        },
+        {
+          "name": "Territories Section",
+          "mw": null,
+          "h": "auto",
+          "filled": true,
+          "kidMax": [
+            "Territories Header:90%/auto",
+            "(x):90%/auto"
+          ]
+        },
+        {
+          "name": "Portfolio Section",
+          "mw": null,
+          "h": "auto",
+          "filled": true,
+          "kidMax": [
+            "Portfolio Container:90%/auto"
+          ]
+        },
+        {
+          "name": "Bottom",
+          "mw": null,
+          "h": "auto",
+          "filled": true,
+          "kidMax": [
+            "Content:90%/auto",
+            "Bottom Parallax:-/0.93125px"
+          ]
+        },
+        {
+          "name": "Process Section",
+          "mw": null,
+          "h": "auto",
+          "filled": true,
+          "kidMax": [
+            "(x):90%/auto",
+            "(x):90%/auto",
+            "Process List:90%/auto"
+          ]
+        },
+        {
+          "name": "Arbour_StatsBand",
+          "mw": "90%",
+          "h": "auto",
+          "filled": false,
+          "kidMax": []
+        },
+        {
+          "name": "Recognition Section",
+          "mw": null,
+          "h": "auto",
+          "filled": true,
+          "kidMax": [
+            "Recognition Header:90%/auto",
+            "Recognition List:90%/auto"
+          ]
+        },
+        {
+          "name": "Testimonial Section",
+          "mw": null,
+          "h": "auto",
+          "filled": true,
+          "kidMax": [
+            "(x):90%/auto",
+            "(x):90%/auto"
+          ]
+        },
+        {
+          "name": "Journal",
+          "mw": null,
+          "h": "auto",
+          "filled": true,
+          "kidMax": [
+            "(x):90%/auto",
+            "Journal Deck:90%/auto",
+            "Content Area:90%/auto"
+          ]
+        },
+        {
+          "name": "Footer",
+          "mw": null,
+          "h": "auto",
+          "filled": false,
+          "kidMax": []
+        }
+      ]
+    },
+    {
+      "path": "/properties",
+      "sections": [
+        {
+          "name": "Properties Content",
+          "mw": null,
+          "h": "auto",
+          "filled": true,
+          "kidMax": [
+            "Properties Hero:90%/auto",
+            "Collection Discovery:90%/auto",
+            "Properties Grid:90%/auto",
+            "Market Editorial:90%/auto",
+            "(x):90%/auto",
+            "Private Viewing Process:90%/auto",
+            "Continue Your Search:90%/auto",
+            "Enquiry CTA:90%/auto"
+          ]
+        },
+        {
+          "name": "Footer",
+          "mw": null,
+          "h": "auto",
+          "filled": false,
+          "kidMax": []
+        }
+      ]
+    },
+    {
+      "path": "/neighbourhoods",
+      "sections": [
+        {
+          "name": "Neighbourhoods Content",
+          "mw": null,
+          "h": "auto",
+          "filled": true,
+          "kidMax": [
+            "Neighbourhoods Hero:90%/auto",
+            "Territory Grid Section:90%/auto",
+            "How We Read A Place:90%/auto"
+          ]
+        },
+        {
+          "name": "Footer",
+          "mw": null,
+          "h": "auto",
+          "filled": false,
+          "kidMax": []
+        }
+      ]
+    },
+    {
+      "path": "/notes",
+      "sections": [
+        {
+          "name": "Journal",
+          "mw": null,
+          "h": "auto",
+          "filled": true,
+          "kidMax": [
+            "Notes Hero:90%/auto",
+            "Content Area:90%/auto"
+          ]
+        },
+        {
+          "name": "Journal Manifesto",
+          "mw": null,
+          "h": "auto",
+          "filled": true,
+          "kidMax": [
+            "Manifesto Row:90%/auto"
+          ]
+        },
+        {
+          "name": "Footer",
+          "mw": null,
+          "h": "auto",
+          "filled": false,
+          "kidMax": []
+        }
+      ]
+    },
+    {
+      "path": "/about",
+      "sections": [
+        {
+          "name": "Beat 1 — Portrait Stage",
+          "mw": null,
+          "h": "auto",
+          "filled": true,
+          "kidMax": [
+            "Opening Image Field:90%/70vh",
+            "Opening Copy:90%/auto"
+          ]
+        },
+        {
+          "name": "Beat 2 — Cinematic Image",
+          "mw": null,
+          "h": "62vh",
+          "filled": true,
+          "kidMax": [
+            "(x):-/100%",
+            "Image Editorial Overlay:90%/100%"
+          ]
+        },
+        {
+          "name": "Beat 3 — Manifesto",
+          "mw": null,
+          "h": "auto",
+          "filled": true,
+          "kidMax": [
+            "Manifesto Editorial Row:90%/auto",
+            "(x):90%/auto"
+          ]
+        },
+        {
+          "name": "Editorial Pause — Arbour in Practice",
+          "mw": null,
+          "h": "auto",
+          "filled": true,
+          "kidMax": [
+            "Practice Heading:90%/auto",
+            "Practice Statement:90%/auto",
+            "Practice Markers:90%/auto"
+          ]
+        },
+        {
+          "name": "Chapter — The Principals",
+          "mw": null,
+          "h": "auto",
+          "filled": true,
+          "kidMax": [
+            "Team Heading:90%/auto",
+            "(x):90%/auto",
+            "(x):90%/auto"
+          ]
+        },
+        {
+          "name": "Chapter — Two Offices",
+          "mw": null,
+          "h": "auto",
+          "filled": true,
+          "kidMax": [
+            "Atlas Heading:90%/auto",
+            "Office Atlas Grid:90%/auto"
+          ]
+        },
+        {
+          "name": "Enquiry CTA",
+          "mw": null,
+          "h": "auto",
+          "filled": true,
+          "kidMax": [
+            "(x):90%/auto"
+          ]
+        },
+        {
+          "name": "Footer",
+          "mw": null,
+          "h": "auto",
+          "filled": false,
+          "kidMax": []
+        }
+      ]
+    },
+    {
+      "path": "/contact",
+      "sections": [
+        {
+          "name": "Contact Hero",
+          "mw": null,
+          "h": "52vh",
+          "filled": true,
+          "kidMax": [
+            "Hero Copy:90%/1fr",
+            "Hero Entrance Media:90%/1fr"
+          ]
+        },
+        {
+          "name": "Contact Opening",
+          "mw": null,
+          "h": "auto",
+          "filled": true,
+          "kidMax": [
+            "(x):90%/auto",
+            "Opening Note:90%/auto"
+          ]
+        },
+        {
+          "name": "Private Consultation Pause",
+          "mw": null,
+          "h": "auto",
+          "filled": true,
+          "kidMax": [
+            "Consultation Header:90%/auto",
+            "Consultation Statement:90%/auto",
+            "Consultation Detail:90%/auto"
+          ]
+        },
+        {
+          "name": "Journal",
+          "mw": null,
+          "h": "auto",
+          "filled": true,
+          "kidMax": [
+            "(x):90%/auto",
+            "Content Area:90%/auto"
+          ]
+        },
+        {
+          "name": "Footer",
+          "mw": null,
+          "h": "auto",
+          "filled": false,
+          "kidMax": []
+        }
+      ]
+    },
+    {
+      "path": "/properties/:slug",
+      "sections": [
+        {
+          "name": "Property Hero",
+          "mw": "90%",
+          "h": "auto",
+          "filled": false,
+          "kidMax": [
+            "(x):-/27vh",
+            "(x):-/auto"
+          ]
+        },
+        {
+          "name": "Property Specs Band",
+          "mw": "90%",
+          "h": "auto",
+          "filled": false,
+          "kidMax": [
+            "(x):-/auto"
+          ]
+        },
+        {
+          "name": "Chapter Intro",
+          "mw": "90%",
+          "h": "auto",
+          "filled": false,
+          "kidMax": [
+            "(x):-/auto",
+            "Chapter One Title:960px/auto",
+            "(x):-/auto"
+          ]
+        },
+        {
+          "name": "Cinematic Gallery",
+          "mw": null,
+          "h": "auto",
+          "filled": true,
+          "kidMax": [
+            "Gallery Heading:90%/auto",
+            "Gallery Grid:90%/auto",
+            "Gallery Narrative:90%/auto",
+            "Gallery Caption:90%/auto"
+          ]
+        },
+        {
+          "name": "The Setting",
+          "mw": "90%",
+          "h": "auto",
+          "filled": false,
+          "kidMax": [
+            "Setting Introduction:420px/auto",
+            "Setting Copy:520px/auto"
+          ]
+        },
+        {
+          "name": "Property Particulars",
+          "mw": null,
+          "h": "auto",
+          "filled": true,
+          "kidMax": [
+            "Particulars Inner:90%/auto"
+          ]
+        },
+        {
+          "name": "Continue Your Search",
+          "mw": "90%",
+          "h": "auto",
+          "filled": false,
+          "kidMax": [
+            "Discovery Label:-/auto",
+            "Discovery Routes:-/auto"
+          ]
+        },
+        {
+          "name": "Enquiry CTA",
+          "mw": null,
+          "h": "auto",
+          "filled": true,
+          "kidMax": [
+            "(x):90%/auto"
+          ]
+        },
+        {
+          "name": "Footer",
+          "mw": null,
+          "h": "auto",
+          "filled": false,
+          "kidMax": []
+        }
+      ]
+    },
+    {
+      "path": "/notes/:slug",
+      "sections": [
+        {
+          "name": "Article Hero Meta",
+          "mw": null,
+          "h": "auto",
+          "filled": true,
+          "kidMax": [
+            "(x):90%/0px",
+            "(x):90%/auto"
+          ]
+        },
+        {
+          "name": "Journal Hero Image",
+          "mw": null,
+          "h": "48vh",
+          "filled": true,
+          "kidMax": []
+        },
+        {
+          "name": "Article Body Wrap",
+          "mw": "90%",
+          "h": "auto",
+          "filled": false,
+          "kidMax": [
+            "Article Body:720px/auto"
+          ]
+        },
+        {
+          "name": "Journal Text Column",
+          "mw": "90%",
+          "h": "1fr",
+          "filled": false,
+          "kidMax": [
+            "Wrapper:-/auto"
+          ]
+        },
+        {
+          "name": "More From Journal",
+          "mw": null,
+          "h": "auto",
+          "filled": true,
+          "kidMax": [
+            "(x):90%/auto",
+            "(x):90%/auto",
+            "(x):90%/auto"
+          ]
+        },
+        {
+          "name": "Specs Strip",
+          "mw": "90%",
+          "h": "0px",
+          "filled": false,
+          "kidMax": [
+            "(x):-/auto"
+          ]
+        },
+        {
+          "name": "Closing Chapter",
+          "mw": "90%",
+          "h": "0px",
+          "filled": false,
+          "kidMax": [
+            "(x):-/auto",
+            "Chapter One Title:-/auto",
+            "(x):-/auto"
+          ]
+        },
+        {
+          "name": "Footer",
+          "mw": null,
+          "h": "auto",
+          "filled": false,
+          "kidMax": []
+        }
+      ]
+    }
+  ]
+}

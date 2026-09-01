@@ -1,0 +1,1734 @@
+{
+  "collectedAt": "2026-08-09T17:21:57.091Z",
+  "shellMatrix": [
+    {
+      "path": "/",
+      "bp": "Desktop",
+      "present": {
+        "Arbour_LoadingScreen": true,
+        "Arbour_SmoothScroll": true,
+        "Atmosphere": true,
+        "Arbour_NoiseEffect": false,
+        "Arbour_ProgressiveBlur": true,
+        "Arbour_ScrollCue": false,
+        "Nav": true,
+        "Footer": true
+      },
+      "topOrder": [
+        "Arbour_LoadingScreen",
+        "Arbour_SmoothScroll",
+        "Atmosphere",
+        "Nav",
+        "Footer",
+        "Arbour_ProgressiveBlur"
+      ],
+      "orderOk": true
+    },
+    {
+      "path": "/",
+      "bp": "Tablet",
+      "present": {
+        "Arbour_LoadingScreen": true,
+        "Arbour_SmoothScroll": true,
+        "Atmosphere": true,
+        "Arbour_NoiseEffect": false,
+        "Arbour_ProgressiveBlur": true,
+        "Arbour_ScrollCue": false,
+        "Nav": true,
+        "Footer": true
+      },
+      "topOrder": [
+        "Arbour_LoadingScreen",
+        "Arbour_SmoothScroll",
+        "Atmosphere",
+        "Nav",
+        "Footer",
+        "Arbour_ProgressiveBlur"
+      ],
+      "orderOk": true
+    },
+    {
+      "path": "/",
+      "bp": "Phone",
+      "present": {
+        "Arbour_LoadingScreen": true,
+        "Arbour_SmoothScroll": true,
+        "Atmosphere": true,
+        "Arbour_NoiseEffect": false,
+        "Arbour_ProgressiveBlur": true,
+        "Arbour_ScrollCue": false,
+        "Nav": true,
+        "Footer": true
+      },
+      "topOrder": [
+        "Arbour_LoadingScreen",
+        "Arbour_SmoothScroll",
+        "Atmosphere",
+        "Nav",
+        "Footer",
+        "Arbour_ProgressiveBlur"
+      ],
+      "orderOk": true
+    },
+    {
+      "path": "/properties",
+      "bp": "Desktop",
+      "present": {
+        "Arbour_LoadingScreen": true,
+        "Arbour_SmoothScroll": true,
+        "Atmosphere": true,
+        "Arbour_NoiseEffect": true,
+        "Arbour_ProgressiveBlur": true,
+        "Arbour_ScrollCue": true,
+        "Nav": true,
+        "Footer": true
+      },
+      "topOrder": [
+        "Arbour_LoadingScreen",
+        "Arbour_SmoothScroll",
+        "Atmosphere",
+        "Nav",
+        "Footer"
+      ],
+      "orderOk": true
+    },
+    {
+      "path": "/properties",
+      "bp": "Tablet",
+      "present": {
+        "Arbour_LoadingScreen": true,
+        "Arbour_SmoothScroll": true,
+        "Atmosphere": true,
+        "Arbour_NoiseEffect": true,
+        "Arbour_ProgressiveBlur": true,
+        "Arbour_ScrollCue": true,
+        "Nav": true,
+        "Footer": true
+      },
+      "topOrder": [
+        "Arbour_LoadingScreen",
+        "Arbour_SmoothScroll",
+        "Atmosphere",
+        "Nav",
+        "Footer"
+      ],
+      "orderOk": true
+    },
+    {
+      "path": "/properties",
+      "bp": "Phone",
+      "present": {
+        "Arbour_LoadingScreen": true,
+        "Arbour_SmoothScroll": true,
+        "Atmosphere": true,
+        "Arbour_NoiseEffect": true,
+        "Arbour_ProgressiveBlur": true,
+        "Arbour_ScrollCue": true,
+        "Nav": true,
+        "Footer": true
+      },
+      "topOrder": [
+        "Arbour_LoadingScreen",
+        "Arbour_SmoothScroll",
+        "Atmosphere",
+        "Nav",
+        "Footer"
+      ],
+      "orderOk": true
+    },
+    {
+      "path": "/neighbourhoods",
+      "bp": "Desktop",
+      "present": {
+        "Arbour_LoadingScreen": true,
+        "Arbour_SmoothScroll": true,
+        "Atmosphere": true,
+        "Arbour_NoiseEffect": true,
+        "Arbour_ProgressiveBlur": true,
+        "Arbour_ScrollCue": false,
+        "Nav": true,
+        "Footer": true
+      },
+      "topOrder": [
+        "Arbour_LoadingScreen",
+        "Arbour_SmoothScroll",
+        "Atmosphere",
+        "Nav",
+        "Footer"
+      ],
+      "orderOk": true
+    },
+    {
+      "path": "/neighbourhoods",
+      "bp": "Tablet",
+      "present": {
+        "Arbour_LoadingScreen": true,
+        "Arbour_SmoothScroll": true,
+        "Atmosphere": true,
+        "Arbour_NoiseEffect": true,
+        "Arbour_ProgressiveBlur": true,
+        "Arbour_ScrollCue": false,
+        "Nav": true,
+        "Footer": true
+      },
+      "topOrder": [
+        "Arbour_LoadingScreen",
+        "Arbour_SmoothScroll",
+        "Atmosphere",
+        "Nav",
+        "Footer"
+      ],
+      "orderOk": true
+    },
+    {
+      "path": "/neighbourhoods",
+      "bp": "Phone",
+      "present": {
+        "Arbour_LoadingScreen": true,
+        "Arbour_SmoothScroll": true,
+        "Atmosphere": true,
+        "Arbour_NoiseEffect": true,
+        "Arbour_ProgressiveBlur": true,
+        "Arbour_ScrollCue": false,
+        "Nav": true,
+        "Footer": true
+      },
+      "topOrder": [
+        "Arbour_LoadingScreen",
+        "Arbour_SmoothScroll",
+        "Atmosphere",
+        "Nav",
+        "Footer"
+      ],
+      "orderOk": true
+    },
+    {
+      "path": "/notes",
+      "bp": "Desktop",
+      "present": {
+        "Arbour_LoadingScreen": true,
+        "Arbour_SmoothScroll": true,
+        "Atmosphere": true,
+        "Arbour_NoiseEffect": false,
+        "Arbour_ProgressiveBlur": true,
+        "Arbour_ScrollCue": false,
+        "Nav": true,
+        "Footer": true
+      },
+      "topOrder": [
+        "Arbour_LoadingScreen",
+        "Arbour_SmoothScroll",
+        "Atmosphere",
+        "Nav",
+        "Footer"
+      ],
+      "orderOk": true
+    },
+    {
+      "path": "/notes",
+      "bp": "Tablet",
+      "present": {
+        "Arbour_LoadingScreen": true,
+        "Arbour_SmoothScroll": true,
+        "Atmosphere": true,
+        "Arbour_NoiseEffect": false,
+        "Arbour_ProgressiveBlur": true,
+        "Arbour_ScrollCue": false,
+        "Nav": true,
+        "Footer": true
+      },
+      "topOrder": [
+        "Arbour_LoadingScreen",
+        "Arbour_SmoothScroll",
+        "Atmosphere",
+        "Nav",
+        "Footer"
+      ],
+      "orderOk": true
+    },
+    {
+      "path": "/notes",
+      "bp": "Phone",
+      "present": {
+        "Arbour_LoadingScreen": true,
+        "Arbour_SmoothScroll": true,
+        "Atmosphere": true,
+        "Arbour_NoiseEffect": false,
+        "Arbour_ProgressiveBlur": true,
+        "Arbour_ScrollCue": false,
+        "Nav": true,
+        "Footer": true
+      },
+      "topOrder": [
+        "Arbour_LoadingScreen",
+        "Arbour_SmoothScroll",
+        "Atmosphere",
+        "Nav",
+        "Footer"
+      ],
+      "orderOk": true
+    },
+    {
+      "path": "/about",
+      "bp": "Desktop",
+      "present": {
+        "Arbour_LoadingScreen": true,
+        "Arbour_SmoothScroll": true,
+        "Atmosphere": true,
+        "Arbour_NoiseEffect": true,
+        "Arbour_ProgressiveBlur": true,
+        "Arbour_ScrollCue": false,
+        "Nav": true,
+        "Footer": true
+      },
+      "topOrder": [
+        "Arbour_LoadingScreen",
+        "Arbour_SmoothScroll",
+        "Atmosphere",
+        "Nav",
+        "Footer"
+      ],
+      "orderOk": true
+    },
+    {
+      "path": "/about",
+      "bp": "Tablet",
+      "present": {
+        "Arbour_LoadingScreen": true,
+        "Arbour_SmoothScroll": true,
+        "Atmosphere": true,
+        "Arbour_NoiseEffect": true,
+        "Arbour_ProgressiveBlur": true,
+        "Arbour_ScrollCue": false,
+        "Nav": true,
+        "Footer": true
+      },
+      "topOrder": [
+        "Nav",
+        "Arbour_LoadingScreen",
+        "Arbour_SmoothScroll",
+        "Atmosphere",
+        "Footer"
+      ],
+      "orderOk": false
+    },
+    {
+      "path": "/about",
+      "bp": "Phone",
+      "present": {
+        "Arbour_LoadingScreen": true,
+        "Arbour_SmoothScroll": true,
+        "Atmosphere": true,
+        "Arbour_NoiseEffect": true,
+        "Arbour_ProgressiveBlur": true,
+        "Arbour_ScrollCue": false,
+        "Nav": true,
+        "Footer": true
+      },
+      "topOrder": [
+        "Nav",
+        "Arbour_LoadingScreen",
+        "Arbour_SmoothScroll",
+        "Atmosphere",
+        "Footer"
+      ],
+      "orderOk": false
+    },
+    {
+      "path": "/contact",
+      "bp": "Desktop",
+      "present": {
+        "Arbour_LoadingScreen": true,
+        "Arbour_SmoothScroll": true,
+        "Atmosphere": true,
+        "Arbour_NoiseEffect": true,
+        "Arbour_ProgressiveBlur": true,
+        "Arbour_ScrollCue": true,
+        "Nav": true,
+        "Footer": true
+      },
+      "topOrder": [
+        "Arbour_LoadingScreen",
+        "Arbour_SmoothScroll",
+        "Atmosphere",
+        "Nav",
+        "Footer"
+      ],
+      "orderOk": true
+    },
+    {
+      "path": "/contact",
+      "bp": "Tablet",
+      "present": {
+        "Arbour_LoadingScreen": true,
+        "Arbour_SmoothScroll": true,
+        "Atmosphere": true,
+        "Arbour_NoiseEffect": true,
+        "Arbour_ProgressiveBlur": true,
+        "Arbour_ScrollCue": true,
+        "Nav": true,
+        "Footer": true
+      },
+      "topOrder": [
+        "Arbour_LoadingScreen",
+        "Arbour_SmoothScroll",
+        "Atmosphere",
+        "Nav",
+        "Footer"
+      ],
+      "orderOk": true
+    },
+    {
+      "path": "/contact",
+      "bp": "Phone",
+      "present": {
+        "Arbour_LoadingScreen": true,
+        "Arbour_SmoothScroll": true,
+        "Atmosphere": true,
+        "Arbour_NoiseEffect": true,
+        "Arbour_ProgressiveBlur": true,
+        "Arbour_ScrollCue": true,
+        "Nav": true,
+        "Footer": true
+      },
+      "topOrder": [
+        "Arbour_LoadingScreen",
+        "Arbour_SmoothScroll",
+        "Atmosphere",
+        "Nav",
+        "Footer"
+      ],
+      "orderOk": true
+    },
+    {
+      "path": "/properties/:slug",
+      "bp": "Desktop",
+      "present": {
+        "Arbour_LoadingScreen": true,
+        "Arbour_SmoothScroll": true,
+        "Atmosphere": true,
+        "Arbour_NoiseEffect": true,
+        "Arbour_ProgressiveBlur": true,
+        "Arbour_ScrollCue": true,
+        "Nav": true,
+        "Footer": true
+      },
+      "topOrder": [
+        "Arbour_LoadingScreen",
+        "Arbour_SmoothScroll",
+        "Atmosphere",
+        "Nav",
+        "Footer"
+      ],
+      "orderOk": true
+    },
+    {
+      "path": "/properties/:slug",
+      "bp": "Tablet",
+      "present": {
+        "Arbour_LoadingScreen": true,
+        "Arbour_SmoothScroll": true,
+        "Atmosphere": true,
+        "Arbour_NoiseEffect": true,
+        "Arbour_ProgressiveBlur": true,
+        "Arbour_ScrollCue": true,
+        "Nav": true,
+        "Footer": true
+      },
+      "topOrder": [
+        "Arbour_LoadingScreen",
+        "Arbour_SmoothScroll",
+        "Atmosphere",
+        "Nav",
+        "Footer"
+      ],
+      "orderOk": true
+    },
+    {
+      "path": "/properties/:slug",
+      "bp": "Phone",
+      "present": {
+        "Arbour_LoadingScreen": true,
+        "Arbour_SmoothScroll": true,
+        "Atmosphere": true,
+        "Arbour_NoiseEffect": true,
+        "Arbour_ProgressiveBlur": true,
+        "Arbour_ScrollCue": true,
+        "Nav": true,
+        "Footer": true
+      },
+      "topOrder": [
+        "Arbour_LoadingScreen",
+        "Arbour_SmoothScroll",
+        "Atmosphere",
+        "Nav",
+        "Footer"
+      ],
+      "orderOk": true
+    },
+    {
+      "path": "/notes/:slug",
+      "bp": "Desktop",
+      "present": {
+        "Arbour_LoadingScreen": true,
+        "Arbour_SmoothScroll": true,
+        "Atmosphere": true,
+        "Arbour_NoiseEffect": true,
+        "Arbour_ProgressiveBlur": true,
+        "Arbour_ScrollCue": true,
+        "Nav": true,
+        "Footer": true
+      },
+      "topOrder": [
+        "Arbour_LoadingScreen",
+        "Arbour_SmoothScroll",
+        "Atmosphere",
+        "Nav",
+        "Footer"
+      ],
+      "orderOk": true
+    },
+    {
+      "path": "/notes/:slug",
+      "bp": "Tablet",
+      "present": {
+        "Arbour_LoadingScreen": true,
+        "Arbour_SmoothScroll": true,
+        "Atmosphere": true,
+        "Arbour_NoiseEffect": true,
+        "Arbour_ProgressiveBlur": true,
+        "Arbour_ScrollCue": true,
+        "Nav": true,
+        "Footer": true
+      },
+      "topOrder": [
+        "Arbour_LoadingScreen",
+        "Arbour_SmoothScroll",
+        "Atmosphere",
+        "Nav",
+        "Footer"
+      ],
+      "orderOk": true
+    },
+    {
+      "path": "/notes/:slug",
+      "bp": "Phone",
+      "present": {
+        "Arbour_LoadingScreen": true,
+        "Arbour_SmoothScroll": true,
+        "Atmosphere": true,
+        "Arbour_NoiseEffect": true,
+        "Arbour_ProgressiveBlur": true,
+        "Arbour_ScrollCue": true,
+        "Nav": true,
+        "Footer": true
+      },
+      "topOrder": [
+        "Arbour_LoadingScreen",
+        "Arbour_SmoothScroll",
+        "Atmosphere",
+        "Nav",
+        "Footer"
+      ],
+      "orderOk": true
+    },
+    {
+      "path": "/404",
+      "bp": "Desktop",
+      "present": {
+        "Arbour_LoadingScreen": true,
+        "Arbour_SmoothScroll": true,
+        "Atmosphere": true,
+        "Arbour_NoiseEffect": false,
+        "Arbour_ProgressiveBlur": false,
+        "Arbour_ScrollCue": false,
+        "Nav": true,
+        "Footer": true
+      },
+      "topOrder": [
+        "Arbour_LoadingScreen",
+        "Arbour_SmoothScroll",
+        "Atmosphere",
+        "Nav",
+        "Footer"
+      ],
+      "orderOk": true
+    },
+    {
+      "path": "/404",
+      "bp": "Tablet",
+      "present": {
+        "Arbour_LoadingScreen": true,
+        "Arbour_SmoothScroll": true,
+        "Atmosphere": true,
+        "Arbour_NoiseEffect": false,
+        "Arbour_ProgressiveBlur": false,
+        "Arbour_ScrollCue": false,
+        "Nav": true,
+        "Footer": true
+      },
+      "topOrder": [
+        "Arbour_LoadingScreen",
+        "Arbour_SmoothScroll",
+        "Atmosphere",
+        "Nav",
+        "Footer"
+      ],
+      "orderOk": true
+    },
+    {
+      "path": "/404",
+      "bp": "Phone",
+      "present": {
+        "Arbour_LoadingScreen": true,
+        "Arbour_SmoothScroll": true,
+        "Atmosphere": true,
+        "Arbour_NoiseEffect": false,
+        "Arbour_ProgressiveBlur": false,
+        "Arbour_ScrollCue": false,
+        "Nav": true,
+        "Footer": true
+      },
+      "topOrder": [
+        "Arbour_LoadingScreen",
+        "Arbour_SmoothScroll",
+        "Atmosphere",
+        "Nav",
+        "Footer"
+      ],
+      "orderOk": true
+    }
+  ],
+  "darkTextRisk": [
+    {
+      "path": "/",
+      "bp": "Desktop",
+      "id": "xjRDHUiXm",
+      "preset": "Arbour/Meta",
+      "color": "var(--token-537bd017-a079-4a2b-9afa-25208d628840)",
+      "darkParent": {
+        "id": "cAycWvHcY",
+        "fill": "var(--token-9d3d6ca5-f3ad-4d88-afc8-fc5bce03bd04)"
+      }
+    },
+    {
+      "path": "/",
+      "bp": "Tablet",
+      "id": "wBAtV56MExjRDHUiXm",
+      "preset": "Arbour/Meta",
+      "color": "var(--token-537bd017-a079-4a2b-9afa-25208d628840)",
+      "darkParent": {
+        "id": "wBAtV56MEcAycWvHcY",
+        "fill": "var(--token-9d3d6ca5-f3ad-4d88-afc8-fc5bce03bd04)"
+      }
+    },
+    {
+      "path": "/",
+      "bp": "Phone",
+      "id": "mcL3MFzFVxjRDHUiXm",
+      "preset": "Arbour/Meta",
+      "color": "var(--token-537bd017-a079-4a2b-9afa-25208d628840)",
+      "darkParent": {
+        "id": "mcL3MFzFVcAycWvHcY",
+        "fill": "var(--token-9d3d6ca5-f3ad-4d88-afc8-fc5bce03bd04)"
+      }
+    },
+    {
+      "path": "/properties",
+      "bp": "Desktop",
+      "id": "eGUGiNFtd",
+      "name": "Enquiry Kicker",
+      "preset": "Arbour/Meta",
+      "color": "var(--token-a16d0333-6bd5-4d60-aa00-fac26447145d)",
+      "darkParent": {
+        "id": "cFtWJlabj",
+        "name": "Enquiry CTA",
+        "fill": "var(--token-425191b0-a245-4f14-88c2-f7144ab54959)"
+      }
+    },
+    {
+      "path": "/properties",
+      "bp": "Desktop",
+      "id": "ZqJnbUIG9",
+      "name": "Enquiry Heading",
+      "preset": "Arbour/Display",
+      "color": "var(--token-e2f9a9eb-668a-4021-80d9-b04413b5f392)",
+      "darkParent": {
+        "id": "cFtWJlabj",
+        "name": "Enquiry CTA",
+        "fill": "var(--token-425191b0-a245-4f14-88c2-f7144ab54959)"
+      }
+    },
+    {
+      "path": "/properties",
+      "bp": "Desktop",
+      "id": "z4s1V3Jha",
+      "preset": "Arbour/Meta",
+      "color": "var(--token-9d3d6ca5-f3ad-4d88-afc8-fc5bce03bd04)",
+      "darkParent": {
+        "id": "cFtWJlabj",
+        "name": "Enquiry CTA",
+        "fill": "var(--token-425191b0-a245-4f14-88c2-f7144ab54959)"
+      }
+    },
+    {
+      "path": "/properties",
+      "bp": "Tablet",
+      "id": "SScKalu3BeGUGiNFtd",
+      "name": "Enquiry Kicker",
+      "preset": "Arbour/Meta",
+      "color": "var(--token-a16d0333-6bd5-4d60-aa00-fac26447145d)",
+      "darkParent": {
+        "id": "SScKalu3BcFtWJlabj",
+        "name": "Enquiry CTA",
+        "fill": "var(--token-425191b0-a245-4f14-88c2-f7144ab54959)"
+      }
+    },
+    {
+      "path": "/properties",
+      "bp": "Tablet",
+      "id": "SScKalu3BZqJnbUIG9",
+      "name": "Enquiry Heading",
+      "preset": "Arbour/Heading",
+      "color": "var(--token-e2f9a9eb-668a-4021-80d9-b04413b5f392)",
+      "darkParent": {
+        "id": "SScKalu3BcFtWJlabj",
+        "name": "Enquiry CTA",
+        "fill": "var(--token-425191b0-a245-4f14-88c2-f7144ab54959)"
+      }
+    },
+    {
+      "path": "/properties",
+      "bp": "Tablet",
+      "id": "SScKalu3Bz4s1V3Jha",
+      "preset": "Arbour/Meta",
+      "color": "var(--token-9d3d6ca5-f3ad-4d88-afc8-fc5bce03bd04)",
+      "darkParent": {
+        "id": "SScKalu3BcFtWJlabj",
+        "name": "Enquiry CTA",
+        "fill": "var(--token-425191b0-a245-4f14-88c2-f7144ab54959)"
+      }
+    },
+    {
+      "path": "/properties",
+      "bp": "Phone",
+      "id": "EK6d5SyWLeGUGiNFtd",
+      "name": "Enquiry Kicker",
+      "preset": "Arbour/Meta",
+      "color": "var(--token-a16d0333-6bd5-4d60-aa00-fac26447145d)",
+      "darkParent": {
+        "id": "EK6d5SyWLcFtWJlabj",
+        "name": "Enquiry CTA",
+        "fill": "var(--token-425191b0-a245-4f14-88c2-f7144ab54959)"
+      }
+    },
+    {
+      "path": "/properties",
+      "bp": "Phone",
+      "id": "EK6d5SyWLZqJnbUIG9",
+      "name": "Enquiry Heading",
+      "preset": "Arbour/Heading",
+      "color": "var(--token-e2f9a9eb-668a-4021-80d9-b04413b5f392)",
+      "darkParent": {
+        "id": "EK6d5SyWLcFtWJlabj",
+        "name": "Enquiry CTA",
+        "fill": "var(--token-425191b0-a245-4f14-88c2-f7144ab54959)"
+      }
+    },
+    {
+      "path": "/properties",
+      "bp": "Phone",
+      "id": "EK6d5SyWLz4s1V3Jha",
+      "preset": "Arbour/Meta",
+      "color": "var(--token-9d3d6ca5-f3ad-4d88-afc8-fc5bce03bd04)",
+      "darkParent": {
+        "id": "EK6d5SyWLcFtWJlabj",
+        "name": "Enquiry CTA",
+        "fill": "var(--token-425191b0-a245-4f14-88c2-f7144ab54959)"
+      }
+    },
+    {
+      "path": "/neighbourhoods",
+      "bp": "Desktop",
+      "id": "Dsp5KQS9c",
+      "preset": "Arbour/Meta",
+      "color": "var(--token-0bc68d0d-4c0b-4126-8cce-9425cb153f4e)",
+      "darkParent": {
+        "id": "NrbMmTnFX",
+        "name": "Territory Grid Section",
+        "fill": "var(--token-425191b0-a245-4f14-88c2-f7144ab54959)"
+      }
+    },
+    {
+      "path": "/neighbourhoods",
+      "bp": "Desktop",
+      "id": "O26ITVtlq",
+      "preset": "Arbour/Meta",
+      "color": "var(--token-a16d0333-6bd5-4d60-aa00-fac26447145d)",
+      "darkParent": {
+        "id": "KraraKF0A",
+        "name": "How We Read A Place",
+        "fill": "var(--token-425191b0-a245-4f14-88c2-f7144ab54959)"
+      }
+    },
+    {
+      "path": "/neighbourhoods",
+      "bp": "Desktop",
+      "id": "Z3DYUEfrR",
+      "preset": "Arbour/Meta",
+      "color": "var(--token-0bc68d0d-4c0b-4126-8cce-9425cb153f4e)",
+      "darkParent": {
+        "id": "KraraKF0A",
+        "name": "How We Read A Place",
+        "fill": "var(--token-425191b0-a245-4f14-88c2-f7144ab54959)"
+      }
+    },
+    {
+      "path": "/neighbourhoods",
+      "bp": "Desktop",
+      "id": "ZmKAjtBzH",
+      "preset": "Arbour/Heading",
+      "color": "var(--token-e2f9a9eb-668a-4021-80d9-b04413b5f392)",
+      "darkParent": {
+        "id": "KraraKF0A",
+        "name": "How We Read A Place",
+        "fill": "var(--token-425191b0-a245-4f14-88c2-f7144ab54959)"
+      }
+    },
+    {
+      "path": "/neighbourhoods",
+      "bp": "Desktop",
+      "id": "KJdpIBmOd",
+      "preset": "Arbour/Body",
+      "color": "var(--token-0bc68d0d-4c0b-4126-8cce-9425cb153f4e)",
+      "darkParent": {
+        "id": "KraraKF0A",
+        "name": "How We Read A Place",
+        "fill": "var(--token-425191b0-a245-4f14-88c2-f7144ab54959)"
+      }
+    },
+    {
+      "path": "/neighbourhoods",
+      "bp": "Tablet",
+      "id": "aJLpuUP0qDsp5KQS9c",
+      "preset": "Arbour/Meta",
+      "color": "var(--token-0bc68d0d-4c0b-4126-8cce-9425cb153f4e)",
+      "darkParent": {
+        "id": "aJLpuUP0qNrbMmTnFX",
+        "name": "Territory Grid Section",
+        "fill": "var(--token-425191b0-a245-4f14-88c2-f7144ab54959)"
+      }
+    },
+    {
+      "path": "/neighbourhoods",
+      "bp": "Tablet",
+      "id": "aJLpuUP0qO26ITVtlq",
+      "preset": "Arbour/Meta",
+      "color": "var(--token-a16d0333-6bd5-4d60-aa00-fac26447145d)",
+      "darkParent": {
+        "id": "aJLpuUP0qKraraKF0A",
+        "name": "How We Read A Place",
+        "fill": "var(--token-425191b0-a245-4f14-88c2-f7144ab54959)"
+      }
+    },
+    {
+      "path": "/neighbourhoods",
+      "bp": "Tablet",
+      "id": "aJLpuUP0qZ3DYUEfrR",
+      "preset": "Arbour/Meta",
+      "color": "var(--token-0bc68d0d-4c0b-4126-8cce-9425cb153f4e)",
+      "darkParent": {
+        "id": "aJLpuUP0qKraraKF0A",
+        "name": "How We Read A Place",
+        "fill": "var(--token-425191b0-a245-4f14-88c2-f7144ab54959)"
+      }
+    },
+    {
+      "path": "/neighbourhoods",
+      "bp": "Tablet",
+      "id": "aJLpuUP0qZmKAjtBzH",
+      "preset": "Arbour/Heading",
+      "color": "var(--token-e2f9a9eb-668a-4021-80d9-b04413b5f392)",
+      "darkParent": {
+        "id": "aJLpuUP0qKraraKF0A",
+        "name": "How We Read A Place",
+        "fill": "var(--token-425191b0-a245-4f14-88c2-f7144ab54959)"
+      }
+    },
+    {
+      "path": "/neighbourhoods",
+      "bp": "Tablet",
+      "id": "aJLpuUP0qKJdpIBmOd",
+      "preset": "Arbour/Body",
+      "color": "var(--token-0bc68d0d-4c0b-4126-8cce-9425cb153f4e)",
+      "darkParent": {
+        "id": "aJLpuUP0qKraraKF0A",
+        "name": "How We Read A Place",
+        "fill": "var(--token-425191b0-a245-4f14-88c2-f7144ab54959)"
+      }
+    },
+    {
+      "path": "/neighbourhoods",
+      "bp": "Phone",
+      "id": "Qonafp_oDDsp5KQS9c",
+      "preset": "Arbour/Meta",
+      "color": "var(--token-0bc68d0d-4c0b-4126-8cce-9425cb153f4e)",
+      "darkParent": {
+        "id": "Qonafp_oDNrbMmTnFX",
+        "name": "Territory Grid Section",
+        "fill": "var(--token-425191b0-a245-4f14-88c2-f7144ab54959)"
+      }
+    },
+    {
+      "path": "/neighbourhoods",
+      "bp": "Phone",
+      "id": "Qonafp_oDO26ITVtlq",
+      "preset": "Arbour/Meta",
+      "color": "var(--token-a16d0333-6bd5-4d60-aa00-fac26447145d)",
+      "darkParent": {
+        "id": "Qonafp_oDKraraKF0A",
+        "name": "How We Read A Place",
+        "fill": "var(--token-425191b0-a245-4f14-88c2-f7144ab54959)"
+      }
+    },
+    {
+      "path": "/neighbourhoods",
+      "bp": "Phone",
+      "id": "Qonafp_oDZ3DYUEfrR",
+      "preset": "Arbour/Meta",
+      "color": "var(--token-0bc68d0d-4c0b-4126-8cce-9425cb153f4e)",
+      "darkParent": {
+        "id": "Qonafp_oDKraraKF0A",
+        "name": "How We Read A Place",
+        "fill": "var(--token-425191b0-a245-4f14-88c2-f7144ab54959)"
+      }
+    },
+    {
+      "path": "/neighbourhoods",
+      "bp": "Phone",
+      "id": "Qonafp_oDZmKAjtBzH",
+      "preset": "Arbour/Heading",
+      "color": "var(--token-e2f9a9eb-668a-4021-80d9-b04413b5f392)",
+      "darkParent": {
+        "id": "Qonafp_oDKraraKF0A",
+        "name": "How We Read A Place",
+        "fill": "var(--token-425191b0-a245-4f14-88c2-f7144ab54959)"
+      }
+    },
+    {
+      "path": "/neighbourhoods",
+      "bp": "Phone",
+      "id": "Qonafp_oDKJdpIBmOd",
+      "preset": "Arbour/Body",
+      "color": "var(--token-0bc68d0d-4c0b-4126-8cce-9425cb153f4e)",
+      "darkParent": {
+        "id": "Qonafp_oDKraraKF0A",
+        "name": "How We Read A Place",
+        "fill": "var(--token-425191b0-a245-4f14-88c2-f7144ab54959)"
+      }
+    },
+    {
+      "path": "/notes",
+      "bp": "Desktop",
+      "id": "hHJxir8HR",
+      "preset": "Arbour/Meta",
+      "color": "var(--token-0bc68d0d-4c0b-4126-8cce-9425cb153f4e)",
+      "darkParent": {
+        "id": "p7CGH_nWX",
+        "name": "Journal Manifesto",
+        "fill": "var(--token-425191b0-a245-4f14-88c2-f7144ab54959)"
+      }
+    },
+    {
+      "path": "/notes",
+      "bp": "Desktop",
+      "id": "Yejmu7B7r",
+      "preset": "Arbour/Meta",
+      "color": "var(--token-0bc68d0d-4c0b-4126-8cce-9425cb153f4e)",
+      "darkParent": {
+        "id": "p7CGH_nWX",
+        "name": "Journal Manifesto",
+        "fill": "var(--token-425191b0-a245-4f14-88c2-f7144ab54959)"
+      }
+    },
+    {
+      "path": "/notes",
+      "bp": "Desktop",
+      "id": "v_E9QKepJ",
+      "preset": "Arbour/Meta",
+      "color": "var(--token-0bc68d0d-4c0b-4126-8cce-9425cb153f4e)",
+      "darkParent": {
+        "id": "p7CGH_nWX",
+        "name": "Journal Manifesto",
+        "fill": "var(--token-425191b0-a245-4f14-88c2-f7144ab54959)"
+      }
+    },
+    {
+      "path": "/notes",
+      "bp": "Desktop",
+      "id": "Yi1ld9Pc1",
+      "preset": "Arbour/Meta",
+      "color": "var(--token-0bc68d0d-4c0b-4126-8cce-9425cb153f4e)",
+      "darkParent": {
+        "id": "p7CGH_nWX",
+        "name": "Journal Manifesto",
+        "fill": "var(--token-425191b0-a245-4f14-88c2-f7144ab54959)"
+      }
+    },
+    {
+      "path": "/notes",
+      "bp": "Desktop",
+      "id": "rcIiVrHBq",
+      "preset": "Arbour/Meta",
+      "color": "var(--token-0bc68d0d-4c0b-4126-8cce-9425cb153f4e)",
+      "darkParent": {
+        "id": "p7CGH_nWX",
+        "name": "Journal Manifesto",
+        "fill": "var(--token-425191b0-a245-4f14-88c2-f7144ab54959)"
+      }
+    },
+    {
+      "path": "/notes",
+      "bp": "Desktop",
+      "id": "Fe5WKPsRA",
+      "preset": "Arbour/Display",
+      "color": "var(--token-e2f9a9eb-668a-4021-80d9-b04413b5f392)",
+      "darkParent": {
+        "id": "p7CGH_nWX",
+        "name": "Journal Manifesto",
+        "fill": "var(--token-425191b0-a245-4f14-88c2-f7144ab54959)"
+      }
+    },
+    {
+      "path": "/notes",
+      "bp": "Desktop",
+      "id": "WhizOzz3H",
+      "preset": "Arbour/Subhead",
+      "color": "var(--token-0bc68d0d-4c0b-4126-8cce-9425cb153f4e)",
+      "darkParent": {
+        "id": "p7CGH_nWX",
+        "name": "Journal Manifesto",
+        "fill": "var(--token-425191b0-a245-4f14-88c2-f7144ab54959)"
+      }
+    },
+    {
+      "path": "/notes",
+      "bp": "Desktop",
+      "id": "Z2YTa8BaL",
+      "preset": "Arbour/Body",
+      "color": "var(--token-0bc68d0d-4c0b-4126-8cce-9425cb153f4e)",
+      "darkParent": {
+        "id": "p7CGH_nWX",
+        "name": "Journal Manifesto",
+        "fill": "var(--token-425191b0-a245-4f14-88c2-f7144ab54959)"
+      }
+    },
+    {
+      "path": "/notes",
+      "bp": "Tablet",
+      "id": "LptqEiXVphHJxir8HR",
+      "preset": "Arbour/Meta",
+      "color": "var(--token-0bc68d0d-4c0b-4126-8cce-9425cb153f4e)",
+      "darkParent": {
+        "id": "LptqEiXVpp7CGH_nWX",
+        "name": "Journal Manifesto",
+        "fill": "var(--token-425191b0-a245-4f14-88c2-f7144ab54959)"
+      }
+    },
+    {
+      "path": "/notes",
+      "bp": "Tablet",
+      "id": "LptqEiXVpYejmu7B7r",
+      "preset": "Arbour/Meta",
+      "color": "var(--token-0bc68d0d-4c0b-4126-8cce-9425cb153f4e)",
+      "darkParent": {
+        "id": "LptqEiXVpp7CGH_nWX",
+        "name": "Journal Manifesto",
+        "fill": "var(--token-425191b0-a245-4f14-88c2-f7144ab54959)"
+      }
+    },
+    {
+      "path": "/notes",
+      "bp": "Tablet",
+      "id": "LptqEiXVpv_E9QKepJ",
+      "preset": "Arbour/Meta",
+      "color": "var(--token-0bc68d0d-4c0b-4126-8cce-9425cb153f4e)",
+      "darkParent": {
+        "id": "LptqEiXVpp7CGH_nWX",
+        "name": "Journal Manifesto",
+        "fill": "var(--token-425191b0-a245-4f14-88c2-f7144ab54959)"
+      }
+    },
+    {
+      "path": "/notes",
+      "bp": "Tablet",
+      "id": "LptqEiXVpYi1ld9Pc1",
+      "preset": "Arbour/Meta",
+      "color": "var(--token-0bc68d0d-4c0b-4126-8cce-9425cb153f4e)",
+      "darkParent": {
+        "id": "LptqEiXVpp7CGH_nWX",
+        "name": "Journal Manifesto",
+        "fill": "var(--token-425191b0-a245-4f14-88c2-f7144ab54959)"
+      }
+    },
+    {
+      "path": "/notes",
+      "bp": "Tablet",
+      "id": "LptqEiXVprcIiVrHBq",
+      "preset": "Arbour/Meta",
+      "color": "var(--token-0bc68d0d-4c0b-4126-8cce-9425cb153f4e)",
+      "darkParent": {
+        "id": "LptqEiXVpp7CGH_nWX",
+        "name": "Journal Manifesto",
+        "fill": "var(--token-425191b0-a245-4f14-88c2-f7144ab54959)"
+      }
+    },
+    {
+      "path": "/notes",
+      "bp": "Tablet",
+      "id": "LptqEiXVpFe5WKPsRA",
+      "preset": "Arbour/Display",
+      "color": "var(--token-e2f9a9eb-668a-4021-80d9-b04413b5f392)",
+      "darkParent": {
+        "id": "LptqEiXVpp7CGH_nWX",
+        "name": "Journal Manifesto",
+        "fill": "var(--token-425191b0-a245-4f14-88c2-f7144ab54959)"
+      }
+    },
+    {
+      "path": "/notes",
+      "bp": "Tablet",
+      "id": "LptqEiXVpWhizOzz3H",
+      "preset": "Arbour/Subhead",
+      "color": "var(--token-0bc68d0d-4c0b-4126-8cce-9425cb153f4e)",
+      "darkParent": {
+        "id": "LptqEiXVpp7CGH_nWX",
+        "name": "Journal Manifesto",
+        "fill": "var(--token-425191b0-a245-4f14-88c2-f7144ab54959)"
+      }
+    },
+    {
+      "path": "/notes",
+      "bp": "Tablet",
+      "id": "LptqEiXVpZ2YTa8BaL",
+      "preset": "Arbour/Body",
+      "color": "var(--token-0bc68d0d-4c0b-4126-8cce-9425cb153f4e)",
+      "darkParent": {
+        "id": "LptqEiXVpp7CGH_nWX",
+        "name": "Journal Manifesto",
+        "fill": "var(--token-425191b0-a245-4f14-88c2-f7144ab54959)"
+      }
+    },
+    {
+      "path": "/notes",
+      "bp": "Phone",
+      "id": "INUKgvAnahHJxir8HR",
+      "preset": "Arbour/Meta",
+      "color": "var(--token-0bc68d0d-4c0b-4126-8cce-9425cb153f4e)",
+      "darkParent": {
+        "id": "INUKgvAnap7CGH_nWX",
+        "name": "Journal Manifesto",
+        "fill": "var(--token-425191b0-a245-4f14-88c2-f7144ab54959)"
+      }
+    },
+    {
+      "path": "/notes",
+      "bp": "Phone",
+      "id": "INUKgvAnaYejmu7B7r",
+      "preset": "Arbour/Meta",
+      "color": "var(--token-0bc68d0d-4c0b-4126-8cce-9425cb153f4e)",
+      "darkParent": {
+        "id": "INUKgvAnap7CGH_nWX",
+        "name": "Journal Manifesto",
+        "fill": "var(--token-425191b0-a245-4f14-88c2-f7144ab54959)"
+      }
+    },
+    {
+      "path": "/notes",
+      "bp": "Phone",
+      "id": "INUKgvAnav_E9QKepJ",
+      "preset": "Arbour/Meta",
+      "color": "var(--token-0bc68d0d-4c0b-4126-8cce-9425cb153f4e)",
+      "darkParent": {
+        "id": "INUKgvAnap7CGH_nWX",
+        "name": "Journal Manifesto",
+        "fill": "var(--token-425191b0-a245-4f14-88c2-f7144ab54959)"
+      }
+    },
+    {
+      "path": "/notes",
+      "bp": "Phone",
+      "id": "INUKgvAnaYi1ld9Pc1",
+      "preset": "Arbour/Meta",
+      "color": "var(--token-0bc68d0d-4c0b-4126-8cce-9425cb153f4e)",
+      "darkParent": {
+        "id": "INUKgvAnap7CGH_nWX",
+        "name": "Journal Manifesto",
+        "fill": "var(--token-425191b0-a245-4f14-88c2-f7144ab54959)"
+      }
+    },
+    {
+      "path": "/notes",
+      "bp": "Phone",
+      "id": "INUKgvAnarcIiVrHBq",
+      "preset": "Arbour/Meta",
+      "color": "var(--token-0bc68d0d-4c0b-4126-8cce-9425cb153f4e)",
+      "darkParent": {
+        "id": "INUKgvAnap7CGH_nWX",
+        "name": "Journal Manifesto",
+        "fill": "var(--token-425191b0-a245-4f14-88c2-f7144ab54959)"
+      }
+    },
+    {
+      "path": "/notes",
+      "bp": "Phone",
+      "id": "INUKgvAnaFe5WKPsRA",
+      "preset": "Arbour/Display",
+      "color": "var(--token-e2f9a9eb-668a-4021-80d9-b04413b5f392)",
+      "darkParent": {
+        "id": "INUKgvAnap7CGH_nWX",
+        "name": "Journal Manifesto",
+        "fill": "var(--token-425191b0-a245-4f14-88c2-f7144ab54959)"
+      }
+    },
+    {
+      "path": "/notes",
+      "bp": "Phone",
+      "id": "INUKgvAnaWhizOzz3H",
+      "preset": "Arbour/Subhead",
+      "color": "var(--token-0bc68d0d-4c0b-4126-8cce-9425cb153f4e)",
+      "darkParent": {
+        "id": "INUKgvAnap7CGH_nWX",
+        "name": "Journal Manifesto",
+        "fill": "var(--token-425191b0-a245-4f14-88c2-f7144ab54959)"
+      }
+    },
+    {
+      "path": "/notes",
+      "bp": "Phone",
+      "id": "INUKgvAnaZ2YTa8BaL",
+      "preset": "Arbour/Body",
+      "color": "var(--token-0bc68d0d-4c0b-4126-8cce-9425cb153f4e)",
+      "darkParent": {
+        "id": "INUKgvAnap7CGH_nWX",
+        "name": "Journal Manifesto",
+        "fill": "var(--token-425191b0-a245-4f14-88c2-f7144ab54959)"
+      }
+    },
+    {
+      "path": "/about",
+      "bp": "Desktop",
+      "id": "h_YNoH2dN",
+      "name": "Enquiry Kicker",
+      "preset": "Arbour/Meta",
+      "color": "var(--token-a16d0333-6bd5-4d60-aa00-fac26447145d)",
+      "darkParent": {
+        "id": "OIVgjc19d",
+        "name": "Enquiry CTA",
+        "fill": "var(--token-425191b0-a245-4f14-88c2-f7144ab54959)"
+      }
+    },
+    {
+      "path": "/about",
+      "bp": "Desktop",
+      "id": "h_OuVAKl_",
+      "name": "Enquiry Heading",
+      "preset": "Arbour/Display",
+      "color": "var(--token-e2f9a9eb-668a-4021-80d9-b04413b5f392)",
+      "darkParent": {
+        "id": "OIVgjc19d",
+        "name": "Enquiry CTA",
+        "fill": "var(--token-425191b0-a245-4f14-88c2-f7144ab54959)"
+      }
+    },
+    {
+      "path": "/about",
+      "bp": "Desktop",
+      "id": "tgyIYRpq7",
+      "preset": "Arbour/Meta",
+      "color": "var(--token-9d3d6ca5-f3ad-4d88-afc8-fc5bce03bd04)",
+      "darkParent": {
+        "id": "OIVgjc19d",
+        "name": "Enquiry CTA",
+        "fill": "var(--token-425191b0-a245-4f14-88c2-f7144ab54959)"
+      }
+    },
+    {
+      "path": "/about",
+      "bp": "Tablet",
+      "id": "xvqDXw58eh_YNoH2dN",
+      "name": "Enquiry Kicker",
+      "preset": "Arbour/Meta",
+      "color": "var(--token-a16d0333-6bd5-4d60-aa00-fac26447145d)",
+      "darkParent": {
+        "id": "xvqDXw58eOIVgjc19d",
+        "name": "Enquiry CTA",
+        "fill": "var(--token-425191b0-a245-4f14-88c2-f7144ab54959)"
+      }
+    },
+    {
+      "path": "/about",
+      "bp": "Tablet",
+      "id": "xvqDXw58eh_OuVAKl_",
+      "name": "Enquiry Heading",
+      "preset": "Arbour/Display",
+      "color": "var(--token-e2f9a9eb-668a-4021-80d9-b04413b5f392)",
+      "darkParent": {
+        "id": "xvqDXw58eOIVgjc19d",
+        "name": "Enquiry CTA",
+        "fill": "var(--token-425191b0-a245-4f14-88c2-f7144ab54959)"
+      }
+    },
+    {
+      "path": "/about",
+      "bp": "Tablet",
+      "id": "xvqDXw58etgyIYRpq7",
+      "preset": "Arbour/Meta",
+      "color": "var(--token-9d3d6ca5-f3ad-4d88-afc8-fc5bce03bd04)",
+      "darkParent": {
+        "id": "xvqDXw58eOIVgjc19d",
+        "name": "Enquiry CTA",
+        "fill": "var(--token-425191b0-a245-4f14-88c2-f7144ab54959)"
+      }
+    },
+    {
+      "path": "/about",
+      "bp": "Phone",
+      "id": "CYNrpU04th_YNoH2dN",
+      "name": "Enquiry Kicker",
+      "preset": "Arbour/Meta",
+      "color": "var(--token-a16d0333-6bd5-4d60-aa00-fac26447145d)",
+      "darkParent": {
+        "id": "CYNrpU04tOIVgjc19d",
+        "name": "Enquiry CTA",
+        "fill": "var(--token-425191b0-a245-4f14-88c2-f7144ab54959)"
+      }
+    },
+    {
+      "path": "/about",
+      "bp": "Phone",
+      "id": "CYNrpU04th_OuVAKl_",
+      "name": "Enquiry Heading",
+      "preset": "Arbour/Display",
+      "color": "var(--token-e2f9a9eb-668a-4021-80d9-b04413b5f392)",
+      "darkParent": {
+        "id": "CYNrpU04tOIVgjc19d",
+        "name": "Enquiry CTA",
+        "fill": "var(--token-425191b0-a245-4f14-88c2-f7144ab54959)"
+      }
+    },
+    {
+      "path": "/about",
+      "bp": "Phone",
+      "id": "CYNrpU04ttgyIYRpq7",
+      "preset": "Arbour/Meta",
+      "color": "var(--token-9d3d6ca5-f3ad-4d88-afc8-fc5bce03bd04)",
+      "darkParent": {
+        "id": "CYNrpU04tOIVgjc19d",
+        "name": "Enquiry CTA",
+        "fill": "var(--token-425191b0-a245-4f14-88c2-f7144ab54959)"
+      }
+    },
+    {
+      "path": "/contact",
+      "bp": "Desktop",
+      "id": "EuA2UleYw",
+      "preset": "Arbour/Meta",
+      "color": "var(--token-e2f9a9eb-668a-4021-80d9-b04413b5f392)",
+      "darkParent": {
+        "id": "liyenGbOL",
+        "name": "Private Consultation Pause",
+        "fill": "var(--token-fa6ec05f-9d2d-44ad-a813-6c56bf2b324e)"
+      }
+    },
+    {
+      "path": "/contact",
+      "bp": "Tablet",
+      "id": "qjv2S9WpaEuA2UleYw",
+      "preset": "Arbour/Meta",
+      "color": "var(--token-e2f9a9eb-668a-4021-80d9-b04413b5f392)",
+      "darkParent": {
+        "id": "qjv2S9WpaliyenGbOL",
+        "name": "Private Consultation Pause",
+        "fill": "var(--token-fa6ec05f-9d2d-44ad-a813-6c56bf2b324e)"
+      }
+    },
+    {
+      "path": "/contact",
+      "bp": "Phone",
+      "id": "jEM0wBo2vEuA2UleYw",
+      "preset": "Arbour/Meta",
+      "color": "var(--token-e2f9a9eb-668a-4021-80d9-b04413b5f392)",
+      "darkParent": {
+        "id": "jEM0wBo2vliyenGbOL",
+        "name": "Private Consultation Pause",
+        "fill": "var(--token-fa6ec05f-9d2d-44ad-a813-6c56bf2b324e)"
+      }
+    },
+    {
+      "path": "/properties/:slug",
+      "bp": "Desktop",
+      "id": "o9SWqciSq",
+      "name": "Particulars Kicker",
+      "preset": "Arbour/Meta",
+      "color": "var(--token-db86917b-d19e-4fd7-8dc5-e260f1f35cb1)",
+      "darkParent": {
+        "id": "vlElPVCV7",
+        "name": "Property Particulars",
+        "fill": "var(--token-fa6ec05f-9d2d-44ad-a813-6c56bf2b324e)"
+      }
+    },
+    {
+      "path": "/properties/:slug",
+      "bp": "Desktop",
+      "id": "E7jDKaZv3",
+      "name": "Enquiry Kicker",
+      "preset": "Arbour/Meta",
+      "color": "var(--token-a16d0333-6bd5-4d60-aa00-fac26447145d)",
+      "darkParent": {
+        "id": "Wy9_asNQu",
+        "name": "Enquiry CTA",
+        "fill": "var(--token-425191b0-a245-4f14-88c2-f7144ab54959)"
+      }
+    },
+    {
+      "path": "/properties/:slug",
+      "bp": "Desktop",
+      "id": "qx96EF_Sp",
+      "name": "Enquiry Heading",
+      "preset": "Arbour/Display",
+      "color": "var(--token-e2f9a9eb-668a-4021-80d9-b04413b5f392)",
+      "darkParent": {
+        "id": "Wy9_asNQu",
+        "name": "Enquiry CTA",
+        "fill": "var(--token-425191b0-a245-4f14-88c2-f7144ab54959)"
+      }
+    },
+    {
+      "path": "/properties/:slug",
+      "bp": "Desktop",
+      "id": "nbzX2FUng",
+      "preset": "Arbour/Meta",
+      "color": "var(--token-fa6ec05f-9d2d-44ad-a813-6c56bf2b324e)",
+      "darkParent": {
+        "id": "Wy9_asNQu",
+        "name": "Enquiry CTA",
+        "fill": "var(--token-425191b0-a245-4f14-88c2-f7144ab54959)"
+      }
+    },
+    {
+      "path": "/properties/:slug",
+      "bp": "Tablet",
+      "id": "IQmBTrFpbo9SWqciSq",
+      "name": "Particulars Kicker",
+      "preset": "Arbour/Meta",
+      "color": "var(--token-db86917b-d19e-4fd7-8dc5-e260f1f35cb1)",
+      "darkParent": {
+        "id": "IQmBTrFpbvlElPVCV7",
+        "name": "Property Particulars",
+        "fill": "var(--token-fa6ec05f-9d2d-44ad-a813-6c56bf2b324e)"
+      }
+    },
+    {
+      "path": "/properties/:slug",
+      "bp": "Tablet",
+      "id": "IQmBTrFpbE7jDKaZv3",
+      "name": "Enquiry Kicker",
+      "preset": "Arbour/Meta",
+      "color": "var(--token-a16d0333-6bd5-4d60-aa00-fac26447145d)",
+      "darkParent": {
+        "id": "IQmBTrFpbWy9_asNQu",
+        "name": "Enquiry CTA",
+        "fill": "var(--token-425191b0-a245-4f14-88c2-f7144ab54959)"
+      }
+    },
+    {
+      "path": "/properties/:slug",
+      "bp": "Tablet",
+      "id": "IQmBTrFpbqx96EF_Sp",
+      "name": "Enquiry Heading",
+      "preset": "Arbour/Display",
+      "color": "var(--token-e2f9a9eb-668a-4021-80d9-b04413b5f392)",
+      "darkParent": {
+        "id": "IQmBTrFpbWy9_asNQu",
+        "name": "Enquiry CTA",
+        "fill": "var(--token-425191b0-a245-4f14-88c2-f7144ab54959)"
+      }
+    },
+    {
+      "path": "/properties/:slug",
+      "bp": "Tablet",
+      "id": "IQmBTrFpbnbzX2FUng",
+      "preset": "Arbour/Meta",
+      "color": "var(--token-fa6ec05f-9d2d-44ad-a813-6c56bf2b324e)",
+      "darkParent": {
+        "id": "IQmBTrFpbWy9_asNQu",
+        "name": "Enquiry CTA",
+        "fill": "var(--token-425191b0-a245-4f14-88c2-f7144ab54959)"
+      }
+    },
+    {
+      "path": "/properties/:slug",
+      "bp": "Phone",
+      "id": "MrTKJzwELo9SWqciSq",
+      "name": "Particulars Kicker",
+      "preset": "Arbour/Meta",
+      "color": "var(--token-db86917b-d19e-4fd7-8dc5-e260f1f35cb1)",
+      "darkParent": {
+        "id": "MrTKJzwELvlElPVCV7",
+        "name": "Property Particulars",
+        "fill": "var(--token-fa6ec05f-9d2d-44ad-a813-6c56bf2b324e)"
+      }
+    },
+    {
+      "path": "/properties/:slug",
+      "bp": "Phone",
+      "id": "MrTKJzwELypkCRm6aW",
+      "name": "Property Features",
+      "preset": "Arbour/Price",
+      "color": "(preset default)",
+      "darkParent": {
+        "id": "MrTKJzwELvlElPVCV7",
+        "name": "Property Particulars",
+        "fill": "var(--token-fa6ec05f-9d2d-44ad-a813-6c56bf2b324e)"
+      }
+    },
+    {
+      "path": "/properties/:slug",
+      "bp": "Phone",
+      "id": "MrTKJzwELE7jDKaZv3",
+      "name": "Enquiry Kicker",
+      "preset": "Arbour/Meta",
+      "color": "var(--token-a16d0333-6bd5-4d60-aa00-fac26447145d)",
+      "darkParent": {
+        "id": "MrTKJzwELWy9_asNQu",
+        "name": "Enquiry CTA",
+        "fill": "var(--token-425191b0-a245-4f14-88c2-f7144ab54959)"
+      }
+    },
+    {
+      "path": "/properties/:slug",
+      "bp": "Phone",
+      "id": "MrTKJzwELqx96EF_Sp",
+      "name": "Enquiry Heading",
+      "preset": "Arbour/Display",
+      "color": "var(--token-e2f9a9eb-668a-4021-80d9-b04413b5f392)",
+      "darkParent": {
+        "id": "MrTKJzwELWy9_asNQu",
+        "name": "Enquiry CTA",
+        "fill": "var(--token-425191b0-a245-4f14-88c2-f7144ab54959)"
+      }
+    },
+    {
+      "path": "/properties/:slug",
+      "bp": "Phone",
+      "id": "MrTKJzwELnbzX2FUng",
+      "preset": "Arbour/Meta",
+      "color": "var(--token-fa6ec05f-9d2d-44ad-a813-6c56bf2b324e)",
+      "darkParent": {
+        "id": "MrTKJzwELWy9_asNQu",
+        "name": "Enquiry CTA",
+        "fill": "var(--token-425191b0-a245-4f14-88c2-f7144ab54959)"
+      }
+    },
+    {
+      "path": "/notes/:slug",
+      "bp": "Desktop",
+      "id": "xdJnss3VP",
+      "preset": "Arbour/Meta",
+      "color": "var(--token-a16d0333-6bd5-4d60-aa00-fac26447145d)",
+      "darkParent": {
+        "id": "cIncylbTv",
+        "name": "More From Journal",
+        "fill": "var(--token-425191b0-a245-4f14-88c2-f7144ab54959)"
+      }
+    },
+    {
+      "path": "/notes/:slug",
+      "bp": "Desktop",
+      "id": "eOV768cPJ",
+      "preset": "Arbour/Subhead",
+      "color": "var(--token-e2f9a9eb-668a-4021-80d9-b04413b5f392)",
+      "darkParent": {
+        "id": "cIncylbTv",
+        "name": "More From Journal",
+        "fill": "var(--token-425191b0-a245-4f14-88c2-f7144ab54959)"
+      }
+    },
+    {
+      "path": "/notes/:slug",
+      "bp": "Tablet",
+      "id": "gZUAlaJJ1xdJnss3VP",
+      "preset": "Arbour/Meta",
+      "color": "var(--token-a16d0333-6bd5-4d60-aa00-fac26447145d)",
+      "darkParent": {
+        "id": "gZUAlaJJ1cIncylbTv",
+        "name": "More From Journal",
+        "fill": "var(--token-425191b0-a245-4f14-88c2-f7144ab54959)"
+      }
+    },
+    {
+      "path": "/notes/:slug",
+      "bp": "Tablet",
+      "id": "gZUAlaJJ1eOV768cPJ",
+      "preset": "Arbour/Subhead",
+      "color": "var(--token-e2f9a9eb-668a-4021-80d9-b04413b5f392)",
+      "darkParent": {
+        "id": "gZUAlaJJ1cIncylbTv",
+        "name": "More From Journal",
+        "fill": "var(--token-425191b0-a245-4f14-88c2-f7144ab54959)"
+      }
+    }
+  ],
+  "darkTextCount": 82,
+  "cards": [
+    {
+      "path": "/",
+      "bp": "Desktop",
+      "id": "Pt1304pBN",
+      "name": "Property Card Small",
+      "display": "",
+      "controls": {}
+    },
+    {
+      "path": "/properties",
+      "bp": "Desktop",
+      "id": "WVombBjcj",
+      "name": "Property Card",
+      "display": "",
+      "component": "codeFile/I2raC3I:default",
+      "controls": {
+        "$control__image": "var(--variable-XbvvpgHkd)",
+        "$control__title": "var(--variable-JpvlXWFTC)",
+        "$control__price": "var(--variable-fa3JCTHNW)",
+        "$control__location": "var(--variable-sx_scwXZw)",
+        "$control__area": "var(--variable-q4Uo_EM4a)",
+        "$control__imageHeight": "var(--variable-UJBcXTUYR)",
+        "$control__ink": "var(--token-e2f9a9eb-668a-4021-80d9-b04413b5f392)",
+        "$control__meta": "var(--token-0bc68d0d-4c0b-4126-8cce-9425cb153f4e)",
+        "$control__accent": "var(--token-db86917b-d19e-4fd7-8dc5-e260f1f35cb1)"
+      }
+    },
+    {
+      "path": "/neighbourhoods",
+      "bp": "Desktop",
+      "id": "BDQcZz5ik",
+      "name": "Arbour_TerritoryHoverMedia",
+      "display": "",
+      "component": "codeFile/nMMl08t:default",
+      "controls": {
+        "$control__image": "var(--variable-dM8yn13g7)",
+        "$control__imageB": "var(--variable-ppzgDk7Mi)",
+        "$control__interval": "900",
+        "$control__zoom": "1.04",
+        "$control__showView": "false",
+        "$control__viewLabel": "VIEW →",
+        "$control__accent": "var(--token-db86917b-d19e-4fd7-8dc5-e260f1f35cb1)"
+      }
+    }
+  ],
+  "linksSample": [
+    {
+      "path": "/",
+      "bp": "Desktop",
+      "name": "Residence Link",
+      "href": "/properties/:slug"
+    },
+    {
+      "path": "/",
+      "bp": "Desktop",
+      "name": "Property Card Small",
+      "href": "/properties/:slug"
+    },
+    {
+      "path": "/properties",
+      "bp": "Desktop",
+      "name": "Property Link",
+      "href": "/properties/:slug"
+    },
+    {
+      "path": "/properties",
+      "bp": "Desktop",
+      "name": "Explore Neighbourhoods",
+      "href": "/neighbourhoods"
+    },
+    {
+      "path": "/properties",
+      "bp": "Desktop",
+      "name": "All Properties",
+      "href": "/properties"
+    },
+    {
+      "path": "/properties",
+      "bp": "Desktop",
+      "href": "/contact"
+    },
+    {
+      "path": "/neighbourhoods",
+      "bp": "Desktop",
+      "name": "Territory Card",
+      "href": "/properties"
+    },
+    {
+      "path": "/about",
+      "bp": "Desktop",
+      "href": "/contact"
+    },
+    {
+      "path": "/contact",
+      "bp": "Desktop",
+      "name": "Direct Enquiry",
+      "href": "mailto:enquiries@arbour.london"
+    },
+    {
+      "path": "/contact",
+      "bp": "Desktop",
+      "href": "mailto:enquiries@arbour.london"
+    },
+    {
+      "path": "/contact",
+      "bp": "Desktop",
+      "href": "mailto:enquiries@arbour.london"
+    },
+    {
+      "path": "/properties/:slug",
+      "bp": "Desktop",
+      "name": "Back to Properties",
+      "href": "/properties"
+    },
+    {
+      "path": "/properties/:slug",
+      "bp": "Desktop",
+      "name": "Private Enquiry Link",
+      "href": "/contact"
+    },
+    {
+      "path": "/properties/:slug",
+      "bp": "Desktop",
+      "name": "All Properties",
+      "href": "/properties"
+    },
+    {
+      "path": "/properties/:slug",
+      "bp": "Desktop",
+      "href": "/contact"
+    },
+    {
+      "path": "/notes/:slug",
+      "bp": "Desktop",
+      "name": "Back to Journal",
+      "href": "/notes"
+    }
+  ],
+  "paths": [
+    "/",
+    "/properties",
+    "/neighbourhoods",
+    "/notes",
+    "/about",
+    "/contact",
+    "/properties/:slug",
+    "/notes/:slug",
+    "/404"
+  ]
+}

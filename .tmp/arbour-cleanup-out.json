@@ -1,0 +1,126 @@
+{
+  "res": {
+    "message": "Lint: 11 warnings.",
+    "linter": {
+      "warnings": {
+        "Text contrast against its background is too low": [
+          {
+            "id": "v:JFYCwkmiL:0:0",
+            "theme": "light",
+            "text": "The Arbour style is defined by quiet sur",
+            "fontWeight": "400",
+            "color": "rgb(252, 250, 244)",
+            "requiredContrast": 1.8,
+            "backgroundContrasts": [
+              "1.0 for rgb(252, 250, 244)"
+            ],
+            "sampledFromGradientStops": false,
+            "backgroundNodeIds": [
+              "WQLkyLRf1"
+            ]
+          },
+          {
+            "id": "v:JFYCwkmiL:0:0",
+            "theme": "dark",
+            "text": "The Arbour style is defined by quiet sur",
+            "fontWeight": "400",
+            "color": "rgb(252, 250, 244)",
+            "requiredContrast": 1.8,
+            "backgroundContrasts": [
+              "1.0 for rgb(252, 250, 244)"
+            ],
+            "sampledFromGradientStops": false,
+            "backgroundNodeIds": [
+              "WQLkyLRf1"
+            ]
+          }
+        ],
+        "Element is positioned outside its parent's clipped bounds and may be hidden": [
+          {
+            "id": "VUV_avmMN",
+            "clippedBy": "wFx8igsWY"
+          }
+        ],
+        "Node with an `auto` dimension has no visible children and may collapse to 0px. Add children to provide an intrinsic size": [
+          {
+            "id": "F9pTqkTsI",
+            "height": "auto"
+          },
+          {
+            "id": "SWz6zZnO_",
+            "height": "auto"
+          },
+          {
+            "id": "CTAY__Igg",
+            "height": "auto"
+          },
+          {
+            "id": "Tclb_sqBW",
+            "height": "auto"
+          }
+        ],
+        "Element has zero width and height": [
+          "rtezm5se5"
+        ],
+        "Element has zero height": [
+          "CTAY__Igg"
+        ],
+        "Content inside a full-bleed or proportional layout should set a maxWidth so large screens don't cause huge content": [
+          "QWUEMYFj7",
+          "vyLrJ6ztM"
+        ]
+      }
+    }
+  },
+  "kids": [
+    {
+      "id": "WwRpRyoiD",
+      "component": "codeFile/il4DSn9:default",
+      "display": "Arbour_TerritoryRail"
+    }
+  ],
+  "checks": {
+    "uGXrCjuAT": {
+      "missing": true
+    },
+    "WwRpRyoiD": {
+      "id": "WwRpRyoiD",
+      "component": "codeFile/il4DSn9:default",
+      "display": "Arbour_TerritoryRail"
+    },
+    "U3TeNUVXvWwRpRyoiD": {
+      "id": "U3TeNUVXvWwRpRyoiD",
+      "component": "codeFile/il4DSn9:default",
+      "display": "Arbour_TerritoryRail"
+    },
+    "pmAxXUJ0oWwRpRyoiD": {
+      "id": "pmAxXUJ0oWwRpRyoiD",
+      "component": "codeFile/il4DSn9:default",
+      "display": "Arbour_TerritoryRail"
+    },
+    "AorZcTogz": {
+      "missing": true
+    },
+    "U3TeNUVXvAorZcTogz": {
+      "missing": true
+    },
+    "pmAxXUJ0oAorZcTogz": {
+      "missing": true
+    },
+    "PaGRz8lMz": {
+      "id": "PaGRz8lMz",
+      "component": "codeFile/fOrMtU2:default",
+      "display": "Arbour_ProgressiveBlur"
+    },
+    "U3TeNUVXvPaGRz8lMz": {
+      "id": "U3TeNUVXvPaGRz8lMz",
+      "component": "codeFile/fOrMtU2:default",
+      "display": "Arbour_ProgressiveBlur"
+    },
+    "pmAxXUJ0oPaGRz8lMz": {
+      "id": "pmAxXUJ0oPaGRz8lMz",
+      "component": "codeFile/fOrMtU2:default",
+      "display": "Arbour_ProgressiveBlur"
+    }
+  }
+}

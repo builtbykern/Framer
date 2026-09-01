@@ -1,0 +1,11 @@
+const fs = require("fs")
+const info = await framer.getProjectInfo()
+if (info.name !== "Halden") throw new Error(`Wrong project: ${info.name}`)
+const files = await framer.getCodeFiles()
+const stills = files.find((f) => f.id === "jeA2cvO")
+if (!stills) throw new Error("missing Series_Stills")
+await stills.setFileContent(
+    fs.readFileSync("/Users/noel/Desktop/Framer/.tmp/halden-src/Series_Stills.tsx", "utf8")
+)
+const stillsTc = await stills.typecheck()
+console.log(JSON.stringify({ project: info.name, stillsTc }, null, 2))

@@ -1,0 +1,113 @@
+{
+  "meta": [
+    {
+      "pagePath": "/",
+      "metadata": {
+        "title": "Arbour — Independent Estate Agency London",
+        "description": "Curated residences across London and the country. Discreet acquisition, disposal, and counsel since 1999."
+      }
+    },
+    {
+      "pagePath": "/404",
+      "metadata": {
+        "title": "Page not found | Arbour",
+        "description": "This page is out of frame. Return to Arbour.",
+        "noIndex": true,
+        "noIndexSite": true
+      }
+    },
+    {
+      "pagePath": "/notes/:Journal",
+      "metadata": {
+        "title": "{{Title}} | Arbour",
+        "description": "{{SEO Description}}"
+      }
+    },
+    {
+      "pagePath": "/properties-2/:Properties",
+      "metadata": {
+        "title": "{{SEO Title}}",
+        "description": "{{SEO Description}}"
+      }
+    }
+  ],
+  "externals": [
+    {
+      "id": "9ajhXMTvNHa3o84QkAph",
+      "displayName": "Stop Scroll"
+    },
+    {
+      "id": "MxeAzs2A7r9z5wIAtPij",
+      "displayName": "Arbour_TerritoryRail"
+    },
+    {
+      "id": "P52cqIVrKigQv4GmBCap",
+      "displayName": "Arbour_EditorialReveal"
+    },
+    {
+      "id": "eITABUpGF0ytPyxYWYqu",
+      "displayName": "Scroll Blur"
+    }
+  ],
+  "preview": {
+    "changesCount": 0,
+    "errors": [],
+    "status": "ready"
+  },
+  "info": {
+    "production": {
+      "deploymentTime": 1785356043072,
+      "optimizationStatus": "error",
+      "url": "https://arbour.framer.website",
+      "currentPageUrl": "https://arbour.framer.website/"
+    },
+    "staging": {
+      "deploymentTime": 1785356043072,
+      "optimizationStatus": "error",
+      "url": "https://minimum-directions-600719.framer.app",
+      "currentPageUrl": "https://minimum-directions-600719.framer.app/"
+    }
+  },
+  "mega": [
+    {
+      "name": "Arbour_TerritoryRail.tsx",
+      "lines": 2287,
+      "static": true
+    },
+    {
+      "name": "Arbour_StatsBand.tsx",
+      "lines": 1857,
+      "static": true
+    },
+    {
+      "name": "Arbour_MenuIcon.tsx",
+      "lines": 653,
+      "static": true
+    },
+    {
+      "name": "Arbour_PropertyCard.tsx",
+      "lines": 272,
+      "static": false
+    },
+    {
+      "name": "Arbour_Copyright.tsx",
+      "lines": 138,
+      "static": false
+    },
+    {
+      "name": "HideHorizontalScrollbar.tsx",
+      "lines": 69,
+      "static": false
+    },
+    {
+      "name": "Arbour_StopScroll.tsx",
+      "lines": 32,
+      "static": false
+    },
+    {
+      "name": "Arbour_SmoothScroll.tsx",
+      "lines": 32,
+      "static": false
+    }
+  ]
+}

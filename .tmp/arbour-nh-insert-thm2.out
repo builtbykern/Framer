@@ -1,0 +1,44 @@
+file {
+  "id": "nMMl08t",
+  "name": "Arbour_TerritoryHoverMedia.tsx",
+  "len": 8819
+}
+{
+  "cleaned": [],
+  "message": "Commands: 6 errors. Lint: 6 warnings.",
+  "errors": {
+    "Invalid value `$control__image=\"var\"`. Cannot apply `$control__image`=\"var\" to this target on reference node. Use a trusted https URL, uploaded asset reference, or a file from attachments or query_images, then retry the original update.": [
+      "thmD",
+      "A4eVS9bXh",
+      "c67veOITj"
+    ],
+    "Invalid value `$control__imageB=\"var\"`. Cannot apply `$control__imageB`=\"var\" to this target on reference node. Use a trusted https URL, uploaded asset reference, or a file from attachments or query_images, then retry the original update.": [
+      "thmD",
+      "A4eVS9bXh",
+      "c67veOITj"
+    ]
+  },
+  "photoH": "320px",
+  "photoChildren": [
+    {
+      "id": "z2kRrpzAZ",
+      "name": "Arbour_TerritoryHoverMedia",
+      "component": "codeFile/nMMl08t:default"
+    },
+    {
+      "id": "A4eVS9bXh",
+      "name": "Arbour_TerritoryHoverMedia",
+      "component": "codeFile/nMMl08t:default"
+    },
+    {
+      "id": "c67veOITj",
+      "name": "Arbour_TerritoryHoverMedia",
+      "component": "codeFile/nMMl08t:default"
+    }
+  ],
+  "cardOrder": [
+    "Territory Photograph",
+    "Territory Dossier"
+  ],
+  "cardBorder": "0px solid rgba(28, 27, 22, 0.10)"
+}

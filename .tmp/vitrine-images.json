@@ -1,0 +1,57 @@
+{
+  "metal": [
+    {
+      "url": "https://images.unsplash.com/photo-1578747522302-b987fbec4465?crop=entropy&cs=srgb&fm=jpg&ixlib=rb-4.1.0&q=85&w=1600",
+      "alt": "gold-colored pendant necklace on hanged dress"
+    },
+    {
+      "url": "https://images.unsplash.com/photo-1605612540751-abec28f65139?crop=entropy&cs=srgb&fm=jpg&ixlib=rb-4.1.0&q=85&w=1600",
+      "alt": "white and blue floral card"
+    },
+    {
+      "url": "https://images.unsplash.com/photo-1721240221036-4f754966a32c?crop=entropy&cs=srgb&fm=jpg&ixlib=rb-4.1.0&q=85&w=1600",
+      "alt": "A close up of a cloth with a tag on it"
+    },
+    {
+      "url": "https://images.unsplash.com/photo-1639690265259-38a93c0d5b79?crop=entropy&cs=srgb&fm=jpg&ixlib=rb-4.1.0&q=85&w=1600",
+      "alt": "a piece of cloth and some leaves on a table"
+    }
+  ],
+  "clay": [],
+  "tool": [
+    {
+      "url": "https://images.unsplash.com/photo-1628058405911-c11ef68d9516?crop=entropy&cs=srgb&fm=jpg&ixlib=rb-4.1.0&q=85&w=1200",
+      "alt": "person holding black and silver pen"
+    },
+    {
+      "url": "https://images.unsplash.com/photo-1655111379423-b85edc4da9ac?crop=entropy&cs=srgb&fm=jpg&ixlib=rb-4.1.0&q=85&w=1200",
+      "alt": "a person holding a phone"
+    },
+    {
+      "url": "https://images.unsplash.com/photo-1781617783301-554c857fc7ea?crop=entropy&cs=srgb&fm=jpg&ixlib=rb-4.1.0&q=85&w=1200",
+      "alt": "Man in cap crafting small items at a busy workbench"
+    },
+    {
+      "url": "https://images.unsplash.com/photo-1781617783279-8288db057bd6?crop=entropy&cs=srgb&fm=jpg&ixlib=rb-4.1.0&q=85&w=1200",
+      "alt": "Man working on small items at a cluttered workbench"
+    }
+  ],
+  "cloth": [
+    {
+      "url": "https://images.unsplash.com/photo-1524404794194-16bae22718c0?crop=entropy&cs=srgb&fm=jpg&ixlib=rb-4.1.0&q=85&w=1600",
+      "alt": "pile of cloth on white surface"
+    },
+    {
+      "url": "https://images.unsplash.com/photo-1523212727988-82c430c79c8e?crop=entropy&cs=srgb&fm=jpg&ixlib=rb-4.1.0&q=85&w=1600",
+      "alt": "gray textile in shallow focus shot"
+    },
+    {
+      "url": "https://images.unsplash.com/photo-1705290304455-35ffb433f560?crop=entropy&cs=srgb&fm=jpg&ixlib=rb-4.1.0&q=85&w=1600",
+      "alt": "a close up of a piece of cloth"
+    },
+    {
+      "url": "https://images.unsplash.com/photo-1639690254091-c0c959fdf85d?crop=entropy&cs=srgb&fm=jpg&ixlib=rb-4.1.0&q=85&w=1600",
+      "alt": "a close up of a flower on a cloth"
+    }
+  ]
+}

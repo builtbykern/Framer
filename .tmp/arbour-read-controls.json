@@ -1,0 +1,50 @@
+{
+  "codeFile/il4DSn9:default": {
+    "controls": {}
+  },
+  "codeFile/fOrMtU2:default": {
+    "controls": {
+      "$control__position": {
+        "type": "enum",
+        "options": [
+          "top",
+          "bottom",
+          "left",
+          "right"
+        ],
+        "defaultValue": "bottom"
+      },
+      "$control__coverage": {
+        "type": "number",
+        "defaultValue": 60
+      },
+      "$control__strength": {
+        "type": "number",
+        "defaultValue": 1.2
+      },
+      "$control__divCount": {
+        "type": "number",
+        "defaultValue": 4
+      },
+      "$control__exponential": {
+        "type": "boolean",
+        "defaultValue": true
+      },
+      "$control__curve": {
+        "type": "enum",
+        "options": [
+          "linear",
+          "bezier",
+          "ease-in",
+          "ease-out",
+          "ease-in-out"
+        ],
+        "defaultValue": "linear"
+      },
+      "$control__opacity": {
+        "type": "number",
+        "defaultValue": 1
+      }
+    }
+  }
+}

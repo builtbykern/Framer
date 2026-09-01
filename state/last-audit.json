@@ -1,0 +1,284 @@
+{
+  "summary": {
+    "ok": true,
+    "mode": "site",
+    "sessionId": "1",
+    "projectId": "CmRyHJKPrPE6BZhC6d4S",
+    "projectName": "Arbour",
+    "collectionCount": 4,
+    "codeFileCount": null,
+    "colorStyleCount": 23,
+    "textStyleCount": 14,
+    "componentHeuristicFlags": [],
+    "motionStaticRisk": []
+  },
+  "inventory": {
+    "mode": "site",
+    "collectedAt": "2026-08-18T22:26:29.853Z",
+    "collections": [
+      {
+        "id": "U0QLvHg7O",
+        "name": "Neighbourhoods",
+        "fieldCount": 8,
+        "fields": [
+          "Name",
+          "Intro",
+          "Hero Image",
+          "Highlights",
+          "SEO Title",
+          "SEO Description",
+          "Map",
+          "Featured Residence"
+        ],
+        "itemCount": 4
+      },
+      {
+        "id": "CGTgzrUNU",
+        "name": "Agents",
+        "fieldCount": 7,
+        "fields": [
+          "Name",
+          "Role",
+          "Photo",
+          "Email",
+          "Phone",
+          "Biography",
+          "Index"
+        ],
+        "itemCount": 4
+      },
+      {
+        "id": "VPfyI5Rxz",
+        "name": "Properties",
+        "fieldCount": 38,
+        "fields": [
+          "Title",
+          "Price",
+          "Location",
+          "Neighbourhood",
+          "Featured",
+          "Bedrooms",
+          "Bathrooms",
+          "Area",
+          "Hero Image",
+          "Gallery",
+          "Description",
+          "Features",
+          "SEO Title",
+          "SEO Description",
+          "Status",
+          "Gallery Image One",
+          "Gallery Image Two",
+          "Gallery Image Three",
+          "Asking Price",
+          "Gallery Image Four",
+          "Gallery Narrative",
+          "Journal Entry",
+          "Grid Image Height",
+          "Latitude",
+          "Longitude",
+          "Room 01 Title",
+          "Room 01 Note",
+          "Room 02 Title",
+          "Room 02 Note",
+          "Room 03 Title",
+          "Room 03 Note",
+          "Room 04 Title",
+          "Room 04 Note",
+          "Room 05 Title",
+          "Room 05 Note",
+          "Room 06 Title",
+          "Room 06 Note",
+          "Featured Display Index"
+        ],
+        "itemCount": 6
+      },
+      {
+        "id": "HozLKZ9WV",
+        "name": "Journal",
+        "fieldCount": 10,
+        "fields": [
+          "Title",
+          "Category",
+          "Date",
+          "Excerpt",
+          "Cover Image",
+          "Featured",
+          "Body",
+          "SEO Description",
+          "Index",
+          "SEO Title"
+        ],
+        "itemCount": 8
+      }
+    ],
+    "publishInfo": {
+      "production": {
+        "deploymentTime": 1787090850987,
+        "optimizationStatus": "optimized",
+        "url": "https://arbour.framer.website",
+        "currentPageUrl": "https://arbour.framer.website/"
+      },
+      "staging": {
+        "deploymentTime": 1787090850987,
+        "optimizationStatus": "optimized",
+        "url": "https://minimum-directions-600719.framer.app",
+        "currentPageUrl": "https://minimum-directions-600719.framer.app/"
+      }
+    },
+    "styles": {
+      "colors": [
+        {
+          "id": "425191b0-a245-4f14-88c2-f7144ab54959",
+          "name": "Parchment"
+        },
+        {
+          "id": "d5b3c09d-0364-4ed0-8804-e56957faa275",
+          "name": "Paper"
+        },
+        {
+          "id": "e2f9a9eb-668a-4021-80d9-b04413b5f392",
+          "name": "Ink"
+        },
+        {
+          "id": "cf5bf9af-72f6-4da6-ad12-b9daaa07387b",
+          "name": "Ink 60"
+        },
+        {
+          "id": "fa6ec05f-9d2d-44ad-a813-6c56bf2b324e",
+          "name": "Racing"
+        },
+        {
+          "id": "9d3d6ca5-f3ad-4d88-afc8-fc5bce03bd04",
+          "name": "Racing Deep"
+        },
+        {
+          "id": "8e108d61-e166-4e15-8c30-69c8865f3f4a",
+          "name": "Stone"
+        },
+        {
+          "id": "537bd017-a079-4a2b-9afa-25208d628840",
+          "name": "Cream On Dark"
+        },
+        {
+          "id": "3a86a4b6-e73d-409f-8eaa-4f155132899b",
+          "name": "Oxblood"
+        },
+        {
+          "id": "db86917b-d19e-4fd7-8dc5-e260f1f35cb1",
+          "name": "Chartreuse"
+        },
+        {
+          "id": "a16d0333-6bd5-4d60-aa00-fac26447145d",
+          "name": "Olive"
+        },
+        {
+          "id": "0bc68d0d-4c0b-4126-8cce-9425cb153f4e",
+          "name": "Ink Soft"
+        },
+        {
+          "id": "1dfffd49-52d9-48d0-9ba9-c92684e4378c",
+          "name": "Paper 72"
+        },
+        {
+          "id": "97e7a3c1-73bf-4916-b613-d08712585fcd",
+          "name": "Paper 45"
+        },
+        {
+          "id": "0dc7875f-5bbf-461b-99d8-40ad797e73af",
+          "name": "Paper 22"
+        },
+        {
+          "id": "28604152-36fa-4af0-b3be-0ea05dff0572",
+          "name": "Ink 18"
+        },
+        {
+          "id": "0b4ce3d2-6811-49ee-abc8-2f7d60f59f6f",
+          "name": "Ink 15"
+        },
+        {
+          "id": "969f7cf3-a250-4902-b32f-23bda6b27fd2",
+          "name": "Ink 12"
+        },
+        {
+          "id": "612aec4a-d13e-4b68-b16f-3fed40b13658",
+          "name": "Racing Deep 60"
+        },
+        {
+          "id": "7d3beae8-d687-4ee4-8ac3-07bca7a55e2e",
+          "name": "Cream 28"
+        },
+        {
+          "id": "486f59ec-3e6b-474c-87fc-47347f1491f9",
+          "name": "Cream 16"
+        },
+        {
+          "id": "ccdd3d27-7a3e-4201-b3ce-3cad4a8f912e",
+          "name": "Racing Wash 60"
+        },
+        {
+          "id": "d4609073-b7b6-497c-906f-3a96db82bbbd",
+          "name": "Warm Background"
+        }
+      ],
+      "texts": [
+        {
+          "id": "rqAW29SzN",
+          "name": "Display"
+        },
+        {
+          "id": "BlGiWUbVC",
+          "name": "Heading"
+        },
+        {
+          "id": "SrDgwaE57",
+          "name": "Subhead"
+        },
+        {
+          "id": "OJP_Lh8Pb",
+          "name": "Body"
+        },
+        {
+          "id": "tDoSZAjsC",
+          "name": "Tags"
+        },
+        {
+          "id": "B537q55nN",
+          "name": "Meta"
+        },
+        {
+          "id": "XP9n306bE",
+          "name": "Price"
+        },
+        {
+          "id": "q12FT3nyc",
+          "name": "Display Punch"
+        },
+        {
+          "id": "sj5RIKc3w",
+          "name": "Display Contact"
+        },
+        {
+          "id": "FXWQAhc3R",
+          "name": "Display Contact Tablet"
+        },
+        {
+          "id": "SslhLXAJd",
+          "name": "Title"
+        },
+        {
+          "id": "I4pfq0tQI",
+          "name": "Dark Heading"
+        },
+        {
+          "id": "PKz4SxbBH",
+          "name": "Dark Body"
+        },
+        {
+          "id": "jGsFk478r",
+          "name": "Dark Meta"
+        }
+      ]
+    }
+  }
+}

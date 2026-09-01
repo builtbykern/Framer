@@ -1,0 +1,82 @@
+remaining Inertia []
+U_Lsvi_pr Hero Image {
+  "left": "-120px",
+  "top": "-96px",
+  "right": "null",
+  "bottom": "null",
+  "w": "120%",
+  "h": "130%",
+  "ste": {
+    "trigger": "onScroll",
+    "viewport": "start",
+    "sections": [
+      {
+        "y": "-100px"
+      },
+      {
+        "y": "100px"
+      }
+    ]
+  },
+  "fill": "https://framerusercontent.com/images/5Ytxn8avZFwlw"
+}
+oLVcxQZdc Bottom Image {
+  "pos": "absolute",
+  "left": "-44px",
+  "top": "-56px",
+  "right": "null",
+  "bottom": "-15px",
+  "w": "107.83333333333334%",
+  "h": "591px",
+  "ste": {
+    "trigger": "onScroll",
+    "viewport": "start",
+    "sections": [
+      {
+        "y": "-48px"
+      },
+      {
+        "y": "48px"
+      }
+    ]
+  },
+  "fill": "https://framerusercontent.com/images/rOIRMIaf6SStQ"
+}
+OJmixEFvJ Bottom Scrim {
+  "pos": "absolute",
+  "left": "0px",
+  "top": "null",
+  "right": "0px",
+  "bottom": "0px",
+  "w": "100%",
+  "h": "56.00000000000001%",
+  "fill": "linear-gradient(0deg, rgba(21, 43, 30, 0.72) 0%, r"
+}
+tablet image layer [
+  {
+    "id": "wBAtV56MEU_Lsvi_pr",
+    "name": "Hero Image",
+    "type": "FrameNode",
+    "fill": "https://framerusercontent.com/images/5Yt"
+  },
+  {
+    "id": "wBAtV56MEoCB3wFThX",
+    "name": "Vignette",
+    "type": "FrameNode",
+    "fill": "radial-gradient(50% 50% at 50% 50%, tran"
+  }
+]
+phone image layer [
+  {
+    "id": "mcL3MFzFVU_Lsvi_pr",
+    "name": "Hero Image",
+    "type": "FrameNode",
+    "fill": "https://framerusercontent.com/images/5Yt"
+  },
+  {
+    "id": "mcL3MFzFVoCB3wFThX",
+    "name": "Vignette",
+    "type": "FrameNode",
+    "fill": "radial-gradient(50% 50% at 50% 50%, tran"
+  }
+]

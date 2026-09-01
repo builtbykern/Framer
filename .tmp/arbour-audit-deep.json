@@ -1,0 +1,211 @@
+{
+  "journalSeo": [
+    {
+      "slug": "on-proportion-light-london-row-house",
+      "seoDesc": "How ceiling height, bay depth, and afternoon light decide whether a London terrace feels generous or merely large — notes for a first walkth",
+      "empty": false
+    },
+    {
+      "slug": "reading-a-facade-as-ledger",
+      "seoDesc": "Door furniture, brick courses, and patched stucco as a quiet record of who cared for a house — and who merely held it.",
+      "empty": false
+    },
+    {
+      "slug": "mews-houses-second-visit",
+      "seoDesc": "Why the second appointment in a mews reveals scale, service access, and neighbour rhythm that a rushed first viewing conceals.",
+      "empty": false
+    },
+    {
+      "slug": "colville-terrace-field-notes",
+      "seoDesc": "Street-level observations from Colville: garden squares, terrace setbacks, and the small cues that separate a good address from a great one.",
+      "empty": false
+    },
+    {
+      "slug": "what-a-second-viewing-is-really-for",
+      "seoDesc": "A second viewing is for light at the wrong hour, storage you missed, and the questions you only think of after leaving.",
+      "empty": false
+    },
+    {
+      "slug": "notting-hill-after-the-rain",
+      "seoDesc": "Pastel façades, wet pavement, and the softer market mood that follows a London shower — reading Notting Hill when the streets empty.",
+      "empty": false
+    },
+    {
+      "slug": "on-instructing-an-agent-without-losing-your-nerve",
+      "seoDesc": "Briefing counsel without surrendering judgement: what to put in writing, what to keep oral, and when to slow the instruction.",
+      "empty": false
+    }
+  ],
+  "extER": [
+    {
+      "id": "pmAxXUJ0oxn5GZj0NJ",
+      "scope": "augiA20Il",
+      "parent": "pmAxXUJ0ong20116mi"
+    },
+    {
+      "id": "U3TeNUVXvxn5GZj0NJ",
+      "scope": "augiA20Il",
+      "parent": "U3TeNUVXvng20116mi"
+    },
+    {
+      "id": "xn5GZj0NJ",
+      "scope": "augiA20Il",
+      "parent": "ng20116mi"
+    }
+  ],
+  "ownedER": [
+    {
+      "id": "CYNrpU04tQQiiFaHAX",
+      "scope": "OdFhPn9yz"
+    },
+    {
+      "id": "xvqDXw58eQQiiFaHAX",
+      "scope": "OdFhPn9yz"
+    },
+    {
+      "id": "QQiiFaHAX",
+      "scope": "OdFhPn9yz"
+    }
+  ],
+  "scrollBlur": 0,
+  "stopScrollExt": 0,
+  "nested": {
+    "augiA20Il": [],
+    "uBAGmujMa": [],
+    "c7qpzB7hR": [],
+    "OdFhPn9yz": [],
+    "dZfxmFpqB": [],
+    "s8RpZIiJ8": [
+      {
+        "id": "TERtNoUYH",
+        "name": "Arbour_UnderlineLink",
+        "decorative": "false"
+      },
+      {
+        "id": "LptqEiXVpTERtNoUYH",
+        "name": "Arbour_UnderlineLink",
+        "decorative": "false"
+      },
+      {
+        "id": "INUKgvAnaTERtNoUYH",
+        "name": "Arbour_UnderlineLink",
+        "decorative": "false"
+      }
+    ]
+  },
+  "inkHome": {
+    "count": 0,
+    "samples": []
+  },
+  "inkProps": {
+    "count": 0,
+    "samples": []
+  },
+  "propsListFilters": {
+    "collection": "Properties",
+    "repeatedDescendantId": "lIX6py1V0",
+    "filters": [
+      {
+        "variableId": "v7H6zOjma",
+        "transforms": [
+          {
+            "name": "equals",
+            "value": "var(--variable-ilQ96ocgq)"
+          }
+        ]
+      },
+      {
+        "variableId": "CMUgdu94U",
+        "transforms": [
+          {
+            "name": "equals",
+            "value": "var(--variable-VeGWz5YVC)"
+          }
+        ]
+      },
+      {
+        "variableId": "bpAC1Cq67",
+        "transforms": [
+          {
+            "name": "greaterThan",
+            "value": "var(--variable-RJEDdFSrI)"
+          }
+        ]
+      },
+      {
+        "variableId": "bpAC1Cq67",
+        "transforms": [
+          {
+            "name": "lessThan",
+            "value": "var(--variable-MO1UzXqjU)"
+          }
+        ]
+      },
+      {
+        "variableId": "NhFNrVQpk",
+        "transforms": [
+          {
+            "name": "greaterThan",
+            "value": "var(--variable-qLVzKQ5S2)"
+          }
+        ]
+      }
+    ],
+    "filtersOperator": "and"
+  },
+  "allPaths": [
+    "Home",
+    "/neighbourhoods",
+    "/about",
+    "/contact",
+    "/properties-2/:Properties",
+    "/properties-2",
+    "/404",
+    "/notes/:Journal",
+    "/notes"
+  ],
+  "gates": [
+    {
+      "name": "Arbour_TerritoryRail.tsx",
+      "static": true,
+      "canvas": true,
+      "rm": true,
+      "motion": true
+    },
+    {
+      "name": "Arbour_PropertyCard.tsx",
+      "static": false,
+      "canvas": true,
+      "rm": true,
+      "motion": false
+    },
+    {
+      "name": "Arbour_InertiaFrame.tsx",
+      "static": true,
+      "canvas": true,
+      "rm": true,
+      "motion": true
+    },
+    {
+      "name": "Arbour_ScrollCue.tsx",
+      "static": true,
+      "canvas": true,
+      "rm": true,
+      "motion": true
+    },
+    {
+      "name": "Arbour_ProgressiveBlur.tsx",
+      "static": true,
+      "canvas": false,
+      "rm": true,
+      "motion": true
+    },
+    {
+      "name": "Arbour_EditorialReveal.tsx",
+      "static": true,
+      "canvas": true,
+      "rm": true,
+      "motion": true
+    }
+  ]
+}

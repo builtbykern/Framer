@@ -1,0 +1,296 @@
+==== Residence Link desktop wsIijK_jR
+{
+  "type": "FrameNode",
+  "name": "Residence Link",
+  "id": "wsIijK_jR",
+  "attributes": {
+    "link": {
+      "href": "/properties-2/:slug",
+      "collectionItem": "var(--variable-zwSbxzSmU)"
+    }
+  },
+  "children": [
+    {
+      "type": "FrameNode",
+      "name": "Residence Image",
+      "id": "F9pTqkTsI",
+      "children": [
+        {
+          "type": "FrameNode",
+          "name": "Status Badge",
+          "id": "pMuz6zpYz",
+          "children": [
+            {
+              "type": "RichTextNode",
+              "name": "Status Label",
+              "id": "kf7AVMOfk",
+              "attributes": {
+                "text": {
+                  "from": "var(--variable-v7H6zOjma)",
+                  "transforms": [
+                    {
+                      "name": "optionToDisplayName"
+                    }
+                  ]
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "FrameNode",
+          "name": "Overlay Information Group",
+          "id": "dTjcqEzl1",
+          "children": [
+            {
+              "type": "RichTextNode",
+              "name": "Index Number",
+              "id": "u1ukwrN0H",
+              "children": [
+                {
+                  "type": "TextBlock",
+                  "id": "v:u1ukwrN0H:0",
+                  "attributes": {
+                    "tag": "p"
+                  },
+                  "children": [
+                    {
+                      "type": "TextRun",
+                      "id": "v:u1ukwrN0H:0:0",
+                      "attributes": {
+                        "text": "( 01 )"
+                      }
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "ComponentInstanceNode",
+              "id": "CAdGD1vAP",
+              "component": "codeFile/zCa0pzg:default",
+              "$componentDisplayName": "Arbour_UnderlineLink"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "FrameNode",
+      "id": "DGUK21BfS",
+      "children": [
+        {
+          "type": "RichTextNode",
+          "id": "YfbhgdZ5H",
+          "attributes": {
+            "text": {
+              "from": "var(--variable-JpvlXWFTC)",
+              "transforms": [
+                {
+                  "name": "prefix",
+                  "value": "( 01 )  "
+                }
+              ]
+            }
+          }
+        },
+        {
+          "type": "RichTextNode",
+          "id": "CVfZJjA8o",
+          "children": [
+            {
+              "type": "TextBlock",
+              "id": "v:CVfZJjA8o:0",
+              "attributes": {
+                "tag": "p"
+              },
+              "children": [
+                {
+                  "type": "TextRun",
+                  "id": "v:CVfZJjA8o:0:0",
+                  "attributes": {
+                    "text": "( 01 )"
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "ComponentInstanceNode",
+          "id": "h0vfeOTBw",
+          "name": "Arbour_UnderlineLink",
+          "component": "codeFile/zCa0pzg:default",
+          "$componentDisplayName": "Arbour_UnderlineLink"
+        }
+      ]
+    },
+    {
+      "type": "FrameNode",
+      "name": "Property Details Large",
+      "id": "lB3qlHGd6",
+      "children": [
+        {
+          "type": "RichTextNode",
+          "name": "Property Name",
+          "id": "ZPB9hO2Sv",
+          "attributes": {
+            "text": "var(--variable-JpvlXWFTC)"
+          }
+        },
+        {
+          "type": "RichTextNode",
+          "name": "Property Price",
+          "id": "Q8DkN6ZF9",
+          "attributes": {
+            "text": "var(--variable-fa3JCTHNW)"
+          }
+        },
+        {
+          "type": "RichTextNode",
+          "name": "Property Address",
+          "id": "iNpoxMQQc",
+          "attributes": {
+            "text": "var(--variable-sx_scwXZw)"
+          }
+        },
+        {
+          "type": "RichTextNode",
+          "name": "Property Location Large",
+          "id": "Z_2ph96Pv",
+          "children": [
+            {
+              "type": "TextBlock",
+              "id": "v:Z_2ph96Pv:0",
+              "attributes": {
+                "tag": "p"
+              },
+              "children": [
+                {
+                  "type": "TextRun",
+                  "id": "v:Z_2ph96Pv:0:0",
+                  "attributes": {
+                    "text": "51.5099° N — 0.2069° W"
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "FrameNode",
+          "name": "Property Attributes Large",
+          "id": "yz99oDq69",
+          "children": [
+            {
+              "type": "RichTextNode",
+              "name": "Bedrooms Label Large",
+              "id": "EFKMCdj1J",
+              "attributes": {
+                "text": {
+                  "from": "var(--variable-NhFNrVQpk)",
+                  "transforms": [
+                    {
+                      "name": "numberToString",
+                      "grouping": "auto",
+                      "notation": "standard",
+                      "compactDisplay": "short",
+                      "style": "decimal",
+                      "currency": "USD",
+                      "currencyDisplay": "symbol",
+                      "unitDisplay": "short"
+                    },
+                    {
+                      "name": "suffix",
+                      "value": " beds"
+                    }
+                  ]
+                }
+              }
+            },
+            {
+              "type": "RichTextNode",
+              "name": "Separator",
+              "id": "Fqke3PtIo",
+              "children": [
+                {
+                  "type": "TextBlock",
+                  "id": "v:Fqke3PtIo:0",
+                  "attributes": {
+                    "tag": "p"
+                  },
+                  "children": [
+                    {
+                      "type": "TextRun",
+                      "id": "v:Fqke3PtIo:0:0",
+                      "attributes": {
+                        "text": "·"
+                      }
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "RichTextNode",
+              "name": "Bathrooms Label",
+              "id": "HWywmxxsl",
+              "attributes": {
+                "text": {
+                  "from": "var(--variable-eITsJ9En3)",
+                  "transforms": [
+                    {
+                      "name": "numberToString",
+                      "grouping": "auto",
+                      "notation": "standard",
+                      "compactDisplay": "short",
+                      "style": "decimal",
+                      "currency": "USD",
+                      "currencyDisplay": "symbol",
+                      "unitDisplay": "short"
+                    },
+                    {
+                      "name": "suffix",
+                      "value": " baths"
+                    }
+                  ]
+                }
+              }
+            },
+            {
+              "type": "RichTextNode",
+              "name": "Separator",
+              "id": "TxqmjWiYB",
+              "children": [
+                {
+                  "type": "TextBlock",
+                  "id": "v:TxqmjWiYB:0",
+                  "attributes": {
+                    "tag": "p"
+                  },
+                  "children": [
+                    {
+                      "type": "TextRun",
+                      "id": "v:TxqmjWiYB:0:0",
+                      "attributes": {
+                        "text": "·"
+                      }
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "RichTextNode",
+              "name": "Area Label Large",
+              "id": "FB6whfd8k",
+              "attributes": {
+                "text": "var(--variable-q4Uo_EM4a)"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,3653 @@
+{
+  "collectedAt": "2026-08-09T18:03:30.402Z",
+  "dist": {
+    "1200px": 156,
+    "NONE": 46,
+    "100%": 21,
+    "1440px": 3,
+    "1040px": 3,
+    "720px": 3,
+    "960px": 3,
+    "640px": 3,
+    "810px": 2,
+    "390px": 2,
+    "760px": 2,
+    "350px": 2,
+    "880px": 2,
+    "620px": 2,
+    "358px": 1,
+    "730px": 1,
+    "342px": 1,
+    "420px": 1,
+    "520px": 1
+  },
+  "missingMax": [],
+  "missingMaxCount": 0,
+  "outliers": [
+    {
+      "maxWidth": "810px",
+      "count": 2,
+      "samples": [
+        "/|Tablet|Bottom",
+        "/|Tablet|Bottom>Content"
+      ]
+    },
+    {
+      "maxWidth": "358px",
+      "count": 1,
+      "samples": [
+        "/|Phone|Portfolio Section>Portfolio Container"
+      ]
+    },
+    {
+      "maxWidth": "390px",
+      "count": 2,
+      "samples": [
+        "/|Phone|Bottom",
+        "/|Phone|Bottom>Content"
+      ]
+    },
+    {
+      "maxWidth": "1040px",
+      "count": 3,
+      "samples": [
+        "/about|Desktop|Beat 3 — Manifesto>Manifesto Editorial Row",
+        "/about|Tablet|Beat 3 — Manifesto>Manifesto Editorial Row",
+        "/about|Phone|Beat 3 — Manifesto>Manifesto Editorial Row"
+      ]
+    },
+    {
+      "maxWidth": "760px",
+      "count": 2,
+      "samples": [
+        "/about|Desktop|Enquiry CTA>undefined",
+        "/properties/:slug|Desktop|Enquiry CTA>undefined"
+      ]
+    },
+    {
+      "maxWidth": "730px",
+      "count": 1,
+      "samples": [
+        "/about|Tablet|Beat 1 — Portrait Stage>Opening Copy"
+      ]
+    },
+    {
+      "maxWidth": "720px",
+      "count": 3,
+      "samples": [
+        "/about|Tablet|Enquiry CTA>undefined",
+        "/properties/:slug|Tablet|Enquiry CTA>undefined",
+        "/notes/:slug|Desktop|Article Body Wrap>Article Body"
+      ]
+    },
+    {
+      "maxWidth": "342px",
+      "count": 1,
+      "samples": [
+        "/about|Phone|Beat 1 — Portrait Stage>Opening Copy"
+      ]
+    },
+    {
+      "maxWidth": "350px",
+      "count": 2,
+      "samples": [
+        "/about|Phone|Enquiry CTA>undefined",
+        "/properties/:slug|Phone|Enquiry CTA>undefined"
+      ]
+    },
+    {
+      "maxWidth": "960px",
+      "count": 3,
+      "samples": [
+        "/properties/:slug|Desktop|Chapter Intro>Chapter One Title",
+        "/properties/:slug|Tablet|Chapter Intro>Chapter One Title",
+        "/properties/:slug|Phone|Chapter Intro>Chapter One Title"
+      ]
+    },
+    {
+      "maxWidth": "880px",
+      "count": 2,
+      "samples": [
+        "/properties/:slug|Desktop|Cinematic Gallery>Gallery Narrative",
+        "/properties/:slug|Tablet|Cinematic Gallery>Gallery Narrative"
+      ]
+    },
+    {
+      "maxWidth": "420px",
+      "count": 1,
+      "samples": [
+        "/properties/:slug|Desktop|The Setting>Setting Introduction"
+      ]
+    },
+    {
+      "maxWidth": "520px",
+      "count": 1,
+      "samples": [
+        "/properties/:slug|Desktop|The Setting>Setting Copy"
+      ]
+    },
+    {
+      "maxWidth": "620px",
+      "count": 2,
+      "samples": [
+        "/properties/:slug|Tablet|The Setting>Setting Introduction",
+        "/properties/:slug|Tablet|The Setting>Setting Copy"
+      ]
+    },
+    {
+      "maxWidth": "640px",
+      "count": 3,
+      "samples": [
+        "/notes/:slug|Desktop|More From Journal>undefined",
+        "/notes/:slug|Tablet|More From Journal>undefined",
+        "/notes/:slug|Phone|More From Journal>undefined"
+      ]
+    }
+  ],
+  "desktopTops": [
+    {
+      "path": "/",
+      "sections": [
+        {
+          "name": "Hero Section",
+          "maxWidth": null,
+          "width": "100%",
+          "pad": "0px 0px 64px 0px"
+        },
+        {
+          "name": "Territories Section",
+          "maxWidth": "1200px",
+          "width": "1fr",
+          "pad": "128px 48px 128px 48px"
+        },
+        {
+          "name": "Portfolio Section",
+          "maxWidth": "1200px",
+          "width": "1fr",
+          "pad": "128px 48px 128px 48px"
+        },
+        {
+          "name": "Bottom",
+          "maxWidth": "1200px",
+          "width": "100%",
+          "pad": null
+        },
+        {
+          "name": "Process Section",
+          "maxWidth": null,
+          "width": "1fr",
+          "pad": "128px 48px 128px 48px"
+        },
+        {
+          "name": "Arbour_StatsBand",
+          "maxWidth": null,
+          "width": "1fr",
+          "pad": null
+        },
+        {
+          "name": "Recognition Section",
+          "maxWidth": "1200px",
+          "width": "1fr",
+          "pad": "128px 48px 128px 48px"
+        },
+        {
+          "name": "Testimonial Section",
+          "maxWidth": "1200px",
+          "width": "1fr",
+          "pad": "128px 48px 128px 48px"
+        },
+        {
+          "name": "Journal",
+          "maxWidth": "1200px",
+          "width": "1fr",
+          "pad": "128px 48px 128px 48px"
+        }
+      ]
+    },
+    {
+      "path": "/properties",
+      "sections": [
+        {
+          "name": "Properties Content",
+          "maxWidth": "1200px",
+          "width": "1fr",
+          "pad": null
+        }
+      ]
+    },
+    {
+      "path": "/neighbourhoods",
+      "sections": [
+        {
+          "name": "Neighbourhoods Content",
+          "maxWidth": "1200px",
+          "width": "1fr",
+          "pad": null
+        }
+      ]
+    },
+    {
+      "path": "/notes",
+      "sections": [
+        {
+          "name": "Journal",
+          "maxWidth": "1200px",
+          "width": "1fr",
+          "pad": "128px 48px 0px 48px"
+        },
+        {
+          "name": "Journal Manifesto",
+          "maxWidth": null,
+          "width": "1fr",
+          "pad": "128px 48px 128px 48px"
+        }
+      ]
+    },
+    {
+      "path": "/about",
+      "sections": [
+        {
+          "name": "Beat 1 — Portrait Stage",
+          "maxWidth": "1200px",
+          "width": "100%",
+          "pad": null
+        },
+        {
+          "name": "Beat 2 — Cinematic Image",
+          "maxWidth": "1440px",
+          "width": "100%",
+          "pad": null
+        },
+        {
+          "name": "Beat 3 — Manifesto",
+          "maxWidth": "1200px",
+          "width": "100%",
+          "pad": "128px 48px 128px 48px"
+        },
+        {
+          "name": "Editorial Pause — Arbour in Practice",
+          "maxWidth": "1200px",
+          "width": "100%",
+          "pad": "96px 48px 96px 48px"
+        },
+        {
+          "name": "Chapter — The Principals",
+          "maxWidth": "1200px",
+          "width": "100%",
+          "pad": "128px 48px 128px 48px"
+        },
+        {
+          "name": "Chapter — Two Offices",
+          "maxWidth": "1200px",
+          "width": "100%",
+          "pad": "128px 48px 128px 48px"
+        },
+        {
+          "name": "Enquiry CTA",
+          "maxWidth": "1200px",
+          "width": "1fr",
+          "pad": "128px 48px 128px 48px"
+        }
+      ]
+    },
+    {
+      "path": "/contact",
+      "sections": [
+        {
+          "name": "Contact Hero",
+          "maxWidth": null,
+          "width": "1fr",
+          "pad": "128px 48px 64px 48px"
+        },
+        {
+          "name": "Contact Opening",
+          "maxWidth": null,
+          "width": "1fr",
+          "pad": "128px 48px 128px 48px"
+        },
+        {
+          "name": "Private Consultation Pause",
+          "maxWidth": "1200px",
+          "width": "100%",
+          "pad": "96px 48px 96px 48px"
+        },
+        {
+          "name": "Journal",
+          "maxWidth": "1200px",
+          "width": "1fr",
+          "pad": "128px 48px 128px 48px"
+        }
+      ]
+    },
+    {
+      "path": "/properties/:slug",
+      "sections": [
+        {
+          "name": "Property Hero",
+          "maxWidth": "1200px",
+          "width": "1fr",
+          "pad": "128px 48px 128px 48px"
+        },
+        {
+          "name": "Property Specs Band",
+          "maxWidth": "1200px",
+          "width": "1fr",
+          "pad": "0px 48px 0px 48px"
+        },
+        {
+          "name": "Chapter Intro",
+          "maxWidth": "1200px",
+          "width": "1fr",
+          "pad": "128px 48px 128px 48px"
+        },
+        {
+          "name": "Cinematic Gallery",
+          "maxWidth": "1200px",
+          "width": "100%",
+          "pad": "0px 48px 128px 48px"
+        },
+        {
+          "name": "The Setting",
+          "maxWidth": "1200px",
+          "width": "100%",
+          "pad": "128px 48px 128px 48px"
+        },
+        {
+          "name": "Property Particulars",
+          "maxWidth": "1200px",
+          "width": "100%",
+          "pad": "128px 48px 128px 48px"
+        },
+        {
+          "name": "Continue Your Search",
+          "maxWidth": "1200px",
+          "width": "100%",
+          "pad": "128px 48px 128px 48px"
+        },
+        {
+          "name": "Enquiry CTA",
+          "maxWidth": "1200px",
+          "width": "1fr",
+          "pad": "128px 48px 128px 48px"
+        }
+      ]
+    },
+    {
+      "path": "/notes/:slug",
+      "sections": [
+        {
+          "name": "Article Hero Meta",
+          "maxWidth": "1200px",
+          "width": "1fr",
+          "pad": "128px 48px 0px 48px"
+        },
+        {
+          "name": "Journal Hero Image",
+          "maxWidth": "1200px",
+          "width": "1fr",
+          "pad": "64px 48px 0px 48px"
+        },
+        {
+          "name": "Article Body Wrap",
+          "maxWidth": "1200px",
+          "width": "1fr",
+          "pad": "64px 48px 128px 48px"
+        },
+        {
+          "name": "Journal Text Column",
+          "maxWidth": null,
+          "width": "1fr",
+          "pad": null
+        },
+        {
+          "name": "More From Journal",
+          "maxWidth": "1200px",
+          "width": "1fr",
+          "pad": "128px 48px 128px 48px"
+        },
+        {
+          "name": "Specs Strip",
+          "maxWidth": "1200px",
+          "width": "1fr",
+          "pad": "0px 48px 0px 48px"
+        },
+        {
+          "name": "Closing Chapter",
+          "maxWidth": "1200px",
+          "width": "1fr",
+          "pad": "96px 48px 96px 48px"
+        }
+      ]
+    }
+  ],
+  "full": [
+    {
+      "path": "/",
+      "bp": "Desktop",
+      "bpWidth": "1200px",
+      "topSections": [
+        {
+          "path": "/",
+          "bp": "Desktop",
+          "id": "iq0rlFlTE",
+          "name": "Hero Section",
+          "depth": 1,
+          "width": "100%",
+          "maxWidth": null,
+          "minWidth": null,
+          "pad": "0px 0px 64px 0px",
+          "layout": "stack",
+          "stackDir": "vertical"
+        },
+        {
+          "path": "/",
+          "bp": "Desktop",
+          "id": "a6KIAp6Ii",
+          "name": "Territories Section",
+          "depth": 1,
+          "width": "1fr",
+          "maxWidth": "1200px",
+          "minWidth": null,
+          "pad": "128px 48px 128px 48px",
+          "layout": "stack",
+          "stackDir": "vertical"
+        },
+        {
+          "path": "/",
+          "bp": "Desktop",
+          "id": "RtG3B70W9",
+          "name": "Portfolio Section",
+          "depth": 1,
+          "width": "1fr",
+          "maxWidth": "1200px",
+          "minWidth": null,
+          "pad": "128px 48px 128px 48px",
+          "layout": "stack",
+          "stackDir": "vertical"
+        },
+        {
+          "path": "/",
+          "bp": "Desktop",
+          "id": "sQUykbPr6",
+          "name": "Bottom",
+          "depth": 1,
+          "width": "100%",
+          "maxWidth": "1200px",
+          "minWidth": null,
+          "pad": null,
+          "layout": "stack",
+          "stackDir": "vertical"
+        },
+        {
+          "path": "/",
+          "bp": "Desktop",
+          "id": "H_KIxioFT",
+          "name": "Process Section",
+          "depth": 1,
+          "width": "1fr",
+          "maxWidth": null,
+          "minWidth": null,
+          "pad": "128px 48px 128px 48px",
+          "layout": "stack",
+          "stackDir": "vertical"
+        },
+        {
+          "path": "/",
+          "bp": "Desktop",
+          "id": "CMv32_lLx",
+          "name": "Arbour_StatsBand",
+          "depth": 1,
+          "width": "1fr",
+          "maxWidth": null,
+          "minWidth": null,
+          "pad": null,
+          "layout": null,
+          "stackDir": null
+        },
+        {
+          "path": "/",
+          "bp": "Desktop",
+          "id": "bkyM_6J5N",
+          "name": "Recognition Section",
+          "depth": 1,
+          "width": "1fr",
+          "maxWidth": "1200px",
+          "minWidth": null,
+          "pad": "128px 48px 128px 48px",
+          "layout": "stack",
+          "stackDir": "vertical"
+        },
+        {
+          "path": "/",
+          "bp": "Desktop",
+          "id": "VXxBSnkhU",
+          "name": "Testimonial Section",
+          "depth": 1,
+          "width": "1fr",
+          "maxWidth": "1200px",
+          "minWidth": null,
+          "pad": "128px 48px 128px 48px",
+          "layout": "stack",
+          "stackDir": "vertical"
+        },
+        {
+          "path": "/",
+          "bp": "Desktop",
+          "id": "ZsKgeszB_",
+          "name": "Journal",
+          "depth": 1,
+          "width": "1fr",
+          "maxWidth": "1200px",
+          "minWidth": null,
+          "pad": "128px 48px 128px 48px",
+          "layout": "stack",
+          "stackDir": "vertical"
+        }
+      ],
+      "nestedInteresting": [
+        {
+          "path": "/",
+          "bp": "Desktop",
+          "id": "ET8JHTjC5",
+          "name": "Text Content Column",
+          "depth": 2,
+          "parent": "Hero Section",
+          "width": "1fr",
+          "maxWidth": null,
+          "pad": "0px 48px 0px 48px"
+        },
+        {
+          "path": "/",
+          "bp": "Desktop",
+          "id": "du1d5C2G_",
+          "name": "Territories Header",
+          "depth": 2,
+          "parent": "Territories Section",
+          "width": "1fr",
+          "maxWidth": "1200px",
+          "pad": null
+        },
+        {
+          "path": "/",
+          "bp": "Desktop",
+          "id": "zBkRxuUmY",
+          "name": "Portfolio Container",
+          "depth": 2,
+          "parent": "Portfolio Section",
+          "width": "1fr",
+          "maxWidth": "1200px",
+          "pad": null
+        },
+        {
+          "path": "/",
+          "bp": "Desktop",
+          "id": "ohPeYYgHl",
+          "name": "Content",
+          "depth": 2,
+          "parent": "Bottom",
+          "width": "100%",
+          "maxWidth": "1200px",
+          "pad": "64px 48px 32px 48px"
+        },
+        {
+          "path": "/",
+          "bp": "Desktop",
+          "id": "b800nNNFA",
+          "depth": 2,
+          "parent": "Journal",
+          "width": "1fr",
+          "maxWidth": "1200px",
+          "pad": "0px 0px 24px 0px"
+        },
+        {
+          "path": "/",
+          "bp": "Desktop",
+          "id": "N9SK6gnT4",
+          "name": "Journal Deck",
+          "depth": 2,
+          "parent": "Journal",
+          "width": "auto",
+          "maxWidth": null,
+          "pad": null
+        },
+        {
+          "path": "/",
+          "bp": "Desktop",
+          "id": "agILcRHTJ",
+          "name": "Content Area",
+          "depth": 2,
+          "parent": "Journal",
+          "width": "1fr",
+          "maxWidth": "1200px",
+          "pad": null
+        }
+      ]
+    },
+    {
+      "path": "/",
+      "bp": "Tablet",
+      "bpWidth": "810px",
+      "topSections": [
+        {
+          "path": "/",
+          "bp": "Tablet",
+          "id": "wBAtV56MEiq0rlFlTE",
+          "name": "Hero Section",
+          "depth": 1,
+          "width": "100%",
+          "maxWidth": null,
+          "minWidth": null,
+          "pad": "0px 0px 64px 0px",
+          "layout": "stack",
+          "stackDir": "vertical"
+        },
+        {
+          "path": "/",
+          "bp": "Tablet",
+          "id": "wBAtV56MEa6KIAp6Ii",
+          "name": "Territories Section",
+          "depth": 1,
+          "width": "1fr",
+          "maxWidth": "1200px",
+          "minWidth": null,
+          "pad": "96px 40px 96px 40px",
+          "layout": "stack",
+          "stackDir": "vertical"
+        },
+        {
+          "path": "/",
+          "bp": "Tablet",
+          "id": "wBAtV56MERtG3B70W9",
+          "name": "Portfolio Section",
+          "depth": 1,
+          "width": "1fr",
+          "maxWidth": "1200px",
+          "minWidth": null,
+          "pad": "96px 40px 96px 40px",
+          "layout": "stack",
+          "stackDir": "vertical"
+        },
+        {
+          "path": "/",
+          "bp": "Tablet",
+          "id": "wBAtV56MEsQUykbPr6",
+          "name": "Bottom",
+          "depth": 1,
+          "width": "100%",
+          "maxWidth": "810px",
+          "minWidth": null,
+          "pad": null,
+          "layout": "stack",
+          "stackDir": "vertical"
+        },
+        {
+          "path": "/",
+          "bp": "Tablet",
+          "id": "wBAtV56MEH_KIxioFT",
+          "name": "Process Section",
+          "depth": 1,
+          "width": "1fr",
+          "maxWidth": null,
+          "minWidth": null,
+          "pad": "96px 40px 96px 40px",
+          "layout": "stack",
+          "stackDir": "vertical"
+        },
+        {
+          "path": "/",
+          "bp": "Tablet",
+          "id": "wBAtV56MECMv32_lLx",
+          "name": "Arbour_StatsBand",
+          "depth": 1,
+          "width": "1fr",
+          "maxWidth": null,
+          "minWidth": null,
+          "pad": null,
+          "layout": null,
+          "stackDir": null
+        },
+        {
+          "path": "/",
+          "bp": "Tablet",
+          "id": "wBAtV56MEbkyM_6J5N",
+          "name": "Recognition Section",
+          "depth": 1,
+          "width": "1fr",
+          "maxWidth": "1200px",
+          "minWidth": null,
+          "pad": "96px 40px 96px 40px",
+          "layout": "stack",
+          "stackDir": "vertical"
+        },
+        {
+          "path": "/",
+          "bp": "Tablet",
+          "id": "wBAtV56MEVXxBSnkhU",
+          "name": "Testimonial Section",
+          "depth": 1,
+          "width": "1fr",
+          "maxWidth": "1200px",
+          "minWidth": null,
+          "pad": "96px 40px 96px 40px",
+          "layout": "stack",
+          "stackDir": "vertical"
+        },
+        {
+          "path": "/",
+          "bp": "Tablet",
+          "id": "wBAtV56MEZsKgeszB_",
+          "name": "Journal",
+          "depth": 1,
+          "width": "1fr",
+          "maxWidth": "1200px",
+          "minWidth": null,
+          "pad": "96px 40px 96px 40px",
+          "layout": "stack",
+          "stackDir": "vertical"
+        }
+      ],
+      "nestedInteresting": [
+        {
+          "path": "/",
+          "bp": "Tablet",
+          "id": "wBAtV56MEET8JHTjC5",
+          "name": "Text Content Column",
+          "depth": 2,
+          "parent": "Hero Section",
+          "width": "1fr",
+          "maxWidth": null,
+          "pad": "0px 40px 24px 40px"
+        },
+        {
+          "path": "/",
+          "bp": "Tablet",
+          "id": "wBAtV56MEdu1d5C2G_",
+          "name": "Territories Header",
+          "depth": 2,
+          "parent": "Territories Section",
+          "width": "1fr",
+          "maxWidth": "1200px",
+          "pad": "0px 0px 24px 0px"
+        },
+        {
+          "path": "/",
+          "bp": "Tablet",
+          "id": "wBAtV56MEzBkRxuUmY",
+          "name": "Portfolio Container",
+          "depth": 2,
+          "parent": "Portfolio Section",
+          "width": "1fr",
+          "maxWidth": "1200px",
+          "pad": null
+        },
+        {
+          "path": "/",
+          "bp": "Tablet",
+          "id": "wBAtV56MEohPeYYgHl",
+          "name": "Content",
+          "depth": 2,
+          "parent": "Bottom",
+          "width": "100%",
+          "maxWidth": "810px",
+          "pad": "48px 40px 48px 40px"
+        },
+        {
+          "path": "/",
+          "bp": "Tablet",
+          "id": "wBAtV56MEb800nNNFA",
+          "depth": 2,
+          "parent": "Journal",
+          "width": "1fr",
+          "maxWidth": "1200px",
+          "pad": "0px 0px 24px 0px"
+        },
+        {
+          "path": "/",
+          "bp": "Tablet",
+          "id": "wBAtV56MEN9SK6gnT4",
+          "name": "Journal Deck",
+          "depth": 2,
+          "parent": "Journal",
+          "width": "auto",
+          "maxWidth": null,
+          "pad": null
+        },
+        {
+          "path": "/",
+          "bp": "Tablet",
+          "id": "wBAtV56MEagILcRHTJ",
+          "name": "Content Area",
+          "depth": 2,
+          "parent": "Journal",
+          "width": "1fr",
+          "maxWidth": "1200px",
+          "pad": null
+        }
+      ]
+    },
+    {
+      "path": "/",
+      "bp": "Phone",
+      "bpWidth": "390px",
+      "topSections": [
+        {
+          "path": "/",
+          "bp": "Phone",
+          "id": "mcL3MFzFViq0rlFlTE",
+          "name": "Hero Section",
+          "depth": 1,
+          "width": "100%",
+          "maxWidth": null,
+          "minWidth": null,
+          "pad": "0px 0px 64px 0px",
+          "layout": "stack",
+          "stackDir": "vertical"
+        },
+        {
+          "path": "/",
+          "bp": "Phone",
+          "id": "mcL3MFzFVa6KIAp6Ii",
+          "name": "Territories Section",
+          "depth": 1,
+          "width": "1fr",
+          "maxWidth": "1200px",
+          "minWidth": null,
+          "pad": "64px 16px 64px 16px",
+          "layout": "stack",
+          "stackDir": "vertical"
+        },
+        {
+          "path": "/",
+          "bp": "Phone",
+          "id": "mcL3MFzFVRtG3B70W9",
+          "name": "Portfolio Section",
+          "depth": 1,
+          "width": "1fr",
+          "maxWidth": "1200px",
+          "minWidth": null,
+          "pad": "64px 16px 64px 16px",
+          "layout": "stack",
+          "stackDir": "vertical"
+        },
+        {
+          "path": "/",
+          "bp": "Phone",
+          "id": "mcL3MFzFVsQUykbPr6",
+          "name": "Bottom",
+          "depth": 1,
+          "width": "100%",
+          "maxWidth": "390px",
+          "minWidth": null,
+          "pad": "40px 16px 40px 16px",
+          "layout": "stack",
+          "stackDir": "vertical"
+        },
+        {
+          "path": "/",
+          "bp": "Phone",
+          "id": "mcL3MFzFVH_KIxioFT",
+          "name": "Process Section",
+          "depth": 1,
+          "width": "1fr",
+          "maxWidth": null,
+          "minWidth": null,
+          "pad": "64px 16px 64px 16px",
+          "layout": "stack",
+          "stackDir": "vertical"
+        },
+        {
+          "path": "/",
+          "bp": "Phone",
+          "id": "mcL3MFzFVCMv32_lLx",
+          "name": "Arbour_StatsBand",
+          "depth": 1,
+          "width": "1fr",
+          "maxWidth": null,
+          "minWidth": null,
+          "pad": null,
+          "layout": null,
+          "stackDir": null
+        },
+        {
+          "path": "/",
+          "bp": "Phone",
+          "id": "mcL3MFzFVbkyM_6J5N",
+          "name": "Recognition Section",
+          "depth": 1,
+          "width": "1fr",
+          "maxWidth": "1200px",
+          "minWidth": null,
+          "pad": "64px 16px 64px 16px",
+          "layout": "stack",
+          "stackDir": "vertical"
+        },
+        {
+          "path": "/",
+          "bp": "Phone",
+          "id": "mcL3MFzFVVXxBSnkhU",
+          "name": "Testimonial Section",
+          "depth": 1,
+          "width": "1fr",
+          "maxWidth": "1200px",
+          "minWidth": null,
+          "pad": "64px 16px 64px 16px",
+          "layout": "stack",
+          "stackDir": "vertical"
+        },
+        {
+          "path": "/",
+          "bp": "Phone",
+          "id": "mcL3MFzFVZsKgeszB_",
+          "name": "Journal",
+          "depth": 1,
+          "width": "1fr",
+          "maxWidth": "1200px",
+          "minWidth": null,
+          "pad": "64px 16px 64px 16px",
+          "layout": "stack",
+          "stackDir": "vertical"
+        }
+      ],
+      "nestedInteresting": [
+        {
+          "path": "/",
+          "bp": "Phone",
+          "id": "mcL3MFzFVET8JHTjC5",
+          "name": "Text Content Column",
+          "depth": 2,
+          "parent": "Hero Section",
+          "width": "1fr",
+          "maxWidth": null,
+          "pad": "24px 16px 24px 16px"
+        },
+        {
+          "path": "/",
+          "bp": "Phone",
+          "id": "mcL3MFzFVdu1d5C2G_",
+          "name": "Territories Header",
+          "depth": 2,
+          "parent": "Territories Section",
+          "width": "1fr",
+          "maxWidth": "1200px",
+          "pad": "0px 0px 24px 0px"
+        },
+        {
+          "path": "/",
+          "bp": "Phone",
+          "id": "mcL3MFzFVzBkRxuUmY",
+          "name": "Portfolio Container",
+          "depth": 2,
+          "parent": "Portfolio Section",
+          "width": "1fr",
+          "maxWidth": "358px",
+          "pad": null
+        },
+        {
+          "path": "/",
+          "bp": "Phone",
+          "id": "mcL3MFzFVohPeYYgHl",
+          "name": "Content",
+          "depth": 2,
+          "parent": "Bottom",
+          "width": "100%",
+          "maxWidth": "390px",
+          "pad": null
+        },
+        {
+          "path": "/",
+          "bp": "Phone",
+          "id": "mcL3MFzFVb800nNNFA",
+          "depth": 2,
+          "parent": "Journal",
+          "width": "1fr",
+          "maxWidth": "1200px",
+          "pad": "0px 0px 16px 0px"
+        },
+        {
+          "path": "/",
+          "bp": "Phone",
+          "id": "mcL3MFzFVN9SK6gnT4",
+          "name": "Journal Deck",
+          "depth": 2,
+          "parent": "Journal",
+          "width": "auto",
+          "maxWidth": null,
+          "pad": null
+        },
+        {
+          "path": "/",
+          "bp": "Phone",
+          "id": "mcL3MFzFVagILcRHTJ",
+          "name": "Content Area",
+          "depth": 2,
+          "parent": "Journal",
+          "width": "1fr",
+          "maxWidth": "1200px",
+          "pad": null
+        }
+      ]
+    },
+    {
+      "path": "/properties",
+      "bp": "Desktop",
+      "bpWidth": "1200px",
+      "topSections": [
+        {
+          "path": "/properties",
+          "bp": "Desktop",
+          "id": "pXUtBMLpu",
+          "name": "Properties Content",
+          "depth": 1,
+          "width": "1fr",
+          "maxWidth": "1200px",
+          "minWidth": null,
+          "pad": null,
+          "layout": "stack",
+          "stackDir": "vertical"
+        }
+      ],
+      "nestedInteresting": [
+        {
+          "path": "/properties",
+          "bp": "Desktop",
+          "id": "mGwrwOsDS",
+          "name": "Properties Hero",
+          "depth": 2,
+          "parent": "Properties Content",
+          "width": "1fr",
+          "maxWidth": "1200px",
+          "pad": null
+        },
+        {
+          "path": "/properties",
+          "bp": "Desktop",
+          "id": "Ox1AZj6Eq",
+          "name": "Collection Discovery",
+          "depth": 2,
+          "parent": "Properties Content",
+          "width": "1fr",
+          "maxWidth": "1200px",
+          "pad": "32px 48px 32px 48px"
+        },
+        {
+          "path": "/properties",
+          "bp": "Desktop",
+          "id": "gn2phxXn5",
+          "name": "Properties Grid",
+          "depth": 2,
+          "parent": "Properties Content",
+          "width": "1fr",
+          "maxWidth": "1200px",
+          "pad": "128px 48px 128px 48px"
+        },
+        {
+          "path": "/properties",
+          "bp": "Desktop",
+          "id": "APChY780b",
+          "name": "Market Editorial",
+          "depth": 2,
+          "parent": "Properties Content",
+          "width": "1fr",
+          "maxWidth": "1200px",
+          "pad": "128px 48px 128px 48px"
+        },
+        {
+          "path": "/properties",
+          "bp": "Desktop",
+          "id": "pC9Un5Mw5",
+          "name": "Private Viewing Process",
+          "depth": 2,
+          "parent": "Properties Content",
+          "width": "1fr",
+          "maxWidth": "1200px",
+          "pad": "128px 48px 128px 48px"
+        },
+        {
+          "path": "/properties",
+          "bp": "Desktop",
+          "id": "ivqFzeVAZ",
+          "name": "Continue Your Search",
+          "depth": 2,
+          "parent": "Properties Content",
+          "width": "100%",
+          "maxWidth": "1200px",
+          "pad": "128px 48px 128px 48px"
+        },
+        {
+          "path": "/properties",
+          "bp": "Desktop",
+          "id": "cFtWJlabj",
+          "name": "Enquiry CTA",
+          "depth": 2,
+          "parent": "Properties Content",
+          "width": "1fr",
+          "maxWidth": "1200px",
+          "pad": "128px 48px 128px 48px"
+        }
+      ]
+    },
+    {
+      "path": "/properties",
+      "bp": "Tablet",
+      "bpWidth": "810px",
+      "topSections": [
+        {
+          "path": "/properties",
+          "bp": "Tablet",
+          "id": "SScKalu3BpXUtBMLpu",
+          "name": "Properties Content",
+          "depth": 1,
+          "width": "1fr",
+          "maxWidth": "1200px",
+          "minWidth": null,
+          "pad": null,
+          "layout": "stack",
+          "stackDir": "vertical"
+        }
+      ],
+      "nestedInteresting": [
+        {
+          "path": "/properties",
+          "bp": "Tablet",
+          "id": "SScKalu3BmGwrwOsDS",
+          "name": "Properties Hero",
+          "depth": 2,
+          "parent": "Properties Content",
+          "width": "1fr",
+          "maxWidth": "1200px",
+          "pad": null
+        },
+        {
+          "path": "/properties",
+          "bp": "Tablet",
+          "id": "SScKalu3BOx1AZj6Eq",
+          "name": "Collection Discovery",
+          "depth": 2,
+          "parent": "Properties Content",
+          "width": "1fr",
+          "maxWidth": "1200px",
+          "pad": "24px 40px 24px 40px"
+        },
+        {
+          "path": "/properties",
+          "bp": "Tablet",
+          "id": "SScKalu3Bgn2phxXn5",
+          "name": "Properties Grid",
+          "depth": 2,
+          "parent": "Properties Content",
+          "width": "1fr",
+          "maxWidth": "1200px",
+          "pad": "96px 40px 96px 40px"
+        },
+        {
+          "path": "/properties",
+          "bp": "Tablet",
+          "id": "SScKalu3BAPChY780b",
+          "name": "Market Editorial",
+          "depth": 2,
+          "parent": "Properties Content",
+          "width": "1fr",
+          "maxWidth": "1200px",
+          "pad": "96px 40px 96px 40px"
+        },
+        {
+          "path": "/properties",
+          "bp": "Tablet",
+          "id": "SScKalu3BpC9Un5Mw5",
+          "name": "Private Viewing Process",
+          "depth": 2,
+          "parent": "Properties Content",
+          "width": "1fr",
+          "maxWidth": "1200px",
+          "pad": "96px 40px 96px 40px"
+        },
+        {
+          "path": "/properties",
+          "bp": "Tablet",
+          "id": "SScKalu3BivqFzeVAZ",
+          "name": "Continue Your Search",
+          "depth": 2,
+          "parent": "Properties Content",
+          "width": "100%",
+          "maxWidth": "1200px",
+          "pad": "96px 40px 96px 40px"
+        },
+        {
+          "path": "/properties",
+          "bp": "Tablet",
+          "id": "SScKalu3BcFtWJlabj",
+          "name": "Enquiry CTA",
+          "depth": 2,
+          "parent": "Properties Content",
+          "width": "1fr",
+          "maxWidth": "1200px",
+          "pad": "96px 40px 96px 40px"
+        }
+      ]
+    },
+    {
+      "path": "/properties",
+      "bp": "Phone",
+      "bpWidth": "390px",
+      "topSections": [
+        {
+          "path": "/properties",
+          "bp": "Phone",
+          "id": "EK6d5SyWLpXUtBMLpu",
+          "name": "Properties Content",
+          "depth": 1,
+          "width": "1fr",
+          "maxWidth": "100%",
+          "minWidth": null,
+          "pad": null,
+          "layout": "stack",
+          "stackDir": "vertical"
+        }
+      ],
+      "nestedInteresting": [
+        {
+          "path": "/properties",
+          "bp": "Phone",
+          "id": "EK6d5SyWLmGwrwOsDS",
+          "name": "Properties Hero",
+          "depth": 2,
+          "parent": "Properties Content",
+          "width": "1fr",
+          "maxWidth": "1200px",
+          "pad": null
+        },
+        {
+          "path": "/properties",
+          "bp": "Phone",
+          "id": "EK6d5SyWLOx1AZj6Eq",
+          "name": "Collection Discovery",
+          "depth": 2,
+          "parent": "Properties Content",
+          "width": "1fr",
+          "maxWidth": "1200px",
+          "pad": "24px 16px 24px 16px"
+        },
+        {
+          "path": "/properties",
+          "bp": "Phone",
+          "id": "EK6d5SyWLgn2phxXn5",
+          "name": "Properties Grid",
+          "depth": 2,
+          "parent": "Properties Content",
+          "width": "1fr",
+          "maxWidth": "100%",
+          "pad": "64px 16px 64px 16px"
+        },
+        {
+          "path": "/properties",
+          "bp": "Phone",
+          "id": "EK6d5SyWLAPChY780b",
+          "name": "Market Editorial",
+          "depth": 2,
+          "parent": "Properties Content",
+          "width": "1fr",
+          "maxWidth": "1200px",
+          "pad": "64px 16px 64px 16px"
+        },
+        {
+          "path": "/properties",
+          "bp": "Phone",
+          "id": "EK6d5SyWLpC9Un5Mw5",
+          "name": "Private Viewing Process",
+          "depth": 2,
+          "parent": "Properties Content",
+          "width": "1fr",
+          "maxWidth": "1200px",
+          "pad": "64px 16px 64px 16px"
+        },
+        {
+          "path": "/properties",
+          "bp": "Phone",
+          "id": "EK6d5SyWLivqFzeVAZ",
+          "name": "Continue Your Search",
+          "depth": 2,
+          "parent": "Properties Content",
+          "width": "100%",
+          "maxWidth": "1200px",
+          "pad": "64px 16px 64px 16px"
+        },
+        {
+          "path": "/properties",
+          "bp": "Phone",
+          "id": "EK6d5SyWLcFtWJlabj",
+          "name": "Enquiry CTA",
+          "depth": 2,
+          "parent": "Properties Content",
+          "width": "1fr",
+          "maxWidth": "1200px",
+          "pad": "64px 16px 64px 16px"
+        }
+      ]
+    },
+    {
+      "path": "/neighbourhoods",
+      "bp": "Desktop",
+      "bpWidth": "1200px",
+      "topSections": [
+        {
+          "path": "/neighbourhoods",
+          "bp": "Desktop",
+          "id": "H1kR5JcFp",
+          "name": "Neighbourhoods Content",
+          "depth": 1,
+          "width": "1fr",
+          "maxWidth": "1200px",
+          "minWidth": null,
+          "pad": null,
+          "layout": "stack",
+          "stackDir": "vertical"
+        }
+      ],
+      "nestedInteresting": [
+        {
+          "path": "/neighbourhoods",
+          "bp": "Desktop",
+          "id": "ycUqIc8V3",
+          "name": "Neighbourhoods Hero",
+          "depth": 2,
+          "parent": "Neighbourhoods Content",
+          "width": "1fr",
+          "maxWidth": "1200px",
+          "pad": null
+        },
+        {
+          "path": "/neighbourhoods",
+          "bp": "Desktop",
+          "id": "NrbMmTnFX",
+          "name": "Territory Grid Section",
+          "depth": 2,
+          "parent": "Neighbourhoods Content",
+          "width": "1fr",
+          "maxWidth": null,
+          "pad": "128px 48px 128px 48px"
+        },
+        {
+          "path": "/neighbourhoods",
+          "bp": "Desktop",
+          "id": "KraraKF0A",
+          "name": "How We Read A Place",
+          "depth": 2,
+          "parent": "Neighbourhoods Content",
+          "width": "1fr",
+          "maxWidth": "1200px",
+          "pad": "128px 48px 128px 48px"
+        }
+      ]
+    },
+    {
+      "path": "/neighbourhoods",
+      "bp": "Tablet",
+      "bpWidth": "810px",
+      "topSections": [
+        {
+          "path": "/neighbourhoods",
+          "bp": "Tablet",
+          "id": "aJLpuUP0qH1kR5JcFp",
+          "name": "Neighbourhoods Content",
+          "depth": 1,
+          "width": "1fr",
+          "maxWidth": "1200px",
+          "minWidth": null,
+          "pad": null,
+          "layout": "stack",
+          "stackDir": "vertical"
+        }
+      ],
+      "nestedInteresting": [
+        {
+          "path": "/neighbourhoods",
+          "bp": "Tablet",
+          "id": "aJLpuUP0qycUqIc8V3",
+          "name": "Neighbourhoods Hero",
+          "depth": 2,
+          "parent": "Neighbourhoods Content",
+          "width": "1fr",
+          "maxWidth": "1200px",
+          "pad": null
+        },
+        {
+          "path": "/neighbourhoods",
+          "bp": "Tablet",
+          "id": "aJLpuUP0qNrbMmTnFX",
+          "name": "Territory Grid Section",
+          "depth": 2,
+          "parent": "Neighbourhoods Content",
+          "width": "1fr",
+          "maxWidth": null,
+          "pad": "96px 40px 96px 40px"
+        },
+        {
+          "path": "/neighbourhoods",
+          "bp": "Tablet",
+          "id": "aJLpuUP0qKraraKF0A",
+          "name": "How We Read A Place",
+          "depth": 2,
+          "parent": "Neighbourhoods Content",
+          "width": "1fr",
+          "maxWidth": "1200px",
+          "pad": "96px 40px 96px 40px"
+        }
+      ]
+    },
+    {
+      "path": "/neighbourhoods",
+      "bp": "Phone",
+      "bpWidth": "390px",
+      "topSections": [
+        {
+          "path": "/neighbourhoods",
+          "bp": "Phone",
+          "id": "Qonafp_oDH1kR5JcFp",
+          "name": "Neighbourhoods Content",
+          "depth": 1,
+          "width": "1fr",
+          "maxWidth": "1200px",
+          "minWidth": null,
+          "pad": null,
+          "layout": "stack",
+          "stackDir": "vertical"
+        }
+      ],
+      "nestedInteresting": [
+        {
+          "path": "/neighbourhoods",
+          "bp": "Phone",
+          "id": "Qonafp_oDycUqIc8V3",
+          "name": "Neighbourhoods Hero",
+          "depth": 2,
+          "parent": "Neighbourhoods Content",
+          "width": "1fr",
+          "maxWidth": "1200px",
+          "pad": null
+        },
+        {
+          "path": "/neighbourhoods",
+          "bp": "Phone",
+          "id": "Qonafp_oDNrbMmTnFX",
+          "name": "Territory Grid Section",
+          "depth": 2,
+          "parent": "Neighbourhoods Content",
+          "width": "1fr",
+          "maxWidth": null,
+          "pad": "64px 16px 64px 16px"
+        },
+        {
+          "path": "/neighbourhoods",
+          "bp": "Phone",
+          "id": "Qonafp_oDKraraKF0A",
+          "name": "How We Read A Place",
+          "depth": 2,
+          "parent": "Neighbourhoods Content",
+          "width": "1fr",
+          "maxWidth": "1200px",
+          "pad": "64px 16px 64px 16px"
+        }
+      ]
+    },
+    {
+      "path": "/notes",
+      "bp": "Desktop",
+      "bpWidth": "1200px",
+      "topSections": [
+        {
+          "path": "/notes",
+          "bp": "Desktop",
+          "id": "wY1tfyIdc",
+          "name": "Journal",
+          "depth": 1,
+          "width": "1fr",
+          "maxWidth": "1200px",
+          "minWidth": null,
+          "pad": "128px 48px 0px 48px",
+          "layout": "stack",
+          "stackDir": "vertical"
+        },
+        {
+          "path": "/notes",
+          "bp": "Desktop",
+          "id": "p7CGH_nWX",
+          "name": "Journal Manifesto",
+          "depth": 1,
+          "width": "1fr",
+          "maxWidth": null,
+          "minWidth": null,
+          "pad": "128px 48px 128px 48px",
+          "layout": "stack",
+          "stackDir": "vertical"
+        }
+      ],
+      "nestedInteresting": [
+        {
+          "path": "/notes",
+          "bp": "Desktop",
+          "id": "Vq1f2mEkj",
+          "name": "Notes Hero",
+          "depth": 2,
+          "parent": "Journal",
+          "width": "1fr",
+          "maxWidth": "1200px",
+          "pad": null
+        },
+        {
+          "path": "/notes",
+          "bp": "Desktop",
+          "id": "vKC8zoOjs",
+          "name": "Content Area",
+          "depth": 2,
+          "parent": "Journal",
+          "width": "1fr",
+          "maxWidth": "1200px",
+          "pad": null
+        },
+        {
+          "path": "/notes",
+          "bp": "Desktop",
+          "id": "DZBrgFJEu",
+          "name": "Manifesto Row",
+          "depth": 2,
+          "parent": "Journal Manifesto",
+          "width": "1fr",
+          "maxWidth": "1200px",
+          "pad": null
+        }
+      ]
+    },
+    {
+      "path": "/notes",
+      "bp": "Tablet",
+      "bpWidth": "810px",
+      "topSections": [
+        {
+          "path": "/notes",
+          "bp": "Tablet",
+          "id": "LptqEiXVpwY1tfyIdc",
+          "name": "Journal",
+          "depth": 1,
+          "width": "1fr",
+          "maxWidth": "1200px",
+          "minWidth": null,
+          "pad": "96px 40px 0px 40px",
+          "layout": "stack",
+          "stackDir": "vertical"
+        },
+        {
+          "path": "/notes",
+          "bp": "Tablet",
+          "id": "LptqEiXVpp7CGH_nWX",
+          "name": "Journal Manifesto",
+          "depth": 1,
+          "width": "1fr",
+          "maxWidth": null,
+          "minWidth": null,
+          "pad": "96px 40px 96px 40px",
+          "layout": "stack",
+          "stackDir": "vertical"
+        }
+      ],
+      "nestedInteresting": [
+        {
+          "path": "/notes",
+          "bp": "Tablet",
+          "id": "LptqEiXVpVq1f2mEkj",
+          "name": "Notes Hero",
+          "depth": 2,
+          "parent": "Journal",
+          "width": "1fr",
+          "maxWidth": "1200px",
+          "pad": null
+        },
+        {
+          "path": "/notes",
+          "bp": "Tablet",
+          "id": "LptqEiXVpvKC8zoOjs",
+          "name": "Content Area",
+          "depth": 2,
+          "parent": "Journal",
+          "width": "1fr",
+          "maxWidth": "1200px",
+          "pad": null
+        },
+        {
+          "path": "/notes",
+          "bp": "Tablet",
+          "id": "LptqEiXVpDZBrgFJEu",
+          "name": "Manifesto Row",
+          "depth": 2,
+          "parent": "Journal Manifesto",
+          "width": "1fr",
+          "maxWidth": "100%",
+          "pad": null
+        }
+      ]
+    },
+    {
+      "path": "/notes",
+      "bp": "Phone",
+      "bpWidth": "390px",
+      "topSections": [
+        {
+          "path": "/notes",
+          "bp": "Phone",
+          "id": "INUKgvAnawY1tfyIdc",
+          "name": "Journal",
+          "depth": 1,
+          "width": "1fr",
+          "maxWidth": "1200px",
+          "minWidth": null,
+          "pad": "64px 16px 0px 16px",
+          "layout": "stack",
+          "stackDir": "vertical"
+        },
+        {
+          "path": "/notes",
+          "bp": "Phone",
+          "id": "INUKgvAnap7CGH_nWX",
+          "name": "Journal Manifesto",
+          "depth": 1,
+          "width": "1fr",
+          "maxWidth": null,
+          "minWidth": null,
+          "pad": "64px 16px 64px 16px",
+          "layout": "stack",
+          "stackDir": "vertical"
+        }
+      ],
+      "nestedInteresting": [
+        {
+          "path": "/notes",
+          "bp": "Phone",
+          "id": "INUKgvAnaVq1f2mEkj",
+          "name": "Notes Hero",
+          "depth": 2,
+          "parent": "Journal",
+          "width": "1fr",
+          "maxWidth": "1200px",
+          "pad": null
+        },
+        {
+          "path": "/notes",
+          "bp": "Phone",
+          "id": "INUKgvAnavKC8zoOjs",
+          "name": "Content Area",
+          "depth": 2,
+          "parent": "Journal",
+          "width": "1fr",
+          "maxWidth": "1200px",
+          "pad": null
+        },
+        {
+          "path": "/notes",
+          "bp": "Phone",
+          "id": "INUKgvAnaDZBrgFJEu",
+          "name": "Manifesto Row",
+          "depth": 2,
+          "parent": "Journal Manifesto",
+          "width": "1fr",
+          "maxWidth": "100%",
+          "pad": null
+        }
+      ]
+    },
+    {
+      "path": "/about",
+      "bp": "Desktop",
+      "bpWidth": "1200px",
+      "topSections": [
+        {
+          "path": "/about",
+          "bp": "Desktop",
+          "id": "QjoW3yYRJ",
+          "name": "Beat 1 — Portrait Stage",
+          "depth": 1,
+          "width": "100%",
+          "maxWidth": "1200px",
+          "minWidth": null,
+          "pad": null,
+          "layout": "stack",
+          "stackDir": "vertical"
+        },
+        {
+          "path": "/about",
+          "bp": "Desktop",
+          "id": "SbkA8xJAz",
+          "name": "Beat 2 — Cinematic Image",
+          "depth": 1,
+          "width": "100%",
+          "maxWidth": "1440px",
+          "minWidth": null,
+          "pad": null,
+          "layout": "stack",
+          "stackDir": "vertical"
+        },
+        {
+          "path": "/about",
+          "bp": "Desktop",
+          "id": "m1IuCE2Ht",
+          "name": "Beat 3 — Manifesto",
+          "depth": 1,
+          "width": "100%",
+          "maxWidth": "1200px",
+          "minWidth": null,
+          "pad": "128px 48px 128px 48px",
+          "layout": "stack",
+          "stackDir": "vertical"
+        },
+        {
+          "path": "/about",
+          "bp": "Desktop",
+          "id": "Te9LPe3Or",
+          "name": "Editorial Pause — Arbour in Practice",
+          "depth": 1,
+          "width": "100%",
+          "maxWidth": "1200px",
+          "minWidth": null,
+          "pad": "96px 48px 96px 48px",
+          "layout": "stack",
+          "stackDir": "vertical"
+        },
+        {
+          "path": "/about",
+          "bp": "Desktop",
+          "id": "AiolEHPNd",
+          "name": "Chapter — The Principals",
+          "depth": 1,
+          "width": "100%",
+          "maxWidth": "1200px",
+          "minWidth": null,
+          "pad": "128px 48px 128px 48px",
+          "layout": "stack",
+          "stackDir": "vertical"
+        },
+        {
+          "path": "/about",
+          "bp": "Desktop",
+          "id": "sx_GA8kBh",
+          "name": "Chapter — Two Offices",
+          "depth": 1,
+          "width": "100%",
+          "maxWidth": "1200px",
+          "minWidth": null,
+          "pad": "128px 48px 128px 48px",
+          "layout": "stack",
+          "stackDir": "vertical"
+        },
+        {
+          "path": "/about",
+          "bp": "Desktop",
+          "id": "OIVgjc19d",
+          "name": "Enquiry CTA",
+          "depth": 1,
+          "width": "1fr",
+          "maxWidth": "1200px",
+          "minWidth": null,
+          "pad": "128px 48px 128px 48px",
+          "layout": "stack",
+          "stackDir": "vertical"
+        }
+      ],
+      "nestedInteresting": [
+        {
+          "path": "/about",
+          "bp": "Desktop",
+          "id": "rbeJ3XqVd",
+          "name": "Opening Image Field",
+          "depth": 2,
+          "parent": "Beat 1 — Portrait Stage",
+          "width": "100%",
+          "maxWidth": "1200px",
+          "pad": null
+        },
+        {
+          "path": "/about",
+          "bp": "Desktop",
+          "id": "QzWTnDkey",
+          "name": "Opening Copy",
+          "depth": 2,
+          "parent": "Beat 1 — Portrait Stage",
+          "width": "100%",
+          "maxWidth": "1200px",
+          "pad": "64px 48px 64px 48px"
+        },
+        {
+          "path": "/about",
+          "bp": "Desktop",
+          "id": "dJh2vQsQg",
+          "name": "Manifesto Editorial Row",
+          "depth": 2,
+          "parent": "Beat 3 — Manifesto",
+          "width": "100%",
+          "maxWidth": "1040px",
+          "pad": null
+        },
+        {
+          "path": "/about",
+          "bp": "Desktop",
+          "id": "csvpfB13Z",
+          "name": "Team Heading",
+          "depth": 2,
+          "parent": "Chapter — The Principals",
+          "width": "100%",
+          "maxWidth": "1200px",
+          "pad": null
+        },
+        {
+          "path": "/about",
+          "bp": "Desktop",
+          "id": "lG0XIx4Ew",
+          "depth": 2,
+          "parent": "Chapter — The Principals",
+          "width": "100%",
+          "maxWidth": "1200px",
+          "pad": null
+        },
+        {
+          "path": "/about",
+          "bp": "Desktop",
+          "id": "vVFV_ZAA9",
+          "name": "Atlas Heading",
+          "depth": 2,
+          "parent": "Chapter — Two Offices",
+          "width": "100%",
+          "maxWidth": "1200px",
+          "pad": null
+        },
+        {
+          "path": "/about",
+          "bp": "Desktop",
+          "id": "eA1dianFD",
+          "name": "Office Atlas Grid",
+          "depth": 2,
+          "parent": "Chapter — Two Offices",
+          "width": "100%",
+          "maxWidth": "1200px",
+          "pad": null
+        },
+        {
+          "path": "/about",
+          "bp": "Desktop",
+          "id": "ZRxO4C6xr",
+          "depth": 2,
+          "parent": "Enquiry CTA",
+          "width": "1fr",
+          "maxWidth": "760px",
+          "pad": null
+        }
+      ]
+    },
+    {
+      "path": "/about",
+      "bp": "Tablet",
+      "bpWidth": "810px",
+      "topSections": [
+        {
+          "path": "/about",
+          "bp": "Tablet",
+          "id": "xvqDXw58eQjoW3yYRJ",
+          "name": "Beat 1 — Portrait Stage",
+          "depth": 1,
+          "width": "100%",
+          "maxWidth": "1200px",
+          "minWidth": null,
+          "pad": null,
+          "layout": "stack",
+          "stackDir": "vertical"
+        },
+        {
+          "path": "/about",
+          "bp": "Tablet",
+          "id": "xvqDXw58eSbkA8xJAz",
+          "name": "Beat 2 — Cinematic Image",
+          "depth": 1,
+          "width": "100%",
+          "maxWidth": "1440px",
+          "minWidth": null,
+          "pad": null,
+          "layout": "stack",
+          "stackDir": "vertical"
+        },
+        {
+          "path": "/about",
+          "bp": "Tablet",
+          "id": "xvqDXw58em1IuCE2Ht",
+          "name": "Beat 3 — Manifesto",
+          "depth": 1,
+          "width": "100%",
+          "maxWidth": "1200px",
+          "minWidth": null,
+          "pad": "96px 40px 96px 40px",
+          "layout": "stack",
+          "stackDir": "vertical"
+        },
+        {
+          "path": "/about",
+          "bp": "Tablet",
+          "id": "xvqDXw58eTe9LPe3Or",
+          "name": "Editorial Pause — Arbour in Practice",
+          "depth": 1,
+          "width": "100%",
+          "maxWidth": "1200px",
+          "minWidth": null,
+          "pad": "72px 40px 72px 40px",
+          "layout": "stack",
+          "stackDir": "vertical"
+        },
+        {
+          "path": "/about",
+          "bp": "Tablet",
+          "id": "xvqDXw58eAiolEHPNd",
+          "name": "Chapter — The Principals",
+          "depth": 1,
+          "width": "100%",
+          "maxWidth": "1200px",
+          "minWidth": null,
+          "pad": "96px 40px 96px 40px",
+          "layout": "stack",
+          "stackDir": "vertical"
+        },
+        {
+          "path": "/about",
+          "bp": "Tablet",
+          "id": "xvqDXw58esx_GA8kBh",
+          "name": "Chapter — Two Offices",
+          "depth": 1,
+          "width": "100%",
+          "maxWidth": "1200px",
+          "minWidth": null,
+          "pad": "96px 40px 96px 40px",
+          "layout": "stack",
+          "stackDir": "vertical"
+        },
+        {
+          "path": "/about",
+          "bp": "Tablet",
+          "id": "xvqDXw58eOIVgjc19d",
+          "name": "Enquiry CTA",
+          "depth": 1,
+          "width": "1fr",
+          "maxWidth": "1200px",
+          "minWidth": null,
+          "pad": "96px 40px 96px 40px",
+          "layout": "stack",
+          "stackDir": "vertical"
+        }
+      ],
+      "nestedInteresting": [
+        {
+          "path": "/about",
+          "bp": "Tablet",
+          "id": "xvqDXw58erbeJ3XqVd",
+          "name": "Opening Image Field",
+          "depth": 2,
+          "parent": "Beat 1 — Portrait Stage",
+          "width": "100%",
+          "maxWidth": "1200px",
+          "pad": null
+        },
+        {
+          "path": "/about",
+          "bp": "Tablet",
+          "id": "xvqDXw58eQzWTnDkey",
+          "name": "Opening Copy",
+          "depth": 2,
+          "parent": "Beat 1 — Portrait Stage",
+          "width": "100%",
+          "maxWidth": "730px",
+          "pad": "48px 0px 48px 0px"
+        },
+        {
+          "path": "/about",
+          "bp": "Tablet",
+          "id": "xvqDXw58edJh2vQsQg",
+          "name": "Manifesto Editorial Row",
+          "depth": 2,
+          "parent": "Beat 3 — Manifesto",
+          "width": "100%",
+          "maxWidth": "1040px",
+          "pad": null
+        },
+        {
+          "path": "/about",
+          "bp": "Tablet",
+          "id": "xvqDXw58ecsvpfB13Z",
+          "name": "Team Heading",
+          "depth": 2,
+          "parent": "Chapter — The Principals",
+          "width": "100%",
+          "maxWidth": "1200px",
+          "pad": null
+        },
+        {
+          "path": "/about",
+          "bp": "Tablet",
+          "id": "xvqDXw58elG0XIx4Ew",
+          "depth": 2,
+          "parent": "Chapter — The Principals",
+          "width": "100%",
+          "maxWidth": "1200px",
+          "pad": null
+        },
+        {
+          "path": "/about",
+          "bp": "Tablet",
+          "id": "xvqDXw58evVFV_ZAA9",
+          "name": "Atlas Heading",
+          "depth": 2,
+          "parent": "Chapter — Two Offices",
+          "width": "100%",
+          "maxWidth": "1200px",
+          "pad": null
+        },
+        {
+          "path": "/about",
+          "bp": "Tablet",
+          "id": "xvqDXw58eeA1dianFD",
+          "name": "Office Atlas Grid",
+          "depth": 2,
+          "parent": "Chapter — Two Offices",
+          "width": "100%",
+          "maxWidth": "1200px",
+          "pad": null
+        },
+        {
+          "path": "/about",
+          "bp": "Tablet",
+          "id": "xvqDXw58eZRxO4C6xr",
+          "depth": 2,
+          "parent": "Enquiry CTA",
+          "width": "1fr",
+          "maxWidth": "720px",
+          "pad": null
+        }
+      ]
+    },
+    {
+      "path": "/about",
+      "bp": "Phone",
+      "bpWidth": "390px",
+      "topSections": [
+        {
+          "path": "/about",
+          "bp": "Phone",
+          "id": "CYNrpU04tQjoW3yYRJ",
+          "name": "Beat 1 — Portrait Stage",
+          "depth": 1,
+          "width": "100%",
+          "maxWidth": "1200px",
+          "minWidth": null,
+          "pad": null,
+          "layout": "stack",
+          "stackDir": "vertical"
+        },
+        {
+          "path": "/about",
+          "bp": "Phone",
+          "id": "CYNrpU04tSbkA8xJAz",
+          "name": "Beat 2 — Cinematic Image",
+          "depth": 1,
+          "width": "100%",
+          "maxWidth": "1440px",
+          "minWidth": null,
+          "pad": null,
+          "layout": "stack",
+          "stackDir": "vertical"
+        },
+        {
+          "path": "/about",
+          "bp": "Phone",
+          "id": "CYNrpU04tm1IuCE2Ht",
+          "name": "Beat 3 — Manifesto",
+          "depth": 1,
+          "width": "100%",
+          "maxWidth": "1200px",
+          "minWidth": null,
+          "pad": "64px 16px 64px 16px",
+          "layout": "stack",
+          "stackDir": "vertical"
+        },
+        {
+          "path": "/about",
+          "bp": "Phone",
+          "id": "CYNrpU04tTe9LPe3Or",
+          "name": "Editorial Pause — Arbour in Practice",
+          "depth": 1,
+          "width": "100%",
+          "maxWidth": "1200px",
+          "minWidth": null,
+          "pad": "48px 16px 48px 16px",
+          "layout": "stack",
+          "stackDir": "vertical"
+        },
+        {
+          "path": "/about",
+          "bp": "Phone",
+          "id": "CYNrpU04tAiolEHPNd",
+          "name": "Chapter — The Principals",
+          "depth": 1,
+          "width": "100%",
+          "maxWidth": "1200px",
+          "minWidth": null,
+          "pad": "64px 16px 64px 16px",
+          "layout": "stack",
+          "stackDir": "vertical"
+        },
+        {
+          "path": "/about",
+          "bp": "Phone",
+          "id": "CYNrpU04tsx_GA8kBh",
+          "name": "Chapter — Two Offices",
+          "depth": 1,
+          "width": "100%",
+          "maxWidth": "1200px",
+          "minWidth": null,
+          "pad": "64px 16px 64px 16px",
+          "layout": "stack",
+          "stackDir": "vertical"
+        },
+        {
+          "path": "/about",
+          "bp": "Phone",
+          "id": "CYNrpU04tOIVgjc19d",
+          "name": "Enquiry CTA",
+          "depth": 1,
+          "width": "1fr",
+          "maxWidth": "1200px",
+          "minWidth": null,
+          "pad": "64px 16px 64px 16px",
+          "layout": "stack",
+          "stackDir": "vertical"
+        }
+      ],
+      "nestedInteresting": [
+        {
+          "path": "/about",
+          "bp": "Phone",
+          "id": "CYNrpU04trbeJ3XqVd",
+          "name": "Opening Image Field",
+          "depth": 2,
+          "parent": "Beat 1 — Portrait Stage",
+          "width": "100%",
+          "maxWidth": "1200px",
+          "pad": null
+        },
+        {
+          "path": "/about",
+          "bp": "Phone",
+          "id": "CYNrpU04tQzWTnDkey",
+          "name": "Opening Copy",
+          "depth": 2,
+          "parent": "Beat 1 — Portrait Stage",
+          "width": "100%",
+          "maxWidth": "342px",
+          "pad": "40px 0px 40px 0px"
+        },
+        {
+          "path": "/about",
+          "bp": "Phone",
+          "id": "CYNrpU04tdJh2vQsQg",
+          "name": "Manifesto Editorial Row",
+          "depth": 2,
+          "parent": "Beat 3 — Manifesto",
+          "width": "100%",
+          "maxWidth": "1040px",
+          "pad": null
+        },
+        {
+          "path": "/about",
+          "bp": "Phone",
+          "id": "CYNrpU04tcsvpfB13Z",
+          "name": "Team Heading",
+          "depth": 2,
+          "parent": "Chapter — The Principals",
+          "width": "100%",
+          "maxWidth": "1200px",
+          "pad": null
+        },
+        {
+          "path": "/about",
+          "bp": "Phone",
+          "id": "CYNrpU04tlG0XIx4Ew",
+          "depth": 2,
+          "parent": "Chapter — The Principals",
+          "width": "100%",
+          "maxWidth": "1200px",
+          "pad": null
+        },
+        {
+          "path": "/about",
+          "bp": "Phone",
+          "id": "CYNrpU04tvVFV_ZAA9",
+          "name": "Atlas Heading",
+          "depth": 2,
+          "parent": "Chapter — Two Offices",
+          "width": "100%",
+          "maxWidth": "1200px",
+          "pad": null
+        },
+        {
+          "path": "/about",
+          "bp": "Phone",
+          "id": "CYNrpU04teA1dianFD",
+          "name": "Office Atlas Grid",
+          "depth": 2,
+          "parent": "Chapter — Two Offices",
+          "width": "100%",
+          "maxWidth": "1200px",
+          "pad": null
+        },
+        {
+          "path": "/about",
+          "bp": "Phone",
+          "id": "CYNrpU04tZRxO4C6xr",
+          "depth": 2,
+          "parent": "Enquiry CTA",
+          "width": "1fr",
+          "maxWidth": "350px",
+          "pad": null
+        }
+      ]
+    },
+    {
+      "path": "/contact",
+      "bp": "Desktop",
+      "bpWidth": "1200px",
+      "topSections": [
+        {
+          "path": "/contact",
+          "bp": "Desktop",
+          "id": "jmmPpci8t",
+          "name": "Contact Hero",
+          "depth": 1,
+          "width": "1fr",
+          "maxWidth": null,
+          "minWidth": null,
+          "pad": "128px 48px 64px 48px",
+          "layout": "stack",
+          "stackDir": "horizontal"
+        },
+        {
+          "path": "/contact",
+          "bp": "Desktop",
+          "id": "vv0Vi0hbh",
+          "name": "Contact Opening",
+          "depth": 1,
+          "width": "1fr",
+          "maxWidth": null,
+          "minWidth": null,
+          "pad": "128px 48px 128px 48px",
+          "layout": "stack",
+          "stackDir": "vertical"
+        },
+        {
+          "path": "/contact",
+          "bp": "Desktop",
+          "id": "liyenGbOL",
+          "name": "Private Consultation Pause",
+          "depth": 1,
+          "width": "100%",
+          "maxWidth": "1200px",
+          "minWidth": null,
+          "pad": "96px 48px 96px 48px",
+          "layout": "stack",
+          "stackDir": "vertical"
+        },
+        {
+          "path": "/contact",
+          "bp": "Desktop",
+          "id": "R3nS8tMqV",
+          "name": "Journal",
+          "depth": 1,
+          "width": "1fr",
+          "maxWidth": "1200px",
+          "minWidth": null,
+          "pad": "128px 48px 128px 48px",
+          "layout": "stack",
+          "stackDir": "vertical"
+        }
+      ],
+      "nestedInteresting": [
+        {
+          "path": "/contact",
+          "bp": "Desktop",
+          "id": "AATw4pip9",
+          "name": "Hero Copy",
+          "depth": 2,
+          "parent": "Contact Hero",
+          "width": "1.08fr",
+          "maxWidth": null,
+          "pad": "0px 48px 0px 0px"
+        },
+        {
+          "path": "/contact",
+          "bp": "Desktop",
+          "id": "WLSMm5iy1",
+          "name": "Hero Entrance Media",
+          "depth": 2,
+          "parent": "Contact Hero",
+          "width": "0.92fr",
+          "maxWidth": null,
+          "pad": null
+        },
+        {
+          "path": "/contact",
+          "bp": "Desktop",
+          "id": "f6WUp6SN5",
+          "depth": 2,
+          "parent": "Contact Opening",
+          "width": "1fr",
+          "maxWidth": "1200px",
+          "pad": null
+        },
+        {
+          "path": "/contact",
+          "bp": "Desktop",
+          "id": "w1lCAnw5U",
+          "name": "Opening Note",
+          "depth": 2,
+          "parent": "Contact Opening",
+          "width": "1fr",
+          "maxWidth": "1200px",
+          "pad": "32px 0px 0px 0px"
+        },
+        {
+          "path": "/contact",
+          "bp": "Desktop",
+          "id": "cAJdgOlMA",
+          "depth": 2,
+          "parent": "Journal",
+          "width": "1fr",
+          "maxWidth": "1200px",
+          "pad": "0px 0px 32px 0px"
+        },
+        {
+          "path": "/contact",
+          "bp": "Desktop",
+          "id": "VKMl8D_oG",
+          "name": "Content Area",
+          "depth": 2,
+          "parent": "Journal",
+          "width": "1fr",
+          "maxWidth": "1200px",
+          "pad": null
+        }
+      ]
+    },
+    {
+      "path": "/contact",
+      "bp": "Tablet",
+      "bpWidth": "810px",
+      "topSections": [
+        {
+          "path": "/contact",
+          "bp": "Tablet",
+          "id": "qjv2S9WpajmmPpci8t",
+          "name": "Contact Hero",
+          "depth": 1,
+          "width": "1fr",
+          "maxWidth": null,
+          "minWidth": null,
+          "pad": "96px 40px 48px 40px",
+          "layout": "stack",
+          "stackDir": "horizontal"
+        },
+        {
+          "path": "/contact",
+          "bp": "Tablet",
+          "id": "qjv2S9Wpavv0Vi0hbh",
+          "name": "Contact Opening",
+          "depth": 1,
+          "width": "1fr",
+          "maxWidth": null,
+          "minWidth": null,
+          "pad": "96px 40px 96px 40px",
+          "layout": "stack",
+          "stackDir": "vertical"
+        },
+        {
+          "path": "/contact",
+          "bp": "Tablet",
+          "id": "qjv2S9WpaliyenGbOL",
+          "name": "Private Consultation Pause",
+          "depth": 1,
+          "width": "100%",
+          "maxWidth": "1200px",
+          "minWidth": null,
+          "pad": "72px 40px 72px 40px",
+          "layout": "stack",
+          "stackDir": "vertical"
+        },
+        {
+          "path": "/contact",
+          "bp": "Tablet",
+          "id": "qjv2S9WpaR3nS8tMqV",
+          "name": "Journal",
+          "depth": 1,
+          "width": "1fr",
+          "maxWidth": "1200px",
+          "minWidth": null,
+          "pad": "96px 40px 96px 40px",
+          "layout": "stack",
+          "stackDir": "vertical"
+        }
+      ],
+      "nestedInteresting": [
+        {
+          "path": "/contact",
+          "bp": "Tablet",
+          "id": "qjv2S9WpaAATw4pip9",
+          "name": "Hero Copy",
+          "depth": 2,
+          "parent": "Contact Hero",
+          "width": "1.2fr",
+          "maxWidth": null,
+          "pad": "0px 40px 0px 0px"
+        },
+        {
+          "path": "/contact",
+          "bp": "Tablet",
+          "id": "qjv2S9WpaWLSMm5iy1",
+          "name": "Hero Entrance Media",
+          "depth": 2,
+          "parent": "Contact Hero",
+          "width": "0.8fr",
+          "maxWidth": null,
+          "pad": null
+        },
+        {
+          "path": "/contact",
+          "bp": "Tablet",
+          "id": "qjv2S9Wpaf6WUp6SN5",
+          "depth": 2,
+          "parent": "Contact Opening",
+          "width": "1fr",
+          "maxWidth": "1200px",
+          "pad": null
+        },
+        {
+          "path": "/contact",
+          "bp": "Tablet",
+          "id": "qjv2S9Wpaw1lCAnw5U",
+          "name": "Opening Note",
+          "depth": 2,
+          "parent": "Contact Opening",
+          "width": "1fr",
+          "maxWidth": "1200px",
+          "pad": "24px 0px 0px 0px"
+        },
+        {
+          "path": "/contact",
+          "bp": "Tablet",
+          "id": "qjv2S9WpacAJdgOlMA",
+          "depth": 2,
+          "parent": "Journal",
+          "width": "1fr",
+          "maxWidth": "1200px",
+          "pad": "0px 0px 32px 0px"
+        },
+        {
+          "path": "/contact",
+          "bp": "Tablet",
+          "id": "qjv2S9WpaVKMl8D_oG",
+          "name": "Content Area",
+          "depth": 2,
+          "parent": "Journal",
+          "width": "1fr",
+          "maxWidth": "1200px",
+          "pad": null
+        }
+      ]
+    },
+    {
+      "path": "/contact",
+      "bp": "Phone",
+      "bpWidth": "390px",
+      "topSections": [
+        {
+          "path": "/contact",
+          "bp": "Phone",
+          "id": "jEM0wBo2vjmmPpci8t",
+          "name": "Contact Hero",
+          "depth": 1,
+          "width": "1fr",
+          "maxWidth": null,
+          "minWidth": null,
+          "pad": "64px 16px 40px 16px",
+          "layout": "stack",
+          "stackDir": "vertical"
+        },
+        {
+          "path": "/contact",
+          "bp": "Phone",
+          "id": "jEM0wBo2vvv0Vi0hbh",
+          "name": "Contact Opening",
+          "depth": 1,
+          "width": "1fr",
+          "maxWidth": null,
+          "minWidth": null,
+          "pad": "64px 16px 64px 16px",
+          "layout": "stack",
+          "stackDir": "vertical"
+        },
+        {
+          "path": "/contact",
+          "bp": "Phone",
+          "id": "jEM0wBo2vliyenGbOL",
+          "name": "Private Consultation Pause",
+          "depth": 1,
+          "width": "100%",
+          "maxWidth": "1200px",
+          "minWidth": null,
+          "pad": "48px 16px 48px 16px",
+          "layout": "stack",
+          "stackDir": "vertical"
+        },
+        {
+          "path": "/contact",
+          "bp": "Phone",
+          "id": "jEM0wBo2vR3nS8tMqV",
+          "name": "Journal",
+          "depth": 1,
+          "width": "1fr",
+          "maxWidth": "1200px",
+          "minWidth": null,
+          "pad": "64px 16px 64px 16px",
+          "layout": "stack",
+          "stackDir": "vertical"
+        }
+      ],
+      "nestedInteresting": [
+        {
+          "path": "/contact",
+          "bp": "Phone",
+          "id": "jEM0wBo2vAATw4pip9",
+          "name": "Hero Copy",
+          "depth": 2,
+          "parent": "Contact Hero",
+          "width": "1fr",
+          "maxWidth": null,
+          "pad": "40px 0px 40px 0px"
+        },
+        {
+          "path": "/contact",
+          "bp": "Phone",
+          "id": "jEM0wBo2vWLSMm5iy1",
+          "name": "Hero Entrance Media",
+          "depth": 2,
+          "parent": "Contact Hero",
+          "width": "1fr",
+          "maxWidth": null,
+          "pad": null
+        },
+        {
+          "path": "/contact",
+          "bp": "Phone",
+          "id": "jEM0wBo2vf6WUp6SN5",
+          "depth": 2,
+          "parent": "Contact Opening",
+          "width": "1fr",
+          "maxWidth": "1200px",
+          "pad": null
+        },
+        {
+          "path": "/contact",
+          "bp": "Phone",
+          "id": "jEM0wBo2vw1lCAnw5U",
+          "name": "Opening Note",
+          "depth": 2,
+          "parent": "Contact Opening",
+          "width": "1fr",
+          "maxWidth": "1200px",
+          "pad": "24px 0px 0px 0px"
+        },
+        {
+          "path": "/contact",
+          "bp": "Phone",
+          "id": "jEM0wBo2vcAJdgOlMA",
+          "depth": 2,
+          "parent": "Journal",
+          "width": "1fr",
+          "maxWidth": "1200px",
+          "pad": "0px 0px 32px 0px"
+        },
+        {
+          "path": "/contact",
+          "bp": "Phone",
+          "id": "jEM0wBo2vVKMl8D_oG",
+          "name": "Content Area",
+          "depth": 2,
+          "parent": "Journal",
+          "width": "1fr",
+          "maxWidth": "1200px",
+          "pad": null
+        }
+      ]
+    },
+    {
+      "path": "/properties/:slug",
+      "bp": "Desktop",
+      "bpWidth": "1200px",
+      "topSections": [
+        {
+          "path": "/properties/:slug",
+          "bp": "Desktop",
+          "id": "lODMk6Egu",
+          "name": "Property Hero",
+          "depth": 1,
+          "width": "1fr",
+          "maxWidth": "1200px",
+          "minWidth": null,
+          "pad": "128px 48px 128px 48px",
+          "layout": "grid",
+          "stackDir": null
+        },
+        {
+          "path": "/properties/:slug",
+          "bp": "Desktop",
+          "id": "aqUTeKNkU",
+          "name": "Property Specs Band",
+          "depth": 1,
+          "width": "1fr",
+          "maxWidth": "1200px",
+          "minWidth": null,
+          "pad": "0px 48px 0px 48px",
+          "layout": "stack",
+          "stackDir": "vertical"
+        },
+        {
+          "path": "/properties/:slug",
+          "bp": "Desktop",
+          "id": "ubrig7P0R",
+          "name": "Chapter Intro",
+          "depth": 1,
+          "width": "1fr",
+          "maxWidth": "1200px",
+          "minWidth": null,
+          "pad": "128px 48px 128px 48px",
+          "layout": "stack",
+          "stackDir": "vertical"
+        },
+        {
+          "path": "/properties/:slug",
+          "bp": "Desktop",
+          "id": "lP4ZL6y0c",
+          "name": "Cinematic Gallery",
+          "depth": 1,
+          "width": "100%",
+          "maxWidth": "1200px",
+          "minWidth": null,
+          "pad": "0px 48px 128px 48px",
+          "layout": "stack",
+          "stackDir": "vertical"
+        },
+        {
+          "path": "/properties/:slug",
+          "bp": "Desktop",
+          "id": "uZ8oOXu4y",
+          "name": "The Setting",
+          "depth": 1,
+          "width": "100%",
+          "maxWidth": "1200px",
+          "minWidth": null,
+          "pad": "128px 48px 128px 48px",
+          "layout": "stack",
+          "stackDir": "horizontal"
+        },
+        {
+          "path": "/properties/:slug",
+          "bp": "Desktop",
+          "id": "vlElPVCV7",
+          "name": "Property Particulars",
+          "depth": 1,
+          "width": "100%",
+          "maxWidth": "1200px",
+          "minWidth": null,
+          "pad": "128px 48px 128px 48px",
+          "layout": "stack",
+          "stackDir": "vertical"
+        },
+        {
+          "path": "/properties/:slug",
+          "bp": "Desktop",
+          "id": "OA3sHhDMv",
+          "name": "Continue Your Search",
+          "depth": 1,
+          "width": "100%",
+          "maxWidth": "1200px",
+          "minWidth": null,
+          "pad": "128px 48px 128px 48px",
+          "layout": "stack",
+          "stackDir": "vertical"
+        },
+        {
+          "path": "/properties/:slug",
+          "bp": "Desktop",
+          "id": "Wy9_asNQu",
+          "name": "Enquiry CTA",
+          "depth": 1,
+          "width": "1fr",
+          "maxWidth": "1200px",
+          "minWidth": null,
+          "pad": "128px 48px 128px 48px",
+          "layout": "stack",
+          "stackDir": "vertical"
+        }
+      ],
+      "nestedInteresting": [
+        {
+          "path": "/properties/:slug",
+          "bp": "Desktop",
+          "id": "gB0CaDpqa",
+          "name": "Chapter One Title",
+          "depth": 2,
+          "parent": "Chapter Intro",
+          "width": "1fr",
+          "maxWidth": "960px",
+          "pad": null
+        },
+        {
+          "path": "/properties/:slug",
+          "bp": "Desktop",
+          "id": "CGYpcrzdu",
+          "name": "Gallery Grid",
+          "depth": 2,
+          "parent": "Cinematic Gallery",
+          "width": "1fr",
+          "maxWidth": null,
+          "pad": null
+        },
+        {
+          "path": "/properties/:slug",
+          "bp": "Desktop",
+          "id": "dvQGZybHU",
+          "name": "Gallery Narrative",
+          "depth": 2,
+          "parent": "Cinematic Gallery",
+          "width": "1fr",
+          "maxWidth": "880px",
+          "pad": null
+        },
+        {
+          "path": "/properties/:slug",
+          "bp": "Desktop",
+          "id": "o1RUuQ9Rb",
+          "name": "Setting Introduction",
+          "depth": 2,
+          "parent": "The Setting",
+          "width": "1fr",
+          "maxWidth": "420px",
+          "pad": null
+        },
+        {
+          "path": "/properties/:slug",
+          "bp": "Desktop",
+          "id": "k7yeGH7Sv",
+          "name": "Setting Copy",
+          "depth": 2,
+          "parent": "The Setting",
+          "width": "1fr",
+          "maxWidth": "520px",
+          "pad": null
+        },
+        {
+          "path": "/properties/:slug",
+          "bp": "Desktop",
+          "id": "sviYbp_hn",
+          "name": "Particulars Inner",
+          "depth": 2,
+          "parent": "Property Particulars",
+          "width": "100%",
+          "maxWidth": "1200px",
+          "pad": null
+        },
+        {
+          "path": "/properties/:slug",
+          "bp": "Desktop",
+          "id": "p_Sf6HGQb",
+          "depth": 2,
+          "parent": "Enquiry CTA",
+          "width": "1fr",
+          "maxWidth": "760px",
+          "pad": null
+        }
+      ]
+    },
+    {
+      "path": "/properties/:slug",
+      "bp": "Tablet",
+      "bpWidth": "810px",
+      "topSections": [
+        {
+          "path": "/properties/:slug",
+          "bp": "Tablet",
+          "id": "IQmBTrFpblODMk6Egu",
+          "name": "Property Hero",
+          "depth": 1,
+          "width": "1fr",
+          "maxWidth": "1200px",
+          "minWidth": null,
+          "pad": "96px 40px 96px 40px",
+          "layout": "stack",
+          "stackDir": "vertical"
+        },
+        {
+          "path": "/properties/:slug",
+          "bp": "Tablet",
+          "id": "IQmBTrFpbaqUTeKNkU",
+          "name": "Property Specs Band",
+          "depth": 1,
+          "width": "1fr",
+          "maxWidth": "1200px",
+          "minWidth": null,
+          "pad": "0px 40px 0px 40px",
+          "layout": "stack",
+          "stackDir": "vertical"
+        },
+        {
+          "path": "/properties/:slug",
+          "bp": "Tablet",
+          "id": "IQmBTrFpbubrig7P0R",
+          "name": "Chapter Intro",
+          "depth": 1,
+          "width": "1fr",
+          "maxWidth": "1200px",
+          "minWidth": null,
+          "pad": "96px 40px 96px 40px",
+          "layout": "stack",
+          "stackDir": "vertical"
+        },
+        {
+          "path": "/properties/:slug",
+          "bp": "Tablet",
+          "id": "IQmBTrFpblP4ZL6y0c",
+          "name": "Cinematic Gallery",
+          "depth": 1,
+          "width": "100%",
+          "maxWidth": "1200px",
+          "minWidth": null,
+          "pad": "0px 40px 96px 40px",
+          "layout": "stack",
+          "stackDir": "vertical"
+        },
+        {
+          "path": "/properties/:slug",
+          "bp": "Tablet",
+          "id": "IQmBTrFpbuZ8oOXu4y",
+          "name": "The Setting",
+          "depth": 1,
+          "width": "100%",
+          "maxWidth": "1200px",
+          "minWidth": null,
+          "pad": "96px 40px 96px 40px",
+          "layout": "stack",
+          "stackDir": "vertical"
+        },
+        {
+          "path": "/properties/:slug",
+          "bp": "Tablet",
+          "id": "IQmBTrFpbvlElPVCV7",
+          "name": "Property Particulars",
+          "depth": 1,
+          "width": "100%",
+          "maxWidth": "1200px",
+          "minWidth": null,
+          "pad": "96px 40px 96px 40px",
+          "layout": "stack",
+          "stackDir": "vertical"
+        },
+        {
+          "path": "/properties/:slug",
+          "bp": "Tablet",
+          "id": "IQmBTrFpbOA3sHhDMv",
+          "name": "Continue Your Search",
+          "depth": 1,
+          "width": "100%",
+          "maxWidth": "1200px",
+          "minWidth": null,
+          "pad": "96px 40px 96px 40px",
+          "layout": "stack",
+          "stackDir": "vertical"
+        },
+        {
+          "path": "/properties/:slug",
+          "bp": "Tablet",
+          "id": "IQmBTrFpbWy9_asNQu",
+          "name": "Enquiry CTA",
+          "depth": 1,
+          "width": "1fr",
+          "maxWidth": "1200px",
+          "minWidth": null,
+          "pad": "96px 40px 96px 40px",
+          "layout": "stack",
+          "stackDir": "vertical"
+        }
+      ],
+      "nestedInteresting": [
+        {
+          "path": "/properties/:slug",
+          "bp": "Tablet",
+          "id": "IQmBTrFpbgB0CaDpqa",
+          "name": "Chapter One Title",
+          "depth": 2,
+          "parent": "Chapter Intro",
+          "width": "1fr",
+          "maxWidth": "960px",
+          "pad": null
+        },
+        {
+          "path": "/properties/:slug",
+          "bp": "Tablet",
+          "id": "IQmBTrFpbCGYpcrzdu",
+          "name": "Gallery Grid",
+          "depth": 2,
+          "parent": "Cinematic Gallery",
+          "width": "730px",
+          "maxWidth": null,
+          "pad": null
+        },
+        {
+          "path": "/properties/:slug",
+          "bp": "Tablet",
+          "id": "IQmBTrFpbdvQGZybHU",
+          "name": "Gallery Narrative",
+          "depth": 2,
+          "parent": "Cinematic Gallery",
+          "width": "1fr",
+          "maxWidth": "880px",
+          "pad": null
+        },
+        {
+          "path": "/properties/:slug",
+          "bp": "Tablet",
+          "id": "IQmBTrFpbo1RUuQ9Rb",
+          "name": "Setting Introduction",
+          "depth": 2,
+          "parent": "The Setting",
+          "width": "1fr",
+          "maxWidth": "620px",
+          "pad": null
+        },
+        {
+          "path": "/properties/:slug",
+          "bp": "Tablet",
+          "id": "IQmBTrFpbk7yeGH7Sv",
+          "name": "Setting Copy",
+          "depth": 2,
+          "parent": "The Setting",
+          "width": "1fr",
+          "maxWidth": "620px",
+          "pad": null
+        },
+        {
+          "path": "/properties/:slug",
+          "bp": "Tablet",
+          "id": "IQmBTrFpbsviYbp_hn",
+          "name": "Particulars Inner",
+          "depth": 2,
+          "parent": "Property Particulars",
+          "width": "100%",
+          "maxWidth": "1200px",
+          "pad": null
+        },
+        {
+          "path": "/properties/:slug",
+          "bp": "Tablet",
+          "id": "IQmBTrFpbp_Sf6HGQb",
+          "depth": 2,
+          "parent": "Enquiry CTA",
+          "width": "1fr",
+          "maxWidth": "720px",
+          "pad": null
+        }
+      ]
+    },
+    {
+      "path": "/properties/:slug",
+      "bp": "Phone",
+      "bpWidth": "390px",
+      "topSections": [
+        {
+          "path": "/properties/:slug",
+          "bp": "Phone",
+          "id": "MrTKJzwELlODMk6Egu",
+          "name": "Property Hero",
+          "depth": 1,
+          "width": "1fr",
+          "maxWidth": "1200px",
+          "minWidth": null,
+          "pad": "64px 16px 64px 16px",
+          "layout": "stack",
+          "stackDir": "vertical"
+        },
+        {
+          "path": "/properties/:slug",
+          "bp": "Phone",
+          "id": "MrTKJzwELaqUTeKNkU",
+          "name": "Property Specs Band",
+          "depth": 1,
+          "width": "1fr",
+          "maxWidth": null,
+          "minWidth": null,
+          "pad": "0px 16px 0px 16px",
+          "layout": "stack",
+          "stackDir": "vertical"
+        },
+        {
+          "path": "/properties/:slug",
+          "bp": "Phone",
+          "id": "MrTKJzwELubrig7P0R",
+          "name": "Chapter Intro",
+          "depth": 1,
+          "width": "1fr",
+          "maxWidth": null,
+          "minWidth": null,
+          "pad": "64px 16px 64px 16px",
+          "layout": "stack",
+          "stackDir": "vertical"
+        },
+        {
+          "path": "/properties/:slug",
+          "bp": "Phone",
+          "id": "MrTKJzwELlP4ZL6y0c",
+          "name": "Cinematic Gallery",
+          "depth": 1,
+          "width": "100%",
+          "maxWidth": "1200px",
+          "minWidth": null,
+          "pad": "0px 16px 64px 16px",
+          "layout": "stack",
+          "stackDir": "vertical"
+        },
+        {
+          "path": "/properties/:slug",
+          "bp": "Phone",
+          "id": "MrTKJzwELuZ8oOXu4y",
+          "name": "The Setting",
+          "depth": 1,
+          "width": "100%",
+          "maxWidth": "1200px",
+          "minWidth": null,
+          "pad": "64px 16px 64px 16px",
+          "layout": "stack",
+          "stackDir": "vertical"
+        },
+        {
+          "path": "/properties/:slug",
+          "bp": "Phone",
+          "id": "MrTKJzwELvlElPVCV7",
+          "name": "Property Particulars",
+          "depth": 1,
+          "width": "100%",
+          "maxWidth": "1200px",
+          "minWidth": null,
+          "pad": "64px 16px 64px 16px",
+          "layout": "stack",
+          "stackDir": "vertical"
+        },
+        {
+          "path": "/properties/:slug",
+          "bp": "Phone",
+          "id": "MrTKJzwELOA3sHhDMv",
+          "name": "Continue Your Search",
+          "depth": 1,
+          "width": "100%",
+          "maxWidth": "1200px",
+          "minWidth": null,
+          "pad": "64px 16px 64px 16px",
+          "layout": "stack",
+          "stackDir": "vertical"
+        },
+        {
+          "path": "/properties/:slug",
+          "bp": "Phone",
+          "id": "MrTKJzwELWy9_asNQu",
+          "name": "Enquiry CTA",
+          "depth": 1,
+          "width": "1fr",
+          "maxWidth": "1200px",
+          "minWidth": null,
+          "pad": "64px 16px 64px 16px",
+          "layout": "stack",
+          "stackDir": "vertical"
+        }
+      ],
+      "nestedInteresting": [
+        {
+          "path": "/properties/:slug",
+          "bp": "Phone",
+          "id": "MrTKJzwELgB0CaDpqa",
+          "name": "Chapter One Title",
+          "depth": 2,
+          "parent": "Chapter Intro",
+          "width": "1fr",
+          "maxWidth": "960px",
+          "pad": null
+        },
+        {
+          "path": "/properties/:slug",
+          "bp": "Phone",
+          "id": "MrTKJzwELCGYpcrzdu",
+          "name": "Gallery Grid",
+          "depth": 2,
+          "parent": "Cinematic Gallery",
+          "width": "1fr",
+          "maxWidth": null,
+          "pad": null
+        },
+        {
+          "path": "/properties/:slug",
+          "bp": "Phone",
+          "id": "MrTKJzwELdvQGZybHU",
+          "name": "Gallery Narrative",
+          "depth": 2,
+          "parent": "Cinematic Gallery",
+          "width": "1fr",
+          "maxWidth": "100%",
+          "pad": null
+        },
+        {
+          "path": "/properties/:slug",
+          "bp": "Phone",
+          "id": "MrTKJzwELo1RUuQ9Rb",
+          "name": "Setting Introduction",
+          "depth": 2,
+          "parent": "The Setting",
+          "width": "1fr",
+          "maxWidth": "100%",
+          "pad": null
+        },
+        {
+          "path": "/properties/:slug",
+          "bp": "Phone",
+          "id": "MrTKJzwELk7yeGH7Sv",
+          "name": "Setting Copy",
+          "depth": 2,
+          "parent": "The Setting",
+          "width": "1fr",
+          "maxWidth": "100%",
+          "pad": null
+        },
+        {
+          "path": "/properties/:slug",
+          "bp": "Phone",
+          "id": "MrTKJzwELsviYbp_hn",
+          "name": "Particulars Inner",
+          "depth": 2,
+          "parent": "Property Particulars",
+          "width": "100%",
+          "maxWidth": "1200px",
+          "pad": null
+        },
+        {
+          "path": "/properties/:slug",
+          "bp": "Phone",
+          "id": "MrTKJzwELp_Sf6HGQb",
+          "depth": 2,
+          "parent": "Enquiry CTA",
+          "width": "1fr",
+          "maxWidth": "350px",
+          "pad": null
+        }
+      ]
+    },
+    {
+      "path": "/notes/:slug",
+      "bp": "Desktop",
+      "bpWidth": "1200px",
+      "topSections": [
+        {
+          "path": "/notes/:slug",
+          "bp": "Desktop",
+          "id": "TYvLnLN5L",
+          "name": "Article Hero Meta",
+          "depth": 1,
+          "width": "1fr",
+          "maxWidth": "1200px",
+          "minWidth": null,
+          "pad": "128px 48px 0px 48px",
+          "layout": "stack",
+          "stackDir": "vertical"
+        },
+        {
+          "path": "/notes/:slug",
+          "bp": "Desktop",
+          "id": "rZDvGuaZD",
+          "name": "Journal Hero Image",
+          "depth": 1,
+          "width": "1fr",
+          "maxWidth": "1200px",
+          "minWidth": null,
+          "pad": "64px 48px 0px 48px",
+          "layout": "stack",
+          "stackDir": "horizontal"
+        },
+        {
+          "path": "/notes/:slug",
+          "bp": "Desktop",
+          "id": "F88MmOdES",
+          "name": "Article Body Wrap",
+          "depth": 1,
+          "width": "1fr",
+          "maxWidth": "1200px",
+          "minWidth": null,
+          "pad": "64px 48px 128px 48px",
+          "layout": "stack",
+          "stackDir": "vertical"
+        },
+        {
+          "path": "/notes/:slug",
+          "bp": "Desktop",
+          "id": "HR7GLyyBT",
+          "name": "Journal Text Column",
+          "depth": 1,
+          "width": "1fr",
+          "maxWidth": null,
+          "minWidth": null,
+          "pad": null,
+          "layout": "stack",
+          "stackDir": "vertical"
+        },
+        {
+          "path": "/notes/:slug",
+          "bp": "Desktop",
+          "id": "cIncylbTv",
+          "name": "More From Journal",
+          "depth": 1,
+          "width": "1fr",
+          "maxWidth": "1200px",
+          "minWidth": null,
+          "pad": "128px 48px 128px 48px",
+          "layout": "stack",
+          "stackDir": "vertical"
+        },
+        {
+          "path": "/notes/:slug",
+          "bp": "Desktop",
+          "id": "OE3uHiT52",
+          "name": "Specs Strip",
+          "depth": 1,
+          "width": "1fr",
+          "maxWidth": "1200px",
+          "minWidth": null,
+          "pad": "0px 48px 0px 48px",
+          "layout": "stack",
+          "stackDir": "vertical"
+        },
+        {
+          "path": "/notes/:slug",
+          "bp": "Desktop",
+          "id": "VeGntwuIg",
+          "name": "Closing Chapter",
+          "depth": 1,
+          "width": "1fr",
+          "maxWidth": "1200px",
+          "minWidth": null,
+          "pad": "96px 48px 96px 48px",
+          "layout": "stack",
+          "stackDir": "vertical"
+        }
+      ],
+      "nestedInteresting": [
+        {
+          "path": "/notes/:slug",
+          "bp": "Desktop",
+          "id": "R_5Trg0eT",
+          "depth": 2,
+          "parent": "Article Hero Meta",
+          "width": "1fr",
+          "maxWidth": "1200px",
+          "pad": "0px 0px 48px 0px"
+        },
+        {
+          "path": "/notes/:slug",
+          "bp": "Desktop",
+          "id": "lNUCFBhko",
+          "name": "Article Body",
+          "depth": 2,
+          "parent": "Article Body Wrap",
+          "width": "1fr",
+          "maxWidth": "720px",
+          "pad": null
+        },
+        {
+          "path": "/notes/:slug",
+          "bp": "Desktop",
+          "id": "eOV768cPJ",
+          "depth": 2,
+          "parent": "More From Journal",
+          "width": "1fr",
+          "maxWidth": "640px",
+          "pad": null
+        },
+        {
+          "path": "/notes/:slug",
+          "bp": "Desktop",
+          "id": "OiPBCB4m7",
+          "depth": 2,
+          "parent": "More From Journal",
+          "width": "1fr",
+          "maxWidth": "1200px",
+          "pad": null
+        },
+        {
+          "path": "/notes/:slug",
+          "bp": "Desktop",
+          "id": "N896SgS_Z",
+          "name": "Chapter One Title",
+          "depth": 2,
+          "parent": "Closing Chapter",
+          "width": "1fr",
+          "maxWidth": null,
+          "pad": null
+        }
+      ]
+    },
+    {
+      "path": "/notes/:slug",
+      "bp": "Tablet",
+      "bpWidth": "810px",
+      "topSections": [
+        {
+          "path": "/notes/:slug",
+          "bp": "Tablet",
+          "id": "gZUAlaJJ1TYvLnLN5L",
+          "name": "Article Hero Meta",
+          "depth": 1,
+          "width": "1fr",
+          "maxWidth": "100%",
+          "minWidth": null,
+          "pad": "96px 40px 0px 40px",
+          "layout": "stack",
+          "stackDir": "vertical"
+        },
+        {
+          "path": "/notes/:slug",
+          "bp": "Tablet",
+          "id": "gZUAlaJJ1rZDvGuaZD",
+          "name": "Journal Hero Image",
+          "depth": 1,
+          "width": "1fr",
+          "maxWidth": "100%",
+          "minWidth": null,
+          "pad": "48px 40px 0px 40px",
+          "layout": "stack",
+          "stackDir": "horizontal"
+        },
+        {
+          "path": "/notes/:slug",
+          "bp": "Tablet",
+          "id": "gZUAlaJJ1F88MmOdES",
+          "name": "Article Body Wrap",
+          "depth": 1,
+          "width": "1fr",
+          "maxWidth": "100%",
+          "minWidth": null,
+          "pad": "48px 40px 96px 40px",
+          "layout": "stack",
+          "stackDir": "vertical"
+        },
+        {
+          "path": "/notes/:slug",
+          "bp": "Tablet",
+          "id": "gZUAlaJJ1HR7GLyyBT",
+          "name": "Journal Text Column",
+          "depth": 1,
+          "width": "1fr",
+          "maxWidth": null,
+          "minWidth": null,
+          "pad": null,
+          "layout": "stack",
+          "stackDir": "vertical"
+        },
+        {
+          "path": "/notes/:slug",
+          "bp": "Tablet",
+          "id": "gZUAlaJJ1cIncylbTv",
+          "name": "More From Journal",
+          "depth": 1,
+          "width": "1fr",
+          "maxWidth": "100%",
+          "minWidth": null,
+          "pad": "96px 40px 96px 40px",
+          "layout": "stack",
+          "stackDir": "vertical"
+        },
+        {
+          "path": "/notes/:slug",
+          "bp": "Tablet",
+          "id": "gZUAlaJJ1OE3uHiT52",
+          "name": "Specs Strip",
+          "depth": 1,
+          "width": "1fr",
+          "maxWidth": "1200px",
+          "minWidth": null,
+          "pad": "0px 40px 0px 40px",
+          "layout": "stack",
+          "stackDir": "vertical"
+        },
+        {
+          "path": "/notes/:slug",
+          "bp": "Tablet",
+          "id": "gZUAlaJJ1VeGntwuIg",
+          "name": "Closing Chapter",
+          "depth": 1,
+          "width": "1fr",
+          "maxWidth": "1200px",
+          "minWidth": null,
+          "pad": "72px 40px 72px 40px",
+          "layout": "stack",
+          "stackDir": "vertical"
+        }
+      ],
+      "nestedInteresting": [
+        {
+          "path": "/notes/:slug",
+          "bp": "Tablet",
+          "id": "gZUAlaJJ1R_5Trg0eT",
+          "depth": 2,
+          "parent": "Article Hero Meta",
+          "width": "1fr",
+          "maxWidth": "100%",
+          "pad": "0px 0px 40px 0px"
+        },
+        {
+          "path": "/notes/:slug",
+          "bp": "Tablet",
+          "id": "gZUAlaJJ1lNUCFBhko",
+          "name": "Article Body",
+          "depth": 2,
+          "parent": "Article Body Wrap",
+          "width": "1fr",
+          "maxWidth": "100%",
+          "pad": null
+        },
+        {
+          "path": "/notes/:slug",
+          "bp": "Tablet",
+          "id": "gZUAlaJJ1eOV768cPJ",
+          "depth": 2,
+          "parent": "More From Journal",
+          "width": "1fr",
+          "maxWidth": "640px",
+          "pad": null
+        },
+        {
+          "path": "/notes/:slug",
+          "bp": "Tablet",
+          "id": "gZUAlaJJ1OiPBCB4m7",
+          "depth": 2,
+          "parent": "More From Journal",
+          "width": "1fr",
+          "maxWidth": "100%",
+          "pad": null
+        },
+        {
+          "path": "/notes/:slug",
+          "bp": "Tablet",
+          "id": "gZUAlaJJ1N896SgS_Z",
+          "name": "Chapter One Title",
+          "depth": 2,
+          "parent": "Closing Chapter",
+          "width": "1fr",
+          "maxWidth": null,
+          "pad": null
+        }
+      ]
+    },
+    {
+      "path": "/notes/:slug",
+      "bp": "Phone",
+      "bpWidth": "390px",
+      "topSections": [
+        {
+          "path": "/notes/:slug",
+          "bp": "Phone",
+          "id": "EavJve6uGTYvLnLN5L",
+          "name": "Article Hero Meta",
+          "depth": 1,
+          "width": "1fr",
+          "maxWidth": "100%",
+          "minWidth": null,
+          "pad": "64px 16px 0px 16px",
+          "layout": "stack",
+          "stackDir": "vertical"
+        },
+        {
+          "path": "/notes/:slug",
+          "bp": "Phone",
+          "id": "EavJve6uGrZDvGuaZD",
+          "name": "Journal Hero Image",
+          "depth": 1,
+          "width": "1fr",
+          "maxWidth": "100%",
+          "minWidth": null,
+          "pad": "40px 16px 0px 16px",
+          "layout": "stack",
+          "stackDir": "horizontal"
+        },
+        {
+          "path": "/notes/:slug",
+          "bp": "Phone",
+          "id": "EavJve6uGF88MmOdES",
+          "name": "Article Body Wrap",
+          "depth": 1,
+          "width": "1fr",
+          "maxWidth": "100%",
+          "minWidth": null,
+          "pad": "40px 16px 64px 16px",
+          "layout": "stack",
+          "stackDir": "vertical"
+        },
+        {
+          "path": "/notes/:slug",
+          "bp": "Phone",
+          "id": "EavJve6uGHR7GLyyBT",
+          "name": "Journal Text Column",
+          "depth": 1,
+          "width": "1fr",
+          "maxWidth": null,
+          "minWidth": null,
+          "pad": null,
+          "layout": "stack",
+          "stackDir": "vertical"
+        },
+        {
+          "path": "/notes/:slug",
+          "bp": "Phone",
+          "id": "EavJve6uGcIncylbTv",
+          "name": "More From Journal",
+          "depth": 1,
+          "width": "1fr",
+          "maxWidth": "100%",
+          "minWidth": null,
+          "pad": "64px 16px 64px 16px",
+          "layout": "stack",
+          "stackDir": "vertical"
+        },
+        {
+          "path": "/notes/:slug",
+          "bp": "Phone",
+          "id": "EavJve6uGOE3uHiT52",
+          "name": "Specs Strip",
+          "depth": 1,
+          "width": "1fr",
+          "maxWidth": null,
+          "minWidth": null,
+          "pad": "0px 16px 0px 16px",
+          "layout": "stack",
+          "stackDir": "vertical"
+        },
+        {
+          "path": "/notes/:slug",
+          "bp": "Phone",
+          "id": "EavJve6uGVeGntwuIg",
+          "name": "Closing Chapter",
+          "depth": 1,
+          "width": "1fr",
+          "maxWidth": null,
+          "minWidth": null,
+          "pad": "48px 16px 48px 16px",
+          "layout": "stack",
+          "stackDir": "vertical"
+        }
+      ],
+      "nestedInteresting": [
+        {
+          "path": "/notes/:slug",
+          "bp": "Phone",
+          "id": "EavJve6uGR_5Trg0eT",
+          "depth": 2,
+          "parent": "Article Hero Meta",
+          "width": "1fr",
+          "maxWidth": "100%",
+          "pad": "0px 0px 40px 0px"
+        },
+        {
+          "path": "/notes/:slug",
+          "bp": "Phone",
+          "id": "EavJve6uGlNUCFBhko",
+          "name": "Article Body",
+          "depth": 2,
+          "parent": "Article Body Wrap",
+          "width": "1fr",
+          "maxWidth": "100%",
+          "pad": null
+        },
+        {
+          "path": "/notes/:slug",
+          "bp": "Phone",
+          "id": "EavJve6uGeOV768cPJ",
+          "depth": 2,
+          "parent": "More From Journal",
+          "width": "1fr",
+          "maxWidth": "640px",
+          "pad": null
+        },
+        {
+          "path": "/notes/:slug",
+          "bp": "Phone",
+          "id": "EavJve6uGOiPBCB4m7",
+          "depth": 2,
+          "parent": "More From Journal",
+          "width": "1fr",
+          "maxWidth": "100%",
+          "pad": null
+        },
+        {
+          "path": "/notes/:slug",
+          "bp": "Phone",
+          "id": "EavJve6uGN896SgS_Z",
+          "name": "Chapter One Title",
+          "depth": 2,
+          "parent": "Closing Chapter",
+          "width": "1fr",
+          "maxWidth": null,
+          "pad": null
+        }
+      ]
+    }
+  ]
+}

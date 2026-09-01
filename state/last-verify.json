@@ -1,0 +1,41 @@
+{
+  "summary": {
+    "ok": true,
+    "sessionId": "1",
+    "blocking": false,
+    "warningCount": 0,
+    "errors": [],
+    "changes": [
+      {
+        "type": "WebPage",
+        "nodeId": "augiA20Il",
+        "name": "Home",
+        "status": "updated"
+      }
+    ],
+    "changesCount": 1,
+    "status": "ready",
+    "deferredCount": 0,
+    "rect": null,
+    "rectError": null,
+    "hasScreenshot": false,
+    "screenshotError": null
+  },
+  "review": {
+    "errors": [],
+    "warnings": [],
+    "changes": [
+      {
+        "type": "WebPage",
+        "nodeId": "augiA20Il",
+        "name": "Home",
+        "status": "updated"
+      }
+    ],
+    "deferred": null,
+    "status": "ready",
+    "message": "Review changelog and warnings, then confirm publish with confirmationHash \"avuxmf\".",
+    "changesCount": 1
+  },
+  "rect": null
+}

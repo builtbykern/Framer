@@ -1,0 +1,5430 @@
+{
+  "pages": {
+    "/": {
+      "pageId": "augiA20Il",
+      "richCount": 243,
+      "desktopRichSampled": 81,
+      "frameCount": 228,
+      "componentCount": 54,
+      "breakpoints": [
+        {
+          "name": "Desktop",
+          "sections": 14,
+          "fill": "var(--token-537bd017-a079-4a2b-9afa-25208d628840)"
+        },
+        {
+          "name": "Tablet",
+          "sections": 14,
+          "fill": "var(--token-537bd017-a079-4a2b-9afa-25208d628840)"
+        },
+        {
+          "name": "Phone",
+          "sections": 14,
+          "fill": "var(--token-537bd017-a079-4a2b-9afa-25208d628840)"
+        }
+      ],
+      "desktop": "Desktop",
+      "sections": [
+        {
+          "id": "FhAzGDVSu",
+          "name": "Arbour_LoadingScreen",
+          "type": "ComponentInstanceNode",
+          "component": "codeFile/QsH9B_M:default"
+        },
+        {
+          "id": "RarocYSyC",
+          "name": "Arbour_SmoothScroll",
+          "type": "ComponentInstanceNode",
+          "component": "codeFile/lKYHG0I:default"
+        },
+        {
+          "id": "a43bChsI4",
+          "name": "Atmosphere",
+          "type": "FrameNode"
+        },
+        {
+          "id": "xiqH0OxcR",
+          "type": "ComponentInstanceNode",
+          "component": "ynpqYJGOd"
+        },
+        {
+          "id": "QWUEMYFj7",
+          "name": "Hero Section",
+          "type": "FrameNode",
+          "gap": "0px",
+          "padding": "0px 0px 72px 0px"
+        },
+        {
+          "id": "CXKn_oqE0",
+          "name": "Territories Section",
+          "type": "FrameNode",
+          "fill": "var(--token-d5b3c09d-0364-4ed0-8804-e56957faa275)",
+          "gap": "48px",
+          "padding": "128px 48px 128px 48px",
+          "maxWidth": "1200px"
+        },
+        {
+          "id": "rAukVaNHU",
+          "name": "Portfolio Section",
+          "type": "FrameNode",
+          "fill": "var(--token-d5b3c09d-0364-4ed0-8804-e56957faa275)",
+          "gap": "56px",
+          "padding": "128px 48px 128px 48px",
+          "maxWidth": "1200px"
+        },
+        {
+          "id": "wFx8igsWY",
+          "name": "Bottom",
+          "type": "FrameNode",
+          "fill": "var(--token-9d3d6ca5-f3ad-4d88-afc8-fc5bce03bd04)",
+          "gap": "0px",
+          "maxWidth": "1200px"
+        },
+        {
+          "id": "vyLrJ6ztM",
+          "type": "FrameNode",
+          "fill": "var(--token-d5b3c09d-0364-4ed0-8804-e56957faa275)",
+          "gap": "40px",
+          "padding": "128px 48px 128px 48px"
+        },
+        {
+          "id": "niUaR1BQD",
+          "type": "ComponentInstanceNode",
+          "component": "codeFile/KzA2jsd:default"
+        },
+        {
+          "id": "U9mwOiQun",
+          "name": "Recognition Section",
+          "type": "FrameNode",
+          "fill": "var(--token-d5b3c09d-0364-4ed0-8804-e56957faa275)",
+          "gap": "40px",
+          "padding": "128px 48px 128px 48px",
+          "maxWidth": "1200px"
+        },
+        {
+          "id": "PWy2_wM2R",
+          "name": "Testimonial Section",
+          "type": "FrameNode",
+          "fill": "var(--token-d5b3c09d-0364-4ed0-8804-e56957faa275)",
+          "gap": "40px",
+          "padding": "128px 48px 128px 48px",
+          "maxWidth": "1200px"
+        },
+        {
+          "id": "z3aj0E0xy",
+          "name": "Journal",
+          "type": "FrameNode",
+          "fill": "var(--token-d5b3c09d-0364-4ed0-8804-e56957faa275)",
+          "gap": "40px",
+          "padding": "128px 48px 128px 48px",
+          "maxWidth": "1200px"
+        },
+        {
+          "id": "GYfGDq3cB",
+          "name": "Footer Container",
+          "type": "ComponentInstanceNode",
+          "component": "pXUahiblU"
+        }
+      ],
+      "hasNav": true,
+      "hasFooter": true,
+      "components": [
+        "Arbour_LoadingScreen",
+        "Arbour_SmoothScroll",
+        "Arbour_NoiseEffect",
+        "Arbour_ProgressiveBlur",
+        "Nav",
+        "Arbour_InertiaFrame",
+        "Arbour_ScrollCue",
+        "Arbour_UnderlineLink",
+        "Arbour_TerritoryRail",
+        "Arbour_EditorialReveal",
+        "Arbour_StatsBand",
+        "Arbour_FormButton",
+        "Arbour_ArticleCard",
+        "Arbour_PrimaryButton",
+        "Footer"
+      ],
+      "presetCounts": {
+        "(none)": 28,
+        "Arbour/Meta": 25,
+        "Arbour/Display": 3,
+        "Arbour/Subhead": 13,
+        "Arbour/Body": 11,
+        "Arbour/Heading": 1
+      },
+      "titles": [
+        {
+          "id": "tc5tJ8Lai",
+          "name": "Territories Headline",
+          "preset": "Arbour/Display",
+          "fontName": null,
+          "fontSize": null,
+          "letterSpacing": null,
+          "textColor": "rgb(28, 27, 22)"
+        },
+        {
+          "id": "kbwlOX9Ng",
+          "name": "Portfolio Heading",
+          "preset": "Arbour/Display",
+          "fontName": null,
+          "fontSize": null,
+          "letterSpacing": null,
+          "textColor": "rgb(28, 27, 22)"
+        },
+        {
+          "id": "bzMs3vtP0",
+          "preset": "Arbour/Display",
+          "fontName": null,
+          "fontSize": null,
+          "letterSpacing": null,
+          "textColor": "rgb(28, 27, 22)"
+        },
+        {
+          "id": "Ya1V87AAT",
+          "name": "Process Title",
+          "preset": "Arbour/Subhead",
+          "fontName": null,
+          "fontSize": null,
+          "letterSpacing": null,
+          "textColor": "rgb(28, 27, 22)"
+        },
+        {
+          "id": "qCiQ3sDPT",
+          "name": "Process Title",
+          "preset": "Arbour/Subhead",
+          "fontName": null,
+          "fontSize": null,
+          "letterSpacing": null,
+          "textColor": "rgb(28, 27, 22)"
+        },
+        {
+          "id": "hodzRaZtC",
+          "name": "Process Title",
+          "preset": "Arbour/Subhead",
+          "fontName": null,
+          "fontSize": null,
+          "letterSpacing": null,
+          "textColor": "rgb(28, 27, 22)"
+        },
+        {
+          "id": "vPu0KNHzV",
+          "name": "Process Title",
+          "preset": "Arbour/Subhead",
+          "fontName": null,
+          "fontSize": null,
+          "letterSpacing": null,
+          "textColor": "rgb(28, 27, 22)"
+        },
+        {
+          "id": "tvDLcF4SM",
+          "name": "Recognition Name",
+          "preset": "Arbour/Subhead",
+          "fontName": null,
+          "fontSize": null,
+          "letterSpacing": null,
+          "textColor": "rgb(28, 27, 22)"
+        },
+        {
+          "id": "r89Ro6TLw",
+          "name": "Recognition Name",
+          "preset": "Arbour/Subhead",
+          "fontName": null,
+          "fontSize": null,
+          "letterSpacing": null,
+          "textColor": "rgb(28, 27, 22)"
+        },
+        {
+          "id": "Vy8nLB6JO",
+          "name": "Recognition Name",
+          "preset": "Arbour/Subhead",
+          "fontName": null,
+          "fontSize": null,
+          "letterSpacing": null,
+          "textColor": "rgb(28, 27, 22)"
+        },
+        {
+          "id": "RfeqPjNz8",
+          "name": "Recognition Name",
+          "preset": "Arbour/Subhead",
+          "fontName": null,
+          "fontSize": null,
+          "letterSpacing": null,
+          "textColor": "rgb(28, 27, 22)"
+        },
+        {
+          "id": "NYfff1ivW",
+          "preset": "Arbour/Subhead",
+          "fontName": null,
+          "fontSize": null,
+          "letterSpacing": null,
+          "textColor": "rgb(28, 27, 22)"
+        },
+        {
+          "id": "OOC3KuCcu",
+          "preset": "Arbour/Subhead",
+          "fontName": null,
+          "fontSize": null,
+          "letterSpacing": null,
+          "textColor": "rgb(28, 27, 22)"
+        },
+        {
+          "id": "EHJ6GpoRL",
+          "preset": "Arbour/Subhead",
+          "fontName": null,
+          "fontSize": null,
+          "letterSpacing": null,
+          "textColor": "rgb(239, 233, 219)"
+        },
+        {
+          "id": "b4007FPZq",
+          "preset": "Arbour/Heading",
+          "fontName": null,
+          "fontSize": null,
+          "letterSpacing": null,
+          "textColor": "rgb(28, 27, 22)"
+        }
+      ],
+      "headlinesBySection": [
+        {
+          "section": "Hero Section",
+          "id": "JFYCwkmiL",
+          "name": "Subheadline",
+          "preset": "(none)",
+          "fontName": "Inter",
+          "fontSize": "16px",
+          "textColor": "rgb(252, 250, 244)",
+          "letterSpacing": "-0.02em",
+          "flag": "no-preset"
+        },
+        {
+          "section": "Territories Section",
+          "id": "eBZ5dzNHq",
+          "name": "Territories Title",
+          "preset": "Arbour/Meta",
+          "textColor": "rgb(84, 98, 45)"
+        },
+        {
+          "section": "Territories Section",
+          "id": "tc5tJ8Lai",
+          "name": "Territories Headline",
+          "preset": "Arbour/Display",
+          "textColor": "rgb(28, 27, 22)"
+        },
+        {
+          "section": "Portfolio Section",
+          "id": "NGFg83AAf",
+          "name": "Portfolio Title",
+          "preset": "Arbour/Meta",
+          "textColor": "rgb(84, 98, 45)"
+        },
+        {
+          "section": "Portfolio Section",
+          "id": "PtBYeOGJ9",
+          "name": "Portfolio Date",
+          "preset": "Arbour/Meta",
+          "textColor": "rgba(28, 27, 22, 0.55)"
+        },
+        {
+          "section": "Portfolio Section",
+          "id": "kbwlOX9Ng",
+          "name": "Portfolio Heading",
+          "preset": "Arbour/Display",
+          "textColor": "rgb(28, 27, 22)"
+        },
+        {
+          "section": "Portfolio Section",
+          "id": "tKeB3b0G4",
+          "name": "View All Link",
+          "preset": "Arbour/Meta",
+          "textColor": "rgb(214, 224, 74)"
+        },
+        {
+          "section": "Portfolio Section",
+          "id": "kf7AVMOfk",
+          "name": "Status Label",
+          "preset": "(none)",
+          "fontName": "Space Mono",
+          "fontSize": "11px",
+          "textColor": "rgb(246, 242, 233)",
+          "letterSpacing": "0.12em",
+          "flag": "no-preset"
+        },
+        {
+          "section": "Portfolio Section",
+          "id": "u1ukwrN0H",
+          "name": "Index Number",
+          "preset": "(none)",
+          "fontName": "Space Mono",
+          "fontSize": "12px",
+          "textColor": "rgb(214, 224, 74)",
+          "letterSpacing": "0.12em",
+          "flag": "no-preset"
+        },
+        {
+          "section": "Portfolio Section",
+          "id": "yzqB7ZKvJ",
+          "name": "View Button",
+          "preset": "(none)",
+          "fontName": "Space Mono",
+          "fontSize": "11px",
+          "textColor": "rgb(252, 250, 244)",
+          "letterSpacing": "0.14em",
+          "flag": "no-preset"
+        },
+        {
+          "section": "Portfolio Section",
+          "id": "YfbhgdZ5H",
+          "preset": "(none)",
+          "fontName": "Space Mono",
+          "fontSize": "11px",
+          "textColor": "rgb(28, 27, 22)",
+          "letterSpacing": "0.12em",
+          "flag": "no-preset"
+        },
+        {
+          "section": "Portfolio Section",
+          "id": "CVfZJjA8o",
+          "preset": "(none)",
+          "fontName": "Space Mono",
+          "fontSize": "11px",
+          "textColor": "rgba(28, 27, 22, 0.55)",
+          "letterSpacing": "0.12em",
+          "flag": "no-preset"
+        },
+        {
+          "section": "Portfolio Section",
+          "id": "ZPB9hO2Sv",
+          "name": "Property Name",
+          "text": "var(--variable-JpvlXWFTC)",
+          "preset": "(none)",
+          "fontName": "Fraunces",
+          "fontSize": "48px",
+          "textColor": "rgb(28, 27, 22)",
+          "letterSpacing": "-0.03em",
+          "flag": "no-preset"
+        },
+        {
+          "section": "Portfolio Section",
+          "id": "Q8DkN6ZF9",
+          "name": "Property Price",
+          "text": "var(--variable-fa3JCTHNW)",
+          "preset": "(none)",
+          "fontName": "Fraunces",
+          "fontSize": "24px",
+          "textColor": "rgb(28, 27, 22)",
+          "letterSpacing": "-0.02em",
+          "flag": "no-preset"
+        },
+        {
+          "section": "Portfolio Section",
+          "id": "iNpoxMQQc",
+          "name": "Property Address",
+          "text": "var(--variable-sx_scwXZw)",
+          "preset": "(none)",
+          "fontName": "Space Mono",
+          "fontSize": "11px",
+          "textColor": "rgba(28, 27, 22, 0.55)",
+          "letterSpacing": "0.12em",
+          "flag": "no-preset"
+        },
+        {
+          "id": "JrdTjk_Ap",
+          "preset": "Arbour/Meta",
+          "textColor": "rgb(84, 98, 45)"
+        },
+        {
+          "id": "bzMs3vtP0",
+          "preset": "Arbour/Display",
+          "textColor": "rgb(28, 27, 22)"
+        },
+        {
+          "id": "exjZw4Xeq",
+          "name": "Process Index",
+          "preset": "Arbour/Meta",
+          "textColor": "rgb(84, 98, 45)"
+        },
+        {
+          "id": "Ya1V87AAT",
+          "name": "Process Title",
+          "preset": "Arbour/Subhead",
+          "textColor": "rgb(28, 27, 22)"
+        },
+        {
+          "id": "DCL2Pn4Br",
+          "name": "Process Index",
+          "preset": "Arbour/Meta",
+          "textColor": "rgb(84, 98, 45)"
+        },
+        {
+          "id": "qCiQ3sDPT",
+          "name": "Process Title",
+          "preset": "Arbour/Subhead",
+          "textColor": "rgb(28, 27, 22)"
+        },
+        {
+          "id": "NPJOT4lQX",
+          "name": "Process Index",
+          "preset": "Arbour/Meta",
+          "textColor": "rgb(84, 98, 45)"
+        },
+        {
+          "id": "hodzRaZtC",
+          "name": "Process Title",
+          "preset": "Arbour/Subhead",
+          "textColor": "rgb(28, 27, 22)"
+        },
+        {
+          "id": "MhZNXX44l",
+          "name": "Process Index",
+          "preset": "Arbour/Meta",
+          "textColor": "rgb(84, 98, 45)"
+        },
+        {
+          "section": "Recognition Section",
+          "id": "uOVlkx3vp",
+          "name": "Recognition Title",
+          "preset": "Arbour/Meta",
+          "textColor": "rgb(84, 98, 45)"
+        },
+        {
+          "section": "Recognition Section",
+          "id": "CgZbUoKqS",
+          "name": "Recognition Subtitle",
+          "preset": "Arbour/Meta",
+          "textColor": "rgba(28, 27, 22, 0.5)"
+        },
+        {
+          "section": "Recognition Section",
+          "id": "tvDLcF4SM",
+          "name": "Recognition Name",
+          "preset": "Arbour/Subhead",
+          "textColor": "rgb(28, 27, 22)"
+        },
+        {
+          "section": "Recognition Section",
+          "id": "RiACua3i1",
+          "name": "Recognition Year",
+          "preset": "Arbour/Meta",
+          "textColor": "rgb(84, 98, 45)"
+        },
+        {
+          "section": "Recognition Section",
+          "id": "r89Ro6TLw",
+          "name": "Recognition Name",
+          "preset": "Arbour/Subhead",
+          "textColor": "rgb(28, 27, 22)"
+        },
+        {
+          "section": "Recognition Section",
+          "id": "es4mvAsoq",
+          "name": "Recognition Year",
+          "preset": "Arbour/Meta",
+          "textColor": "rgb(84, 98, 45)"
+        },
+        {
+          "section": "Recognition Section",
+          "id": "Vy8nLB6JO",
+          "name": "Recognition Name",
+          "preset": "Arbour/Subhead",
+          "textColor": "rgb(28, 27, 22)"
+        },
+        {
+          "section": "Recognition Section",
+          "id": "tYK3DQm1m",
+          "name": "Recognition Year",
+          "preset": "Arbour/Meta",
+          "textColor": "rgb(84, 98, 45)"
+        },
+        {
+          "section": "Recognition Section",
+          "id": "RfeqPjNz8",
+          "name": "Recognition Name",
+          "preset": "Arbour/Subhead",
+          "textColor": "rgb(28, 27, 22)"
+        },
+        {
+          "section": "Testimonial Section",
+          "id": "nbTbHTSut",
+          "preset": "Arbour/Meta",
+          "textColor": "rgb(84, 98, 45)"
+        },
+        {
+          "section": "Testimonial Section",
+          "id": "NYfff1ivW",
+          "preset": "Arbour/Subhead",
+          "textColor": "rgb(28, 27, 22)"
+        },
+        {
+          "section": "Testimonial Section",
+          "id": "ThRZdEn5j",
+          "preset": "Arbour/Meta",
+          "textColor": "rgba(28, 27, 22, 0.55)"
+        },
+        {
+          "section": "Testimonial Section",
+          "id": "OOC3KuCcu",
+          "preset": "Arbour/Subhead",
+          "textColor": "rgb(28, 27, 22)"
+        },
+        {
+          "section": "Testimonial Section",
+          "id": "c7lylXCDi",
+          "preset": "Arbour/Meta",
+          "textColor": "rgba(28, 27, 22, 0.55)"
+        },
+        {
+          "section": "Testimonial Section",
+          "id": "EHJ6GpoRL",
+          "preset": "Arbour/Subhead",
+          "textColor": "rgb(239, 233, 219)"
+        },
+        {
+          "section": "Testimonial Section",
+          "id": "YMXFiqddW",
+          "preset": "Arbour/Meta",
+          "textColor": "rgba(239, 233, 219, 0.55)"
+        }
+      ],
+      "rawFonts": [
+        {
+          "id": "JFYCwkmiL",
+          "name": "Subheadline",
+          "preset": null,
+          "fontName": "Inter",
+          "fontSize": "16px",
+          "letterSpacing": "-0.02em",
+          "textColor": "rgb(252, 250, 244)"
+        }
+      ],
+      "rawColors": [
+        {
+          "id": "JFYCwkmiL",
+          "name": "Subheadline",
+          "preset": null,
+          "fontName": "Inter",
+          "fontSize": "16px",
+          "letterSpacing": "-0.02em",
+          "textColor": "rgb(252, 250, 244)"
+        },
+        {
+          "id": "eBZ5dzNHq",
+          "name": "Territories Title",
+          "preset": "Arbour/Meta",
+          "fontName": null,
+          "fontSize": null,
+          "letterSpacing": null,
+          "textColor": "rgb(84, 98, 45)"
+        },
+        {
+          "id": "tc5tJ8Lai",
+          "name": "Territories Headline",
+          "preset": "Arbour/Display",
+          "fontName": null,
+          "fontSize": null,
+          "letterSpacing": null,
+          "textColor": "rgb(28, 27, 22)"
+        },
+        {
+          "id": "NGFg83AAf",
+          "name": "Portfolio Title",
+          "preset": "Arbour/Meta",
+          "fontName": null,
+          "fontSize": null,
+          "letterSpacing": null,
+          "textColor": "rgb(84, 98, 45)"
+        },
+        {
+          "id": "PtBYeOGJ9",
+          "name": "Portfolio Date",
+          "preset": "Arbour/Meta",
+          "fontName": null,
+          "fontSize": null,
+          "letterSpacing": null,
+          "textColor": "rgba(28, 27, 22, 0.55)"
+        },
+        {
+          "id": "kbwlOX9Ng",
+          "name": "Portfolio Heading",
+          "preset": "Arbour/Display",
+          "fontName": null,
+          "fontSize": null,
+          "letterSpacing": null,
+          "textColor": "rgb(28, 27, 22)"
+        },
+        {
+          "id": "tKeB3b0G4",
+          "name": "View All Link",
+          "preset": "Arbour/Meta",
+          "fontName": null,
+          "fontSize": null,
+          "letterSpacing": null,
+          "textColor": "rgb(214, 224, 74)"
+        },
+        {
+          "id": "kf7AVMOfk",
+          "name": "Status Label",
+          "preset": null,
+          "fontName": "Space Mono",
+          "fontSize": "11px",
+          "letterSpacing": "0.12em",
+          "textColor": "rgb(246, 242, 233)"
+        },
+        {
+          "id": "u1ukwrN0H",
+          "name": "Index Number",
+          "preset": null,
+          "fontName": "Space Mono",
+          "fontSize": "12px",
+          "letterSpacing": "0.12em",
+          "textColor": "rgb(214, 224, 74)"
+        },
+        {
+          "id": "yzqB7ZKvJ",
+          "name": "View Button",
+          "preset": null,
+          "fontName": "Space Mono",
+          "fontSize": "11px",
+          "letterSpacing": "0.14em",
+          "textColor": "rgb(252, 250, 244)"
+        },
+        {
+          "id": "YfbhgdZ5H",
+          "preset": null,
+          "fontName": "Space Mono",
+          "fontSize": "11px",
+          "letterSpacing": "0.12em",
+          "textColor": "rgb(28, 27, 22)"
+        },
+        {
+          "id": "CVfZJjA8o",
+          "preset": null,
+          "fontName": "Space Mono",
+          "fontSize": "11px",
+          "letterSpacing": "0.12em",
+          "textColor": "rgba(28, 27, 22, 0.55)"
+        },
+        {
+          "id": "ZPB9hO2Sv",
+          "name": "Property Name",
+          "text": "var(--variable-JpvlXWFTC)",
+          "preset": null,
+          "fontName": "Fraunces",
+          "fontSize": "48px",
+          "letterSpacing": "-0.03em",
+          "textColor": "rgb(28, 27, 22)"
+        },
+        {
+          "id": "Q8DkN6ZF9",
+          "name": "Property Price",
+          "text": "var(--variable-fa3JCTHNW)",
+          "preset": null,
+          "fontName": "Fraunces",
+          "fontSize": "24px",
+          "letterSpacing": "-0.02em",
+          "textColor": "rgb(28, 27, 22)"
+        },
+        {
+          "id": "iNpoxMQQc",
+          "name": "Property Address",
+          "text": "var(--variable-sx_scwXZw)",
+          "preset": null,
+          "fontName": "Space Mono",
+          "fontSize": "11px",
+          "letterSpacing": "0.12em",
+          "textColor": "rgba(28, 27, 22, 0.55)"
+        },
+        {
+          "id": "Z_2ph96Pv",
+          "name": "Property Location Large",
+          "preset": null,
+          "fontName": "Space Mono",
+          "fontSize": "11px",
+          "letterSpacing": "0.12em",
+          "textColor": "rgba(28, 27, 22, 0.55)"
+        },
+        {
+          "id": "EFKMCdj1J",
+          "name": "Bedrooms Label Large",
+          "preset": null,
+          "fontName": "Space Mono",
+          "fontSize": "11px",
+          "letterSpacing": "0.12em",
+          "textColor": "rgba(28, 27, 22, 0.55)"
+        },
+        {
+          "id": "Fqke3PtIo",
+          "name": "Separator",
+          "preset": null,
+          "fontName": "Space Mono",
+          "fontSize": "11px",
+          "letterSpacing": "0.12em",
+          "textColor": "rgba(28, 27, 22, 0.35)"
+        },
+        {
+          "id": "HWywmxxsl",
+          "name": "Bathrooms Label",
+          "preset": null,
+          "fontName": "Space Mono",
+          "fontSize": "11px",
+          "letterSpacing": "0.12em",
+          "textColor": "rgba(28, 27, 22, 0.55)"
+        },
+        {
+          "id": "TxqmjWiYB",
+          "name": "Separator",
+          "preset": null,
+          "fontName": "Space Mono",
+          "fontSize": "11px",
+          "letterSpacing": "0.12em",
+          "textColor": "rgba(28, 27, 22, 0.35)"
+        }
+      ],
+      "letterSpacing": [
+        {
+          "id": "JFYCwkmiL",
+          "name": "Subheadline",
+          "preset": null,
+          "fontName": "Inter",
+          "fontSize": "16px",
+          "letterSpacing": "-0.02em",
+          "textColor": "rgb(252, 250, 244)"
+        },
+        {
+          "id": "kf7AVMOfk",
+          "name": "Status Label",
+          "preset": null,
+          "fontName": "Space Mono",
+          "fontSize": "11px",
+          "letterSpacing": "0.12em",
+          "textColor": "rgb(246, 242, 233)"
+        },
+        {
+          "id": "u1ukwrN0H",
+          "name": "Index Number",
+          "preset": null,
+          "fontName": "Space Mono",
+          "fontSize": "12px",
+          "letterSpacing": "0.12em",
+          "textColor": "rgb(214, 224, 74)"
+        },
+        {
+          "id": "yzqB7ZKvJ",
+          "name": "View Button",
+          "preset": null,
+          "fontName": "Space Mono",
+          "fontSize": "11px",
+          "letterSpacing": "0.14em",
+          "textColor": "rgb(252, 250, 244)"
+        },
+        {
+          "id": "YfbhgdZ5H",
+          "preset": null,
+          "fontName": "Space Mono",
+          "fontSize": "11px",
+          "letterSpacing": "0.12em",
+          "textColor": "rgb(28, 27, 22)"
+        },
+        {
+          "id": "CVfZJjA8o",
+          "preset": null,
+          "fontName": "Space Mono",
+          "fontSize": "11px",
+          "letterSpacing": "0.12em",
+          "textColor": "rgba(28, 27, 22, 0.55)"
+        },
+        {
+          "id": "ZPB9hO2Sv",
+          "name": "Property Name",
+          "text": "var(--variable-JpvlXWFTC)",
+          "preset": null,
+          "fontName": "Fraunces",
+          "fontSize": "48px",
+          "letterSpacing": "-0.03em",
+          "textColor": "rgb(28, 27, 22)"
+        },
+        {
+          "id": "Q8DkN6ZF9",
+          "name": "Property Price",
+          "text": "var(--variable-fa3JCTHNW)",
+          "preset": null,
+          "fontName": "Fraunces",
+          "fontSize": "24px",
+          "letterSpacing": "-0.02em",
+          "textColor": "rgb(28, 27, 22)"
+        },
+        {
+          "id": "iNpoxMQQc",
+          "name": "Property Address",
+          "text": "var(--variable-sx_scwXZw)",
+          "preset": null,
+          "fontName": "Space Mono",
+          "fontSize": "11px",
+          "letterSpacing": "0.12em",
+          "textColor": "rgba(28, 27, 22, 0.55)"
+        },
+        {
+          "id": "Z_2ph96Pv",
+          "name": "Property Location Large",
+          "preset": null,
+          "fontName": "Space Mono",
+          "fontSize": "11px",
+          "letterSpacing": "0.12em",
+          "textColor": "rgba(28, 27, 22, 0.55)"
+        },
+        {
+          "id": "EFKMCdj1J",
+          "name": "Bedrooms Label Large",
+          "preset": null,
+          "fontName": "Space Mono",
+          "fontSize": "11px",
+          "letterSpacing": "0.12em",
+          "textColor": "rgba(28, 27, 22, 0.55)"
+        },
+        {
+          "id": "Fqke3PtIo",
+          "name": "Separator",
+          "preset": null,
+          "fontName": "Space Mono",
+          "fontSize": "11px",
+          "letterSpacing": "0.12em",
+          "textColor": "rgba(28, 27, 22, 0.35)"
+        },
+        {
+          "id": "HWywmxxsl",
+          "name": "Bathrooms Label",
+          "preset": null,
+          "fontName": "Space Mono",
+          "fontSize": "11px",
+          "letterSpacing": "0.12em",
+          "textColor": "rgba(28, 27, 22, 0.55)"
+        },
+        {
+          "id": "TxqmjWiYB",
+          "name": "Separator",
+          "preset": null,
+          "fontName": "Space Mono",
+          "fontSize": "11px",
+          "letterSpacing": "0.12em",
+          "textColor": "rgba(28, 27, 22, 0.35)"
+        },
+        {
+          "id": "FB6whfd8k",
+          "name": "Area Label Large",
+          "text": "var(--variable-q4Uo_EM4a)",
+          "preset": null,
+          "fontName": "Space Mono",
+          "fontSize": "11px",
+          "letterSpacing": "0.12em",
+          "textColor": "rgba(28, 27, 22, 0.55)"
+        }
+      ],
+      "noPresetCount": 28,
+      "sectionRawFills": []
+    },
+    "/properties-2": {
+      "pageId": "uBAGmujMa",
+      "richCount": 240,
+      "desktopRichSampled": 80,
+      "frameCount": 261,
+      "componentCount": 93,
+      "breakpoints": [
+        {
+          "name": "Desktop",
+          "sections": 8,
+          "fill": "rgb(252, 250, 244)"
+        },
+        {
+          "name": "Tablet",
+          "sections": 8,
+          "fill": "rgb(252, 250, 244)"
+        },
+        {
+          "name": "Phone",
+          "sections": 8,
+          "fill": "rgb(252, 250, 244)"
+        }
+      ],
+      "desktop": "Desktop",
+      "sections": [
+        {
+          "id": "zFXoY2vSJ",
+          "name": "Arbour_LoadingScreen",
+          "type": "ComponentInstanceNode",
+          "component": "codeFile/QsH9B_M:default"
+        },
+        {
+          "id": "LtrTDICTP",
+          "name": "Arbour_SmoothScroll",
+          "type": "ComponentInstanceNode",
+          "component": "codeFile/lKYHG0I:default"
+        },
+        {
+          "id": "Enop673eO",
+          "name": "Atmosphere",
+          "type": "FrameNode"
+        },
+        {
+          "id": "uCzV2eFzE",
+          "name": "Nav",
+          "type": "ComponentInstanceNode",
+          "component": "ynpqYJGOd"
+        },
+        {
+          "id": "TRyzI7kr0",
+          "name": "Nav",
+          "type": "ComponentInstanceNode",
+          "component": "ynpqYJGOd"
+        },
+        {
+          "id": "qyfxlhyLO",
+          "name": "Nav",
+          "type": "ComponentInstanceNode",
+          "component": "ynpqYJGOd"
+        },
+        {
+          "id": "pXUtBMLpu",
+          "name": "Properties Content",
+          "type": "FrameNode",
+          "fill": "var(--token-d5b3c09d-0364-4ed0-8804-e56957faa275)",
+          "gap": "0px",
+          "maxWidth": "1200px"
+        },
+        {
+          "id": "wssGwbNHc",
+          "type": "ComponentInstanceNode",
+          "component": "pXUahiblU"
+        }
+      ],
+      "hasNav": true,
+      "hasFooter": true,
+      "components": [
+        "Arbour_LoadingScreen",
+        "Arbour_SmoothScroll",
+        "Arbour_NoiseEffect",
+        "Arbour_ProgressiveBlur",
+        "Nav",
+        "Arbour_InertiaFrame",
+        "Arbour_ScrollCue",
+        "Arbour_PropertyCard",
+        "Arbour_StatsBand",
+        "Arbour Neighbourhood Feature",
+        "Footer"
+      ],
+      "presetCounts": {
+        "Arbour/Meta": 42,
+        "Arbour/Price": 6,
+        "(none)": 30,
+        "Arbour/Subhead": 1,
+        "Arbour/Body": 1
+      },
+      "titles": [
+        {
+          "id": "rAAv8VxgR",
+          "name": "Properties Title",
+          "preset": "Arbour/Subhead",
+          "fontName": null,
+          "fontSize": null,
+          "letterSpacing": null,
+          "textColor": "rgb(28, 27, 22)"
+        }
+      ],
+      "headlinesBySection": [
+        {
+          "section": "Properties Content",
+          "id": "KcAWJH5xG",
+          "name": "Card Pill Label",
+          "preset": "Arbour/Meta",
+          "textColor": "rgb(214, 224, 74)"
+        },
+        {
+          "section": "Properties Content",
+          "id": "XN5jO9D4b",
+          "name": "Card Pill View",
+          "preset": "Arbour/Meta",
+          "textColor": "rgb(252, 250, 244)"
+        },
+        {
+          "section": "Properties Content",
+          "id": "pk8rx_m0i",
+          "name": "Card Title",
+          "text": "var(--variable-JpvlXWFTC)",
+          "preset": "Arbour/Meta",
+          "textColor": "rgb(28, 27, 22)"
+        },
+        {
+          "section": "Properties Content",
+          "id": "iaCb9R3Oi",
+          "name": "Card View",
+          "preset": "Arbour/Meta",
+          "textColor": "rgb(28, 27, 22)"
+        },
+        {
+          "section": "Properties Content",
+          "id": "SVb5NuiXa",
+          "name": "Card Location",
+          "text": "var(--variable-sx_scwXZw)",
+          "preset": "Arbour/Meta",
+          "textColor": "rgba(28, 27, 22, 0.55)"
+        },
+        {
+          "section": "Properties Content",
+          "id": "D2icy_KBN",
+          "name": "Card Area",
+          "text": "var(--variable-q4Uo_EM4a)",
+          "preset": "Arbour/Meta",
+          "textColor": "rgba(28, 27, 22, 0.55)"
+        },
+        {
+          "section": "Properties Content",
+          "id": "t4PnbJ_yk",
+          "name": "Card Pill Label",
+          "preset": "Arbour/Meta",
+          "textColor": "rgb(214, 224, 74)"
+        },
+        {
+          "section": "Properties Content",
+          "id": "WfYPsbJOt",
+          "name": "Card Pill View",
+          "preset": "Arbour/Meta",
+          "textColor": "rgb(252, 250, 244)"
+        },
+        {
+          "section": "Properties Content",
+          "id": "xGPFMInuO",
+          "name": "Card Title",
+          "text": "var(--variable-JpvlXWFTC)",
+          "preset": "Arbour/Meta",
+          "textColor": "rgb(28, 27, 22)"
+        },
+        {
+          "section": "Properties Content",
+          "id": "CvCkbFfCg",
+          "name": "Card View",
+          "preset": "Arbour/Meta",
+          "textColor": "rgb(28, 27, 22)"
+        }
+      ],
+      "rawFonts": [
+        {
+          "id": "fWEtnTZY0",
+          "preset": null,
+          "fontName": "Inter",
+          "fontSize": "18px",
+          "letterSpacing": "-0.01em",
+          "textColor": "rgba(28, 27, 22, 0.55)"
+        },
+        {
+          "id": "QEXjleRNs",
+          "preset": null,
+          "fontName": "Inter",
+          "fontSize": "16px",
+          "letterSpacing": "-0.01em",
+          "textColor": "rgba(28, 27, 22, 0.55)"
+        },
+        {
+          "id": "bLkyXmYTL",
+          "preset": null,
+          "fontName": "Inter",
+          "fontSize": "16px",
+          "letterSpacing": "-0.01em",
+          "textColor": "rgba(28, 27, 22, 0.55)"
+        },
+        {
+          "id": "jb25IJ8pa",
+          "preset": null,
+          "fontName": "Inter",
+          "fontSize": "16px",
+          "letterSpacing": "-0.01em",
+          "textColor": "rgba(28, 27, 22, 0.55)"
+        }
+      ],
+      "rawColors": [
+        {
+          "id": "KcAWJH5xG",
+          "name": "Card Pill Label",
+          "preset": "Arbour/Meta",
+          "fontName": null,
+          "fontSize": null,
+          "letterSpacing": null,
+          "textColor": "rgb(214, 224, 74)"
+        },
+        {
+          "id": "XN5jO9D4b",
+          "name": "Card Pill View",
+          "preset": "Arbour/Meta",
+          "fontName": null,
+          "fontSize": null,
+          "letterSpacing": null,
+          "textColor": "rgb(252, 250, 244)"
+        },
+        {
+          "id": "pk8rx_m0i",
+          "name": "Card Title",
+          "text": "var(--variable-JpvlXWFTC)",
+          "preset": "Arbour/Meta",
+          "fontName": null,
+          "fontSize": null,
+          "letterSpacing": null,
+          "textColor": "rgb(28, 27, 22)"
+        },
+        {
+          "id": "iaCb9R3Oi",
+          "name": "Card View",
+          "preset": "Arbour/Meta",
+          "fontName": null,
+          "fontSize": null,
+          "letterSpacing": null,
+          "textColor": "rgb(28, 27, 22)"
+        },
+        {
+          "id": "XJICqO1qf",
+          "name": "Card Price",
+          "text": "var(--variable-fa3JCTHNW)",
+          "preset": "Arbour/Price",
+          "fontName": null,
+          "fontSize": null,
+          "letterSpacing": null,
+          "textColor": "rgb(28, 27, 22)"
+        },
+        {
+          "id": "SVb5NuiXa",
+          "name": "Card Location",
+          "text": "var(--variable-sx_scwXZw)",
+          "preset": "Arbour/Meta",
+          "fontName": null,
+          "fontSize": null,
+          "letterSpacing": null,
+          "textColor": "rgba(28, 27, 22, 0.55)"
+        },
+        {
+          "id": "D2icy_KBN",
+          "name": "Card Area",
+          "text": "var(--variable-q4Uo_EM4a)",
+          "preset": "Arbour/Meta",
+          "fontName": null,
+          "fontSize": null,
+          "letterSpacing": null,
+          "textColor": "rgba(28, 27, 22, 0.55)"
+        },
+        {
+          "id": "t4PnbJ_yk",
+          "name": "Card Pill Label",
+          "preset": "Arbour/Meta",
+          "fontName": null,
+          "fontSize": null,
+          "letterSpacing": null,
+          "textColor": "rgb(214, 224, 74)"
+        },
+        {
+          "id": "WfYPsbJOt",
+          "name": "Card Pill View",
+          "preset": "Arbour/Meta",
+          "fontName": null,
+          "fontSize": null,
+          "letterSpacing": null,
+          "textColor": "rgb(252, 250, 244)"
+        },
+        {
+          "id": "xGPFMInuO",
+          "name": "Card Title",
+          "text": "var(--variable-JpvlXWFTC)",
+          "preset": "Arbour/Meta",
+          "fontName": null,
+          "fontSize": null,
+          "letterSpacing": null,
+          "textColor": "rgb(28, 27, 22)"
+        },
+        {
+          "id": "CvCkbFfCg",
+          "name": "Card View",
+          "preset": "Arbour/Meta",
+          "fontName": null,
+          "fontSize": null,
+          "letterSpacing": null,
+          "textColor": "rgb(28, 27, 22)"
+        },
+        {
+          "id": "SzzNXFI1B",
+          "name": "Card Price",
+          "text": "var(--variable-fa3JCTHNW)",
+          "preset": "Arbour/Price",
+          "fontName": null,
+          "fontSize": null,
+          "letterSpacing": null,
+          "textColor": "rgb(28, 27, 22)"
+        },
+        {
+          "id": "g9fpoS8in",
+          "name": "Card Location",
+          "text": "var(--variable-sx_scwXZw)",
+          "preset": "Arbour/Meta",
+          "fontName": null,
+          "fontSize": null,
+          "letterSpacing": null,
+          "textColor": "rgba(28, 27, 22, 0.55)"
+        },
+        {
+          "id": "x3ftMgWZL",
+          "name": "Card Area",
+          "text": "var(--variable-q4Uo_EM4a)",
+          "preset": "Arbour/Meta",
+          "fontName": null,
+          "fontSize": null,
+          "letterSpacing": null,
+          "textColor": "rgba(28, 27, 22, 0.55)"
+        },
+        {
+          "id": "qHxaXjLdu",
+          "name": "Card Pill Label",
+          "preset": "Arbour/Meta",
+          "fontName": null,
+          "fontSize": null,
+          "letterSpacing": null,
+          "textColor": "rgb(214, 224, 74)"
+        },
+        {
+          "id": "YJHxX7w23",
+          "name": "Card Pill View",
+          "preset": "Arbour/Meta",
+          "fontName": null,
+          "fontSize": null,
+          "letterSpacing": null,
+          "textColor": "rgb(252, 250, 244)"
+        },
+        {
+          "id": "iimpUKhkg",
+          "name": "Card Title",
+          "text": "var(--variable-JpvlXWFTC)",
+          "preset": "Arbour/Meta",
+          "fontName": null,
+          "fontSize": null,
+          "letterSpacing": null,
+          "textColor": "rgb(28, 27, 22)"
+        },
+        {
+          "id": "C0ejpB6SR",
+          "name": "Card View",
+          "preset": "Arbour/Meta",
+          "fontName": null,
+          "fontSize": null,
+          "letterSpacing": null,
+          "textColor": "rgb(28, 27, 22)"
+        },
+        {
+          "id": "hdCH6cfqE",
+          "name": "Card Price",
+          "text": "var(--variable-fa3JCTHNW)",
+          "preset": "Arbour/Price",
+          "fontName": null,
+          "fontSize": null,
+          "letterSpacing": null,
+          "textColor": "rgb(28, 27, 22)"
+        },
+        {
+          "id": "cUcB9jCZc",
+          "name": "Card Location",
+          "text": "var(--variable-sx_scwXZw)",
+          "preset": "Arbour/Meta",
+          "fontName": null,
+          "fontSize": null,
+          "letterSpacing": null,
+          "textColor": "rgba(28, 27, 22, 0.55)"
+        }
+      ],
+      "letterSpacing": [
+        {
+          "id": "WQob20jtV",
+          "preset": null,
+          "fontName": "Fraunces",
+          "fontSize": "84px",
+          "letterSpacing": "-0.03em",
+          "textColor": "rgb(28, 27, 22)"
+        },
+        {
+          "id": "eeii639K0",
+          "preset": null,
+          "fontName": "Fraunces",
+          "fontSize": "21px",
+          "letterSpacing": "-0.04em",
+          "textColor": "rgba(28, 27, 22, 0.65)"
+        },
+        {
+          "id": "rXbBK9R5f",
+          "name": "Collection Label",
+          "preset": null,
+          "fontName": "Space Mono",
+          "fontSize": "11px",
+          "letterSpacing": "0.12em",
+          "textColor": "rgb(84, 98, 45)"
+        },
+        {
+          "id": "jtsX1XPEY",
+          "name": "Collection Count",
+          "preset": null,
+          "fontName": "Space Mono",
+          "fontSize": "11px",
+          "letterSpacing": "0.12em",
+          "textColor": "rgba(28, 27, 22, 0.55)"
+        },
+        {
+          "id": "qh2ov1u0z",
+          "preset": null,
+          "fontName": "Space Mono",
+          "fontSize": "9px",
+          "letterSpacing": "0.12em",
+          "textColor": "rgba(28, 27, 22, 0.55)"
+        },
+        {
+          "id": "vpQs1iwIW",
+          "preset": null,
+          "fontName": "Space Mono",
+          "fontSize": "9px",
+          "letterSpacing": "0.12em",
+          "textColor": "rgba(28, 27, 22, 0.55)"
+        },
+        {
+          "id": "r20pZz0kN",
+          "preset": null,
+          "fontName": "Space Mono",
+          "fontSize": "9px",
+          "letterSpacing": "0.12em",
+          "textColor": "rgba(28, 27, 22, 0.55)"
+        },
+        {
+          "id": "mdsHI789x",
+          "preset": null,
+          "fontName": "Space Mono",
+          "fontSize": "9px",
+          "letterSpacing": "0.12em",
+          "textColor": "rgba(28, 27, 22, 0.55)"
+        },
+        {
+          "id": "ZeHTMK_3R",
+          "preset": null,
+          "fontName": "Space Mono",
+          "fontSize": "9px",
+          "letterSpacing": "0.12em",
+          "textColor": "rgba(28, 27, 22, 0.55)"
+        },
+        {
+          "id": "RBeIwvNqS",
+          "preset": null,
+          "fontName": "Space Mono",
+          "fontSize": "11px",
+          "letterSpacing": "0.1em",
+          "textColor": "rgb(28, 27, 22)"
+        },
+        {
+          "id": "o1PW8f3Gs",
+          "preset": null,
+          "fontName": "Space Mono",
+          "fontSize": "11px",
+          "letterSpacing": "0.08em",
+          "textColor": "rgba(28, 27, 22, 0.55)"
+        },
+        {
+          "id": "jCP_5FgVg",
+          "preset": null,
+          "fontName": "Space Mono",
+          "fontSize": "11px",
+          "letterSpacing": "0.12em",
+          "textColor": "rgb(84, 98, 45)"
+        },
+        {
+          "id": "zvGdeCucM",
+          "preset": null,
+          "fontName": "Space Mono",
+          "fontSize": "11px",
+          "letterSpacing": "0.12em",
+          "textColor": "rgba(28, 27, 22, 0.55)"
+        },
+        {
+          "id": "QLFQUOYXM",
+          "preset": null,
+          "fontName": "Fraunces",
+          "fontSize": "48px",
+          "letterSpacing": "-0.04em",
+          "textColor": "rgb(28, 27, 22)"
+        },
+        {
+          "id": "fWEtnTZY0",
+          "preset": null,
+          "fontName": "Inter",
+          "fontSize": "18px",
+          "letterSpacing": "-0.01em",
+          "textColor": "rgba(28, 27, 22, 0.55)"
+        }
+      ],
+      "noPresetCount": 30,
+      "sectionRawFills": []
+    },
+    "/neighbourhoods": {
+      "pageId": "dZfxmFpqB",
+      "richCount": 45,
+      "desktopRichSampled": 15,
+      "frameCount": 72,
+      "componentCount": 24,
+      "breakpoints": [
+        {
+          "name": "Desktop",
+          "sections": 6,
+          "fill": "rgb(252, 250, 244)"
+        },
+        {
+          "name": "Tablet",
+          "sections": 6,
+          "fill": "rgb(252, 250, 244)"
+        },
+        {
+          "name": "Phone",
+          "sections": 6,
+          "fill": "rgb(252, 250, 244)"
+        }
+      ],
+      "desktop": "Desktop",
+      "sections": [
+        {
+          "id": "R81UYvUBM",
+          "name": "Nav",
+          "type": "ComponentInstanceNode",
+          "component": "ynpqYJGOd"
+        },
+        {
+          "id": "AubAuufSl",
+          "name": "Nav",
+          "type": "ComponentInstanceNode",
+          "component": "ynpqYJGOd"
+        },
+        {
+          "id": "Y_7x1hvx_",
+          "name": "Nav",
+          "type": "ComponentInstanceNode",
+          "component": "ynpqYJGOd"
+        },
+        {
+          "id": "mjvg9J7Zq",
+          "name": "Atmosphere",
+          "type": "FrameNode"
+        },
+        {
+          "id": "H1kR5JcFp",
+          "name": "Neighbourhoods Content",
+          "type": "FrameNode",
+          "fill": "var(--token-d5b3c09d-0364-4ed0-8804-e56957faa275)",
+          "gap": "0px",
+          "maxWidth": "1200px"
+        },
+        {
+          "id": "DRglThXCl",
+          "type": "ComponentInstanceNode",
+          "component": "pXUahiblU"
+        }
+      ],
+      "hasNav": true,
+      "hasFooter": true,
+      "components": [
+        "Nav",
+        "Arbour_NoiseEffect",
+        "Arbour_ProgressiveBlur",
+        "Arbour_InertiaFrame",
+        "Arbour_ScrollCue",
+        "Footer"
+      ],
+      "presetCounts": {
+        "(none)": 12,
+        "Arbour/Subhead": 1,
+        "Arbour/Meta": 1,
+        "Arbour/Display": 1
+      },
+      "titles": [
+        {
+          "id": "WJ2oP3wg8",
+          "text": "var(--variable-tBUaKupCV)",
+          "preset": "Arbour/Subhead",
+          "fontName": null,
+          "fontSize": null,
+          "letterSpacing": null,
+          "textColor": "rgb(28, 27, 22)"
+        },
+        {
+          "id": "SJuRWbpih",
+          "preset": "Arbour/Display",
+          "fontName": null,
+          "fontSize": null,
+          "letterSpacing": null,
+          "textColor": null
+        }
+      ],
+      "headlinesBySection": [
+        {
+          "section": "Neighbourhoods Content",
+          "id": "mGNFNlJAN",
+          "preset": "(none)",
+          "fontName": "Space Mono",
+          "fontSize": "12px",
+          "textColor": "rgb(214, 224, 74)",
+          "letterSpacing": "0em",
+          "flag": "no-preset"
+        },
+        {
+          "section": "Neighbourhoods Content",
+          "id": "n9ay7tOtM",
+          "preset": "(none)",
+          "fontName": "Fraunces",
+          "fontSize": "80px",
+          "textColor": "rgb(252, 250, 244)",
+          "letterSpacing": "0em",
+          "flag": "no-preset"
+        },
+        {
+          "section": "Neighbourhoods Content",
+          "id": "rWmr0qn1F",
+          "preset": "(none)",
+          "fontName": "Inter",
+          "fontSize": "17px",
+          "textColor": "rgba(252, 250, 244, 0.72)",
+          "letterSpacing": "0em",
+          "flag": "no-preset"
+        },
+        {
+          "section": "Neighbourhoods Content",
+          "id": "Dsp5KQS9c",
+          "preset": "(none)",
+          "fontName": "Space Mono",
+          "fontSize": "11px",
+          "textColor": "rgba(252, 250, 244, 0.5)",
+          "letterSpacing": "0em",
+          "flag": "no-preset"
+        },
+        {
+          "section": "Neighbourhoods Content",
+          "id": "WJ2oP3wg8",
+          "text": "var(--variable-tBUaKupCV)",
+          "preset": "Arbour/Subhead",
+          "textColor": "rgb(28, 27, 22)"
+        },
+        {
+          "section": "Neighbourhoods Content",
+          "id": "A7DVbO4ux",
+          "preset": "(none)",
+          "fontName": "Inter",
+          "fontSize": "15px",
+          "textColor": "rgb(28, 27, 22)",
+          "letterSpacing": "0em",
+          "flag": "no-preset"
+        },
+        {
+          "section": "Neighbourhoods Content",
+          "id": "ClU1r2Bz7",
+          "text": "var(--variable-mNRagFPfJ)",
+          "preset": "(none)",
+          "fontName": "Inter",
+          "fontSize": "12px",
+          "textColor": "rgba(28, 27, 22, 0.5)",
+          "letterSpacing": "0em",
+          "flag": "no-preset"
+        },
+        {
+          "section": "Neighbourhoods Content",
+          "id": "GrxXcke3R",
+          "text": "var(--variable-ZIEwtEwXa)",
+          "preset": "(none)",
+          "fontName": "Space Mono",
+          "fontSize": "11px",
+          "textColor": "rgb(84, 98, 45)",
+          "letterSpacing": "0em",
+          "flag": "no-preset"
+        },
+        {
+          "section": "Neighbourhoods Content",
+          "id": "O26ITVtlq",
+          "preset": "(none)",
+          "fontName": "Space Mono",
+          "fontSize": "11px",
+          "textColor": "rgb(214, 224, 74)",
+          "letterSpacing": "0em",
+          "flag": "no-preset"
+        },
+        {
+          "section": "Neighbourhoods Content",
+          "id": "Z3DYUEfrR",
+          "preset": "(none)",
+          "fontName": "Space Mono",
+          "fontSize": "12px",
+          "textColor": "rgba(252, 250, 244, 0.55)",
+          "letterSpacing": "0em",
+          "flag": "no-preset"
+        },
+        {
+          "section": "Neighbourhoods Content",
+          "id": "ZmKAjtBzH",
+          "preset": "(none)",
+          "fontName": "Fraunces",
+          "fontSize": "56px",
+          "textColor": "rgb(252, 250, 244)",
+          "letterSpacing": "0em",
+          "flag": "no-preset"
+        },
+        {
+          "section": "Neighbourhoods Content",
+          "id": "KJdpIBmOd",
+          "preset": "(none)",
+          "fontName": "Inter",
+          "fontSize": "17px",
+          "textColor": "rgba(252, 250, 244, 0.72)",
+          "letterSpacing": "0em",
+          "flag": "no-preset"
+        }
+      ],
+      "rawFonts": [
+        {
+          "id": "rWmr0qn1F",
+          "preset": null,
+          "fontName": "Inter",
+          "fontSize": "17px",
+          "letterSpacing": "0em",
+          "textColor": "rgba(252, 250, 244, 0.72)"
+        },
+        {
+          "id": "A7DVbO4ux",
+          "preset": null,
+          "fontName": "Inter",
+          "fontSize": "15px",
+          "letterSpacing": "0em",
+          "textColor": "rgb(28, 27, 22)"
+        },
+        {
+          "id": "ClU1r2Bz7",
+          "text": "var(--variable-mNRagFPfJ)",
+          "preset": null,
+          "fontName": "Inter",
+          "fontSize": "12px",
+          "letterSpacing": "0em",
+          "textColor": "rgba(28, 27, 22, 0.5)"
+        },
+        {
+          "id": "KJdpIBmOd",
+          "preset": null,
+          "fontName": "Inter",
+          "fontSize": "17px",
+          "letterSpacing": "0em",
+          "textColor": "rgba(252, 250, 244, 0.72)"
+        }
+      ],
+      "rawColors": [
+        {
+          "id": "mGNFNlJAN",
+          "preset": null,
+          "fontName": "Space Mono",
+          "fontSize": "12px",
+          "letterSpacing": "0em",
+          "textColor": "rgb(214, 224, 74)"
+        },
+        {
+          "id": "n9ay7tOtM",
+          "preset": null,
+          "fontName": "Fraunces",
+          "fontSize": "80px",
+          "letterSpacing": "0em",
+          "textColor": "rgb(252, 250, 244)"
+        },
+        {
+          "id": "rWmr0qn1F",
+          "preset": null,
+          "fontName": "Inter",
+          "fontSize": "17px",
+          "letterSpacing": "0em",
+          "textColor": "rgba(252, 250, 244, 0.72)"
+        },
+        {
+          "id": "Dsp5KQS9c",
+          "preset": null,
+          "fontName": "Space Mono",
+          "fontSize": "11px",
+          "letterSpacing": "0em",
+          "textColor": "rgba(252, 250, 244, 0.5)"
+        },
+        {
+          "id": "WJ2oP3wg8",
+          "text": "var(--variable-tBUaKupCV)",
+          "preset": "Arbour/Subhead",
+          "fontName": null,
+          "fontSize": null,
+          "letterSpacing": null,
+          "textColor": "rgb(28, 27, 22)"
+        },
+        {
+          "id": "A7DVbO4ux",
+          "preset": null,
+          "fontName": "Inter",
+          "fontSize": "15px",
+          "letterSpacing": "0em",
+          "textColor": "rgb(28, 27, 22)"
+        },
+        {
+          "id": "ClU1r2Bz7",
+          "text": "var(--variable-mNRagFPfJ)",
+          "preset": null,
+          "fontName": "Inter",
+          "fontSize": "12px",
+          "letterSpacing": "0em",
+          "textColor": "rgba(28, 27, 22, 0.5)"
+        },
+        {
+          "id": "GrxXcke3R",
+          "text": "var(--variable-ZIEwtEwXa)",
+          "preset": null,
+          "fontName": "Space Mono",
+          "fontSize": "11px",
+          "letterSpacing": "0em",
+          "textColor": "rgb(84, 98, 45)"
+        },
+        {
+          "id": "O26ITVtlq",
+          "preset": null,
+          "fontName": "Space Mono",
+          "fontSize": "11px",
+          "letterSpacing": "0em",
+          "textColor": "rgb(214, 224, 74)"
+        },
+        {
+          "id": "Z3DYUEfrR",
+          "preset": null,
+          "fontName": "Space Mono",
+          "fontSize": "12px",
+          "letterSpacing": "0em",
+          "textColor": "rgba(252, 250, 244, 0.55)"
+        },
+        {
+          "id": "ZmKAjtBzH",
+          "preset": null,
+          "fontName": "Fraunces",
+          "fontSize": "56px",
+          "letterSpacing": "0em",
+          "textColor": "rgb(252, 250, 244)"
+        },
+        {
+          "id": "KJdpIBmOd",
+          "preset": null,
+          "fontName": "Inter",
+          "fontSize": "17px",
+          "letterSpacing": "0em",
+          "textColor": "rgba(252, 250, 244, 0.72)"
+        },
+        {
+          "id": "au_6Wzj9T",
+          "preset": null,
+          "fontName": "Space Mono",
+          "fontSize": "12px",
+          "letterSpacing": "0em",
+          "textColor": "rgb(214, 224, 74)"
+        },
+        {
+          "id": "C23aFLBsd",
+          "preset": "Arbour/Meta",
+          "fontName": null,
+          "fontSize": null,
+          "letterSpacing": null,
+          "textColor": "rgb(84, 98, 45)"
+        }
+      ],
+      "letterSpacing": [
+        {
+          "id": "mGNFNlJAN",
+          "preset": null,
+          "fontName": "Space Mono",
+          "fontSize": "12px",
+          "letterSpacing": "0em",
+          "textColor": "rgb(214, 224, 74)"
+        },
+        {
+          "id": "n9ay7tOtM",
+          "preset": null,
+          "fontName": "Fraunces",
+          "fontSize": "80px",
+          "letterSpacing": "0em",
+          "textColor": "rgb(252, 250, 244)"
+        },
+        {
+          "id": "rWmr0qn1F",
+          "preset": null,
+          "fontName": "Inter",
+          "fontSize": "17px",
+          "letterSpacing": "0em",
+          "textColor": "rgba(252, 250, 244, 0.72)"
+        },
+        {
+          "id": "Dsp5KQS9c",
+          "preset": null,
+          "fontName": "Space Mono",
+          "fontSize": "11px",
+          "letterSpacing": "0em",
+          "textColor": "rgba(252, 250, 244, 0.5)"
+        },
+        {
+          "id": "A7DVbO4ux",
+          "preset": null,
+          "fontName": "Inter",
+          "fontSize": "15px",
+          "letterSpacing": "0em",
+          "textColor": "rgb(28, 27, 22)"
+        },
+        {
+          "id": "ClU1r2Bz7",
+          "text": "var(--variable-mNRagFPfJ)",
+          "preset": null,
+          "fontName": "Inter",
+          "fontSize": "12px",
+          "letterSpacing": "0em",
+          "textColor": "rgba(28, 27, 22, 0.5)"
+        },
+        {
+          "id": "GrxXcke3R",
+          "text": "var(--variable-ZIEwtEwXa)",
+          "preset": null,
+          "fontName": "Space Mono",
+          "fontSize": "11px",
+          "letterSpacing": "0em",
+          "textColor": "rgb(84, 98, 45)"
+        },
+        {
+          "id": "O26ITVtlq",
+          "preset": null,
+          "fontName": "Space Mono",
+          "fontSize": "11px",
+          "letterSpacing": "0em",
+          "textColor": "rgb(214, 224, 74)"
+        },
+        {
+          "id": "Z3DYUEfrR",
+          "preset": null,
+          "fontName": "Space Mono",
+          "fontSize": "12px",
+          "letterSpacing": "0em",
+          "textColor": "rgba(252, 250, 244, 0.55)"
+        },
+        {
+          "id": "ZmKAjtBzH",
+          "preset": null,
+          "fontName": "Fraunces",
+          "fontSize": "56px",
+          "letterSpacing": "0em",
+          "textColor": "rgb(252, 250, 244)"
+        },
+        {
+          "id": "KJdpIBmOd",
+          "preset": null,
+          "fontName": "Inter",
+          "fontSize": "17px",
+          "letterSpacing": "0em",
+          "textColor": "rgba(252, 250, 244, 0.72)"
+        },
+        {
+          "id": "au_6Wzj9T",
+          "preset": null,
+          "fontName": "Space Mono",
+          "fontSize": "12px",
+          "letterSpacing": "0em",
+          "textColor": "rgb(214, 224, 74)"
+        }
+      ],
+      "noPresetCount": 12,
+      "sectionRawFills": []
+    },
+    "/notes": {
+      "pageId": "s8RpZIiJ8",
+      "richCount": 48,
+      "desktopRichSampled": 16,
+      "frameCount": 108,
+      "componentCount": 42,
+      "breakpoints": [
+        {
+          "name": "Desktop",
+          "sections": 6,
+          "fill": "rgb(252, 250, 244)"
+        },
+        {
+          "name": "Tablet",
+          "sections": 6,
+          "fill": "rgb(252, 250, 244)"
+        },
+        {
+          "name": "Phone",
+          "sections": 6,
+          "fill": "rgb(252, 250, 244)"
+        }
+      ],
+      "desktop": "Desktop",
+      "sections": [
+        {
+          "id": "hINdx0rlE",
+          "name": "Nav",
+          "type": "ComponentInstanceNode",
+          "component": "ynpqYJGOd"
+        },
+        {
+          "id": "dQsZshsSJ",
+          "name": "Nav",
+          "type": "ComponentInstanceNode",
+          "component": "ynpqYJGOd"
+        },
+        {
+          "id": "NwqSydI2k",
+          "name": "Nav",
+          "type": "ComponentInstanceNode",
+          "component": "ynpqYJGOd"
+        },
+        {
+          "id": "wY1tfyIdc",
+          "name": "Journal",
+          "type": "FrameNode",
+          "fill": "var(--token-425191b0-a245-4f14-88c2-f7144ab54959)",
+          "gap": "0px",
+          "padding": "0px 48px 0px 48px",
+          "maxWidth": "1200px"
+        },
+        {
+          "id": "p7CGH_nWX",
+          "name": "Journal Manifesto",
+          "type": "FrameNode",
+          "fill": "var(--token-9d3d6ca5-f3ad-4d88-afc8-fc5bce03bd04)",
+          "gap": "0px",
+          "padding": "120px 48px 120px 48px"
+        },
+        {
+          "id": "w2XzAbdoF",
+          "name": "Footer Container",
+          "type": "ComponentInstanceNode",
+          "component": "pXUahiblU"
+        }
+      ],
+      "hasNav": true,
+      "hasFooter": true,
+      "components": [
+        "Nav",
+        "Arbour_InertiaFrame",
+        "Arbour_ScrollCue",
+        "Arbour_ArticleCard",
+        "Arbour_PrimaryButton",
+        "Footer"
+      ],
+      "presetCounts": {
+        "(none)": 16
+      },
+      "titles": [],
+      "headlinesBySection": [
+        {
+          "section": "Journal",
+          "id": "sqsFVTzsL",
+          "preset": "(none)",
+          "fontName": "Space Mono",
+          "fontSize": "12px",
+          "textColor": "rgb(214, 224, 74)",
+          "letterSpacing": "0.12em",
+          "flag": "no-preset"
+        },
+        {
+          "section": "Journal",
+          "id": "t1K8NQ7z5",
+          "preset": "(none)",
+          "fontName": "Space Mono",
+          "fontSize": "12px",
+          "textColor": "rgba(252, 250, 244, 0.72)",
+          "letterSpacing": "0.14em",
+          "flag": "no-preset"
+        },
+        {
+          "section": "Journal",
+          "id": "xEORYedqg",
+          "name": "Display Title",
+          "preset": "(none)",
+          "fontName": "Fraunces",
+          "fontSize": "88px",
+          "textColor": "rgb(252, 250, 244)",
+          "letterSpacing": "-0.045em",
+          "flag": "no-preset"
+        },
+        {
+          "section": "Journal",
+          "id": "dCYCf8ZZp",
+          "name": "Deck",
+          "preset": "(none)",
+          "fontName": "Inter",
+          "fontSize": "17px",
+          "textColor": "rgba(252, 250, 244, 0.72)",
+          "letterSpacing": "-0.015em",
+          "flag": "no-preset"
+        },
+        {
+          "section": "Journal",
+          "id": "yzUPSfS5X",
+          "preset": "(none)",
+          "fontName": "Space Mono",
+          "fontSize": "12px",
+          "textColor": "rgb(214, 224, 74)",
+          "letterSpacing": "0.14em",
+          "flag": "no-preset"
+        },
+        {
+          "section": "Journal",
+          "id": "gyKLGUl9N",
+          "preset": "(none)",
+          "fontName": "Space Mono",
+          "fontSize": "11px",
+          "textColor": "rgb(84, 98, 45)",
+          "letterSpacing": "0.12em",
+          "flag": "no-preset"
+        },
+        {
+          "section": "Journal",
+          "id": "Uf5rLdqqP",
+          "preset": "(none)",
+          "fontName": "Space Mono",
+          "fontSize": "11px",
+          "textColor": "rgba(28, 27, 22, 0.55)",
+          "letterSpacing": "0.12em",
+          "flag": "no-preset"
+        },
+        {
+          "section": "Journal Manifesto",
+          "id": "hHJxir8HR",
+          "preset": "(none)",
+          "fontName": "Space Mono",
+          "fontSize": "11px",
+          "textColor": "rgba(242, 237, 231, 0.55)",
+          "letterSpacing": "0.14em",
+          "flag": "no-preset"
+        },
+        {
+          "section": "Journal Manifesto",
+          "id": "Yejmu7B7r",
+          "preset": "(none)",
+          "fontName": "Space Mono",
+          "fontSize": "11px",
+          "textColor": "rgb(132, 148, 95)",
+          "letterSpacing": "0.14em",
+          "flag": "no-preset"
+        },
+        {
+          "section": "Journal Manifesto",
+          "id": "v_E9QKepJ",
+          "preset": "(none)",
+          "fontName": "Space Mono",
+          "fontSize": "11px",
+          "textColor": "rgba(242, 237, 231, 0.42)",
+          "letterSpacing": "0.12em",
+          "flag": "no-preset"
+        },
+        {
+          "section": "Journal Manifesto",
+          "id": "Yi1ld9Pc1",
+          "preset": "(none)",
+          "fontName": "Space Mono",
+          "fontSize": "11px",
+          "textColor": "rgba(242, 237, 231, 0.42)",
+          "letterSpacing": "0.12em",
+          "flag": "no-preset"
+        },
+        {
+          "section": "Journal Manifesto",
+          "id": "rcIiVrHBq",
+          "preset": "(none)",
+          "fontName": "Space Mono",
+          "fontSize": "11px",
+          "textColor": "rgba(242, 237, 231, 0.42)",
+          "letterSpacing": "0.12em",
+          "flag": "no-preset"
+        },
+        {
+          "section": "Journal Manifesto",
+          "id": "Fe5WKPsRA",
+          "preset": "(none)",
+          "fontName": "Fraunces",
+          "fontSize": "72px",
+          "textColor": "rgb(252, 250, 244)",
+          "letterSpacing": "-0.04em",
+          "flag": "no-preset"
+        },
+        {
+          "section": "Journal Manifesto",
+          "id": "WhizOzz3H",
+          "preset": "(none)",
+          "fontName": "Fraunces",
+          "fontSize": "22px",
+          "textColor": "rgba(242, 237, 231, 0.78)",
+          "letterSpacing": "-0.03em",
+          "flag": "no-preset"
+        },
+        {
+          "section": "Journal Manifesto",
+          "id": "Z2YTa8BaL",
+          "preset": "(none)",
+          "fontName": "Inter",
+          "fontSize": "17px",
+          "textColor": "rgba(242, 237, 231, 0.62)",
+          "letterSpacing": "-0.02em",
+          "flag": "no-preset"
+        },
+        {
+          "section": "Journal Manifesto",
+          "id": "XQJbaNPNJ",
+          "preset": "(none)",
+          "fontName": "Space Mono",
+          "fontSize": "11px",
+          "textColor": "rgb(180, 194, 140)",
+          "letterSpacing": "0.14em",
+          "flag": "no-preset"
+        }
+      ],
+      "rawFonts": [
+        {
+          "id": "dCYCf8ZZp",
+          "name": "Deck",
+          "preset": null,
+          "fontName": "Inter",
+          "fontSize": "17px",
+          "letterSpacing": "-0.015em",
+          "textColor": "rgba(252, 250, 244, 0.72)"
+        },
+        {
+          "id": "Z2YTa8BaL",
+          "preset": null,
+          "fontName": "Inter",
+          "fontSize": "17px",
+          "letterSpacing": "-0.02em",
+          "textColor": "rgba(242, 237, 231, 0.62)"
+        }
+      ],
+      "rawColors": [
+        {
+          "id": "sqsFVTzsL",
+          "preset": null,
+          "fontName": "Space Mono",
+          "fontSize": "12px",
+          "letterSpacing": "0.12em",
+          "textColor": "rgb(214, 224, 74)"
+        },
+        {
+          "id": "t1K8NQ7z5",
+          "preset": null,
+          "fontName": "Space Mono",
+          "fontSize": "12px",
+          "letterSpacing": "0.14em",
+          "textColor": "rgba(252, 250, 244, 0.72)"
+        },
+        {
+          "id": "xEORYedqg",
+          "name": "Display Title",
+          "preset": null,
+          "fontName": "Fraunces",
+          "fontSize": "88px",
+          "letterSpacing": "-0.045em",
+          "textColor": "rgb(252, 250, 244)"
+        },
+        {
+          "id": "dCYCf8ZZp",
+          "name": "Deck",
+          "preset": null,
+          "fontName": "Inter",
+          "fontSize": "17px",
+          "letterSpacing": "-0.015em",
+          "textColor": "rgba(252, 250, 244, 0.72)"
+        },
+        {
+          "id": "yzUPSfS5X",
+          "preset": null,
+          "fontName": "Space Mono",
+          "fontSize": "12px",
+          "letterSpacing": "0.14em",
+          "textColor": "rgb(214, 224, 74)"
+        },
+        {
+          "id": "gyKLGUl9N",
+          "preset": null,
+          "fontName": "Space Mono",
+          "fontSize": "11px",
+          "letterSpacing": "0.12em",
+          "textColor": "rgb(84, 98, 45)"
+        },
+        {
+          "id": "Uf5rLdqqP",
+          "preset": null,
+          "fontName": "Space Mono",
+          "fontSize": "11px",
+          "letterSpacing": "0.12em",
+          "textColor": "rgba(28, 27, 22, 0.55)"
+        },
+        {
+          "id": "hHJxir8HR",
+          "preset": null,
+          "fontName": "Space Mono",
+          "fontSize": "11px",
+          "letterSpacing": "0.14em",
+          "textColor": "rgba(242, 237, 231, 0.55)"
+        },
+        {
+          "id": "Yejmu7B7r",
+          "preset": null,
+          "fontName": "Space Mono",
+          "fontSize": "11px",
+          "letterSpacing": "0.14em",
+          "textColor": "rgb(132, 148, 95)"
+        },
+        {
+          "id": "v_E9QKepJ",
+          "preset": null,
+          "fontName": "Space Mono",
+          "fontSize": "11px",
+          "letterSpacing": "0.12em",
+          "textColor": "rgba(242, 237, 231, 0.42)"
+        },
+        {
+          "id": "Yi1ld9Pc1",
+          "preset": null,
+          "fontName": "Space Mono",
+          "fontSize": "11px",
+          "letterSpacing": "0.12em",
+          "textColor": "rgba(242, 237, 231, 0.42)"
+        },
+        {
+          "id": "rcIiVrHBq",
+          "preset": null,
+          "fontName": "Space Mono",
+          "fontSize": "11px",
+          "letterSpacing": "0.12em",
+          "textColor": "rgba(242, 237, 231, 0.42)"
+        },
+        {
+          "id": "Fe5WKPsRA",
+          "preset": null,
+          "fontName": "Fraunces",
+          "fontSize": "72px",
+          "letterSpacing": "-0.04em",
+          "textColor": "rgb(252, 250, 244)"
+        },
+        {
+          "id": "WhizOzz3H",
+          "preset": null,
+          "fontName": "Fraunces",
+          "fontSize": "22px",
+          "letterSpacing": "-0.03em",
+          "textColor": "rgba(242, 237, 231, 0.78)"
+        },
+        {
+          "id": "Z2YTa8BaL",
+          "preset": null,
+          "fontName": "Inter",
+          "fontSize": "17px",
+          "letterSpacing": "-0.02em",
+          "textColor": "rgba(242, 237, 231, 0.62)"
+        },
+        {
+          "id": "XQJbaNPNJ",
+          "preset": null,
+          "fontName": "Space Mono",
+          "fontSize": "11px",
+          "letterSpacing": "0.14em",
+          "textColor": "rgb(180, 194, 140)"
+        }
+      ],
+      "letterSpacing": [
+        {
+          "id": "sqsFVTzsL",
+          "preset": null,
+          "fontName": "Space Mono",
+          "fontSize": "12px",
+          "letterSpacing": "0.12em",
+          "textColor": "rgb(214, 224, 74)"
+        },
+        {
+          "id": "t1K8NQ7z5",
+          "preset": null,
+          "fontName": "Space Mono",
+          "fontSize": "12px",
+          "letterSpacing": "0.14em",
+          "textColor": "rgba(252, 250, 244, 0.72)"
+        },
+        {
+          "id": "xEORYedqg",
+          "name": "Display Title",
+          "preset": null,
+          "fontName": "Fraunces",
+          "fontSize": "88px",
+          "letterSpacing": "-0.045em",
+          "textColor": "rgb(252, 250, 244)"
+        },
+        {
+          "id": "dCYCf8ZZp",
+          "name": "Deck",
+          "preset": null,
+          "fontName": "Inter",
+          "fontSize": "17px",
+          "letterSpacing": "-0.015em",
+          "textColor": "rgba(252, 250, 244, 0.72)"
+        },
+        {
+          "id": "yzUPSfS5X",
+          "preset": null,
+          "fontName": "Space Mono",
+          "fontSize": "12px",
+          "letterSpacing": "0.14em",
+          "textColor": "rgb(214, 224, 74)"
+        },
+        {
+          "id": "gyKLGUl9N",
+          "preset": null,
+          "fontName": "Space Mono",
+          "fontSize": "11px",
+          "letterSpacing": "0.12em",
+          "textColor": "rgb(84, 98, 45)"
+        },
+        {
+          "id": "Uf5rLdqqP",
+          "preset": null,
+          "fontName": "Space Mono",
+          "fontSize": "11px",
+          "letterSpacing": "0.12em",
+          "textColor": "rgba(28, 27, 22, 0.55)"
+        },
+        {
+          "id": "hHJxir8HR",
+          "preset": null,
+          "fontName": "Space Mono",
+          "fontSize": "11px",
+          "letterSpacing": "0.14em",
+          "textColor": "rgba(242, 237, 231, 0.55)"
+        },
+        {
+          "id": "Yejmu7B7r",
+          "preset": null,
+          "fontName": "Space Mono",
+          "fontSize": "11px",
+          "letterSpacing": "0.14em",
+          "textColor": "rgb(132, 148, 95)"
+        },
+        {
+          "id": "v_E9QKepJ",
+          "preset": null,
+          "fontName": "Space Mono",
+          "fontSize": "11px",
+          "letterSpacing": "0.12em",
+          "textColor": "rgba(242, 237, 231, 0.42)"
+        },
+        {
+          "id": "Yi1ld9Pc1",
+          "preset": null,
+          "fontName": "Space Mono",
+          "fontSize": "11px",
+          "letterSpacing": "0.12em",
+          "textColor": "rgba(242, 237, 231, 0.42)"
+        },
+        {
+          "id": "rcIiVrHBq",
+          "preset": null,
+          "fontName": "Space Mono",
+          "fontSize": "11px",
+          "letterSpacing": "0.12em",
+          "textColor": "rgba(242, 237, 231, 0.42)"
+        },
+        {
+          "id": "Fe5WKPsRA",
+          "preset": null,
+          "fontName": "Fraunces",
+          "fontSize": "72px",
+          "letterSpacing": "-0.04em",
+          "textColor": "rgb(252, 250, 244)"
+        },
+        {
+          "id": "WhizOzz3H",
+          "preset": null,
+          "fontName": "Fraunces",
+          "fontSize": "22px",
+          "letterSpacing": "-0.03em",
+          "textColor": "rgba(242, 237, 231, 0.78)"
+        },
+        {
+          "id": "Z2YTa8BaL",
+          "preset": null,
+          "fontName": "Inter",
+          "fontSize": "17px",
+          "letterSpacing": "-0.02em",
+          "textColor": "rgba(242, 237, 231, 0.62)"
+        }
+      ],
+      "noPresetCount": 16,
+      "sectionRawFills": []
+    },
+    "/about": {
+      "pageId": "OdFhPn9yz",
+      "richCount": 60,
+      "desktopRichSampled": 20,
+      "frameCount": 69,
+      "componentCount": 51,
+      "breakpoints": [
+        {
+          "name": "Desktop",
+          "sections": 13,
+          "fill": "rgb(252, 250, 244)"
+        },
+        {
+          "name": "Tablet",
+          "sections": 13,
+          "fill": "rgb(252, 250, 244)"
+        },
+        {
+          "name": "Phone",
+          "sections": 13,
+          "fill": "rgb(252, 250, 244)"
+        }
+      ],
+      "desktop": "Desktop",
+      "sections": [
+        {
+          "id": "G4Hb0k0X4",
+          "name": "Nav",
+          "type": "ComponentInstanceNode",
+          "component": "ynpqYJGOd"
+        },
+        {
+          "id": "Z2UQ5rytK",
+          "name": "Nav",
+          "type": "ComponentInstanceNode",
+          "component": "ynpqYJGOd"
+        },
+        {
+          "id": "MHsCYYNA7",
+          "name": "Nav",
+          "type": "ComponentInstanceNode",
+          "component": "ynpqYJGOd"
+        },
+        {
+          "id": "qzeVD3m4X",
+          "name": "Arbour_LoadingScreen",
+          "type": "ComponentInstanceNode",
+          "component": "codeFile/QsH9B_M:default"
+        },
+        {
+          "id": "DsFZ4eorC",
+          "name": "Arbour_SmoothScroll",
+          "type": "ComponentInstanceNode",
+          "component": "codeFile/lKYHG0I:default"
+        },
+        {
+          "id": "QjoW3yYRJ",
+          "name": "Beat 1 — Paper Opener",
+          "type": "FrameNode",
+          "fill": "var(--token-d5b3c09d-0364-4ed0-8804-e56957faa275)",
+          "gap": "48px",
+          "padding": "120px 48px 48px 48px",
+          "maxWidth": "1440px"
+        },
+        {
+          "id": "m1IuCE2Ht",
+          "name": "Beat 3 — Manifesto",
+          "type": "FrameNode",
+          "fill": "var(--token-d5b3c09d-0364-4ed0-8804-e56957faa275)",
+          "gap": "64px",
+          "padding": "128px 48px 128px 48px",
+          "maxWidth": "1440px"
+        },
+        {
+          "id": "SbkA8xJAz",
+          "name": "Beat 2 — Cinematic Image",
+          "type": "FrameNode",
+          "fill": "var(--token-e2f9a9eb-668a-4021-80d9-b04413b5f392)",
+          "gap": "0px",
+          "maxWidth": "1440px"
+        },
+        {
+          "id": "AiolEHPNd",
+          "name": "Chapter — The Principals",
+          "type": "FrameNode",
+          "fill": "var(--token-d5b3c09d-0364-4ed0-8804-e56957faa275)",
+          "gap": "96px",
+          "padding": "128px 48px 128px 48px",
+          "maxWidth": "1440px"
+        },
+        {
+          "id": "sx_GA8kBh",
+          "name": "Chapter — Two Offices",
+          "type": "FrameNode",
+          "fill": "var(--token-d5b3c09d-0364-4ed0-8804-e56957faa275)",
+          "gap": "72px",
+          "padding": "128px 48px 128px 48px",
+          "maxWidth": "1440px"
+        },
+        {
+          "id": "OIVgjc19d",
+          "name": "Enquiry CTA",
+          "type": "FrameNode",
+          "fill": "var(--token-425191b0-a245-4f14-88c2-f7144ab54959)",
+          "gap": "24px",
+          "padding": "120px 48px 120px 48px"
+        },
+        {
+          "id": "MCIVu1EAA",
+          "name": "Atmosphere",
+          "type": "FrameNode"
+        },
+        {
+          "id": "EnLRF_D_f",
+          "type": "ComponentInstanceNode",
+          "component": "pXUahiblU"
+        }
+      ],
+      "hasNav": true,
+      "hasFooter": true,
+      "components": [
+        "Nav",
+        "Arbour_LoadingScreen",
+        "Arbour_SmoothScroll",
+        "Arbour_UnderlineLink",
+        "Arbour_InertiaFrame",
+        "Arbour_EditorialReveal",
+        "Arbour_ScrollCue",
+        "Arbour_PrincipalProfile",
+        "Arbour_OfficeAtlasPanel",
+        "Arbour_NoiseEffect",
+        "Arbour_ProgressiveBlur",
+        "Footer"
+      ],
+      "presetCounts": {
+        "Arbour/Meta": 13,
+        "(none)": 5,
+        "Arbour/Heading": 2
+      },
+      "titles": [
+        {
+          "id": "O1neFtNPQ",
+          "preset": "Arbour/Heading",
+          "fontName": null,
+          "fontSize": null,
+          "letterSpacing": null,
+          "textColor": null
+        },
+        {
+          "id": "gKBWGey2K",
+          "preset": "Arbour/Heading",
+          "fontName": null,
+          "fontSize": null,
+          "letterSpacing": null,
+          "textColor": null
+        }
+      ],
+      "headlinesBySection": [
+        {
+          "section": "Beat 1 — Paper Opener",
+          "id": "Jq9L_1OW4",
+          "preset": "Arbour/Meta",
+          "textColor": "var(--token-a16d0333-6bd5-4d60-aa00-fac26447145d)"
+        },
+        {
+          "section": "Beat 1 — Paper Opener",
+          "id": "jVJ8gDz5T",
+          "preset": "(none)",
+          "fontName": "Fraunces",
+          "fontSize": "96px",
+          "textColor": "var(--token-e2f9a9eb-668a-4021-80d9-b04413b5f392)",
+          "letterSpacing": "-0.05em",
+          "flag": "no-preset"
+        },
+        {
+          "section": "Beat 1 — Paper Opener",
+          "id": "FcjYKCG_4",
+          "preset": "Arbour/Meta",
+          "textColor": "var(--token-0bc68d0d-4c0b-4126-8cce-9425cb153f4e)"
+        },
+        {
+          "section": "Beat 1 — Paper Opener",
+          "id": "F4woaNv06",
+          "preset": "Arbour/Meta",
+          "textColor": "var(--token-0bc68d0d-4c0b-4126-8cce-9425cb153f4e)"
+        },
+        {
+          "section": "Beat 1 — Paper Opener",
+          "id": "wSOaOIjVj",
+          "preset": "Arbour/Meta",
+          "textColor": "rgba(252, 250, 244, 0.9)"
+        },
+        {
+          "section": "Beat 1 — Paper Opener",
+          "id": "in7YNz4XG",
+          "preset": "Arbour/Meta",
+          "textColor": "rgba(252, 250, 244, 0.9)"
+        },
+        {
+          "section": "Beat 3 — Manifesto",
+          "id": "IkD2jTgco",
+          "preset": "(none)",
+          "fontName": "Fraunces",
+          "fontSize": "20px",
+          "textColor": "var(--token-e2f9a9eb-668a-4021-80d9-b04413b5f392)",
+          "letterSpacing": "-0.02em",
+          "flag": "no-preset"
+        },
+        {
+          "section": "Beat 3 — Manifesto",
+          "id": "HiipOw7wM",
+          "preset": "(none)",
+          "fontName": "Fraunces",
+          "fontSize": "20px",
+          "textColor": "var(--token-e2f9a9eb-668a-4021-80d9-b04413b5f392)",
+          "letterSpacing": "-0.02em",
+          "flag": "no-preset"
+        },
+        {
+          "section": "Beat 3 — Manifesto",
+          "id": "v2b6nCPJF",
+          "preset": "(none)",
+          "fontName": "Fraunces",
+          "fontSize": "20px",
+          "textColor": "var(--token-e2f9a9eb-668a-4021-80d9-b04413b5f392)",
+          "letterSpacing": "-0.02em",
+          "flag": "no-preset"
+        },
+        {
+          "section": "Beat 3 — Manifesto",
+          "id": "B5vQGhsM6",
+          "preset": "Arbour/Meta",
+          "textColor": "var(--token-a16d0333-6bd5-4d60-aa00-fac26447145d)"
+        },
+        {
+          "section": "Beat 2 — Cinematic Image",
+          "id": "KpIJLF6Pw",
+          "preset": "Arbour/Meta",
+          "textColor": "var(--token-d5b3c09d-0364-4ed0-8804-e56957faa275)"
+        },
+        {
+          "section": "Chapter — The Principals",
+          "id": "UYhaHDCC3",
+          "preset": "Arbour/Meta",
+          "textColor": "var(--token-a16d0333-6bd5-4d60-aa00-fac26447145d)"
+        },
+        {
+          "section": "Chapter — The Principals",
+          "id": "O1neFtNPQ",
+          "preset": "Arbour/Heading"
+        },
+        {
+          "section": "Chapter — The Principals",
+          "id": "ly_HhBD42",
+          "preset": "Arbour/Meta",
+          "textColor": "var(--token-0bc68d0d-4c0b-4126-8cce-9425cb153f4e)"
+        },
+        {
+          "section": "Chapter — Two Offices",
+          "id": "J3kIJZAMA",
+          "preset": "Arbour/Meta",
+          "textColor": "var(--token-a16d0333-6bd5-4d60-aa00-fac26447145d)"
+        },
+        {
+          "section": "Chapter — Two Offices",
+          "id": "gKBWGey2K",
+          "preset": "Arbour/Heading"
+        },
+        {
+          "section": "Chapter — Two Offices",
+          "id": "R6iXPXjxK",
+          "preset": "Arbour/Meta",
+          "textColor": "var(--token-0bc68d0d-4c0b-4126-8cce-9425cb153f4e)"
+        },
+        {
+          "section": "Enquiry CTA",
+          "id": "h_YNoH2dN",
+          "name": "Enquiry Kicker",
+          "preset": "Arbour/Meta",
+          "textColor": "rgb(84, 98, 45)"
+        },
+        {
+          "section": "Enquiry CTA",
+          "id": "h_OuVAKl_",
+          "name": "Enquiry Heading",
+          "preset": "(none)",
+          "fontName": "Fraunces",
+          "fontSize": "64px",
+          "textColor": "rgb(28, 27, 22)",
+          "letterSpacing": "-0.03em",
+          "flag": "no-preset"
+        },
+        {
+          "section": "Enquiry CTA",
+          "id": "tgyIYRpq7",
+          "preset": "Arbour/Meta",
+          "textColor": "rgb(21, 43, 30)"
+        }
+      ],
+      "rawFonts": [],
+      "rawColors": [
+        {
+          "id": "wSOaOIjVj",
+          "preset": "Arbour/Meta",
+          "fontName": null,
+          "fontSize": null,
+          "letterSpacing": null,
+          "textColor": "rgba(252, 250, 244, 0.9)"
+        },
+        {
+          "id": "in7YNz4XG",
+          "preset": "Arbour/Meta",
+          "fontName": null,
+          "fontSize": null,
+          "letterSpacing": null,
+          "textColor": "rgba(252, 250, 244, 0.9)"
+        },
+        {
+          "id": "h_YNoH2dN",
+          "name": "Enquiry Kicker",
+          "preset": "Arbour/Meta",
+          "fontName": null,
+          "fontSize": null,
+          "letterSpacing": null,
+          "textColor": "rgb(84, 98, 45)"
+        },
+        {
+          "id": "h_OuVAKl_",
+          "name": "Enquiry Heading",
+          "preset": null,
+          "fontName": "Fraunces",
+          "fontSize": "64px",
+          "letterSpacing": "-0.03em",
+          "textColor": "rgb(28, 27, 22)"
+        },
+        {
+          "id": "tgyIYRpq7",
+          "preset": "Arbour/Meta",
+          "fontName": null,
+          "fontSize": null,
+          "letterSpacing": null,
+          "textColor": "rgb(21, 43, 30)"
+        }
+      ],
+      "letterSpacing": [
+        {
+          "id": "jVJ8gDz5T",
+          "preset": null,
+          "fontName": "Fraunces",
+          "fontSize": "96px",
+          "letterSpacing": "-0.05em",
+          "textColor": "var(--token-e2f9a9eb-668a-4021-80d9-b04413b5f392)"
+        },
+        {
+          "id": "IkD2jTgco",
+          "preset": null,
+          "fontName": "Fraunces",
+          "fontSize": "20px",
+          "letterSpacing": "-0.02em",
+          "textColor": "var(--token-e2f9a9eb-668a-4021-80d9-b04413b5f392)"
+        },
+        {
+          "id": "HiipOw7wM",
+          "preset": null,
+          "fontName": "Fraunces",
+          "fontSize": "20px",
+          "letterSpacing": "-0.02em",
+          "textColor": "var(--token-e2f9a9eb-668a-4021-80d9-b04413b5f392)"
+        },
+        {
+          "id": "v2b6nCPJF",
+          "preset": null,
+          "fontName": "Fraunces",
+          "fontSize": "20px",
+          "letterSpacing": "-0.02em",
+          "textColor": "var(--token-e2f9a9eb-668a-4021-80d9-b04413b5f392)"
+        },
+        {
+          "id": "h_OuVAKl_",
+          "name": "Enquiry Heading",
+          "preset": null,
+          "fontName": "Fraunces",
+          "fontSize": "64px",
+          "letterSpacing": "-0.03em",
+          "textColor": "rgb(28, 27, 22)"
+        }
+      ],
+      "noPresetCount": 5,
+      "sectionRawFills": []
+    },
+    "/contact": {
+      "pageId": "c7qpzB7hR",
+      "richCount": 84,
+      "desktopRichSampled": 28,
+      "frameCount": 108,
+      "componentCount": 39,
+      "breakpoints": [
+        {
+          "name": "Desktop",
+          "sections": 10,
+          "fill": "rgb(252, 250, 244)"
+        },
+        {
+          "name": "Tablet",
+          "sections": 10,
+          "fill": "rgb(252, 250, 244)"
+        },
+        {
+          "name": "Phone",
+          "sections": 10,
+          "fill": "rgb(252, 250, 244)"
+        }
+      ],
+      "desktop": "Desktop",
+      "sections": [
+        {
+          "id": "C5AVwVLkc",
+          "name": "Nav",
+          "type": "ComponentInstanceNode",
+          "component": "ynpqYJGOd"
+        },
+        {
+          "id": "Km6LqM1gG",
+          "name": "Nav",
+          "type": "ComponentInstanceNode",
+          "component": "ynpqYJGOd"
+        },
+        {
+          "id": "gQEDrZhwb",
+          "name": "Nav",
+          "type": "ComponentInstanceNode",
+          "component": "ynpqYJGOd"
+        },
+        {
+          "id": "rceI9CYyX",
+          "name": "Arbour_LoadingScreen",
+          "type": "ComponentInstanceNode",
+          "component": "codeFile/QsH9B_M:default"
+        },
+        {
+          "id": "Oysf3kFhQ",
+          "name": "Arbour_SmoothScroll",
+          "type": "ComponentInstanceNode",
+          "component": "codeFile/lKYHG0I:default"
+        },
+        {
+          "id": "BnJUxgLWN",
+          "name": "Atmosphere",
+          "type": "FrameNode"
+        },
+        {
+          "id": "jmmPpci8t",
+          "name": "Private Enquiry — Cinematic",
+          "type": "FrameNode",
+          "fill": "var(--token-e2f9a9eb-668a-4021-80d9-b04413b5f392)",
+          "gap": "0px",
+          "maxWidth": "1440px"
+        },
+        {
+          "id": "vv0Vi0hbh",
+          "name": "Contact Opening",
+          "type": "FrameNode",
+          "fill": "var(--token-d5b3c09d-0364-4ed0-8804-e56957faa275)",
+          "gap": "0px",
+          "padding": "128px 48px 128px 48px"
+        },
+        {
+          "id": "R3nS8tMqV",
+          "name": "Journal",
+          "type": "FrameNode",
+          "fill": "var(--token-d5b3c09d-0364-4ed0-8804-e56957faa275)",
+          "gap": "48px",
+          "padding": "128px 48px 128px 48px"
+        },
+        {
+          "id": "R1UwW27g3",
+          "type": "ComponentInstanceNode",
+          "component": "pXUahiblU"
+        }
+      ],
+      "hasNav": true,
+      "hasFooter": true,
+      "components": [
+        "Nav",
+        "Arbour_LoadingScreen",
+        "Arbour_SmoothScroll",
+        "Arbour_NoiseEffect",
+        "Arbour_ProgressiveBlur",
+        "Arbour_ScrollCue",
+        "Arbour_InertiaFrame",
+        "Arbour_FormButton",
+        "Arbour_ArticleCard",
+        "Arbour_PrimaryButton",
+        "Footer"
+      ],
+      "presetCounts": {
+        "(none)": 6,
+        "Arbour/Meta": 13,
+        "Arbour/Body": 6,
+        "Arbour/Heading": 1,
+        "Arbour/Subhead": 2
+      },
+      "titles": [
+        {
+          "id": "cVLdkLcS3",
+          "preset": "Arbour/Heading",
+          "fontName": null,
+          "fontSize": null,
+          "letterSpacing": null,
+          "textColor": "rgb(28, 27, 22)"
+        },
+        {
+          "id": "rBhZ0Hnkp",
+          "preset": "Arbour/Subhead",
+          "fontName": null,
+          "fontSize": null,
+          "letterSpacing": null,
+          "textColor": "rgb(28, 27, 22)"
+        },
+        {
+          "id": "saIfjW2z6",
+          "preset": "Arbour/Subhead",
+          "fontName": null,
+          "fontSize": null,
+          "letterSpacing": null,
+          "textColor": "rgb(28, 27, 22)"
+        }
+      ],
+      "headlinesBySection": [
+        {
+          "section": "Private Enquiry — Cinematic",
+          "id": "TWVNilHRn",
+          "preset": "(none)",
+          "fontName": "Space Mono",
+          "fontSize": "12px",
+          "textColor": "rgb(214, 224, 74)",
+          "letterSpacing": "0.08em",
+          "flag": "no-preset"
+        },
+        {
+          "section": "Private Enquiry — Cinematic",
+          "id": "R80e8PwNu",
+          "preset": "(none)",
+          "fontName": "Fraunces",
+          "fontSize": "72px",
+          "textColor": "rgb(252, 250, 244)",
+          "letterSpacing": "-0.04em",
+          "flag": "no-preset"
+        },
+        {
+          "section": "Private Enquiry — Cinematic",
+          "id": "jFTgrH9Eq",
+          "preset": "(none)",
+          "fontName": "Space Mono",
+          "fontSize": "12px",
+          "textColor": "rgb(252, 250, 244)",
+          "letterSpacing": "0.08em",
+          "flag": "no-preset"
+        },
+        {
+          "section": "Private Enquiry — Cinematic",
+          "id": "yXnPwn7e1",
+          "preset": "(none)",
+          "fontName": "Space Mono",
+          "fontSize": "12px",
+          "textColor": "rgb(214, 224, 74)",
+          "letterSpacing": "0.08em",
+          "flag": "no-preset"
+        },
+        {
+          "section": "Private Enquiry — Cinematic",
+          "id": "mJdtIzdKI",
+          "preset": "Arbour/Meta",
+          "textColor": "var(--token-d5b3c09d-0364-4ed0-8804-e56957faa275)"
+        },
+        {
+          "section": "Contact Opening",
+          "id": "F6Dxn9vpj",
+          "preset": "Arbour/Meta",
+          "textColor": "rgb(84, 98, 45)"
+        },
+        {
+          "section": "Contact Opening",
+          "id": "at0UFQWlS",
+          "preset": "(none)",
+          "fontName": "Fraunces",
+          "fontSize": "96px",
+          "textColor": "rgb(0, 0, 0)",
+          "letterSpacing": "-0.045em",
+          "flag": "no-preset"
+        },
+        {
+          "section": "Contact Opening",
+          "id": "SEtzgNJzz",
+          "preset": "(none)",
+          "fontName": "Fraunces",
+          "fontSize": "19px",
+          "textColor": "rgba(28, 27, 22, 0.7)",
+          "letterSpacing": "-0.01em",
+          "flag": "no-preset"
+        },
+        {
+          "section": "Contact Opening",
+          "id": "jy6AYu31v",
+          "preset": "Arbour/Meta",
+          "textColor": "rgb(84, 98, 45)"
+        },
+        {
+          "section": "Contact Opening",
+          "id": "nfdJgK1V5",
+          "preset": "Arbour/Meta",
+          "textColor": "rgb(84, 98, 45)"
+        },
+        {
+          "section": "Contact Opening",
+          "id": "sjE6PBlZA",
+          "preset": "Arbour/Meta",
+          "textColor": "rgb(84, 98, 45)"
+        },
+        {
+          "section": "Contact Opening",
+          "id": "XokYhsPrk",
+          "preset": "Arbour/Meta",
+          "textColor": "rgb(84, 98, 45)"
+        },
+        {
+          "section": "Contact Opening",
+          "id": "Vj6fl3uhe",
+          "preset": "Arbour/Meta",
+          "textColor": "rgba(28, 27, 22, 0.55)"
+        },
+        {
+          "section": "Journal",
+          "id": "xvtcI6cj9",
+          "preset": "Arbour/Meta",
+          "textColor": "rgb(84, 98, 45)"
+        },
+        {
+          "section": "Journal",
+          "id": "cVLdkLcS3",
+          "preset": "Arbour/Heading",
+          "textColor": "rgb(28, 27, 22)"
+        },
+        {
+          "section": "Journal",
+          "id": "Q9ZpLaN5X",
+          "preset": "Arbour/Meta",
+          "textColor": "rgb(84, 98, 45)"
+        },
+        {
+          "section": "Journal",
+          "id": "bhQOxL_ST",
+          "name": "Newsletter Quarterly notes on new workS!",
+          "preset": "Arbour/Meta",
+          "textColor": "rgb(84, 98, 45)"
+        },
+        {
+          "section": "Journal",
+          "id": "XLWU1APv6",
+          "preset": "Arbour/Meta",
+          "textColor": "rgb(252, 250, 244)"
+        },
+        {
+          "section": "Journal",
+          "id": "CCbZp2cIN",
+          "preset": "Arbour/Meta"
+        },
+        {
+          "section": "Journal",
+          "id": "rBhZ0Hnkp",
+          "preset": "Arbour/Subhead",
+          "textColor": "rgb(28, 27, 22)"
+        },
+        {
+          "section": "Journal",
+          "id": "jifekgXPB",
+          "preset": "Arbour/Meta"
+        },
+        {
+          "section": "Journal",
+          "id": "saIfjW2z6",
+          "preset": "Arbour/Subhead",
+          "textColor": "rgb(28, 27, 22)"
+        }
+      ],
+      "rawFonts": [],
+      "rawColors": [
+        {
+          "id": "TWVNilHRn",
+          "preset": null,
+          "fontName": "Space Mono",
+          "fontSize": "12px",
+          "letterSpacing": "0.08em",
+          "textColor": "rgb(214, 224, 74)"
+        },
+        {
+          "id": "R80e8PwNu",
+          "preset": null,
+          "fontName": "Fraunces",
+          "fontSize": "72px",
+          "letterSpacing": "-0.04em",
+          "textColor": "rgb(252, 250, 244)"
+        },
+        {
+          "id": "jFTgrH9Eq",
+          "preset": null,
+          "fontName": "Space Mono",
+          "fontSize": "12px",
+          "letterSpacing": "0.08em",
+          "textColor": "rgb(252, 250, 244)"
+        },
+        {
+          "id": "yXnPwn7e1",
+          "preset": null,
+          "fontName": "Space Mono",
+          "fontSize": "12px",
+          "letterSpacing": "0.08em",
+          "textColor": "rgb(214, 224, 74)"
+        },
+        {
+          "id": "F6Dxn9vpj",
+          "preset": "Arbour/Meta",
+          "fontName": null,
+          "fontSize": null,
+          "letterSpacing": null,
+          "textColor": "rgb(84, 98, 45)"
+        },
+        {
+          "id": "at0UFQWlS",
+          "preset": null,
+          "fontName": "Fraunces",
+          "fontSize": "96px",
+          "letterSpacing": "-0.045em",
+          "textColor": "rgb(0, 0, 0)"
+        },
+        {
+          "id": "SEtzgNJzz",
+          "preset": null,
+          "fontName": "Fraunces",
+          "fontSize": "19px",
+          "letterSpacing": "-0.01em",
+          "textColor": "rgba(28, 27, 22, 0.7)"
+        },
+        {
+          "id": "jy6AYu31v",
+          "preset": "Arbour/Meta",
+          "fontName": null,
+          "fontSize": null,
+          "letterSpacing": null,
+          "textColor": "rgb(84, 98, 45)"
+        },
+        {
+          "id": "nfdJgK1V5",
+          "preset": "Arbour/Meta",
+          "fontName": null,
+          "fontSize": null,
+          "letterSpacing": null,
+          "textColor": "rgb(84, 98, 45)"
+        },
+        {
+          "id": "sjE6PBlZA",
+          "preset": "Arbour/Meta",
+          "fontName": null,
+          "fontSize": null,
+          "letterSpacing": null,
+          "textColor": "rgb(84, 98, 45)"
+        },
+        {
+          "id": "XokYhsPrk",
+          "preset": "Arbour/Meta",
+          "fontName": null,
+          "fontSize": null,
+          "letterSpacing": null,
+          "textColor": "rgb(84, 98, 45)"
+        },
+        {
+          "id": "Vj6fl3uhe",
+          "preset": "Arbour/Meta",
+          "fontName": null,
+          "fontSize": null,
+          "letterSpacing": null,
+          "textColor": "rgba(28, 27, 22, 0.55)"
+        },
+        {
+          "id": "xvtcI6cj9",
+          "preset": "Arbour/Meta",
+          "fontName": null,
+          "fontSize": null,
+          "letterSpacing": null,
+          "textColor": "rgb(84, 98, 45)"
+        },
+        {
+          "id": "cVLdkLcS3",
+          "preset": "Arbour/Heading",
+          "fontName": null,
+          "fontSize": null,
+          "letterSpacing": null,
+          "textColor": "rgb(28, 27, 22)"
+        },
+        {
+          "id": "Q9ZpLaN5X",
+          "preset": "Arbour/Meta",
+          "fontName": null,
+          "fontSize": null,
+          "letterSpacing": null,
+          "textColor": "rgb(84, 98, 45)"
+        },
+        {
+          "id": "bhQOxL_ST",
+          "name": "Newsletter Quarterly notes on new workS!",
+          "preset": "Arbour/Meta",
+          "fontName": null,
+          "fontSize": null,
+          "letterSpacing": null,
+          "textColor": "rgb(84, 98, 45)"
+        },
+        {
+          "id": "XLWU1APv6",
+          "preset": "Arbour/Meta",
+          "fontName": null,
+          "fontSize": null,
+          "letterSpacing": null,
+          "textColor": "rgb(252, 250, 244)"
+        },
+        {
+          "id": "Al6EwHydm",
+          "name": "Well for studios proud of their own digital presence; remove it if it doesn't fit.",
+          "preset": "Arbour/Body",
+          "fontName": null,
+          "fontSize": null,
+          "letterSpacing": null,
+          "textColor": "rgba(28, 27, 22, 0.65)"
+        },
+        {
+          "id": "rBhZ0Hnkp",
+          "preset": "Arbour/Subhead",
+          "fontName": null,
+          "fontSize": null,
+          "letterSpacing": null,
+          "textColor": "rgb(28, 27, 22)"
+        },
+        {
+          "id": "rscKVub01",
+          "preset": "Arbour/Body",
+          "fontName": null,
+          "fontSize": null,
+          "letterSpacing": null,
+          "textColor": "rgba(28, 27, 22, 0.6)"
+        }
+      ],
+      "letterSpacing": [
+        {
+          "id": "TWVNilHRn",
+          "preset": null,
+          "fontName": "Space Mono",
+          "fontSize": "12px",
+          "letterSpacing": "0.08em",
+          "textColor": "rgb(214, 224, 74)"
+        },
+        {
+          "id": "R80e8PwNu",
+          "preset": null,
+          "fontName": "Fraunces",
+          "fontSize": "72px",
+          "letterSpacing": "-0.04em",
+          "textColor": "rgb(252, 250, 244)"
+        },
+        {
+          "id": "jFTgrH9Eq",
+          "preset": null,
+          "fontName": "Space Mono",
+          "fontSize": "12px",
+          "letterSpacing": "0.08em",
+          "textColor": "rgb(252, 250, 244)"
+        },
+        {
+          "id": "yXnPwn7e1",
+          "preset": null,
+          "fontName": "Space Mono",
+          "fontSize": "12px",
+          "letterSpacing": "0.08em",
+          "textColor": "rgb(214, 224, 74)"
+        },
+        {
+          "id": "at0UFQWlS",
+          "preset": null,
+          "fontName": "Fraunces",
+          "fontSize": "96px",
+          "letterSpacing": "-0.045em",
+          "textColor": "rgb(0, 0, 0)"
+        },
+        {
+          "id": "SEtzgNJzz",
+          "preset": null,
+          "fontName": "Fraunces",
+          "fontSize": "19px",
+          "letterSpacing": "-0.01em",
+          "textColor": "rgba(28, 27, 22, 0.7)"
+        }
+      ],
+      "noPresetCount": 6,
+      "sectionRawFills": []
+    },
+    "/properties-2/:Properties": {
+      "pageId": "OhRUQROL4",
+      "richCount": 129,
+      "desktopRichSampled": 43,
+      "frameCount": 120,
+      "componentCount": 27,
+      "breakpoints": [
+        {
+          "name": "Desktop",
+          "sections": 13,
+          "fill": "rgb(252, 250, 244)"
+        },
+        {
+          "name": "Tablet",
+          "sections": 13,
+          "fill": "rgb(252, 250, 244)"
+        },
+        {
+          "name": "Phone",
+          "sections": 13,
+          "fill": "rgb(252, 250, 244)"
+        }
+      ],
+      "desktop": "Desktop",
+      "sections": [
+        {
+          "id": "AgSQrniYR",
+          "name": "Arbour_LoadingScreen",
+          "type": "ComponentInstanceNode",
+          "component": "codeFile/QsH9B_M:default"
+        },
+        {
+          "id": "G51GKYGAu",
+          "name": "Arbour_SmoothScroll",
+          "type": "ComponentInstanceNode",
+          "component": "codeFile/lKYHG0I:default"
+        },
+        {
+          "id": "ESmV_RMan",
+          "name": "Atmosphere",
+          "type": "FrameNode"
+        },
+        {
+          "id": "W57T5rQpL",
+          "type": "ComponentInstanceNode",
+          "component": "ynpqYJGOd"
+        },
+        {
+          "id": "lODMk6Egu",
+          "type": "FrameNode",
+          "gap": "56px",
+          "padding": "120px 48px 112px 48px",
+          "maxWidth": "1200px"
+        },
+        {
+          "id": "aqUTeKNkU",
+          "type": "FrameNode",
+          "gap": "0px",
+          "padding": "0px 48px 0px 48px",
+          "maxWidth": "1200px"
+        },
+        {
+          "id": "ubrig7P0R",
+          "type": "FrameNode",
+          "gap": "32px",
+          "padding": "80px 48px 80px 48px",
+          "maxWidth": "1200px"
+        },
+        {
+          "id": "lP4ZL6y0c",
+          "name": "Cinematic Gallery",
+          "type": "FrameNode",
+          "fill": "rgb(252, 250, 244)",
+          "gap": "48px",
+          "padding": "0px 48px 120px 48px",
+          "maxWidth": "1200px"
+        },
+        {
+          "id": "uZ8oOXu4y",
+          "name": "The Setting",
+          "type": "FrameNode",
+          "padding": "120px 48px 120px 48px",
+          "maxWidth": "1200px"
+        },
+        {
+          "id": "vlElPVCV7",
+          "name": "Property Particulars",
+          "type": "FrameNode",
+          "fill": "rgb(21, 43, 30)",
+          "gap": "0px",
+          "padding": "120px 48px 120px 48px",
+          "maxWidth": "1200px"
+        },
+        {
+          "id": "OA3sHhDMv",
+          "name": "Continue Your Search",
+          "type": "FrameNode",
+          "gap": "40px",
+          "padding": "120px 48px 120px 48px",
+          "maxWidth": "1200px"
+        },
+        {
+          "id": "Wy9_asNQu",
+          "name": "Enquiry CTA",
+          "type": "FrameNode",
+          "fill": "var(--token-425191b0-a245-4f14-88c2-f7144ab54959)",
+          "gap": "24px",
+          "padding": "120px 48px 120px 48px",
+          "maxWidth": "1200px"
+        },
+        {
+          "id": "CIYq_FTjP",
+          "type": "ComponentInstanceNode",
+          "component": "pXUahiblU"
+        }
+      ],
+      "hasNav": true,
+      "hasFooter": true,
+      "components": [
+        "Arbour_LoadingScreen",
+        "Arbour_SmoothScroll",
+        "Arbour_NoiseEffect",
+        "Arbour_ProgressiveBlur",
+        "Nav",
+        "Arbour_InertiaFrame",
+        "Arbour Neighbourhood Feature",
+        "Footer"
+      ],
+      "presetCounts": {
+        "Arbour/Meta": 26,
+        "Arbour/Heading": 4,
+        "Arbour/Price": 1,
+        "(none)": 8,
+        "Arbour/Body": 3,
+        "Arbour/Subhead": 1
+      },
+      "titles": [
+        {
+          "id": "DoqsMLwNC",
+          "text": "var(--variable-JpvlXWFTC)",
+          "preset": "Arbour/Heading",
+          "fontName": null,
+          "fontSize": null,
+          "letterSpacing": null,
+          "textColor": null
+        },
+        {
+          "id": "gB0CaDpqa",
+          "name": "Chapter One Title",
+          "preset": "Arbour/Heading",
+          "fontName": null,
+          "fontSize": null,
+          "letterSpacing": null,
+          "textColor": "rgb(28, 27, 22)"
+        },
+        {
+          "id": "FH8AOsipo",
+          "name": "Gallery Title",
+          "preset": "Arbour/Heading",
+          "fontName": null,
+          "fontSize": null,
+          "letterSpacing": null,
+          "textColor": "rgb(28, 27, 22)"
+        },
+        {
+          "id": "UvDjgzXCm",
+          "name": "Setting Title",
+          "preset": "Arbour/Heading",
+          "fontName": null,
+          "fontSize": null,
+          "letterSpacing": null,
+          "textColor": "rgb(28, 27, 22)"
+        },
+        {
+          "id": "ObIpMwp5D",
+          "name": "Properties Title",
+          "preset": "Arbour/Subhead",
+          "fontName": null,
+          "fontSize": null,
+          "letterSpacing": null,
+          "textColor": "rgb(28, 27, 22)"
+        }
+      ],
+      "headlinesBySection": [
+        {
+          "id": "o3sRRCUo2",
+          "name": "Return Label",
+          "preset": "Arbour/Meta",
+          "textColor": "rgb(84, 98, 45)"
+        },
+        {
+          "id": "e3GyRnyIH",
+          "text": "var(--variable-sx_scwXZw)",
+          "preset": "Arbour/Meta",
+          "textColor": "rgb(84, 98, 45)"
+        },
+        {
+          "id": "DoqsMLwNC",
+          "text": "var(--variable-JpvlXWFTC)",
+          "preset": "Arbour/Heading"
+        },
+        {
+          "id": "Rhq1RvyMY",
+          "preset": "Arbour/Meta",
+          "textColor": "rgba(28, 27, 22, 0.55)"
+        },
+        {
+          "id": "E_56VvGED",
+          "preset": "Arbour/Meta"
+        },
+        {
+          "id": "BrDcHooTI",
+          "preset": "Arbour/Meta",
+          "textColor": "rgba(28, 27, 22, 0.55)"
+        },
+        {
+          "id": "ZO3PVzj32",
+          "preset": "Arbour/Meta"
+        },
+        {
+          "id": "ExDF9EEEh",
+          "preset": "Arbour/Meta",
+          "textColor": "rgba(28, 27, 22, 0.55)"
+        },
+        {
+          "id": "RQOH14wBj",
+          "text": "var(--variable-q4Uo_EM4a)",
+          "preset": "Arbour/Meta"
+        },
+        {
+          "id": "Oj8ddKJH8",
+          "preset": "Arbour/Meta",
+          "textColor": "rgba(28, 27, 22, 0.55)"
+        },
+        {
+          "id": "r22bo7RRn",
+          "preset": "(none)",
+          "fontName": "Fraunces",
+          "fontSize": "24px",
+          "textColor": "rgb(28, 27, 22)",
+          "letterSpacing": "-0.02em",
+          "flag": "no-preset"
+        },
+        {
+          "id": "KwDsV82id",
+          "preset": "Arbour/Meta",
+          "textColor": "rgba(28, 27, 22, 0.55)"
+        },
+        {
+          "id": "V7Jo2HQsi",
+          "preset": "Arbour/Meta",
+          "textColor": "rgb(28, 27, 22)"
+        },
+        {
+          "id": "AW_GqgBLB",
+          "preset": "Arbour/Meta",
+          "textColor": "rgba(28, 27, 22, 0.55)"
+        },
+        {
+          "id": "W4hAMYTj7",
+          "text": "var(--variable-sx_scwXZw)",
+          "preset": "Arbour/Meta",
+          "textColor": "rgb(28, 27, 22)"
+        },
+        {
+          "id": "MqTJwQ142",
+          "preset": "Arbour/Meta",
+          "textColor": "rgba(28, 27, 22, 0.55)"
+        },
+        {
+          "id": "tQfwxGNgV",
+          "text": "var(--variable-fa3JCTHNW)",
+          "preset": "Arbour/Meta",
+          "textColor": "rgb(28, 27, 22)"
+        },
+        {
+          "id": "VNLnTbKMG",
+          "preset": "Arbour/Meta",
+          "textColor": "rgb(84, 98, 45)"
+        },
+        {
+          "id": "gB0CaDpqa",
+          "name": "Chapter One Title",
+          "preset": "Arbour/Heading",
+          "textColor": "rgb(28, 27, 22)"
+        },
+        {
+          "section": "Cinematic Gallery",
+          "id": "oxMJ7AcyY",
+          "name": "Gallery Label",
+          "preset": "Arbour/Meta",
+          "textColor": "rgb(84, 98, 45)"
+        },
+        {
+          "section": "Cinematic Gallery",
+          "id": "FH8AOsipo",
+          "name": "Gallery Title",
+          "preset": "Arbour/Heading",
+          "textColor": "rgb(28, 27, 22)"
+        },
+        {
+          "section": "Cinematic Gallery",
+          "id": "hjGB8uRkt",
+          "name": "Caption Index",
+          "preset": "Arbour/Meta",
+          "textColor": "rgba(28, 27, 22, 0.55)"
+        },
+        {
+          "section": "The Setting",
+          "id": "L2TceMHda",
+          "name": "Setting Label",
+          "preset": "Arbour/Meta",
+          "textColor": "rgb(84, 98, 45)"
+        },
+        {
+          "section": "The Setting",
+          "id": "UvDjgzXCm",
+          "name": "Setting Title",
+          "preset": "Arbour/Heading",
+          "textColor": "rgb(28, 27, 22)"
+        },
+        {
+          "section": "The Setting",
+          "id": "CRfh_mLch",
+          "name": "Property Location",
+          "text": "var(--variable-sx_scwXZw)",
+          "preset": "Arbour/Meta",
+          "textColor": "rgba(28, 27, 22, 0.55)"
+        },
+        {
+          "section": "The Setting",
+          "id": "bPW4fi6cp",
+          "name": "Setting Detail",
+          "preset": "(none)",
+          "fontName": "Inter",
+          "fontSize": "16px",
+          "textColor": "rgba(28, 27, 22, 0.55)",
+          "letterSpacing": "0em",
+          "flag": "no-preset"
+        },
+        {
+          "section": "Property Particulars",
+          "id": "o9SWqciSq",
+          "name": "Particulars Kicker",
+          "preset": "Arbour/Meta",
+          "textColor": "rgb(214, 224, 74)"
+        },
+        {
+          "section": "Property Particulars",
+          "id": "wQrojsiG9",
+          "name": "Particulars Heading",
+          "preset": "(none)",
+          "fontName": "Fraunces",
+          "fontSize": "52px",
+          "textColor": "rgb(252, 250, 244)",
+          "letterSpacing": "-0.04em",
+          "flag": "no-preset"
+        },
+        {
+          "section": "Property Particulars",
+          "id": "ISEAVrT1Z",
+          "name": "Particulars Copy",
+          "preset": "(none)",
+          "fontName": "Fraunces",
+          "fontSize": "20px",
+          "textColor": "rgba(252, 250, 244, 0.72)",
+          "letterSpacing": "-0.02em",
+          "flag": "no-preset"
+        },
+        {
+          "section": "Property Particulars",
+          "id": "dZPB5X_ML",
+          "name": "Private Enquiry Label",
+          "preset": "Arbour/Meta",
+          "textColor": "rgb(252, 250, 244)"
+        },
+        {
+          "section": "Property Particulars",
+          "id": "ypkCRm6aW",
+          "name": "Property Features",
+          "text": "var(--variable-lQmjCV6Uu)",
+          "preset": "(none)",
+          "fontName": "Fraunces",
+          "fontSize": "28px",
+          "textColor": "rgb(252, 250, 244)",
+          "letterSpacing": "-0.03em",
+          "flag": "no-preset"
+        },
+        {
+          "section": "Continue Your Search",
+          "id": "oTADAStnm",
+          "name": "Discovery Label",
+          "preset": "Arbour/Meta",
+          "textColor": "rgb(84, 98, 45)"
+        },
+        {
+          "section": "Continue Your Search",
+          "id": "Yu37lIMyP",
+          "name": "Properties Label",
+          "preset": "Arbour/Meta",
+          "textColor": "rgba(28, 27, 22, 0.55)"
+        },
+        {
+          "section": "Continue Your Search",
+          "id": "ObIpMwp5D",
+          "name": "Properties Title",
+          "preset": "Arbour/Subhead",
+          "textColor": "rgb(28, 27, 22)"
+        },
+        {
+          "section": "Enquiry CTA",
+          "id": "E7jDKaZv3",
+          "name": "Enquiry Kicker",
+          "preset": "Arbour/Meta",
+          "textColor": "rgb(84, 98, 45)"
+        },
+        {
+          "section": "Enquiry CTA",
+          "id": "qx96EF_Sp",
+          "name": "Enquiry Heading",
+          "preset": "(none)",
+          "fontName": "Fraunces",
+          "fontSize": "64px",
+          "textColor": "rgb(28, 27, 22)",
+          "letterSpacing": "-0.03em",
+          "flag": "no-preset"
+        },
+        {
+          "section": "Enquiry CTA",
+          "id": "nbzX2FUng",
+          "preset": "Arbour/Meta",
+          "textColor": "rgb(21, 43, 30)"
+        }
+      ],
+      "rawFonts": [
+        {
+          "id": "bPW4fi6cp",
+          "name": "Setting Detail",
+          "preset": null,
+          "fontName": "Inter",
+          "fontSize": "16px",
+          "letterSpacing": "0em",
+          "textColor": "rgba(28, 27, 22, 0.55)"
+        }
+      ],
+      "rawColors": [
+        {
+          "id": "o3sRRCUo2",
+          "name": "Return Label",
+          "preset": "Arbour/Meta",
+          "fontName": null,
+          "fontSize": null,
+          "letterSpacing": null,
+          "textColor": "rgb(84, 98, 45)"
+        },
+        {
+          "id": "e3GyRnyIH",
+          "text": "var(--variable-sx_scwXZw)",
+          "preset": "Arbour/Meta",
+          "fontName": null,
+          "fontSize": null,
+          "letterSpacing": null,
+          "textColor": "rgb(84, 98, 45)"
+        },
+        {
+          "id": "Rhq1RvyMY",
+          "preset": "Arbour/Meta",
+          "fontName": null,
+          "fontSize": null,
+          "letterSpacing": null,
+          "textColor": "rgba(28, 27, 22, 0.55)"
+        },
+        {
+          "id": "BrDcHooTI",
+          "preset": "Arbour/Meta",
+          "fontName": null,
+          "fontSize": null,
+          "letterSpacing": null,
+          "textColor": "rgba(28, 27, 22, 0.55)"
+        },
+        {
+          "id": "ExDF9EEEh",
+          "preset": "Arbour/Meta",
+          "fontName": null,
+          "fontSize": null,
+          "letterSpacing": null,
+          "textColor": "rgba(28, 27, 22, 0.55)"
+        },
+        {
+          "id": "Oj8ddKJH8",
+          "preset": "Arbour/Meta",
+          "fontName": null,
+          "fontSize": null,
+          "letterSpacing": null,
+          "textColor": "rgba(28, 27, 22, 0.55)"
+        },
+        {
+          "id": "r22bo7RRn",
+          "preset": null,
+          "fontName": "Fraunces",
+          "fontSize": "24px",
+          "letterSpacing": "-0.02em",
+          "textColor": "rgb(28, 27, 22)"
+        },
+        {
+          "id": "KwDsV82id",
+          "preset": "Arbour/Meta",
+          "fontName": null,
+          "fontSize": null,
+          "letterSpacing": null,
+          "textColor": "rgba(28, 27, 22, 0.55)"
+        },
+        {
+          "id": "V7Jo2HQsi",
+          "preset": "Arbour/Meta",
+          "fontName": null,
+          "fontSize": null,
+          "letterSpacing": null,
+          "textColor": "rgb(28, 27, 22)"
+        },
+        {
+          "id": "AW_GqgBLB",
+          "preset": "Arbour/Meta",
+          "fontName": null,
+          "fontSize": null,
+          "letterSpacing": null,
+          "textColor": "rgba(28, 27, 22, 0.55)"
+        },
+        {
+          "id": "W4hAMYTj7",
+          "text": "var(--variable-sx_scwXZw)",
+          "preset": "Arbour/Meta",
+          "fontName": null,
+          "fontSize": null,
+          "letterSpacing": null,
+          "textColor": "rgb(28, 27, 22)"
+        },
+        {
+          "id": "MqTJwQ142",
+          "preset": "Arbour/Meta",
+          "fontName": null,
+          "fontSize": null,
+          "letterSpacing": null,
+          "textColor": "rgba(28, 27, 22, 0.55)"
+        },
+        {
+          "id": "tQfwxGNgV",
+          "text": "var(--variable-fa3JCTHNW)",
+          "preset": "Arbour/Meta",
+          "fontName": null,
+          "fontSize": null,
+          "letterSpacing": null,
+          "textColor": "rgb(28, 27, 22)"
+        },
+        {
+          "id": "VNLnTbKMG",
+          "preset": "Arbour/Meta",
+          "fontName": null,
+          "fontSize": null,
+          "letterSpacing": null,
+          "textColor": "rgb(84, 98, 45)"
+        },
+        {
+          "id": "gB0CaDpqa",
+          "name": "Chapter One Title",
+          "preset": "Arbour/Heading",
+          "fontName": null,
+          "fontSize": null,
+          "letterSpacing": null,
+          "textColor": "rgb(28, 27, 22)"
+        },
+        {
+          "id": "oxMJ7AcyY",
+          "name": "Gallery Label",
+          "preset": "Arbour/Meta",
+          "fontName": null,
+          "fontSize": null,
+          "letterSpacing": null,
+          "textColor": "rgb(84, 98, 45)"
+        },
+        {
+          "id": "FH8AOsipo",
+          "name": "Gallery Title",
+          "preset": "Arbour/Heading",
+          "fontName": null,
+          "fontSize": null,
+          "letterSpacing": null,
+          "textColor": "rgb(28, 27, 22)"
+        },
+        {
+          "id": "lt8o2Rpox",
+          "name": "Caption Detail",
+          "preset": "Arbour/Body",
+          "fontName": null,
+          "fontSize": null,
+          "letterSpacing": null,
+          "textColor": "rgb(28, 27, 22)"
+        },
+        {
+          "id": "hjGB8uRkt",
+          "name": "Caption Index",
+          "preset": "Arbour/Meta",
+          "fontName": null,
+          "fontSize": null,
+          "letterSpacing": null,
+          "textColor": "rgba(28, 27, 22, 0.55)"
+        },
+        {
+          "id": "L2TceMHda",
+          "name": "Setting Label",
+          "preset": "Arbour/Meta",
+          "fontName": null,
+          "fontSize": null,
+          "letterSpacing": null,
+          "textColor": "rgb(84, 98, 45)"
+        }
+      ],
+      "letterSpacing": [
+        {
+          "id": "r22bo7RRn",
+          "preset": null,
+          "fontName": "Fraunces",
+          "fontSize": "24px",
+          "letterSpacing": "-0.02em",
+          "textColor": "rgb(28, 27, 22)"
+        },
+        {
+          "id": "bPW4fi6cp",
+          "name": "Setting Detail",
+          "preset": null,
+          "fontName": "Inter",
+          "fontSize": "16px",
+          "letterSpacing": "0em",
+          "textColor": "rgba(28, 27, 22, 0.55)"
+        },
+        {
+          "id": "wQrojsiG9",
+          "name": "Particulars Heading",
+          "preset": null,
+          "fontName": "Fraunces",
+          "fontSize": "52px",
+          "letterSpacing": "-0.04em",
+          "textColor": "rgb(252, 250, 244)"
+        },
+        {
+          "id": "ISEAVrT1Z",
+          "name": "Particulars Copy",
+          "preset": null,
+          "fontName": "Fraunces",
+          "fontSize": "20px",
+          "letterSpacing": "-0.02em",
+          "textColor": "rgba(252, 250, 244, 0.72)"
+        },
+        {
+          "id": "ypkCRm6aW",
+          "name": "Property Features",
+          "text": "var(--variable-lQmjCV6Uu)",
+          "preset": null,
+          "fontName": "Fraunces",
+          "fontSize": "28px",
+          "letterSpacing": "-0.03em",
+          "textColor": "rgb(252, 250, 244)"
+        },
+        {
+          "id": "qx96EF_Sp",
+          "name": "Enquiry Heading",
+          "preset": null,
+          "fontName": "Fraunces",
+          "fontSize": "64px",
+          "letterSpacing": "-0.03em",
+          "textColor": "rgb(28, 27, 22)"
+        }
+      ],
+      "noPresetCount": 8,
+      "sectionRawFills": [
+        {
+          "name": "Cinematic Gallery",
+          "fill": "rgb(252, 250, 244)"
+        },
+        {
+          "name": "Property Particulars",
+          "fill": "rgb(21, 43, 30)"
+        }
+      ]
+    },
+    "/notes/:Journal": {
+      "pageId": "YPPO8pJ92",
+      "richCount": 147,
+      "desktopRichSampled": 49,
+      "frameCount": 150,
+      "componentCount": 33,
+      "breakpoints": [
+        {
+          "name": "Desktop",
+          "sections": 17,
+          "fill": "rgb(252, 250, 244)"
+        },
+        {
+          "name": "Tablet",
+          "sections": 17,
+          "fill": "rgb(252, 250, 244)"
+        },
+        {
+          "name": "Phone",
+          "sections": 17,
+          "fill": "rgb(252, 250, 244)"
+        }
+      ],
+      "desktop": "Desktop",
+      "sections": [
+        {
+          "id": "Op000hbXW",
+          "name": "Arbour_LoadingScreen",
+          "type": "ComponentInstanceNode",
+          "component": "codeFile/QsH9B_M:default"
+        },
+        {
+          "id": "zoiRFt077",
+          "type": "ComponentInstanceNode",
+          "component": "ynpqYJGOd"
+        },
+        {
+          "id": "YkOoyEoXW",
+          "name": "Arbour_SmoothScroll",
+          "type": "ComponentInstanceNode",
+          "component": "codeFile/lKYHG0I:default"
+        },
+        {
+          "id": "TYvLnLN5L",
+          "type": "FrameNode",
+          "fill": "rgb(252, 250, 244)",
+          "gap": "0px",
+          "padding": "128px 48px 0px 48px",
+          "maxWidth": "1200px"
+        },
+        {
+          "id": "rZDvGuaZD",
+          "name": "Journal Hero Image",
+          "type": "FrameNode",
+          "fill": "var(--variable-UuvdpyCxL)",
+          "gap": "0px",
+          "padding": "48px 48px 0px 48px",
+          "maxWidth": "1200px"
+        },
+        {
+          "id": "F88MmOdES",
+          "name": "Article Body Wrap",
+          "type": "FrameNode",
+          "gap": "0px",
+          "padding": "56px 48px 120px 48px",
+          "maxWidth": "1200px"
+        },
+        {
+          "id": "HR7GLyyBT",
+          "name": "Journal Text Column",
+          "type": "FrameNode",
+          "gap": "10px"
+        },
+        {
+          "id": "cIncylbTv",
+          "name": "More From Journal",
+          "type": "FrameNode",
+          "fill": "var(--token-425191b0-a245-4f14-88c2-f7144ab54959)",
+          "gap": "40px",
+          "padding": "120px 48px 120px 48px",
+          "maxWidth": "1200px"
+        },
+        {
+          "id": "RYeMH2jXD",
+          "name": "Atmosphere",
+          "type": "FrameNode"
+        },
+        {
+          "id": "OE3uHiT52",
+          "type": "FrameNode",
+          "gap": "0px",
+          "padding": "0px 48px 0px 48px",
+          "maxWidth": "1200px"
+        },
+        {
+          "id": "VeGntwuIg",
+          "type": "FrameNode",
+          "gap": "32px",
+          "padding": "80px 48px 80px 48px",
+          "maxWidth": "1200px"
+        },
+        {
+          "id": "d82gQ_1I3",
+          "name": "Cinematic Gallery",
+          "type": "FrameNode",
+          "gap": "48px",
+          "padding": "40px 48px 120px 48px",
+          "maxWidth": "1200px"
+        },
+        {
+          "id": "RM2lKjL9K",
+          "name": "The Setting",
+          "type": "FrameNode",
+          "padding": "80px 48px 120px 48px",
+          "maxWidth": "1200px"
+        },
+        {
+          "id": "JnURREKMn",
+          "name": "Property Particulars",
+          "type": "FrameNode",
+          "fill": "rgb(21, 43, 30)",
+          "gap": "0px",
+          "padding": "120px 48px 120px 48px",
+          "maxWidth": "1200px"
+        },
+        {
+          "id": "BrbaLNfZ4",
+          "name": "Continue Your Search",
+          "type": "FrameNode",
+          "gap": "40px",
+          "padding": "120px 48px 120px 48px",
+          "maxWidth": "1200px"
+        },
+        {
+          "id": "swn4E8_G4",
+          "name": "Enquiry CTA",
+          "type": "FrameNode",
+          "fill": "var(--token-425191b0-a245-4f14-88c2-f7144ab54959)",
+          "gap": "24px",
+          "padding": "104px 48px 104px 48px",
+          "maxWidth": "1200px"
+        },
+        {
+          "id": "WsEwAIpxM",
+          "type": "ComponentInstanceNode",
+          "component": "pXUahiblU"
+        }
+      ],
+      "hasNav": true,
+      "hasFooter": true,
+      "components": [
+        "Arbour_LoadingScreen",
+        "Nav",
+        "Arbour_SmoothScroll",
+        "Arbour_InertiaFrame",
+        "Arbour_FormButton",
+        "Arbour_ArticleCard",
+        "Arbour_NoiseEffect",
+        "Arbour_ProgressiveBlur",
+        "Arbour Neighbourhood Feature",
+        "Footer"
+      ],
+      "presetCounts": {
+        "Arbour/Meta": 30,
+        "(none)": 10,
+        "Arbour/Body": 4,
+        "Arbour/Subhead": 2,
+        "Arbour/Heading": 3
+      },
+      "titles": [
+        {
+          "id": "eOV768cPJ",
+          "preset": "Arbour/Subhead",
+          "fontName": null,
+          "fontSize": null,
+          "letterSpacing": null,
+          "textColor": "rgb(28, 27, 22)"
+        },
+        {
+          "id": "N896SgS_Z",
+          "name": "Chapter One Title",
+          "preset": "Arbour/Heading",
+          "fontName": null,
+          "fontSize": null,
+          "letterSpacing": null,
+          "textColor": "rgb(28, 27, 22)"
+        },
+        {
+          "id": "Ww9MRG3Oj",
+          "name": "Gallery Title",
+          "preset": "Arbour/Heading",
+          "fontName": null,
+          "fontSize": null,
+          "letterSpacing": null,
+          "textColor": "rgb(28, 27, 22)"
+        },
+        {
+          "id": "E2OFAPXE0",
+          "name": "Setting Title",
+          "preset": "Arbour/Heading",
+          "fontName": null,
+          "fontSize": null,
+          "letterSpacing": null,
+          "textColor": "rgb(28, 27, 22)"
+        },
+        {
+          "id": "BF1zUaLf1",
+          "name": "Properties Title",
+          "preset": "Arbour/Subhead",
+          "fontName": null,
+          "fontSize": null,
+          "letterSpacing": null,
+          "textColor": "rgb(28, 27, 22)"
+        }
+      ],
+      "headlinesBySection": [
+        {
+          "id": "bk4wPgyNv",
+          "name": "Return Label",
+          "preset": "Arbour/Meta",
+          "textColor": "rgba(28, 27, 22, 0.55)"
+        },
+        {
+          "id": "T2LFHaziB",
+          "text": "var(--variable-Ht2pNTkTm)",
+          "preset": "Arbour/Meta",
+          "textColor": "rgb(84, 98, 45)"
+        },
+        {
+          "id": "n114L0bZV",
+          "name": "Article Date",
+          "text": "var(--variable-rZBsxUFGd)",
+          "preset": "Arbour/Meta",
+          "textColor": "rgba(28, 27, 22, 0.55)"
+        },
+        {
+          "id": "ZiTC3Ghmc",
+          "text": "var(--variable-nheUxuW0y)",
+          "preset": "(none)",
+          "fontName": "Fraunces",
+          "fontSize": "84px",
+          "textColor": "rgb(28, 27, 22)",
+          "letterSpacing": "-0.03em",
+          "flag": "no-preset"
+        },
+        {
+          "id": "QPghii7Fh",
+          "text": "var(--variable-lIhfcSEN0)",
+          "preset": "(none)",
+          "fontName": "Fraunces",
+          "fontSize": "21px",
+          "textColor": "rgba(28, 27, 22, 0.65)",
+          "letterSpacing": "-0.04em",
+          "flag": "no-preset"
+        },
+        {
+          "id": "kXBqfOmZn",
+          "preset": "Arbour/Meta",
+          "textColor": "rgba(28, 27, 22, 0.55)"
+        },
+        {
+          "id": "k8DlxTND5",
+          "preset": "Arbour/Meta"
+        },
+        {
+          "id": "xToVo97Pe",
+          "preset": "Arbour/Meta",
+          "textColor": "rgba(28, 27, 22, 0.55)"
+        },
+        {
+          "id": "wEGXV8ytj",
+          "preset": "Arbour/Meta"
+        },
+        {
+          "id": "fm55VgLvp",
+          "preset": "Arbour/Meta",
+          "textColor": "rgba(28, 27, 22, 0.55)"
+        },
+        {
+          "id": "w_gEyE5gr",
+          "text": "var(--variable-Jd2WAsZn3)",
+          "preset": "Arbour/Meta"
+        },
+        {
+          "section": "Journal Text Column",
+          "id": "aLUKuA9kf",
+          "name": "Newsletter Quarterly notes on new workS!",
+          "preset": "Arbour/Meta",
+          "textColor": "rgb(84, 98, 45)"
+        },
+        {
+          "section": "Journal Text Column",
+          "id": "QYZgojsFn",
+          "preset": "Arbour/Meta",
+          "textColor": "rgb(252, 250, 244)"
+        },
+        {
+          "section": "More From Journal",
+          "id": "xdJnss3VP",
+          "preset": "Arbour/Meta",
+          "textColor": "rgb(84, 98, 45)"
+        },
+        {
+          "section": "More From Journal",
+          "id": "eOV768cPJ",
+          "preset": "Arbour/Subhead",
+          "textColor": "rgb(28, 27, 22)"
+        },
+        {
+          "id": "yhtfZHYsl",
+          "preset": "Arbour/Meta",
+          "textColor": "rgba(28, 27, 22, 0.55)"
+        },
+        {
+          "id": "UC44wVjIg",
+          "preset": "(none)",
+          "fontName": "Fraunces",
+          "fontSize": "24px",
+          "textColor": "rgb(28, 27, 22)",
+          "letterSpacing": "-0.02em",
+          "flag": "no-preset"
+        },
+        {
+          "id": "LzWdxJGwa",
+          "preset": "Arbour/Meta",
+          "textColor": "rgba(28, 27, 22, 0.55)"
+        },
+        {
+          "id": "PKKjLspFx",
+          "preset": "Arbour/Meta",
+          "textColor": "rgb(28, 27, 22)"
+        },
+        {
+          "id": "oWdEoKFRL",
+          "preset": "Arbour/Meta",
+          "textColor": "rgba(28, 27, 22, 0.55)"
+        },
+        {
+          "id": "bGLaHSkme",
+          "text": "var(--variable-Jd2WAsZn3)",
+          "preset": "Arbour/Meta",
+          "textColor": "rgb(28, 27, 22)"
+        },
+        {
+          "id": "Dx2XEnuRC",
+          "preset": "Arbour/Meta",
+          "textColor": "rgba(28, 27, 22, 0.55)"
+        },
+        {
+          "id": "Bs_TSMkww",
+          "text": "var(--variable-Jd2WAsZn3)",
+          "preset": "Arbour/Meta",
+          "textColor": "rgb(28, 27, 22)"
+        },
+        {
+          "id": "SFXE0K48p",
+          "preset": "Arbour/Meta",
+          "textColor": "rgb(84, 98, 45)"
+        },
+        {
+          "id": "N896SgS_Z",
+          "name": "Chapter One Title",
+          "preset": "Arbour/Heading",
+          "textColor": "rgb(28, 27, 22)"
+        },
+        {
+          "section": "Cinematic Gallery",
+          "id": "FRPIFLctt",
+          "name": "Gallery Label",
+          "preset": "Arbour/Meta",
+          "textColor": "rgb(84, 98, 45)"
+        },
+        {
+          "section": "Cinematic Gallery",
+          "id": "Ww9MRG3Oj",
+          "name": "Gallery Title",
+          "preset": "Arbour/Heading",
+          "textColor": "rgb(28, 27, 22)"
+        },
+        {
+          "section": "Cinematic Gallery",
+          "id": "KExrXDomY",
+          "name": "Caption Index",
+          "preset": "Arbour/Meta",
+          "textColor": "rgba(28, 27, 22, 0.55)"
+        },
+        {
+          "section": "The Setting",
+          "id": "ZEHJVVyWv",
+          "name": "Setting Label",
+          "preset": "Arbour/Meta",
+          "textColor": "rgb(84, 98, 45)"
+        },
+        {
+          "section": "The Setting",
+          "id": "E2OFAPXE0",
+          "name": "Setting Title",
+          "preset": "Arbour/Heading",
+          "textColor": "rgb(28, 27, 22)"
+        },
+        {
+          "section": "The Setting",
+          "id": "Sa_p1dAhU",
+          "name": "Property Location",
+          "text": "var(--variable-Jd2WAsZn3)",
+          "preset": "Arbour/Meta",
+          "textColor": "rgba(28, 27, 22, 0.55)"
+        },
+        {
+          "section": "The Setting",
+          "id": "F8mJdJsOh",
+          "name": "Setting Detail",
+          "preset": "(none)",
+          "fontName": "Inter",
+          "fontSize": "16px",
+          "textColor": "rgba(28, 27, 22, 0.55)",
+          "letterSpacing": "0em",
+          "flag": "no-preset"
+        },
+        {
+          "section": "Property Particulars",
+          "id": "ndwgrLZYY",
+          "name": "Particulars Kicker",
+          "preset": "Arbour/Meta",
+          "textColor": "rgb(214, 224, 74)"
+        },
+        {
+          "section": "Property Particulars",
+          "id": "bRnJE_FH2",
+          "name": "Particulars Heading",
+          "preset": "(none)",
+          "fontName": "Fraunces",
+          "fontSize": "52px",
+          "textColor": "rgb(252, 250, 244)",
+          "letterSpacing": "-0.04em",
+          "flag": "no-preset"
+        },
+        {
+          "section": "Property Particulars",
+          "id": "k4OBM3ctY",
+          "name": "Particulars Copy",
+          "preset": "(none)",
+          "fontName": "Fraunces",
+          "fontSize": "20px",
+          "textColor": "rgba(252, 250, 244, 0.72)",
+          "letterSpacing": "-0.02em",
+          "flag": "no-preset"
+        },
+        {
+          "section": "Property Particulars",
+          "id": "BlX1MEu32",
+          "name": "Private Enquiry Label",
+          "preset": "Arbour/Meta",
+          "textColor": "rgb(252, 250, 244)"
+        },
+        {
+          "section": "Property Particulars",
+          "id": "qwHFVb0W7",
+          "name": "Property Features",
+          "text": "var(--variable-Jd2WAsZn3)",
+          "preset": "(none)",
+          "fontName": "Fraunces",
+          "fontSize": "28px",
+          "textColor": "rgb(252, 250, 244)",
+          "letterSpacing": "-0.03em",
+          "flag": "no-preset"
+        },
+        {
+          "section": "Continue Your Search",
+          "id": "knNx1InNN",
+          "name": "Discovery Label",
+          "preset": "Arbour/Meta",
+          "textColor": "rgb(84, 98, 45)"
+        },
+        {
+          "section": "Continue Your Search",
+          "id": "k5vz89uhg",
+          "name": "Properties Label",
+          "preset": "Arbour/Meta",
+          "textColor": "rgba(28, 27, 22, 0.55)"
+        },
+        {
+          "section": "Continue Your Search",
+          "id": "BF1zUaLf1",
+          "name": "Properties Title",
+          "preset": "Arbour/Subhead",
+          "textColor": "rgb(28, 27, 22)"
+        }
+      ],
+      "rawFonts": [
+        {
+          "id": "F8mJdJsOh",
+          "name": "Setting Detail",
+          "preset": null,
+          "fontName": "Inter",
+          "fontSize": "16px",
+          "letterSpacing": "0em",
+          "textColor": "rgba(28, 27, 22, 0.55)"
+        }
+      ],
+      "rawColors": [
+        {
+          "id": "bk4wPgyNv",
+          "name": "Return Label",
+          "preset": "Arbour/Meta",
+          "fontName": null,
+          "fontSize": null,
+          "letterSpacing": null,
+          "textColor": "rgba(28, 27, 22, 0.55)"
+        },
+        {
+          "id": "T2LFHaziB",
+          "text": "var(--variable-Ht2pNTkTm)",
+          "preset": "Arbour/Meta",
+          "fontName": null,
+          "fontSize": null,
+          "letterSpacing": null,
+          "textColor": "rgb(84, 98, 45)"
+        },
+        {
+          "id": "n114L0bZV",
+          "name": "Article Date",
+          "text": "var(--variable-rZBsxUFGd)",
+          "preset": "Arbour/Meta",
+          "fontName": null,
+          "fontSize": null,
+          "letterSpacing": null,
+          "textColor": "rgba(28, 27, 22, 0.55)"
+        },
+        {
+          "id": "ZiTC3Ghmc",
+          "text": "var(--variable-nheUxuW0y)",
+          "preset": null,
+          "fontName": "Fraunces",
+          "fontSize": "84px",
+          "letterSpacing": "-0.03em",
+          "textColor": "rgb(28, 27, 22)"
+        },
+        {
+          "id": "QPghii7Fh",
+          "text": "var(--variable-lIhfcSEN0)",
+          "preset": null,
+          "fontName": "Fraunces",
+          "fontSize": "21px",
+          "letterSpacing": "-0.04em",
+          "textColor": "rgba(28, 27, 22, 0.65)"
+        },
+        {
+          "id": "kXBqfOmZn",
+          "preset": "Arbour/Meta",
+          "fontName": null,
+          "fontSize": null,
+          "letterSpacing": null,
+          "textColor": "rgba(28, 27, 22, 0.55)"
+        },
+        {
+          "id": "xToVo97Pe",
+          "preset": "Arbour/Meta",
+          "fontName": null,
+          "fontSize": null,
+          "letterSpacing": null,
+          "textColor": "rgba(28, 27, 22, 0.55)"
+        },
+        {
+          "id": "fm55VgLvp",
+          "preset": "Arbour/Meta",
+          "fontName": null,
+          "fontSize": null,
+          "letterSpacing": null,
+          "textColor": "rgba(28, 27, 22, 0.55)"
+        },
+        {
+          "id": "aLUKuA9kf",
+          "name": "Newsletter Quarterly notes on new workS!",
+          "preset": "Arbour/Meta",
+          "fontName": null,
+          "fontSize": null,
+          "letterSpacing": null,
+          "textColor": "rgb(84, 98, 45)"
+        },
+        {
+          "id": "QYZgojsFn",
+          "preset": "Arbour/Meta",
+          "fontName": null,
+          "fontSize": null,
+          "letterSpacing": null,
+          "textColor": "rgb(252, 250, 244)"
+        },
+        {
+          "id": "MHqgWO1nz",
+          "name": "Well for studios proud of their own digital presence; remove it if it doesn't fit.",
+          "preset": "Arbour/Body",
+          "fontName": null,
+          "fontSize": null,
+          "letterSpacing": null,
+          "textColor": "rgba(28, 27, 22, 0.65)"
+        },
+        {
+          "id": "xdJnss3VP",
+          "preset": "Arbour/Meta",
+          "fontName": null,
+          "fontSize": null,
+          "letterSpacing": null,
+          "textColor": "rgb(84, 98, 45)"
+        },
+        {
+          "id": "eOV768cPJ",
+          "preset": "Arbour/Subhead",
+          "fontName": null,
+          "fontSize": null,
+          "letterSpacing": null,
+          "textColor": "rgb(28, 27, 22)"
+        },
+        {
+          "id": "yhtfZHYsl",
+          "preset": "Arbour/Meta",
+          "fontName": null,
+          "fontSize": null,
+          "letterSpacing": null,
+          "textColor": "rgba(28, 27, 22, 0.55)"
+        },
+        {
+          "id": "UC44wVjIg",
+          "preset": null,
+          "fontName": "Fraunces",
+          "fontSize": "24px",
+          "letterSpacing": "-0.02em",
+          "textColor": "rgb(28, 27, 22)"
+        },
+        {
+          "id": "LzWdxJGwa",
+          "preset": "Arbour/Meta",
+          "fontName": null,
+          "fontSize": null,
+          "letterSpacing": null,
+          "textColor": "rgba(28, 27, 22, 0.55)"
+        },
+        {
+          "id": "PKKjLspFx",
+          "preset": "Arbour/Meta",
+          "fontName": null,
+          "fontSize": null,
+          "letterSpacing": null,
+          "textColor": "rgb(28, 27, 22)"
+        },
+        {
+          "id": "oWdEoKFRL",
+          "preset": "Arbour/Meta",
+          "fontName": null,
+          "fontSize": null,
+          "letterSpacing": null,
+          "textColor": "rgba(28, 27, 22, 0.55)"
+        },
+        {
+          "id": "bGLaHSkme",
+          "text": "var(--variable-Jd2WAsZn3)",
+          "preset": "Arbour/Meta",
+          "fontName": null,
+          "fontSize": null,
+          "letterSpacing": null,
+          "textColor": "rgb(28, 27, 22)"
+        },
+        {
+          "id": "Dx2XEnuRC",
+          "preset": "Arbour/Meta",
+          "fontName": null,
+          "fontSize": null,
+          "letterSpacing": null,
+          "textColor": "rgba(28, 27, 22, 0.55)"
+        }
+      ],
+      "letterSpacing": [
+        {
+          "id": "ZiTC3Ghmc",
+          "text": "var(--variable-nheUxuW0y)",
+          "preset": null,
+          "fontName": "Fraunces",
+          "fontSize": "84px",
+          "letterSpacing": "-0.03em",
+          "textColor": "rgb(28, 27, 22)"
+        },
+        {
+          "id": "QPghii7Fh",
+          "text": "var(--variable-lIhfcSEN0)",
+          "preset": null,
+          "fontName": "Fraunces",
+          "fontSize": "21px",
+          "letterSpacing": "-0.04em",
+          "textColor": "rgba(28, 27, 22, 0.65)"
+        },
+        {
+          "id": "UC44wVjIg",
+          "preset": null,
+          "fontName": "Fraunces",
+          "fontSize": "24px",
+          "letterSpacing": "-0.02em",
+          "textColor": "rgb(28, 27, 22)"
+        },
+        {
+          "id": "F8mJdJsOh",
+          "name": "Setting Detail",
+          "preset": null,
+          "fontName": "Inter",
+          "fontSize": "16px",
+          "letterSpacing": "0em",
+          "textColor": "rgba(28, 27, 22, 0.55)"
+        },
+        {
+          "id": "bRnJE_FH2",
+          "name": "Particulars Heading",
+          "preset": null,
+          "fontName": "Fraunces",
+          "fontSize": "52px",
+          "letterSpacing": "-0.04em",
+          "textColor": "rgb(252, 250, 244)"
+        },
+        {
+          "id": "k4OBM3ctY",
+          "name": "Particulars Copy",
+          "preset": null,
+          "fontName": "Fraunces",
+          "fontSize": "20px",
+          "letterSpacing": "-0.02em",
+          "textColor": "rgba(252, 250, 244, 0.72)"
+        },
+        {
+          "id": "qwHFVb0W7",
+          "name": "Property Features",
+          "text": "var(--variable-Jd2WAsZn3)",
+          "preset": null,
+          "fontName": "Fraunces",
+          "fontSize": "28px",
+          "letterSpacing": "-0.03em",
+          "textColor": "rgb(252, 250, 244)"
+        },
+        {
+          "id": "eAGUxiLKf",
+          "name": "Enquiry Heading",
+          "preset": null,
+          "fontName": "Fraunces",
+          "fontSize": "64px",
+          "letterSpacing": "-0.03em",
+          "textColor": "rgb(28, 27, 22)"
+        }
+      ],
+      "noPresetCount": 10,
+      "sectionRawFills": [
+        {
+          "fill": "rgb(252, 250, 244)"
+        },
+        {
+          "name": "Property Particulars",
+          "fill": "rgb(21, 43, 30)"
+        }
+      ]
+    },
+    "/404": {
+      "pageId": "ojmcAsLyM",
+      "richCount": 27,
+      "desktopRichSampled": 9,
+      "frameCount": 18,
+      "componentCount": 0,
+      "breakpoints": [
+        {
+          "name": "Desktop",
+          "sections": 1,
+          "fill": "https://framerusercontent.com/images/ropphMdSjiFSRjWmC1VWaMwyrhI.png"
+        },
+        {
+          "name": "Tablet",
+          "sections": 1,
+          "fill": "https://framerusercontent.com/images/ropphMdSjiFSRjWmC1VWaMwyrhI.png"
+        },
+        {
+          "name": "Phone",
+          "sections": 1,
+          "fill": "https://framerusercontent.com/images/ropphMdSjiFSRjWmC1VWaMwyrhI.png"
+        }
+      ],
+      "desktop": "Desktop",
+      "sections": [
+        {
+          "id": "j4N1jForf",
+          "name": "404 — Lost Address",
+          "type": "FrameNode",
+          "fill": "rgba(28, 27, 22, 0.9)",
+          "gap": "0px",
+          "padding": "32px 40px 32px 40px",
+          "maxWidth": "1440px"
+        }
+      ],
+      "hasNav": false,
+      "hasFooter": false,
+      "components": [],
+      "presetCounts": {
+        "(none)": 9
+      },
+      "titles": [],
+      "headlinesBySection": [
+        {
+          "section": "404 — Lost Address",
+          "id": "syKmEViQZ",
+          "name": "Brand",
+          "preset": "(none)",
+          "fontName": "Space Mono",
+          "fontSize": "12px",
+          "textColor": "rgb(252, 250, 244)",
+          "letterSpacing": "0.12em",
+          "flag": "no-preset"
+        },
+        {
+          "section": "404 — Lost Address",
+          "id": "mgkoCUdZt",
+          "name": "Lost Coordinate",
+          "preset": "(none)",
+          "fontName": "Space Mono",
+          "fontSize": "10px",
+          "textColor": "rgba(239, 233, 219, 0.55)",
+          "letterSpacing": "0.12em",
+          "flag": "no-preset"
+        },
+        {
+          "section": "404 — Lost Address",
+          "id": "ghdyof0u1",
+          "name": "Out of Focus 404",
+          "preset": "(none)",
+          "fontName": "Fraunces",
+          "fontSize": "420px",
+          "textColor": "rgba(252, 250, 244, 0.22)",
+          "letterSpacing": "-0.07em",
+          "flag": "no-preset"
+        },
+        {
+          "section": "404 — Lost Address",
+          "id": "V7kO2l0VX",
+          "name": "Error Kicker",
+          "preset": "(none)",
+          "fontName": "Space Mono",
+          "fontSize": "11px",
+          "textColor": "rgb(214, 224, 74)",
+          "letterSpacing": "0.14em",
+          "flag": "no-preset"
+        },
+        {
+          "section": "404 — Lost Address",
+          "id": "ZodqIH8_r",
+          "name": "Error Heading",
+          "preset": "(none)",
+          "fontName": "Fraunces",
+          "fontSize": "72px",
+          "textColor": "rgb(252, 250, 244)",
+          "letterSpacing": "-0.045em",
+          "flag": "no-preset"
+        },
+        {
+          "section": "404 — Lost Address",
+          "id": "X1y97oCSA",
+          "name": "Supporting Copy",
+          "preset": "(none)",
+          "fontName": "Inter",
+          "fontSize": "16px",
+          "textColor": "rgba(239, 233, 219, 0.72)",
+          "letterSpacing": "0em",
+          "flag": "no-preset"
+        },
+        {
+          "section": "404 — Lost Address",
+          "id": "W3SWZOH5_",
+          "name": "Return Label",
+          "preset": "(none)",
+          "fontName": "Space Mono",
+          "fontSize": "11px",
+          "textColor": "rgb(252, 250, 244)",
+          "letterSpacing": "0.12em",
+          "flag": "no-preset"
+        },
+        {
+          "section": "404 — Lost Address",
+          "id": "qhl2thyrV",
+          "preset": "(none)",
+          "fontName": "Space Mono",
+          "fontSize": "10px",
+          "textColor": "rgba(239, 233, 219, 0.55)",
+          "letterSpacing": "0.12em",
+          "flag": "no-preset"
+        },
+        {
+          "section": "404 — Lost Address",
+          "id": "iM2KoEHTV",
+          "preset": "(none)",
+          "fontName": "Space Mono",
+          "fontSize": "10px",
+          "textColor": "rgba(239, 233, 219, 0.55)",
+          "letterSpacing": "0.12em",
+          "flag": "no-preset"
+        }
+      ],
+      "rawFonts": [
+        {
+          "id": "X1y97oCSA",
+          "name": "Supporting Copy",
+          "preset": null,
+          "fontName": "Inter",
+          "fontSize": "16px",
+          "letterSpacing": "0em",
+          "textColor": "rgba(239, 233, 219, 0.72)"
+        }
+      ],
+      "rawColors": [
+        {
+          "id": "syKmEViQZ",
+          "name": "Brand",
+          "preset": null,
+          "fontName": "Space Mono",
+          "fontSize": "12px",
+          "letterSpacing": "0.12em",
+          "textColor": "rgb(252, 250, 244)"
+        },
+        {
+          "id": "mgkoCUdZt",
+          "name": "Lost Coordinate",
+          "preset": null,
+          "fontName": "Space Mono",
+          "fontSize": "10px",
+          "letterSpacing": "0.12em",
+          "textColor": "rgba(239, 233, 219, 0.55)"
+        },
+        {
+          "id": "ghdyof0u1",
+          "name": "Out of Focus 404",
+          "preset": null,
+          "fontName": "Fraunces",
+          "fontSize": "420px",
+          "letterSpacing": "-0.07em",
+          "textColor": "rgba(252, 250, 244, 0.22)"
+        },
+        {
+          "id": "V7kO2l0VX",
+          "name": "Error Kicker",
+          "preset": null,
+          "fontName": "Space Mono",
+          "fontSize": "11px",
+          "letterSpacing": "0.14em",
+          "textColor": "rgb(214, 224, 74)"
+        },
+        {
+          "id": "ZodqIH8_r",
+          "name": "Error Heading",
+          "preset": null,
+          "fontName": "Fraunces",
+          "fontSize": "72px",
+          "letterSpacing": "-0.045em",
+          "textColor": "rgb(252, 250, 244)"
+        },
+        {
+          "id": "X1y97oCSA",
+          "name": "Supporting Copy",
+          "preset": null,
+          "fontName": "Inter",
+          "fontSize": "16px",
+          "letterSpacing": "0em",
+          "textColor": "rgba(239, 233, 219, 0.72)"
+        },
+        {
+          "id": "W3SWZOH5_",
+          "name": "Return Label",
+          "preset": null,
+          "fontName": "Space Mono",
+          "fontSize": "11px",
+          "letterSpacing": "0.12em",
+          "textColor": "rgb(252, 250, 244)"
+        },
+        {
+          "id": "qhl2thyrV",
+          "preset": null,
+          "fontName": "Space Mono",
+          "fontSize": "10px",
+          "letterSpacing": "0.12em",
+          "textColor": "rgba(239, 233, 219, 0.55)"
+        },
+        {
+          "id": "iM2KoEHTV",
+          "preset": null,
+          "fontName": "Space Mono",
+          "fontSize": "10px",
+          "letterSpacing": "0.12em",
+          "textColor": "rgba(239, 233, 219, 0.55)"
+        }
+      ],
+      "letterSpacing": [
+        {
+          "id": "syKmEViQZ",
+          "name": "Brand",
+          "preset": null,
+          "fontName": "Space Mono",
+          "fontSize": "12px",
+          "letterSpacing": "0.12em",
+          "textColor": "rgb(252, 250, 244)"
+        },
+        {
+          "id": "mgkoCUdZt",
+          "name": "Lost Coordinate",
+          "preset": null,
+          "fontName": "Space Mono",
+          "fontSize": "10px",
+          "letterSpacing": "0.12em",
+          "textColor": "rgba(239, 233, 219, 0.55)"
+        },
+        {
+          "id": "ghdyof0u1",
+          "name": "Out of Focus 404",
+          "preset": null,
+          "fontName": "Fraunces",
+          "fontSize": "420px",
+          "letterSpacing": "-0.07em",
+          "textColor": "rgba(252, 250, 244, 0.22)"
+        },
+        {
+          "id": "V7kO2l0VX",
+          "name": "Error Kicker",
+          "preset": null,
+          "fontName": "Space Mono",
+          "fontSize": "11px",
+          "letterSpacing": "0.14em",
+          "textColor": "rgb(214, 224, 74)"
+        },
+        {
+          "id": "ZodqIH8_r",
+          "name": "Error Heading",
+          "preset": null,
+          "fontName": "Fraunces",
+          "fontSize": "72px",
+          "letterSpacing": "-0.045em",
+          "textColor": "rgb(252, 250, 244)"
+        },
+        {
+          "id": "X1y97oCSA",
+          "name": "Supporting Copy",
+          "preset": null,
+          "fontName": "Inter",
+          "fontSize": "16px",
+          "letterSpacing": "0em",
+          "textColor": "rgba(239, 233, 219, 0.72)"
+        },
+        {
+          "id": "W3SWZOH5_",
+          "name": "Return Label",
+          "preset": null,
+          "fontName": "Space Mono",
+          "fontSize": "11px",
+          "letterSpacing": "0.12em",
+          "textColor": "rgb(252, 250, 244)"
+        },
+        {
+          "id": "qhl2thyrV",
+          "preset": null,
+          "fontName": "Space Mono",
+          "fontSize": "10px",
+          "letterSpacing": "0.12em",
+          "textColor": "rgba(239, 233, 219, 0.55)"
+        },
+        {
+          "id": "iM2KoEHTV",
+          "preset": null,
+          "fontName": "Space Mono",
+          "fontSize": "10px",
+          "letterSpacing": "0.12em",
+          "textColor": "rgba(239, 233, 219, 0.55)"
+        }
+      ],
+      "noPresetCount": 9,
+      "sectionRawFills": [
+        {
+          "name": "404 — Lost Address",
+          "fill": "rgba(28, 27, 22, 0.9)"
+        }
+      ]
+    }
+  },
+  "cross": {
+    "titleRows": [
+      {
+        "pagePath": "/",
+        "section": "Territories Section",
+        "id": "tc5tJ8Lai",
+        "name": "Territories Headline",
+        "preset": "Arbour/Display",
+        "textColor": "rgb(28, 27, 22)"
+      },
+      {
+        "pagePath": "/",
+        "section": "Portfolio Section",
+        "id": "kbwlOX9Ng",
+        "name": "Portfolio Heading",
+        "preset": "Arbour/Display",
+        "textColor": "rgb(28, 27, 22)"
+      },
+      {
+        "pagePath": "/",
+        "id": "bzMs3vtP0",
+        "preset": "Arbour/Display",
+        "textColor": "rgb(28, 27, 22)"
+      },
+      {
+        "pagePath": "/",
+        "section": "Journal",
+        "id": "b4007FPZq",
+        "preset": "Arbour/Heading",
+        "textColor": "rgb(28, 27, 22)"
+      },
+      {
+        "pagePath": "/about",
+        "section": "Chapter — The Principals",
+        "id": "O1neFtNPQ",
+        "preset": "Arbour/Heading"
+      },
+      {
+        "pagePath": "/about",
+        "section": "Chapter — Two Offices",
+        "id": "gKBWGey2K",
+        "preset": "Arbour/Heading"
+      },
+      {
+        "pagePath": "/contact",
+        "section": "Journal",
+        "id": "cVLdkLcS3",
+        "preset": "Arbour/Heading",
+        "textColor": "rgb(28, 27, 22)"
+      },
+      {
+        "pagePath": "/properties-2/:Properties",
+        "id": "DoqsMLwNC",
+        "text": "var(--variable-JpvlXWFTC)",
+        "preset": "Arbour/Heading"
+      },
+      {
+        "pagePath": "/properties-2/:Properties",
+        "id": "gB0CaDpqa",
+        "name": "Chapter One Title",
+        "preset": "Arbour/Heading",
+        "textColor": "rgb(28, 27, 22)"
+      },
+      {
+        "pagePath": "/properties-2/:Properties",
+        "section": "Cinematic Gallery",
+        "id": "FH8AOsipo",
+        "name": "Gallery Title",
+        "preset": "Arbour/Heading",
+        "textColor": "rgb(28, 27, 22)"
+      },
+      {
+        "pagePath": "/properties-2/:Properties",
+        "section": "The Setting",
+        "id": "UvDjgzXCm",
+        "name": "Setting Title",
+        "preset": "Arbour/Heading",
+        "textColor": "rgb(28, 27, 22)"
+      },
+      {
+        "pagePath": "/notes/:Journal",
+        "id": "N896SgS_Z",
+        "name": "Chapter One Title",
+        "preset": "Arbour/Heading",
+        "textColor": "rgb(28, 27, 22)"
+      },
+      {
+        "pagePath": "/notes/:Journal",
+        "section": "Cinematic Gallery",
+        "id": "Ww9MRG3Oj",
+        "name": "Gallery Title",
+        "preset": "Arbour/Heading",
+        "textColor": "rgb(28, 27, 22)"
+      },
+      {
+        "pagePath": "/notes/:Journal",
+        "section": "The Setting",
+        "id": "E2OFAPXE0",
+        "name": "Setting Title",
+        "preset": "Arbour/Heading",
+        "textColor": "rgb(28, 27, 22)"
+      }
+    ],
+    "chrome": [
+      {
+        "pagePath": "/",
+        "hasNav": true,
+        "hasFooter": true,
+        "sectionNames": [
+          "Arbour_LoadingScreen",
+          "Arbour_SmoothScroll",
+          "Atmosphere",
+          null,
+          "Hero Section",
+          "Territories Section",
+          "Portfolio Section",
+          "Bottom",
+          null,
+          null,
+          "Recognition Section",
+          "Testimonial Section",
+          "Journal",
+          "Footer Container"
+        ]
+      },
+      {
+        "pagePath": "/properties-2",
+        "hasNav": true,
+        "hasFooter": true,
+        "sectionNames": [
+          "Arbour_LoadingScreen",
+          "Arbour_SmoothScroll",
+          "Atmosphere",
+          "Nav",
+          "Nav",
+          "Nav",
+          "Properties Content",
+          null
+        ]
+      },
+      {
+        "pagePath": "/neighbourhoods",
+        "hasNav": true,
+        "hasFooter": true,
+        "sectionNames": [
+          "Nav",
+          "Nav",
+          "Nav",
+          "Atmosphere",
+          "Neighbourhoods Content",
+          null
+        ]
+      },
+      {
+        "pagePath": "/notes",
+        "hasNav": true,
+        "hasFooter": true,
+        "sectionNames": [
+          "Nav",
+          "Nav",
+          "Nav",
+          "Journal",
+          "Journal Manifesto",
+          "Footer Container"
+        ]
+      },
+      {
+        "pagePath": "/about",
+        "hasNav": true,
+        "hasFooter": true,
+        "sectionNames": [
+          "Nav",
+          "Nav",
+          "Nav",
+          "Arbour_LoadingScreen",
+          "Arbour_SmoothScroll",
+          "Beat 1 — Paper Opener",
+          "Beat 3 — Manifesto",
+          "Beat 2 — Cinematic Image",
+          "Chapter — The Principals",
+          "Chapter — Two Offices",
+          "Enquiry CTA",
+          "Atmosphere",
+          null
+        ]
+      },
+      {
+        "pagePath": "/contact",
+        "hasNav": true,
+        "hasFooter": true,
+        "sectionNames": [
+          "Nav",
+          "Nav",
+          "Nav",
+          "Arbour_LoadingScreen",
+          "Arbour_SmoothScroll",
+          "Atmosphere",
+          "Private Enquiry — Cinematic",
+          "Contact Opening",
+          "Journal",
+          null
+        ]
+      },
+      {
+        "pagePath": "/properties-2/:Properties",
+        "hasNav": true,
+        "hasFooter": true,
+        "sectionNames": [
+          "Arbour_LoadingScreen",
+          "Arbour_SmoothScroll",
+          "Atmosphere",
+          null,
+          null,
+          null,
+          null,
+          "Cinematic Gallery",
+          "The Setting",
+          "Property Particulars",
+          "Continue Your Search",
+          "Enquiry CTA",
+          null
+        ]
+      },
+      {
+        "pagePath": "/notes/:Journal",
+        "hasNav": true,
+        "hasFooter": true,
+        "sectionNames": [
+          "Arbour_LoadingScreen",
+          null,
+          "Arbour_SmoothScroll",
+          null,
+          "Journal Hero Image",
+          "Article Body Wrap",
+          "Journal Text Column",
+          "More From Journal",
+          "Atmosphere",
+          null,
+          null,
+          "Cinematic Gallery",
+          "The Setting",
+          "Property Particulars",
+          "Continue Your Search",
+          "Enquiry CTA",
+          null
+        ]
+      },
+      {
+        "pagePath": "/404",
+        "hasNav": false,
+        "hasFooter": false,
+        "sectionNames": [
+          "404 — Lost Address"
+        ]
+      }
+    ],
+    "pageFills": [
+      {
+        "pagePath": "/",
+        "fill": "var(--token-537bd017-a079-4a2b-9afa-25208d628840)",
+        "breakpoint": "Desktop"
+      },
+      {
+        "pagePath": "/properties-2",
+        "fill": "rgb(252, 250, 244)",
+        "breakpoint": "Desktop"
+      },
+      {
+        "pagePath": "/neighbourhoods",
+        "fill": "rgb(252, 250, 244)",
+        "breakpoint": "Desktop"
+      },
+      {
+        "pagePath": "/notes",
+        "fill": "rgb(252, 250, 244)",
+        "breakpoint": "Desktop"
+      },
+      {
+        "pagePath": "/about",
+        "fill": "rgb(252, 250, 244)",
+        "breakpoint": "Desktop"
+      },
+      {
+        "pagePath": "/contact",
+        "fill": "rgb(252, 250, 244)",
+        "breakpoint": "Desktop"
+      },
+      {
+        "pagePath": "/properties-2/:Properties",
+        "fill": "rgb(252, 250, 244)",
+        "breakpoint": "Desktop"
+      },
+      {
+        "pagePath": "/notes/:Journal",
+        "fill": "rgb(252, 250, 244)",
+        "breakpoint": "Desktop"
+      },
+      {
+        "pagePath": "/404",
+        "fill": "https://framerusercontent.com/images/ropphMdSjiFSRjWmC1VWaMwyrhI.png",
+        "breakpoint": "Desktop"
+      }
+    ],
+    "heroGaps": []
+  }
+}

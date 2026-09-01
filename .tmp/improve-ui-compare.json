@@ -1,0 +1,321 @@
+{
+  "/": {
+    "canvasFill": "Paper",
+    "nav": 1,
+    "footer": 1,
+    "sectionPads": [
+      {
+        "name": "Hero Section",
+        "pad": "0px 0px 72px 0px",
+        "gap": "0px"
+      },
+      {
+        "name": "Territories Section",
+        "pad": "128px 48px 128px 48px",
+        "gap": "48px",
+        "fill": "Paper"
+      },
+      {
+        "name": "Portfolio Section",
+        "pad": "128px 48px 128px 48px",
+        "gap": "56px",
+        "fill": "Paper"
+      },
+      {
+        "pad": "128px 48px 128px 48px",
+        "gap": "40px",
+        "fill": "Paper"
+      },
+      {
+        "name": "Recognition Section",
+        "pad": "128px 48px 128px 48px",
+        "gap": "40px",
+        "fill": "Paper"
+      },
+      {
+        "name": "Testimonial Section",
+        "pad": "128px 48px 128px 48px",
+        "gap": "40px",
+        "fill": "Paper"
+      },
+      {
+        "name": "Journal",
+        "pad": "128px 48px 128px 48px",
+        "gap": "40px",
+        "fill": "Paper"
+      }
+    ],
+    "heroes": [
+      {
+        "name": "Hero Section",
+        "fill": "",
+        "pad": "0px 0px 72px 0px",
+        "gap": "0px",
+        "h": "100vh",
+        "texts": []
+      }
+    ]
+  },
+  "/properties-2": {
+    "canvasFill": "Paper",
+    "nav": 1,
+    "footer": 1,
+    "sectionPads": [],
+    "heroes": [
+      {
+        "name": "Properties Hero",
+        "fill": "var(--token-d5b3c09d-0364-4ed0-8804-e56957faa",
+        "gap": "0px",
+        "h": "auto",
+        "mw": "1200px",
+        "texts": [
+          {
+            "section": "",
+            "id": "H0pCvPI36",
+            "name": "",
+            "preset": "Arbour/Meta",
+            "font": null,
+            "size": null,
+            "color": "var(--token-a16d0333-6bd5-4d60-aa00-fac26447145d)"
+          },
+          {
+            "section": "",
+            "id": "WQob20jtV",
+            "name": "",
+            "preset": "Arbour/Display",
+            "font": null,
+            "size": null,
+            "color": "var(--token-e2f9a9eb-668a-4021-80d9-b04413b5f392)"
+          },
+          {
+            "section": "",
+            "id": "eeii639K0",
+            "name": "",
+            "preset": "Arbour/Subhead",
+            "font": null,
+            "size": null,
+            "color": "var(--token-0bc68d0d-4c0b-4126-8cce-9425cb153f4e)"
+          },
+          {
+            "section": "",
+            "id": "cR5cTWroe",
+            "name": "",
+            "preset": "Arbour/Meta",
+            "font": null,
+            "size": null,
+            "color": "var(--token-0bc68d0d-4c0b-4126-8cce-9425cb153f4e)"
+          }
+        ]
+      },
+      {
+        "name": "Properties Hero",
+        "fill": "var(--token-d5b3c09d-0364-4ed0-8804-e56957faa",
+        "gap": "0px",
+        "h": "auto",
+        "mw": "1200px",
+        "texts": [
+          {
+            "section": "",
+            "id": "WQob20jtV",
+            "name": "",
+            "preset": "Arbour/Display",
+            "font": null,
+            "size": null,
+            "color": "var(--token-e2f9a9eb-668a-4021-80d9-b04413b5f392)"
+          },
+          {
+            "section": "",
+            "id": "eeii639K0",
+            "name": "",
+            "preset": "Arbour/Subhead",
+            "font": null,
+            "size": null,
+            "color": "var(--token-0bc68d0d-4c0b-4126-8cce-9425cb153f4e)"
+          }
+        ]
+      }
+    ]
+  },
+  "/neighbourhoods": {
+    "canvasFill": "Paper",
+    "nav": 1,
+    "footer": 1,
+    "sectionPads": [],
+    "heroes": [
+      {
+        "name": "Neighbourhoods Hero",
+        "fill": "var(--token-d5b3c09d-0364-4ed0-8804-e56957faa",
+        "gap": "0px",
+        "h": "auto",
+        "mw": "1200px",
+        "texts": [
+          {
+            "section": "",
+            "id": "mGNFNlJAN",
+            "name": "",
+            "preset": "Arbour/Meta",
+            "font": null,
+            "size": null,
+            "color": "var(--token-a16d0333-6bd5-4d60-aa00-fac26447145d)"
+          },
+          {
+            "section": "",
+            "id": "n9ay7tOtM",
+            "name": "",
+            "preset": "Arbour/Display",
+            "font": null,
+            "size": null,
+            "color": "var(--token-e2f9a9eb-668a-4021-80d9-b04413b5f392)"
+          },
+          {
+            "section": "",
+            "id": "rWmr0qn1F",
+            "name": "",
+            "preset": "Arbour/Body",
+            "font": null,
+            "size": null,
+            "color": "var(--token-0bc68d0d-4c0b-4126-8cce-9425cb153f4e)"
+          }
+        ]
+      },
+      {
+        "name": "Neighbourhoods Hero",
+        "fill": "var(--token-d5b3c09d-0364-4ed0-8804-e56957faa",
+        "gap": "0px",
+        "h": "auto",
+        "mw": "1200px",
+        "texts": [
+          {
+            "section": "",
+            "id": "mGNFNlJAN",
+            "name": "",
+            "preset": "Arbour/Meta",
+            "font": null,
+            "size": null,
+            "color": "var(--token-a16d0333-6bd5-4d60-aa00-fac26447145d)"
+          },
+          {
+            "section": "",
+            "id": "n9ay7tOtM",
+            "name": "",
+            "preset": "Arbour/Display",
+            "font": null,
+            "size": null,
+            "color": "var(--token-e2f9a9eb-668a-4021-80d9-b04413b5f392)"
+          }
+        ]
+      }
+    ]
+  },
+  "/notes": {
+    "canvasFill": "Paper",
+    "nav": 1,
+    "footer": 1,
+    "sectionPads": [
+      {
+        "name": "Journal",
+        "pad": "0px 48px 0px 48px",
+        "gap": "0px",
+        "fill": "Parchment"
+      },
+      {
+        "name": "Journal Manifesto",
+        "pad": "120px 48px 120px 48px",
+        "gap": "0px",
+        "fill": "var(--token-9d3d6ca5-f3ad-4d88"
+      }
+    ],
+    "heroes": [
+      {
+        "name": "Notes Hero",
+        "fill": "var(--token-d5b3c09d-0364-4ed0-8804-e56957faa",
+        "gap": "0px",
+        "h": "auto",
+        "mw": "1200px",
+        "texts": [
+          {
+            "section": "",
+            "id": "sqsFVTzsL",
+            "name": "",
+            "preset": "Arbour/Meta",
+            "font": null,
+            "size": null,
+            "color": "var(--token-a16d0333-6bd5-4d60-aa00-fac26447145d)"
+          },
+          {
+            "section": "",
+            "id": "t1K8NQ7z5",
+            "name": "",
+            "preset": "Arbour/Meta",
+            "font": null,
+            "size": null,
+            "color": "var(--token-0bc68d0d-4c0b-4126-8cce-9425cb153f4e)"
+          },
+          {
+            "section": "",
+            "id": "xEORYedqg",
+            "name": "Display Title",
+            "preset": "Arbour/Display",
+            "font": null,
+            "size": null,
+            "color": "var(--token-e2f9a9eb-668a-4021-80d9-b04413b5f392)"
+          },
+          {
+            "section": "",
+            "id": "dCYCf8ZZp",
+            "name": "Deck",
+            "preset": "Arbour/Body",
+            "font": null,
+            "size": null,
+            "color": "var(--token-0bc68d0d-4c0b-4126-8cce-9425cb153f4e)"
+          },
+          {
+            "section": "",
+            "id": "yzUPSfS5X",
+            "name": "",
+            "preset": "Arbour/Meta",
+            "font": null,
+            "size": null,
+            "color": "var(--token-a16d0333-6bd5-4d60-aa00-fac26447145d)"
+          }
+        ]
+      },
+      {
+        "name": "Notes Hero",
+        "fill": "var(--token-d5b3c09d-0364-4ed0-8804-e56957faa",
+        "gap": "0px",
+        "h": "auto",
+        "mw": "1200px",
+        "texts": [
+          {
+            "section": "",
+            "id": "xEORYedqg",
+            "name": "Display Title",
+            "preset": "Arbour/Display",
+            "font": null,
+            "size": null,
+            "color": "var(--token-e2f9a9eb-668a-4021-80d9-b04413b5f392)"
+          }
+        ]
+      }
+    ]
+  },
+  "/about": {
+    "canvasFill": "Paper",
+    "nav": 1,
+    "footer": 1,
+    "sectionPads": [
+      {
+        "name": "Beat 1 — Paper Opener",
+        "pad": "120px 48px 48px 48px",
+        "gap": "48px",
+        "fill": "Paper"
+      },
+      {
+        "name": "Beat 3 — Manifesto",
+        "pad": "128px 48px 128px 48px",
+        "gap": "64px",
+        "fill": "Paper"
+      },
+      {
+        "name": "Chapter �

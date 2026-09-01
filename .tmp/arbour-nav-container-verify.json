@@ -1,0 +1,46 @@
+{
+  "rows": [
+    {
+      "variant": "Desktop",
+      "id": "sxhzAXUR_",
+      "w": "100%",
+      "mw": "100%",
+      "h": "0px"
+    },
+    {
+      "variant": "Tablet - Close",
+      "id": "I3SpHi24vsxhzAXUR_",
+      "w": "100%",
+      "mw": "100%",
+      "h": "0px"
+    },
+    {
+      "variant": "Tablet - Open",
+      "id": "rL2ZHlVqgsxhzAXUR_",
+      "w": "100%",
+      "mw": "100%",
+      "h": "1fr"
+    },
+    {
+      "variant": "Phone - Close",
+      "id": "GBmgkcS5csxhzAXUR_",
+      "w": "100%",
+      "mw": "100%",
+      "h": "0px"
+    },
+    {
+      "variant": "Phone - Open",
+      "id": "WLQAqm0QzsxhzAXUR_",
+      "w": "100%",
+      "mw": "100%",
+      "h": "1fr"
+    },
+    {
+      "variant": "Desktop - Open",
+      "id": "dzeGSJmBBsxhzAXUR_",
+      "w": "100%",
+      "mw": "100%",
+      "h": "1fr"
+    }
+  ]
+}

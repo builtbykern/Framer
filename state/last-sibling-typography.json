@@ -1,0 +1,201 @@
+{
+  "collectedAt": "2026-07-17T19:40:42.302Z",
+  "clusters": [
+    {
+      "label": "Footer Desktop",
+      "rootId": "N8Ge7eNRv",
+      "majority": "32px|340|-0.02em|1.1em|Fraunces",
+      "count": 5,
+      "outlierIds": [],
+      "links": [
+        {
+          "id": "Z6pdpz5pD",
+          "text": "Properties",
+          "href": "/properties-2",
+          "size": "32px",
+          "weight": 340,
+          "tracking": "-0.02em",
+          "leading": "1.1em",
+          "font": "Fraunces",
+          "color": "var(--token-e2f9a9eb-668a-4021-80d9-b04413b5f392)"
+        },
+        {
+          "id": "AUgKRZDLa",
+          "text": "Neighbourhoods",
+          "href": "/neighbourhoods",
+          "size": "32px",
+          "weight": 340,
+          "tracking": "-0.02em",
+          "leading": "1.1em",
+          "font": "Fraunces",
+          "color": "var(--token-e2f9a9eb-668a-4021-80d9-b04413b5f392)"
+        },
+        {
+          "id": "qAqWkEULy",
+          "text": "Notes",
+          "href": "/notes",
+          "size": "32px",
+          "weight": 340,
+          "tracking": "-0.02em",
+          "leading": "1.1em",
+          "font": "Fraunces",
+          "color": "var(--token-e2f9a9eb-668a-4021-80d9-b04413b5f392)"
+        },
+        {
+          "id": "ZP4kFwKwc",
+          "text": "About",
+          "href": "/about",
+          "size": "32px",
+          "weight": 340,
+          "tracking": "-0.02em",
+          "leading": "1.1em",
+          "font": "Fraunces",
+          "color": "var(--token-e2f9a9eb-668a-4021-80d9-b04413b5f392)"
+        },
+        {
+          "id": "AlTIEFAKV",
+          "text": "Book a viewing",
+          "href": "/contact",
+          "size": "32px",
+          "weight": 340,
+          "tracking": "-0.02em",
+          "leading": "1.1em",
+          "font": "Fraunces",
+          "color": "var(--token-e2f9a9eb-668a-4021-80d9-b04413b5f392)"
+        }
+      ]
+    },
+    {
+      "label": "Footer Tablet",
+      "rootId": "AWGNXf96_",
+      "majority": "28px|340|-0.02em|1.1em|Fraunces",
+      "count": 5,
+      "outlierIds": [],
+      "links": [
+        {
+          "id": "AWGNXf96_Z6pdpz5pD",
+          "text": "Properties",
+          "href": "/properties-2",
+          "size": "28px",
+          "weight": 340,
+          "tracking": "-0.02em",
+          "leading": "1.1em",
+          "font": "Fraunces",
+          "color": "var(--token-e2f9a9eb-668a-4021-80d9-b04413b5f392)"
+        },
+        {
+          "id": "AWGNXf96_AUgKRZDLa",
+          "text": "Neighbourhoods",
+          "href": "/neighbourhoods",
+          "size": "28px",
+          "weight": 340,
+          "tracking": "-0.02em",
+          "leading": "1.1em",
+          "font": "Fraunces",
+          "color": "var(--token-e2f9a9eb-668a-4021-80d9-b04413b5f392)"
+        },
+        {
+          "id": "AWGNXf96_qAqWkEULy",
+          "text": "Notes",
+          "href": "/notes",
+          "size": "28px",
+          "weight": 340,
+          "tracking": "-0.02em",
+          "leading": "1.1em",
+          "font": "Fraunces",
+          "color": "var(--token-e2f9a9eb-668a-4021-80d9-b04413b5f392)"
+        },
+        {
+          "id": "AWGNXf96_ZP4kFwKwc",
+          "text": "About",
+          "href": "/about",
+          "size": "28px",
+          "weight": 340,
+          "tracking": "-0.02em",
+          "leading": "1.1em",
+          "font": "Fraunces",
+          "color": "var(--token-e2f9a9eb-668a-4021-80d9-b04413b5f392)"
+        },
+        {
+          "id": "AWGNXf96_AlTIEFAKV",
+          "text": "Book a viewing",
+          "href": "/contact",
+          "size": "28px",
+          "weight": 340,
+          "tracking": "-0.02em",
+          "leading": "1.1em",
+          "font": "Fraunces",
+          "color": "var(--token-e2f9a9eb-668a-4021-80d9-b04413b5f392)"
+        }
+      ]
+    },
+    {
+      "label": "Footer Phone",
+      "rootId": "IitvyCHtz",
+      "majority": "26px|340|-0.02em|1.1em|Fraunces",
+      "count": 5,
+      "outlierIds": [],
+      "links": [
+        {
+          "id": "IitvyCHtzZ6pdpz5pD",
+          "text": "Properties",
+          "href": "/properties-2",
+          "size": "26px",
+          "weight": 340,
+          "tracking": "-0.02em",
+          "leading": "1.1em",
+          "font": "Fraunces",
+          "color": "var(--token-e2f9a9eb-668a-4021-80d9-b04413b5f392)"
+        },
+        {
+          "id": "IitvyCHtzAUgKRZDLa",
+          "text": "Neighbourhoods",
+          "href": "/neighbourhoods",
+          "size": "26px",
+          "weight": 340,
+          "tracking": "-0.02em",
+          "leading": "1.1em",
+          "font": "Fraunces",
+          "color": "var(--token-e2f9a9eb-668a-4021-80d9-b04413b5f392)"
+        },
+        {
+          "id": "IitvyCHtzqAqWkEULy",
+          "text": "Notes",
+          "href": "/notes",
+          "size": "26px",
+          "weight": 340,
+          "tracking": "-0.02em",
+          "leading": "1.1em",
+          "font": "Fraunces",
+          "color": "var(--token-e2f9a9eb-668a-4021-80d9-b04413b5f392)"
+        },
+        {
+          "id": "IitvyCHtzZP4kFwKwc",
+          "text": "About",
+          "href": "/about",
+          "size": "26px",
+          "weight": 340,
+          "tracking": "-0.02em",
+          "leading": "1.1em",
+          "font": "Fraunces",
+          "color": "var(--token-e2f9a9eb-668a-4021-80d9-b04413b5f392)"
+        },
+        {
+          "id": "IitvyCHtzAlTIEFAKV",
+          "text": "Book a viewing",
+          "href": "/contact",
+          "size": "26px",
+          "weight": 340,
+          "tracking": "-0.02em",
+          "leading": "1.1em",
+          "font": "Fraunces",
+          "color": "var(--token-e2f9a9eb-668a-4021-80d9-b04413b5f392)"
+        }
+      ]
+    }
+  ],
+  "outliers": [],
+  "footerHardRgb": [],
+  "outlierCount": 0,
+  "footerHardRgbCount": 0
+}

@@ -1,0 +1,12 @@
+{
+  "at": "2026-07-17T18:50:47.334Z",
+  "report": "template-plans/REPORT-arbour-postfix-reaudit.md",
+  "findingCount": 5,
+  "high": [
+    1,
+    2,
+    3
+  ],
+  "improveFirst": 1,
+  "unpublishedChanges": 11
+}

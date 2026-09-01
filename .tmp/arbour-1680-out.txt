@@ -1,0 +1,43 @@
+{
+  "applied": 245,
+  "sample": [
+    "/|Desktop/Text Content Column",
+    "/|Desktop/Territories Header",
+    "/|Desktop/yoT5YFvp5",
+    "/|Desktop/Portfolio Container",
+    "/|Desktop/Content",
+    "/|Desktop/PmjD_eoIk",
+    "/|Desktop/DZtq5dg52",
+    "/|Desktop/Process List",
+    "/|Desktop/Arbour_StatsBand",
+    "/|Desktop/Recognition Header",
+    "/|Desktop/Recognition List",
+    "/|Desktop/ojxCqw0q5",
+    "/|Desktop/ioPfPOqlo",
+    "/|Desktop/b800nNNFA",
+    "/|Desktop/Journal Deck",
+    "/|Desktop/Content Area",
+    "/|Tablet/Text Content Column",
+    "/|Tablet/Territories Header",
+    "/|Tablet/wBAtV56MEyoT5YFvp5",
+    "/|Tablet/Portfolio Container",
+    "/|Tablet/Content",
+    "/|Tablet/wBAtV56MEPmjD_eoIk",
+    "/|Tablet/wBAtV56MEDZtq5dg52",
+    "/|Tablet/Process List",
+    "/|Tablet/Arbour_StatsBand",
+    "/|Tablet/Recognition Header",
+    "/|Tablet/Recognition List",
+    "/|Tablet/wBAtV56MEojxCqw0q5",
+    "/|Tablet/wBAtV56MEioPfPOqlo",
+    "/|Tablet/wBAtV56MEb800nNNFA"
+  ],
+  "noteCount": 245,
+  "results": [
+    "Some commands failed to parse. Lint: 5 warnings.",
+    "Some commands failed to parse. Lint: 3 warnings.",
+    "Some commands failed to parse. Lint: 2 warnings.",
+    "Some commands failed to parse. Lint: 2 warnings.",
+    "Some commands failed to parse. Lint: 6 warnings."
+  ]
+}

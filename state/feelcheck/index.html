@@ -1,0 +1,126 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>FillingPoint Feel Check</title>
+    <style>
+      :root {
+        color-scheme: dark;
+        font-family: Inter, system-ui, sans-serif;
+      }
+      html,
+      body {
+        margin: 0;
+        min-height: 100%;
+        background: #060606;
+        color: #e8eaed;
+      }
+      body {
+        display: grid;
+        place-items: center;
+        padding: 48px 24px;
+      }
+      .stage {
+        width: min(920px, 100%);
+        display: grid;
+        gap: 28px;
+        justify-items: center;
+      }
+      .eyebrow {
+        letter-spacing: 0.22em;
+        font-size: 12px;
+        color: rgba(180, 185, 195, 0.72);
+        text-transform: uppercase;
+      }
+      .caption {
+        font-size: 13px;
+        color: rgba(180, 185, 195, 0.56);
+        text-align: center;
+        max-width: 42ch;
+      }
+      .matrix {
+        display: grid;
+        gap: 10px;
+        width: min(620px, 100%);
+        font-size: 12px;
+        color: rgba(180, 185, 195, 0.8);
+      }
+      .matrix code {
+        color: #6fd3ff;
+      }
+      #root {
+        width: min(620px, 100%);
+        min-height: 64px;
+      }
+      .error {
+        color: #ff7b72;
+        white-space: pre-wrap;
+        font-size: 13px;
+      }
+    </style>
+    <script type="importmap">
+      {
+        "imports": {
+          "react": "https://esm.sh/react@18.3.1",
+          "react/jsx-runtime": "https://esm.sh/react@18.3.1/jsx-runtime",
+          "react-dom/client": "https://esm.sh/react-dom@18.3.1/client",
+          "framer-motion": "https://esm.sh/framer-motion@11.18.2?deps=react@18.3.1,react-dom@18.3.1"
+        }
+      }
+    </script>
+  </head>
+  <body>
+    <div class="stage">
+      <div class="eyebrow">Feel-check harness</div>
+      <div id="root"></div>
+      <p class="caption">
+        Hover, leave mid-cascade, re-enter quickly, Tab+Space, and toggle
+        reduced motion in DevTools.
+      </p>
+      <div class="matrix">
+        <div>1. Normal hover — three solid disks from pointer origin</div>
+        <div>2. Leave immediately — reverse cascade starts at once</div>
+        <div>3. Rapid flicker — no stuck layers</div>
+        <div>4. Keyboard — <code>Tab</code> then <code>Space</code>/<code>Enter</code></div>
+        <div>5. Reduced motion — opacity path only</div>
+      </div>
+      <pre id="status" class="error"></pre>
+    </div>
+    <script type="module">
+      import React from "react"
+      import { createRoot } from "react-dom/client"
+      import FillingPoint from "./Kern_FillingPoint.bundle.js"
+
+      try {
+        createRoot(document.getElementById("root")).render(
+          React.createElement(FillingPoint, {
+            label: "ENTER THE POINT",
+            baseFill: "#060606",
+            fillStyle: "solid",
+            fills: [
+              { color: "#FFFFFF", delay: 0 },
+              { color: "#6FD3FF", delay: 90 },
+              { color: "#276BFF", delay: 180 },
+            ],
+            padding: "22px 40px",
+            borderRadius: "999px",
+            font: {
+              fontFamily: "Inter, sans-serif",
+              fontWeight: 600,
+              fontSize: "16px",
+              letterSpacing: "-0.01em",
+              lineHeight: "1.2em",
+            },
+            motionPreset: "cinematic",
+            style: { width: "100%" },
+          }),
+        )
+      } catch (error) {
+        document.getElementById("status").textContent = String(
+          error?.stack || error,
+        )
+      }
+    </script>
+  </body>
+</html>

@@ -1,0 +1,1 @@
+Scroll Blur · Soft backdrop blur for section chrome

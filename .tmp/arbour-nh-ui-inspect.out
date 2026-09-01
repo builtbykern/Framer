@@ -1,0 +1,607 @@
+{
+  "pageMeta": {
+    "title": "Neighbourhoods | Arbour",
+    "path": "/neighbourhoods"
+  },
+  "sections": [
+    {
+      "id": "dZfxmFpqB",
+      "name": "/neighbourhoods",
+      "type": "WebPageNode",
+      "trail": [],
+      "childCount": 3,
+      "childNames": [
+        "Desktop",
+        "Tablet",
+        "Phone"
+      ]
+    },
+    {
+      "id": "H1kR5JcFp",
+      "name": "Neighbourhoods Content",
+      "type": "FrameNode",
+      "trail": [
+        "/neighbourhoods",
+        "Desktop"
+      ],
+      "layout": "stack",
+      "gap": "0px",
+      "width": "1fr",
+      "height": "auto",
+      "childCount": 3,
+      "childNames": [
+        "Neighbourhoods Hero",
+        "Territory Grid Section",
+        "How We Read A Place"
+      ]
+    },
+    {
+      "id": "ycUqIc8V3",
+      "name": "Neighbourhoods Hero",
+      "type": "FrameNode",
+      "trail": [
+        "/neighbourhoods",
+        "Desktop",
+        "Neighbourhoods Content"
+      ],
+      "layout": "stack",
+      "gap": "0px",
+      "width": "1fr",
+      "height": "auto",
+      "childCount": 1,
+      "childNames": [
+        "Hero Copy"
+      ]
+    },
+    {
+      "id": "NrbMmTnFX",
+      "name": "Territory Grid Section",
+      "type": "FrameNode",
+      "trail": [
+        "/neighbourhoods",
+        "Desktop",
+        "Neighbourhoods Content"
+      ],
+      "layout": "stack",
+      "gap": "32px",
+      "padding": "128px 48px 128px 48px",
+      "width": "1fr",
+      "height": "auto",
+      "childCount": 2,
+      "childNames": [
+        "RichTextNode",
+        "Directory Panel"
+      ]
+    },
+    {
+      "id": "km7dUqZI9",
+      "name": "Territory Checkerboard",
+      "type": "FrameNode",
+      "trail": [
+        "/neighbourhoods",
+        "Desktop",
+        "Neighbourhoods Content",
+        "Territory Grid Section",
+        "Directory Panel"
+      ],
+      "layout": "grid",
+      "gap": "16px",
+      "width": "1fr",
+      "height": "auto",
+      "childCount": 1,
+      "childNames": [
+        "Territory Card"
+      ]
+    },
+    {
+      "id": "i56eWdACt",
+      "name": "Territory Card",
+      "type": "FrameNode",
+      "trail": [
+        "/neighbourhoods",
+        "Desktop",
+        "Neighbourhoods Content",
+        "Territory Grid Section",
+        "Directory Panel",
+        "Territory Checkerboard"
+      ],
+      "layout": "stack",
+      "gap": "0px",
+      "width": "1fr",
+      "height": "360px",
+      "link": "/properties",
+      "cursor": "pointer",
+      "overflow": "clip",
+      "childCount": 2,
+      "childNames": [
+        "Territory Dossier",
+        "Territory Photograph"
+      ]
+    },
+    {
+      "id": "QAa2V2fag",
+      "name": "Territory Dossier",
+      "type": "FrameNode",
+      "trail": [
+        "Desktop",
+        "Neighbourhoods Content",
+        "Territory Grid Section",
+        "Directory Panel",
+        "Territory Checkerboard",
+        "Territory Card"
+      ],
+      "layout": "stack",
+      "padding": "28px",
+      "width": "1fr",
+      "height": "1fr",
+      "overflow": "clip",
+      "childCount": 3,
+      "childNames": [
+        "Place Header",
+        "Cartographic Field",
+        "Place Reading"
+      ]
+    },
+    {
+      "id": "hX5NduSNi",
+      "name": "Territory Photograph",
+      "type": "FrameNode",
+      "trail": [
+        "Desktop",
+        "Neighbourhoods Content",
+        "Territory Grid Section",
+        "Directory Panel",
+        "Territory Checkerboard",
+        "Territory Card"
+      ],
+      "layout": "stack",
+      "gap": "0px",
+      "width": "1fr",
+      "height": "360px",
+      "overflow": "clip",
+      "childCount": 0,
+      "childNames": []
+    },
+    {
+      "id": "aJLpuUP0qH1kR5JcFp",
+      "name": "Neighbourhoods Content",
+      "type": "FrameNode",
+      "trail": [
+        "/neighbourhoods",
+        "Tablet"
+      ],
+      "layout": "stack",
+      "gap": "0px",
+      "width": "1fr",
+      "height": "auto",
+      "childCount": 3,
+      "childNames": [
+        "Neighbourhoods Hero",
+        "Territory Grid Section",
+        "How We Read A Place"
+      ]
+    },
+    {
+      "id": "aJLpuUP0qycUqIc8V3",
+      "name": "Neighbourhoods Hero",
+      "type": "FrameNode",
+      "trail": [
+        "/neighbourhoods",
+        "Tablet",
+        "Neighbourhoods Content"
+      ],
+      "layout": "stack",
+      "gap": "0px",
+      "width": "1fr",
+      "height": "auto",
+      "childCount": 1,
+      "childNames": [
+        "Hero Copy"
+      ]
+    },
+    {
+      "id": "aJLpuUP0qNrbMmTnFX",
+      "name": "Territory Grid Section",
+      "type": "FrameNode",
+      "trail": [
+        "/neighbourhoods",
+        "Tablet",
+        "Neighbourhoods Content"
+      ],
+      "layout": "stack",
+      "gap": "40px",
+      "padding": "96px 40px 96px 40px",
+      "width": "1fr",
+      "height": "auto",
+      "childCount": 2,
+      "childNames": [
+        "RichTextNode",
+        "Directory Panel"
+      ]
+    },
+    {
+      "id": "aJLpuUP0qkm7dUqZI9",
+      "name": "Territory Checkerboard",
+      "type": "FrameNode",
+      "trail": [
+        "/neighbourhoods",
+        "Tablet",
+        "Neighbourhoods Content",
+        "Territory Grid Section",
+        "Directory Panel"
+      ],
+      "layout": "grid",
+      "gap": "16px",
+      "width": "1fr",
+      "height": "auto",
+      "childCount": 1,
+      "childNames": [
+        "Territory Card"
+      ]
+    },
+    {
+      "id": "aJLpuUP0qi56eWdACt",
+      "name": "Territory Card",
+      "type": "FrameNode",
+      "trail": [
+        "/neighbourhoods",
+        "Tablet",
+        "Neighbourhoods Content",
+        "Territory Grid Section",
+        "Directory Panel",
+        "Territory Checkerboard"
+      ],
+      "layout": "stack",
+      "gap": "0px",
+      "width": "1fr",
+      "height": "320px",
+      "link": "/properties",
+      "cursor": "pointer",
+      "overflow": "clip",
+      "childCount": 2,
+      "childNames": [
+        "Territory Dossier",
+        "Territory Photograph"
+      ]
+    },
+    {
+      "id": "aJLpuUP0qQAa2V2fag",
+      "name": "Territory Dossier",
+      "type": "FrameNode",
+      "trail": [
+        "Tablet",
+        "Neighbourhoods Content",
+        "Territory Grid Section",
+        "Directory Panel",
+        "Territory Checkerboard",
+        "Territory Card"
+      ],
+      "layout": "stack",
+      "padding": "28px",
+      "width": "1fr",
+      "height": "1fr",
+      "overflow": "clip",
+      "childCount": 3,
+      "childNames": [
+        "Place Header",
+        "Cartographic Field",
+        "Place Reading"
+      ]
+    },
+    {
+      "id": "aJLpuUP0qhX5NduSNi",
+      "name": "Territory Photograph",
+      "type": "FrameNode",
+      "trail": [
+        "Tablet",
+        "Neighbourhoods Content",
+        "Territory Grid Section",
+        "Directory Panel",
+        "Territory Checkerboard",
+        "Territory Card"
+      ],
+      "layout": "stack",
+      "gap": "0px",
+      "width": "1fr",
+      "height": "360px",
+      "overflow": "clip",
+      "childCount": 0,
+      "childNames": []
+    },
+    {
+      "id": "Qonafp_oDH1kR5JcFp",
+      "name": "Neighbourhoods Content",
+      "type": "FrameNode",
+      "trail": [
+        "/neighbourhoods",
+        "Phone"
+      ],
+      "layout": "stack",
+      "gap": "0px",
+      "width": "1fr",
+      "height": "auto",
+      "childCount": 3,
+      "childNames": [
+        "Neighbourhoods Hero",
+        "Territory Grid Section",
+        "How We Read A Place"
+      ]
+    },
+    {
+      "id": "Qonafp_oDycUqIc8V3",
+      "name": "Neighbourhoods Hero",
+      "type": "FrameNode",
+      "trail": [
+        "/neighbourhoods",
+        "Phone",
+        "Neighbourhoods Content"
+      ],
+      "layout": "stack",
+      "gap": "0px",
+      "width": "1fr",
+      "height": "auto",
+      "childCount": 1,
+      "childNames": [
+        "Hero Copy"
+      ]
+    },
+    {
+      "id": "Qonafp_oDNrbMmTnFX",
+      "name": "Territory Grid Section",
+      "type": "FrameNode",
+      "trail": [
+        "/neighbourhoods",
+        "Phone",
+        "Neighbourhoods Content"
+      ],
+      "layout": "stack",
+      "gap": "20px",
+      "padding": "72px 16px 72px 16px",
+      "width": "1fr",
+      "height": "auto",
+      "childCount": 2,
+      "childNames": [
+        "RichTextNode",
+        "Directory Panel"
+      ]
+    },
+    {
+      "id": "Qonafp_oDkm7dUqZI9",
+      "name": "Territory Checkerboard",
+      "type": "FrameNode",
+      "trail": [
+        "/neighbourhoods",
+        "Phone",
+        "Neighbourhoods Content",
+        "Territory Grid Section",
+        "Directory Panel"
+      ],
+      "layout": "stack",
+      "gap": "24px",
+      "width": "1fr",
+      "height": "auto",
+      "childCount": 1,
+      "childNames": [
+        "Territory Card"
+      ]
+    },
+    {
+      "id": "Qonafp_oDi56eWdACt",
+      "name": "Territory Card",
+      "type": "FrameNode",
+      "trail": [
+        "/neighbourhoods",
+        "Phone",
+        "Neighbourhoods Content",
+        "Territory Grid Section",
+        "Directory Panel",
+        "Territory Checkerboard"
+      ],
+      "layout": "stack",
+      "gap": "0px",
+      "width": "1fr",
+      "height": "360px",
+      "link": "/properties",
+      "cursor": "pointer",
+      "overflow": "clip",
+      "childCount": 2,
+      "childNames": [
+        "Territory Dossier",
+        "Territory Photograph"
+      ]
+    },
+    {
+      "id": "Qonafp_oDQAa2V2fag",
+      "name": "Territory Dossier",
+      "type": "FrameNode",
+      "trail": [
+        "Phone",
+        "Neighbourhoods Content",
+        "Territory Grid Section",
+        "Directory Panel",
+        "Territory Checkerboard",
+        "Territory Card"
+      ],
+      "layout": "stack",
+      "padding": "28px",
+      "width": "1fr",
+      "height": "1fr",
+      "overflow": "clip",
+      "childCount": 3,
+      "childNames": [
+        "Place Header",
+        "Cartographic Field",
+        "Place Reading"
+      ]
+    },
+    {
+      "id": "Qonafp_oDhX5NduSNi",
+      "name": "Territory Photograph",
+      "type": "FrameNode",
+      "trail": [
+        "Phone",
+        "Neighbourhoods Content",
+        "Territory Grid Section",
+        "Directory Panel",
+        "Territory Checkerboard",
+        "Territory Card"
+      ],
+      "layout": "stack",
+      "gap": "0px",
+      "width": "1fr",
+      "height": "360px",
+      "overflow": "clip",
+      "childCount": 0,
+      "childNames": []
+    }
+  ],
+  "card": {
+    "id": "i56eWdACt",
+    "name": "Territory Card",
+    "type": "FrameNode",
+    "href": "/properties",
+    "gap": "0px",
+    "layout": "stack",
+    "width": "1fr",
+    "height": "360px",
+    "children": [
+      {
+        "id": "QAa2V2fag",
+        "name": "Territory Dossier",
+        "type": "FrameNode",
+        "padding": "28px",
+        "layout": "stack",
+        "width": "1fr",
+        "height": "1fr",
+        "children": [
+          {
+            "id": "buF4jg6C9",
+            "name": "Place Header",
+            "type": "FrameNode",
+            "gap": "0px",
+            "layout": "stack",
+            "width": "1fr",
+            "height": "auto",
+            "children": [
+              {
+                "id": "Ltp8ot_zm",
+                "name": "Place Title",
+                "type": "FrameNode",
+                "layout": "stack",
+                "width": "1fr",
+                "height": "auto",
+                "children": [
+                  {
+                    "id": "rie14TaT9",
+                    "type": "RichTextNode",
+                    "color": "var(--token-e2f9a9eb-668a-4021-80d9-b04413b5f392)",
+                    "width": "1fr",
+                    "height": "auto",
+                    "text": "var(--variable-tBUaKupCV)",
+                    "children": []
+                  },
+                  {
+                    "id": "d9SNjsdke",
+                    "type": "RichTextNode",
+                    "color": "var(--token-a16d0333-6bd5-4d60-aa00-fac26447145d)",
+                    "width": "auto",
+                    "height": "auto",
+                    "children": [
+                      {
+                        "id": "v:d9SNjsdke:0",
+                        "type": "TextBlock",
+                        "children": [
+                          {
+                            "id": "v:d9SNjsdke:0:0",
+                            "type": "TextRun",
+                            "text": "↗",
+                            "children": []
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "Xb7Sjgfsi",
+            "name": "Cartographic Field",
+            "type": "FrameNode",
+            "gap": "0px",
+            "layout": "stack",
+            "width": "1fr",
+            "height": "auto",
+            "children": [
+              {
+                "id": "jMokcCFea",
+                "name": "Cartographic Watermark",
+                "type": "FrameNode",
+                "layout": "null",
+                "width": "258px",
+                "height": "149px",
+                "opacity": "0.48",
+                "children": []
+              }
+            ]
+          },
+          {
+            "id": "rIIdBjqU_",
+            "name": "Place Reading",
+            "type": "FrameNode",
+            "gap": "12px",
+            "layout": "stack",
+            "width": "1fr",
+            "height": "auto",
+            "children": [
+              {
+                "id": "v61cPV2xF",
+                "type": "RichTextNode",
+                "color": "var(--token-0bc68d0d-4c0b-4126-8cce-9425cb153f4e)",
+                "width": "1fr",
+                "height": "auto",
+                "text": "var(--variable-mNRagFPfJ)",
+                "children": []
+              },
+              {
+                "id": "sJB1mG6E1",
+                "type": "RichTextNode",
+                "color": "var(--token-a16d0333-6bd5-4d60-aa00-fac26447145d)",
+                "width": "1fr",
+                "height": "auto",
+                "text": "var(--variable-ZIEwtEwXa)",
+                "children": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "hX5NduSNi",
+        "name": "Territory Photograph",
+        "type": "FrameNode",
+        "gap": "0px",
+        "layout": "stack",
+        "width": "1fr",
+        "height": "360px",
+        "children": []
+      }
+    ]
+  },
+  "homeRail": {
+    "id": "AV7lJ46Wl",
+    "name": "Arbour_TerritoryRail",
+    "component": "codeFile/il4DSn9:default",
+    "controls": {
+      "$control__mobileLayoutOverride": "Inherit",
+      "$control__territories": "[{\"type\":\"object\",\"value\":{\"name\":{\"type\":\"string\",\"value\":\"Chelsea\"},\"imageUrl\":{\"type\":\"string\",\"value\":\"https://framerusercontent.com/images/8IGPbFclzfRApOAIssLZgmHsnw.png\"},\"slug\":{\"type\":\"string\",\"value\":\"chelsea\"},\"alt\":{\"type\":\"string\",\"value\":\"Explore prime Chelsea homes for sale, from Cheyne Walk river frontages to quiet garden squares off the King's Road.\"},\"coords\":{\"type\":\"string\",\"value\":\"51.4875° N — 0.1687° W\"}},\"id\":\"default-item-0\"},{\"type\":\"object\",\"value\":{\"name\":{\"type\":\"string\",\"value\":\"Notting Hill\"},\"imageUrl\":{\"type\":\"string\",\"value\":\"https://framerusercontent.com/images/AOaAcGKE51AkwHdqIubUdXQHRf8.png\"},\"slug\":{\"type\":\"string\",\"value\":\"notting-hill\"},\"alt\":{\"type\":\"string\",\"value\":\"Discover Notting Hill's finest pastel townhouses and garden squares, moments from Portobello Road.\"},\"coords\":{\"type\":\"string\",\"value\":\"51.5090° N — 0.1963° W\"}},\"id\":\"default-item-1\"},{\"type\":\"object\",\"value\":{\"name\":{\"type\":\"string\",\"value\":\"Hampstead\"},\"imageUrl\":{\"type\":\"string\",\"value\":\"https://framerusercontent.com/images/cCQCSnQDjuSX1xXtwUtrzIHQ.png\"},\"slug\":{\"type\":\"string\",\"value\":\"hampstead\"},\"alt\":{\"type\":\"string\",\"value\":\"Search Hampstead's finest period houses, moments from the Heath and Kenwood House.\"},\"coords\":{\"type\":\"string\",\"value\":\"51.5560° N — 0.1780° W\"}},\"id\":\"default-item-2\"},{\"type\":\"object\",\"value\":{\"name\":{\"type\":\"string\",\"value\":\"The Cotswolds\"},\"imageUrl\":{\"type\":\"string\",\"value\":\"https://framerusercontent.com/images/UT2rfsfKG6VCT8OfYxd7DZWEA0.png\"},\"slug\":{\"type\":\"string\",\"value\":\"the-cotswolds\"},\"alt\":{\"type\":\"string\",\"value\":\"Browse country houses and cottages for sale across the Cotswolds' finest villages.\"},\"coords\":{\"type\":\"string\",\"value\":\"51.8330° N — 1.8433° W\"}},\"id\":\"default-item-3\"}]",
+      "$control__content": "{\"itemLimit\":{\"type\":\"number\",\"value\":12},\"linkBase\":{\"type\":\"string\",\"value\":\"/neighbourhoods\"},\"viewLabel\":{\"type\":\"string\",\"value\":\"VIEW →\"},\"ariaLabel\":{\"type\":\"string\",\"value\":\"Territories\"}}",
+      "$control__layout": "{\"variant\":{\"type\":\"enum\",\"value\":\"slide\"},\"imageRatio\":{\"type\":\"number\",\"value\":1.74},\"stripWidth\":{\"type\":\"number\",\"value\":160},\"stripHeight\":{\"type\":\"number\",\"value\":240},\"stripLift\":{\"type\":\"number\",\"value\":26},\"stripInactiveOpacity\":{\"type\":\"number\",\"value\":0.4},\"stripGap\":{\"type\":\"number\",\"value\":0},\"stripPosition\":{\"type\":\"enum\",\"value\":\"bottom\"},\"imagePadding\":{\"type\":\"number\",\"value\":0},\"textAlign\":{\"type\":\"enum\",\"value\":\"center\"},\"contentPadding\":{\"type\":\"number\",\"value\":40},\"contentPosition\":{\"type\":\"enum\",\"value\":\"top\"},\"topBandAlign\":{\"type\":\"enum\",\"value\":\"inline\"},\"showEditorialIndex\":{\"type\":\"boolean\",\"value\":false},\"showViewLink\":{\"type\":\"boolean\",\"value\":false},\"cardWidth\":{\"type\":\"number\",\"value\":360}}",
+      "$control__typography": "{\"titleFont\":{\"type\":\"font\",\"value\":{\"fontSelector\":\"GF;Noto Serif-regular\",\"fontSize\":\"16px\",\"letterSpacing\":[-0.03,\"em\"],\"lineHeight\":[1,\"em\"]}},\"metaFont\":{\"type\":\"font\",\"value\":{\"fontSelector\":\"GF;Fragment Mono-regular\",\"fontSize\":\"11px\",\"letterSpacing\":[0.12,\"em\"],\"lineHeight\":[1,\"em\"]}},\"titleUppercase\":{\"type\":\"boolean\",\"value\":true}}",
+      "$control__atmosphere": "{\"showGrain\":{\"type\":\"boolean\",\"value\":true},\"showVignette\":{\"type\":\"boolean\",\"value\":false},\"showFrame\":{\"type\":\"boolean\",\"value\":true},\"showBlur\":{\"type\":\"boolean\",\"value\":true},\"showTopBlur\":{\"type\":\"boolean\",\"value\":true},\"blurStrength\":{\"type\":\"number\",\"value\":10},\"grainOpacity\":{\"type\":\"number\",\"value\":0.33}}",
+      "$control__colors": "{\"titleColor\":{\"type\":\"color\",\"value\":\"rgb(252, 250, 244)\"},\"metaColor\":{\"type\":\"color\",\"value\":\"rgba(252, 250, 244, 0.72)\"},\"accentColor\":{\"type\":\"color\",\"value\":\"rgb(214, 224, 74)\"},\"stageBackground\":{\"type\":\"color\",\"value\":\"rgb(21, 43, 30)\"},\"scrimColor\":{\"type\":\"color\",\"value\":\"rgba(21, 43, 30, 0.7)\"},\"scrimOpacity\":{\"type\":\"number\",\"value\":0.72},\"showIndex\":{\"type\":\"boolean\",\"value\":true}}",
+      "$control__motion": "{\"slideInterval\":{\"type\":\"number\",\"value\":10},\"pauseOnHover\":{\"type\":\"boolean\",\"value\":true},\"springStiffness\":{\"type\":\"number\",\"value\":90},\"springDamping\":{\"type\":\"number\",\"value\":22}}"
+    }
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "ok": true,
+  "sessionId": "1",
+  "blocking": false,
+  "warningCount": 0,
+  "errors": [],
+  "changes": [
+    {
+      "type": "WebPage",
+      "nodeId": "uBAGmujMa",
+      "name": "/properties",
+      "status": "updated"
+    },
+    {
+      "type": "WebPage",
+      "nodeId": "OhRUQROL4",
+      "name": "/properties/:slug",
+      "status": "updated"
+    }
+  ],
+  "changesCount": 2,
+  "status": "ready",
+  "deferredCount": 0,
+  "rect": null,
+  "rectError": null,
+  "hasScreenshot": false,
+  "screenshotError": null
+}

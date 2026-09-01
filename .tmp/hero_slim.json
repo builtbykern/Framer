@@ -1,0 +1,106 @@
+{
+  "id": "iq0rlFlTE",
+  "name": "Hero Section",
+  "type": "FrameNode",
+  "w": "100%",
+  "h": "80vh",
+  "pos": "relative",
+  "overflow": "clip",
+  "layout": "stack",
+  "children": [
+    {
+      "id": "cJgmqsWkI",
+      "name": "Image Layer",
+      "type": "FrameNode",
+      "w": "100%",
+      "h": "100%",
+      "pos": "absolute",
+      "left": "0px",
+      "top": "0px",
+      "right": "0px",
+      "bottom": "0px",
+      "layout": "stack",
+      "children": [
+        {
+          "id": "IFLE4S10p",
+          "name": "Entrance Image Container",
+          "type": "ComponentInstanceNode",
+          "w": "100%",
+          "h": "100%",
+          "pos": "relative"
+        }
+      ]
+    },
+    {
+      "id": "qpE9wJcPm",
+      "name": "Gradient Overlay",
+      "type": "FrameNode",
+      "w": "100%",
+      "h": "100%",
+      "pos": "absolute",
+      "left": "0px",
+      "top": "0px",
+      "right": "0px",
+      "bottom": "0px",
+      "fill": "linear-gradient(180deg, rgba(10, 22, 15, 0.08) 0%, rgba(10, 22, 15, 0) 38%, rgba",
+      "layout": "stack"
+    },
+    {
+      "id": "ET8JHTjC5",
+      "name": "Text Content Column",
+      "type": "FrameNode",
+      "w": "90%",
+      "h": "100%",
+      "pos": "relative",
+      "layout": "stack",
+      "children": [
+        {
+          "id": "dI0COT2Rr",
+          "type": "FrameNode",
+          "w": "100%",
+          "h": "auto",
+          "pos": "relative",
+          "layout": "stack",
+          "children": [
+            {
+              "id": "WkwpIexZq",
+              "name": "Text Stack",
+              "type": "FrameNode",
+              "w": "1fr",
+              "h": "auto",
+              "pos": "relative",
+              "layout": "stack",
+              "children": [
+                {
+                  "id": "NSDs1we7r",
+                  "name": "Subheadline",
+                  "type": "RichTextNode",
+                  "w": "1fr",
+                  "h": "auto",
+                  "pos": "relative",
+                  "children": [
+                    {
+                      "id": "v:NSDs1we7r:0",
+                      "type": "TextBlock",
+                      "children": [
+                        null
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "Ztf5as0HE",
+              "name": "Arbour_ScrollCue",
+              "type": "ComponentInstanceNode",
+              "w": "auto",
+              "h": "1fr",
+              "pos": "relative"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

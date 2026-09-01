@@ -1,0 +1,287 @@
+// @framerDisableUnlink
+// BuiltByKern · Arbour — scroll-reactive progressive backdrop blur for editorial bands.
+
+import {
+    addPropertyControls,
+    ControlType,
+    useIsOnFramerCanvas,
+    useIsStaticRenderer,
+} from "framer"
+import { animate, useMotionValue, useReducedMotion } from "framer-motion"
+import {
+    useEffect,
+    useLayoutEffect,
+    useMemo,
+    useRef,
+    type CSSProperties,
+} from "react"
+
+type FadeEdge = "top" | "bottom"
+
+interface Arbour_ScrollBlurProps {
+    fadeEdge: FadeEdge
+    blurAmount: number
+    layerCount: number
+    settleMs: number
+    fadeIn: {
+        type?: string
+        stiffness?: number
+        damping?: number
+        duration?: number
+        ease?: number[] | string
+    }
+    fadeOut: {
+        type?: string
+        stiffness?: number
+        damping?: number
+        duration?: number
+        ease?: number[] | string
+    }
+    style?: CSSProperties
+}
+
+const DEFAULT_FADE_IN = {
+    type: "spring" as const,
+    stiffness: 300,
+    damping: 30,
+}
+
+const DEFAULT_FADE_OUT = {
+    type: "spring" as const,
+    stiffness: 80,
+    damping: 26,
+}
+
+/** SSR-safe layout effect (same pattern as scroll listeners below). */
+const useIsoLayoutEffect =
+    typeof window !== "undefined" ? useLayoutEffect : useEffect
+
+/**
+ * Arbour_ScrollBlur
+ *
+ * Progressive backdrop-blur stack that eases in while the page scrolls and
+ * settles out after idle. Place over Ink / Paper edges (nav exit, hero→band).
+ *
+ * @framerIntrinsicWidth 1200
+ * @framerIntrinsicHeight 200
+ * @framerSupportedLayoutWidth any-prefer-fixed
+ * @framerSupportedLayoutHeight any-prefer-fixed
+ */
+export default function Arbour_ScrollBlur(props: Partial<Arbour_ScrollBlurProps>) {
+    const {
+        fadeEdge = "bottom",
+        blurAmount = 12,
+        layerCount = 6,
+        settleMs = 180,
+        fadeIn = DEFAULT_FADE_IN,
+        fadeOut = DEFAULT_FADE_OUT,
+        style,
+    } = props
+
+    const isCanvas = useIsOnFramerCanvas() ?? false
+    const isStatic = useIsStaticRenderer()
+    const prefersReduced = useReducedMotion() ?? false
+    const freezeBlur = isCanvas || isStatic || prefersReduced
+
+    const containerRef = useRef<HTMLDivElement>(null)
+    const blurStrength = useMotionValue(freezeBlur ? (isCanvas ? 1 : 0) : 0)
+    const scrollingRef = useRef(false)
+    const idleTimerRef = useRef<number | null>(null)
+    const animRef = useRef<{ stop: () => void } | null>(null)
+
+    const safeLayerCount = Math.max(2, Math.min(12, Math.round(layerCount)))
+    const safeBlur = Math.max(0, Math.min(40, blurAmount))
+    const safeSettle = Math.max(40, Math.min(800, Math.round(settleMs)))
+
+    useIsoLayoutEffect(() => {
+        const node = containerRef.current
+        if (!node) return
+
+        const write = (value: number) => {
+            node.style.setProperty("--arbour-sb", String(Math.max(0, value)))
+        }
+
+        write(blurStrength.get())
+        const unsub = blurStrength.on("change", write)
+
+        if (isCanvas) {
+            blurStrength.set(1)
+        } else if (prefersReduced || isStatic) {
+            blurStrength.set(0)
+        }
+
+        return unsub
+    }, [blurStrength, isCanvas, isStatic, prefersReduced])
+
+    useEffect(() => {
+        if (freezeBlur) return
+        if (typeof window === "undefined") return
+
+        const clearIdle = () => {
+            if (idleTimerRef.current !== null) {
+                window.clearTimeout(idleTimerRef.current)
+                idleTimerRef.current = null
+            }
+        }
+
+        const resolveSpring = (
+            fallback: typeof DEFAULT_FADE_IN,
+            next: typeof fadeIn
+        ) => ({
+            type: "spring" as const,
+            stiffness:
+                typeof next?.stiffness === "number"
+                    ? next.stiffness
+                    : fallback.stiffness,
+            damping:
+                typeof next?.damping === "number"
+                    ? next.damping
+                    : fallback.damping,
+        })
+
+        const onScroll = () => {
+            if (!scrollingRef.current) {
+                scrollingRef.current = true
+                animRef.current?.stop()
+                animRef.current = animate(
+                    blurStrength,
+                    1,
+                    resolveSpring(DEFAULT_FADE_IN, fadeIn)
+                )
+            }
+
+            clearIdle()
+            idleTimerRef.current = window.setTimeout(() => {
+                scrollingRef.current = false
+                animRef.current?.stop()
+                animRef.current = animate(
+                    blurStrength,
+                    0,
+                    resolveSpring(DEFAULT_FADE_OUT, fadeOut)
+                )
+            }, safeSettle)
+        }
+
+        const opts: AddEventListenerOptions = { passive: true, capture: true }
+        window.addEventListener("scroll", onScroll, opts)
+
+        return () => {
+            window.removeEventListener("scroll", onScroll, opts)
+            clearIdle()
+            animRef.current?.stop()
+        }
+    }, [blurStrength, fadeIn, fadeOut, freezeBlur, safeSettle])
+
+    const layers = useMemo(() => {
+        const gradientDir = fadeEdge === "top" ? "to bottom" : "to top"
+        const step = 100 / safeLayerCount
+        const nodes: JSX.Element[] = []
+
+        for (let i = 0; i < safeLayerCount; i += 1) {
+            const layerBlur = (safeBlur * (i + 1)) / safeLayerCount
+            const coverTop = 100 - i * step
+            const fadeStart = Math.max(0, coverTop - step)
+            const mask = `linear-gradient(${gradientDir}, rgba(255,255,255,1) 0%, rgba(255,255,255,1) ${fadeStart}%, rgba(255,255,255,0) ${coverTop}%)`
+            const filter = `blur(calc(var(--arbour-sb, 0) * ${layerBlur}px))`
+
+            nodes.push(
+                <div
+                    key={i}
+                    aria-hidden="true"
+                    style={{
+                        position: "absolute",
+                        inset: 0,
+                        backdropFilter: filter,
+                        WebkitBackdropFilter: filter,
+                        WebkitMaskImage: mask,
+                        maskImage: mask,
+                    }}
+                />
+            )
+        }
+
+        return nodes
+    }, [fadeEdge, safeBlur, safeLayerCount])
+
+    const containerStyle: CSSProperties = {
+        position: "relative",
+        width: "100%",
+        height: "100%",
+        overflow: "hidden",
+        pointerEvents: "none",
+        ...style,
+    }
+
+    // Canvas grab affordance — Ink Soft tint, never on published site.
+    const placeholderStyle: CSSProperties = {
+        position: "absolute",
+        inset: 0,
+        background: "rgba(91, 88, 78, 0.14)",
+        borderRadius: 6,
+        pointerEvents: "none",
+        boxShadow: "inset 0 0 0 1px rgba(239, 233, 219, 0.22)",
+    }
+
+    return (
+        <div
+            ref={containerRef}
+            style={containerStyle}
+            aria-hidden="true"
+        >
+            {layers}
+            {isCanvas ? <div style={placeholderStyle} /> : null}
+        </div>
+    )
+}
+
+Arbour_ScrollBlur.displayName = "Arbour_ScrollBlur"
+
+addPropertyControls(Arbour_ScrollBlur, {
+    fadeEdge: {
+        type: ControlType.Enum,
+        title: "Fade Edge",
+        options: ["bottom", "top"],
+        optionTitles: ["Bottom ↑", "Top ↓"],
+        displaySegmentedControl: true,
+        defaultValue: "bottom",
+        description: "Which edge holds the densest blur.",
+    },
+    blurAmount: {
+        type: ControlType.Number,
+        title: "Blur",
+        defaultValue: 12,
+        min: 0,
+        max: 40,
+        step: 1,
+        unit: "px",
+    },
+    layerCount: {
+        type: ControlType.Number,
+        title: "Layers",
+        defaultValue: 6,
+        min: 2,
+        max: 12,
+        step: 1,
+        displayStepper: true,
+    },
+    settleMs: {
+        type: ControlType.Number,
+        title: "Settle",
+        defaultValue: 180,
+        min: 40,
+        max: 800,
+        step: 10,
+        unit: "ms",
+        description: "Idle time after scroll before blur eases out.",
+    },
+    fadeIn: {
+        type: ControlType.Transition,
+        title: "Fade In",
+        defaultValue: DEFAULT_FADE_IN,
+    },
+    fadeOut: {
+        type: ControlType.Transition,
+        title: "Fade Out",
+        defaultValue: DEFAULT_FADE_OUT,
+    },
+})

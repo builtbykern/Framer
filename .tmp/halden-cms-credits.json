@@ -1,0 +1,976 @@
+{
+  "typeField": {
+    "type": "enum"
+  },
+  "extra": [
+    {
+      "slug": "salt-light",
+      "credits": [
+        {
+          "label": "location",
+          "value": "North sea wall"
+        },
+        {
+          "label": "type",
+          "value": "place"
+        },
+        {
+          "label": "printed",
+          "value": "Edition of 12"
+        }
+      ],
+      "tags": [
+        "north sea",
+        "dusk",
+        "rail"
+      ],
+      "date": "2024-01-08T00:00:00.000Z",
+      "dateLabel": "Jan 8, 2024",
+      "type": "place",
+      "featured": true,
+      "bodyLen": 266,
+      "gallery2": 0,
+      "cover": "https://framerusercontent.com/images/6b4CKZmkrGd2fkUib1dlDlZDM.jpg",
+      "stills": [
+        "https://framerusercontent.com/images/1X1RDsclDfmtF1YYCLMRvrS2zc.jpg",
+        "https://framerusercontent.com/images/g0b9SJ6KkkJMHc1mShP4nvRmI.jpg",
+        "https://framerusercontent.com/images/2Qyl9G77xnlCo5jlCSS9oFI6CDg.jpg",
+        "https://framerusercontent.com/images/mge10rQn0Y74TITWDFPTE3rvk38.jpg"
+      ]
+    },
+    {
+      "slug": "the-waiting-room",
+      "credits": [
+        {
+          "label": "location",
+          "value": "Municipal lobby"
+        },
+        {
+          "label": "type",
+          "value": "place"
+        },
+        {
+          "label": "printed",
+          "value": "Unpublished"
+        }
+      ],
+      "tags": [
+        "municipal",
+        "chairs",
+        "interior"
+      ],
+      "date": "2023-02-11T00:00:00.000Z",
+      "dateLabel": "Feb 11, 2023",
+      "type": "place",
+      "featured": true,
+      "bodyLen": 258,
+      "gallery2": 0,
+      "cover": "https://framerusercontent.com/images/WvldgLMbk31Z0yLCGdJj2HFawU.jpg",
+      "stills": [
+        "https://framerusercontent.com/images/cKEQy2d4ofaLTlDMJY1Uv880Bg.jpg",
+        "https://framerusercontent.com/images/nbJcaUBJqzWCQYo4z90r8HVoo.jpg",
+        "https://framerusercontent.com/images/5scnsdtL3vByazWwbuqH1HcQxI.jpg",
+        "https://framerusercontent.com/images/gc0gyL5JJE5arRjPVxBBCfvRpgw.jpg"
+      ]
+    },
+    {
+      "slug": "glass-hours",
+      "credits": [
+        {
+          "label": "location",
+          "value": "Forest house"
+        },
+        {
+          "label": "type",
+          "value": "commission"
+        },
+        {
+          "label": "printed",
+          "value": "Unpublished"
+        }
+      ],
+      "tags": [
+        "forest",
+        "glass",
+        "house"
+      ],
+      "date": "2025-03-14T00:00:00.000Z",
+      "dateLabel": "Mar 14, 2025",
+      "type": "commission",
+      "featured": true,
+      "bodyLen": 240,
+      "gallery2": 0,
+      "cover": "https://framerusercontent.com/images/nNhNpRHxOxqFMbRCork6abg7m98.jpg",
+      "stills": [
+        "https://framerusercontent.com/images/6RvtHdyqoSj9iaxzeUKOdjyYPtk.jpg",
+        "https://framerusercontent.com/images/o5rM2oIQqeguHFhR2ZhkOfUdSB8.jpg",
+        "https://framerusercontent.com/images/4FPj3tavdlTtMQexo1podjx2W0E.jpg",
+        "https://framerusercontent.com/images/75WDkilVsWx4vDy2jrwpcH4BWo.jpg"
+      ]
+    },
+    {
+      "slug": "inland-signal",
+      "credits": [
+        {
+          "label": "location",
+          "value": "Interior road"
+        },
+        {
+          "label": "type",
+          "value": "place"
+        },
+        {
+          "label": "printed",
+          "value": "Unpublished"
+        }
+      ],
+      "tags": [
+        "road",
+        "heat",
+        "inland"
+      ],
+      "date": "2024-04-17T00:00:00.000Z",
+      "dateLabel": "Apr 17, 2024",
+      "type": "place",
+      "featured": true,
+      "bodyLen": 237,
+      "gallery2": 0,
+      "cover": "https://framerusercontent.com/images/75w1NU67CKvVSpMBWK3xbKheC3E.jpg",
+      "stills": [
+        "https://framerusercontent.com/images/BdOJOWNgChtdsay9eW0MZQ1xGc.jpg",
+        "https://framerusercontent.com/images/GVJ0CUUIV9Jsm1rUFzWjWpxVAGY.jpg",
+        "https://framerusercontent.com/images/nYbHI82pqJ97Rlg4kxrOTcqUiI.jpg",
+        "https://framerusercontent.com/images/K28QL5R9xVjgUKVbmkxaZhz9ZPA.jpg"
+      ]
+    },
+    {
+      "slug": "after-the-sitting",
+      "credits": [
+        {
+          "label": "location",
+          "value": "Rooms"
+        },
+        {
+          "label": "type",
+          "value": "people"
+        },
+        {
+          "label": "printed",
+          "value": "Unpublished"
+        }
+      ],
+      "tags": [
+        "portrait",
+        "window",
+        "rooms"
+      ],
+      "date": "2023-05-20T00:00:00.000Z",
+      "dateLabel": "May 20, 2023",
+      "type": "people",
+      "featured": true,
+      "bodyLen": 275,
+      "gallery2": 0,
+      "cover": "https://framerusercontent.com/images/vXv2FHPaMVK3Oxke2MYdaTL7FY.jpg",
+      "stills": [
+        "https://framerusercontent.com/images/kCviU4H2SLmhfa9aNzQVOGvQ4M.jpg",
+        "https://framerusercontent.com/images/kbQKnw4hqLpLDd8TBjvE8N2zZU.jpg",
+        "https://framerusercontent.com/images/lfZeZXnlobIOYXTGt430o0pokg.jpg",
+        "https://framerusercontent.com/images/zj7kEuxywEwTsZY9df2X1WKIYM.jpg"
+      ]
+    },
+    {
+      "slug": "unmade-light",
+      "credits": [
+        {
+          "label": "location",
+          "value": "Rented interior"
+        },
+        {
+          "label": "type",
+          "value": "commission"
+        },
+        {
+          "label": "printed",
+          "value": "Unpublished"
+        }
+      ],
+      "tags": [
+        "linen",
+        "bed",
+        "clothing"
+      ],
+      "date": "2025-06-23T00:00:00.000Z",
+      "dateLabel": "Jun 23, 2025",
+      "type": "commission",
+      "featured": true,
+      "bodyLen": 251,
+      "gallery2": 0,
+      "cover": "https://framerusercontent.com/images/omRhUDCEtG16wVXxWZFqu95Y.jpg",
+      "stills": [
+        "https://framerusercontent.com/images/flrz00Xpha1EEaD5rlg4xOotMU.jpg",
+        "https://framerusercontent.com/images/CoFF82WHcNz0MxjRD9L8n3vtwY.jpg",
+        "https://framerusercontent.com/images/IFI3SD1GouaJhvutNcYm65dk52c.jpg",
+        "https://framerusercontent.com/images/KfrdPJbE7w7UXggLHzEDk139U8w.jpg"
+      ]
+    },
+    {
+      "slug": "night-atlas",
+      "credits": [
+        {
+          "label": "location",
+          "value": "Closed café"
+        },
+        {
+          "label": "type",
+          "value": "place"
+        },
+        {
+          "label": "printed",
+          "value": "Unpublished"
+        }
+      ],
+      "tags": [
+        "fog",
+        "café",
+        "night"
+      ],
+      "date": "2022-07-26T00:00:00.000Z",
+      "dateLabel": "Jul 26, 2022",
+      "type": "place",
+      "featured": true,
+      "bodyLen": 244,
+      "gallery2": 0,
+      "cover": "https://framerusercontent.com/images/y6o7fg2H5H5sklw6XaaUMJZqUY.jpg",
+      "stills": [
+        "https://framerusercontent.com/images/FLfBQBNeNnztCBH6OWPInO7JlRI.jpg",
+        "https://framerusercontent.com/images/pePb9zVYctVdbwW9ntzRbfNyo.jpg",
+        "https://framerusercontent.com/images/nkTlXrNMPUkvxPCe7O5tRNi3N2U.jpg",
+        "https://framerusercontent.com/images/SSQAXCq1lIkkmxELLSYVqAfthA.jpg"
+      ]
+    },
+    {
+      "slug": "late-pool",
+      "credits": [
+        {
+          "label": "location",
+          "value": "Municipal baths"
+        },
+        {
+          "label": "type",
+          "value": "place"
+        },
+        {
+          "label": "printed",
+          "value": "Edition of 8"
+        }
+      ],
+      "tags": [
+        "pool",
+        "after hours",
+        "baths"
+      ],
+      "date": "2024-08-10T00:00:00.000Z",
+      "dateLabel": "Aug 10, 2024",
+      "type": "place",
+      "featured": true,
+      "bodyLen": 365,
+      "gallery2": 0,
+      "cover": "https://framerusercontent.com/images/xfeaRz4jUHgqh39ZAghEIUArm4.jpg",
+      "stills": [
+        "https://framerusercontent.com/images/yoyIoE9IXCJs7aY7k8qK6kBh5Y.jpg",
+        "https://framerusercontent.com/images/HtHrcIoUKIzWcdnnxjt10kIrTqE.jpg",
+        "https://framerusercontent.com/images/MLSdK6N9jeq0qLISlXCvwEkMI.jpg",
+        "https://framerusercontent.com/images/fGJjzL6opwPrVCo1N1ygHWZyJQ.jpg",
+        "https://framerusercontent.com/images/oyPsvf25JSxNpfjQsC9ZK3qswpM.jpg"
+      ]
+    },
+    {
+      "slug": "service-stairs",
+      "credits": [
+        {
+          "label": "location",
+          "value": "Hotel back of house"
+        },
+        {
+          "label": "type",
+          "value": "place"
+        },
+        {
+          "label": "printed",
+          "value": "Unpublished"
+        }
+      ],
+      "tags": [
+        "stairs",
+        "service",
+        "hotel"
+      ],
+      "date": "2023-09-13T00:00:00.000Z",
+      "dateLabel": "Sep 13, 2023",
+      "type": "place",
+      "featured": true,
+      "bodyLen": 320,
+      "gallery2": 0,
+      "cover": "https://framerusercontent.com/images/YXQn8vKmScu5LFk306hRtnG3Q.jpg",
+      "stills": [
+        "https://framerusercontent.com/images/3Uc3VOKdQxbWoAM1rFSb37cx3ME.jpg",
+        "https://framerusercontent.com/images/CMH3CK6hnT1M87wydZXt8e91eA.jpg",
+        "https://framerusercontent.com/images/VdGAA11KBeE11tjV0QUTnXM.jpg",
+        "https://framerusercontent.com/images/ZlIbja9GahWFpGstNaotZkIlbRI.jpg",
+        "https://framerusercontent.com/images/JXcKdmaYANWFkdkKAcItddRsDMU.jpg"
+      ]
+    },
+    {
+      "slug": "the-fitting",
+      "credits": [
+        {
+          "label": "location",
+          "value": "Rented room"
+        },
+        {
+          "label": "type",
+          "value": "people"
+        },
+        {
+          "label": "printed",
+          "value": "Edition of 10"
+        }
+      ],
+      "tags": [
+        "cloth",
+        "standing",
+        "pins"
+      ],
+      "date": "2025-10-16T00:00:00.000Z",
+      "dateLabel": "Oct 16, 2025",
+      "type": "people",
+      "featured": true,
+      "bodyLen": 352,
+      "gallery2": 0,
+      "cover": "https://framerusercontent.com/images/Wt2jcYksmtlPGLL2Y6OUwofRVE.jpg",
+      "stills": [
+        "https://framerusercontent.com/images/y57LmkploSJFAaezRkLT8pKYpg.jpg",
+        "https://framerusercontent.com/images/wnDX5aeBcKS0oDkPGH5O0c7sNg.jpg",
+        "https://framerusercontent.com/images/3VmuAzXcmThyihnCb5fwB3fpfc.jpg",
+        "https://framerusercontent.com/images/RHqtKMzl62xUrhKfmguVi72Weo.jpg",
+        "https://framerusercontent.com/images/LRjeXP2V1FmKACgkiXVEVcTJI2E.jpg"
+      ]
+    },
+    {
+      "slug": "ferry-hour",
+      "credits": [
+        {
+          "label": "location",
+          "value": "Night crossing"
+        },
+        {
+          "label": "type",
+          "value": "place"
+        },
+        {
+          "label": "printed",
+          "value": "Unpublished"
+        }
+      ],
+      "tags": [
+        "ferry",
+        "night",
+        "crossing"
+      ],
+      "date": "2022-11-19T00:00:00.000Z",
+      "dateLabel": "Nov 19, 2022",
+      "type": "place",
+      "featured": true,
+      "bodyLen": 324,
+      "gallery2": 0,
+      "cover": "https://framerusercontent.com/images/rvK3f4qHeyxL1pBKcBB62kAiX0.jpg",
+      "stills": [
+        "https://framerusercontent.com/images/A0Z9UW6z03JCrcZHAivG7Dys4k.jpg",
+        "https://framerusercontent.com/images/XhSptAvzO2K4AVyD7zeiOQ2xYU4.jpg",
+        "https://framerusercontent.com/images/c8ZfPrccjOsrw8h9eC48ckg0ipg.jpg",
+        "https://framerusercontent.com/images/Hmj8dQUlxVoY6nwQUZ4ZyyTXoE.jpg",
+        "https://framerusercontent.com/images/XyIFZ0Kw3igh3GEq8Eun7YSW74.jpg"
+      ]
+    },
+    {
+      "slug": "show-floor",
+      "credits": [
+        {
+          "label": "location",
+          "value": "Furniture floor"
+        },
+        {
+          "label": "type",
+          "value": "commission"
+        },
+        {
+          "label": "printed",
+          "value": "Edition of 6"
+        }
+      ],
+      "tags": [
+        "showroom",
+        "night",
+        "furniture"
+      ],
+      "date": "2025-12-22T00:00:00.000Z",
+      "dateLabel": "Dec 22, 2025",
+      "type": "commission",
+      "featured": true,
+      "bodyLen": 312,
+      "gallery2": 0,
+      "cover": "https://framerusercontent.com/images/VaYSrS0Urif80AiNd70m78U.jpg",
+      "stills": [
+        "https://framerusercontent.com/images/BXmn2cICbKDmG0FEkCxzspbtU.jpg",
+        "https://framerusercontent.com/images/v11ARd4Hd2MMvAmPo28AmoxuXw.jpg",
+        "https://framerusercontent.com/images/6Wi9AXrbD79PMf2H6rlmCqfjaw.jpg",
+        "https://framerusercontent.com/images/CQQgyW4ogG20WyTGhv3TZF4elmM.jpg",
+        "https://framerusercontent.com/images/TRxXNC0CC6CBHV6GyQK3BAgm9xU.jpg"
+      ]
+    }
+  ],
+  "bindHits": [
+    {
+      "pagePath": "/",
+      "id": "xmBenkfAk",
+      "type": "FrameNode",
+      "collectionList": {
+        "collection": "Work",
+        "repeatedDescendantId": "X_yokItiU",
+        "sorting": [
+          {
+            "variable": "KKPJSa2Nk",
+            "direction": "desc"
+          }
+        ],
+        "filters": [
+          {
+            "variableId": "LrPrf7_RQ",
+            "transforms": [
+              {
+                "name": "equals",
+                "value": true
+              }
+            ]
+          }
+        ],
+        "filtersOperator": "and"
+      },
+      "controls": {}
+    },
+    {
+      "pagePath": "/work/:Work",
+      "id": "gPAtEpWYL",
+      "type": "RichTextNode",
+      "text": "var(--variable-lmTMqy_0B)",
+      "controls": {}
+    },
+    {
+      "pagePath": "/work/:Work",
+      "id": "QozVEofed",
+      "type": "RichTextNode",
+      "text": "var(--variable-dGKnlxrN9)",
+      "controls": {}
+    },
+    {
+      "pagePath": "/work/:Work",
+      "id": "Ty40f0R2F",
+      "type": "RichTextNode",
+      "text": "var(--variable-GbFmUxRBk)",
+      "controls": {}
+    },
+    {
+      "pagePath": "/work/:Work",
+      "id": "jIzMEMleY",
+      "type": "RichTextNode",
+      "text": "var(--variable-w2PMSBOp6)",
+      "controls": {}
+    },
+    {
+      "pagePath": "/work/:Work",
+      "id": "qrIQI0oZQ",
+      "type": "RichTextNode",
+      "text": "var(--variable-bXpogfhdf)",
+      "controls": {}
+    },
+    {
+      "pagePath": "/work/:Work",
+      "id": "Y76mHpAi3",
+      "type": "RichTextNode",
+      "text": "var(--variable-UOqAA6IiT)",
+      "controls": {}
+    },
+    {
+      "pagePath": "/work/:Work",
+      "id": "bN50dgn5u",
+      "type": "RichTextNode",
+      "text": "var(--variable-m5_QJQ2QW)",
+      "controls": {}
+    },
+    {
+      "pagePath": "/work/:Work",
+      "id": "YYTXabA2d",
+      "type": "RichTextNode",
+      "text": "var(--variable-GgZlSrsxB)",
+      "controls": {}
+    },
+    {
+      "pagePath": "/work/:Work",
+      "id": "MTe4u1qos",
+      "type": "FrameNode",
+      "visible": {
+        "from": "var(--variable-U9cnCLe41)",
+        "transforms": [
+          {
+            "name": "isSet"
+          }
+        ]
+      },
+      "controls": {}
+    },
+    {
+      "pagePath": "/work/:Work",
+      "id": "j7HHVB8rr",
+      "type": "RichTextNode",
+      "text": "var(--variable-U9cnCLe41)",
+      "controls": {}
+    },
+    {
+      "pagePath": "/work/:Work",
+      "id": "r2ewUZQeT",
+      "type": "FrameNode",
+      "visible": {
+        "from": "var(--variable-cAgOu3Xwj)",
+        "transforms": [
+          {
+            "name": "isSet"
+          }
+        ]
+      },
+      "controls": {}
+    },
+    {
+      "pagePath": "/work/:Work",
+      "id": "TYF4yNIIF",
+      "type": "RichTextNode",
+      "text": "var(--variable-cAgOu3Xwj)",
+      "controls": {}
+    },
+    {
+      "pagePath": "/work/:Work",
+      "id": "Pa1YgjT4E",
+      "type": "FrameNode",
+      "visible": {
+        "from": "var(--variable-DtZHJ8qW_)",
+        "transforms": [
+          {
+            "name": "isSet"
+          }
+        ]
+      },
+      "controls": {}
+    },
+    {
+      "pagePath": "/work/:Work",
+      "id": "HHeE_7D3f",
+      "type": "RichTextNode",
+      "text": "var(--variable-DtZHJ8qW_)",
+      "controls": {}
+    },
+    {
+      "pagePath": "/work/:Work",
+      "id": "bcSjKaIc9",
+      "type": "RichTextNode",
+      "text": "var(--variable-previousItemId.lmTMqy_0B)",
+      "visible": {
+        "from": "var(--variable-previousItemId)",
+        "transforms": [
+          {
+            "name": "isSet"
+          }
+        ]
+      },
+      "controls": {}
+    },
+    {
+      "pagePath": "/work/:Work",
+      "id": "NxVQqH3rS",
+      "type": "RichTextNode",
+      "text": "var(--variable-nextItemId.lmTMqy_0B)",
+      "visible": {
+        "from": "var(--variable-nextItemId)",
+        "transforms": [
+          {
+            "name": "isSet"
+          }
+        ]
+      },
+      "controls": {}
+    },
+    {
+      "pagePath": "/work/:Work",
+      "id": "afUswAq7g",
+      "type": "ComponentInstanceNode",
+      "controls": {
+        "$control__images": {
+          "from": "var(--variable-WTTAaEd5y)",
+          "transforms": [
+            {
+              "name": "arrayToArray",
+              "mapping": {
+                "image": {
+                  "type": "image",
+                  "value": "var(--variable-ZkP9UsFFL)"
+                }
+              }
+            }
+          ]
+        },
+        "$control__cover": "var(--variable-KF94WDLfr)"
+      }
+    },
+    {
+      "pagePath": "/work/:Work",
+      "id": "LSqc1L2WHgPAtEpWYL",
+      "type": "RichTextNode",
+      "text": "var(--variable-lmTMqy_0B)",
+      "controls": {}
+    },
+    {
+      "pagePath": "/work/:Work",
+      "id": "LSqc1L2WHQozVEofed",
+      "type": "RichTextNode",
+      "text": "var(--variable-dGKnlxrN9)",
+      "controls": {}
+    },
+    {
+      "pagePath": "/work/:Work",
+      "id": "LSqc1L2WHTy40f0R2F",
+      "type": "RichTextNode",
+      "text": "var(--variable-GbFmUxRBk)",
+      "controls": {}
+    },
+    {
+      "pagePath": "/work/:Work",
+      "id": "LSqc1L2WHjIzMEMleY",
+      "type": "RichTextNode",
+      "text": "var(--variable-w2PMSBOp6)",
+      "controls": {}
+    },
+    {
+      "pagePath": "/work/:Work",
+      "id": "LSqc1L2WHqrIQI0oZQ",
+      "type": "RichTextNode",
+      "text": "var(--variable-bXpogfhdf)",
+      "controls": {}
+    },
+    {
+      "pagePath": "/work/:Work",
+      "id": "LSqc1L2WHY76mHpAi3",
+      "type": "RichTextNode",
+      "text": "var(--variable-UOqAA6IiT)",
+      "controls": {}
+    },
+    {
+      "pagePath": "/work/:Work",
+      "id": "LSqc1L2WHbN50dgn5u",
+      "type": "RichTextNode",
+      "text": "var(--variable-m5_QJQ2QW)",
+      "controls": {}
+    },
+    {
+      "pagePath": "/work/:Work",
+      "id": "LSqc1L2WHYYTXabA2d",
+      "type": "RichTextNode",
+      "text": "var(--variable-GgZlSrsxB)",
+      "controls": {}
+    },
+    {
+      "pagePath": "/work/:Work",
+      "id": "LSqc1L2WHMTe4u1qos",
+      "type": "FrameNode",
+      "visible": {
+        "from": "var(--variable-U9cnCLe41)",
+        "transforms": [
+          {
+            "name": "isSet"
+          }
+        ]
+      },
+      "controls": {}
+    },
+    {
+      "pagePath": "/work/:Work",
+      "id": "LSqc1L2WHj7HHVB8rr",
+      "type": "RichTextNode",
+      "text": "var(--variable-U9cnCLe41)",
+      "controls": {}
+    },
+    {
+      "pagePath": "/work/:Work",
+      "id": "LSqc1L2WHr2ewUZQeT",
+      "type": "FrameNode",
+      "visible": {
+        "from": "var(--variable-cAgOu3Xwj)",
+        "transforms": [
+          {
+            "name": "isSet"
+          }
+        ]
+      },
+      "controls": {}
+    },
+    {
+      "pagePath": "/work/:Work",
+      "id": "LSqc1L2WHTYF4yNIIF",
+      "type": "RichTextNode",
+      "text": "var(--variable-cAgOu3Xwj)",
+      "controls": {}
+    },
+    {
+      "pagePath": "/work/:Work",
+      "id": "LSqc1L2WHPa1YgjT4E",
+      "type": "FrameNode",
+      "visible": {
+        "from": "var(--variable-DtZHJ8qW_)",
+        "transforms": [
+          {
+            "name": "isSet"
+          }
+        ]
+      },
+      "controls": {}
+    },
+    {
+      "pagePath": "/work/:Work",
+      "id": "LSqc1L2WHHHeE_7D3f",
+      "type": "RichTextNode",
+      "text": "var(--variable-DtZHJ8qW_)",
+      "controls": {}
+    },
+    {
+      "pagePath": "/work/:Work",
+      "id": "LSqc1L2WHbcSjKaIc9",
+      "type": "RichTextNode",
+      "text": "var(--variable-previousItemId.lmTMqy_0B)",
+      "visible": {
+        "from": "var(--variable-previousItemId)",
+        "transforms": [
+          {
+            "name": "isSet"
+          }
+        ]
+      },
+      "controls": {}
+    },
+    {
+      "pagePath": "/work/:Work",
+      "id": "LSqc1L2WHNxVQqH3rS",
+      "type": "RichTextNode",
+      "text": "var(--variable-nextItemId.lmTMqy_0B)",
+      "visible": {
+        "from": "var(--variable-nextItemId)",
+        "transforms": [
+          {
+            "name": "isSet"
+          }
+        ]
+      },
+      "controls": {}
+    },
+    {
+      "pagePath": "/work/:Work",
+      "id": "LSqc1L2WHafUswAq7g",
+      "type": "ComponentInstanceNode",
+      "controls": {
+        "$control__images": {
+          "from": "var(--variable-WTTAaEd5y)",
+          "transforms": [
+            {
+              "name": "arrayToArray",
+              "mapping": {
+                "image": {
+                  "type": "image",
+                  "value": "var(--variable-ZkP9UsFFL)"
+                }
+              }
+            }
+          ]
+        },
+        "$control__cover": "var(--variable-KF94WDLfr)",
+        "$control__indexColor": "var(--token-8028b435-146d-4074-967e-823e6635036f)"
+      }
+    },
+    {
+      "pagePath": "/work/:Work",
+      "id": "Tf2mbU7BvgPAtEpWYL",
+      "type": "RichTextNode",
+      "text": "var(--variable-lmTMqy_0B)",
+      "controls": {}
+    },
+    {
+      "pagePath": "/work/:Work",
+      "id": "Tf2mbU7BvQozVEofed",
+      "type": "RichTextNode",
+      "text": "var(--variable-dGKnlxrN9)",
+      "controls": {}
+    },
+    {
+      "pagePath": "/work/:Work",
+      "id": "Tf2mbU7BvTy40f0R2F",
+      "type": "RichTextNode",
+      "text": "var(--variable-GbFmUxRBk)",
+      "controls": {}
+    },
+    {
+      "pagePath": "/work/:Work",
+      "id": "Tf2mbU7BvjIzMEMleY",
+      "type": "RichTextNode",
+      "text": "var(--variable-w2PMSBOp6)",
+      "controls": {}
+    },
+    {
+      "pagePath": "/work/:Work",
+      "id": "Tf2mbU7BvqrIQI0oZQ",
+      "type": "RichTextNode",
+      "text": "var(--variable-bXpogfhdf)",
+      "controls": {}
+    },
+    {
+      "pagePath": "/work/:Work",
+      "id": "Tf2mbU7BvY76mHpAi3",
+      "type": "RichTextNode",
+      "text": "var(--variable-UOqAA6IiT)",
+      "controls": {}
+    },
+    {
+      "pagePath": "/work/:Work",
+      "id": "Tf2mbU7BvbN50dgn5u",
+      "type": "RichTextNode",
+      "text": "var(--variable-m5_QJQ2QW)",
+      "controls": {}
+    },
+    {
+      "pagePath": "/work/:Work",
+      "id": "Tf2mbU7BvYYTXabA2d",
+      "type": "RichTextNode",
+      "text": "var(--variable-GgZlSrsxB)",
+      "controls": {}
+    },
+    {
+      "pagePath": "/work/:Work",
+      "id": "Tf2mbU7BvMTe4u1qos",
+      "type": "FrameNode",
+      "visible": {
+        "from": "var(--variable-U9cnCLe41)",
+        "transforms": [
+          {
+            "name": "isSet"
+          }
+        ]
+      },
+      "controls": {}
+    },
+    {
+      "pagePath": "/work/:Work",
+      "id": "Tf2mbU7Bvj7HHVB8rr",
+      "type": "RichTextNode",
+      "text": "var(--variable-U9cnCLe41)",
+      "controls": {}
+    },
+    {
+      "pagePath": "/work/:Work",
+      "id": "Tf2mbU7Bvr2ewUZQeT",
+      "type": "FrameNode",
+      "visible": {
+        "from": "var(--variable-cAgOu3Xwj)",
+        "transforms": [
+          {
+            "name": "isSet"
+          }
+        ]
+      },
+      "controls": {}
+    },
+    {
+      "pagePath": "/work/:Work",
+      "id": "Tf2mbU7BvTYF4yNIIF",
+      "type": "RichTextNode",
+      "text": "var(--variable-cAgOu3Xwj)",
+      "controls": {}
+    },
+    {
+      "pagePath": "/work/:Work",
+      "id": "Tf2mbU7BvPa1YgjT4E",
+      "type": "FrameNode",
+      "visible": {
+        "from": "var(--variable-DtZHJ8qW_)",
+        "transforms": [
+          {
+            "name": "isSet"
+          }
+        ]
+      },
+      "controls": {}
+    },
+    {
+      "pagePath": "/work/:Work",
+      "id": "Tf2mbU7BvHHeE_7D3f",
+      "type": "RichTextNode",
+      "text": "var(--variable-DtZHJ8qW_)",
+      "controls": {}
+    },
+    {
+      "pagePath": "/work/:Work",
+      "id": "Tf2mbU7BvbcSjKaIc9",
+      "type": "RichTextNode",
+      "text": "var(--variable-previousItemId.lmTMqy_0B)",
+      "visible": {
+        "from": "var(--variable-previousItemId)",
+        "transforms": [
+          {
+            "name": "isSet"
+          }
+        ]
+      },
+      "controls": {}
+    },
+    {
+      "pagePath": "/work/:Work",
+      "id": "Tf2mbU7BvNxVQqH3rS",
+      "type": "RichTextNode",
+      "text": "var(--variable-nextItemId.lmTMqy_0B)",
+      "visible": {
+        "from": "var(--variable-nextItemId)",
+        "transforms": [
+          {
+            "name": "isSet"
+          }
+        ]
+      },
+      "controls": {}
+    },
+    {
+      "pagePath": "/work/:Work",
+      "id": "Tf2mbU7BvafUswAq7g",
+      "type": "ComponentInstanceNode",
+      "controls": {
+        "$control__images": {
+          "from": "var(--variable-WTTAaEd5y)",
+          "transforms": [
+            {
+              "name": "arrayToArray",
+              "mapping": {
+                "image": {
+                  "type": "image",
+                  "value": "var(--variable-ZkP9UsFFL)"
+                }
+              }
+            }
+          ]
+        },
+        "$control__cover": "var(--variable-KF94WDLfr)"
+      }
+    }
+  ]
+}

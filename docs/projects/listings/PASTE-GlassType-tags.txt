@@ -1,0 +1,1 @@
+Framer, Component, Type, Typography, Glass, Hover, Lens, WebGL, Kinetic, Distortion, Motion, Code Component

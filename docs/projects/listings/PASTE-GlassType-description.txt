@@ -1,0 +1,37 @@
+A mark, a word, a name on a dark page. You want the type still and the glass moving.
+
+Glass Type rasterizes your copy into one lens. Hover moves the glass, not the letters. Chromatic fringe only at the rim.
+
+Controls:
+
+Font — any Framer face. Hairlines read through the glass.
+
+Text — one copy. Line plays it whole. Drift walks each word once. One word, one pass.
+
+Paper — optional fill. Transparent on drop.
+
+Ink — the type. Not the glass.
+
+Fringe — color split at the rim. Range 0 to 0.06.
+
+Scale — optical size inside the frame. Type and glass stay locked.
+
+Scene — Line or Drift.
+
+Play — Hover, Once, or Loop.
+
+Amount — how far type travels, and how hard the glass pinches.
+
+Lens — On or Off. Mouse only.
+
+How to place:
+1. Drop Glass Type. Default frame is 960×444.
+2. Set Font and Text.
+3. Pick Scene and Play.
+4. Open Preview. Move the mouse over the type.
+
+If WebGL is missing, you get the type without the glass. Off-screen and hidden tabs pause. The canvas freeze uses the same tree as live.
+
+No link. No auto demo inside the component. The hover is the product.
+
+Built brutally well by KERN.

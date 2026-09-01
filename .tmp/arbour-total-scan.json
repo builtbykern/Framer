@@ -1,0 +1,390 @@
+{
+  "at": "2026-08-01T12:21:19.895Z",
+  "project": {
+    "production": "https://arbour.framer.website",
+    "staging": "https://minimum-directions-600719.framer.app",
+    "optimization": {
+      "production": "optimized",
+      "staging": "optimized"
+    }
+  },
+  "publish": {
+    "changesCount": 0,
+    "changes": [],
+    "errors": [],
+    "status": "ready"
+  },
+  "externals": "Current Project External Components\n[]\n",
+  "sitemap": [
+    {
+      "id": "augiA20Il",
+      "path": "/",
+      "collectionId": null,
+      "draft": false,
+      "title": "Arbour — Independent Estate Agency London",
+      "bp": 3
+    },
+    {
+      "id": "uBAGmujMa",
+      "path": "/properties-2",
+      "collectionId": null,
+      "draft": false,
+      "title": "Properties | Arbour",
+      "bp": 3
+    },
+    {
+      "id": "dZfxmFpqB",
+      "path": "/neighbourhoods",
+      "collectionId": null,
+      "draft": false,
+      "title": "Neighbourhoods | Arbour",
+      "bp": 3
+    },
+    {
+      "id": "s8RpZIiJ8",
+      "path": "/notes",
+      "collectionId": null,
+      "draft": false,
+      "title": "Notes | Arbour",
+      "bp": 3
+    },
+    {
+      "id": "OdFhPn9yz",
+      "path": "/about",
+      "collectionId": null,
+      "draft": false,
+      "title": "About | Arbour",
+      "bp": 3
+    },
+    {
+      "id": "c7qpzB7hR",
+      "path": "/contact",
+      "collectionId": null,
+      "draft": false,
+      "title": "Contact | Arbour",
+      "bp": 3
+    },
+    {
+      "id": "OhRUQROL4",
+      "path": "/properties-2/:slug",
+      "collectionId": "VPfyI5Rxz",
+      "draft": false,
+      "title": "{{SEO Title}}",
+      "bp": 3
+    },
+    {
+      "id": "YPPO8pJ92",
+      "path": "/notes/:slug",
+      "collectionId": "HozLKZ9WV",
+      "draft": false,
+      "title": "{{SEO Title}}",
+      "bp": 3
+    },
+    {
+      "id": "ojmcAsLyM",
+      "path": "/404",
+      "collectionId": null,
+      "draft": false,
+      "title": "Page not found | Arbour",
+      "bp": 3
+    }
+  ],
+  "cms": {
+    "Neighbourhoods": {
+      "id": "U0QLvHg7O",
+      "items": 4,
+      "fields": [
+        "Name",
+        "Intro",
+        "Hero Image",
+        "Highlights",
+        "SEO Title",
+        "SEO Description",
+        "Map"
+      ],
+      "requiredGaps": []
+    },
+    "Agents": {
+      "id": "CGTgzrUNU",
+      "items": 4,
+      "fields": [
+        "Name",
+        "Role",
+        "Photo",
+        "Email",
+        "Phone"
+      ],
+      "requiredGaps": []
+    },
+    "Properties": {
+      "id": "VPfyI5Rxz",
+      "items": 6,
+      "fields": [
+        "Title",
+        "Price",
+        "Location",
+        "Neighbourhood",
+        "Featured",
+        "Bedrooms",
+        "Bathrooms",
+        "Area",
+        "Hero Image",
+        "Gallery",
+        "Description",
+        "Features",
+        "SEO Title",
+        "SEO Description",
+        "Status",
+        "Gallery Image One",
+        "Gallery Image Two",
+        "Gallery Image Three",
+        "Asking Price",
+        "Gallery Image Four",
+        "Gallery Narrative",
+        "Journal Entry",
+        "Grid Image Height"
+      ],
+      "requiredGaps": [],
+      "neighbourhoods": [
+        {
+          "slug": "cheyne-walk-riverside-residence",
+          "nh": "chelsea"
+        },
+        {
+          "slug": "frognal-georgian-villa",
+          "nh": "hampstead"
+        },
+        {
+          "slug": "bibury-stone-manor",
+          "nh": "the-cotswolds"
+        },
+        {
+          "slug": "royal-avenue-lateral-apartment",
+          "nh": "chelsea"
+        },
+        {
+          "slug": "ladbroke-grove-garden-house",
+          "nh": "notting-hill"
+        },
+        {
+          "slug": "colville-mews-house",
+          "nh": "notting-hill"
+        }
+      ]
+    },
+    "Journal": {
+      "id": "HozLKZ9WV",
+      "items": 7,
+      "fields": [
+        "Title",
+        "Category",
+        "Date",
+        "Excerpt",
+        "Cover Image",
+        "Featured",
+        "Body",
+        "SEO Description",
+        "Index",
+        "SEO Title"
+      ],
+      "requiredGaps": []
+    }
+  },
+  "nestedLinkRisks": [],
+  "brokenLinks": [],
+  "softIssues": [
+    {
+      "type": "mailto-inconsistency",
+      "values": [
+        "mailto:enquiries@arbour.estate",
+        "mailto:enquiries@arbour.london"
+      ]
+    },
+    {
+      "type": "placeholder-social",
+      "values": [
+        "https://instagram.com",
+        "https://linkedin.com",
+        "https://x.com"
+      ]
+    },
+    {
+      "type": "properties-path-suffix",
+      "note": "Canonical listing path is /properties-2 (Redirects blocked)"
+    }
+  ],
+  "homeFX": [
+    {
+      "id": "AV7lJ46Wl",
+      "name": "Arbour_TerritoryRail",
+      "component": "codeFile/il4DSn9:default"
+    },
+    {
+      "id": "nndydVj_G",
+      "name": "Arbour_EditorialReveal",
+      "component": "codeFile/gHPemNT:default"
+    },
+    {
+      "id": "PaGRz8lMz",
+      "name": "Arbour_ProgressiveBlur",
+      "component": "codeFile/fOrMtU2:default"
+    },
+    {
+      "id": "U3TeNUVXvAV7lJ46Wl",
+      "name": "Arbour_TerritoryRail",
+      "component": "codeFile/il4DSn9:default"
+    },
+    {
+      "id": "U3TeNUVXvnndydVj_G",
+      "name": "Arbour_EditorialReveal",
+      "component": "codeFile/gHPemNT:default"
+    },
+    {
+      "id": "U3TeNUVXvPaGRz8lMz",
+      "name": "Arbour_ProgressiveBlur",
+      "component": "codeFile/fOrMtU2:default"
+    },
+    {
+      "id": "pmAxXUJ0oAV7lJ46Wl",
+      "name": "Arbour_TerritoryRail",
+      "component": "codeFile/il4DSn9:default"
+    },
+    {
+      "id": "pmAxXUJ0onndydVj_G",
+      "name": "Arbour_EditorialReveal",
+      "component": "codeFile/gHPemNT:default"
+    },
+    {
+      "id": "pmAxXUJ0oPaGRz8lMz",
+      "name": "Arbour_ProgressiveBlur",
+      "component": "codeFile/fOrMtU2:default"
+    }
+  ],
+  "chrome": {
+    "Nav": [
+      "/",
+      "/about",
+      "/contact",
+      "/neighbourhoods",
+      "/notes",
+      "/properties-2",
+      "https://instagram.com",
+      "https://linkedin.com",
+      "https://x.com",
+      "mailto:enquiries@arbour.london",
+      "tel:+442073518800"
+    ],
+    "Footer": [
+      "/about",
+      "/contact",
+      "/neighbourhoods",
+      "/notes",
+      "/properties-2",
+      "/properties-2/:slug"
+    ]
+  },
+  "code": {
+    "count": 19,
+    "propertyCardStatic": true,
+    "articleCardNotesPath": true
+  },
+  "counts": {
+    "pages": 9,
+    "pageStats": [
+      {
+        "path": "/",
+        "ul": 21,
+        "risks": 0,
+        "links": 6
+      },
+      {
+        "path": "/properties-2",
+        "ul": 3,
+        "risks": 0,
+        "links": 12
+      },
+      {
+        "path": "/neighbourhoods",
+        "ul": 3,
+        "risks": 0,
+        "links": 3
+      },
+      {
+        "path": "/notes",
+        "ul": 3,
+        "risks": 0,
+        "links": 3
+      },
+      {
+        "path": "/about",
+        "ul": 3,
+        "risks": 0,
+        "links": 3
+      },
+      {
+        "path": "/contact",
+        "ul": 6,
+        "risks": 0,
+        "links": 9
+      },
+      {
+        "path": "/properties-2/:slug",
+        "ul": 0,
+        "risks": 0,
+        "links": 12
+      },
+      {
+        "path": "/notes/:slug",
+        "ul": 0,
+        "risks": 0,
+        "links": 3
+      },
+      {
+        "path": "/404",
+        "ul": 0,
+        "risks": 0,
+        "links": 3
+      }
+    ],
+    "uniqueHrefs": [
+      "/",
+      "/about",
+      "/contact",
+      "/neighbourhoods",
+      "/notes",
+      "/properties-2",
+      "/properties-2/:slug",
+      "https://instagram.com",
+      "https://linkedin.com",
+      "https://x.com",
+      "mailto:enquiries@arbour.estate",
+      "mailto:enquiries@arbour.london",
+      "tel:+442073518800"
+    ],
+    "mailto": [
+      "mailto:enquiries@arbour.estate",
+      "mailto:enquiries@arbour.london"
+    ],
+    "tel": [
+      "tel:+442073518800"
+    ],
+    "http": [
+      "https://instagram.com",
+      "https://linkedin.com",
+      "https://x.com"
+    ],
+    "broken": 0,
+    "nestedRisks": 0
+  },
+  "key": {
+    "nhCard": {
+      "href": "/properties-2"
+    },
+    "propertyLink": {
+      "href": "/properties-2/:slug",
+      "collectionItem": "var(--variable-zwSbxzSmU)"
+    },
+    "notesDecorative": "true",
+    "propertiesFilters": 5
+  }
+}

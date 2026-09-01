@@ -1,0 +1,403 @@
+{
+  "collections": [
+    {
+      "id": "U0QLvHg7O",
+      "name": "Neighbourhoods",
+      "itemCount": 4,
+      "fields": [
+        {
+          "name": "Name",
+          "type": "string",
+          "required": true
+        },
+        {
+          "name": "Intro",
+          "type": "string",
+          "required": true
+        },
+        {
+          "name": "Hero Image",
+          "type": "image",
+          "required": true
+        },
+        {
+          "name": "Highlights",
+          "type": "string",
+          "required": true
+        },
+        {
+          "name": "SEO Title",
+          "type": "string",
+          "required": true
+        },
+        {
+          "name": "SEO Description",
+          "type": "string",
+          "required": true
+        },
+        {
+          "name": "Map",
+          "type": "image",
+          "required": false
+        }
+      ],
+      "thinSeo": []
+    },
+    {
+      "id": "CGTgzrUNU",
+      "name": "Agents",
+      "itemCount": 4,
+      "fields": [
+        {
+          "name": "Name",
+          "type": "string",
+          "required": true
+        },
+        {
+          "name": "Role",
+          "type": "string",
+          "required": true
+        },
+        {
+          "name": "Photo",
+          "type": "image",
+          "required": true
+        },
+        {
+          "name": "Email",
+          "type": "string",
+          "required": true
+        },
+        {
+          "name": "Phone",
+          "type": "string",
+          "required": true
+        }
+      ],
+      "thinSeo": []
+    },
+    {
+      "id": "VPfyI5Rxz",
+      "name": "Properties",
+      "itemCount": 6,
+      "fields": [
+        {
+          "name": "Title",
+          "type": "string",
+          "required": true
+        },
+        {
+          "name": "Price",
+          "type": "string",
+          "required": true
+        },
+        {
+          "name": "Location",
+          "type": "string",
+          "required": true
+        },
+        {
+          "name": "Neighbourhood",
+          "type": "collectionReference",
+          "required": true
+        },
+        {
+          "name": "Featured",
+          "type": "boolean"
+        },
+        {
+          "name": "Bedrooms",
+          "type": "number"
+        },
+        {
+          "name": "Bathrooms",
+          "type": "number"
+        },
+        {
+          "name": "Area",
+          "type": "string",
+          "required": true
+        },
+        {
+          "name": "Hero Image",
+          "type": "image",
+          "required": true
+        },
+        {
+          "name": "Gallery",
+          "type": "array",
+          "required": false
+        },
+        {
+          "name": "Description",
+          "type": "formattedText",
+          "required": true
+        },
+        {
+          "name": "Features",
+          "type": "string",
+          "required": true
+        },
+        {
+          "name": "SEO Title",
+          "type": "string",
+          "required": true
+        },
+        {
+          "name": "SEO Description",
+          "type": "string",
+          "required": true
+        },
+        {
+          "name": "Status",
+          "type": "enum"
+        },
+        {
+          "name": "Gallery Image One",
+          "type": "image",
+          "required": true
+        },
+        {
+          "name": "Gallery Image Two",
+          "type": "image",
+          "required": true
+        },
+        {
+          "name": "Gallery Image Three",
+          "type": "image",
+          "required": true
+        },
+        {
+          "name": "Asking Price",
+          "type": "number"
+        },
+        {
+          "name": "Gallery Image Four",
+          "type": "image",
+          "required": false
+        },
+        {
+          "name": "Gallery Narrative",
+          "type": "formattedText",
+          "required": false
+        },
+        {
+          "name": "Journal Entry",
+          "type": "boolean"
+        },
+        {
+          "name": "Grid Image Height",
+          "type": "number"
+        }
+      ],
+      "thinSeo": []
+    },
+    {
+      "id": "HozLKZ9WV",
+      "name": "Journal",
+      "itemCount": 7,
+      "fields": [
+        {
+          "name": "Title",
+          "type": "string",
+          "required": true
+        },
+        {
+          "name": "Category",
+          "type": "string",
+          "required": false
+        },
+        {
+          "name": "Date",
+          "type": "string",
+          "required": false
+        },
+        {
+          "name": "Excerpt",
+          "type": "string",
+          "required": false
+        },
+        {
+          "name": "Cover Image",
+          "type": "image",
+          "required": false
+        },
+        {
+          "name": "Featured",
+          "type": "boolean"
+        },
+        {
+          "name": "Body",
+          "type": "formattedText",
+          "required": false
+        },
+        {
+          "name": "SEO Description",
+          "type": "string",
+          "required": false
+        },
+        {
+          "name": "Index",
+          "type": "string",
+          "required": false
+        }
+      ],
+      "thinSeo": [
+        {
+          "slug": "on-instructing-an-agent-without-losing-your-nerve",
+          "field": "SEO Description",
+          "value": "Briefing counsel without surrendering judgement: what to put in writing, what to keep oral, and when to slow the instruction."
+        }
+      ]
+    }
+  ],
+  "watchHits": [
+    {
+      "id": "P52cqIVrKigQv4GmBCap",
+      "name": "Arbour_EditorialReveal",
+      "count": 3,
+      "scopes": 1
+    }
+  ],
+  "topComps": [
+    {
+      "id": "codeFile/zCa0pzg:default",
+      "name": "Arbour_UnderlineLink",
+      "count": 39,
+      "scopes": 6
+    },
+    {
+      "id": "codeFile/IwchU7y:default",
+      "name": "Arbour_NoiseEffect",
+      "count": 33,
+      "scopes": 7
+    },
+    {
+      "id": "codeFile/emg8ovC:default",
+      "name": "Featured Article Container",
+      "count": 30,
+      "scopes": 4
+    },
+    {
+      "id": "pXUahiblU",
+      "name": "Footer",
+      "count": 24,
+      "scopes": 8
+    },
+    {
+      "id": "ynpqYJGOd",
+      "name": "Nav",
+      "count": 24,
+      "scopes": 8
+    },
+    {
+      "id": "codeFile/GruqKYi:default",
+      "name": "Arbour_ScrollCue",
+      "count": 21,
+      "scopes": 6
+    },
+    {
+      "id": "codeFile/fOrMtU2:default",
+      "name": "Arbour_ProgressiveBlur",
+      "count": 21,
+      "scopes": 7
+    },
+    {
+      "id": "codeFile/zQElsPn:default",
+      "name": "Arbour_InertiaFrame",
+      "count": 16,
+      "scopes": 5
+    },
+    {
+      "id": "codeFile/QsH9B_M:default",
+      "name": "Arbour_LoadingScreen",
+      "count": 15,
+      "scopes": 5
+    },
+    {
+      "id": "codeFile/lKYHG0I:default",
+      "name": "Arbour_SmoothScroll",
+      "count": 15,
+      "scopes": 5
+    },
+    {
+      "id": "codeFile/DTpIPSC:default",
+      "name": "Menu Icon",
+      "count": 12,
+      "scopes": 1
+    },
+    {
+      "id": "codeFile/z3tkXk6:default",
+      "name": "Submit Button",
+      "count": 9,
+      "scopes": 3
+    },
+    {
+      "id": "GViAPxZ97",
+      "name": "Arbour_PrincipalProfile",
+      "count": 6,
+      "scopes": 1
+    },
+    {
+      "id": "m1wvYyVUj",
+      "name": "Arbour_OfficeAtlasPanel",
+      "count": 6,
+      "scopes": 1
+    },
+    {
+      "id": "HA6ZLKBrB",
+      "name": "Arbour Neighbourhood Feature",
+      "count": 6,
+      "scopes": 2
+    },
+    {
+      "id": "codeFile/gKy5r76:default",
+      "name": "Arbour_StopScroll",
+      "count": 6,
+      "scopes": 1
+    },
+    {
+      "id": "codeFile/KzA2jsd:default",
+      "name": "Arbour_StatsBand",
+      "count": 6,
+      "scopes": 2
+    },
+    {
+      "id": "codeFile/gHPemNT:default",
+      "name": "Arbour_EditorialReveal",
+      "count": 3,
+      "scopes": 1
+    },
+    {
+      "id": "codeFile/zbud3PK:default",
+      "name": "CopyrightText",
+      "count": 3,
+      "scopes": 1
+    },
+    {
+      "id": "P52cqIVrKigQv4GmBCap",
+      "name": "Arbour_EditorialReveal",
+      "count": 3,
+      "scopes": 1
+    },
+    {
+      "id": "codeFile/rB5gJ0d:default",
+      "name": "Journal Button",
+      "count": 3,
+      "scopes": 1
+    },
+    {
+      "id": "codeFile/il4DSn9:default",
+      "name": "Arbour_TerritoryRail",
+      "count": 3,
+      "scopes": 1
+    },
+    {
+      "id": "codeFile/I2raC3I:default",
+      "name": "Property Card",
+      "count": 3,
+      "scopes": 1
+    }
+  ],
+  "externalKeys": "<project-fonts>[\"Fraunces\",\"PT Sans Narrow\",\"Inter\",\"Space Mono\"]</project-fonts>\n\n<custom-fonts>[]</custom-fonts>\n\n<available-components>\nEach entry has \"id\" (stable component reference for component=\"...\" and componentPreset.<id>) and \"displayName\" (human label).\nCode file entries with \"type\": \"override\" are code overrides: apply them to a supported node via its codeOverride attribute. Never use override ids with component=\"...\".\n### Current Project Components\n[{\"id\":\"pXUahiblU\",\"displayName\":"
+}

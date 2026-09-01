@@ -1,0 +1,238 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Glyph Ink — 3s demo</title>
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&display=swap");
+
+      * {
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+      }
+      html,
+      body {
+        width: 1280px;
+        height: 720px;
+        overflow: hidden;
+        background: #060606;
+        font-family: "Instrument Serif", Georgia, serif;
+      }
+      .stage {
+        position: relative;
+        width: 1280px;
+        height: 720px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background: #060606;
+      }
+      .atmosphere {
+        position: absolute;
+        inset: 0;
+        background:
+          radial-gradient(
+            720px 720px at 88% 8%,
+            rgba(111, 211, 255, 0.18),
+            transparent 68%
+          ),
+          radial-gradient(
+            780px 780px at 8% 92%,
+            rgba(111, 211, 255, 0.12),
+            transparent 70%
+          ),
+          radial-gradient(circle at center, transparent 40%, rgba(6, 6, 6, 0.82) 100%),
+          #060606;
+        filter: contrast(1.05);
+      }
+      .grain {
+        position: absolute;
+        inset: 0;
+        opacity: 0.08;
+        pointer-events: none;
+        background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 200 200' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E");
+      }
+      .line {
+        position: relative;
+        z-index: 1;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        max-width: 1100px;
+        padding: 0 48px;
+        line-height: 1;
+      }
+      .glyph {
+        position: relative;
+        display: inline-block;
+        font-size: 92px;
+        letter-spacing: -0.04em;
+        line-height: 1;
+        padding-top: 0.18em;
+        padding-bottom: 0.32em;
+        margin-top: -0.18em;
+        margin-bottom: -0.32em;
+      }
+      .glyph .ghost,
+      .glyph .ink {
+        display: block;
+        line-height: 1;
+      }
+      .glyph .ghost {
+        color: rgba(255, 255, 255, 0.28);
+      }
+      .glyph .ink {
+        position: absolute;
+        left: 0;
+        top: 0;
+        width: 100%;
+        height: 100%;
+        color: #6fd3ff;
+        pointer-events: none;
+        -webkit-mask-repeat: no-repeat;
+        mask-repeat: no-repeat;
+        -webkit-mask-size: 100% 100%;
+        mask-size: 100% 100%;
+        opacity: 0;
+      }
+      .space {
+        width: 0.28em;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="stage">
+      <div class="atmosphere"></div>
+      <div class="grain"></div>
+      <div class="line" id="line" aria-label="Type that holds the beat"></div>
+    </div>
+    <script>
+      const TEXT = "Type that holds the beat";
+      const EASE_INK = (t) => {
+        // approx cubic-bezier(0.65, 0, 0.35, 1)
+        const c1 = 0.65;
+        const c2 = 0;
+        const c3 = 0.35;
+        const c4 = 1;
+        // binary search inverse for x ≈ t on cubic bezier
+        let lo = 0;
+        let hi = 1;
+        for (let i = 0; i < 16; i++) {
+          const mid = (lo + hi) / 2;
+          const x =
+            3 * (1 - mid) * (1 - mid) * mid * c1 +
+            3 * (1 - mid) * mid * mid * c3 +
+            mid * mid * mid;
+          if (x < t) lo = mid;
+          else hi = mid;
+        }
+        const u = (lo + hi) / 2;
+        return (
+          3 * (1 - u) * (1 - u) * u * c2 +
+          3 * (1 - u) * u * u * c4 +
+          u * u * u
+        );
+      };
+
+      const INK_CORE_SOFT = 72;
+      const INK_CORE_HARD = 82;
+      const INK_MID_SOFT = 86;
+      const INK_MID_HARD = 92;
+      const INK_COVER = Math.SQRT2 * (100 / INK_CORE_HARD);
+      const CROSS_START = 0.38;
+      const GHOST_DIM = 0.18;
+
+      const line = document.getElementById("line");
+      const glyphs = [];
+
+      for (const ch of TEXT) {
+        if (ch === " ") {
+          const sp = document.createElement("span");
+          sp.className = "space";
+          line.appendChild(sp);
+          continue;
+        }
+        const wrap = document.createElement("span");
+        wrap.className = "glyph";
+        const ghost = document.createElement("span");
+        ghost.className = "ghost";
+        ghost.textContent = ch;
+        const ink = document.createElement("span");
+        ink.className = "ink";
+        ink.textContent = ch;
+        wrap.appendChild(ghost);
+        wrap.appendChild(ink);
+        line.appendChild(wrap);
+        glyphs.push({ wrap, ghost, ink, edge: "left" });
+      }
+
+      function inkMask(w, h, t) {
+        const padTop = h * (0.18 / 1.5);
+        const padBottom = h * (0.32 / 1.5);
+        const y = padTop + Math.max(h - padTop - padBottom, 1) * 0.5;
+        const x = 0;
+        const seedRx = Math.max(x, w - x, 1);
+        const seedRy = Math.max(y, h - y, 1);
+        const cross = CROSS_START + (1 - CROSS_START) * t;
+        const rx = Math.max(seedRx * INK_COVER * t, 0.01);
+        const ry = Math.max(seedRy * INK_COVER * cross, 0.01);
+        const core = INK_CORE_SOFT + (INK_CORE_HARD - INK_CORE_SOFT) * t;
+        const mid = INK_MID_SOFT + (INK_MID_HARD - INK_MID_SOFT) * t;
+        return `radial-gradient(ellipse ${rx.toFixed(2)}px ${ry.toFixed(2)}px at ${x.toFixed(2)}px ${y.toFixed(2)}px, #000 0%, #000 ${core.toFixed(1)}%, rgba(0,0,0,0.45) ${mid.toFixed(1)}%, transparent 100%)`;
+      }
+
+      function setProgress(g, p) {
+        const t = Math.max(0, Math.min(1, p));
+        const w = g.wrap.offsetWidth;
+        const h = g.wrap.offsetHeight;
+        const mask = t <= 0 ? "linear-gradient(#0000,#0000)" : inkMask(w, h, t);
+        g.ink.style.webkitMaskImage = mask;
+        g.ink.style.maskImage = mask;
+        g.ink.style.opacity =
+          t <= 0 ? "0" : String(Math.min(1, 0.12 + t / 0.18));
+        g.ghost.style.opacity = String(1 - GHOST_DIM * t);
+      }
+
+      // Timeline (3.0s total): settle → cascade in → hold
+      const STAGGER_MS = 22;
+      const STAGGER_CAP_MS = 200;
+      const ENTER_MS = 480;
+      const START_MS = 280;
+      const HOLD_UNTIL = 3000;
+
+      const ranks = glyphs.map((_, i) => i);
+
+      function delayFor(rank) {
+        return Math.min(rank * STAGGER_MS, STAGGER_CAP_MS);
+      }
+
+      let start = null;
+      function frame(now) {
+        if (start == null) start = now;
+        const elapsed = now - start;
+
+        glyphs.forEach((g, i) => {
+          const rank = ranks[i];
+          const local = elapsed - START_MS - delayFor(rank);
+          let p = 0;
+          if (local <= 0) p = 0;
+          else if (local >= ENTER_MS) p = 1;
+          else p = EASE_INK(local / ENTER_MS);
+          setProgress(g, p);
+        });
+
+        if (elapsed < HOLD_UNTIL) requestAnimationFrame(frame);
+      }
+
+      // Wait fonts + layout
+      document.fonts.ready.then(() => {
+        requestAnimationFrame(() => requestAnimationFrame(() => {
+          glyphs.forEach((g) => setProgress(g, 0));
+          requestAnimationFrame(frame);
+        }));
+      });
+    </script>
+  </body>
+</html>

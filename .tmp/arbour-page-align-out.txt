@@ -1,0 +1,29 @@
+{
+  "applied": 0,
+  "notes": [
+    "ok /|Desktop",
+    "ok /|Tablet",
+    "ok /|Phone",
+    "ok /properties|Desktop",
+    "ok /properties|Tablet",
+    "ok /properties|Phone",
+    "ok /neighbourhoods|Desktop",
+    "ok /neighbourhoods|Tablet",
+    "ok /neighbourhoods|Phone",
+    "ok /notes|Desktop",
+    "ok /notes|Tablet",
+    "ok /notes|Phone",
+    "ok /about|Desktop",
+    "ok /about|Tablet",
+    "ok /about|Phone",
+    "ok /contact|Desktop",
+    "ok /contact|Tablet",
+    "ok /contact|Phone",
+    "ok /properties/:slug|Desktop",
+    "ok /properties/:slug|Tablet",
+    "ok /properties/:slug|Phone",
+    "ok /notes/:slug|Desktop",
+    "ok /notes/:slug|Tablet",
+    "ok /notes/:slug|Phone"
+  ]
+}

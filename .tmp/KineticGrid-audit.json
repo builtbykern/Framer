@@ -1,0 +1,100 @@
+{
+  "analysis": {
+    "id": "wdRYfqS",
+    "name": "KineticGrid.tsx",
+    "path": "KineticGrid.tsx",
+    "exports": [
+      {
+        "name": "Kern_KineticLinesGrid",
+        "componentId": "codeFile/wdRYfqS:default",
+        "insertURL": "https://framer.com/m/KineticGrid-Z5D7uL.js@00wRUKDWaYteaIYKGSyq",
+        "isDefaultExport": true,
+        "type": "component"
+      }
+    ],
+    "lines": 1166,
+    "bytes": 38395,
+    "version": "1.0.0",
+    "exportFn": "Kern_KineticLinesGrid",
+    "displayName": null,
+    "annotations": {
+      "unlink": true,
+      "width": "any",
+      "height": "auto"
+    },
+    "guards": {
+      "useIsOnFramerCanvas": true,
+      "RenderTarget": true,
+      "useReducedMotion": true,
+      "useInView": true,
+      "useAnimationFrame": true
+    },
+    "hygiene": {
+      "consoleLog": 0,
+      "tsIgnore": 0,
+      "any": 1
+    },
+    "a11y": {
+      "ariaLabelProp": true,
+      "ariaLabelAttr": true,
+      "role": true,
+      "tabIndex": true,
+      "onKeyDown": true,
+      "decorative": true
+    },
+    "controls": {
+      "hasPC": true,
+      "objectGroups": 7,
+      "font": false,
+      "responsiveHints": true
+    },
+    "pointer": {
+      "onPointerDown": true,
+      "onPointerMove": true,
+      "touchAction": true
+    },
+    "controlKeys": [
+      "layout",
+      "responsive",
+      "stroke",
+      "physics",
+      "interaction",
+      "background",
+      "entrance",
+      "ariaLabel"
+    ],
+    "canvasPatterns": {
+      "isOnCanvasAssign": true,
+      "earlyReturnCanvas": false,
+      "renderTargetCanvas": true,
+      "animationFrameGated": true
+    }
+  },
+  "siteMap": [
+    {
+      "id": "augiA20Il",
+      "path": "/"
+    }
+  ],
+  "instances": [
+    {
+      "error": "FramerPluginError: Error on typia.createAssert(): invalid type on $input[1], expect to be (\"BooleanShapeNode\" | \"ComponentInstanceNode\" | \"ComponentNode\" | \"DesignPageNode\" | \"FrameNode\" | \"PathNode\" | \"SVGNode\" | \"ShapeContainerNode\" | \"ShapeGroupNode\" | \"TextNode\" | \"VectorSetItemNode\" | \"VectorSetNode\" | \"WebPageNode\")"
+    }
+  ],
+  "publish": {
+    "production": {
+      "deploymentTime": 1779287200943,
+      "optimizationStatus": "optimized",
+      "url": "https://massive-concept-195780.framer.app",
+      "currentPageUrl": "https://massive-concept-195780.framer.app/"
+    },
+    "staging": {
+      "deploymentTime": 1779287200943,
+      "optimizationStatus": "optimized",
+      "url": "https://massive-concept-195780.framer.app",
+      "currentPageUrl": "https://massive-concept-195780.framer.app/"
+    }
+  },
+  "lint": [],
+  "typecheck": []
+}

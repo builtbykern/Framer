@@ -1,0 +1,57 @@
+{
+  "stubs": 0,
+  "code": [
+    {
+      "n": "Arbour_ProgressiveBlur.tsx",
+      "static": true,
+      "focus": false,
+      "inView": false
+    },
+    {
+      "n": "Arbour_TerritoryRail.tsx",
+      "static": true,
+      "focus": true,
+      "inView": true
+    },
+    {
+      "n": "Arbour_ScrollCue.tsx",
+      "static": true,
+      "focus": false,
+      "inView": true
+    },
+    {
+      "n": "Arbour_FormButton.tsx",
+      "static": true,
+      "focus": true,
+      "inView": false
+    },
+    {
+      "n": "Arbour_ArticleCard.tsx",
+      "static": true,
+      "focus": true,
+      "inView": false
+    }
+  ],
+  "preview": {
+    "changesCount": 9,
+    "errors": [],
+    "status": "ready",
+    "hasHash": true,
+    "keys": [
+      "action",
+      "status",
+      "message",
+      "stagingEnabled",
+      "publishTarget",
+      "confirmationHash",
+      "errors",
+      "warnings",
+      "changes",
+      "changesCount",
+      "version",
+      "versions",
+      "urls",
+      "nextAction"
+    ]
+  }
+}

@@ -1,0 +1,224 @@
+{
+  "rails": {
+    "uGXrCjuAT": {
+      "type": "ComponentInstanceNode",
+      "id": "uGXrCjuAT",
+      "component": "MxeAzs2A7r9z5wIAtPij",
+      "$parentId": "u7ILl18T3",
+      "$groundNodeId": "WQLkyLRf1",
+      "$scopeId": "augiA20Il",
+      "$rect": {
+        "x": 0,
+        "y": 0,
+        "width": 1104,
+        "height": 634
+      },
+      "$mediaQuery": {
+        "range": "(min-width: 1200px)",
+        "name": "Desktop"
+      },
+      "$componentDisplayName": "Arbour_TerritoryRail",
+      "attributes": {
+        "$control__territories": "[{\"type\":\"object\",\"value\":{\"name\":{\"type\":\"string\",\"value\":\"Chelsea\"},\"imageUrl\":{\"type\":\"string\",\"value\":\"https://framerusercontent.com/images/8IGPbFclzfRApOAIssLZgmHsnw.png\"},\"slug\":{\"type\":\"string\",\"value\":\"chelsea\"},\"alt\":{\"type\":\"string\",\"value\":\"Explore prime Chelsea homes for sale, from Cheyne Walk river frontages to quiet garden squares off the King's Road.\"},\"coords\":{\"type\":\"string\",\"value\":\"51.4875° N — 0.1687° W\"}},\"id\":\"default-item-0\"},{\"type\":\"object\",\"value\":{\"name\":{\"type\":\"string\",\"value\":\"Notting Hill\"},\"imageUrl\":{\"type\":\"string\",\"value\":\"https://framerusercontent.com/images/AOaAcGKE51AkwHdqIubUdXQHRf8.png\"},\"slug\":{\"type\":\"string\",\"value\":\"notting-hill\"},\"alt\":{\"type\":\"string\",\"value\":\"Discover Notting Hill's finest pastel townhouses and garden squares, moments from Portobello Road.\"},\"coords\":{\"type\":\"string\",\"value\":\"51.5090° N — 0.1963° W\"}},\"id\":\"default-item-1\"},{\"type\":\"object\",\"value\":{\"name\":{\"type\":\"string\",\"value\":\"Hampstead\"},\"imageUrl\":{\"type\":\"string\",\"value\":\"https://framerusercontent.com/images/cCQCSnQDjuSX1xXtwUtrzIHQ.png\"},\"slug\":{\"type\":\"string\",\"value\":\"hampstead\"},\"alt\":{\"type\":\"string\",\"value\":\"Search Hampstead's finest period houses, moments from the Heath and Kenwood House.\"},\"coords\":{\"type\":\"string\",\"value\":\"51.5560° N — 0.1780° W\"}},\"id\":\"default-item-2\"},{\"type\":\"object\",\"value\":{\"name\":{\"type\":\"string\",\"value\":\"The Cotswolds\"},\"imageUrl\":{\"type\":\"string\",\"value\":\"https://framerusercontent.com/images/UT2rfsfKG6VCT8OfYxd7DZWEA0.png\"},\"slug\":{\"type\":\"string\",\"value\":\"the-cotswolds\"},\"alt\":{\"type\":\"string\",\"value\":\"Browse country houses and cottages for sale across the Cotswolds' finest villages.\"},\"coords\":{\"type\":\"string\",\"value\":\"51.8330° N — 1.8433° W\"}},\"id\":\"default-item-3\"}]",
+        "$control__content": "{\"itemLimit\":{\"type\":\"number\",\"value\":12},\"linkBase\":{\"type\":\"string\",\"value\":\"/neighbourhoods\"},\"viewLabel\":{\"type\":\"string\",\"value\":\"VIEW →\"},\"ariaLabel\":{\"type\":\"string\",\"value\":\"Territories\"}}",
+        "$control__layout": "{\"imageRatio\":{\"type\":\"number\",\"value\":1.74},\"stripWidth\":{\"type\":\"number\",\"value\":160},\"stripHeight\":{\"type\":\"number\",\"value\":240},\"stripLift\":{\"type\":\"number\",\"value\":26},\"stripInactiveOpacity\":{\"type\":\"number\",\"value\":0.4},\"stripGap\":{\"type\":\"number\",\"value\":0},\"stripPosition\":{\"type\":\"enum\",\"value\":\"bottom\"},\"imagePadding\":{\"type\":\"number\",\"value\":0},\"textAlign\":{\"type\":\"enum\",\"value\":\"center\"},\"contentPadding\":{\"type\":\"number\",\"value\":40},\"contentPosition\":{\"type\":\"enum\",\"value\":\"top\"},\"topBandAlign\":{\"type\":\"enum\",\"value\":\"inline\"},\"showEditorialIndex\":{\"type\":\"boolean\",\"value\":false},\"showViewLink\":{\"type\":\"boolean\",\"value\":false},\"responsiveThumbSize\":{\"type\":\"number\",\"value\":64},\"responsiveThumbMinSize\":{\"type\":\"number\",\"value\":56},\"responsiveThumbGap\":{\"type\":\"number\",\"value\":8}}",
+        "$control__typography": "{\"titleFont\":{\"type\":\"font\",\"value\":{\"fontSelector\":\"GF;Space Mono-regular\",\"fontSize\":\"16px\",\"letterSpacing\":[0,\"em\"],\"lineHeight\":[1,\"em\"]}},\"metaFont\":{\"type\":\"font\",\"value\":{\"fontSelector\":\"GF;Space Mono-regular\",\"fontSize\":\"11px\",\"letterSpacing\":[0,\"em\"],\"lineHeight\":[1,\"em\"]}},\"titleUppercase\":{\"type\":\"boolean\",\"value\":true}}",
+        "$control__atmosphere": "{\"showGrain\":{\"type\":\"boolean\",\"value\":true},\"showVignette\":{\"type\":\"boolean\",\"value\":false},\"showFrame\":{\"type\":\"boolean\",\"value\":true},\"showBlur\":{\"type\":\"boolean\",\"value\":true},\"showTopBlur\":{\"type\":\"boolean\",\"value\":true},\"blurStrength\":{\"type\":\"number\",\"value\":10},\"grainOpacity\":{\"type\":\"number\",\"value\":0.33}}",
+        "$control__colors": "{\"titleColor\":{\"type\":\"color\",\"value\":\"rgb(252, 250, 244)\"},\"metaColor\":{\"type\":\"color\",\"value\":\"rgba(252, 250, 244, 0.72)\"},\"accentColor\":{\"type\":\"color\",\"value\":\"rgb(214, 224, 74)\"},\"stageBackground\":{\"type\":\"color\",\"value\":\"rgb(21, 43, 30)\"},\"scrimColor\":{\"type\":\"color\",\"value\":\"rgba(21, 43, 30, 0.7)\"},\"scrimOpacity\":{\"type\":\"number\",\"value\":0.72},\"showIndex\":{\"type\":\"boolean\",\"value\":true}}",
+        "$control__motion": "{\"slideInterval\":{\"type\":\"number\",\"value\":10},\"pauseOnHover\":{\"type\":\"boolean\",\"value\":true},\"springStiffness\":{\"type\":\"number\",\"value\":90},\"springDamping\":{\"type\":\"number\",\"value\":22}}",
+        "position": "relative",
+        "width": "1fr",
+        "height": "auto"
+      }
+    },
+    "U3TeNUVXvuGXrCjuAT": {
+      "type": "ComponentInstanceNode",
+      "id": "U3TeNUVXvuGXrCjuAT",
+      "component": "MxeAzs2A7r9z5wIAtPij",
+      "$parentId": "U3TeNUVXvu7ILl18T3",
+      "$groundNodeId": "U3TeNUVXv",
+      "$scopeId": "augiA20Il",
+      "$replicaId": "U3TeNUVXv",
+      "$originalId": "uGXrCjuAT",
+      "$rect": {
+        "x": 0,
+        "y": 0,
+        "width": 730,
+        "height": 520
+      },
+      "$mediaQuery": {
+        "range": "(min-width: 810px) and (max-width: 1199.98px)",
+        "name": "Tablet"
+      },
+      "$componentDisplayName": "Arbour_TerritoryRail",
+      "attributes": {
+        "$control__territories": "[{\"type\":\"object\",\"value\":{\"name\":{\"type\":\"string\",\"value\":\"Chelsea\"},\"imageUrl\":{\"type\":\"string\",\"value\":\"https://framerusercontent.com/images/8IGPbFclzfRApOAIssLZgmHsnw.png\"},\"slug\":{\"type\":\"string\",\"value\":\"chelsea\"},\"alt\":{\"type\":\"string\",\"value\":\"Explore prime Chelsea homes for sale, from Cheyne Walk river frontages to quiet garden squares off the King's Road.\"},\"coords\":{\"type\":\"string\",\"value\":\"51.4875° N — 0.1687° W\"}},\"id\":\"default-item-0\"},{\"type\":\"object\",\"value\":{\"name\":{\"type\":\"string\",\"value\":\"Notting Hill\"},\"imageUrl\":{\"type\":\"string\",\"value\":\"https://framerusercontent.com/images/AOaAcGKE51AkwHdqIubUdXQHRf8.png\"},\"slug\":{\"type\":\"string\",\"value\":\"notting-hill\"},\"alt\":{\"type\":\"string\",\"value\":\"Discover Notting Hill's finest pastel townhouses and garden squares, moments from Portobello Road.\"},\"coords\":{\"type\":\"string\",\"value\":\"51.5090° N — 0.1963° W\"}},\"id\":\"default-item-1\"},{\"type\":\"object\",\"value\":{\"name\":{\"type\":\"string\",\"value\":\"Hampstead\"},\"imageUrl\":{\"type\":\"string\",\"value\":\"https://framerusercontent.com/images/cCQCSnQDjuSX1xXtwUtrzIHQ.png\"},\"slug\":{\"type\":\"string\",\"value\":\"hampstead\"},\"alt\":{\"type\":\"string\",\"value\":\"Search Hampstead's finest period houses, moments from the Heath and Kenwood House.\"},\"coords\":{\"type\":\"string\",\"value\":\"51.5560° N — 0.1780° W\"}},\"id\":\"default-item-2\"},{\"type\":\"object\",\"value\":{\"name\":{\"type\":\"string\",\"value\":\"The Cotswolds\"},\"imageUrl\":{\"type\":\"string\",\"value\":\"https://framerusercontent.com/images/UT2rfsfKG6VCT8OfYxd7DZWEA0.png\"},\"slug\":{\"type\":\"string\",\"value\":\"the-cotswolds\"},\"alt\":{\"type\":\"string\",\"value\":\"Browse country houses and cottages for sale across the Cotswolds' finest villages.\"},\"coords\":{\"type\":\"string\",\"value\":\"51.8330° N — 1.8433° W\"}},\"id\":\"default-item-3\"}]",
+        "$control__content": "{\"itemLimit\":{\"type\":\"number\",\"value\":12},\"linkBase\":{\"type\":\"string\",\"value\":\"/neighbourhoods\"},\"viewLabel\":{\"type\":\"string\",\"value\":\"VIEW →\"},\"ariaLabel\":{\"type\":\"string\",\"value\":\"Territories\"}}",
+        "$control__layout": "{\"imageRatio\":{\"type\":\"number\",\"value\":1.74},\"stripWidth\":{\"type\":\"number\",\"value\":100},\"stripHeight\":{\"type\":\"number\",\"value\":260},\"stripLift\":{\"type\":\"number\",\"value\":40},\"stripInactiveOpacity\":{\"type\":\"number\",\"value\":0.42},\"stripGap\":{\"type\":\"number\",\"value\":0},\"stripPosition\":{\"type\":\"enum\",\"value\":\"bottom\"},\"imagePadding\":{\"type\":\"number\",\"value\":0},\"textAlign\":{\"type\":\"enum\",\"value\":\"center\"},\"contentPadding\":{\"type\":\"number\",\"value\":40},\"contentPosition\":{\"type\":\"enum\",\"value\":\"top\"},\"topBandAlign\":{\"type\":\"enum\",\"value\":\"inline\"},\"showEditorialIndex\":{\"type\":\"boolean\",\"value\":false},\"showViewLink\":{\"type\":\"boolean\",\"value\":false},\"responsiveThumbSize\":{\"type\":\"number\",\"value\":64},\"responsiveThumbMinSize\":{\"type\":\"number\",\"value\":56},\"responsiveThumbGap\":{\"type\":\"number\",\"value\":8}}",
+        "$control__typography": "{\"titleFont\":{\"type\":\"font\",\"value\":{\"fontSelector\":\"GF;Space Mono-regular\",\"fontSize\":\"16px\",\"letterSpacing\":[0,\"em\"],\"lineHeight\":[1,\"em\"]}},\"metaFont\":{\"type\":\"font\",\"value\":{\"fontSelector\":\"GF;Space Mono-regular\",\"fontSize\":\"11px\",\"letterSpacing\":[0,\"em\"],\"lineHeight\":[1,\"em\"]}},\"titleUppercase\":{\"type\":\"boolean\",\"value\":true}}",
+        "$control__atmosphere": "{\"showGrain\":{\"type\":\"boolean\",\"value\":true},\"showVignette\":{\"type\":\"boolean\",\"value\":true},\"showFrame\":{\"type\":\"boolean\",\"value\":true},\"showBlur\":{\"type\":\"boolean\",\"value\":true},\"showTopBlur\":{\"type\":\"boolean\",\"value\":true},\"blurStrength\":{\"type\":\"number\",\"value\":28},\"grainOpacity\":{\"type\":\"number\",\"value\":0.5}}",
+        "$control__colors": "{\"titleColor\":{\"type\":\"color\",\"value\":\"rgb(252, 250, 244)\"},\"metaColor\":{\"type\":\"color\",\"value\":\"rgba(252, 250, 244, 0.72)\"},\"accentColor\":{\"type\":\"color\",\"value\":\"rgb(214, 224, 74)\"},\"stageBackground\":{\"type\":\"color\",\"value\":\"rgb(21, 43, 30)\"},\"scrimColor\":{\"type\":\"color\",\"value\":\"rgba(21, 43, 30, 0.7)\"},\"scrimOpacity\":{\"type\":\"number\",\"value\":0.72},\"showIndex\":{\"type\":\"boolean\",\"value\":true}}",
+        "$control__motion": "{\"slideInterval\":{\"type\":\"number\",\"value\":10},\"pauseOnHover\":{\"type\":\"boolean\",\"value\":true},\"springStiffness\":{\"type\":\"number\",\"value\":90},\"springDamping\":{\"type\":\"number\",\"value\":22}}",
+        "position": "relative",
+        "width": "100%",
+        "height": "auto"
+      }
+    },
+    "pmAxXUJ0ouGXrCjuAT": {
+      "type": "ComponentInstanceNode",
+      "id": "pmAxXUJ0ouGXrCjuAT",
+      "component": "MxeAzs2A7r9z5wIAtPij",
+      "$parentId": "pmAxXUJ0ou7ILl18T3",
+      "$groundNodeId": "pmAxXUJ0o",
+      "$scopeId": "augiA20Il",
+      "$replicaId": "pmAxXUJ0o",
+      "$originalId": "uGXrCjuAT",
+      "$mediaQuery": {
+        "range": "(max-width: 809.98px)",
+        "name": "Phone"
+      },
+      "$componentDisplayName": "Arbour_TerritoryRail",
+      "attributes": {
+        "$control__territories": "[{\"type\":\"object\",\"value\":{\"name\":{\"type\":\"string\",\"value\":\"Chelsea\"},\"imageUrl\":{\"type\":\"string\",\"value\":\"https://framerusercontent.com/images/8IGPbFclzfRApOAIssLZgmHsnw.png\"},\"slug\":{\"type\":\"string\",\"value\":\"chelsea\"},\"alt\":{\"type\":\"string\",\"value\":\"Explore prime Chelsea homes for sale, from Cheyne Walk river frontages to quiet garden squares off the King's Road.\"},\"coords\":{\"type\":\"string\",\"value\":\"51.4875° N — 0.1687° W\"}},\"id\":\"default-item-0\"},{\"type\":\"object\",\"value\":{\"name\":{\"type\":\"string\",\"value\":\"Notting Hill\"},\"imageUrl\":{\"type\":\"string\",\"value\":\"https://framerusercontent.com/images/AOaAcGKE51AkwHdqIubUdXQHRf8.png\"},\"slug\":{\"type\":\"string\",\"value\":\"notting-hill\"},\"alt\":{\"type\":\"string\",\"value\":\"Discover Notting Hill's finest pastel townhouses and garden squares, moments from Portobello Road.\"},\"coords\":{\"type\":\"string\",\"value\":\"51.5090° N — 0.1963° W\"}},\"id\":\"default-item-1\"},{\"type\":\"object\",\"value\":{\"name\":{\"type\":\"string\",\"value\":\"Hampstead\"},\"imageUrl\":{\"type\":\"string\",\"value\":\"https://framerusercontent.com/images/cCQCSnQDjuSX1xXtwUtrzIHQ.png\"},\"slug\":{\"type\":\"string\",\"value\":\"hampstead\"},\"alt\":{\"type\":\"string\",\"value\":\"Search Hampstead's finest period houses, moments from the Heath and Kenwood House.\"},\"coords\":{\"type\":\"string\",\"value\":\"51.5560° N — 0.1780° W\"}},\"id\":\"default-item-2\"},{\"type\":\"object\",\"value\":{\"name\":{\"type\":\"string\",\"value\":\"The Cotswolds\"},\"imageUrl\":{\"type\":\"string\",\"value\":\"https://framerusercontent.com/images/UT2rfsfKG6VCT8OfYxd7DZWEA0.png\"},\"slug\":{\"type\":\"string\",\"value\":\"the-cotswolds\"},\"alt\":{\"type\":\"string\",\"value\":\"Browse country houses and cottages for sale across the Cotswolds' finest villages.\"},\"coords\":{\"type\":\"string\",\"value\":\"51.8330° N — 1.8433° W\"}},\"id\":\"default-item-3\"},{\"type\":\"object\",\"value\":{\"name\":{\"type\":\"string\",\"value\":\"Chelsea\"},\"imageUrl\":{\"type\":\"string\",\"value\":\"https://framerusercontent.com/images/8IGPbFclzfRApOAIssLZgmHsnw.png\"},\"slug\":{\"type\":\"string\",\"value\":\"chelsea\"},\"alt\":{\"type\":\"string\",\"value\":\"Neighbourhood photograph\"},\"coords\":{\"type\":\"string\",\"value\":\"\"}},\"id\":\"IlndVBBQu\"},{\"type\":\"object\",\"value\":{\"name\":{\"type\":\"string\",\"value\":\"Chelsea\"},\"imageUrl\":{\"type\":\"string\",\"value\":\"https://framerusercontent.com/images/8IGPbFclzfRApOAIssLZgmHsnw.png\"},\"slug\":{\"type\":\"string\",\"value\":\"chelsea\"},\"alt\":{\"type\":\"string\",\"value\":\"Neighbourhood photograph\"},\"coords\":{\"type\":\"string\",\"value\":\"\"}},\"id\":\"TD8FiWNcT\"},{\"type\":\"object\",\"value\":{\"name\":{\"type\":\"string\",\"value\":\"Chelsea\"},\"imageUrl\":{\"type\":\"string\",\"value\":\"https://framerusercontent.com/images/8IGPbFclzfRApOAIssLZgmHsnw.png\"},\"slug\":{\"type\":\"string\",\"value\":\"chelsea\"},\"alt\":{\"type\":\"string\",\"value\":\"Neighbourhood photograph\"},\"coords\":{\"type\":\"string\",\"value\":\"\"}},\"id\":\"SaU43snyA\"}]",
+        "$control__content": "{\"itemLimit\":{\"type\":\"number\",\"value\":12},\"linkBase\":{\"type\":\"string\",\"value\":\"/neighbourhoods\"},\"viewLabel\":{\"type\":\"string\",\"value\":\"VIEW →\"},\"ariaLabel\":{\"type\":\"string\",\"value\":\"Territories\"}}",
+        "$control__layout": "{\"imageRatio\":{\"type\":\"number\",\"value\":1.74},\"stripWidth\":{\"type\":\"number\",\"value\":100},\"stripHeight\":{\"type\":\"number\",\"value\":260},\"stripLift\":{\"type\":\"number\",\"value\":40},\"stripInactiveOpacity\":{\"type\":\"number\",\"value\":0.42},\"stripGap\":{\"type\":\"number\",\"value\":0},\"stripPosition\":{\"type\":\"enum\",\"value\":\"bottom\"},\"imagePadding\":{\"type\":\"number\",\"value\":0},\"textAlign\":{\"type\":\"enum\",\"value\":\"center\"},\"contentPadding\":{\"type\":\"number\",\"value\":40},\"contentPosition\":{\"type\":\"enum\",\"value\":\"top\"},\"topBandAlign\":{\"type\":\"enum\",\"value\":\"inline\"},\"showEditorialIndex\":{\"type\":\"boolean\",\"value\":true},\"showViewLink\":{\"type\":\"boolean\",\"value\":false},\"responsiveThumbSize\":{\"type\":\"number\",\"value\":80},\"responsiveThumbMinSize\":{\"type\":\"number\",\"value\":64},\"responsiveThumbGap\":{\"type\":\"number\",\"value\":8}}",
+        "$control__typography": "{\"titleFont\":{\"type\":\"font\",\"value\":{\"fontSelector\":\"GF;Space Mono-regular\",\"fontSize\":\"16px\",\"letterSpacing\":[0,\"em\"],\"lineHeight\":[1,\"em\"]}},\"metaFont\":{\"type\":\"font\",\"value\":{\"fontSelector\":\"GF;Space Mono-regular\",\"fontSize\":\"11px\",\"letterSpacing\":[0,\"em\"],\"lineHeight\":[1,\"em\"]}},\"titleUppercase\":{\"type\":\"boolean\",\"value\":true}}",
+        "$control__atmosphere": "{\"showGrain\":{\"type\":\"boolean\",\"value\":true},\"showVignette\":{\"type\":\"boolean\",\"value\":false},\"showFrame\":{\"type\":\"boolean\",\"value\":true},\"showBlur\":{\"type\":\"boolean\",\"value\":true},\"showTopBlur\":{\"type\":\"boolean\",\"value\":true},\"blurStrength\":{\"type\":\"number\",\"value\":28},\"grainOpacity\":{\"type\":\"number\",\"value\":0.5}}",
+        "$control__colors": "{\"titleColor\":{\"type\":\"color\",\"value\":\"rgb(252, 250, 244)\"},\"metaColor\":{\"type\":\"color\",\"value\":\"rgba(252, 250, 244, 0.72)\"},\"accentColor\":{\"type\":\"color\",\"value\":\"rgb(214, 224, 74)\"},\"stageBackground\":{\"type\":\"color\",\"value\":\"rgb(21, 43, 30)\"},\"scrimColor\":{\"type\":\"color\",\"value\":\"rgba(21, 43, 30, 0.7)\"},\"scrimOpacity\":{\"type\":\"number\",\"value\":0.72},\"showIndex\":{\"type\":\"boolean\",\"value\":true}}",
+        "$control__motion": "{\"slideInterval\":{\"type\":\"number\",\"value\":10},\"pauseOnHover\":{\"type\":\"boolean\",\"value\":true},\"springStiffness\":{\"type\":\"number\",\"value\":90},\"springDamping\":{\"type\":\"number\",\"value\":22}}",
+        "position": "relative",
+        "width": "100%",
+        "height": "auto"
+      }
+    }
+  },
+  "blurs": {
+    "AorZcTogz": {
+      "type": "ComponentInstanceNode",
+      "id": "AorZcTogz",
+      "component": "eITABUpGF0ytPyxYWYqu",
+      "$parentId": "WQLkyLRf1",
+      "$groundNodeId": "WQLkyLRf1",
+      "$scopeId": "augiA20Il",
+      "$rect": {
+        "width": 1200
+      },
+      "$mediaQuery": {
+        "range": "(min-width: 1200px)",
+        "name": "Desktop"
+      },
+      "$componentDisplayName": "Scroll Blur",
+      "attributes": {
+        "$control__shape": "U",
+        "$control__position": "Bottom",
+        "$control__strength": "2",
+        "$control__mode": "Follow Scroll",
+        "$control__settle": "300",
+        "position": "fixed",
+        "left": "null",
+        "right": "null",
+        "top": "null",
+        "bottom": "0px",
+        "centerAnchorX": "50%",
+        "centerAnchorY": "95.5%",
+        "constraintsLocked": false,
+        "width": "100%",
+        "height": "72px",
+        "zIndex": "3"
+      }
+    },
+    "U3TeNUVXvAorZcTogz": {
+      "type": "ComponentInstanceNode",
+      "id": "U3TeNUVXvAorZcTogz",
+      "component": "eITABUpGF0ytPyxYWYqu",
+      "$parentId": "U3TeNUVXv",
+      "$groundNodeId": "U3TeNUVXv",
+      "$scopeId": "augiA20Il",
+      "$replicaId": "U3TeNUVXv",
+      "$originalId": "AorZcTogz",
+      "$rect": {
+        "width": 810
+      },
+      "$mediaQuery": {
+        "range": "(min-width: 810px) and (max-width: 1199.98px)",
+        "name": "Tablet"
+      },
+      "$componentDisplayName": "Scroll Blur",
+      "attributes": {
+        "$control__shape": "U",
+        "$control__position": "Bottom",
+        "$control__strength": "2",
+        "$control__mode": "Follow Scroll",
+        "$control__settle": "300",
+        "position": "fixed",
+        "left": "null",
+        "right": "null",
+        "top": "null",
+        "bottom": "0px",
+        "centerAnchorX": "50%",
+        "centerAnchorY": "95.5%",
+        "constraintsLocked": false,
+        "width": "100%",
+        "height": "72px",
+        "zIndex": "3"
+      }
+    },
+    "pmAxXUJ0oAorZcTogz": {
+      "type": "ComponentInstanceNode",
+      "id": "pmAxXUJ0oAorZcTogz",
+      "component": "eITABUpGF0ytPyxYWYqu",
+      "$parentId": "pmAxXUJ0o",
+      "$groundNodeId": "pmAxXUJ0o",
+      "$scopeId": "augiA20Il",
+      "$replicaId": "pmAxXUJ0o",
+      "$originalId": "AorZcTogz",
+      "$mediaQuery": {
+        "range": "(max-width: 809.98px)",
+        "name": "Phone"
+      },
+      "$componentDisplayName": "Scroll Blur",
+      "attributes": {
+        "$control__shape": "U",
+        "$control__position": "Bottom",
+        "$control__strength": "2",
+        "$control__mode": "Follow Scroll",
+        "$control__settle": "300",
+        "position": "fixed",
+        "left": "null",
+        "right": "null",
+        "top": "null",
+        "bottom": "0px",
+        "centerAnchorX": "50%",
+        "centerAnchorY": "95.5%",
+        "constraintsLocked": false,
+        "width": "100%",
+        "height": "72px",
+        "zIndex": "3"
+      }
+    }
+  },
+  "territoryRail": {
+    "id": "il4DSn9",
+    "exports": [
+      {
+        "name": "Arbour_TerritoryRail",
+        "componentId": "codeFile/il4DSn9:default",
+        "insertURL": "https://framer.com/m/Arbour-TerritoryRail-IxCIaF.js@F8Y9zsPrKBqZozEGDL8u",
+        "isDefaultExport": true,
+        "type": "component"
+      }
+    ]
+  },
+  "progressiveBlur": {
+    "id": "fOrMtU2",
+    "exports": [
+      {
+        "name": "Arbour_ProgressiveBlur",
+        "componentId": "codeFile/fOrMtU2:default",
+        "insertURL": "https://framer.com/m/Arbour-ProgressiveBlur-1n2v22.js@XkoBNYt3HL0hJbCBocqQ",
+        "isDefaultExport": true,
+        "type": "component"
+      }
+    ]
+  }
+}

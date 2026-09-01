@@ -1,0 +1,448 @@
+{
+  "at": "2026-08-01T12:29:23.803Z",
+  "publish": {
+    "production": "https://arbour.framer.website",
+    "staging": "https://minimum-directions-600719.framer.app",
+    "unpublished": [
+      {
+        "nodeId": "uBAGmujMa",
+        "status": "updated"
+      },
+      {
+        "nodeId": "OhRUQROL4",
+        "status": "updated"
+      }
+    ]
+  },
+  "pages": [
+    {
+      "id": "augiA20Il",
+      "path": "/"
+    },
+    {
+      "id": "uBAGmujMa",
+      "path": "/properties"
+    },
+    {
+      "id": "dZfxmFpqB",
+      "path": "/neighbourhoods"
+    },
+    {
+      "id": "s8RpZIiJ8",
+      "path": "/notes"
+    },
+    {
+      "id": "OdFhPn9yz",
+      "path": "/about"
+    },
+    {
+      "id": "c7qpzB7hR",
+      "path": "/contact"
+    },
+    {
+      "id": "OhRUQROL4",
+      "path": "/properties/:slug"
+    },
+    {
+      "id": "YPPO8pJ92",
+      "path": "/notes/:slug"
+    },
+    {
+      "id": "ojmcAsLyM",
+      "path": "/404"
+    }
+  ],
+  "propertiesPaths": [
+    {
+      "id": "uBAGmujMa",
+      "path": "/properties"
+    },
+    {
+      "id": "OhRUQROL4",
+      "path": "/properties/:slug"
+    }
+  ],
+  "redirects": {
+    "method": "getRedirects",
+    "value": []
+  },
+  "soft": {
+    "mailto": [
+      "mailto:enquiries@arbour.london"
+    ],
+    "http": [
+      "https://www.instagram.com/arbour.london",
+      "https://www.linkedin.com/company/arbour",
+      "https://x.com/arbourlondon"
+    ],
+    "estateText": [],
+    "softOk": false
+  },
+  "hrefHits": {
+    "properties2": [],
+    "properties": [
+      {
+        "pagePath": "/",
+        "id": "IdwyBx4Vz",
+        "name": "Arbour_UnderlineLink",
+        "href": "/properties"
+      },
+      {
+        "pagePath": "/",
+        "id": "wsIijK_jR",
+        "name": "Residence Link",
+        "href": "/properties/:slug"
+      },
+      {
+        "pagePath": "/",
+        "id": "CAdGD1vAP",
+        "href": "/properties"
+      },
+      {
+        "pagePath": "/",
+        "id": "h0vfeOTBw",
+        "name": "Arbour_UnderlineLink",
+        "href": "/properties"
+      },
+      {
+        "pagePath": "/",
+        "id": "qL69wgei1",
+        "name": "Property Card Small",
+        "href": "/properties/:slug"
+      },
+      {
+        "pagePath": "/",
+        "id": "f2fxMg6nz",
+        "href": "/properties"
+      },
+      {
+        "pagePath": "/",
+        "id": "LL2hvcJ80",
+        "href": "/properties"
+      },
+      {
+        "pagePath": "/",
+        "id": "U3TeNUVXvIdwyBx4Vz",
+        "name": "Arbour_UnderlineLink",
+        "href": "/properties"
+      },
+      {
+        "pagePath": "/",
+        "id": "U3TeNUVXvwsIijK_jR",
+        "name": "Residence Link",
+        "href": "/properties/:slug"
+      },
+      {
+        "pagePath": "/",
+        "id": "U3TeNUVXvCAdGD1vAP",
+        "href": "/properties"
+      },
+      {
+        "pagePath": "/",
+        "id": "U3TeNUVXvh0vfeOTBw",
+        "name": "Arbour_UnderlineLink",
+        "href": "/properties"
+      },
+      {
+        "pagePath": "/",
+        "id": "U3TeNUVXvqL69wgei1",
+        "name": "Property Card Small",
+        "href": "/properties/:slug"
+      },
+      {
+        "pagePath": "/",
+        "id": "U3TeNUVXvf2fxMg6nz",
+        "href": "/properties"
+      },
+      {
+        "pagePath": "/",
+        "id": "U3TeNUVXvLL2hvcJ80",
+        "href": "/properties"
+      },
+      {
+        "pagePath": "/",
+        "id": "pmAxXUJ0oIdwyBx4Vz",
+        "name": "Arbour_UnderlineLink",
+        "href": "/properties"
+      },
+      {
+        "pagePath": "/",
+        "id": "pmAxXUJ0owsIijK_jR",
+        "name": "Residence Link",
+        "href": "/properties/:slug"
+      },
+      {
+        "pagePath": "/",
+        "id": "pmAxXUJ0oCAdGD1vAP",
+        "href": "/properties"
+      },
+      {
+        "pagePath": "/",
+        "id": "pmAxXUJ0oh0vfeOTBw",
+        "name": "Arbour_UnderlineLink",
+        "href": "/properties"
+      },
+      {
+        "pagePath": "/",
+        "id": "pmAxXUJ0oqL69wgei1",
+        "name": "Property Card Small",
+        "href": "/properties/:slug"
+      },
+      {
+        "pagePath": "/",
+        "id": "pmAxXUJ0of2fxMg6nz",
+        "href": "/properties"
+      },
+      {
+        "pagePath": "/",
+        "id": "pmAxXUJ0oLL2hvcJ80",
+        "href": "/properties"
+      },
+      {
+        "pagePath": "/properties",
+        "id": "lIX6py1V0",
+        "name": "Property Link",
+        "href": "/properties/:slug"
+      },
+      {
+        "pagePath": "/properties",
+        "id": "tNgM4ROVr",
+        "name": "All Properties",
+        "href": "/properties"
+      },
+      {
+        "pagePath": "/properties",
+        "id": "SScKalu3BlIX6py1V0",
+        "name": "Property Link",
+        "href": "/properties/:slug"
+      },
+      {
+        "pagePath": "/properties",
+        "id": "SScKalu3BtNgM4ROVr",
+        "name": "All Properties",
+        "href": "/properties"
+      },
+      {
+        "pagePath": "/properties",
+        "id": "EK6d5SyWLlIX6py1V0",
+        "name": "Property Link",
+        "href": "/properties/:slug"
+      },
+      {
+        "pagePath": "/properties",
+        "id": "EK6d5SyWLtNgM4ROVr",
+        "name": "All Properties",
+        "href": "/properties"
+      },
+      {
+        "pagePath": "/neighbourhoods",
+        "id": "i56eWdACt",
+        "name": "Territory Card",
+        "href": "/properties"
+      },
+      {
+        "pagePath": "/neighbourhoods",
+        "id": "aJLpuUP0qi56eWdACt",
+        "name": "Territory Card",
+        "href": "/properties"
+      },
+      {
+        "pagePath": "/neighbourhoods",
+        "id": "Qonafp_oDi56eWdACt",
+        "name": "Territory Card",
+        "href": "/properties"
+      },
+      {
+        "pagePath": "/properties/:slug",
+        "id": "gf8ZDcqyJ",
+        "name": "Back to Properties",
+        "href": "/properties"
+      },
+      {
+        "pagePath": "/properties/:slug",
+        "id": "cionC_vyI",
+        "name": "All Properties",
+        "href": "/properties"
+      },
+      {
+        "pagePath": "/properties/:slug",
+        "id": "IQmBTrFpbgf8ZDcqyJ",
+        "name": "Back to Properties",
+        "href": "/properties"
+      },
+      {
+        "pagePath": "/properties/:slug",
+        "id": "IQmBTrFpbcionC_vyI",
+        "name": "All Properties",
+        "href": "/properties"
+      },
+      {
+        "pagePath": "/properties/:slug",
+        "id": "MrTKJzwELgf8ZDcqyJ",
+        "name": "Back to Properties",
+        "href": "/properties"
+      },
+      {
+        "pagePath": "/properties/:slug",
+        "id": "MrTKJzwELcionC_vyI",
+        "name": "All Properties",
+        "href": "/properties"
+      },
+      {
+        "pagePath": "component:Nav",
+        "id": "nX0lfjBMF",
+        "name": "Properties",
+        "href": "/properties"
+      },
+      {
+        "pagePath": "component:Nav",
+        "id": "I3SpHi24vnX0lfjBMF",
+        "name": "Properties",
+        "href": "/properties"
+      },
+      {
+        "pagePath": "component:Nav",
+        "id": "rL2ZHlVqgnX0lfjBMF",
+        "name": "Properties",
+        "href": "/properties"
+      },
+      {
+        "pagePath": "component:Nav",
+        "id": "GBmgkcS5cnX0lfjBMF",
+        "name": "Properties",
+        "href": "/properties"
+      },
+      {
+        "pagePath": "component:Nav",
+        "id": "WLQAqm0QznX0lfjBMF",
+        "name": "Properties",
+        "href": "/properties"
+      },
+      {
+        "pagePath": "component:Nav",
+        "id": "dzeGSJmBBnX0lfjBMF",
+        "name": "Properties",
+        "href": "/properties"
+      },
+      {
+        "pagePath": "component:Footer",
+        "id": "md6N4JBkQ",
+        "href": "/properties/:slug"
+      },
+      {
+        "pagePath": "component:Footer",
+        "id": "h9pXCW7Wx",
+        "href": "/properties/:slug"
+      },
+      {
+        "pagePath": "component:Footer",
+        "id": "ssutfNLpe",
+        "href": "/properties/:slug"
+      },
+      {
+        "pagePath": "component:Footer",
+        "id": "kyUwv2pOm",
+        "href": "/properties/:slug"
+      },
+      {
+        "pagePath": "component:Footer",
+        "id": "y0gAz7I0U",
+        "href": "/properties/:slug"
+      },
+      {
+        "pagePath": "component:Footer",
+        "id": "wHHppiBZ5",
+        "href": "/properties/:slug"
+      },
+      {
+        "pagePath": "component:Footer",
+        "id": "Z6pdpz5pD",
+        "href": "/properties"
+      },
+      {
+        "pagePath": "component:Footer",
+        "id": "AWGNXf96_md6N4JBkQ",
+        "href": "/properties/:slug"
+      },
+      {
+        "pagePath": "component:Footer",
+        "id": "AWGNXf96_h9pXCW7Wx",
+        "href": "/properties/:slug"
+      },
+      {
+        "pagePath": "component:Footer",
+        "id": "AWGNXf96_ssutfNLpe",
+        "href": "/properties/:slug"
+      },
+      {
+        "pagePath": "component:Footer",
+        "id": "AWGNXf96_kyUwv2pOm",
+        "href": "/properties/:slug"
+      },
+      {
+        "pagePath": "component:Footer",
+        "id": "AWGNXf96_y0gAz7I0U",
+        "href": "/properties/:slug"
+      },
+      {
+        "pagePath": "component:Footer",
+        "id": "AWGNXf96_wHHppiBZ5",
+        "href": "/properties/:slug"
+      },
+      {
+        "pagePath": "component:Footer",
+        "id": "AWGNXf96_Z6pdpz5pD",
+        "href": "/properties"
+      },
+      {
+        "pagePath": "component:Footer",
+        "id": "IitvyCHtzmd6N4JBkQ",
+        "href": "/properties/:slug"
+      },
+      {
+        "pagePath": "component:Footer",
+        "id": "IitvyCHtzh9pXCW7Wx",
+        "href": "/properties/:slug"
+      },
+      {
+        "pagePath": "component:Footer",
+        "id": "IitvyCHtzssutfNLpe",
+        "href": "/properties/:slug"
+      },
+      {
+        "pagePath": "component:Footer",
+        "id": "IitvyCHtzkyUwv2pOm",
+        "href": "/properties/:slug"
+      },
+      {
+        "pagePath": "component:Footer",
+        "id": "IitvyCHtzy0gAz7I0U",
+        "href": "/properties/:slug"
+      },
+      {
+        "pagePath": "component:Footer",
+        "id": "IitvyCHtzwHHppiBZ5",
+        "href": "/properties/:slug"
+      },
+      {
+        "pagePath": "component:Footer",
+        "id": "IitvyCHtzZ6pdpz5pD",
+        "href": "/properties"
+      }
+    ]
+  },
+  "review": {
+    "errors": [],
+    "changes": []
+  },
+  "summary": {
+    "listingPath": [
+      "/properties",
+      "/properties/:slug"
+    ],
+    "stillUsesProperties2": 0,
+    "alreadyUsesProperties": 63,
+    "softOk": false,
+    "unpublishedCount": 2
+  }
+}

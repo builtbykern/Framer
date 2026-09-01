@@ -1,0 +1,188 @@
+{
+  "dir": {
+    "id": "q3QLrEX8k",
+    "name": "Directory Panel",
+    "type": "FrameNode",
+    "gap": "0px",
+    "layout": "stack",
+    "children": [
+      {
+        "id": "km7dUqZI9",
+        "name": "Territory Checkerboard",
+        "type": "FrameNode",
+        "gap": "16px",
+        "layout": "grid",
+        "children": [
+          {
+            "id": "i56eWdACt",
+            "name": "Territory Card",
+            "type": "FrameNode",
+            "href": "/properties",
+            "border": "1px solid rgba(28, 27, 22, 0.14)",
+            "gap": "0px",
+            "layout": "stack",
+            "children": [
+              {
+                "id": "QAa2V2fag",
+                "name": "Territory Dossier",
+                "type": "FrameNode",
+                "padding": "28px",
+                "layout": "stack",
+                "children": [
+                  {
+                    "id": "buF4jg6C9",
+                    "name": "Place Header",
+                    "type": "FrameNode",
+                    "gap": "0px",
+                    "layout": "stack",
+                    "children": []
+                  },
+                  {
+                    "id": "Xb7Sjgfsi",
+                    "name": "Cartographic Field",
+                    "type": "FrameNode",
+                    "visible": "false",
+                    "gap": "0px",
+                    "layout": "stack",
+                    "children": []
+                  },
+                  {
+                    "id": "rIIdBjqU_",
+                    "name": "Place Reading",
+                    "type": "FrameNode",
+                    "gap": "12px",
+                    "layout": "stack",
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "id": "hX5NduSNi",
+                "name": "Territory Photograph",
+                "type": "FrameNode",
+                "gap": "0px",
+                "layout": "stack",
+                "children": []
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "hiddenMeta": {
+    "text": "var(--variable-ZIEwtEwXa)",
+    "visible": "false",
+    "color": "var(--token-a16d0333-6bd5-4d60-aa00-fac26447145d)",
+    "preset": "Arbour/Meta",
+    "childrenText": [
+      "\"type\"",
+      "\"RichTextNode\"",
+      "\"sJB1mG6E1\"",
+      "\"LmDrAnCZU\"",
+      "\"dZfxmFpqB\"",
+      "\"range\"",
+      "\"name\"",
+      "\"Desktop\"",
+      "\"attributes\"",
+      "\"left\"",
+      "\"null\"",
+      "\"right\"",
+      "\"null\"",
+      "\"top\"",
+      "\"null\"",
+      "\"bottom\"",
+      "\"null\"",
+      "\"centerAnchorX\"",
+      "\"centerAnchorY\"",
+      "\"constraintsLocked\""
+    ]
+  },
+  "items": [
+    {
+      "slug": "chelsea",
+      "data": {
+        "Name": "Chelsea",
+        "Intro": "Chelsea has long been the address of choice for London's most discerning buyers — a village of white stucco terraces, re",
+        "Hero Image": "image",
+        "Highlights": "Cheyne Walk river frontages\nKing's Road boutique shopping\nSaatchi Gallery and the Chelsea Physic Garden\nOutstanding inde",
+        "SEO Title": "Chelsea Property Guide | Arbour",
+        "SEO Description": "Explore prime Chelsea homes for sale, from Cheyne Walk river frontages to quiet garden squares off the King's Road.",
+        "Map": "image"
+      }
+    },
+    {
+      "slug": "notting-hill",
+      "data": {
+        "Name": "Notting Hill",
+        "Intro": "Pastel-painted townhouses, the antique stalls of Portobello Road and a genuinely villagey atmosphere make Notting Hill o",
+        "Hero Image": "image",
+        "Highlights": "Portobello Road Market\nLadbroke Grove communal gardens\nElectric Cinema on Portobello Road\nWestbourne Grove designer bout",
+        "SEO Title": "Notting Hill Property Guide | Arbour",
+        "SEO Description": "Discover Notting Hill's finest pastel townhouses and garden squares, moments from Portobello Road.",
+        "Map": "image"
+      }
+    },
+    {
+      "slug": "hampstead",
+      "data": {
+        "Name": "Hampstead",
+        "Intro": "Set on a wooded hilltop above the city, Hampstead pairs Georgian and Victorian villas with the open expanse of the Heath",
+        "Hero Image": "image",
+        "Highlights": "791 acres of Hampstead Heath\nKenwood House and its lakeside grounds\nHampstead village boutiques and pubs\nOutstanding sta",
+        "SEO Title": "Hampstead Property Guide | Arbour",
+        "SEO Description": "Search Hampstead's finest period houses, moments from the Heath and Kenwood House.",
+        "Map": "image"
+      }
+    },
+    {
+      "slug": "the-cotswolds",
+      "data": {
+        "Name": "The Cotswolds",
+        "Intro": "An easy reach from London by train or car, the Cotswolds offer honey-coloured stone villages, rolling farmland and some ",
+        "Hero Image": "image",
+        "Highlights": "Historic wool villages and market towns\nDaylesford and Soho Farmhouse nearby\nWalking country along the Cotswold Way\nOuts",
+        "SEO Title": "Cotswolds Property Guide | Arbour",
+        "SEO Description": "Browse country houses and cottages for sale across the Cotswolds' finest villages.",
+        "Map": "image"
+      }
+    }
+  ],
+  "fields": [
+    {
+      "id": "tBUaKupCV",
+      "name": "Name",
+      "type": "string"
+    },
+    {
+      "id": "mNRagFPfJ",
+      "name": "Intro",
+      "type": "string"
+    },
+    {
+      "id": "dM8yn13g7",
+      "name": "Hero Image",
+      "type": "image"
+    },
+    {
+      "id": "ZIEwtEwXa",
+      "name": "Highlights",
+      "type": "string"
+    },
+    {
+      "id": "c8BGAzFA4",
+      "name": "SEO Title",
+      "type": "string"
+    },
+    {
+      "id": "MSw6_cI4R",
+      "name": "SEO Description",
+      "type": "string"
+    },
+    {
+      "id": "ppzgDk7Mi",
+      "name": "Map",
+      "type": "image"
+    }
+  ]
+}

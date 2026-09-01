@@ -1,0 +1,24 @@
+{
+  "ok": false,
+  "failures": [
+    "SHADER_NO_BACKDROP: WebGL paints self-lit white edges only; does not warp page content (unlike removed SVG override).",
+    "REST_ALPHA_TOO_LOW: estimated peak edge alpha ~0.088 < 0.15 with idleAmt=0.",
+    "CANVAS_STATIC_BLANK: useIsStaticRenderer skips GL setup — effect invisible on Framer canvas static preview."
+  ],
+  "checks": {
+    "samplesBackdrop": false,
+    "hasIdleDefaultAboveZero": false,
+    "staticSkipsGL": true,
+    "fragMultipliesAlpha028": true,
+    "instancePresent": true,
+    "instanceFullBleed": true,
+    "deskHasStaleOverride": false,
+    "overrideFilePresent": false
+  },
+  "estimatedRestPeakAlpha": 0.088,
+  "instanceId": "KU0iJd4nS",
+  "instanceRect": {
+    "width": 1200,
+    "height": 6977
+  }
+}

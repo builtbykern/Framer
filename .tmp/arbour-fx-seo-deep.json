@@ -1,0 +1,144 @@
+{
+  "out": [
+    {
+      "path": "/",
+      "hits": {
+        "noise": 1,
+        "blur": 1,
+        "cue": 0,
+        "atm": [
+          {
+            "t": "Desktop/Atmosphere",
+            "id": "NFy40_8W1",
+            "kids": [
+              "Arbour_NoiseEffect",
+              "Scroll Blur"
+            ]
+          }
+        ]
+      },
+      "seo": {
+        "keys": [
+          "id",
+          "originalId",
+          "__class",
+          "path",
+          "collectionId",
+          "draft"
+        ]
+      }
+    },
+    {
+      "path": "/properties",
+      "hits": {
+        "noise": 1,
+        "blur": 1,
+        "cue": 0,
+        "atm": [
+          {
+            "t": "Desktop/Atmosphere",
+            "id": "Enop673eO",
+            "kids": [
+              "Arbour_NoiseEffect",
+              "Scroll Blur"
+            ]
+          }
+        ]
+      },
+      "seo": {
+        "keys": [
+          "id",
+          "originalId",
+          "__class",
+          "path",
+          "collectionId",
+          "draft"
+        ]
+      }
+    },
+    {
+      "path": "/about",
+      "hits": {
+        "noise": 1,
+        "blur": 1,
+        "cue": 0,
+        "atm": [
+          {
+            "t": "Desktop/Atmosphere",
+            "id": "MCIVu1EAA",
+            "kids": [
+              "Arbour_NoiseEffect",
+              "Scroll Blur"
+            ]
+          }
+        ]
+      },
+      "seo": {
+        "keys": [
+          "id",
+          "originalId",
+          "__class",
+          "path",
+          "collectionId",
+          "draft"
+        ]
+      }
+    },
+    {
+      "path": "/notes",
+      "hits": {
+        "noise": 1,
+        "blur": 1,
+        "cue": 0,
+        "atm": [
+          {
+            "t": "Desktop/Atmosphere",
+            "id": "v0hRg6_73",
+            "kids": [
+              "Arbour_NoiseEffect",
+              "Scroll Blur"
+            ]
+          }
+        ]
+      },
+      "seo": {
+        "keys": [
+          "id",
+          "originalId",
+          "__class",
+          "path",
+          "collectionId",
+          "draft"
+        ]
+      }
+    },
+    {
+      "path": "/404",
+      "hits": {
+        "noise": 0,
+        "blur": 0,
+        "cue": 0,
+        "atm": [
+          {
+            "t": "Desktop/Atmosphere",
+            "id": "NPRuv9IlG",
+            "kids": []
+          }
+        ]
+      },
+      "seo": {
+        "keys": [
+          "id",
+          "originalId",
+          "__class",
+          "path",
+          "collectionId",
+          "draft"
+        ]
+      }
+    }
+  ],
+  "pagesMeta": {
+    "err": "framer.getPages is not a function"
+  }
+}

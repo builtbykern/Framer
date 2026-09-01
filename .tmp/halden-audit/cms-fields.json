@@ -1,0 +1,64 @@
+[
+  {
+    "type": "string"
+  },
+  {
+    "type": "image"
+  },
+  {
+    "type": "number"
+  },
+  {
+    "type": "string"
+  },
+  {
+    "type": "string"
+  },
+  {
+    "type": "string"
+  },
+  {
+    "type": "string"
+  },
+  {
+    "type": "string"
+  },
+  {
+    "type": "string"
+  },
+  {
+    "type": "string"
+  },
+  {
+    "type": "string"
+  },
+  {
+    "type": "string"
+  },
+  {
+    "type": "boolean"
+  },
+  {
+    "type": "array",
+    "fields": [
+      {
+        "type": "image"
+      }
+    ]
+  },
+  {
+    "type": "divider"
+  },
+  {
+    "type": "enum"
+  },
+  {
+    "type": "formattedText"
+  },
+  {
+    "type": "string"
+  },
+  {
+    "type": "date"
+  }
+]

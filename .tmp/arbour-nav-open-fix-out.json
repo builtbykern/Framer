@@ -1,0 +1,13 @@
+{
+  "n": 12,
+  "log": [
+    "Tablet - Open/container align center",
+    "Tablet - Open/Drawer Split → 90% pad 56px 40px 28px 40px → 56px 0px 28px 0px",
+    "Phone - Open/container align center",
+    "Phone - Open/Drawer Split → 90% pad 32px 16px 16px 16px → 32px 0px 16px 0px",
+    "Desktop - Open/container align center",
+    "Desktop - Open/Drawer Split → 90% pad 40px 0px 24px 0px → 40px 0px 24px 0px"
+  ],
+  "errors": null,
+  "warnings": []
+}

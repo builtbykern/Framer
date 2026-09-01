@@ -1,0 +1,57 @@
+{
+  "message": "Commands: 1 error. Lint: 6 warnings.",
+  "errors": {
+    "Cannot apply `$control__layout=\"{\"contentPadding\":\"24\"}\"`: Control \"$control__layout\" has unsupported type \"object\".": [
+      "mcL3MFzFVCDv8aL5JZ"
+    ]
+  },
+  "linter": {
+    "warnings": {
+      "Visible siblings in a stack might be too close. If this is not intended, set `gap` on the parent or wrap either sibling in a frame with `padding`.": [
+        {
+          "id": "mcL3MFzFV",
+          "siblingIds": [
+            "mcL3MFzFViq0rlFlTE",
+            "mcL3MFzFVRtG3B70W9"
+          ],
+          "spacing": -860.01,
+          "minSpacing": 4,
+          "axis": "vertical"
+        },
+        {
+          "id": "mcL3MFzFV",
+          "siblingIds": [
+            "mcL3MFzFVRtG3B70W9",
+            "mcL3MFzFVa6KIAp6Ii"
+          ],
+          "spacing": -462.69,
+          "minSpacing": 4,
+          "axis": "vertical"
+        },
+        {
+          "id": "mcL3MFzFV",
+          "siblingIds": [
+            "mcL3MFzFVa6KIAp6Ii",
+            "mcL3MFzFVbkyM_6J5N"
+          ],
+          "spacing": -425.71,
+          "minSpacing": 4,
+          "axis": "vertical"
+        },
+        {
+          "id": "mcL3MFzFV",
+          "siblingIds": [
+            "mcL3MFzFVbkyM_6J5N",
+            "mcL3MFzFVVXxBSnkhU"
+          ],
+          "spacing": -407.59,
+          "minSpacing": 4,
+          "axis": "vertical"
+        },
+        {
+          "id": "mcL3MFzFV",
+          "siblingIds": [
+            "mcL3MFzFVVXxBSnkhU",
+
+phone layout after {"contentPosition":{"type":"enum","value":"top"},"textAlign":{"type":"enum","value":"center"},"contentPadding":{"type":"number","value":0},"contentPaddingTop":{"type":"number","value":32},"contentPaddingBottom":{"type":"number","value":32}}
+tablet layout {"contentPosition":{"type":"enum","value":"top"},"textAlign":{"type":"enum","value":"center"},"contentPadding":{"type":"number","value":40},"contentPaddingTop":{"type":"number","value":40},"contentPaddingBottom":{"type":"number","value":40}}

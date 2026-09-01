@@ -1,0 +1,70 @@
+{
+  "ok": true,
+  "sessionId": "3",
+  "blocking": false,
+  "warningCount": 0,
+  "errors": [],
+  "changes": [
+    {
+      "type": "WebPage",
+      "nodeId": "augiA20Il",
+      "name": "Home",
+      "status": "updated"
+    },
+    {
+      "type": "WebPage",
+      "nodeId": "dZfxmFpqB",
+      "name": "/neighbourhoods",
+      "status": "updated"
+    },
+    {
+      "type": "SmartComponent",
+      "nodeId": "ynpqYJGOd",
+      "name": "Nav",
+      "status": "updated"
+    },
+    {
+      "type": "CollectionItem",
+      "nodeId": "UoQUHJmyn",
+      "name": "properties/bibury-stone-manor",
+      "status": "updated"
+    },
+    {
+      "type": "CollectionItem",
+      "nodeId": "O_32H7OFQ",
+      "name": "properties/cheyne-walk-riverside-residence",
+      "status": "updated"
+    },
+    {
+      "type": "CollectionItem",
+      "nodeId": "xKchdtkT1",
+      "name": "properties/colville-mews-house",
+      "status": "updated"
+    },
+    {
+      "type": "CollectionItem",
+      "nodeId": "XvxpO6t4m",
+      "name": "properties/frognal-georgian-villa",
+      "status": "updated"
+    },
+    {
+      "type": "CollectionItem",
+      "nodeId": "pJzNUKbbP",
+      "name": "properties/ladbroke-grove-garden-house",
+      "status": "updated"
+    },
+    {
+      "type": "CollectionItem",
+      "nodeId": "du52Xg978",
+      "name": "properties/royal-avenue-lateral-apartment",
+      "status": "updated"
+    }
+  ],
+  "changesCount": 9,
+  "status": "ready",
+  "deferredCount": 0,
+  "rect": null,
+  "rectError": null,
+  "hasScreenshot": false,
+  "screenshotError": null
+}

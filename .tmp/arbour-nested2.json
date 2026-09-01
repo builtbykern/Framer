@@ -1,0 +1,494 @@
+{
+  "nestedCount": 0,
+  "nested": [],
+  "interesting": [
+    {
+      "pagePath": "/",
+      "id": "wsIijK_jR",
+      "name": "Residence Link",
+      "type": "FrameNode",
+      "href": "/properties-2/:slug",
+      "depth": 6,
+      "ancestorLinks": []
+    },
+    {
+      "pagePath": "/",
+      "id": "qL69wgei1",
+      "name": "Property Card Small",
+      "type": "FrameNode",
+      "href": "/properties-2/:slug",
+      "depth": 6,
+      "ancestorLinks": []
+    },
+    {
+      "pagePath": "/",
+      "id": "U3TeNUVXvwsIijK_jR",
+      "name": "Residence Link",
+      "type": "FrameNode",
+      "href": "/properties-2/:slug",
+      "depth": 6,
+      "ancestorLinks": []
+    },
+    {
+      "pagePath": "/",
+      "id": "U3TeNUVXvqL69wgei1",
+      "name": "Property Card Small",
+      "type": "FrameNode",
+      "href": "/properties-2/:slug",
+      "depth": 6,
+      "ancestorLinks": []
+    },
+    {
+      "pagePath": "/",
+      "id": "pmAxXUJ0owsIijK_jR",
+      "name": "Residence Link",
+      "type": "FrameNode",
+      "href": "/properties-2/:slug",
+      "depth": 6,
+      "ancestorLinks": []
+    },
+    {
+      "pagePath": "/",
+      "id": "pmAxXUJ0oqL69wgei1",
+      "name": "Property Card Small",
+      "type": "FrameNode",
+      "href": "/properties-2/:slug",
+      "depth": 6,
+      "ancestorLinks": []
+    },
+    {
+      "pagePath": "/properties-2",
+      "id": "M8s542Syv",
+      "name": "Property Card (legacy)",
+      "type": "FrameNode",
+      "href": "/properties-2/:slug",
+      "depth": 3,
+      "ancestorLinks": []
+    },
+    {
+      "pagePath": "/properties-2",
+      "id": "vAsK0BRC0",
+      "name": "Property Card (legacy)",
+      "type": "FrameNode",
+      "href": "/properties-2/:slug",
+      "depth": 3,
+      "ancestorLinks": []
+    },
+    {
+      "pagePath": "/properties-2",
+      "id": "ndQSyDGaw",
+      "name": "Property Card (legacy)",
+      "type": "FrameNode",
+      "href": "/properties-2/:slug",
+      "depth": 3,
+      "ancestorLinks": []
+    },
+    {
+      "pagePath": "/properties-2",
+      "id": "NCIVLguKg",
+      "name": "Property Card (legacy)",
+      "type": "FrameNode",
+      "href": "/properties-2/:slug",
+      "depth": 3,
+      "ancestorLinks": []
+    },
+    {
+      "pagePath": "/properties-2",
+      "id": "ajh2B9ljF",
+      "name": "Property Card (legacy)",
+      "type": "FrameNode",
+      "href": "/properties-2/:slug",
+      "depth": 3,
+      "ancestorLinks": []
+    },
+    {
+      "pagePath": "/properties-2",
+      "id": "NsMsH_xvx",
+      "name": "Property Card (legacy)",
+      "type": "FrameNode",
+      "href": "/properties-2/:slug",
+      "depth": 3,
+      "ancestorLinks": []
+    },
+    {
+      "pagePath": "/properties-2",
+      "id": "lIX6py1V0",
+      "name": "Property Link",
+      "type": "FrameNode",
+      "href": "/properties-2/:slug",
+      "depth": 6,
+      "ancestorLinks": []
+    },
+    {
+      "pagePath": "/properties-2",
+      "id": "RDH5AtXpi",
+      "name": "Property Link",
+      "type": "FrameNode",
+      "href": "/properties-2/:slug",
+      "depth": 6,
+      "ancestorLinks": []
+    },
+    {
+      "pagePath": "/properties-2",
+      "id": "A75jx2rot",
+      "name": "Property Link",
+      "type": "FrameNode",
+      "href": "/properties-2/:slug",
+      "depth": 6,
+      "ancestorLinks": []
+    },
+    {
+      "pagePath": "/properties-2",
+      "id": "WDIyslCI4",
+      "name": "Property Link",
+      "type": "FrameNode",
+      "href": "/properties-2/:slug",
+      "depth": 6,
+      "ancestorLinks": []
+    },
+    {
+      "pagePath": "/properties-2",
+      "id": "JkbmjatIk",
+      "name": "Property Link",
+      "type": "FrameNode",
+      "href": "/properties-2/:slug",
+      "depth": 6,
+      "ancestorLinks": []
+    },
+    {
+      "pagePath": "/properties-2",
+      "id": "KuTSRdGCu",
+      "name": "Property Link",
+      "type": "FrameNode",
+      "href": "/properties-2/:slug",
+      "depth": 6,
+      "ancestorLinks": []
+    },
+    {
+      "pagePath": "/properties-2",
+      "id": "KoYNULHfP",
+      "name": "Explore Neighbourhoods",
+      "type": "FrameNode",
+      "href": "/neighbourhoods",
+      "depth": 5,
+      "ancestorLinks": []
+    },
+    {
+      "pagePath": "/properties-2",
+      "id": "tNgM4ROVr",
+      "name": "All Properties",
+      "type": "FrameNode",
+      "href": "/properties-2",
+      "depth": 5,
+      "ancestorLinks": []
+    },
+    {
+      "pagePath": "/properties-2",
+      "id": "SScKalu3BM8s542Syv",
+      "name": "Property Card (legacy)",
+      "type": "FrameNode",
+      "href": "/properties-2/:slug",
+      "depth": 3,
+      "ancestorLinks": []
+    },
+    {
+      "pagePath": "/properties-2",
+      "id": "SScKalu3BvAsK0BRC0",
+      "name": "Property Card (legacy)",
+      "type": "FrameNode",
+      "href": "/properties-2/:slug",
+      "depth": 3,
+      "ancestorLinks": []
+    },
+    {
+      "pagePath": "/properties-2",
+      "id": "SScKalu3BndQSyDGaw",
+      "name": "Property Card (legacy)",
+      "type": "FrameNode",
+      "href": "/properties-2/:slug",
+      "depth": 3,
+      "ancestorLinks": []
+    },
+    {
+      "pagePath": "/properties-2",
+      "id": "SScKalu3BNCIVLguKg",
+      "name": "Property Card (legacy)",
+      "type": "FrameNode",
+      "href": "/properties-2/:slug",
+      "depth": 3,
+      "ancestorLinks": []
+    },
+    {
+      "pagePath": "/properties-2",
+      "id": "SScKalu3Bajh2B9ljF",
+      "name": "Property Card (legacy)",
+      "type": "FrameNode",
+      "href": "/properties-2/:slug",
+      "depth": 3,
+      "ancestorLinks": []
+    },
+    {
+      "pagePath": "/properties-2",
+      "id": "SScKalu3BNsMsH_xvx",
+      "name": "Property Card (legacy)",
+      "type": "FrameNode",
+      "href": "/properties-2/:slug",
+      "depth": 3,
+      "ancestorLinks": []
+    },
+    {
+      "pagePath": "/properties-2",
+      "id": "SScKalu3BlIX6py1V0",
+      "name": "Property Link",
+      "type": "FrameNode",
+      "href": "/properties-2/:slug",
+      "depth": 6,
+      "ancestorLinks": []
+    },
+    {
+      "pagePath": "/properties-2",
+      "id": "SScKalu3BRDH5AtXpi",
+      "name": "Property Link",
+      "type": "FrameNode",
+      "href": "/properties-2/:slug",
+      "depth": 6,
+      "ancestorLinks": []
+    },
+    {
+      "pagePath": "/properties-2",
+      "id": "SScKalu3BA75jx2rot",
+      "name": "Property Link",
+      "type": "FrameNode",
+      "href": "/properties-2/:slug",
+      "depth": 6,
+      "ancestorLinks": []
+    },
+    {
+      "pagePath": "/properties-2",
+      "id": "SScKalu3BWDIyslCI4",
+      "name": "Property Link",
+      "type": "FrameNode",
+      "href": "/properties-2/:slug",
+      "depth": 6,
+      "ancestorLinks": []
+    },
+    {
+      "pagePath": "/properties-2",
+      "id": "SScKalu3BJkbmjatIk",
+      "name": "Property Link",
+      "type": "FrameNode",
+      "href": "/properties-2/:slug",
+      "depth": 6,
+      "ancestorLinks": []
+    },
+    {
+      "pagePath": "/properties-2",
+      "id": "SScKalu3BKuTSRdGCu",
+      "name": "Property Link",
+      "type": "FrameNode",
+      "href": "/properties-2/:slug",
+      "depth": 6,
+      "ancestorLinks": []
+    },
+    {
+      "pagePath": "/properties-2",
+      "id": "SScKalu3BKoYNULHfP",
+      "name": "Explore Neighbourhoods",
+      "type": "FrameNode",
+      "href": "/neighbourhoods",
+      "depth": 5,
+      "ancestorLinks": []
+    },
+    {
+      "pagePath": "/properties-2",
+      "id": "SScKalu3BtNgM4ROVr",
+      "name": "All Properties",
+      "type": "FrameNode",
+      "href": "/properties-2",
+      "depth": 5,
+      "ancestorLinks": []
+    },
+    {
+      "pagePath": "/properties-2",
+      "id": "EK6d5SyWLM8s542Syv",
+      "name": "Property Card (legacy)",
+      "type": "FrameNode",
+      "href": "/properties-2/:slug",
+      "depth": 3,
+      "ancestorLinks": []
+    },
+    {
+      "pagePath": "/properties-2",
+      "id": "EK6d5SyWLvAsK0BRC0",
+      "name": "Property Card (legacy)",
+      "type": "FrameNode",
+      "href": "/properties-2/:slug",
+      "depth": 3,
+      "ancestorLinks": []
+    },
+    {
+      "pagePath": "/properties-2",
+      "id": "EK6d5SyWLndQSyDGaw",
+      "name": "Property Card (legacy)",
+      "type": "FrameNode",
+      "href": "/properties-2/:slug",
+      "depth": 3,
+      "ancestorLinks": []
+    },
+    {
+      "pagePath": "/properties-2",
+      "id": "EK6d5SyWLNCIVLguKg",
+      "name": "Property Card (legacy)",
+      "type": "FrameNode",
+      "href": "/properties-2/:slug",
+      "depth": 3,
+      "ancestorLinks": []
+    },
+    {
+      "pagePath": "/properties-2",
+      "id": "EK6d5SyWLajh2B9ljF",
+      "name": "Property Card (legacy)",
+      "type": "FrameNode",
+      "href": "/properties-2/:slug",
+      "depth": 3,
+      "ancestorLinks": []
+    },
+    {
+      "pagePath": "/properties-2",
+      "id": "EK6d5SyWLNsMsH_xvx",
+      "name": "Property Card (legacy)",
+      "type": "FrameNode",
+      "href": "/properties-2/:slug",
+      "depth": 3,
+      "ancestorLinks": []
+    },
+    {
+      "pagePath": "/properties-2",
+      "id": "EK6d5SyWLlIX6py1V0",
+      "name": "Property Link",
+      "type": "FrameNode",
+      "href": "/properties-2/:slug",
+      "depth": 6,
+      "ancestorLinks": []
+    },
+    {
+      "pagePath": "/properties-2",
+      "id": "EK6d5SyWLRDH5AtXpi",
+      "name": "Property Link",
+      "type": "FrameNode",
+      "href": "/properties-2/:slug",
+      "depth": 6,
+      "ancestorLinks": []
+    },
+    {
+      "pagePath": "/properties-2",
+      "id": "EK6d5SyWLA75jx2rot",
+      "name": "Property Link",
+      "type": "FrameNode",
+      "href": "/properties-2/:slug",
+      "depth": 6,
+      "ancestorLinks": []
+    },
+    {
+      "pagePath": "/properties-2",
+      "id": "EK6d5SyWLWDIyslCI4",
+      "name": "Property Link",
+      "type": "FrameNode",
+      "href": "/properties-2/:slug",
+      "depth": 6,
+      "ancestorLinks": []
+    },
+    {
+      "pagePath": "/properties-2",
+      "id": "EK6d5SyWLJkbmjatIk",
+      "name": "Property Link",
+      "type": "FrameNode",
+      "href": "/properties-2/:slug",
+      "depth": 6,
+      "ancestorLinks": []
+    },
+    {
+      "pagePath": "/properties-2",
+      "id": "EK6d5SyWLKuTSRdGCu",
+      "name": "Property Link",
+      "type": "FrameNode",
+      "href": "/properties-2/:slug",
+      "depth": 6,
+      "ancestorLinks": []
+    },
+    {
+      "pagePath": "/properties-2",
+      "id": "EK6d5SyWLKoYNULHfP",
+      "name": "Explore Neighbourhoods",
+      "type": "FrameNode",
+      "href": "/neighbourhoods",
+      "depth": 5,
+      "ancestorLinks": []
+    },
+    {
+      "pagePath": "/properties-2",
+      "id": "EK6d5SyWLtNgM4ROVr",
+      "name": "All Properties",
+      "type": "FrameNode",
+      "href": "/properties-2",
+      "depth": 5,
+      "ancestorLinks": []
+    },
+    {
+      "pagePath": "/contact",
+      "id": "uONXSHosa",
+      "name": "Direct Enquiry",
+      "type": "FrameNode",
+      "href": "mailto:enquiries@arbour.estate",
+      "depth": 4,
+      "ancestorLinks": []
+    },
+    {
+      "pagePath": "/contact",
+      "id": "WDu0pxZr4",
+      "type": "RichTextNode",
+      "href": "mailto:enquiries@arbour.estate",
+      "depth": 6,
+      "ancestorLinks": []
+    },
+    {
+      "pagePath": "/contact",
+      "id": "qjv2S9WpauONXSHosa",
+      "name": "Direct Enquiry",
+      "type": "FrameNode",
+      "href": "mailto:enquiries@arbour.estate",
+      "depth": 4,
+      "ancestorLinks": []
+    },
+    {
+      "pagePath": "/contact",
+      "id": "qjv2S9WpaWDu0pxZr4",
+      "type": "RichTextNode",
+      "href": "mailto:enquiries@arbour.estate",
+      "depth": 6,
+      "ancestorLinks": []
+    },
+    {
+      "pagePath": "/contact",
+      "id": "jEM0wBo2vuONXSHosa",
+      "name": "Direct Enquiry",
+      "type": "FrameNode",
+      "href": "mailto:enquiries@arbour.estate",
+      "depth": 4,
+      "ancestorLinks": []
+    },
+    {
+      "pagePath": "/contact",
+      "id": "jEM0wBo2vWDu0pxZr4",
+      "type": "RichTextNode",
+      "href": "mailto:enquiries@arbour.estate",
+      "depth": 6,
+      "ancestorLinks": []
+    }
+  ],
+  "linkTotals": {
+    "/": 6,
+    "/properties-2": 45,
+    "/contact": 6
+  }
+}

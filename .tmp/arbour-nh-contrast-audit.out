@@ -1,0 +1,193 @@
+{
+  "colorish": [
+    {
+      "name": "Paper",
+      "id": "d5b3c09d-0364-4ed0-8804-e56957faa275",
+      "light": "rgb(252, 250, 244)",
+      "dark": "rgb(252, 250, 244)"
+    },
+    {
+      "name": "Ink",
+      "id": "e2f9a9eb-668a-4021-80d9-b04413b5f392",
+      "light": "rgb(28, 27, 22)",
+      "dark": "rgb(28, 27, 22)"
+    },
+    {
+      "name": "Ink 60",
+      "id": "cf5bf9af-72f6-4da6-ad12-b9daaa07387b",
+      "light": "rgba(28, 27, 22, 0.6)",
+      "dark": "rgba(28, 27, 22, 0.6)"
+    },
+    {
+      "name": "Racing",
+      "id": "fa6ec05f-9d2d-44ad-a813-6c56bf2b324e",
+      "light": "rgb(31, 61, 43)",
+      "dark": "rgb(31, 61, 43)"
+    },
+    {
+      "name": "Racing Deep",
+      "id": "9d3d6ca5-f3ad-4d88-afc8-fc5bce03bd04",
+      "light": "rgb(21, 43, 30)",
+      "dark": "rgb(21, 43, 30)"
+    },
+    {
+      "name": "Chartreuse",
+      "id": "db86917b-d19e-4fd7-8dc5-e260f1f35cb1",
+      "light": "rgb(214, 224, 74)",
+      "dark": null
+    },
+    {
+      "name": "Olive",
+      "id": "a16d0333-6bd5-4d60-aa00-fac26447145d",
+      "light": "rgb(84, 98, 45)",
+      "dark": "rgb(84, 98, 45)"
+    },
+    {
+      "name": "Ink Soft",
+      "id": "0bc68d0d-4c0b-4126-8cce-9425cb153f4e",
+      "light": "rgba(28, 27, 22, 0.55)",
+      "dark": null
+    }
+  ],
+  "desktop": {
+    "title": {
+      "id": "rie14TaT9",
+      "h": "auto",
+      "w": "1fr",
+      "color": "var(--token-e2f9a9eb-668a-4021-80d9-b04413b5f392)",
+      "preset": "Arbour/Subhead",
+      "align": "start"
+    },
+    "view": {
+      "id": "d9SNjsdke",
+      "h": "auto",
+      "w": "auto",
+      "color": "var(--token-db86917b-d19e-4fd7-8dc5-e260f1f35cb1)",
+      "preset": "Arbour/Meta",
+      "align": "end"
+    },
+    "intro": {
+      "id": "v61cPV2xF",
+      "h": "auto",
+      "w": "1fr",
+      "color": "var(--token-0bc68d0d-4c0b-4126-8cce-9425cb153f4e)",
+      "preset": "Arbour/Body",
+      "align": "start",
+      "trunc": "4"
+    },
+    "dossier": {
+      "id": "QAa2V2fag",
+      "name": "Territory Dossier",
+      "pad": "28px 28px 52px 28px",
+      "gap": "16px",
+      "h": "auto",
+      "w": "1fr",
+      "border": "0px solid rgba(28, 27, 22, 0.10)",
+      "dir": "vertical",
+      "dist": "start"
+    },
+    "titleRow": {
+      "id": "Ltp8ot_zm",
+      "name": "Place Title",
+      "h": "auto",
+      "w": "1fr",
+      "dir": "horizontal",
+      "dist": "space-between"
+    },
+    "card": {
+      "id": "i56eWdACt",
+      "name": "Territory Card",
+      "gap": "0px",
+      "h": "auto",
+      "w": "1fr",
+      "dir": "vertical",
+      "dist": "start"
+    }
+  },
+  "replicas": {
+    "T": {
+      "title": {
+        "color": "var(--token-e2f9a9eb-668a-4021-80d9-b04413b5f392)",
+        "preset": "Arbour/Subhead",
+        "w": "1fr",
+        "h": "auto"
+      },
+      "view": {
+        "color": "var(--token-db86917b-d19e-4fd7-8dc5-e260f1f35cb1)",
+        "preset": "Arbour/Meta",
+        "w": "auto",
+        "h": "auto"
+      },
+      "intro": {
+        "color": "var(--token-0bc68d0d-4c0b-4126-8cce-9425cb153f4e)",
+        "trunc": "4",
+        "preset": "Arbour/Body",
+        "w": "1fr",
+        "h": "auto"
+      },
+      "dossier": {
+        "pad": "24px 24px 48px 24px",
+        "gap": "14px",
+        "dist": "start",
+        "w": "1fr",
+        "h": "auto"
+      },
+      "titleRow": {
+        "dist": "space-between",
+        "w": "1fr",
+        "h": "auto"
+      },
+      "card": {
+        "gap": "0px",
+        "dist": "start",
+        "w": "1fr",
+        "h": "auto"
+      }
+    },
+    "P": {
+      "title": {
+        "color": "var(--token-e2f9a9eb-668a-4021-80d9-b04413b5f392)",
+        "preset": "Arbour/Subhead",
+        "w": "1fr",
+        "h": "auto"
+      },
+      "view": {
+        "color": "var(--token-db86917b-d19e-4fd7-8dc5-e260f1f35cb1)",
+        "preset": "Arbour/Meta",
+        "w": "auto",
+        "h": "auto"
+      },
+      "intro": {
+        "color": "var(--token-0bc68d0d-4c0b-4126-8cce-9425cb153f4e)",
+        "trunc": "4",
+        "preset": "Arbour/Body",
+        "w": "1fr",
+        "h": "auto"
+      },
+      "dossier": {
+        "pad": "22px 20px 48px 20px",
+        "gap": "12px",
+        "dist": "start",
+        "w": "1fr",
+        "h": "auto"
+      },
+      "titleRow": {
+        "dist": "space-between",
+        "w": "1fr",
+        "h": "auto"
+      },
+      "card": {
+        "gap": "0px",
+        "dist": "start",
+        "w": "1fr",
+        "h": "auto"
+      }
+    }
+  },
+  "accentMatch": [
+    "accent: string",
+    "accent = \"rgb(214, 224, 74)\",",
+    "accent, whiteSpace: \"nowrap\" }}>",
+    "accent: {"
+  ]
+}

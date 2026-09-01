@@ -1,0 +1,448 @@
+{
+  "project": "Halden",
+  "collections": [
+    {
+      "id": "amTC8pcIG",
+      "name": "Work",
+      "itemCount": 12,
+      "fields": [
+        {
+          "id": "lmTMqy_0B",
+          "name": "Title",
+          "type": "string",
+          "required": true
+        },
+        {
+          "id": "KF94WDLfr",
+          "name": "Cover",
+          "type": "image",
+          "required": false
+        },
+        {
+          "id": "KKPJSa2Nk",
+          "name": "Year",
+          "type": "number"
+        },
+        {
+          "id": "dGKnlxrN9",
+          "name": "Credit 1 Label",
+          "type": "string",
+          "required": false
+        },
+        {
+          "id": "GbFmUxRBk",
+          "name": "Credit 1 Value",
+          "type": "string",
+          "required": false
+        },
+        {
+          "id": "w2PMSBOp6",
+          "name": "Credit 2 Label",
+          "type": "string",
+          "required": false
+        },
+        {
+          "id": "bXpogfhdf",
+          "name": "Credit 2 Value",
+          "type": "string",
+          "required": false
+        },
+        {
+          "id": "UOqAA6IiT",
+          "name": "Credit 3 Label",
+          "type": "string",
+          "required": false
+        },
+        {
+          "id": "m5_QJQ2QW",
+          "name": "Credit 3 Value",
+          "type": "string",
+          "required": false
+        },
+        {
+          "id": "blc_46opK",
+          "name": "Description",
+          "type": "string",
+          "required": true
+        },
+        {
+          "id": "U9cnCLe41",
+          "name": "Tag 1",
+          "type": "string",
+          "required": false
+        },
+        {
+          "id": "cAgOu3Xwj",
+          "name": "Tag 2",
+          "type": "string",
+          "required": false
+        },
+        {
+          "id": "LrPrf7_RQ",
+          "name": "Featured",
+          "type": "boolean"
+        },
+        {
+          "id": "WTTAaEd5y",
+          "name": "Gallery",
+          "type": "array",
+          "required": false
+        },
+        {
+          "id": "CjJCC1hJx",
+          "name": "Editorial",
+          "type": "divider"
+        },
+        {
+          "id": "ZMWV4jFbG",
+          "name": "Type",
+          "type": "enum"
+        },
+        {
+          "id": "GgZlSrsxB",
+          "name": "Body",
+          "type": "formattedText",
+          "required": false
+        },
+        {
+          "id": "DtZHJ8qW_",
+          "name": "Tag 3",
+          "type": "string",
+          "required": false
+        },
+        {
+          "id": "uy9UcIWd9",
+          "name": "Date",
+          "type": "date",
+          "required": false
+        },
+        {
+          "id": "Pzie4qHIc",
+          "name": "Date Label",
+          "type": "string",
+          "required": false
+        },
+        {
+          "id": "hcN_eOTCx",
+          "name": "Gallery 2",
+          "type": "array",
+          "required": false
+        }
+      ]
+    }
+  ],
+  "items": [
+    {
+      "slug": "salt-light",
+      "title": "Salt Light",
+      "year": 2024,
+      "type": "place",
+      "featured": true,
+      "descLen": 69,
+      "desc": "Last light on a rusted rail. The water holds after the lamps come on.",
+      "bodyKind": "string",
+      "coverAlt": "Twilight ocean from a rusted sea wall",
+      "coverUrl": "content.com/images/6b4CKZmkrGd2fkUib1dlDlZDM.jpg",
+      "stillN": 4,
+      "stillAlts": [
+        "Sea wall at dusk",
+        "Rusted rail",
+        "Water after the lamps",
+        "Path at low tide"
+      ],
+      "stillTails": [
+        "om/images/1X1RDsclDfmtF1YYCLMRvrS2zc.jpg",
+        "com/images/g0b9SJ6KkkJMHc1mShP4nvRmI.jpg",
+        "m/images/2Qyl9G77xnlCo5jlCSS9oFI6CDg.jpg",
+        "m/images/mge10rQn0Y74TITWDFPTE3rvk38.jpg"
+      ]
+    },
+    {
+      "slug": "the-waiting-room",
+      "title": "The Waiting Room",
+      "year": 2023,
+      "type": "place",
+      "featured": true,
+      "descLen": 83,
+      "desc": "Chairs in a line, a clock, a plant that did not last. Rooms meant only for waiting.",
+      "bodyKind": "string",
+      "coverAlt": "Institutional waiting room with a wilted plant",
+      "coverUrl": "ontent.com/images/WvldgLMbk31Z0yLCGdJj2HFawU.jpg",
+      "stillN": 4,
+      "stillAlts": [
+        "Lobby chairs",
+        "Clock and plant",
+        "Corridor light",
+        "Waiting room door"
+      ],
+      "stillTails": [
+        "om/images/cKEQy2d4ofaLTlDMJY1Uv880Bg.jpg",
+        "com/images/nbJcaUBJqzWCQYo4z90r8HVoo.jpg",
+        "om/images/5scnsdtL3vByazWwbuqH1HcQxI.jpg",
+        "m/images/gc0gyL5JJE5arRjPVxBBCfvRpgw.jpg"
+      ]
+    },
+    {
+      "slug": "glass-hours",
+      "title": "Glass Hours",
+      "year": 2025,
+      "type": "commission",
+      "featured": true,
+      "descLen": 65,
+      "desc": "A house that is mostly glass. The trees come in across the floor.",
+      "bodyKind": "string",
+      "coverAlt": "Glass house opening onto pine forest",
+      "coverUrl": "ntent.com/images/nNhNpRHxOxqFMbRCork6abg7m98.jpg",
+      "stillN": 4,
+      "stillAlts": [
+        "Glass wall and trees",
+        "Floor reflection",
+        "House interior",
+        "Forest at the pane"
+      ],
+      "stillTails": [
+        "m/images/6RvtHdyqoSj9iaxzeUKOdjyYPtk.jpg",
+        "m/images/o5rM2oIQqeguHFhR2ZhkOfUdSB8.jpg",
+        "m/images/4FPj3tavdlTtMQexo1podjx2W0E.jpg",
+        "om/images/75WDkilVsWx4vDy2jrwpcH4BWo.jpg"
+      ]
+    },
+    {
+      "slug": "inland-signal",
+      "title": "Inland Signal",
+      "year": 2024,
+      "type": "place",
+      "featured": true,
+      "descLen": 84,
+      "desc": "A week away from the water. Heat, distance, and a road that reads longer than it is.",
+      "bodyKind": "string",
+      "coverAlt": "Figure on an inland road at late light",
+      "coverUrl": "ntent.com/images/75w1NU67CKvVSpMBWK3xbKheC3E.jpg",
+      "stillN": 4,
+      "stillAlts": [
+        "Interior road",
+        "Heat haze",
+        "Parked car",
+        "Long distance"
+      ],
+      "stillTails": [
+        "om/images/BdOJOWNgChtdsay9eW0MZQ1xGc.jpg",
+        "m/images/GVJ0CUUIV9Jsm1rUFzWjWpxVAGY.jpg",
+        "om/images/nYbHI82pqJ97Rlg4kxrOTcqUiI.jpg",
+        "m/images/K28QL5R9xVjgUKVbmkxaZhz9ZPA.jpg"
+      ]
+    },
+    {
+      "slug": "after-the-sitting",
+      "title": "After the Sitting",
+      "year": 2023,
+      "type": "people",
+      "featured": true,
+      "descLen": 97,
+      "desc": "After the formal sitting. Profile, window, the clothes they put on when they thought it was over.",
+      "bodyKind": "string",
+      "coverAlt": "Traveler at an open window",
+      "coverUrl": "ontent.com/images/vXv2FHPaMVK3Oxke2MYdaTL7FY.jpg",
+      "stillN": 4,
+      "stillAlts": [
+        "Profile at a window",
+        "Clothes after sitting",
+        "Room portrait",
+        "Hands at rest"
+      ],
+      "stillTails": [
+        "om/images/kCviU4H2SLmhfa9aNzQVOGvQ4M.jpg",
+        "om/images/kbQKnw4hqLpLDd8TBjvE8N2zZU.jpg",
+        "om/images/lfZeZXnlobIOYXTGt430o0pokg.jpg",
+        "om/images/zj7kEuxywEwTsZY9df2X1WKIYM.jpg"
+      ]
+    },
+    {
+      "slug": "unmade-light",
+      "title": "Unmade Light",
+      "year": 2025,
+      "type": "commission",
+      "featured": true,
+      "descLen": 66,
+      "desc": "Linen and an unmade bed. A clothing brief that stayed in the room.",
+      "bodyKind": "string",
+      "coverAlt": "Unmade bed, morning light",
+      "coverUrl": "rcontent.com/images/omRhUDCEtG16wVXxWZFqu95Y.jpg",
+      "stillN": 4,
+      "stillAlts": [
+        "Unmade linen",
+        "Clothing on a chair",
+        "Rented interior",
+        "Window and bed"
+      ],
+      "stillTails": [
+        "om/images/flrz00Xpha1EEaD5rlg4xOotMU.jpg",
+        "om/images/CoFF82WHcNz0MxjRD9L8n3vtwY.jpg",
+        "m/images/IFI3SD1GouaJhvutNcYm65dk52c.jpg",
+        "m/images/KfrdPJbE7w7UXggLHzEDk139U8w.jpg"
+      ]
+    },
+    {
+      "slug": "night-atlas",
+      "title": "Night Atlas",
+      "year": 2022,
+      "type": "place",
+      "featured": true,
+      "descLen": 79,
+      "desc": "Fog on a café after hours. Chairs chained, the road still taking the last cars.",
+      "bodyKind": "string",
+      "coverAlt": "Fogged café, chained chairs, night road",
+      "coverUrl": "ontent.com/images/y6o7fg2H5H5sklw6XaaUMJZqUY.jpg",
+      "stillN": 4,
+      "stillAlts": [
+        "Café in fog",
+        "Chained chairs",
+        "Road at night",
+        "Closed front"
+      ],
+      "stillTails": [
+        "m/images/FLfBQBNeNnztCBH6OWPInO7JlRI.jpg",
+        "com/images/pePb9zVYctVdbwW9ntzRbfNyo.jpg",
+        "m/images/nkTlXrNMPUkvxPCe7O5tRNi3N2U.jpg",
+        "om/images/SSQAXCq1lIkkmxELLSYVqAfthA.jpg"
+      ]
+    },
+    {
+      "slug": "late-pool",
+      "title": "Late Pool",
+      "year": 2024,
+      "type": "place",
+      "featured": true,
+      "descLen": 75,
+      "desc": "The baths after the last lane. Water still moving. No one left to watch it.",
+      "bodyKind": "string",
+      "coverAlt": "Municipal indoor pool after close, wet starting block",
+      "coverUrl": "ontent.com/images/xfeaRz4jUHgqh39ZAghEIUArm4.jpg",
+      "stillN": 5,
+      "stillAlts": [
+        "Lane from water level, slack rope",
+        "Empty gallery seats above the water",
+        "Wet tile, fading footprints at the pool edge",
+        "High window dusk over still water",
+        "Municipal shower corridor, curtain half drawn"
+      ],
+      "stillTails": [
+        "om/images/yoyIoE9IXCJs7aY7k8qK6kBh5Y.jpg",
+        "m/images/HtHrcIoUKIzWcdnnxjt10kIrTqE.jpg",
+        "com/images/MLSdK6N9jeq0qLISlXCvwEkMI.jpg",
+        "om/images/fGJjzL6opwPrVCo1N1ygHWZyJQ.jpg",
+        "m/images/oyPsvf25JSxNpfjQsC9ZK3qswpM.jpg"
+      ]
+    },
+    {
+      "slug": "service-stairs",
+      "title": "Service Stairs",
+      "year": 2023,
+      "type": "place",
+      "featured": true,
+      "descLen": 96,
+      "desc": "The stair the guests are not given. Gloss paint, a fire door, the smell of hot linen from below.",
+      "bodyKind": "string",
+      "coverAlt": "Hotel service stair, gloss paint, closed fire door",
+      "coverUrl": "content.com/images/YXQn8vKmScu5LFk306hRtnG3Q.jpg",
+      "stillN": 5,
+      "stillAlts": [
+        "Looking up the service stairwell",
+        "Hose reel beside the fire door",
+        "Landing window, night as black",
+        "Half-open service door, linen bags",
+        "Two concrete risers, paint drips"
+      ],
+      "stillTails": [
+        "m/images/3Uc3VOKdQxbWoAM1rFSb37cx3ME.jpg",
+        "om/images/CMH3CK6hnT1M87wydZXt8e91eA.jpg",
+        "t.com/images/VdGAA11KBeE11tjV0QUTnXM.jpg",
+        "m/images/ZlIbja9GahWFpGstNaotZkIlbRI.jpg",
+        "m/images/JXcKdmaYANWFkdkKAcItddRsDMU.jpg"
+      ]
+    },
+    {
+      "slug": "the-fitting",
+      "title": "The Fitting",
+      "year": 2025,
+      "type": "people",
+      "featured": true,
+      "descLen": 104,
+      "desc": "Not the bed this time. A coat that is not theirs. Pins at the shoulder. They had already stopped posing.",
+      "bodyKind": "string",
+      "coverAlt": "Standing sitter in a pinned coat, looking away",
+      "coverUrl": "ontent.com/images/Wt2jcYksmtlPGLL2Y6OUwofRVE.jpg",
+      "stillN": 5,
+      "stillAlts": [
+        "Coat hem and weight on one foot",
+        "Coat on a wooden chair, pins still in",
+        "Hand on the door frame, face turned away",
+        "Table by the window: pins, chalk, tape",
+        "Nape, collar, pins at the shoulder"
+      ],
+      "stillTails": [
+        "om/images/y57LmkploSJFAaezRkLT8pKYpg.jpg",
+        "om/images/wnDX5aeBcKS0oDkPGH5O0c7sNg.jpg",
+        "om/images/3VmuAzXcmThyihnCb5fwB3fpfc.jpg",
+        "om/images/RHqtKMzl62xUrhKfmguVi72Weo.jpg",
+        "m/images/LRjeXP2V1FmKACgkiXVEVcTJI2E.jpg"
+      ]
+    },
+    {
+      "slug": "ferry-hour",
+      "title": "Ferry Hour",
+      "year": 2022,
+      "type": "place",
+      "featured": true,
+      "descLen": 94,
+      "desc": "The saloon after the last announcement. Orange seats, wet glass, the harbour already a rumour.",
+      "bodyKind": "string",
+      "coverAlt": "Empty ferry saloon at night, wet window, orange seats",
+      "coverUrl": "ontent.com/images/rvK3f4qHeyxL1pBKcBB62kAiX0.jpg",
+      "stillN": 5,
+      "stillAlts": [
+        "Wet linoleum aisle, metal handrail",
+        "Closed kiosk shutter, tired fluorescent",
+        "Orange lifejackets behind mesh",
+        "Metal stair to deck, door ajar onto night",
+        "Wake through wet glass, interior light in the pane"
+      ],
+      "stillTails": [
+        "om/images/A0Z9UW6z03JCrcZHAivG7Dys4k.jpg",
+        "m/images/XhSptAvzO2K4AVyD7zeiOQ2xYU4.jpg",
+        "m/images/c8ZfPrccjOsrw8h9eC48ckg0ipg.jpg",
+        "om/images/Hmj8dQUlxVoY6nwQUZ4ZyyTXoE.jpg",
+        "om/images/XyIFZ0Kw3igh3GEq8Eun7YSW74.jpg"
+      ]
+    },
+    {
+      "slug": "show-floor",
+      "title": "Show Floor",
+      "year": 2025,
+      "type": "commission",
+      "featured": true,
+      "descLen": 100,
+      "desc": "After the floor closed. Plastic still on a sofa. One path in the carpet where they walked the brief.",
+      "bodyKind": "string",
+      "coverAlt": "Closed furniture showroom, sofa in plastic, path in the carpet",
+      "coverUrl": "ercontent.com/images/VaYSrS0Urif80AiNd70m78U.jpg",
+      "stillN": 5,
+      "stillAlts": [
+        "Aisle of tagged floor lamps, half off",
+        "Shopfront from inside, empty street",
+        "Dining table, plastic on one seat",
+        "Carpet path toward sofa legs",
+        "Stockroom door ajar, one chair on its side"
+      ],
+      "stillTails": [
+        "com/images/BXmn2cICbKDmG0FEkCxzspbtU.jpg",
+        "om/images/v11ARd4Hd2MMvAmPo28AmoxuXw.jpg",
+        "om/images/6Wi9AXrbD79PMf2H6rlmCqfjaw.jpg",
+        "m/images/CQQgyW4ogG20WyTGhv3TZF4elmM.jpg",
+        "m/images/TRxXNC0CC6CBHV6GyQK3BAgm9xU.jpg"
+      ]
+    }
+  ],
+  "duplicateUrls": [],
+  "issues": []
+}

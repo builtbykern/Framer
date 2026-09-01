@@ -1,0 +1,422 @@
+{
+  "dist": {
+    "1200px": 156,
+    "NONE": 46,
+    "100%": 21,
+    "1440px": 3,
+    "1040px": 3,
+    "720px": 3,
+    "960px": 3,
+    "640px": 3,
+    "810px": 2,
+    "390px": 2,
+    "760px": 2,
+    "350px": 2,
+    "880px": 2,
+    "620px": 2,
+    "358px": 1,
+    "730px": 1,
+    "342px": 1,
+    "420px": 1,
+    "520px": 1
+  },
+  "missingMaxCount": 0,
+  "missingMaxSample": [],
+  "outliers": [
+    {
+      "maxWidth": "810px",
+      "count": 2,
+      "samples": [
+        "/|Tablet|Bottom",
+        "/|Tablet|Bottom>Content"
+      ]
+    },
+    {
+      "maxWidth": "358px",
+      "count": 1,
+      "samples": [
+        "/|Phone|Portfolio Section>Portfolio Container"
+      ]
+    },
+    {
+      "maxWidth": "390px",
+      "count": 2,
+      "samples": [
+        "/|Phone|Bottom",
+        "/|Phone|Bottom>Content"
+      ]
+    },
+    {
+      "maxWidth": "1040px",
+      "count": 3,
+      "samples": [
+        "/about|Desktop|Beat 3 — Manifesto>Manifesto Editorial Row",
+        "/about|Tablet|Beat 3 — Manifesto>Manifesto Editorial Row",
+        "/about|Phone|Beat 3 — Manifesto>Manifesto Editorial Row"
+      ]
+    },
+    {
+      "maxWidth": "760px",
+      "count": 2,
+      "samples": [
+        "/about|Desktop|Enquiry CTA>undefined",
+        "/properties/:slug|Desktop|Enquiry CTA>undefined"
+      ]
+    },
+    {
+      "maxWidth": "730px",
+      "count": 1,
+      "samples": [
+        "/about|Tablet|Beat 1 — Portrait Stage>Opening Copy"
+      ]
+    },
+    {
+      "maxWidth": "720px",
+      "count": 3,
+      "samples": [
+        "/about|Tablet|Enquiry CTA>undefined",
+        "/properties/:slug|Tablet|Enquiry CTA>undefined",
+        "/notes/:slug|Desktop|Article Body Wrap>Article Body"
+      ]
+    },
+    {
+      "maxWidth": "342px",
+      "count": 1,
+      "samples": [
+        "/about|Phone|Beat 1 — Portrait Stage>Opening Copy"
+      ]
+    },
+    {
+      "maxWidth": "350px",
+      "count": 2,
+      "samples": [
+        "/about|Phone|Enquiry CTA>undefined",
+        "/properties/:slug|Phone|Enquiry CTA>undefined"
+      ]
+    },
+    {
+      "maxWidth": "960px",
+      "count": 3,
+      "samples": [
+        "/properties/:slug|Desktop|Chapter Intro>Chapter One Title",
+        "/properties/:slug|Tablet|Chapter Intro>Chapter One Title",
+        "/properties/:slug|Phone|Chapter Intro>Chapter One Title"
+      ]
+    },
+    {
+      "maxWidth": "880px",
+      "count": 2,
+      "samples": [
+        "/properties/:slug|Desktop|Cinematic Gallery>Gallery Narrative",
+        "/properties/:slug|Tablet|Cinematic Gallery>Gallery Narrative"
+      ]
+    },
+    {
+      "maxWidth": "420px",
+      "count": 1,
+      "samples": [
+        "/properties/:slug|Desktop|The Setting>Setting Introduction"
+      ]
+    },
+    {
+      "maxWidth": "520px",
+      "count": 1,
+      "samples": [
+        "/properties/:slug|Desktop|The Setting>Setting Copy"
+      ]
+    },
+    {
+      "maxWidth": "620px",
+      "count": 2,
+      "samples": [
+        "/properties/:slug|Tablet|The Setting>Setting Introduction",
+        "/properties/:slug|Tablet|The Setting>Setting Copy"
+      ]
+    },
+    {
+      "maxWidth": "640px",
+      "count": 3,
+      "samples": [
+        "/notes/:slug|Desktop|More From Journal>undefined",
+        "/notes/:slug|Tablet|More From Journal>undefined",
+        "/notes/:slug|Phone|More From Journal>undefined"
+      ]
+    }
+  ],
+  "desktopTops": [
+    {
+      "path": "/",
+      "sections": [
+        {
+          "name": "Hero Section",
+          "maxWidth": null,
+          "width": "100%",
+          "pad": "0px 0px 64px 0px"
+        },
+        {
+          "name": "Territories Section",
+          "maxWidth": "1200px",
+          "width": "1fr",
+          "pad": "128px 48px 128px 48px"
+        },
+        {
+          "name": "Portfolio Section",
+          "maxWidth": "1200px",
+          "width": "1fr",
+          "pad": "128px 48px 128px 48px"
+        },
+        {
+          "name": "Bottom",
+          "maxWidth": "1200px",
+          "width": "100%",
+          "pad": null
+        },
+        {
+          "name": "Process Section",
+          "maxWidth": null,
+          "width": "1fr",
+          "pad": "128px 48px 128px 48px"
+        },
+        {
+          "name": "Arbour_StatsBand",
+          "maxWidth": null,
+          "width": "1fr",
+          "pad": null
+        },
+        {
+          "name": "Recognition Section",
+          "maxWidth": "1200px",
+          "width": "1fr",
+          "pad": "128px 48px 128px 48px"
+        },
+        {
+          "name": "Testimonial Section",
+          "maxWidth": "1200px",
+          "width": "1fr",
+          "pad": "128px 48px 128px 48px"
+        },
+        {
+          "name": "Journal",
+          "maxWidth": "1200px",
+          "width": "1fr",
+          "pad": "128px 48px 128px 48px"
+        }
+      ]
+    },
+    {
+      "path": "/properties",
+      "sections": [
+        {
+          "name": "Properties Content",
+          "maxWidth": "1200px",
+          "width": "1fr",
+          "pad": null
+        }
+      ]
+    },
+    {
+      "path": "/neighbourhoods",
+      "sections": [
+        {
+          "name": "Neighbourhoods Content",
+          "maxWidth": "1200px",
+          "width": "1fr",
+          "pad": null
+        }
+      ]
+    },
+    {
+      "path": "/notes",
+      "sections": [
+        {
+          "name": "Journal",
+          "maxWidth": "1200px",
+          "width": "1fr",
+          "pad": "128px 48px 0px 48px"
+        },
+        {
+          "name": "Journal Manifesto",
+          "maxWidth": null,
+          "width": "1fr",
+          "pad": "128px 48px 128px 48px"
+        }
+      ]
+    },
+    {
+      "path": "/about",
+      "sections": [
+        {
+          "name": "Beat 1 — Portrait Stage",
+          "maxWidth": "1200px",
+          "width": "100%",
+          "pad": null
+        },
+        {
+          "name": "Beat 2 — Cinematic Image",
+          "maxWidth": "1440px",
+          "width": "100%",
+          "pad": null
+        },
+        {
+          "name": "Beat 3 — Manifesto",
+          "maxWidth": "1200px",
+          "width": "100%",
+          "pad": "128px 48px 128px 48px"
+        },
+        {
+          "name": "Editorial Pause — Arbour in Practice",
+          "maxWidth": "1200px",
+          "width": "100%",
+          "pad": "96px 48px 96px 48px"
+        },
+        {
+          "name": "Chapter — The Principals",
+          "maxWidth": "1200px",
+          "width": "100%",
+          "pad": "128px 48px 128px 48px"
+        },
+        {
+          "name": "Chapter — Two Offices",
+          "maxWidth": "1200px",
+          "width": "100%",
+          "pad": "128px 48px 128px 48px"
+        },
+        {
+          "name": "Enquiry CTA",
+          "maxWidth": "1200px",
+          "width": "1fr",
+          "pad": "128px 48px 128px 48px"
+        }
+      ]
+    },
+    {
+      "path": "/contact",
+      "sections": [
+        {
+          "name": "Contact Hero",
+          "maxWidth": null,
+          "width": "1fr",
+          "pad": "128px 48px 64px 48px"
+        },
+        {
+          "name": "Contact Opening",
+          "maxWidth": null,
+          "width": "1fr",
+          "pad": "128px 48px 128px 48px"
+        },
+        {
+          "name": "Private Consultation Pause",
+          "maxWidth": "1200px",
+          "width": "100%",
+          "pad": "96px 48px 96px 48px"
+        },
+        {
+          "name": "Journal",
+          "maxWidth": "1200px",
+          "width": "1fr",
+          "pad": "128px 48px 128px 48px"
+        }
+      ]
+    },
+    {
+      "path": "/properties/:slug",
+      "sections": [
+        {
+          "name": "Property Hero",
+          "maxWidth": "1200px",
+          "width": "1fr",
+          "pad": "128px 48px 128px 48px"
+        },
+        {
+          "name": "Property Specs Band",
+          "maxWidth": "1200px",
+          "width": "1fr",
+          "pad": "0px 48px 0px 48px"
+        },
+        {
+          "name": "Chapter Intro",
+          "maxWidth": "1200px",
+          "width": "1fr",
+          "pad": "128px 48px 128px 48px"
+        },
+        {
+          "name": "Cinematic Gallery",
+          "maxWidth": "1200px",
+          "width": "100%",
+          "pad": "0px 48px 128px 48px"
+        },
+        {
+          "name": "The Setting",
+          "maxWidth": "1200px",
+          "width": "100%",
+          "pad": "128px 48px 128px 48px"
+        },
+        {
+          "name": "Property Particulars",
+          "maxWidth": "1200px",
+          "width": "100%",
+          "pad": "128px 48px 128px 48px"
+        },
+        {
+          "name": "Continue Your Search",
+          "maxWidth": "1200px",
+          "width": "100%",
+          "pad": "128px 48px 128px 48px"
+        },
+        {
+          "name": "Enquiry CTA",
+          "maxWidth": "1200px",
+          "width": "1fr",
+          "pad": "128px 48px 128px 48px"
+        }
+      ]
+    },
+    {
+      "path": "/notes/:slug",
+      "sections": [
+        {
+          "name": "Article Hero Meta",
+          "maxWidth": "1200px",
+          "width": "1fr",
+          "pad": "128px 48px 0px 48px"
+        },
+        {
+          "name": "Journal Hero Image",
+          "maxWidth": "1200px",
+          "width": "1fr",
+          "pad": "64px 48px 0px 48px"
+        },
+        {
+          "name": "Article Body Wrap",
+          "maxWidth": "1200px",
+          "width": "1fr",
+          "pad": "64px 48px 128px 48px"
+        },
+        {
+          "name": "Journal Text Column",
+          "maxWidth": null,
+          "width": "1fr",
+          "pad": null
+        },
+        {
+          "name": "More From Journal",
+          "maxWidth": "1200px",
+          "width": "1fr",
+          "pad": "128px 48px 128px 48px"
+        },
+        {
+          "name": "Specs Strip",
+          "maxWidth": "1200px",
+          "width": "1fr",
+          "pad": "0px 48px 0px 48px"
+        },
+        {
+          "name": "Closing Chapter",
+          "maxWidth": "1200px",
+          "width": "1fr",
+          "pad": "96px 48px 96px 48px"
+        }
+      ]
+    }
+  ]
+}

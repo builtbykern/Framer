@@ -1,0 +1,31 @@
+{
+  "processListId": "tOn8dp9rd",
+  "journalDeckId": "N9SK6gnT4",
+  "process": [
+    {
+      "id": "tOn8dp9rd",
+      "name": "Process List",
+      "w": "90%",
+      "mw": "90%",
+      "pad": null
+    }
+  ],
+  "journalDeck": [
+    {
+      "id": "N9SK6gnT4",
+      "name": "Journal Deck",
+      "w": "90%",
+      "mw": "90%",
+      "pad": null
+    }
+  ],
+  "stats": [
+    {
+      "id": "CMv32_lLx",
+      "name": "Arbour_StatsBand",
+      "w": "90%",
+      "mw": "90%",
+      "pad": null
+    }
+  ]
+}

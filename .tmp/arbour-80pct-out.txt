@@ -1,0 +1,35 @@
+{
+  "applied": 245,
+  "noteCount": 245,
+  "sample": [
+    "//Text Content Column",
+    "//Territories Header",
+    "//yoT5YFvp5",
+    "//Portfolio Container",
+    "//Content",
+    "//PmjD_eoIk",
+    "//DZtq5dg52",
+    "//Process List",
+    "//Arbour_StatsBand",
+    "//Recognition Header",
+    "//Recognition List",
+    "//ojxCqw0q5",
+    "//ioPfPOqlo",
+    "//b800nNNFA",
+    "//Journal Deck",
+    "//Content Area",
+    "//Text Content Column",
+    "//Territories Header",
+    "//wBAtV56MEyoT5YFvp5",
+    "//Portfolio Container"
+  ],
+  "results": [
+    "Lint: 36 warnings.",
+    "Lint: 23 warnings.",
+    "Lint: 17 warnings.",
+    "Lint: 2 errors, 14 warnings.",
+    "Lint: 2 errors, 20 warnings.",
+    "Lint: 1 error, 41 warnings.",
+    "Lint: 4 warnings."
+  ]
+}

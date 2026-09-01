@@ -1,0 +1,275 @@
+{
+  "project": "Fair Platform",
+  "shots": {
+    "home-desktop.jpg": 365023,
+    "home-tablet.jpg": 197994,
+    "home-phone.jpg": 107345,
+    "piece-desktop.jpg": 407775,
+    "piece-tablet.jpg": 364513,
+    "piece-phone.jpg": 82847
+  },
+  "pages": [
+    {
+      "id": "augiA20Il",
+      "name": "Home",
+      "path": "/",
+      "layoutTemplate": null,
+      "children": [
+        {
+          "id": "WQLkyLRf1",
+          "name": "Desktop",
+          "type": "FrameNode"
+        },
+        {
+          "id": "t62LHpSTa",
+          "name": "Tablet",
+          "type": "FrameNode"
+        },
+        {
+          "id": "u75vHQkAR",
+          "name": "Phone",
+          "type": "FrameNode"
+        }
+      ]
+    },
+    {
+      "id": "FZFYEKdG1",
+      "name": "/piece/:Piece",
+      "path": "/piece/:Piece",
+      "layoutTemplate": "null",
+      "children": [
+        {
+          "id": "dKIZmzj_1",
+          "name": "Desktop",
+          "type": "FrameNode"
+        },
+        {
+          "id": "gFY0Qf8vi",
+          "name": "Tablet",
+          "type": "FrameNode"
+        },
+        {
+          "id": "RRanDQOK5",
+          "name": "Phone",
+          "type": "FrameNode"
+        }
+      ]
+    },
+    {
+      "id": "eT5aUzOXW",
+      "name": "/info",
+      "path": "/info",
+      "layoutTemplate": "null",
+      "children": [
+        {
+          "id": "tVu2ncruf",
+          "name": "Desktop",
+          "type": "FrameNode"
+        },
+        {
+          "id": "hRNnw_VA2",
+          "name": "Tablet",
+          "type": "FrameNode"
+        },
+        {
+          "id": "EU24xAeMI",
+          "name": "Phone",
+          "type": "FrameNode"
+        }
+      ]
+    },
+    {
+      "id": "pTPGQ4L6O",
+      "name": "/contact",
+      "path": "/contact",
+      "layoutTemplate": "null",
+      "children": [
+        {
+          "id": "J1kd1wjJe",
+          "name": "Desktop",
+          "type": "FrameNode"
+        },
+        {
+          "id": "XX7urzdEP",
+          "name": "Tablet",
+          "type": "FrameNode"
+        },
+        {
+          "id": "XCr9mFaYB",
+          "name": "Phone",
+          "type": "FrameNode"
+        }
+      ]
+    },
+    {
+      "id": "GPILtKFJP",
+      "name": "/404",
+      "path": "/404",
+      "layoutTemplate": "null",
+      "children": [
+        {
+          "id": "pWw0UM2JG",
+          "name": "Desktop",
+          "type": "FrameNode"
+        },
+        {
+          "id": "w02m12a91",
+          "name": "Tablet",
+          "type": "FrameNode"
+        },
+        {
+          "id": "U9F5gXIMe",
+          "name": "Phone",
+          "type": "FrameNode"
+        }
+      ]
+    }
+  ],
+  "homeBreakpoints": [
+    {
+      "id": "WQLkyLRf1",
+      "name": "Desktop",
+      "kids": [
+        {
+          "id": "NBF_dDp3H",
+          "name": "Nav",
+          "type": "ComponentInstanceNode",
+          "component": "IhgjBMpmC",
+          "codeFile": null
+        },
+        {
+          "id": "yAd2lMDSW",
+          "name": "Piece List",
+          "type": "FrameNode",
+          "codeFile": null,
+          "stackDirection": "horizontal",
+          "overflow": "auto"
+        },
+        {
+          "id": "a8NqInOvC",
+          "name": "Mark Floor",
+          "type": "FrameNode",
+          "codeFile": null,
+          "stackDirection": "vertical"
+        }
+      ]
+    },
+    {
+      "id": "t62LHpSTa",
+      "name": "Tablet",
+      "kids": [
+        {
+          "id": "t62LHpSTaNBF_dDp3H",
+          "name": "Nav",
+          "type": "ComponentInstanceNode",
+          "component": "IhgjBMpmC",
+          "codeFile": null
+        },
+        {
+          "id": "t62LHpSTayAd2lMDSW",
+          "name": "Piece List",
+          "type": "FrameNode",
+          "codeFile": null,
+          "stackDirection": "vertical",
+          "overflow": "auto"
+        },
+        {
+          "id": "t62LHpSTaa8NqInOvC",
+          "name": "Mark Floor",
+          "type": "FrameNode",
+          "codeFile": null,
+          "stackDirection": "vertical"
+        }
+      ]
+    },
+    {
+      "id": "u75vHQkAR",
+      "name": "Phone",
+      "kids": [
+        {
+          "id": "u75vHQkARNBF_dDp3H",
+          "name": "Nav",
+          "type": "ComponentInstanceNode",
+          "component": "IhgjBMpmC",
+          "codeFile": null
+        },
+        {
+          "id": "u75vHQkARyAd2lMDSW",
+          "name": "Piece List",
+          "type": "FrameNode",
+          "codeFile": null,
+          "stackDirection": "vertical",
+          "overflow": "auto"
+        },
+        {
+          "id": "u75vHQkARa8NqInOvC",
+          "name": "Mark Floor",
+          "type": "FrameNode",
+          "codeFile": null,
+          "stackDirection": "vertical"
+        }
+      ]
+    }
+  ],
+  "cardVariants": [
+    "Square",
+    "Landscape",
+    "Portrait",
+    "Cluster"
+  ],
+  "rows": [
+    {
+      "title": "Dish Two",
+      "slug": "dish-two",
+      "module": "Square"
+    },
+    {
+      "title": "Gauge Ring",
+      "slug": "gauge-ring",
+      "module": "Landscape"
+    },
+    {
+      "title": "Wire Study",
+      "slug": "wire-study",
+      "module": "Portrait"
+    },
+    {
+      "title": "Cup Lip",
+      "slug": "cup-lip",
+      "module": "Cluster"
+    },
+    {
+      "title": "Linen Band",
+      "slug": "linen-band",
+      "module": "Landscape"
+    },
+    {
+      "title": "Square Tray",
+      "slug": "square-tray",
+      "module": "Square"
+    },
+    {
+      "title": "Bench Hook",
+      "slug": "bench-hook",
+      "module": "Portrait"
+    },
+    {
+      "title": "Pin Spare",
+      "slug": "pin-spare",
+      "module": "Cluster"
+    }
+  ],
+  "leftovers": [],
+  "allText": [
+    "House",
+    "The house keeps a catalogue of printed work. Each sheet has a date, a name, a note, a cover, and a still.",
+    "Desk",
+    "For commissions and prints, write the desk.",
+    "Not on the wall",
+    "That sheet is not in the catalogue. Return to the index.",
+    "No sheets on the wall.",
+    "vitrine"
+  ],
+  "colAttrKeys": [],
+  "colName": "Piece"
+}

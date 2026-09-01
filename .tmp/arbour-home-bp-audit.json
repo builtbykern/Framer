@@ -1,0 +1,522 @@
+{
+  "collectedAt": "2026-07-30T11:46:04.808Z",
+  "pagePath": "/",
+  "homeId": "augiA20Il",
+  "meta": null,
+  "preview": {
+    "changesCount": 3,
+    "errors": [],
+    "warnings": [],
+    "changes": [
+      {
+        "type": "WebPage",
+        "nodeId": "augiA20Il",
+        "name": "Home",
+        "status": "updated"
+      },
+      {
+        "type": "WebPage",
+        "nodeId": "c7qpzB7hR",
+        "name": "/contact",
+        "status": "updated"
+      },
+      {
+        "type": "WebPage",
+        "nodeId": "uBAGmujMa",
+        "name": "/properties-2",
+        "status": "updated"
+      }
+    ],
+    "status": "ready"
+  },
+  "publishInfo": {
+    "production": {
+      "deploymentTime": 1785359075782,
+      "optimizationStatus": "error",
+      "url": "https://arbour.framer.website",
+      "currentPageUrl": "https://arbour.framer.website/"
+    },
+    "staging": {
+      "deploymentTime": 1785359075782,
+      "optimizationStatus": "error",
+      "url": "https://minimum-directions-600719.framer.app",
+      "currentPageUrl": "https://minimum-directions-600719.framer.app/"
+    }
+  },
+  "mediaQueries": [
+    "Primary/Desktop",
+    "Desktop",
+    "Tablet",
+    "Phone"
+  ],
+  "breakpointStats": {
+    "Primary/Desktop": {
+      "nodes": 1,
+      "links": 0,
+      "instances": 0,
+      "hardInk": 0,
+      "hardOlive": 0,
+      "nested": 0,
+      "underlineInLinked": 0
+    },
+    "Desktop": {
+      "nodes": 283,
+      "links": 2,
+      "instances": 18,
+      "hardInk": 0,
+      "hardOlive": 0,
+      "nested": 0,
+      "underlineInLinked": 4
+    },
+    "Tablet": {
+      "nodes": 283,
+      "links": 2,
+      "instances": 18,
+      "hardInk": 0,
+      "hardOlive": 0,
+      "nested": 0,
+      "underlineInLinked": 4
+    },
+    "Phone": {
+      "nodes": 283,
+      "links": 2,
+      "instances": 18,
+      "hardInk": 0,
+      "hardOlive": 0,
+      "nested": 0,
+      "underlineInLinked": 4
+    }
+  },
+  "topChildren": [
+    {
+      "id": "WQLkyLRf1",
+      "name": "Desktop",
+      "type": "FrameNode",
+      "mq": {
+        "range": "(min-width: 1200px)",
+        "name": "Desktop"
+      },
+      "width": "1200px",
+      "link": null
+    },
+    {
+      "id": "U3TeNUVXv",
+      "name": "Tablet",
+      "type": "FrameNode",
+      "mq": {
+        "range": "(min-width: 810px) and (max-width: 1199.98px)",
+        "name": "Tablet"
+      },
+      "width": "810px",
+      "link": null
+    },
+    {
+      "id": "pmAxXUJ0o",
+      "name": "Phone",
+      "type": "FrameNode",
+      "mq": {
+        "range": "(max-width: 809.98px)",
+        "name": "Phone"
+      },
+      "width": "390px",
+      "link": null
+    }
+  ],
+  "sections": [
+    {
+      "id": "WQLkyLRf1",
+      "name": "Desktop",
+      "bp": "Desktop",
+      "childCount": 12,
+      "hasLink": false
+    },
+    {
+      "id": "QWUEMYFj7",
+      "name": "Hero Section",
+      "bp": "Desktop",
+      "childCount": 3,
+      "hasLink": false
+    },
+    {
+      "id": "CXKn_oqE0",
+      "name": "Territories Section",
+      "bp": "Desktop",
+      "childCount": 2,
+      "hasLink": false
+    },
+    {
+      "id": "rAukVaNHU",
+      "name": "Portfolio Section",
+      "bp": "Desktop",
+      "childCount": 1,
+      "hasLink": false
+    },
+    {
+      "id": "wFx8igsWY",
+      "name": "Bottom",
+      "bp": "Desktop",
+      "childCount": 2,
+      "hasLink": false
+    },
+    {
+      "id": "U9mwOiQun",
+      "name": "Recognition Section",
+      "bp": "Desktop",
+      "childCount": 2,
+      "hasLink": false
+    },
+    {
+      "id": "PWy2_wM2R",
+      "name": "Testimonial Section",
+      "bp": "Desktop",
+      "childCount": 2,
+      "hasLink": false
+    },
+    {
+      "id": "z3aj0E0xy",
+      "name": "Journal",
+      "bp": "Desktop",
+      "childCount": 3,
+      "hasLink": false
+    },
+    {
+      "id": "U3TeNUVXv",
+      "name": "Tablet",
+      "bp": "Tablet",
+      "childCount": 12,
+      "hasLink": false
+    },
+    {
+      "id": "U3TeNUVXvQWUEMYFj7",
+      "name": "Hero Section",
+      "bp": "Tablet",
+      "childCount": 3,
+      "hasLink": false
+    },
+    {
+      "id": "U3TeNUVXvCXKn_oqE0",
+      "name": "Territories Section",
+      "bp": "Tablet",
+      "childCount": 2,
+      "hasLink": false
+    },
+    {
+      "id": "U3TeNUVXvrAukVaNHU",
+      "name": "Portfolio Section",
+      "bp": "Tablet",
+      "childCount": 1,
+      "hasLink": false
+    },
+    {
+      "id": "U3TeNUVXvwFx8igsWY",
+      "name": "Bottom",
+      "bp": "Tablet",
+      "childCount": 2,
+      "hasLink": false
+    },
+    {
+      "id": "U3TeNUVXvU9mwOiQun",
+      "name": "Recognition Section",
+      "bp": "Tablet",
+      "childCount": 2,
+      "hasLink": false
+    },
+    {
+      "id": "U3TeNUVXvPWy2_wM2R",
+      "name": "Testimonial Section",
+      "bp": "Tablet",
+      "childCount": 2,
+      "hasLink": false
+    },
+    {
+      "id": "U3TeNUVXvz3aj0E0xy",
+      "name": "Journal",
+      "bp": "Tablet",
+      "childCount": 3,
+      "hasLink": false
+    },
+    {
+      "id": "pmAxXUJ0o",
+      "name": "Phone",
+      "bp": "Phone",
+      "childCount": 12,
+      "hasLink": false
+    },
+    {
+      "id": "pmAxXUJ0oQWUEMYFj7",
+      "name": "Hero Section",
+      "bp": "Phone",
+      "childCount": 3,
+      "hasLink": false
+    },
+    {
+      "id": "pmAxXUJ0oCXKn_oqE0",
+      "name": "Territories Section",
+      "bp": "Phone",
+      "childCount": 2,
+      "hasLink": false
+    },
+    {
+      "id": "pmAxXUJ0orAukVaNHU",
+      "name": "Portfolio Section",
+      "bp": "Phone",
+      "childCount": 1,
+      "hasLink": false
+    },
+    {
+      "id": "pmAxXUJ0owFx8igsWY",
+      "name": "Bottom",
+      "bp": "Phone",
+      "childCount": 2,
+      "hasLink": false
+    },
+    {
+      "id": "pmAxXUJ0oU9mwOiQun",
+      "name": "Recognition Section",
+      "bp": "Phone",
+      "childCount": 2,
+      "hasLink": false
+    },
+    {
+      "id": "pmAxXUJ0oPWy2_wM2R",
+      "name": "Testimonial Section",
+      "bp": "Phone",
+      "childCount": 2,
+      "hasLink": false
+    },
+    {
+      "id": "pmAxXUJ0oz3aj0E0xy",
+      "name": "Journal",
+      "bp": "Phone",
+      "childCount": 3,
+      "hasLink": false
+    }
+  ],
+  "nestedLinks": [],
+  "underlineInLinked": [
+    {
+      "id": "CAdGD1vAP",
+      "bp": "Desktop",
+      "decorative": "true",
+      "label": "VIEW →",
+      "link": "/properties-2",
+      "outer": {
+        "id": "wsIijK_jR",
+        "name": "Residence Link",
+        "type": "FrameNode",
+        "href": "/properties-2/:slug",
+        "bp": "Desktop"
+      }
+    },
+    {
+      "id": "h0vfeOTBw",
+      "name": "Arbour_UnderlineLink",
+      "bp": "Desktop",
+      "decorative": "true",
+      "label": "VIEW →",
+      "link": "/properties-2",
+      "outer": {
+        "id": "wsIijK_jR",
+        "name": "Residence Link",
+        "type": "FrameNode",
+        "href": "/properties-2/:slug",
+        "bp": "Desktop"
+      }
+    },
+    {
+      "id": "f2fxMg6nz",
+      "bp": "Desktop",
+      "decorative": "true",
+      "label": "VIEW →",
+      "link": "/properties-2",
+      "outer": {
+        "id": "qL69wgei1",
+        "name": "Property Card Small",
+        "type": "FrameNode",
+        "href": "/properties-2/:slug",
+        "bp": "Desktop"
+      }
+    },
+    {
+      "id": "LL2hvcJ80",
+      "bp": "Desktop",
+      "decorative": "true",
+      "label": "VIEW →",
+      "link": "/properties-2",
+      "outer": {
+        "id": "qL69wgei1",
+        "name": "Property Card Small",
+        "type": "FrameNode",
+        "href": "/properties-2/:slug",
+        "bp": "Desktop"
+      }
+    },
+    {
+      "id": "U3TeNUVXvCAdGD1vAP",
+      "bp": "Tablet",
+      "decorative": "true",
+      "label": "VIEW →",
+      "link": "/properties-2",
+      "outer": {
+        "id": "U3TeNUVXvwsIijK_jR",
+        "name": "Residence Link",
+        "type": "FrameNode",
+        "href": "/properties-2/:slug",
+        "bp": "Tablet"
+      }
+    },
+    {
+      "id": "U3TeNUVXvh0vfeOTBw",
+      "name": "Arbour_UnderlineLink",
+      "bp": "Tablet",
+      "decorative": "true",
+      "label": "VIEW →",
+      "link": "/properties-2",
+      "outer": {
+        "id": "U3TeNUVXvwsIijK_jR",
+        "name": "Residence Link",
+        "type": "FrameNode",
+        "href": "/properties-2/:slug",
+        "bp": "Tablet"
+      }
+    },
+    {
+      "id": "U3TeNUVXvf2fxMg6nz",
+      "bp": "Tablet",
+      "decorative": "true",
+      "label": "VIEW →",
+      "link": "/properties-2",
+      "outer": {
+        "id": "U3TeNUVXvqL69wgei1",
+        "name": "Property Card Small",
+        "type": "FrameNode",
+        "href": "/properties-2/:slug",
+        "bp": "Tablet"
+      }
+    },
+    {
+      "id": "U3TeNUVXvLL2hvcJ80",
+      "bp": "Tablet",
+      "decorative": "true",
+      "label": "VIEW →",
+      "link": "/properties-2",
+      "outer": {
+        "id": "U3TeNUVXvqL69wgei1",
+        "name": "Property Card Small",
+        "type": "FrameNode",
+        "href": "/properties-2/:slug",
+        "bp": "Tablet"
+      }
+    },
+    {
+      "id": "pmAxXUJ0oCAdGD1vAP",
+      "bp": "Phone",
+      "decorative": "true",
+      "label": "VIEW →",
+      "link": "/properties-2",
+      "outer": {
+        "id": "pmAxXUJ0owsIijK_jR",
+        "name": "Residence Link",
+        "type": "FrameNode",
+        "href": "/properties-2/:slug",
+        "bp": "Phone"
+      }
+    },
+    {
+      "id": "pmAxXUJ0oh0vfeOTBw",
+      "name": "Arbour_UnderlineLink",
+      "bp": "Phone",
+      "decorative": "true",
+      "label": "VIEW →",
+      "link": "/properties-2",
+      "outer": {
+        "id": "pmAxXUJ0owsIijK_jR",
+        "name": "Residence Link",
+        "type": "FrameNode",
+        "href": "/properties-2/:slug",
+        "bp": "Phone"
+      }
+    },
+    {
+      "id": "pmAxXUJ0of2fxMg6nz",
+      "bp": "Phone",
+      "decorative": "true",
+      "label": "VIEW →",
+      "link": "/properties-2",
+      "outer": {
+        "id": "pmAxXUJ0oqL69wgei1",
+        "name": "Property Card Small",
+        "type": "FrameNode",
+        "href": "/properties-2/:slug",
+        "bp": "Phone"
+      }
+    },
+    {
+      "id": "pmAxXUJ0oLL2hvcJ80",
+      "bp": "Phone",
+      "decorative": "true",
+      "label": "VIEW →",
+      "link": "/properties-2",
+      "outer": {
+        "id": "pmAxXUJ0oqL69wgei1",
+        "name": "Property Card Small",
+        "type": "FrameNode",
+        "href": "/properties-2/:slug",
+        "bp": "Phone"
+      }
+    }
+  ],
+  "counts": {
+    "ashcombe": 0,
+    "hardInk": 0,
+    "hardOlive": 0,
+    "truncatedInk": 0,
+    "freehandArrows": 0,
+    "nestedNonDecorative": 0
+  },
+  "ashcombe": [],
+  "hardInk": [],
+  "hardOlive": [],
+  "freehandArrows": [],
+  "instancesByBp": {
+    "Desktop": {
+      "Nav": 1,
+      "Arbour_InertiaFrame": 2,
+      "Arbour_ScrollCue": 1,
+      "Arbour_UnderlineLink": 7,
+      "Arbour_TerritoryRail": 1,
+      "Arbour_EditorialReveal": 1,
+      "Arbour_StatsBand": 1,
+      "Arbour_FormButton": 1,
+      "Arbour_ArticleCard": 1,
+      "Footer": 1,
+      "Scroll Blur": 1
+    },
+    "Tablet": {
+      "Nav": 1,
+      "Arbour_InertiaFrame": 2,
+      "Arbour_ScrollCue": 1,
+      "Arbour_UnderlineLink": 7,
+      "Arbour_TerritoryRail": 1,
+      "Arbour_EditorialReveal": 1,
+      "Arbour_StatsBand": 1,
+      "Arbour_FormButton": 1,
+      "Arbour_ArticleCard": 1,
+      "Footer": 1,
+      "Scroll Blur": 1
+    },
+    "Phone": {
+      "Nav": 1,
+      "Arbour_InertiaFrame": 2,
+      "Arbour_ScrollCue": 1,
+      "Arbour_UnderlineLink": 7,
+      "Arbour_TerritoryRail": 1,
+      "Arbour_EditorialReveal": 1,
+      "Arbour_StatsBand": 1,
+      "Arbour_FormButton": 1,
+      "Arbour_ArticleCard": 1,
+      "Footer": 1,
+      "Scroll Blur": 1
+    }
+  }
+}

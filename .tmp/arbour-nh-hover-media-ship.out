@@ -1,0 +1,14 @@
+{
+  "codeId": "nMMl08t",
+  "deleted": [],
+  "message": "Commands: 3 errors. Lint: 3 errors, 12 warnings.",
+  "errors": {
+    "The `+ComponentInstanceNode` command for the affected node is retained, but the node is pending insertion because it did not receive a corresponding `SET` command. Send `SET` for the affected node ID with the intended attributes. Do not repeat the `+ComponentInstanceNode` command.": [
+      "thmD",
+      "thmT",
+      "thmP"
+    ]
+  },
+  "photoH": "320px",
+  "children": []
+}

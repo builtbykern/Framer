@@ -1,0 +1,66 @@
+{
+  "nodes": [
+    {
+      "name": "Enquiry CTA",
+      "id": "cFtWJlabj",
+      "w": "100%",
+      "mw": "100%",
+      "pad": "128px 48px 128px 48px",
+      "align": "center",
+      "dist": "center"
+    },
+    {
+      "name": "Territory Grid Section",
+      "id": "NrbMmTnFX",
+      "w": "100%",
+      "mw": "100%",
+      "pad": "128px 48px 128px 48px",
+      "align": "center",
+      "dist": "start"
+    },
+    {
+      "name": "How We Read A Place",
+      "id": "KraraKF0A",
+      "w": "100%",
+      "mw": "100%",
+      "pad": "128px 48px 128px 48px",
+      "align": "start",
+      "dist": "center"
+    },
+    {
+      "name": "top",
+      "id": "EJPuaSmlO",
+      "w": "90%",
+      "mw": "90%",
+      "pad": "16px 48px 16px 48px",
+      "align": "center",
+      "dist": "space-between"
+    },
+    {
+      "name": "Hero Section",
+      "id": "iq0rlFlTE",
+      "w": "100%",
+      "mw": "100%",
+      "pad": "0px 0px 64px 0px",
+      "align": "center",
+      "dist": "end"
+    },
+    {
+      "name": "Text Content Column",
+      "id": "ET8JHTjC5",
+      "w": "90%",
+      "mw": "90%",
+      "pad": "0px 48px 0px 48px",
+      "align": "start",
+      "dist": "end"
+    },
+    {
+      "name": "Process List",
+      "id": "tOn8dp9rd",
+      "w": "90%",
+      "mw": "90%",
+      "align": "start",
+      "dist": "start"
+    }
+  ]
+}

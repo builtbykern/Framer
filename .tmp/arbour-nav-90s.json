@@ -1,0 +1,86 @@
+[
+  {
+    "variant": "Desktop",
+    "nineties": [
+      {
+        "t": "Desktop/Desktop/top",
+        "id": "EJPuaSmlO",
+        "w": "90%",
+        "mw": "90%",
+        "pad": "16px 0px 16px 0px"
+      }
+    ]
+  },
+  {
+    "variant": "Tablet - Close",
+    "nineties": [
+      {
+        "t": "Tablet - Close/Tablet - Close/top",
+        "id": "I3SpHi24vEJPuaSmlO",
+        "w": "90%",
+        "mw": "90%",
+        "pad": "16px 0px 16px 0px"
+      },
+      {
+        "t": "Tablet - Close/Tablet - Close/container",
+        "id": "I3SpHi24vsxhzAXUR_",
+        "w": "1fr",
+        "mw": "90%"
+      }
+    ]
+  },
+  {
+    "variant": "Tablet - Open",
+    "nineties": [
+      {
+        "t": "Tablet - Open/Tablet - Open/top",
+        "id": "rL2ZHlVqgEJPuaSmlO",
+        "w": "90%",
+        "mw": "90%",
+        "pad": "16px 0px 16px 0px"
+      }
+    ]
+  },
+  {
+    "variant": "Phone - Close",
+    "nineties": [
+      {
+        "t": "Phone - Close/Phone - Close/top",
+        "id": "GBmgkcS5cEJPuaSmlO",
+        "w": "90%",
+        "mw": "90%",
+        "pad": "16px 0px 16px 0px"
+      },
+      {
+        "t": "Phone - Close/Phone - Close/container",
+        "id": "GBmgkcS5csxhzAXUR_",
+        "w": "1fr",
+        "mw": "90%"
+      }
+    ]
+  },
+  {
+    "variant": "Phone - Open",
+    "nineties": [
+      {
+        "t": "Phone - Open/Phone - Open/top",
+        "id": "WLQAqm0QzEJPuaSmlO",
+        "w": "90%",
+        "mw": "90%",
+        "pad": "16px 0px 16px 0px"
+      }
+    ]
+  },
+  {
+    "variant": "Desktop - Open",
+    "nineties": [
+      {
+        "t": "Desktop - Open/Desktop - Open/top",
+        "id": "dzeGSJmBBEJPuaSmlO",
+        "w": "90%",
+        "mw": "90%",
+        "pad": "16px 0px 16px 0px"
+      }
+    ]
+  }
+]

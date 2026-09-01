@@ -1,0 +1,255 @@
+{
+  "pages": [
+    {
+      "pagePath": "/",
+      "id": "augiA20Il",
+      "name": "Home",
+      "type": "WebPageNode",
+      "attrs": {
+        "metadata": {
+          "title": "Arbour — Independent Estate Agency London",
+          "description": "Curated residences across London and the country. Discreet acquisition, disposal, and counsel since 1999."
+        },
+        "path": "/"
+      },
+      "keys": [
+        "type",
+        "id",
+        "name",
+        "variables",
+        "$parentId",
+        "$breakpoints",
+        "attributes",
+        "children",
+        "$truncated",
+        "$descendantCount"
+      ]
+    },
+    {
+      "pagePath": "/about",
+      "id": "OdFhPn9yz",
+      "name": "/about",
+      "type": "WebPageNode",
+      "attrs": {
+        "metadata": {
+          "title": "About | Arbour",
+          "description": "Built on judgement, not volume. Independent estate agency since 1999."
+        },
+        "path": "/about"
+      },
+      "keys": [
+        "type",
+        "id",
+        "name",
+        "variables",
+        "$parentId",
+        "$breakpoints",
+        "attributes",
+        "children",
+        "$truncated",
+        "$descendantCount"
+      ]
+    },
+    {
+      "pagePath": "/notes",
+      "id": "s8RpZIiJ8",
+      "name": "/notes",
+      "type": "WebPageNode",
+      "attrs": {
+        "metadata": {
+          "title": "Notes | Arbour",
+          "description": "Field notes on place, craft, and acquisition — from the Arbour journal."
+        },
+        "path": "/notes"
+      },
+      "keys": [
+        "type",
+        "id",
+        "name",
+        "variables",
+        "$parentId",
+        "$breakpoints",
+        "attributes",
+        "children",
+        "$truncated",
+        "$descendantCount"
+      ]
+    },
+    {
+      "pagePath": "/contact",
+      "id": "c7qpzB7hR",
+      "name": "/contact",
+      "type": "WebPageNode",
+      "attrs": {
+        "metadata": {
+          "title": "Contact | Arbour",
+          "description": "Begin a conversation — private consultations for buyers and sellers. By appointment only."
+        },
+        "path": "/contact"
+      },
+      "keys": [
+        "type",
+        "id",
+        "name",
+        "variables",
+        "$parentId",
+        "$breakpoints",
+        "attributes",
+        "children",
+        "$truncated",
+        "$descendantCount"
+      ]
+    },
+    {
+      "pagePath": "/properties-2",
+      "id": "uBAGmujMa",
+      "name": "/properties-2",
+      "type": "WebPageNode",
+      "attrs": {
+        "metadata": {
+          "title": "Portfolio | Arbour",
+          "description": "Six homes of merit — curated residences for sale across London and the country."
+        },
+        "path": "/properties-2"
+      },
+      "keys": [
+        "type",
+        "id",
+        "name",
+        "variables",
+        "$parentId",
+        "$breakpoints",
+        "attributes",
+        "children",
+        "$truncated",
+        "$descendantCount"
+      ]
+    },
+    {
+      "pagePath": "/neighbourhoods",
+      "id": "dZfxmFpqB",
+      "name": "/neighbourhoods",
+      "type": "WebPageNode",
+      "attrs": {
+        "metadata": {
+          "title": "Neighbourhoods | Arbour",
+          "description": "Places we know by heart — Chelsea, Notting Hill, Hampstead, and beyond."
+        },
+        "path": "/neighbourhoods"
+      },
+      "keys": [
+        "type",
+        "id",
+        "name",
+        "variables",
+        "$parentId",
+        "$breakpoints",
+        "attributes",
+        "children",
+        "$truncated",
+        "$descendantCount"
+      ]
+    },
+    {
+      "pagePath": "/404",
+      "id": "ojmcAsLyM",
+      "name": "/404",
+      "type": "WebPageNode",
+      "attrs": {
+        "metadata": {
+          "title": "Page not found | Arbour",
+          "description": "This page is out of frame. Return to Arbour.",
+          "noIndex": true,
+          "noIndexSite": true
+        },
+        "path": "/404"
+      },
+      "keys": [
+        "type",
+        "id",
+        "name",
+        "variables",
+        "$parentId",
+        "$breakpoints",
+        "attributes",
+        "children",
+        "$truncated",
+        "$descendantCount"
+      ]
+    },
+    {
+      "pagePath": "/notes/:Journal",
+      "id": "YPPO8pJ92",
+      "name": "/notes/:Journal",
+      "type": "WebPageNode",
+      "attrs": {
+        "metadata": {
+          "title": "{{Title}} | Arbour",
+          "description": "{{SEO Description}}"
+        },
+        "path": "/notes/:Journal"
+      },
+      "keys": [
+        "type",
+        "id",
+        "name",
+        "variables",
+        "$parentId",
+        "$breakpoints",
+        "attributes",
+        "children",
+        "$truncated",
+        "$descendantCount"
+      ]
+    },
+    {
+      "pagePath": "/properties-2/:Properties",
+      "id": "OhRUQROL4",
+      "name": "/properties-2/:Properties",
+      "type": "WebPageNode",
+      "attrs": {
+        "metadata": {
+          "title": "{{SEO Title}}",
+          "description": "{{SEO Description}}"
+        },
+        "path": "/properties-2/:Properties"
+      },
+      "keys": [
+        "type",
+        "id",
+        "name",
+        "variables",
+        "$parentId",
+        "$breakpoints",
+        "attributes",
+        "children",
+        "$truncated",
+        "$descendantCount"
+      ]
+    }
+  ],
+  "progressiveBlur": {
+    "rmIdx": 169,
+    "staticIdx": -1,
+    "canvasIdx": -1,
+    "snippet": " strength 0)\nimport { addPropertyControls, ControlType } from \"framer\"\nimport { useReducedMotion } from \"framer-motion\"\nimport { useMemo, useRef } from \"react\"\nimport type { CSSProperties } from \"react\"\n\ntype Curve = \"linear\" | \"bezier\" | \"ease-in\" | \"ease-out\" | \"ease-in-out\"\nty"
+  },
+  "externals": [
+    {
+      "id": "9ajhXMTvNHa3o84QkAph",
+      "displayName": "Stop Scroll"
+    },
+    {
+      "id": "MxeAzs2A7r9z5wIAtPij",
+      "displayName": "Arbour_TerritoryRail"
+    },
+    {
+      "id": "P52cqIVrKigQv4GmBCap",
+      "displayName": "Arbour_EditorialReveal"
+    },
+    {
+      "id": "eITABUpGF0ytPyxYWYqu",
+      "displayName": "Scroll Blur"
+    }
+  ]
+}

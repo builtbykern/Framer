@@ -1,0 +1,1283 @@
+{
+  "collectedAt": "2026-07-17T18:30:42.306Z",
+  "pages": {
+    "/": {
+      "path": "/",
+      "hasNav": true,
+      "hasFooter": true,
+      "underlineLinks": [
+        {
+          "id": "LPN9f_OPd",
+          "text": "",
+          "color": "",
+          "controls": {
+            "text": "var(--token-a16d0333-6bd5-4d60-aa00-fac26447145d)",
+            "href": "/neighbourhoods"
+          }
+        },
+        {
+          "id": "IdwyBx4Vz",
+          "text": "",
+          "color": "",
+          "controls": {
+            "text": "var(--token-a16d0333-6bd5-4d60-aa00-fac26447145d)",
+            "href": "/properties-2"
+          }
+        },
+        {
+          "id": "CAdGD1vAP",
+          "text": "",
+          "color": "",
+          "controls": {
+            "text": "var(--token-a16d0333-6bd5-4d60-aa00-fac26447145d)",
+            "href": "/properties-2"
+          }
+        },
+        {
+          "id": "h0vfeOTBw",
+          "text": "",
+          "color": "",
+          "controls": {
+            "text": "var(--token-a16d0333-6bd5-4d60-aa00-fac26447145d)",
+            "href": "/properties-2"
+          }
+        },
+        {
+          "id": "f2fxMg6nz",
+          "text": "",
+          "color": "",
+          "controls": {
+            "text": "var(--token-a16d0333-6bd5-4d60-aa00-fac26447145d)",
+            "href": "/properties-2"
+          }
+        },
+        {
+          "id": "LL2hvcJ80",
+          "text": "",
+          "color": "",
+          "controls": {
+            "text": "var(--token-a16d0333-6bd5-4d60-aa00-fac26447145d)",
+            "href": "/properties-2"
+          }
+        },
+        {
+          "id": "m6drid56u",
+          "text": "",
+          "color": "",
+          "controls": {
+            "text": "var(--token-a16d0333-6bd5-4d60-aa00-fac26447145d)",
+            "href": "/notes"
+          }
+        },
+        {
+          "id": "U3TeNUVXvLPN9f_OPd",
+          "text": "",
+          "color": "",
+          "controls": {
+            "text": "var(--token-a16d0333-6bd5-4d60-aa00-fac26447145d)",
+            "href": "/neighbourhoods"
+          }
+        },
+        {
+          "id": "U3TeNUVXvIdwyBx4Vz",
+          "text": "",
+          "color": "",
+          "controls": {
+            "text": "var(--token-a16d0333-6bd5-4d60-aa00-fac26447145d)",
+            "href": "/properties-2"
+          }
+        },
+        {
+          "id": "U3TeNUVXvCAdGD1vAP",
+          "text": "",
+          "color": "",
+          "controls": {
+            "text": "var(--token-a16d0333-6bd5-4d60-aa00-fac26447145d)",
+            "href": "/properties-2"
+          }
+        },
+        {
+          "id": "U3TeNUVXvh0vfeOTBw",
+          "text": "",
+          "color": "",
+          "controls": {
+            "text": "var(--token-a16d0333-6bd5-4d60-aa00-fac26447145d)",
+            "href": "/properties-2"
+          }
+        },
+        {
+          "id": "U3TeNUVXvf2fxMg6nz",
+          "text": "",
+          "color": "",
+          "controls": {
+            "text": "var(--token-a16d0333-6bd5-4d60-aa00-fac26447145d)",
+            "href": "/properties-2"
+          }
+        },
+        {
+          "id": "U3TeNUVXvLL2hvcJ80",
+          "text": "",
+          "color": "",
+          "controls": {
+            "text": "var(--token-a16d0333-6bd5-4d60-aa00-fac26447145d)",
+            "href": "/properties-2"
+          }
+        },
+        {
+          "id": "U3TeNUVXvm6drid56u",
+          "text": "",
+          "color": "",
+          "controls": {
+            "text": "var(--token-a16d0333-6bd5-4d60-aa00-fac26447145d)",
+            "href": "/notes"
+          }
+        },
+        {
+          "id": "pmAxXUJ0oLPN9f_OPd",
+          "text": "",
+          "color": "",
+          "controls": {
+            "text": "var(--token-a16d0333-6bd5-4d60-aa00-fac26447145d)",
+            "href": "/neighbourhoods"
+          }
+        },
+        {
+          "id": "pmAxXUJ0oIdwyBx4Vz",
+          "text": "",
+          "color": "",
+          "controls": {
+            "text": "var(--token-a16d0333-6bd5-4d60-aa00-fac26447145d)",
+            "href": "/properties-2"
+          }
+        },
+        {
+          "id": "pmAxXUJ0oCAdGD1vAP",
+          "text": "",
+          "color": "",
+          "controls": {
+            "text": "var(--token-a16d0333-6bd5-4d60-aa00-fac26447145d)",
+            "href": "/properties-2"
+          }
+        },
+        {
+          "id": "pmAxXUJ0oh0vfeOTBw",
+          "text": "",
+          "color": "",
+          "controls": {
+            "text": "var(--token-a16d0333-6bd5-4d60-aa00-fac26447145d)",
+            "href": "/properties-2"
+          }
+        },
+        {
+          "id": "pmAxXUJ0of2fxMg6nz",
+          "text": "",
+          "color": "",
+          "controls": {
+            "text": "var(--token-a16d0333-6bd5-4d60-aa00-fac26447145d)",
+            "href": "/properties-2"
+          }
+        },
+        {
+          "id": "pmAxXUJ0oLL2hvcJ80",
+          "text": "",
+          "color": "",
+          "controls": {
+            "text": "var(--token-a16d0333-6bd5-4d60-aa00-fac26447145d)",
+            "href": "/properties-2"
+          }
+        },
+        {
+          "id": "pmAxXUJ0om6drid56u",
+          "text": "",
+          "color": "",
+          "controls": {
+            "text": "var(--token-a16d0333-6bd5-4d60-aa00-fac26447145d)",
+            "href": "/notes"
+          }
+        }
+      ],
+      "freehandArrows": [],
+      "residual120": [],
+      "bands128": [
+        {
+          "id": "CXKn_oqE0",
+          "name": "Territories Section",
+          "pad": "128px 48px 128px 48px"
+        },
+        {
+          "id": "rAukVaNHU",
+          "name": "Portfolio Section",
+          "pad": "128px 48px 128px 48px"
+        },
+        {
+          "id": "vyLrJ6ztM",
+          "name": "",
+          "pad": "128px 48px 128px 48px"
+        },
+        {
+          "id": "U9mwOiQun",
+          "name": "Recognition Section",
+          "pad": "128px 48px 128px 48px"
+        },
+        {
+          "id": "PWy2_wM2R",
+          "name": "Testimonial Section",
+          "pad": "128px 48px 128px 48px"
+        },
+        {
+          "id": "z3aj0E0xy",
+          "name": "Journal",
+          "pad": "128px 48px 128px 48px"
+        }
+      ],
+      "hardOlive": [],
+      "chartreuse": [],
+      "primaryButtons": [],
+      "formButtons": [
+        {
+          "id": "EmgZfw7qw",
+          "name": "Submit Button"
+        },
+        {
+          "id": "U3TeNUVXvEmgZfw7qw",
+          "name": "Submit Button"
+        },
+        {
+          "id": "pmAxXUJ0oEmgZfw7qw",
+          "name": "Submit Button"
+        }
+      ],
+      "articleCards": [
+        {
+          "id": "l0PUNvggq",
+          "title": "var(--token-e2f9a9eb-668a-4021-80d9-b04413b5f392)",
+          "meta": "rgba(28, 27, 22, 0.55)",
+          "kicker": "var(--token-a16d0333-6bd5-4d60-aa00-fac26447145d)"
+        },
+        {
+          "id": "U3TeNUVXvl0PUNvggq",
+          "title": "var(--token-e2f9a9eb-668a-4021-80d9-b04413b5f392)",
+          "meta": "rgba(28, 27, 22, 0.55)",
+          "kicker": "var(--token-a16d0333-6bd5-4d60-aa00-fac26447145d)"
+        },
+        {
+          "id": "pmAxXUJ0ol0PUNvggq",
+          "title": "var(--token-e2f9a9eb-668a-4021-80d9-b04413b5f392)",
+          "meta": "rgba(28, 27, 22, 0.55)",
+          "kicker": "var(--token-a16d0333-6bd5-4d60-aa00-fac26447145d)"
+        }
+      ]
+    },
+    "/properties-2": {
+      "path": "/properties-2",
+      "hasNav": true,
+      "hasFooter": true,
+      "underlineLinks": [
+        {
+          "id": "gAOwaKVbo",
+          "text": "",
+          "color": "",
+          "controls": {
+            "text": "var(--token-a16d0333-6bd5-4d60-aa00-fac26447145d)",
+            "href": "/neighbourhoods"
+          }
+        },
+        {
+          "id": "SScKalu3BgAOwaKVbo",
+          "text": "",
+          "color": "",
+          "controls": {
+            "text": "var(--token-a16d0333-6bd5-4d60-aa00-fac26447145d)",
+            "href": "/neighbourhoods"
+          }
+        },
+        {
+          "id": "EK6d5SyWLgAOwaKVbo",
+          "text": "",
+          "color": "",
+          "controls": {
+            "text": "var(--token-a16d0333-6bd5-4d60-aa00-fac26447145d)",
+            "href": "/neighbourhoods"
+          }
+        }
+      ],
+      "freehandArrows": [],
+      "residual120": [],
+      "bands128": [
+        {
+          "id": "gn2phxXn5",
+          "name": "Properties Grid",
+          "pad": "128px 48px 128px 48px"
+        },
+        {
+          "id": "APChY780b",
+          "name": "Market Editorial",
+          "pad": "128px 48px 128px 48px"
+        },
+        {
+          "id": "pC9Un5Mw5",
+          "name": "Private Viewing Process",
+          "pad": "128px 48px 128px 48px"
+        },
+        {
+          "id": "ivqFzeVAZ",
+          "name": "Continue Your Search",
+          "pad": "128px 48px 128px 48px"
+        },
+        {
+          "id": "cFtWJlabj",
+          "name": "Enquiry CTA",
+          "pad": "128px 48px 128px 48px"
+        }
+      ],
+      "hardOlive": [],
+      "chartreuse": [],
+      "primaryButtons": [],
+      "formButtons": [],
+      "articleCards": []
+    },
+    "/neighbourhoods": {
+      "path": "/neighbourhoods",
+      "hasNav": true,
+      "hasFooter": true,
+      "underlineLinks": [
+        {
+          "id": "WdwTrRo4j",
+          "text": "",
+          "color": "",
+          "controls": {
+            "text": "var(--token-a16d0333-6bd5-4d60-aa00-fac26447145d)",
+            "href": "/contact"
+          }
+        },
+        {
+          "id": "aJLpuUP0qWdwTrRo4j",
+          "text": "",
+          "color": "",
+          "controls": {
+            "text": "var(--token-a16d0333-6bd5-4d60-aa00-fac26447145d)",
+            "href": "/contact"
+          }
+        },
+        {
+          "id": "Qonafp_oDWdwTrRo4j",
+          "text": "",
+          "color": "",
+          "controls": {
+            "text": "var(--token-a16d0333-6bd5-4d60-aa00-fac26447145d)",
+            "href": "/contact"
+          }
+        }
+      ],
+      "freehandArrows": [],
+      "residual120": [],
+      "bands128": [
+        {
+          "id": "NrbMmTnFX",
+          "name": "Territory Grid Section",
+          "pad": "128px 48px 128px 48px"
+        },
+        {
+          "id": "KraraKF0A",
+          "name": "How We Read A Place",
+          "pad": "128px 48px 128px 48px"
+        }
+      ],
+      "hardOlive": [],
+      "chartreuse": [],
+      "primaryButtons": [],
+      "formButtons": [],
+      "articleCards": []
+    },
+    "/notes": {
+      "path": "/notes",
+      "hasNav": true,
+      "hasFooter": true,
+      "underlineLinks": [
+        {
+          "id": "TERtNoUYH",
+          "text": "",
+          "color": "",
+          "controls": {
+            "text": "var(--token-537bd017-a079-4a2b-9afa-25208d628840)",
+            "href": "/about"
+          }
+        },
+        {
+          "id": "LptqEiXVpTERtNoUYH",
+          "text": "",
+          "color": "",
+          "controls": {
+            "text": "var(--token-537bd017-a079-4a2b-9afa-25208d628840)",
+            "href": "/about"
+          }
+        },
+        {
+          "id": "INUKgvAnaTERtNoUYH",
+          "text": "",
+          "color": "",
+          "controls": {
+            "text": "var(--token-537bd017-a079-4a2b-9afa-25208d628840)",
+            "href": "/about"
+          }
+        }
+      ],
+      "freehandArrows": [],
+      "residual120": [],
+      "bands128": [
+        {
+          "id": "p7CGH_nWX",
+          "name": "Journal Manifesto",
+          "pad": "128px 48px 128px 48px"
+        }
+      ],
+      "hardOlive": [],
+      "chartreuse": [],
+      "primaryButtons": [
+        {
+          "id": "UHp6ZaX9O",
+          "name": "Journal Button",
+          "text": "Load more"
+        },
+        {
+          "id": "LptqEiXVpUHp6ZaX9O",
+          "name": "Journal Button",
+          "text": "Load more"
+        },
+        {
+          "id": "INUKgvAnaUHp6ZaX9O",
+          "name": "Journal Button",
+          "text": "Load more"
+        }
+      ],
+      "formButtons": [],
+      "articleCards": [
+        {
+          "id": "l18JMxH_o",
+          "title": "var(--token-e2f9a9eb-668a-4021-80d9-b04413b5f392)",
+          "meta": "rgba(28, 27, 22, 0.55)",
+          "kicker": "var(--token-a16d0333-6bd5-4d60-aa00-fac26447145d)"
+        },
+        {
+          "id": "YnwtuglR2",
+          "title": "var(--token-e2f9a9eb-668a-4021-80d9-b04413b5f392)",
+          "meta": "rgba(28, 27, 22, 0.55)",
+          "kicker": "var(--token-a16d0333-6bd5-4d60-aa00-fac26447145d)"
+        },
+        {
+          "id": "L8GOyfVuG",
+          "title": "var(--token-e2f9a9eb-668a-4021-80d9-b04413b5f392)",
+          "meta": "rgba(28, 27, 22, 0.55)",
+          "kicker": "var(--token-a16d0333-6bd5-4d60-aa00-fac26447145d)"
+        },
+        {
+          "id": "SO93hvT3J",
+          "title": "var(--token-e2f9a9eb-668a-4021-80d9-b04413b5f392)",
+          "meta": "rgba(28, 27, 22, 0.55)",
+          "kicker": "var(--token-a16d0333-6bd5-4d60-aa00-fac26447145d)"
+        },
+        {
+          "id": "HYXGZ3oG9",
+          "title": "var(--token-e2f9a9eb-668a-4021-80d9-b04413b5f392)",
+          "meta": "rgba(28, 27, 22, 0.55)",
+          "kicker": "var(--token-a16d0333-6bd5-4d60-aa00-fac26447145d)"
+        },
+        {
+          "id": "JPtfyZLDE",
+          "title": "var(--token-e2f9a9eb-668a-4021-80d9-b04413b5f392)",
+          "meta": "rgba(28, 27, 22, 0.55)",
+          "kicker": "var(--token-a16d0333-6bd5-4d60-aa00-fac26447145d)"
+        },
+        {
+          "id": "rghwUbUzd",
+          "title": "var(--token-e2f9a9eb-668a-4021-80d9-b04413b5f392)",
+          "meta": "rgba(28, 27, 22, 0.55)",
+          "kicker": "var(--token-a16d0333-6bd5-4d60-aa00-fac26447145d)"
+        },
+        {
+          "id": "LptqEiXVpl18JMxH_o",
+          "title": "var(--token-e2f9a9eb-668a-4021-80d9-b04413b5f392)",
+          "meta": "rgba(28, 27, 22, 0.55)",
+          "kicker": "var(--token-a16d0333-6bd5-4d60-aa00-fac26447145d)"
+        },
+        {
+          "id": "LptqEiXVpYnwtuglR2",
+          "title": "var(--token-e2f9a9eb-668a-4021-80d9-b04413b5f392)",
+          "meta": "rgba(28, 27, 22, 0.55)",
+          "kicker": "var(--token-a16d0333-6bd5-4d60-aa00-fac26447145d)"
+        },
+        {
+          "id": "LptqEiXVpL8GOyfVuG",
+          "title": "var(--token-e2f9a9eb-668a-4021-80d9-b04413b5f392)",
+          "meta": "rgba(28, 27, 22, 0.55)",
+          "kicker": "var(--token-a16d0333-6bd5-4d60-aa00-fac26447145d)"
+        },
+        {
+          "id": "LptqEiXVpSO93hvT3J",
+          "title": "var(--token-e2f9a9eb-668a-4021-80d9-b04413b5f392)",
+          "meta": "rgba(28, 27, 22, 0.55)",
+          "kicker": "var(--token-a16d0333-6bd5-4d60-aa00-fac26447145d)"
+        },
+        {
+          "id": "LptqEiXVpHYXGZ3oG9",
+          "title": "var(--token-e2f9a9eb-668a-4021-80d9-b04413b5f392)",
+          "meta": "rgba(28, 27, 22, 0.55)",
+          "kicker": "var(--token-a16d0333-6bd5-4d60-aa00-fac26447145d)"
+        },
+        {
+          "id": "LptqEiXVpJPtfyZLDE",
+          "title": "var(--token-e2f9a9eb-668a-4021-80d9-b04413b5f392)",
+          "meta": "rgba(28, 27, 22, 0.55)",
+          "kicker": "var(--token-a16d0333-6bd5-4d60-aa00-fac26447145d)"
+        },
+        {
+          "id": "LptqEiXVprghwUbUzd",
+          "title": "var(--token-e2f9a9eb-668a-4021-80d9-b04413b5f392)",
+          "meta": "rgba(28, 27, 22, 0.55)",
+          "kicker": "var(--token-a16d0333-6bd5-4d60-aa00-fac26447145d)"
+        },
+        {
+          "id": "INUKgvAnal18JMxH_o",
+          "title": "var(--token-e2f9a9eb-668a-4021-80d9-b04413b5f392)",
+          "meta": "rgba(28, 27, 22, 0.55)",
+          "kicker": "var(--token-a16d0333-6bd5-4d60-aa00-fac26447145d)"
+        },
+        {
+          "id": "INUKgvAnaYnwtuglR2",
+          "title": "var(--token-e2f9a9eb-668a-4021-80d9-b04413b5f392)",
+          "meta": "rgba(28, 27, 22, 0.55)",
+          "kicker": "var(--token-a16d0333-6bd5-4d60-aa00-fac26447145d)"
+        },
+        {
+          "id": "INUKgvAnaL8GOyfVuG",
+          "title": "var(--token-e2f9a9eb-668a-4021-80d9-b04413b5f392)",
+          "meta": "rgba(28, 27, 22, 0.55)",
+          "kicker": "var(--token-a16d0333-6bd5-4d60-aa00-fac26447145d)"
+        },
+        {
+          "id": "INUKgvAnaSO93hvT3J",
+          "title": "var(--token-e2f9a9eb-668a-4021-80d9-b04413b5f392)",
+          "meta": "rgba(28, 27, 22, 0.55)",
+          "kicker": "var(--token-a16d0333-6bd5-4d60-aa00-fac26447145d)"
+        },
+        {
+          "id": "INUKgvAnaHYXGZ3oG9",
+          "title": "var(--token-e2f9a9eb-668a-4021-80d9-b04413b5f392)",
+          "meta": "rgba(28, 27, 22, 0.55)",
+          "kicker": "var(--token-a16d0333-6bd5-4d60-aa00-fac26447145d)"
+        },
+        {
+          "id": "INUKgvAnaJPtfyZLDE",
+          "title": "var(--token-e2f9a9eb-668a-4021-80d9-b04413b5f392)",
+          "meta": "rgba(28, 27, 22, 0.55)",
+          "kicker": "var(--token-a16d0333-6bd5-4d60-aa00-fac26447145d)"
+        },
+        {
+          "id": "INUKgvAnarghwUbUzd",
+          "title": "var(--token-e2f9a9eb-668a-4021-80d9-b04413b5f392)",
+          "meta": "rgba(28, 27, 22, 0.55)",
+          "kicker": "var(--token-a16d0333-6bd5-4d60-aa00-fac26447145d)"
+        }
+      ]
+    },
+    "/about": {
+      "path": "/about",
+      "hasNav": true,
+      "hasFooter": true,
+      "underlineLinks": [
+        {
+          "id": "qU1PSkRMG",
+          "text": "",
+          "color": "",
+          "controls": {
+            "text": "var(--token-a16d0333-6bd5-4d60-aa00-fac26447145d)",
+            "href": "/contact"
+          }
+        },
+        {
+          "id": "xvqDXw58eqU1PSkRMG",
+          "text": "",
+          "color": "",
+          "controls": {
+            "text": "var(--token-a16d0333-6bd5-4d60-aa00-fac26447145d)",
+            "href": "/contact"
+          }
+        },
+        {
+          "id": "CYNrpU04tqU1PSkRMG",
+          "text": "",
+          "color": "",
+          "controls": {
+            "text": "var(--token-a16d0333-6bd5-4d60-aa00-fac26447145d)",
+            "href": "/contact"
+          }
+        }
+      ],
+      "freehandArrows": [],
+      "residual120": [
+        {
+          "id": "QjoW3yYRJ",
+          "name": "Beat 1 — Paper Opener",
+          "pad": "120px 48px 48px 48px"
+        }
+      ],
+      "bands128": [
+        {
+          "id": "m1IuCE2Ht",
+          "name": "Beat 3 — Manifesto",
+          "pad": "128px 48px 128px 48px"
+        },
+        {
+          "id": "AiolEHPNd",
+          "name": "Chapter — The Principals",
+          "pad": "128px 48px 128px 48px"
+        },
+        {
+          "id": "sx_GA8kBh",
+          "name": "Chapter — Two Offices",
+          "pad": "128px 48px 128px 48px"
+        },
+        {
+          "id": "OIVgjc19d",
+          "name": "Enquiry CTA",
+          "pad": "128px 48px 128px 48px"
+        }
+      ],
+      "hardOlive": [],
+      "chartreuse": [],
+      "primaryButtons": [],
+      "formButtons": [],
+      "articleCards": []
+    },
+    "/contact": {
+      "path": "/contact",
+      "hasNav": true,
+      "hasFooter": true,
+      "underlineLinks": [
+        {
+          "id": "BMhLvwqld",
+          "text": "",
+          "color": "",
+          "controls": {
+            "text": "var(--token-a16d0333-6bd5-4d60-aa00-fac26447145d)",
+            "href": "mailto:enquiries@arbour.estate"
+          }
+        },
+        {
+          "id": "QWVo91x8O",
+          "text": "",
+          "color": "",
+          "controls": {
+            "text": "var(--token-a16d0333-6bd5-4d60-aa00-fac26447145d)",
+            "href": "/notes"
+          }
+        },
+        {
+          "id": "qjv2S9WpaBMhLvwqld",
+          "text": "",
+          "color": "",
+          "controls": {
+            "text": "var(--token-a16d0333-6bd5-4d60-aa00-fac26447145d)",
+            "href": "mailto:enquiries@arbour.estate"
+          }
+        },
+        {
+          "id": "qjv2S9WpaQWVo91x8O",
+          "text": "",
+          "color": "",
+          "controls": {
+            "text": "var(--token-a16d0333-6bd5-4d60-aa00-fac26447145d)",
+            "href": "/notes"
+          }
+        },
+        {
+          "id": "jEM0wBo2vBMhLvwqld",
+          "text": "",
+          "color": "",
+          "controls": {
+            "text": "var(--token-a16d0333-6bd5-4d60-aa00-fac26447145d)",
+            "href": "mailto:enquiries@arbour.estate"
+          }
+        },
+        {
+          "id": "jEM0wBo2vQWVo91x8O",
+          "text": "",
+          "color": "",
+          "controls": {
+            "text": "var(--token-a16d0333-6bd5-4d60-aa00-fac26447145d)",
+            "href": "/notes"
+          }
+        }
+      ],
+      "freehandArrows": [],
+      "residual120": [],
+      "bands128": [
+        {
+          "id": "vv0Vi0hbh",
+          "name": "Contact Opening",
+          "pad": "128px 48px 128px 48px"
+        },
+        {
+          "id": "R3nS8tMqV",
+          "name": "Journal",
+          "pad": "128px 48px 128px 48px"
+        }
+      ],
+      "hardOlive": [],
+      "chartreuse": [],
+      "primaryButtons": [],
+      "formButtons": [
+        {
+          "id": "u2DLuU3hW",
+          "name": "Submit Button"
+        },
+        {
+          "id": "qjv2S9Wpau2DLuU3hW",
+          "name": "Submit Button"
+        },
+        {
+          "id": "jEM0wBo2vu2DLuU3hW",
+          "name": "Submit Button"
+        }
+      ],
+      "articleCards": [
+        {
+          "id": "o_f99F4sJ",
+          "title": "var(--token-e2f9a9eb-668a-4021-80d9-b04413b5f392)",
+          "meta": "rgba(28, 27, 22, 0.55)",
+          "kicker": "var(--token-a16d0333-6bd5-4d60-aa00-fac26447145d)"
+        },
+        {
+          "id": "qjv2S9Wpao_f99F4sJ",
+          "title": "var(--token-e2f9a9eb-668a-4021-80d9-b04413b5f392)",
+          "meta": "rgba(28, 27, 22, 0.55)",
+          "kicker": "var(--token-a16d0333-6bd5-4d60-aa00-fac26447145d)"
+        },
+        {
+          "id": "jEM0wBo2vo_f99F4sJ",
+          "title": "var(--token-e2f9a9eb-668a-4021-80d9-b04413b5f392)",
+          "meta": "rgba(28, 27, 22, 0.55)",
+          "kicker": "var(--token-a16d0333-6bd5-4d60-aa00-fac26447145d)"
+        }
+      ]
+    },
+    "/404": {
+      "path": "/404",
+      "hasNav": false,
+      "hasFooter": false,
+      "underlineLinks": [],
+      "freehandArrows": [
+        {
+          "id": "W3SWZOH5_",
+          "text": "RETURN TO ARBOUR →",
+          "link": null,
+          "color": "rgb(252, 250, 244)"
+        },
+        {
+          "id": "fajgZq_WSW3SWZOH5_",
+          "text": "RETURN TO ARBOUR →",
+          "link": null,
+          "color": "rgb(252, 250, 244)"
+        },
+        {
+          "id": "TmwJ7gTG4W3SWZOH5_",
+          "text": "RETURN TO ARBOUR →",
+          "link": null,
+          "color": "rgb(252, 250, 244)"
+        }
+      ],
+      "residual120": [],
+      "bands128": [],
+      "hardOlive": [],
+      "chartreuse": [],
+      "primaryButtons": [],
+      "formButtons": [],
+      "articleCards": []
+    },
+    "/properties-2/:Properties": {
+      "path": "/properties-2/:Properties",
+      "hasNav": true,
+      "hasFooter": true,
+      "underlineLinks": [],
+      "freehandArrows": [],
+      "residual120": [
+        {
+          "id": "lODMk6Egu",
+          "name": "",
+          "pad": "120px 48px 112px 48px"
+        }
+      ],
+      "bands128": [
+        {
+          "id": "uZ8oOXu4y",
+          "name": "The Setting",
+          "pad": "128px 48px 128px 48px"
+        },
+        {
+          "id": "vlElPVCV7",
+          "name": "Property Particulars",
+          "pad": "128px 48px 128px 48px"
+        },
+        {
+          "id": "OA3sHhDMv",
+          "name": "Continue Your Search",
+          "pad": "128px 48px 128px 48px"
+        },
+        {
+          "id": "Wy9_asNQu",
+          "name": "Enquiry CTA",
+          "pad": "128px 48px 128px 48px"
+        }
+      ],
+      "hardOlive": [
+        {
+          "id": "o3sRRCUo2",
+          "text": "Back to all properties",
+          "color": "rgb(84, 98, 45)"
+        },
+        {
+          "id": "e3GyRnyIH",
+          "text": "var(--variable-sx_scwXZw)",
+          "color": "rgb(84, 98, 45)"
+        },
+        {
+          "id": "VNLnTbKMG",
+          "text": "THE HOUSE",
+          "color": "rgb(84, 98, 45)"
+        },
+        {
+          "id": "oxMJ7AcyY",
+          "text": "( INTERIORS )",
+          "color": "rgb(84, 98, 45)"
+        },
+        {
+          "id": "L2TceMHda",
+          "text": "[ 03 — THE SETTING ]",
+          "color": "rgb(84, 98, 45)"
+        },
+        {
+          "id": "oTADAStnm",
+          "text": "[ CONTINUE YOUR SEARCH ]",
+          "color": "rgb(84, 98, 45)"
+        },
+        {
+          "id": "E7jDKaZv3",
+          "text": "( PRIVATE ENQUIRY )",
+          "color": "rgb(84, 98, 45)"
+        },
+        {
+          "id": "IQmBTrFpbo3sRRCUo2",
+          "text": "Back to all properties",
+          "color": "rgb(84, 98, 45)"
+        },
+        {
+          "id": "IQmBTrFpbe3GyRnyIH",
+          "text": "var(--variable-sx_scwXZw)",
+          "color": "rgb(84, 98, 45)"
+        },
+        {
+          "id": "IQmBTrFpbVNLnTbKMG",
+          "text": "THE HOUSE",
+          "color": "rgb(84, 98, 45)"
+        },
+        {
+          "id": "IQmBTrFpboxMJ7AcyY",
+          "text": "( INTERIORS )",
+          "color": "rgb(84, 98, 45)"
+        },
+        {
+          "id": "IQmBTrFpbL2TceMHda",
+          "text": "[ 03 — THE SETTING ]",
+          "color": "rgb(84, 98, 45)"
+        },
+        {
+          "id": "IQmBTrFpboTADAStnm",
+          "text": "[ CONTINUE YOUR SEARCH ]",
+          "color": "rgb(84, 98, 45)"
+        },
+        {
+          "id": "IQmBTrFpbE7jDKaZv3",
+          "text": "( PRIVATE ENQUIRY )",
+          "color": "rgb(84, 98, 45)"
+        },
+        {
+          "id": "MrTKJzwELo3sRRCUo2",
+          "text": "Back to all properties",
+          "color": "rgb(84, 98, 45)"
+        },
+        {
+          "id": "MrTKJzwELe3GyRnyIH",
+          "text": "var(--variable-sx_scwXZw)",
+          "color": "rgb(84, 98, 45)"
+        },
+        {
+          "id": "MrTKJzwELVNLnTbKMG",
+          "text": "THE HOUSE",
+          "color": "rgb(84, 98, 45)"
+        },
+        {
+          "id": "MrTKJzwELoxMJ7AcyY",
+          "text": "( INTERIORS )",
+          "color": "rgb(84, 98, 45)"
+        },
+        {
+          "id": "MrTKJzwELL2TceMHda",
+          "text": "[ 03 — THE SETTING ]",
+          "color": "rgb(84, 98, 45)"
+        },
+        {
+          "id": "MrTKJzwELoTADAStnm",
+          "text": "[ CONTINUE YOUR SEARCH ]",
+          "color": "rgb(84, 98, 45)"
+        },
+        {
+          "id": "MrTKJzwELE7jDKaZv3",
+          "text": "( PRIVATE ENQUIRY )",
+          "color": "rgb(84, 98, 45)"
+        }
+      ],
+      "chartreuse": [],
+      "primaryButtons": [],
+      "formButtons": [],
+      "articleCards": []
+    },
+    "/notes/:Journal": {
+      "path": "/notes/:Journal",
+      "hasNav": true,
+      "hasFooter": true,
+      "underlineLinks": [],
+      "freehandArrows": [],
+      "residual120": [],
+      "bands128": [
+        {
+          "id": "cIncylbTv",
+          "name": "More From Journal",
+          "pad": "128px 48px 128px 48px"
+        }
+      ],
+      "hardOlive": [
+        {
+          "id": "T2LFHaziB",
+          "text": "var(--variable-Ht2pNTkTm)",
+          "color": "rgb(84, 98, 45)"
+        },
+        {
+          "id": "gZUAlaJJ1T2LFHaziB",
+          "text": "var(--variable-Ht2pNTkTm)",
+          "color": "rgb(84, 98, 45)"
+        },
+        {
+          "id": "EavJve6uGT2LFHaziB",
+          "text": "var(--variable-Ht2pNTkTm)",
+          "color": "rgb(84, 98, 45)"
+        }
+      ],
+      "chartreuse": [],
+      "primaryButtons": [],
+      "formButtons": [
+        {
+          "id": "IfYR6VpwS",
+          "name": "Submit Button"
+        },
+        {
+          "id": "gZUAlaJJ1IfYR6VpwS",
+          "name": "Submit Button"
+        },
+        {
+          "id": "EavJve6uGIfYR6VpwS",
+          "name": "Submit Button"
+        }
+      ],
+      "articleCards": [
+        {
+          "id": "eGBvqx2ap",
+          "title": "var(--token-e2f9a9eb-668a-4021-80d9-b04413b5f392)",
+          "meta": "rgba(28, 27, 22, 0.55)",
+          "kicker": "var(--token-a16d0333-6bd5-4d60-aa00-fac26447145d)"
+        },
+        {
+          "id": "gZUAlaJJ1eGBvqx2ap",
+          "title": "var(--token-e2f9a9eb-668a-4021-80d9-b04413b5f392)",
+          "meta": "rgba(28, 27, 22, 0.55)",
+          "kicker": "var(--token-a16d0333-6bd5-4d60-aa00-fac26447145d)"
+        },
+        {
+          "id": "EavJve6uGeGBvqx2ap",
+          "title": "var(--token-e2f9a9eb-668a-4021-80d9-b04413b5f392)",
+          "meta": "rgba(28, 27, 22, 0.55)",
+          "kicker": "var(--token-a16d0333-6bd5-4d60-aa00-fac26447145d)"
+        }
+      ]
+    }
+  },
+  "totals": {
+    "underlineLinks": 39,
+    "freehandArrows": 3,
+    "freehandArrowsNoLink": 3,
+    "contentBands128": 25,
+    "residual120": 2,
+    "hardOlive": 24,
+    "chartreuseText": 0
+  },
+  "chrome": {
+    "/": {
+      "nav": true,
+      "footer": true
+    },
+    "/properties-2": {
+      "nav": true,
+      "footer": true
+    },
+    "/neighbourhoods": {
+      "nav": true,
+      "footer": true
+    },
+    "/notes": {
+      "nav": true,
+      "footer": true
+    },
+    "/about": {
+      "nav": true,
+      "footer": true
+    },
+    "/contact": {
+      "nav": true,
+      "footer": true
+    },
+    "/404": {
+      "nav": false,
+      "footer": false
+    },
+    "/properties-2/:Properties": {
+      "nav": true,
+      "footer": true
+    },
+    "/notes/:Journal": {
+      "nav": true,
+      "footer": true
+    }
+  },
+  "footerNav": [
+    {
+      "id": "NDTIDDKqL",
+      "text": "Navigate",
+      "link": null,
+      "color": "rgb(84, 98, 45)"
+    },
+    {
+      "id": "Z6pdpz5pD",
+      "text": "Properties",
+      "link": {
+        "href": "/properties-2"
+      },
+      "color": "var(--token-e2f9a9eb-0000-0000-0000-000000000000)"
+    },
+    {
+      "id": "AUgKRZDLa",
+      "text": "Neighbourhoods",
+      "link": {
+        "href": "/neighbourhoods"
+      },
+      "color": "var(--token-e2f9a9eb-0000-0000-0000-000000000000)"
+    },
+    {
+      "id": "qAqWkEULy",
+      "text": "Notes",
+      "link": {
+        "href": "/notes"
+      },
+      "color": "var(--token-e2f9a9eb-0000-0000-0000-000000000000)"
+    },
+    {
+      "id": "ZP4kFwKwc",
+      "text": "About",
+      "link": {
+        "href": "/about"
+      },
+      "color": "var(--token-e2f9a9eb-0000-0000-0000-000000000000)"
+    },
+    {
+      "id": "AlTIEFAKV",
+      "text": "Book a viewing",
+      "link": {
+        "href": "/contact"
+      },
+      "color": "var(--token-e2f9a9eb-0000-0000-0000-000000000000)"
+    }
+  ],
+  "editorialReveal": {
+    "onCanvas": [
+      {
+        "page": "/",
+        "id": "xn5GZj0NJ",
+        "comp": "Arbour_EditorialReveal",
+        "compId": ""
+      },
+      {
+        "page": "/",
+        "id": "U3TeNUVXvxn5GZj0NJ",
+        "comp": "Arbour_EditorialReveal",
+        "compId": ""
+      },
+      {
+        "page": "/",
+        "id": "pmAxXUJ0oxn5GZj0NJ",
+        "comp": "Arbour_EditorialReveal",
+        "compId": ""
+      },
+      {
+        "page": "/about",
+        "id": "QQiiFaHAX",
+        "comp": "Arbour_EditorialReveal",
+        "compId": ""
+      },
+      {
+        "page": "/about",
+        "id": "xvqDXw58eQQiiFaHAX",
+        "comp": "Arbour_EditorialReveal",
+        "compId": ""
+      },
+      {
+        "page": "/about",
+        "id": "CYNrpU04tQQiiFaHAX",
+        "comp": "Arbour_EditorialReveal",
+        "compId": ""
+      }
+    ],
+    "codeFiles": [
+      {
+        "id": "gHPemNT",
+        "name": "Arbour_EditorialReveal.tsx"
+      },
+      {
+        "id": "Y8OCjF3",
+        "name": "Arbour_EditorialReveal_1.tsx"
+      }
+    ]
+  },
+  "issues": [
+    {
+      "sev": "P2",
+      "page": "/about",
+      "msg": "120 padding band: Beat 1 — Paper Opener 120px 48px 48px 48px",
+      "id": "QjoW3yYRJ"
+    },
+    {
+      "sev": "P2",
+      "page": "/properties-2/:Properties",
+      "msg": "120 padding band: lODMk6Egu 120px 48px 112px 48px",
+      "id": "lODMk6Egu"
+    }
+  ],
+  "regressions": [
+    {
+      "page": "/neighbourhoods",
+      "id": "WdwTrRo4j",
+      "expect": "UL /contact",
+      "ok": true,
+      "present": true,
+      "comp": "Arbour_UnderlineLink",
+      "controls": {
+        "link": "/contact",
+        "text": "var(--token-a16d0333-6bd5-4d60-aa00-fac26447145d)"
+      }
+    },
+    {
+      "page": "/properties-2",
+      "id": "gAOwaKVbo",
+      "expect": "UL /neighbourhoods",
+      "ok": true,
+      "present": true,
+      "comp": "Arbour_UnderlineLink",
+      "controls": {
+        "link": "/neighbourhoods",
+        "text": "var(--token-a16d0333-6bd5-4d60-aa00-fac26447145d)"
+      }
+    },
+    {
+      "page": "/contact",
+      "id": "BMhLvwqld",
+      "expect": "UL mailto",
+      "ok": true,
+      "present": true,
+      "comp": "Arbour_UnderlineLink",
+      "controls": {
+        "link": "mailto:enquiries@arbour.estate",
+        "text": "var(--token-a16d0333-6bd5-4d60-aa00-fac26447145d)"
+      }
+    },
+    {
+      "page": "/contact",
+      "id": "QWVo91x8O",
+      "expect": "UL /notes",
+      "ok": true,
+      "present": true,
+      "comp": "Arbour_UnderlineLink",
+      "controls": {
+        "link": "/notes",
+        "text": "var(--token-a16d0333-6bd5-4d60-aa00-fac26447145d)"
+      }
+    },
+    {
+      "page": "/",
+      "id": "m6drid56u",
+      "expect": "UL /notes",
+      "ok": true,
+      "present": true,
+      "comp": "Arbour_UnderlineLink",
+      "controls": {
+        "link": "/notes",
+        "text": "var(--token-a16d0333-6bd5-4d60-aa00-fac26447145d)"
+      }
+    },
+    {
+      "page": "/notes",
+      "id": "TERtNoUYH",
+      "expect": "UL /about cream",
+      "ok": true,
+      "present": true,
+      "comp": "Arbour_UnderlineLink",
+      "controls": {
+        "link": "/about",
+        "text": "var(--token-537bd017-a079-4a2b-9afa-25208d628840)"
+      }
+    },
+    {
+      "page": "/",
+      "id": "EmgZfw7qw",
+      "expect": "FormButton",
+      "ok": true,
+      "present": true,
+      "name": "Submit Button",
+      "comp": "Arbour_FormButton",
+      "controls": {
+        "text": "rgb(252, 250, 244)"
+      }
+    },
+    {
+      "page": "/contact",
+      "id": "WVGDuTUsd",
+      "expect": "GONE PrimaryButton",
+      "ok": true,
+      "missing": true
+    },
+    {
+      "page": "/",
+      "id": "mR9gjNTwW",
+      "expect": "GONE subscribe wrap",
+      "ok": true,
+      "missing": true
+    },
+    {
+      "page": "footer",
+      "id": "qAqWkEULy",
+      "expect": "Notes /notes",
+      "ok": true,
+      "text": "Notes",
+      "link": {
+        "href": "/notes"
+      },
+      "color": "var(--token-e2f9a9eb-0000-0000-0000-000000000000)"
+    }
+  ]
+}

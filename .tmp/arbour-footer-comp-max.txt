@@ -1,0 +1,9 @@
+{
+  "applied": 3,
+  "notes": [
+    "Desktop maxW NONE→1200 id=N8Ge7eNRv",
+    "Tablet maxW NONE→1200 id=AWGNXf96_",
+    "Phone maxW NONE→1200 id=IitvyCHtz"
+  ],
+  "result": "Lint: 10 warnings."
+}

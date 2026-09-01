@@ -1,0 +1,6174 @@
+{
+  "collectedAt": "2026-08-09T17:04:08.702Z",
+  "gapRows": [
+    {
+      "path": "/",
+      "bp": "Desktop",
+      "id": "iq0rlFlTE",
+      "name": "Hero Section",
+      "depth": 1,
+      "gap": "0px",
+      "layout": "stack"
+    },
+    {
+      "path": "/",
+      "bp": "Desktop",
+      "id": "cJgmqsWkI",
+      "name": "Image Layer",
+      "depth": 2,
+      "gap": "0px",
+      "layout": "stack"
+    },
+    {
+      "path": "/",
+      "bp": "Desktop",
+      "id": "qpE9wJcPm",
+      "name": "Gradient Overlay",
+      "depth": 2,
+      "gap": "0px",
+      "layout": "stack"
+    },
+    {
+      "path": "/",
+      "bp": "Desktop",
+      "id": "ET8JHTjC5",
+      "name": "Text Content Column",
+      "depth": 2,
+      "gap": "32px",
+      "layout": "stack"
+    },
+    {
+      "path": "/",
+      "bp": "Desktop",
+      "id": "WkwpIexZq",
+      "name": "Text Stack",
+      "depth": 4,
+      "gap": "0px",
+      "layout": "stack"
+    },
+    {
+      "path": "/",
+      "bp": "Desktop",
+      "id": "a6KIAp6Ii",
+      "name": "Territories Section",
+      "depth": 1,
+      "gap": "48px",
+      "layout": "stack"
+    },
+    {
+      "path": "/",
+      "bp": "Desktop",
+      "id": "du1d5C2G_",
+      "name": "Territories Header",
+      "depth": 2,
+      "gap": "24px",
+      "layout": "stack"
+    },
+    {
+      "path": "/",
+      "bp": "Desktop",
+      "id": "RtG3B70W9",
+      "name": "Portfolio Section",
+      "depth": 1,
+      "gap": "56px",
+      "layout": "stack"
+    },
+    {
+      "path": "/",
+      "bp": "Desktop",
+      "id": "zBkRxuUmY",
+      "name": "Portfolio Container",
+      "depth": 2,
+      "gap": "40px",
+      "layout": "stack"
+    },
+    {
+      "path": "/",
+      "bp": "Desktop",
+      "id": "sauSSFlfB",
+      "name": "Portfolio Grid",
+      "depth": 3,
+      "gap": "32px",
+      "layout": "stack"
+    },
+    {
+      "path": "/",
+      "bp": "Desktop",
+      "id": "pbxBoE90U",
+      "name": "Residence Card Column",
+      "depth": 4,
+      "gap": "24px",
+      "layout": "stack"
+    },
+    {
+      "path": "/",
+      "bp": "Desktop",
+      "id": "XQ8ntWwAC",
+      "name": "Portfolio Side Panel",
+      "depth": 4,
+      "gap": "24px",
+      "layout": "stack"
+    },
+    {
+      "path": "/",
+      "bp": "Desktop",
+      "id": "sQUykbPr6",
+      "name": "Bottom",
+      "depth": 1,
+      "gap": "0px",
+      "layout": "stack"
+    },
+    {
+      "path": "/",
+      "bp": "Desktop",
+      "id": "ohPeYYgHl",
+      "name": "Content",
+      "depth": 2,
+      "gap": "0px",
+      "layout": "stack"
+    },
+    {
+      "path": "/",
+      "bp": "Desktop",
+      "id": "H_KIxioFT",
+      "name": "Process Section",
+      "depth": 1,
+      "gap": "40px",
+      "layout": "stack"
+    },
+    {
+      "path": "/",
+      "bp": "Desktop",
+      "id": "tOn8dp9rd",
+      "name": "Process List",
+      "depth": 2,
+      "gap": "0px",
+      "layout": "stack"
+    },
+    {
+      "path": "/",
+      "bp": "Desktop",
+      "id": "w3kyse_7s",
+      "name": "Process Row 01",
+      "depth": 3,
+      "gap": "48px",
+      "layout": "stack"
+    },
+    {
+      "path": "/",
+      "bp": "Desktop",
+      "id": "oIT9IrRiy",
+      "name": "Process Row 02",
+      "depth": 3,
+      "gap": "48px",
+      "layout": "stack"
+    },
+    {
+      "path": "/",
+      "bp": "Desktop",
+      "id": "ko3Oouocy",
+      "name": "Process Row 03",
+      "depth": 3,
+      "gap": "48px",
+      "layout": "stack"
+    },
+    {
+      "path": "/",
+      "bp": "Desktop",
+      "id": "eAt1AYMf9",
+      "name": "Process Row 04",
+      "depth": 3,
+      "gap": "48px",
+      "layout": "stack"
+    },
+    {
+      "path": "/",
+      "bp": "Desktop",
+      "id": "bkyM_6J5N",
+      "name": "Recognition Section",
+      "depth": 1,
+      "gap": "40px",
+      "layout": "stack"
+    },
+    {
+      "path": "/",
+      "bp": "Desktop",
+      "id": "DWggt2tS0",
+      "name": "Recognition List",
+      "depth": 2,
+      "gap": "0px",
+      "layout": "stack"
+    },
+    {
+      "path": "/",
+      "bp": "Desktop",
+      "id": "Y6WbS6_wg",
+      "name": "Recognition Item",
+      "depth": 3,
+      "gap": "80px",
+      "layout": "stack"
+    },
+    {
+      "path": "/",
+      "bp": "Desktop",
+      "id": "vDgoknehn",
+      "name": "Recognition Item",
+      "depth": 3,
+      "gap": "80px",
+      "layout": "stack"
+    },
+    {
+      "path": "/",
+      "bp": "Desktop",
+      "id": "UgWxBj6nn",
+      "name": "Recognition Item",
+      "depth": 3,
+      "gap": "80px",
+      "layout": "stack"
+    },
+    {
+      "path": "/",
+      "bp": "Desktop",
+      "id": "IotRzEZ0q",
+      "name": "Recognition Item",
+      "depth": 3,
+      "gap": "80px",
+      "layout": "stack"
+    },
+    {
+      "path": "/",
+      "bp": "Desktop",
+      "id": "VXxBSnkhU",
+      "name": "Testimonial Section",
+      "depth": 1,
+      "gap": "40px",
+      "layout": "stack"
+    },
+    {
+      "path": "/",
+      "bp": "Desktop",
+      "id": "ZsKgeszB_",
+      "name": "Journal",
+      "depth": 1,
+      "gap": "40px",
+      "layout": "stack"
+    },
+    {
+      "path": "/",
+      "bp": "Desktop",
+      "id": "agILcRHTJ",
+      "name": "Content Area",
+      "depth": 2,
+      "gap": "0px",
+      "layout": "stack"
+    },
+    {
+      "path": "/",
+      "bp": "Desktop",
+      "id": "UwAVuV4aN",
+      "name": "Journal Content",
+      "depth": 3,
+      "gap": "0px",
+      "layout": "stack"
+    },
+    {
+      "path": "/",
+      "bp": "Tablet",
+      "id": "wBAtV56MEiq0rlFlTE",
+      "name": "Hero Section",
+      "depth": 1,
+      "gap": "0px",
+      "layout": "stack"
+    },
+    {
+      "path": "/",
+      "bp": "Tablet",
+      "id": "wBAtV56MEcJgmqsWkI",
+      "name": "Image Layer",
+      "depth": 2,
+      "gap": "0px",
+      "layout": "stack"
+    },
+    {
+      "path": "/",
+      "bp": "Tablet",
+      "id": "wBAtV56MEqpE9wJcPm",
+      "name": "Gradient Overlay",
+      "depth": 2,
+      "gap": "0px",
+      "layout": "stack"
+    },
+    {
+      "path": "/",
+      "bp": "Tablet",
+      "id": "wBAtV56MEET8JHTjC5",
+      "name": "Text Content Column",
+      "depth": 2,
+      "gap": "32px",
+      "layout": "stack"
+    },
+    {
+      "path": "/",
+      "bp": "Tablet",
+      "id": "wBAtV56MEWkwpIexZq",
+      "name": "Text Stack",
+      "depth": 4,
+      "gap": "0px",
+      "layout": "stack"
+    },
+    {
+      "path": "/",
+      "bp": "Tablet",
+      "id": "wBAtV56MEa6KIAp6Ii",
+      "name": "Territories Section",
+      "depth": 1,
+      "gap": "48px",
+      "layout": "stack"
+    },
+    {
+      "path": "/",
+      "bp": "Tablet",
+      "id": "wBAtV56MEdu1d5C2G_",
+      "name": "Territories Header",
+      "depth": 2,
+      "gap": "24px",
+      "layout": "stack"
+    },
+    {
+      "path": "/",
+      "bp": "Tablet",
+      "id": "wBAtV56MERtG3B70W9",
+      "name": "Portfolio Section",
+      "depth": 1,
+      "gap": "56px",
+      "layout": "stack"
+    },
+    {
+      "path": "/",
+      "bp": "Tablet",
+      "id": "wBAtV56MEzBkRxuUmY",
+      "name": "Portfolio Container",
+      "depth": 2,
+      "gap": "40px",
+      "layout": "stack"
+    },
+    {
+      "path": "/",
+      "bp": "Tablet",
+      "id": "wBAtV56MEsauSSFlfB",
+      "name": "Portfolio Grid",
+      "depth": 3,
+      "gap": "24px",
+      "layout": "stack"
+    },
+    {
+      "path": "/",
+      "bp": "Tablet",
+      "id": "wBAtV56MEpbxBoE90U",
+      "name": "Residence Card Column",
+      "depth": 4,
+      "gap": "24px",
+      "layout": "stack"
+    },
+    {
+      "path": "/",
+      "bp": "Tablet",
+      "id": "wBAtV56MEXQ8ntWwAC",
+      "name": "Portfolio Side Panel",
+      "depth": 4,
+      "gap": "48px",
+      "layout": "stack"
+    },
+    {
+      "path": "/",
+      "bp": "Tablet",
+      "id": "wBAtV56MEsQUykbPr6",
+      "name": "Bottom",
+      "depth": 1,
+      "gap": "0px",
+      "layout": "stack"
+    },
+    {
+      "path": "/",
+      "bp": "Tablet",
+      "id": "wBAtV56MEohPeYYgHl",
+      "name": "Content",
+      "depth": 2,
+      "gap": "0px",
+      "layout": "stack"
+    },
+    {
+      "path": "/",
+      "bp": "Tablet",
+      "id": "wBAtV56MEH_KIxioFT",
+      "name": "Process Section",
+      "depth": 1,
+      "gap": "40px",
+      "layout": "stack"
+    },
+    {
+      "path": "/",
+      "bp": "Tablet",
+      "id": "wBAtV56MEtOn8dp9rd",
+      "name": "Process List",
+      "depth": 2,
+      "gap": "0px",
+      "layout": "stack"
+    },
+    {
+      "path": "/",
+      "bp": "Tablet",
+      "id": "wBAtV56MEw3kyse_7s",
+      "name": "Process Row 01",
+      "depth": 3,
+      "gap": "32px",
+      "layout": "stack"
+    },
+    {
+      "path": "/",
+      "bp": "Tablet",
+      "id": "wBAtV56MEoIT9IrRiy",
+      "name": "Process Row 02",
+      "depth": 3,
+      "gap": "32px",
+      "layout": "stack"
+    },
+    {
+      "path": "/",
+      "bp": "Tablet",
+      "id": "wBAtV56MEko3Oouocy",
+      "name": "Process Row 03",
+      "depth": 3,
+      "gap": "32px",
+      "layout": "stack"
+    },
+    {
+      "path": "/",
+      "bp": "Tablet",
+      "id": "wBAtV56MEeAt1AYMf9",
+      "name": "Process Row 04",
+      "depth": 3,
+      "gap": "32px",
+      "layout": "stack"
+    },
+    {
+      "path": "/",
+      "bp": "Tablet",
+      "id": "wBAtV56MEbkyM_6J5N",
+      "name": "Recognition Section",
+      "depth": 1,
+      "gap": "40px",
+      "layout": "stack"
+    },
+    {
+      "path": "/",
+      "bp": "Tablet",
+      "id": "wBAtV56MEDWggt2tS0",
+      "name": "Recognition List",
+      "depth": 2,
+      "gap": "0px",
+      "layout": "stack"
+    },
+    {
+      "path": "/",
+      "bp": "Tablet",
+      "id": "wBAtV56MEY6WbS6_wg",
+      "name": "Recognition Item",
+      "depth": 3,
+      "gap": "40px",
+      "layout": "stack"
+    },
+    {
+      "path": "/",
+      "bp": "Tablet",
+      "id": "wBAtV56MEvDgoknehn",
+      "name": "Recognition Item",
+      "depth": 3,
+      "gap": "40px",
+      "layout": "stack"
+    },
+    {
+      "path": "/",
+      "bp": "Tablet",
+      "id": "wBAtV56MEUgWxBj6nn",
+      "name": "Recognition Item",
+      "depth": 3,
+      "gap": "40px",
+      "layout": "stack"
+    },
+    {
+      "path": "/",
+      "bp": "Tablet",
+      "id": "wBAtV56MEIotRzEZ0q",
+      "name": "Recognition Item",
+      "depth": 3,
+      "gap": "40px",
+      "layout": "stack"
+    },
+    {
+      "path": "/",
+      "bp": "Tablet",
+      "id": "wBAtV56MEVXxBSnkhU",
+      "name": "Testimonial Section",
+      "depth": 1,
+      "gap": "40px",
+      "layout": "stack"
+    },
+    {
+      "path": "/",
+      "bp": "Tablet",
+      "id": "wBAtV56MEZsKgeszB_",
+      "name": "Journal",
+      "depth": 1,
+      "gap": "40px",
+      "layout": "stack"
+    },
+    {
+      "path": "/",
+      "bp": "Tablet",
+      "id": "wBAtV56MEagILcRHTJ",
+      "name": "Content Area",
+      "depth": 2,
+      "gap": "0px",
+      "layout": "stack"
+    },
+    {
+      "path": "/",
+      "bp": "Tablet",
+      "id": "wBAtV56MEUwAVuV4aN",
+      "name": "Journal Content",
+      "depth": 3,
+      "gap": "0px",
+      "layout": "stack"
+    },
+    {
+      "path": "/",
+      "bp": "Phone",
+      "id": "mcL3MFzFViq0rlFlTE",
+      "name": "Hero Section",
+      "depth": 1,
+      "gap": "0px",
+      "layout": "stack"
+    },
+    {
+      "path": "/",
+      "bp": "Phone",
+      "id": "mcL3MFzFVcJgmqsWkI",
+      "name": "Image Layer",
+      "depth": 2,
+      "gap": "0px",
+      "layout": "stack"
+    },
+    {
+      "path": "/",
+      "bp": "Phone",
+      "id": "mcL3MFzFVqpE9wJcPm",
+      "name": "Gradient Overlay",
+      "depth": 2,
+      "gap": "0px",
+      "layout": "stack"
+    },
+    {
+      "path": "/",
+      "bp": "Phone",
+      "id": "mcL3MFzFVET8JHTjC5",
+      "name": "Text Content Column",
+      "depth": 2,
+      "gap": "32px",
+      "layout": "stack"
+    },
+    {
+      "path": "/",
+      "bp": "Phone",
+      "id": "mcL3MFzFVWkwpIexZq",
+      "name": "Text Stack",
+      "depth": 4,
+      "gap": "0px",
+      "layout": "stack"
+    },
+    {
+      "path": "/",
+      "bp": "Phone",
+      "id": "mcL3MFzFVa6KIAp6Ii",
+      "name": "Territories Section",
+      "depth": 1,
+      "gap": "48px",
+      "layout": "stack"
+    },
+    {
+      "path": "/",
+      "bp": "Phone",
+      "id": "mcL3MFzFVdu1d5C2G_",
+      "name": "Territories Header",
+      "depth": 2,
+      "gap": "24px",
+      "layout": "stack"
+    },
+    {
+      "path": "/",
+      "bp": "Phone",
+      "id": "mcL3MFzFVRtG3B70W9",
+      "name": "Portfolio Section",
+      "depth": 1,
+      "gap": "56px",
+      "layout": "stack"
+    },
+    {
+      "path": "/",
+      "bp": "Phone",
+      "id": "mcL3MFzFVzBkRxuUmY",
+      "name": "Portfolio Container",
+      "depth": 2,
+      "gap": "24px",
+      "layout": "stack"
+    },
+    {
+      "path": "/",
+      "bp": "Phone",
+      "id": "mcL3MFzFVsauSSFlfB",
+      "name": "Portfolio Grid",
+      "depth": 3,
+      "gap": "32px",
+      "layout": "stack"
+    },
+    {
+      "path": "/",
+      "bp": "Phone",
+      "id": "mcL3MFzFVpbxBoE90U",
+      "name": "Residence Card Column",
+      "depth": 4,
+      "gap": "24px",
+      "layout": "stack"
+    },
+    {
+      "path": "/",
+      "bp": "Phone",
+      "id": "mcL3MFzFVXQ8ntWwAC",
+      "name": "Portfolio Side Panel",
+      "depth": 4,
+      "gap": "32px",
+      "layout": "stack"
+    },
+    {
+      "path": "/",
+      "bp": "Phone",
+      "id": "mcL3MFzFVsQUykbPr6",
+      "name": "Bottom",
+      "depth": 1,
+      "gap": "0px",
+      "layout": "stack"
+    },
+    {
+      "path": "/",
+      "bp": "Phone",
+      "id": "mcL3MFzFVohPeYYgHl",
+      "name": "Content",
+      "depth": 2,
+      "gap": "0px",
+      "layout": "stack"
+    },
+    {
+      "path": "/",
+      "bp": "Phone",
+      "id": "mcL3MFzFVH_KIxioFT",
+      "name": "Process Section",
+      "depth": 1,
+      "gap": "40px",
+      "layout": "stack"
+    },
+    {
+      "path": "/",
+      "bp": "Phone",
+      "id": "mcL3MFzFVtOn8dp9rd",
+      "name": "Process List",
+      "depth": 2,
+      "gap": "0px",
+      "layout": "stack"
+    },
+    {
+      "path": "/",
+      "bp": "Phone",
+      "id": "mcL3MFzFVw3kyse_7s",
+      "name": "Process Row 01",
+      "depth": 3,
+      "gap": "8px",
+      "layout": "stack"
+    },
+    {
+      "path": "/",
+      "bp": "Phone",
+      "id": "mcL3MFzFVoIT9IrRiy",
+      "name": "Process Row 02",
+      "depth": 3,
+      "gap": "8px",
+      "layout": "stack"
+    },
+    {
+      "path": "/",
+      "bp": "Phone",
+      "id": "mcL3MFzFVko3Oouocy",
+      "name": "Process Row 03",
+      "depth": 3,
+      "gap": "8px",
+      "layout": "stack"
+    },
+    {
+      "path": "/",
+      "bp": "Phone",
+      "id": "mcL3MFzFVeAt1AYMf9",
+      "name": "Process Row 04",
+      "depth": 3,
+      "gap": "8px",
+      "layout": "stack"
+    },
+    {
+      "path": "/",
+      "bp": "Phone",
+      "id": "mcL3MFzFVbkyM_6J5N",
+      "name": "Recognition Section",
+      "depth": 1,
+      "gap": "40px",
+      "layout": "stack"
+    },
+    {
+      "path": "/",
+      "bp": "Phone",
+      "id": "mcL3MFzFVPaH4kj8sh",
+      "name": "Recognition Header",
+      "depth": 2,
+      "gap": "8px",
+      "layout": "stack"
+    },
+    {
+      "path": "/",
+      "bp": "Phone",
+      "id": "mcL3MFzFVDWggt2tS0",
+      "name": "Recognition List",
+      "depth": 2,
+      "gap": "0px",
+      "layout": "stack"
+    },
+    {
+      "path": "/",
+      "bp": "Phone",
+      "id": "mcL3MFzFVY6WbS6_wg",
+      "name": "Recognition Item",
+      "depth": 3,
+      "gap": "8px",
+      "layout": "stack"
+    },
+    {
+      "path": "/",
+      "bp": "Phone",
+      "id": "mcL3MFzFVvDgoknehn",
+      "name": "Recognition Item",
+      "depth": 3,
+      "gap": "8px",
+      "layout": "stack"
+    },
+    {
+      "path": "/",
+      "bp": "Phone",
+      "id": "mcL3MFzFVUgWxBj6nn",
+      "name": "Recognition Item",
+      "depth": 3,
+      "gap": "8px",
+      "layout": "stack"
+    },
+    {
+      "path": "/",
+      "bp": "Phone",
+      "id": "mcL3MFzFVIotRzEZ0q",
+      "name": "Recognition Item",
+      "depth": 3,
+      "gap": "8px",
+      "layout": "stack"
+    },
+    {
+      "path": "/",
+      "bp": "Phone",
+      "id": "mcL3MFzFVVXxBSnkhU",
+      "name": "Testimonial Section",
+      "depth": 1,
+      "gap": "40px",
+      "layout": "stack"
+    },
+    {
+      "path": "/",
+      "bp": "Phone",
+      "id": "mcL3MFzFVZsKgeszB_",
+      "name": "Journal",
+      "depth": 1,
+      "gap": "40px",
+      "layout": "stack"
+    },
+    {
+      "path": "/",
+      "bp": "Phone",
+      "id": "mcL3MFzFVagILcRHTJ",
+      "name": "Content Area",
+      "depth": 2,
+      "gap": "0px",
+      "layout": "stack"
+    },
+    {
+      "path": "/",
+      "bp": "Phone",
+      "id": "mcL3MFzFVUwAVuV4aN",
+      "name": "Journal Content",
+      "depth": 3,
+      "gap": "0px",
+      "layout": "stack"
+    },
+    {
+      "path": "/properties",
+      "bp": "Desktop",
+      "id": "pXUtBMLpu",
+      "name": "Properties Content",
+      "depth": 1,
+      "gap": "0px",
+      "layout": "stack"
+    },
+    {
+      "path": "/properties",
+      "bp": "Desktop",
+      "id": "mGwrwOsDS",
+      "name": "Properties Hero",
+      "depth": 2,
+      "gap": "0px",
+      "layout": "stack"
+    },
+    {
+      "path": "/properties",
+      "bp": "Desktop",
+      "id": "L9uNRqah7",
+      "name": "Hero Copy",
+      "depth": 3,
+      "gap": "24px",
+      "layout": "stack"
+    },
+    {
+      "path": "/properties",
+      "bp": "Desktop",
+      "id": "Ox1AZj6Eq",
+      "name": "Collection Discovery",
+      "depth": 2,
+      "gap": "32px",
+      "layout": "stack"
+    },
+    {
+      "path": "/properties",
+      "bp": "Desktop",
+      "id": "gn2phxXn5",
+      "name": "Properties Grid",
+      "depth": 2,
+      "gap": "88px",
+      "layout": "stack"
+    },
+    {
+      "path": "/properties",
+      "bp": "Desktop",
+      "id": "APChY780b",
+      "name": "Market Editorial",
+      "depth": 2,
+      "gap": "80px",
+      "layout": "stack"
+    },
+    {
+      "path": "/properties",
+      "bp": "Desktop",
+      "id": "AsT7ov4RQ",
+      "name": "Market Note Copy",
+      "depth": 3,
+      "gap": "32px",
+      "layout": "stack"
+    },
+    {
+      "path": "/properties",
+      "bp": "Desktop",
+      "id": "pC9Un5Mw5",
+      "name": "Private Viewing Process",
+      "depth": 2,
+      "gap": "64px",
+      "layout": "stack"
+    },
+    {
+      "path": "/properties",
+      "bp": "Desktop",
+      "id": "S4FJ7NWLR",
+      "name": "Process Title Group",
+      "depth": 4,
+      "gap": "24px",
+      "layout": "stack"
+    },
+    {
+      "path": "/properties",
+      "bp": "Desktop",
+      "id": "ivqFzeVAZ",
+      "name": "Continue Your Search",
+      "depth": 2,
+      "gap": "40px",
+      "layout": "stack"
+    },
+    {
+      "path": "/properties",
+      "bp": "Desktop",
+      "id": "cFtWJlabj",
+      "name": "Enquiry CTA",
+      "depth": 2,
+      "gap": "24px",
+      "layout": "stack"
+    },
+    {
+      "path": "/properties",
+      "bp": "Tablet",
+      "id": "SScKalu3BpXUtBMLpu",
+      "name": "Properties Content",
+      "depth": 1,
+      "gap": "0px",
+      "layout": "stack"
+    },
+    {
+      "path": "/properties",
+      "bp": "Tablet",
+      "id": "SScKalu3BmGwrwOsDS",
+      "name": "Properties Hero",
+      "depth": 2,
+      "gap": "0px",
+      "layout": "stack"
+    },
+    {
+      "path": "/properties",
+      "bp": "Tablet",
+      "id": "SScKalu3BL9uNRqah7",
+      "name": "Hero Copy",
+      "depth": 3,
+      "gap": "24px",
+      "layout": "stack"
+    },
+    {
+      "path": "/properties",
+      "bp": "Tablet",
+      "id": "SScKalu3BOx1AZj6Eq",
+      "name": "Collection Discovery",
+      "depth": 2,
+      "gap": "32px",
+      "layout": "stack"
+    },
+    {
+      "path": "/properties",
+      "bp": "Tablet",
+      "id": "SScKalu3Bgn2phxXn5",
+      "name": "Properties Grid",
+      "depth": 2,
+      "gap": "56px",
+      "layout": "stack"
+    },
+    {
+      "path": "/properties",
+      "bp": "Tablet",
+      "id": "SScKalu3BAPChY780b",
+      "name": "Market Editorial",
+      "depth": 2,
+      "gap": "40px",
+      "layout": "stack"
+    },
+    {
+      "path": "/properties",
+      "bp": "Tablet",
+      "id": "SScKalu3BAsT7ov4RQ",
+      "name": "Market Note Copy",
+      "depth": 3,
+      "gap": "32px",
+      "layout": "stack"
+    },
+    {
+      "path": "/properties",
+      "bp": "Tablet",
+      "id": "SScKalu3BpC9Un5Mw5",
+      "name": "Private Viewing Process",
+      "depth": 2,
+      "gap": "48px",
+      "layout": "stack"
+    },
+    {
+      "path": "/properties",
+      "bp": "Tablet",
+      "id": "SScKalu3BS4FJ7NWLR",
+      "name": "Process Title Group",
+      "depth": 4,
+      "gap": "24px",
+      "layout": "stack"
+    },
+    {
+      "path": "/properties",
+      "bp": "Tablet",
+      "id": "SScKalu3BivqFzeVAZ",
+      "name": "Continue Your Search",
+      "depth": 2,
+      "gap": "32px",
+      "layout": "stack"
+    },
+    {
+      "path": "/properties",
+      "bp": "Tablet",
+      "id": "SScKalu3BcFtWJlabj",
+      "name": "Enquiry CTA",
+      "depth": 2,
+      "gap": "24px",
+      "layout": "stack"
+    },
+    {
+      "path": "/properties",
+      "bp": "Phone",
+      "id": "EK6d5SyWLpXUtBMLpu",
+      "name": "Properties Content",
+      "depth": 1,
+      "gap": "0px",
+      "layout": "stack"
+    },
+    {
+      "path": "/properties",
+      "bp": "Phone",
+      "id": "EK6d5SyWLmGwrwOsDS",
+      "name": "Properties Hero",
+      "depth": 2,
+      "gap": "0px",
+      "layout": "stack"
+    },
+    {
+      "path": "/properties",
+      "bp": "Phone",
+      "id": "EK6d5SyWLL9uNRqah7",
+      "name": "Hero Copy",
+      "depth": 3,
+      "gap": "24px",
+      "layout": "stack"
+    },
+    {
+      "path": "/properties",
+      "bp": "Phone",
+      "id": "EK6d5SyWLv9lLiINAl",
+      "name": "Kicker Row",
+      "depth": 4,
+      "gap": "8px",
+      "layout": "stack"
+    },
+    {
+      "path": "/properties",
+      "bp": "Phone",
+      "id": "EK6d5SyWLOx1AZj6Eq",
+      "name": "Collection Discovery",
+      "depth": 2,
+      "gap": "20px",
+      "layout": "stack"
+    },
+    {
+      "path": "/properties",
+      "bp": "Phone",
+      "id": "EK6d5SyWLgn2phxXn5",
+      "name": "Properties Grid",
+      "depth": 2,
+      "gap": "40px",
+      "layout": "stack"
+    },
+    {
+      "path": "/properties",
+      "bp": "Phone",
+      "id": "EK6d5SyWLAPChY780b",
+      "name": "Market Editorial",
+      "depth": 2,
+      "gap": "32px",
+      "layout": "stack"
+    },
+    {
+      "path": "/properties",
+      "bp": "Phone",
+      "id": "EK6d5SyWLAsT7ov4RQ",
+      "name": "Market Note Copy",
+      "depth": 3,
+      "gap": "32px",
+      "layout": "stack"
+    },
+    {
+      "path": "/properties",
+      "bp": "Phone",
+      "id": "EK6d5SyWLpC9Un5Mw5",
+      "name": "Private Viewing Process",
+      "depth": 2,
+      "gap": "40px",
+      "layout": "stack"
+    },
+    {
+      "path": "/properties",
+      "bp": "Phone",
+      "id": "EK6d5SyWLx0R2bMM7s",
+      "name": "Process Heading",
+      "depth": 3,
+      "gap": "24px",
+      "layout": "stack"
+    },
+    {
+      "path": "/properties",
+      "bp": "Phone",
+      "id": "EK6d5SyWLS4FJ7NWLR",
+      "name": "Process Title Group",
+      "depth": 4,
+      "gap": "24px",
+      "layout": "stack"
+    },
+    {
+      "path": "/properties",
+      "bp": "Phone",
+      "id": "EK6d5SyWLivqFzeVAZ",
+      "name": "Continue Your Search",
+      "depth": 2,
+      "gap": "24px",
+      "layout": "stack"
+    },
+    {
+      "path": "/properties",
+      "bp": "Phone",
+      "id": "EK6d5SyWLcFtWJlabj",
+      "name": "Enquiry CTA",
+      "depth": 2,
+      "gap": "20px",
+      "layout": "stack"
+    },
+    {
+      "path": "/neighbourhoods",
+      "bp": "Desktop",
+      "id": "H1kR5JcFp",
+      "name": "Neighbourhoods Content",
+      "depth": 1,
+      "gap": "0px",
+      "layout": "stack"
+    },
+    {
+      "path": "/neighbourhoods",
+      "bp": "Desktop",
+      "id": "ycUqIc8V3",
+      "name": "Neighbourhoods Hero",
+      "depth": 2,
+      "gap": "0px",
+      "layout": "stack"
+    },
+    {
+      "path": "/neighbourhoods",
+      "bp": "Desktop",
+      "id": "I1ekolXeW",
+      "name": "Hero Copy",
+      "depth": 3,
+      "gap": "24px",
+      "layout": "stack"
+    },
+    {
+      "path": "/neighbourhoods",
+      "bp": "Desktop",
+      "id": "NrbMmTnFX",
+      "name": "Territory Grid Section",
+      "depth": 2,
+      "gap": "32px",
+      "layout": "stack"
+    },
+    {
+      "path": "/neighbourhoods",
+      "bp": "Desktop",
+      "id": "km7dUqZI9",
+      "name": "Territory Checkerboard",
+      "depth": 4,
+      "gap": "24px",
+      "layout": "grid"
+    },
+    {
+      "path": "/neighbourhoods",
+      "bp": "Desktop",
+      "id": "KraraKF0A",
+      "name": "How We Read A Place",
+      "depth": 2,
+      "gap": "64px",
+      "layout": "stack"
+    },
+    {
+      "path": "/neighbourhoods",
+      "bp": "Desktop",
+      "id": "bnaokGDnv",
+      "name": "Editorial Meta",
+      "depth": 3,
+      "gap": "16px",
+      "layout": "stack"
+    },
+    {
+      "path": "/neighbourhoods",
+      "bp": "Desktop",
+      "id": "S3gi0pQQV",
+      "name": "Editorial Copy",
+      "depth": 3,
+      "gap": "28px",
+      "layout": "stack"
+    },
+    {
+      "path": "/neighbourhoods",
+      "bp": "Desktop",
+      "id": "eg7FHOTjH",
+      "name": "CTA Wrap",
+      "depth": 4,
+      "gap": "0px",
+      "layout": "stack"
+    },
+    {
+      "path": "/neighbourhoods",
+      "bp": "Tablet",
+      "id": "aJLpuUP0qH1kR5JcFp",
+      "name": "Neighbourhoods Content",
+      "depth": 1,
+      "gap": "0px",
+      "layout": "stack"
+    },
+    {
+      "path": "/neighbourhoods",
+      "bp": "Tablet",
+      "id": "aJLpuUP0qycUqIc8V3",
+      "name": "Neighbourhoods Hero",
+      "depth": 2,
+      "gap": "20px",
+      "layout": "stack"
+    },
+    {
+      "path": "/neighbourhoods",
+      "bp": "Tablet",
+      "id": "aJLpuUP0qI1ekolXeW",
+      "name": "Hero Copy",
+      "depth": 3,
+      "gap": "20px",
+      "layout": "stack"
+    },
+    {
+      "path": "/neighbourhoods",
+      "bp": "Tablet",
+      "id": "aJLpuUP0qNrbMmTnFX",
+      "name": "Territory Grid Section",
+      "depth": 2,
+      "gap": "40px",
+      "layout": "stack"
+    },
+    {
+      "path": "/neighbourhoods",
+      "bp": "Tablet",
+      "id": "aJLpuUP0qkm7dUqZI9",
+      "name": "Territory Checkerboard",
+      "depth": 4,
+      "gap": "20px",
+      "layout": "grid"
+    },
+    {
+      "path": "/neighbourhoods",
+      "bp": "Tablet",
+      "id": "aJLpuUP0qKraraKF0A",
+      "name": "How We Read A Place",
+      "depth": 2,
+      "gap": "40px",
+      "layout": "stack"
+    },
+    {
+      "path": "/neighbourhoods",
+      "bp": "Tablet",
+      "id": "aJLpuUP0qbnaokGDnv",
+      "name": "Editorial Meta",
+      "depth": 3,
+      "gap": "16px",
+      "layout": "stack"
+    },
+    {
+      "path": "/neighbourhoods",
+      "bp": "Tablet",
+      "id": "aJLpuUP0qS3gi0pQQV",
+      "name": "Editorial Copy",
+      "depth": 3,
+      "gap": "28px",
+      "layout": "stack"
+    },
+    {
+      "path": "/neighbourhoods",
+      "bp": "Tablet",
+      "id": "aJLpuUP0qeg7FHOTjH",
+      "name": "CTA Wrap",
+      "depth": 4,
+      "gap": "0px",
+      "layout": "stack"
+    },
+    {
+      "path": "/neighbourhoods",
+      "bp": "Phone",
+      "id": "Qonafp_oDH1kR5JcFp",
+      "name": "Neighbourhoods Content",
+      "depth": 1,
+      "gap": "0px",
+      "layout": "stack"
+    },
+    {
+      "path": "/neighbourhoods",
+      "bp": "Phone",
+      "id": "Qonafp_oDycUqIc8V3",
+      "name": "Neighbourhoods Hero",
+      "depth": 2,
+      "gap": "16px",
+      "layout": "stack"
+    },
+    {
+      "path": "/neighbourhoods",
+      "bp": "Phone",
+      "id": "Qonafp_oDI1ekolXeW",
+      "name": "Hero Copy",
+      "depth": 3,
+      "gap": "16px",
+      "layout": "stack"
+    },
+    {
+      "path": "/neighbourhoods",
+      "bp": "Phone",
+      "id": "Qonafp_oDNrbMmTnFX",
+      "name": "Territory Grid Section",
+      "depth": 2,
+      "gap": "20px",
+      "layout": "stack"
+    },
+    {
+      "path": "/neighbourhoods",
+      "bp": "Phone",
+      "id": "Qonafp_oDkm7dUqZI9",
+      "name": "Territory Checkerboard",
+      "depth": 4,
+      "gap": "16px",
+      "layout": "stack"
+    },
+    {
+      "path": "/neighbourhoods",
+      "bp": "Phone",
+      "id": "Qonafp_oDKraraKF0A",
+      "name": "How We Read A Place",
+      "depth": 2,
+      "gap": "32px",
+      "layout": "stack"
+    },
+    {
+      "path": "/neighbourhoods",
+      "bp": "Phone",
+      "id": "Qonafp_oDbnaokGDnv",
+      "name": "Editorial Meta",
+      "depth": 3,
+      "gap": "16px",
+      "layout": "stack"
+    },
+    {
+      "path": "/neighbourhoods",
+      "bp": "Phone",
+      "id": "Qonafp_oDS3gi0pQQV",
+      "name": "Editorial Copy",
+      "depth": 3,
+      "gap": "28px",
+      "layout": "stack"
+    },
+    {
+      "path": "/neighbourhoods",
+      "bp": "Phone",
+      "id": "Qonafp_oDeg7FHOTjH",
+      "name": "CTA Wrap",
+      "depth": 4,
+      "gap": "0px",
+      "layout": "stack"
+    },
+    {
+      "path": "/notes",
+      "bp": "Desktop",
+      "id": "wY1tfyIdc",
+      "name": "Journal",
+      "depth": 1,
+      "gap": "0px",
+      "layout": "stack"
+    },
+    {
+      "path": "/notes",
+      "bp": "Desktop",
+      "id": "Vq1f2mEkj",
+      "name": "Notes Hero",
+      "depth": 2,
+      "gap": "0px",
+      "layout": "stack"
+    },
+    {
+      "path": "/notes",
+      "bp": "Desktop",
+      "id": "NPRkgYRMH",
+      "name": "Hero Copy",
+      "depth": 3,
+      "gap": "24px",
+      "layout": "stack"
+    },
+    {
+      "path": "/notes",
+      "bp": "Desktop",
+      "id": "Y2Bx8WkiS",
+      "name": "Journal Kicker",
+      "depth": 4,
+      "gap": "16px",
+      "layout": "stack"
+    },
+    {
+      "path": "/notes",
+      "bp": "Desktop",
+      "id": "vKC8zoOjs",
+      "name": "Content Area",
+      "depth": 2,
+      "gap": "0px",
+      "layout": "stack"
+    },
+    {
+      "path": "/notes",
+      "bp": "Desktop",
+      "id": "oaOdfjsxS",
+      "name": "Journal Content",
+      "depth": 3,
+      "gap": "0px",
+      "layout": "stack"
+    },
+    {
+      "path": "/notes",
+      "bp": "Desktop",
+      "id": "p7CGH_nWX",
+      "name": "Journal Manifesto",
+      "depth": 1,
+      "gap": "0px",
+      "layout": "stack"
+    },
+    {
+      "path": "/notes",
+      "bp": "Desktop",
+      "id": "DZBrgFJEu",
+      "name": "Manifesto Row",
+      "depth": 2,
+      "gap": "96px",
+      "layout": "stack"
+    },
+    {
+      "path": "/notes",
+      "bp": "Desktop",
+      "id": "Nt5U3O4oM",
+      "name": "Manifesto Aside",
+      "depth": 3,
+      "gap": "24px",
+      "layout": "stack"
+    },
+    {
+      "path": "/notes",
+      "bp": "Desktop",
+      "id": "w_sfcNcLz",
+      "name": "Manifesto Copy",
+      "depth": 3,
+      "gap": "32px",
+      "layout": "stack"
+    },
+    {
+      "path": "/notes",
+      "bp": "Tablet",
+      "id": "LptqEiXVpwY1tfyIdc",
+      "name": "Journal",
+      "depth": 1,
+      "gap": "0px",
+      "layout": "stack"
+    },
+    {
+      "path": "/notes",
+      "bp": "Tablet",
+      "id": "LptqEiXVpVq1f2mEkj",
+      "name": "Notes Hero",
+      "depth": 2,
+      "gap": "0px",
+      "layout": "stack"
+    },
+    {
+      "path": "/notes",
+      "bp": "Tablet",
+      "id": "LptqEiXVpNPRkgYRMH",
+      "name": "Hero Copy",
+      "depth": 3,
+      "gap": "24px",
+      "layout": "stack"
+    },
+    {
+      "path": "/notes",
+      "bp": "Tablet",
+      "id": "LptqEiXVpY2Bx8WkiS",
+      "name": "Journal Kicker",
+      "depth": 4,
+      "gap": "16px",
+      "layout": "stack"
+    },
+    {
+      "path": "/notes",
+      "bp": "Tablet",
+      "id": "LptqEiXVpvKC8zoOjs",
+      "name": "Content Area",
+      "depth": 2,
+      "gap": "0px",
+      "layout": "stack"
+    },
+    {
+      "path": "/notes",
+      "bp": "Tablet",
+      "id": "LptqEiXVpoaOdfjsxS",
+      "name": "Journal Content",
+      "depth": 3,
+      "gap": "0px",
+      "layout": "stack"
+    },
+    {
+      "path": "/notes",
+      "bp": "Tablet",
+      "id": "LptqEiXVpp7CGH_nWX",
+      "name": "Journal Manifesto",
+      "depth": 1,
+      "gap": "0px",
+      "layout": "stack"
+    },
+    {
+      "path": "/notes",
+      "bp": "Tablet",
+      "id": "LptqEiXVpDZBrgFJEu",
+      "name": "Manifesto Row",
+      "depth": 2,
+      "gap": "64px",
+      "layout": "stack"
+    },
+    {
+      "path": "/notes",
+      "bp": "Tablet",
+      "id": "LptqEiXVpNt5U3O4oM",
+      "name": "Manifesto Aside",
+      "depth": 3,
+      "gap": "24px",
+      "layout": "stack"
+    },
+    {
+      "path": "/notes",
+      "bp": "Tablet",
+      "id": "LptqEiXVpw_sfcNcLz",
+      "name": "Manifesto Copy",
+      "depth": 3,
+      "gap": "32px",
+      "layout": "stack"
+    },
+    {
+      "path": "/notes",
+      "bp": "Phone",
+      "id": "INUKgvAnawY1tfyIdc",
+      "name": "Journal",
+      "depth": 1,
+      "gap": "0px",
+      "layout": "stack"
+    },
+    {
+      "path": "/notes",
+      "bp": "Phone",
+      "id": "INUKgvAnaVq1f2mEkj",
+      "name": "Notes Hero",
+      "depth": 2,
+      "gap": "0px",
+      "layout": "stack"
+    },
+    {
+      "path": "/notes",
+      "bp": "Phone",
+      "id": "INUKgvAnaNPRkgYRMH",
+      "name": "Hero Copy",
+      "depth": 3,
+      "gap": "24px",
+      "layout": "stack"
+    },
+    {
+      "path": "/notes",
+      "bp": "Phone",
+      "id": "INUKgvAnaY2Bx8WkiS",
+      "name": "Journal Kicker",
+      "depth": 4,
+      "gap": "16px",
+      "layout": "stack"
+    },
+    {
+      "path": "/notes",
+      "bp": "Phone",
+      "id": "INUKgvAnavKC8zoOjs",
+      "name": "Content Area",
+      "depth": 2,
+      "gap": "0px",
+      "layout": "stack"
+    },
+    {
+      "path": "/notes",
+      "bp": "Phone",
+      "id": "INUKgvAnaoaOdfjsxS",
+      "name": "Journal Content",
+      "depth": 3,
+      "gap": "0px",
+      "layout": "stack"
+    },
+    {
+      "path": "/notes",
+      "bp": "Phone",
+      "id": "INUKgvAnap7CGH_nWX",
+      "name": "Journal Manifesto",
+      "depth": 1,
+      "gap": "24px",
+      "layout": "stack"
+    },
+    {
+      "path": "/notes",
+      "bp": "Phone",
+      "id": "INUKgvAnaDZBrgFJEu",
+      "name": "Manifesto Row",
+      "depth": 2,
+      "gap": "32px",
+      "layout": "stack"
+    },
+    {
+      "path": "/notes",
+      "bp": "Phone",
+      "id": "INUKgvAnaNt5U3O4oM",
+      "name": "Manifesto Aside",
+      "depth": 3,
+      "gap": "24px",
+      "layout": "stack"
+    },
+    {
+      "path": "/notes",
+      "bp": "Phone",
+      "id": "INUKgvAnaw_sfcNcLz",
+      "name": "Manifesto Copy",
+      "depth": 3,
+      "gap": "24px",
+      "layout": "stack"
+    },
+    {
+      "path": "/about",
+      "bp": "Desktop",
+      "id": "QjoW3yYRJ",
+      "name": "Beat 1 — Portrait Stage",
+      "depth": 1,
+      "gap": "0px",
+      "layout": "stack"
+    },
+    {
+      "path": "/about",
+      "bp": "Desktop",
+      "id": "QzWTnDkey",
+      "name": "Opening Copy",
+      "depth": 2,
+      "gap": "20px",
+      "layout": "stack"
+    },
+    {
+      "path": "/about",
+      "bp": "Desktop",
+      "id": "m1IuCE2Ht",
+      "name": "Beat 3 — Manifesto",
+      "depth": 1,
+      "gap": "64px",
+      "layout": "stack"
+    },
+    {
+      "path": "/about",
+      "bp": "Desktop",
+      "id": "dJh2vQsQg",
+      "name": "Manifesto Editorial Row",
+      "depth": 2,
+      "gap": "96px",
+      "layout": "stack"
+    },
+    {
+      "path": "/about",
+      "bp": "Desktop",
+      "id": "x6A1UH2ep",
+      "name": "Manifesto Copy",
+      "depth": 3,
+      "gap": "32px",
+      "layout": "stack"
+    },
+    {
+      "path": "/about",
+      "bp": "Desktop",
+      "id": "SbkA8xJAz",
+      "name": "Beat 2 — Cinematic Image",
+      "depth": 1,
+      "gap": "0px",
+      "layout": "stack"
+    },
+    {
+      "path": "/about",
+      "bp": "Desktop",
+      "id": "WZkTO3vdm",
+      "name": "Image Editorial Overlay",
+      "depth": 2,
+      "gap": "32px",
+      "layout": "stack"
+    },
+    {
+      "path": "/about",
+      "bp": "Desktop",
+      "id": "Te9LPe3Or",
+      "name": "Editorial Pause — Arbour in Practice",
+      "depth": 1,
+      "gap": "64px",
+      "layout": "stack"
+    },
+    {
+      "path": "/about",
+      "bp": "Desktop",
+      "id": "AiolEHPNd",
+      "name": "Chapter — The Principals",
+      "depth": 1,
+      "gap": "96px",
+      "layout": "stack"
+    },
+    {
+      "path": "/about",
+      "bp": "Desktop",
+      "id": "sx_GA8kBh",
+      "name": "Chapter — Two Offices",
+      "depth": 1,
+      "gap": "72px",
+      "layout": "stack"
+    },
+    {
+      "path": "/about",
+      "bp": "Desktop",
+      "id": "eA1dianFD",
+      "name": "Office Atlas Grid",
+      "depth": 2,
+      "gap": "32px",
+      "layout": "grid"
+    },
+    {
+      "path": "/about",
+      "bp": "Desktop",
+      "id": "OIVgjc19d",
+      "name": "Enquiry CTA",
+      "depth": 1,
+      "gap": "24px",
+      "layout": "stack"
+    },
+    {
+      "path": "/about",
+      "bp": "Tablet",
+      "id": "xvqDXw58eQjoW3yYRJ",
+      "name": "Beat 1 — Portrait Stage",
+      "depth": 1,
+      "gap": "0px",
+      "layout": "stack"
+    },
+    {
+      "path": "/about",
+      "bp": "Tablet",
+      "id": "xvqDXw58eQzWTnDkey",
+      "name": "Opening Copy",
+      "depth": 2,
+      "gap": "20px",
+      "layout": "stack"
+    },
+    {
+      "path": "/about",
+      "bp": "Tablet",
+      "id": "xvqDXw58em1IuCE2Ht",
+      "name": "Beat 3 — Manifesto",
+      "depth": 1,
+      "gap": "48px",
+      "layout": "stack"
+    },
+    {
+      "path": "/about",
+      "bp": "Tablet",
+      "id": "xvqDXw58edJh2vQsQg",
+      "name": "Manifesto Editorial Row",
+      "depth": 2,
+      "gap": "48px",
+      "layout": "stack"
+    },
+    {
+      "path": "/about",
+      "bp": "Tablet",
+      "id": "xvqDXw58ex6A1UH2ep",
+      "name": "Manifesto Copy",
+      "depth": 3,
+      "gap": "32px",
+      "layout": "stack"
+    },
+    {
+      "path": "/about",
+      "bp": "Tablet",
+      "id": "xvqDXw58eSbkA8xJAz",
+      "name": "Beat 2 — Cinematic Image",
+      "depth": 1,
+      "gap": "0px",
+      "layout": "stack"
+    },
+    {
+      "path": "/about",
+      "bp": "Tablet",
+      "id": "xvqDXw58eWZkTO3vdm",
+      "name": "Image Editorial Overlay",
+      "depth": 2,
+      "gap": "32px",
+      "layout": "stack"
+    },
+    {
+      "path": "/about",
+      "bp": "Tablet",
+      "id": "xvqDXw58eTe9LPe3Or",
+      "name": "Editorial Pause — Arbour in Practice",
+      "depth": 1,
+      "gap": "64px",
+      "layout": "stack"
+    },
+    {
+      "path": "/about",
+      "bp": "Tablet",
+      "id": "xvqDXw58eAiolEHPNd",
+      "name": "Chapter — The Principals",
+      "depth": 1,
+      "gap": "64px",
+      "layout": "stack"
+    },
+    {
+      "path": "/about",
+      "bp": "Tablet",
+      "id": "xvqDXw58ecsvpfB13Z",
+      "name": "Team Heading",
+      "depth": 2,
+      "gap": "24px",
+      "layout": "stack"
+    },
+    {
+      "path": "/about",
+      "bp": "Tablet",
+      "id": "xvqDXw58esx_GA8kBh",
+      "name": "Chapter — Two Offices",
+      "depth": 1,
+      "gap": "48px",
+      "layout": "stack"
+    },
+    {
+      "path": "/about",
+      "bp": "Tablet",
+      "id": "xvqDXw58evVFV_ZAA9",
+      "name": "Atlas Heading",
+      "depth": 2,
+      "gap": "24px",
+      "layout": "stack"
+    },
+    {
+      "path": "/about",
+      "bp": "Tablet",
+      "id": "xvqDXw58eeA1dianFD",
+      "name": "Office Atlas Grid",
+      "depth": 2,
+      "gap": "32px",
+      "layout": "stack"
+    },
+    {
+      "path": "/about",
+      "bp": "Tablet",
+      "id": "xvqDXw58eOIVgjc19d",
+      "name": "Enquiry CTA",
+      "depth": 1,
+      "gap": "24px",
+      "layout": "stack"
+    },
+    {
+      "path": "/about",
+      "bp": "Phone",
+      "id": "CYNrpU04tQjoW3yYRJ",
+      "name": "Beat 1 — Portrait Stage",
+      "depth": 1,
+      "gap": "0px",
+      "layout": "stack"
+    },
+    {
+      "path": "/about",
+      "bp": "Phone",
+      "id": "CYNrpU04tQzWTnDkey",
+      "name": "Opening Copy",
+      "depth": 2,
+      "gap": "20px",
+      "layout": "stack"
+    },
+    {
+      "path": "/about",
+      "bp": "Phone",
+      "id": "CYNrpU04taYHA5hByk",
+      "name": "Opening Meta",
+      "depth": 3,
+      "gap": "12px",
+      "layout": "stack"
+    },
+    {
+      "path": "/about",
+      "bp": "Phone",
+      "id": "CYNrpU04tm1IuCE2Ht",
+      "name": "Beat 3 — Manifesto",
+      "depth": 1,
+      "gap": "40px",
+      "layout": "stack"
+    },
+    {
+      "path": "/about",
+      "bp": "Phone",
+      "id": "CYNrpU04tdJh2vQsQg",
+      "name": "Manifesto Editorial Row",
+      "depth": 2,
+      "gap": "24px",
+      "layout": "stack"
+    },
+    {
+      "path": "/about",
+      "bp": "Phone",
+      "id": "CYNrpU04tx6A1UH2ep",
+      "name": "Manifesto Copy",
+      "depth": 3,
+      "gap": "24px",
+      "layout": "stack"
+    },
+    {
+      "path": "/about",
+      "bp": "Phone",
+      "id": "CYNrpU04tSbkA8xJAz",
+      "name": "Beat 2 — Cinematic Image",
+      "depth": 1,
+      "gap": "0px",
+      "layout": "stack"
+    },
+    {
+      "path": "/about",
+      "bp": "Phone",
+      "id": "CYNrpU04tWZkTO3vdm",
+      "name": "Image Editorial Overlay",
+      "depth": 2,
+      "gap": "24px",
+      "layout": "stack"
+    },
+    {
+      "path": "/about",
+      "bp": "Phone",
+      "id": "CYNrpU04trwwNROs8R",
+      "name": "Image Meta Strip",
+      "depth": 3,
+      "gap": "16px",
+      "layout": "stack"
+    },
+    {
+      "path": "/about",
+      "bp": "Phone",
+      "id": "CYNrpU04tTe9LPe3Or",
+      "name": "Editorial Pause — Arbour in Practice",
+      "depth": 1,
+      "gap": "40px",
+      "layout": "stack"
+    },
+    {
+      "path": "/about",
+      "bp": "Phone",
+      "id": "CYNrpU04tlGZQWN0ZG",
+      "name": "Practice Heading",
+      "depth": 2,
+      "gap": "16px",
+      "layout": "stack"
+    },
+    {
+      "path": "/about",
+      "bp": "Phone",
+      "id": "CYNrpU04tKUhU48geC",
+      "name": "Practice Markers",
+      "depth": 2,
+      "gap": "24px",
+      "layout": "stack"
+    },
+    {
+      "path": "/about",
+      "bp": "Phone",
+      "id": "CYNrpU04tAiolEHPNd",
+      "name": "Chapter — The Principals",
+      "depth": 1,
+      "gap": "48px",
+      "layout": "stack"
+    },
+    {
+      "path": "/about",
+      "bp": "Phone",
+      "id": "CYNrpU04tcsvpfB13Z",
+      "name": "Team Heading",
+      "depth": 2,
+      "gap": "24px",
+      "layout": "stack"
+    },
+    {
+      "path": "/about",
+      "bp": "Phone",
+      "id": "CYNrpU04tsx_GA8kBh",
+      "name": "Chapter — Two Offices",
+      "depth": 1,
+      "gap": "40px",
+      "layout": "stack"
+    },
+    {
+      "path": "/about",
+      "bp": "Phone",
+      "id": "CYNrpU04tvVFV_ZAA9",
+      "name": "Atlas Heading",
+      "depth": 2,
+      "gap": "24px",
+      "layout": "stack"
+    },
+    {
+      "path": "/about",
+      "bp": "Phone",
+      "id": "CYNrpU04teA1dianFD",
+      "name": "Office Atlas Grid",
+      "depth": 2,
+      "gap": "24px",
+      "layout": "stack"
+    },
+    {
+      "path": "/about",
+      "bp": "Phone",
+      "id": "CYNrpU04tOIVgjc19d",
+      "name": "Enquiry CTA",
+      "depth": 1,
+      "gap": "24px",
+      "layout": "stack"
+    },
+    {
+      "path": "/contact",
+      "bp": "Desktop",
+      "id": "jmmPpci8t",
+      "name": "Contact Hero",
+      "depth": 1,
+      "gap": "28px",
+      "layout": "stack"
+    },
+    {
+      "path": "/contact",
+      "bp": "Desktop",
+      "id": "AATw4pip9",
+      "name": "Hero Copy",
+      "depth": 2,
+      "gap": "14px",
+      "layout": "stack"
+    },
+    {
+      "path": "/contact",
+      "bp": "Desktop",
+      "id": "qxIyvg6PE",
+      "name": "Native Enquiry Copy",
+      "depth": 3,
+      "gap": "12px",
+      "layout": "stack"
+    },
+    {
+      "path": "/contact",
+      "bp": "Desktop",
+      "id": "DpN8zutuL",
+      "name": "H1 Blend Wrap",
+      "depth": 4,
+      "gap": "0px",
+      "layout": "stack"
+    },
+    {
+      "path": "/contact",
+      "bp": "Desktop",
+      "id": "WLSMm5iy1",
+      "name": "Hero Entrance Media",
+      "depth": 2,
+      "gap": "0px",
+      "layout": "stack"
+    },
+    {
+      "path": "/contact",
+      "bp": "Desktop",
+      "id": "vv0Vi0hbh",
+      "name": "Contact Opening",
+      "depth": 1,
+      "gap": "0px",
+      "layout": "stack"
+    },
+    {
+      "path": "/contact",
+      "bp": "Desktop",
+      "id": "liyenGbOL",
+      "name": "Private Consultation Pause",
+      "depth": 1,
+      "gap": "48px",
+      "layout": "stack"
+    },
+    {
+      "path": "/contact",
+      "bp": "Desktop",
+      "id": "JGvIWaCrH",
+      "name": "Consultation Detail",
+      "depth": 2,
+      "gap": "24px",
+      "layout": "stack"
+    },
+    {
+      "path": "/contact",
+      "bp": "Desktop",
+      "id": "R3nS8tMqV",
+      "name": "Journal",
+      "depth": 1,
+      "gap": "48px",
+      "layout": "stack"
+    },
+    {
+      "path": "/contact",
+      "bp": "Desktop",
+      "id": "VKMl8D_oG",
+      "name": "Content Area",
+      "depth": 2,
+      "gap": "64px",
+      "layout": "stack"
+    },
+    {
+      "path": "/contact",
+      "bp": "Desktop",
+      "id": "AoeNwGCDp",
+      "name": "Journal Content",
+      "depth": 3,
+      "gap": "0px",
+      "layout": "stack"
+    },
+    {
+      "path": "/contact",
+      "bp": "Tablet",
+      "id": "qjv2S9WpajmmPpci8t",
+      "name": "Contact Hero",
+      "depth": 1,
+      "gap": "20px",
+      "layout": "stack"
+    },
+    {
+      "path": "/contact",
+      "bp": "Tablet",
+      "id": "qjv2S9WpaAATw4pip9",
+      "name": "Hero Copy",
+      "depth": 2,
+      "gap": "12px",
+      "layout": "stack"
+    },
+    {
+      "path": "/contact",
+      "bp": "Tablet",
+      "id": "qjv2S9WpaqxIyvg6PE",
+      "name": "Native Enquiry Copy",
+      "depth": 3,
+      "gap": "10px",
+      "layout": "stack"
+    },
+    {
+      "path": "/contact",
+      "bp": "Tablet",
+      "id": "qjv2S9WpaDpN8zutuL",
+      "name": "H1 Blend Wrap",
+      "depth": 4,
+      "gap": "0px",
+      "layout": "stack"
+    },
+    {
+      "path": "/contact",
+      "bp": "Tablet",
+      "id": "qjv2S9WpaWLSMm5iy1",
+      "name": "Hero Entrance Media",
+      "depth": 2,
+      "gap": "0px",
+      "layout": "stack"
+    },
+    {
+      "path": "/contact",
+      "bp": "Tablet",
+      "id": "qjv2S9Wpavv0Vi0hbh",
+      "name": "Contact Opening",
+      "depth": 1,
+      "gap": "0px",
+      "layout": "stack"
+    },
+    {
+      "path": "/contact",
+      "bp": "Tablet",
+      "id": "qjv2S9WpaliyenGbOL",
+      "name": "Private Consultation Pause",
+      "depth": 1,
+      "gap": "48px",
+      "layout": "stack"
+    },
+    {
+      "path": "/contact",
+      "bp": "Tablet",
+      "id": "qjv2S9WpaJGvIWaCrH",
+      "name": "Consultation Detail",
+      "depth": 2,
+      "gap": "24px",
+      "layout": "stack"
+    },
+    {
+      "path": "/contact",
+      "bp": "Tablet",
+      "id": "qjv2S9WpaR3nS8tMqV",
+      "name": "Journal",
+      "depth": 1,
+      "gap": "40px",
+      "layout": "stack"
+    },
+    {
+      "path": "/contact",
+      "bp": "Tablet",
+      "id": "qjv2S9WpaVKMl8D_oG",
+      "name": "Content Area",
+      "depth": 2,
+      "gap": "64px",
+      "layout": "stack"
+    },
+    {
+      "path": "/contact",
+      "bp": "Tablet",
+      "id": "qjv2S9WpaAoeNwGCDp",
+      "name": "Journal Content",
+      "depth": 3,
+      "gap": "0px",
+      "layout": "stack"
+    },
+    {
+      "path": "/contact",
+      "bp": "Phone",
+      "id": "jEM0wBo2vjmmPpci8t",
+      "name": "Contact Hero",
+      "depth": 1,
+      "gap": "0px",
+      "layout": "stack"
+    },
+    {
+      "path": "/contact",
+      "bp": "Phone",
+      "id": "jEM0wBo2vAATw4pip9",
+      "name": "Hero Copy",
+      "depth": 2,
+      "gap": "14px",
+      "layout": "stack"
+    },
+    {
+      "path": "/contact",
+      "bp": "Phone",
+      "id": "jEM0wBo2vqxIyvg6PE",
+      "name": "Native Enquiry Copy",
+      "depth": 3,
+      "gap": "10px",
+      "layout": "stack"
+    },
+    {
+      "path": "/contact",
+      "bp": "Phone",
+      "id": "jEM0wBo2vDpN8zutuL",
+      "name": "H1 Blend Wrap",
+      "depth": 4,
+      "gap": "0px",
+      "layout": "stack"
+    },
+    {
+      "path": "/contact",
+      "bp": "Phone",
+      "id": "jEM0wBo2vuONXSHosa",
+      "name": "Direct Enquiry",
+      "depth": 3,
+      "gap": "12px",
+      "layout": "stack"
+    },
+    {
+      "path": "/contact",
+      "bp": "Phone",
+      "id": "jEM0wBo2vWLSMm5iy1",
+      "name": "Hero Entrance Media",
+      "depth": 2,
+      "gap": "0px",
+      "layout": "stack"
+    },
+    {
+      "path": "/contact",
+      "bp": "Phone",
+      "id": "jEM0wBo2vvv0Vi0hbh",
+      "name": "Contact Opening",
+      "depth": 1,
+      "gap": "0px",
+      "layout": "stack"
+    },
+    {
+      "path": "/contact",
+      "bp": "Phone",
+      "id": "jEM0wBo2vw1lCAnw5U",
+      "name": "Opening Note",
+      "depth": 2,
+      "gap": "10px",
+      "layout": "stack"
+    },
+    {
+      "path": "/contact",
+      "bp": "Phone",
+      "id": "jEM0wBo2vliyenGbOL",
+      "name": "Private Consultation Pause",
+      "depth": 1,
+      "gap": "40px",
+      "layout": "stack"
+    },
+    {
+      "path": "/contact",
+      "bp": "Phone",
+      "id": "jEM0wBo2vMh8CyV8RT",
+      "name": "Consultation Header",
+      "depth": 2,
+      "gap": "16px",
+      "layout": "stack"
+    },
+    {
+      "path": "/contact",
+      "bp": "Phone",
+      "id": "jEM0wBo2vJGvIWaCrH",
+      "name": "Consultation Detail",
+      "depth": 2,
+      "gap": "24px",
+      "layout": "stack"
+    },
+    {
+      "path": "/contact",
+      "bp": "Phone",
+      "id": "jEM0wBo2vR3nS8tMqV",
+      "name": "Journal",
+      "depth": 1,
+      "gap": "32px",
+      "layout": "stack"
+    },
+    {
+      "path": "/contact",
+      "bp": "Phone",
+      "id": "jEM0wBo2vVKMl8D_oG",
+      "name": "Content Area",
+      "depth": 2,
+      "gap": "64px",
+      "layout": "stack"
+    },
+    {
+      "path": "/contact",
+      "bp": "Phone",
+      "id": "jEM0wBo2vAoeNwGCDp",
+      "name": "Journal Content",
+      "depth": 3,
+      "gap": "0px",
+      "layout": "stack"
+    },
+    {
+      "path": "/properties/:slug",
+      "bp": "Desktop",
+      "id": "lODMk6Egu",
+      "name": "Property Hero",
+      "depth": 1,
+      "gap": "72px",
+      "layout": "grid"
+    },
+    {
+      "path": "/properties/:slug",
+      "bp": "Desktop",
+      "id": "aqUTeKNkU",
+      "name": "Property Specs Band",
+      "depth": 1,
+      "gap": "0px",
+      "layout": "stack"
+    },
+    {
+      "path": "/properties/:slug",
+      "bp": "Desktop",
+      "id": "ubrig7P0R",
+      "name": "Chapter Intro",
+      "depth": 1,
+      "gap": "48px",
+      "layout": "stack"
+    },
+    {
+      "path": "/properties/:slug",
+      "bp": "Desktop",
+      "id": "lP4ZL6y0c",
+      "name": "Cinematic Gallery",
+      "depth": 1,
+      "gap": "64px",
+      "layout": "stack"
+    },
+    {
+      "path": "/properties/:slug",
+      "bp": "Desktop",
+      "id": "xikGIamdr",
+      "name": "Gallery Heading",
+      "depth": 2,
+      "gap": "0px",
+      "layout": "stack"
+    },
+    {
+      "path": "/properties/:slug",
+      "bp": "Desktop",
+      "id": "CGYpcrzdu",
+      "name": "Gallery Grid",
+      "depth": 2,
+      "gap": "24px",
+      "layout": "grid"
+    },
+    {
+      "path": "/properties/:slug",
+      "bp": "Desktop",
+      "id": "o1RUuQ9Rb",
+      "name": "Setting Introduction",
+      "depth": 2,
+      "gap": "24px",
+      "layout": "stack"
+    },
+    {
+      "path": "/properties/:slug",
+      "bp": "Desktop",
+      "id": "k7yeGH7Sv",
+      "name": "Setting Copy",
+      "depth": 2,
+      "gap": "24px",
+      "layout": "stack"
+    },
+    {
+      "path": "/properties/:slug",
+      "bp": "Desktop",
+      "id": "vlElPVCV7",
+      "name": "Property Particulars",
+      "depth": 1,
+      "gap": "0px",
+      "layout": "stack"
+    },
+    {
+      "path": "/properties/:slug",
+      "bp": "Desktop",
+      "id": "oMewYjay7",
+      "name": "Particulars Introduction",
+      "depth": 3,
+      "gap": "24px",
+      "layout": "stack"
+    },
+    {
+      "path": "/properties/:slug",
+      "bp": "Desktop",
+      "id": "UBIMWUoh5",
+      "name": "Private Enquiry Link",
+      "depth": 4,
+      "gap": "8px",
+      "layout": "stack"
+    },
+    {
+      "path": "/properties/:slug",
+      "bp": "Desktop",
+      "id": "OA3sHhDMv",
+      "name": "Continue Your Search",
+      "depth": 1,
+      "gap": "40px",
+      "layout": "stack"
+    },
+    {
+      "path": "/properties/:slug",
+      "bp": "Desktop",
+      "id": "DGxLaaPw7",
+      "name": "Discovery Routes",
+      "depth": 2,
+      "gap": "24px",
+      "layout": "grid"
+    },
+    {
+      "path": "/properties/:slug",
+      "bp": "Desktop",
+      "id": "Wy9_asNQu",
+      "name": "Enquiry CTA",
+      "depth": 1,
+      "gap": "24px",
+      "layout": "stack"
+    },
+    {
+      "path": "/properties/:slug",
+      "bp": "Tablet",
+      "id": "IQmBTrFpblODMk6Egu",
+      "name": "Property Hero",
+      "depth": 1,
+      "gap": "40px",
+      "layout": "stack"
+    },
+    {
+      "path": "/properties/:slug",
+      "bp": "Tablet",
+      "id": "IQmBTrFpbaqUTeKNkU",
+      "name": "Property Specs Band",
+      "depth": 1,
+      "gap": "0px",
+      "layout": "stack"
+    },
+    {
+      "path": "/properties/:slug",
+      "bp": "Tablet",
+      "id": "IQmBTrFpbubrig7P0R",
+      "name": "Chapter Intro",
+      "depth": 1,
+      "gap": "48px",
+      "layout": "stack"
+    },
+    {
+      "path": "/properties/:slug",
+      "bp": "Tablet",
+      "id": "IQmBTrFpblP4ZL6y0c",
+      "name": "Cinematic Gallery",
+      "depth": 1,
+      "gap": "40px",
+      "layout": "stack"
+    },
+    {
+      "path": "/properties/:slug",
+      "bp": "Tablet",
+      "id": "IQmBTrFpbxikGIamdr",
+      "name": "Gallery Heading",
+      "depth": 2,
+      "gap": "0px",
+      "layout": "stack"
+    },
+    {
+      "path": "/properties/:slug",
+      "bp": "Tablet",
+      "id": "IQmBTrFpbCGYpcrzdu",
+      "name": "Gallery Grid",
+      "depth": 2,
+      "gap": "16px",
+      "layout": "grid"
+    },
+    {
+      "path": "/properties/:slug",
+      "bp": "Tablet",
+      "id": "IQmBTrFpbuZ8oOXu4y",
+      "name": "The Setting",
+      "depth": 1,
+      "gap": "48px",
+      "layout": "stack"
+    },
+    {
+      "path": "/properties/:slug",
+      "bp": "Tablet",
+      "id": "IQmBTrFpbo1RUuQ9Rb",
+      "name": "Setting Introduction",
+      "depth": 2,
+      "gap": "24px",
+      "layout": "stack"
+    },
+    {
+      "path": "/properties/:slug",
+      "bp": "Tablet",
+      "id": "IQmBTrFpbk7yeGH7Sv",
+      "name": "Setting Copy",
+      "depth": 2,
+      "gap": "24px",
+      "layout": "stack"
+    },
+    {
+      "path": "/properties/:slug",
+      "bp": "Tablet",
+      "id": "IQmBTrFpbvlElPVCV7",
+      "name": "Property Particulars",
+      "depth": 1,
+      "gap": "0px",
+      "layout": "stack"
+    },
+    {
+      "path": "/properties/:slug",
+      "bp": "Tablet",
+      "id": "IQmBTrFpbsviYbp_hn",
+      "name": "Particulars Inner",
+      "depth": 2,
+      "gap": "56px",
+      "layout": "stack"
+    },
+    {
+      "path": "/properties/:slug",
+      "bp": "Tablet",
+      "id": "IQmBTrFpboMewYjay7",
+      "name": "Particulars Introduction",
+      "depth": 3,
+      "gap": "24px",
+      "layout": "stack"
+    },
+    {
+      "path": "/properties/:slug",
+      "bp": "Tablet",
+      "id": "IQmBTrFpbUBIMWUoh5",
+      "name": "Private Enquiry Link",
+      "depth": 4,
+      "gap": "8px",
+      "layout": "stack"
+    },
+    {
+      "path": "/properties/:slug",
+      "bp": "Tablet",
+      "id": "IQmBTrFpbOA3sHhDMv",
+      "name": "Continue Your Search",
+      "depth": 1,
+      "gap": "32px",
+      "layout": "stack"
+    },
+    {
+      "path": "/properties/:slug",
+      "bp": "Tablet",
+      "id": "IQmBTrFpbDGxLaaPw7",
+      "name": "Discovery Routes",
+      "depth": 2,
+      "gap": "24px",
+      "layout": "grid"
+    },
+    {
+      "path": "/properties/:slug",
+      "bp": "Tablet",
+      "id": "IQmBTrFpbWy9_asNQu",
+      "name": "Enquiry CTA",
+      "depth": 1,
+      "gap": "24px",
+      "layout": "stack"
+    },
+    {
+      "path": "/properties/:slug",
+      "bp": "Phone",
+      "id": "MrTKJzwELlODMk6Egu",
+      "name": "Property Hero",
+      "depth": 1,
+      "gap": "32px",
+      "layout": "stack"
+    },
+    {
+      "path": "/properties/:slug",
+      "bp": "Phone",
+      "id": "MrTKJzwELaqUTeKNkU",
+      "name": "Property Specs Band",
+      "depth": 1,
+      "gap": "0px",
+      "layout": "stack"
+    },
+    {
+      "path": "/properties/:slug",
+      "bp": "Phone",
+      "id": "MrTKJzwELubrig7P0R",
+      "name": "Chapter Intro",
+      "depth": 1,
+      "gap": "24px",
+      "layout": "stack"
+    },
+    {
+      "path": "/properties/:slug",
+      "bp": "Phone",
+      "id": "MrTKJzwELlP4ZL6y0c",
+      "name": "Cinematic Gallery",
+      "depth": 1,
+      "gap": "32px",
+      "layout": "stack"
+    },
+    {
+      "path": "/properties/:slug",
+      "bp": "Phone",
+      "id": "MrTKJzwELxikGIamdr",
+      "name": "Gallery Heading",
+      "depth": 2,
+      "gap": "16px",
+      "layout": "stack"
+    },
+    {
+      "path": "/properties/:slug",
+      "bp": "Phone",
+      "id": "MrTKJzwELCGYpcrzdu",
+      "name": "Gallery Grid",
+      "depth": 2,
+      "gap": "16px",
+      "layout": "stack"
+    },
+    {
+      "path": "/properties/:slug",
+      "bp": "Phone",
+      "id": "MrTKJzwELXQfSPVEJl",
+      "name": "Gallery Caption",
+      "depth": 2,
+      "gap": "12px",
+      "layout": "stack"
+    },
+    {
+      "path": "/properties/:slug",
+      "bp": "Phone",
+      "id": "MrTKJzwELuZ8oOXu4y",
+      "name": "The Setting",
+      "depth": 1,
+      "gap": "40px",
+      "layout": "stack"
+    },
+    {
+      "path": "/properties/:slug",
+      "bp": "Phone",
+      "id": "MrTKJzwELo1RUuQ9Rb",
+      "name": "Setting Introduction",
+      "depth": 2,
+      "gap": "24px",
+      "layout": "stack"
+    },
+    {
+      "path": "/properties/:slug",
+      "bp": "Phone",
+      "id": "MrTKJzwELk7yeGH7Sv",
+      "name": "Setting Copy",
+      "depth": 2,
+      "gap": "24px",
+      "layout": "stack"
+    },
+    {
+      "path": "/properties/:slug",
+      "bp": "Phone",
+      "id": "MrTKJzwELvlElPVCV7",
+      "name": "Property Particulars",
+      "depth": 1,
+      "gap": "0px",
+      "layout": "stack"
+    },
+    {
+      "path": "/properties/:slug",
+      "bp": "Phone",
+      "id": "MrTKJzwELsviYbp_hn",
+      "name": "Particulars Inner",
+      "depth": 2,
+      "gap": "48px",
+      "layout": "stack"
+    },
+    {
+      "path": "/properties/:slug",
+      "bp": "Phone",
+      "id": "MrTKJzwELoMewYjay7",
+      "name": "Particulars Introduction",
+      "depth": 3,
+      "gap": "24px",
+      "layout": "stack"
+    },
+    {
+      "path": "/properties/:slug",
+      "bp": "Phone",
+      "id": "MrTKJzwELUBIMWUoh5",
+      "name": "Private Enquiry Link",
+      "depth": 4,
+      "gap": "8px",
+      "layout": "stack"
+    },
+    {
+      "path": "/properties/:slug",
+      "bp": "Phone",
+      "id": "MrTKJzwELOA3sHhDMv",
+      "name": "Continue Your Search",
+      "depth": 1,
+      "gap": "24px",
+      "layout": "stack"
+    },
+    {
+      "path": "/properties/:slug",
+      "bp": "Phone",
+      "id": "MrTKJzwELDGxLaaPw7",
+      "name": "Discovery Routes",
+      "depth": 2,
+      "gap": "24px",
+      "layout": "stack"
+    },
+    {
+      "path": "/properties/:slug",
+      "bp": "Phone",
+      "id": "MrTKJzwELWy9_asNQu",
+      "name": "Enquiry CTA",
+      "depth": 1,
+      "gap": "24px",
+      "layout": "stack"
+    },
+    {
+      "path": "/notes/:slug",
+      "bp": "Desktop",
+      "id": "TYvLnLN5L",
+      "name": "Article Hero Meta",
+      "depth": 1,
+      "gap": "0px",
+      "layout": "stack"
+    },
+    {
+      "path": "/notes/:slug",
+      "bp": "Desktop",
+      "id": "t6rKgpguw",
+      "name": "Back to Journal",
+      "depth": 3,
+      "gap": "8px",
+      "layout": "stack"
+    },
+    {
+      "path": "/notes/:slug",
+      "bp": "Desktop",
+      "id": "rZDvGuaZD",
+      "name": "Journal Hero Image",
+      "depth": 1,
+      "gap": "0px",
+      "layout": "stack"
+    },
+    {
+      "path": "/notes/:slug",
+      "bp": "Desktop",
+      "id": "F88MmOdES",
+      "name": "Article Body Wrap",
+      "depth": 1,
+      "gap": "0px",
+      "layout": "stack"
+    },
+    {
+      "path": "/notes/:slug",
+      "bp": "Desktop",
+      "id": "HR7GLyyBT",
+      "name": "Journal Text Column",
+      "depth": 1,
+      "gap": "10px",
+      "layout": "stack"
+    },
+    {
+      "path": "/notes/:slug",
+      "bp": "Desktop",
+      "id": "sSzDlvcIm",
+      "name": "Wrapper",
+      "depth": 2,
+      "gap": "8px",
+      "layout": "stack"
+    },
+    {
+      "path": "/notes/:slug",
+      "bp": "Desktop",
+      "id": "cIncylbTv",
+      "name": "More From Journal",
+      "depth": 1,
+      "gap": "40px",
+      "layout": "stack"
+    },
+    {
+      "path": "/notes/:slug",
+      "bp": "Desktop",
+      "id": "OE3uHiT52",
+      "name": "Specs Strip",
+      "depth": 1,
+      "gap": "0px",
+      "layout": "stack"
+    },
+    {
+      "path": "/notes/:slug",
+      "bp": "Desktop",
+      "id": "VeGntwuIg",
+      "name": "Closing Chapter",
+      "depth": 1,
+      "gap": "32px",
+      "layout": "stack"
+    },
+    {
+      "path": "/notes/:slug",
+      "bp": "Tablet",
+      "id": "gZUAlaJJ1TYvLnLN5L",
+      "name": "Article Hero Meta",
+      "depth": 1,
+      "gap": "40px",
+      "layout": "stack"
+    },
+    {
+      "path": "/notes/:slug",
+      "bp": "Tablet",
+      "id": "gZUAlaJJ1t6rKgpguw",
+      "name": "Back to Journal",
+      "depth": 3,
+      "gap": "8px",
+      "layout": "stack"
+    },
+    {
+      "path": "/notes/:slug",
+      "bp": "Tablet",
+      "id": "gZUAlaJJ1rZDvGuaZD",
+      "name": "Journal Hero Image",
+      "depth": 1,
+      "gap": "0px",
+      "layout": "stack"
+    },
+    {
+      "path": "/notes/:slug",
+      "bp": "Tablet",
+      "id": "gZUAlaJJ1F88MmOdES",
+      "name": "Article Body Wrap",
+      "depth": 1,
+      "gap": "0px",
+      "layout": "stack"
+    },
+    {
+      "path": "/notes/:slug",
+      "bp": "Tablet",
+      "id": "gZUAlaJJ1HR7GLyyBT",
+      "name": "Journal Text Column",
+      "depth": 1,
+      "gap": "10px",
+      "layout": "stack"
+    },
+    {
+      "path": "/notes/:slug",
+      "bp": "Tablet",
+      "id": "gZUAlaJJ1sSzDlvcIm",
+      "name": "Wrapper",
+      "depth": 2,
+      "gap": "8px",
+      "layout": "stack"
+    },
+    {
+      "path": "/notes/:slug",
+      "bp": "Tablet",
+      "id": "gZUAlaJJ1cIncylbTv",
+      "name": "More From Journal",
+      "depth": 1,
+      "gap": "32px",
+      "layout": "stack"
+    },
+    {
+      "path": "/notes/:slug",
+      "bp": "Tablet",
+      "id": "gZUAlaJJ1OE3uHiT52",
+      "name": "Specs Strip",
+      "depth": 1,
+      "gap": "0px",
+      "layout": "stack"
+    },
+    {
+      "path": "/notes/:slug",
+      "bp": "Tablet",
+      "id": "gZUAlaJJ1VeGntwuIg",
+      "name": "Closing Chapter",
+      "depth": 1,
+      "gap": "32px",
+      "layout": "stack"
+    },
+    {
+      "path": "/notes/:slug",
+      "bp": "Phone",
+      "id": "EavJve6uGTYvLnLN5L",
+      "name": "Article Hero Meta",
+      "depth": 1,
+      "gap": "32px",
+      "layout": "stack"
+    },
+    {
+      "path": "/notes/:slug",
+      "bp": "Phone",
+      "id": "EavJve6uGt6rKgpguw",
+      "name": "Back to Journal",
+      "depth": 3,
+      "gap": "8px",
+      "layout": "stack"
+    },
+    {
+      "path": "/notes/:slug",
+      "bp": "Phone",
+      "id": "EavJve6uGrZDvGuaZD",
+      "name": "Journal Hero Image",
+      "depth": 1,
+      "gap": "0px",
+      "layout": "stack"
+    },
+    {
+      "path": "/notes/:slug",
+      "bp": "Phone",
+      "id": "EavJve6uGF88MmOdES",
+      "name": "Article Body Wrap",
+      "depth": 1,
+      "gap": "0px",
+      "layout": "stack"
+    },
+    {
+      "path": "/notes/:slug",
+      "bp": "Phone",
+      "id": "EavJve6uGHR7GLyyBT",
+      "name": "Journal Text Column",
+      "depth": 1,
+      "gap": "10px",
+      "layout": "stack"
+    },
+    {
+      "path": "/notes/:slug",
+      "bp": "Phone",
+      "id": "EavJve6uGsSzDlvcIm",
+      "name": "Wrapper",
+      "depth": 2,
+      "gap": "8px",
+      "layout": "stack"
+    },
+    {
+      "path": "/notes/:slug",
+      "bp": "Phone",
+      "id": "EavJve6uGcIncylbTv",
+      "name": "More From Journal",
+      "depth": 1,
+      "gap": "28px",
+      "layout": "stack"
+    },
+    {
+      "path": "/notes/:slug",
+      "bp": "Phone",
+      "id": "EavJve6uGOE3uHiT52",
+      "name": "Specs Strip",
+      "depth": 1,
+      "gap": "0px",
+      "layout": "stack"
+    },
+    {
+      "path": "/notes/:slug",
+      "bp": "Phone",
+      "id": "EavJve6uGVeGntwuIg",
+      "name": "Closing Chapter",
+      "depth": 1,
+      "gap": "24px",
+      "layout": "stack"
+    }
+  ],
+  "typeRows": [
+    {
+      "path": "/",
+      "bp": "Desktop",
+      "id": "NSDs1we7r",
+      "name": "Subheadline",
+      "type": "RichTextNode",
+      "textStyle": null,
+      "fontFamily": "Inter",
+      "fontSize": "16px",
+      "font": null,
+      "preview": "Subheadline"
+    },
+    {
+      "path": "/",
+      "bp": "Desktop",
+      "id": "NI_MCXJgQ",
+      "name": "Territories Title",
+      "type": "RichTextNode",
+      "textStyle": null,
+      "fontFamily": "Space Mono",
+      "fontSize": "11px",
+      "font": null,
+      "preview": "Territories Title"
+    },
+    {
+      "path": "/",
+      "bp": "Desktop",
+      "id": "S4UV9Lj4g",
+      "name": "Territories Headline",
+      "type": "RichTextNode",
+      "textStyle": null,
+      "fontFamily": "Fraunces",
+      "fontSize": "84px",
+      "font": null,
+      "preview": "Territories Headline"
+    },
+    {
+      "path": "/",
+      "bp": "Desktop",
+      "id": "CsEM_V7UC",
+      "name": "Portfolio Title",
+      "type": "RichTextNode",
+      "textStyle": null,
+      "fontFamily": "Space Mono",
+      "fontSize": "11px",
+      "font": null,
+      "preview": "Portfolio Title"
+    },
+    {
+      "path": "/",
+      "bp": "Desktop",
+      "id": "Rj2dUhFGQ",
+      "name": "Portfolio Date",
+      "type": "RichTextNode",
+      "textStyle": null,
+      "fontFamily": "Space Mono",
+      "fontSize": "11px",
+      "font": null,
+      "preview": "Portfolio Date"
+    },
+    {
+      "path": "/",
+      "bp": "Desktop",
+      "id": "r9V7kqJn3",
+      "name": "Portfolio Heading",
+      "type": "RichTextNode",
+      "textStyle": null,
+      "fontFamily": "Fraunces",
+      "fontSize": "84px",
+      "font": null,
+      "preview": "Portfolio Heading"
+    },
+    {
+      "path": "/",
+      "bp": "Desktop",
+      "id": "OscYp6xvT",
+      "name": "",
+      "type": "RichTextNode",
+      "textStyle": null,
+      "fontFamily": "Space Mono",
+      "fontSize": "11px",
+      "font": null,
+      "preview": "[object Object]"
+    },
+    {
+      "path": "/",
+      "bp": "Desktop",
+      "id": "oxjoi6nsM",
+      "name": "",
+      "type": "RichTextNode",
+      "textStyle": null,
+      "fontFamily": "Space Mono",
+      "fontSize": "11px",
+      "font": null,
+      "preview": ""
+    },
+    {
+      "path": "/",
+      "bp": "Desktop",
+      "id": "hiul8ySEo",
+      "name": "Property Name",
+      "type": "RichTextNode",
+      "textStyle": null,
+      "fontFamily": "Fraunces",
+      "fontSize": "48px",
+      "font": null,
+      "preview": "var(--variable-JpvlXWFTC)"
+    },
+    {
+      "path": "/",
+      "bp": "Desktop",
+      "id": "RQkgJfnDj",
+      "name": "Property Price",
+      "type": "RichTextNode",
+      "textStyle": null,
+      "fontFamily": "Fraunces",
+      "fontSize": "24px",
+      "font": null,
+      "preview": "var(--variable-fa3JCTHNW)"
+    },
+    {
+      "path": "/",
+      "bp": "Desktop",
+      "id": "IS9HYefXf",
+      "name": "Property Address",
+      "type": "RichTextNode",
+      "textStyle": null,
+      "fontFamily": "Space Mono",
+      "fontSize": "11px",
+      "font": null,
+      "preview": "var(--variable-sx_scwXZw)"
+    },
+    {
+      "path": "/",
+      "bp": "Desktop",
+      "id": "V88F1g1Yl",
+      "name": "Property Location Large",
+      "type": "RichTextNode",
+      "textStyle": null,
+      "fontFamily": "Space Mono",
+      "fontSize": "11px",
+      "font": null,
+      "preview": "Property Location Large"
+    },
+    {
+      "path": "/",
+      "bp": "Desktop",
+      "id": "QIW50deeM",
+      "name": "",
+      "type": "RichTextNode",
+      "textStyle": null,
+      "fontFamily": "Space Mono",
+      "fontSize": "11px",
+      "font": null,
+      "preview": "[object Object]"
+    },
+    {
+      "path": "/",
+      "bp": "Desktop",
+      "id": "FvVSQNvOl",
+      "name": "Property Price Small",
+      "type": "RichTextNode",
+      "textStyle": null,
+      "fontFamily": "Fraunces",
+      "fontSize": "24px",
+      "font": null,
+      "preview": "var(--variable-fa3JCTHNW)"
+    },
+    {
+      "path": "/",
+      "bp": "Desktop",
+      "id": "U2ONfuaKP",
+      "name": "Property Address Small",
+      "type": "RichTextNode",
+      "textStyle": null,
+      "fontFamily": "Space Mono",
+      "fontSize": "11px",
+      "font": null,
+      "preview": "var(--variable-sx_scwXZw)"
+    },
+    {
+      "path": "/",
+      "bp": "Desktop",
+      "id": "PmjD_eoIk",
+      "name": "",
+      "type": "RichTextNode",
+      "textStyle": null,
+      "fontFamily": "Space Mono",
+      "fontSize": "11px",
+      "font": null,
+      "preview": ""
+    },
+    {
+      "path": "/",
+      "bp": "Desktop",
+      "id": "DZtq5dg52",
+      "name": "",
+      "type": "RichTextNode",
+      "textStyle": null,
+      "fontFamily": "Fraunces",
+      "fontSize": "84px",
+      "font": null,
+      "preview": ""
+    },
+    {
+      "path": "/",
+      "bp": "Desktop",
+      "id": "rMM5awPOI",
+      "name": "Process Index",
+      "type": "RichTextNode",
+      "textStyle": null,
+      "fontFamily": "Space Mono",
+      "fontSize": "11px",
+      "font": null,
+      "preview": "Process Index"
+    },
+    {
+      "path": "/",
+      "bp": "Desktop",
+      "id": "g20_UKbhl",
+      "name": "Process Title",
+      "type": "RichTextNode",
+      "textStyle": null,
+      "fontFamily": "Fraunces",
+      "fontSize": "21px",
+      "font": null,
+      "preview": "Process Title"
+    },
+    {
+      "path": "/",
+      "bp": "Desktop",
+      "id": "ZGleGUnNS",
+      "name": "Process Body",
+      "type": "RichTextNode",
+      "textStyle": null,
+      "fontFamily": "Inter",
+      "fontSize": "16px",
+      "font": null,
+      "preview": "Process Body"
+    },
+    {
+      "path": "/",
+      "bp": "Desktop",
+      "id": "FNAZTpamU",
+      "name": "Process Index",
+      "type": "RichTextNode",
+      "textStyle": null,
+      "fontFamily": "Space Mono",
+      "fontSize": "11px",
+      "font": null,
+      "preview": "Process Index"
+    },
+    {
+      "path": "/",
+      "bp": "Desktop",
+      "id": "aby75YUHY",
+      "name": "Process Title",
+      "type": "RichTextNode",
+      "textStyle": null,
+      "fontFamily": "Fraunces",
+      "fontSize": "21px",
+      "font": null,
+      "preview": "Process Title"
+    },
+    {
+      "path": "/",
+      "bp": "Desktop",
+      "id": "ty5Q3T1Do",
+      "name": "Process Body",
+      "type": "RichTextNode",
+      "textStyle": null,
+      "fontFamily": "Inter",
+      "fontSize": "16px",
+      "font": null,
+      "preview": "Process Body"
+    },
+    {
+      "path": "/",
+      "bp": "Desktop",
+      "id": "bYaWflB7h",
+      "name": "Process Index",
+      "type": "RichTextNode",
+      "textStyle": null,
+      "fontFamily": "Space Mono",
+      "fontSize": "11px",
+      "font": null,
+      "preview": "Process Index"
+    },
+    {
+      "path": "/",
+      "bp": "Desktop",
+      "id": "P3zookzVE",
+      "name": "Process Title",
+      "type": "RichTextNode",
+      "textStyle": null,
+      "fontFamily": "Fraunces",
+      "fontSize": "21px",
+      "font": null,
+      "preview": "Process Title"
+    },
+    {
+      "path": "/",
+      "bp": "Desktop",
+      "id": "ZgWsdFYC6",
+      "name": "Process Body",
+      "type": "RichTextNode",
+      "textStyle": null,
+      "fontFamily": "Inter",
+      "fontSize": "16px",
+      "font": null,
+      "preview": "Process Body"
+    },
+    {
+      "path": "/",
+      "bp": "Desktop",
+      "id": "Q8dp9Sm7U",
+      "name": "Process Index",
+      "type": "RichTextNode",
+      "textStyle": null,
+      "fontFamily": "Space Mono",
+      "fontSize": "11px",
+      "font": null,
+      "preview": "Process Index"
+    },
+    {
+      "path": "/",
+      "bp": "Desktop",
+      "id": "Iq2HZr3Qy",
+      "name": "Process Title",
+      "type": "RichTextNode",
+      "textStyle": null,
+      "fontFamily": "Fraunces",
+      "fontSize": "21px",
+      "font": null,
+      "preview": "Process Title"
+    },
+    {
+      "path": "/",
+      "bp": "Desktop",
+      "id": "VcxM8qF1W",
+      "name": "Process Body",
+      "type": "RichTextNode",
+      "textStyle": null,
+      "fontFamily": "Inter",
+      "fontSize": "16px",
+      "font": null,
+      "preview": "Process Body"
+    },
+    {
+      "path": "/",
+      "bp": "Desktop",
+      "id": "U0Xk3QYzX",
+      "name": "Recognition Title",
+      "type": "RichTextNode",
+      "textStyle": null,
+      "fontFamily": "Space Mono",
+      "fontSize": "11px",
+      "font": null,
+      "preview": "Recognition Title"
+    },
+    {
+      "path": "/",
+      "bp": "Desktop",
+      "id": "ToFO1lr5N",
+      "name": "Recognition Subtitle",
+      "type": "RichTextNode",
+      "textStyle": null,
+      "fontFamily": "Space Mono",
+      "fontSize": "11px",
+      "font": null,
+      "preview": "Recognition Subtitle"
+    },
+    {
+      "path": "/",
+      "bp": "Desktop",
+      "id": "lCg6fEtnl",
+      "name": "Recognition Name",
+      "type": "RichTextNode",
+      "textStyle": null,
+      "fontFamily": "Fraunces",
+      "fontSize": "21px",
+      "font": null,
+      "preview": "Recognition Name"
+    },
+    {
+      "path": "/",
+      "bp": "Desktop",
+      "id": "gI00XFLfy",
+      "name": "Recognition Detail",
+      "type": "RichTextNode",
+      "textStyle": null,
+      "fontFamily": "Inter",
+      "fontSize": "16px",
+      "font": null,
+      "preview": "Recognition Detail"
+    },
+    {
+      "path": "/",
+      "bp": "Desktop",
+      "id": "LkJ3bQ6P9",
+      "name": "Recognition Year",
+      "type": "RichTextNode",
+      "textStyle": null,
+      "fontFamily": "Space Mono",
+      "fontSize": "11px",
+      "font": null,
+      "preview": "Recognition Year"
+    },
+    {
+      "path": "/",
+      "bp": "Desktop",
+      "id": "Yq14VHuSg",
+      "name": "Recognition Name",
+      "type": "RichTextNode",
+      "textStyle": null,
+      "fontFamily": "Fraunces",
+      "fontSize": "21px",
+      "font": null,
+      "preview": "Recognition Name"
+    },
+    {
+      "path": "/",
+      "bp": "Desktop",
+      "id": "ZJR8Zf2yZ",
+      "name": "Recognition Detail",
+      "type": "RichTextNode",
+      "textStyle": null,
+      "fontFamily": "Inter",
+      "fontSize": "16px",
+      "font": null,
+      "preview": "Recognition Detail"
+    },
+    {
+      "path": "/",
+      "bp": "Desktop",
+      "id": "AxDoNKrnF",
+      "name": "Recognition Year",
+      "type": "RichTextNode",
+      "textStyle": null,
+      "fontFamily": "Space Mono",
+      "fontSize": "11px",
+      "font": null,
+      "preview": "Recognition Year"
+    },
+    {
+      "path": "/",
+      "bp": "Desktop",
+      "id": "P54AEFPhV",
+      "name": "Recognition Name",
+      "type": "RichTextNode",
+      "textStyle": null,
+      "fontFamily": "Fraunces",
+      "fontSize": "21px",
+      "font": null,
+      "preview": "Recognition Name"
+    },
+    {
+      "path": "/",
+      "bp": "Desktop",
+      "id": "fJ5MxGK9O",
+      "name": "Recognition Detail",
+      "type": "RichTextNode",
+      "textStyle": null,
+      "fontFamily": "Inter",
+      "fontSize": "16px",
+      "font": null,
+      "preview": "Recognition Detail"
+    },
+    {
+      "path": "/",
+      "bp": "Desktop",
+      "id": "kCMOVgnYn",
+      "name": "Recognition Year",
+      "type": "RichTextNode",
+      "textStyle": null,
+      "fontFamily": "Space Mono",
+      "fontSize": "11px",
+      "font": null,
+      "preview": "Recognition Year"
+    },
+    {
+      "path": "/",
+      "bp": "Desktop",
+      "id": "jtvqYSg6g",
+      "name": "Recognition Name",
+      "type": "RichTextNode",
+      "textStyle": null,
+      "fontFamily": "Fraunces",
+      "fontSize": "21px",
+      "font": null,
+      "preview": "Recognition Name"
+    },
+    {
+      "path": "/",
+      "bp": "Desktop",
+      "id": "eDqEFURJL",
+      "name": "Recognition Detail",
+      "type": "RichTextNode",
+      "textStyle": null,
+      "fontFamily": "Inter",
+      "fontSize": "16px",
+      "font": null,
+      "preview": "Recognition Detail"
+    },
+    {
+      "path": "/",
+      "bp": "Desktop",
+      "id": "ihxS0jMNr",
+      "name": "Recognition Year",
+      "type": "RichTextNode",
+      "textStyle": null,
+      "fontFamily": "Space Mono",
+      "fontSize": "11px",
+      "font": null,
+      "preview": "Recognition Year"
+    },
+    {
+      "path": "/",
+      "bp": "Desktop",
+      "id": "ojxCqw0q5",
+      "name": "",
+      "type": "RichTextNode",
+      "textStyle": null,
+      "fontFamily": "Space Mono",
+      "fontSize": "11px",
+      "font": null,
+      "preview": ""
+    },
+    {
+      "path": "/",
+      "bp": "Desktop",
+      "id": "Efjo7ngOA",
+      "name": "",
+      "type": "RichTextNode",
+      "textStyle": null,
+      "fontFamily": "Fraunces",
+      "fontSize": "21px",
+      "font": null,
+      "preview": ""
+    },
+    {
+      "path": "/",
+      "bp": "Desktop",
+      "id": "NVwNN1Nnb",
+      "name": "",
+      "type": "RichTextNode",
+      "textStyle": null,
+      "fontFamily": "Space Mono",
+      "fontSize": "11px",
+      "font": null,
+      "preview": ""
+    },
+    {
+      "path": "/",
+      "bp": "Desktop",
+      "id": "YO9sJq10W",
+      "name": "",
+      "type": "RichTextNode",
+      "textStyle": null,
+      "fontFamily": "Fraunces",
+      "fontSize": "21px",
+      "font": null,
+      "preview": ""
+    },
+    {
+      "path": "/",
+      "bp": "Desktop",
+      "id": "h8sCxmcqH",
+      "name": "",
+      "type": "RichTextNode",
+      "textStyle": null,
+      "fontFamily": "Space Mono",
+      "fontSize": "11px",
+      "font": null,
+      "preview": ""
+    },
+    {
+      "path": "/",
+      "bp": "Desktop",
+      "id": "u7900mwIS",
+      "name": "",
+      "type": "RichTextNode",
+      "textStyle": null,
+      "fontFamily": "Fraunces",
+      "fontSize": "21px",
+      "font": null,
+      "preview": ""
+    },
+    {
+      "path": "/",
+      "bp": "Desktop",
+      "id": "xjRDHUiXm",
+      "name": "",
+      "type": "RichTextNode",
+      "textStyle": null,
+      "fontFamily": "Space Mono",
+      "fontSize": "11px",
+      "font": null,
+      "preview": ""
+    },
+    {
+      "path": "/",
+      "bp": "Desktop",
+      "id": "M2zIR193B",
+      "name": "",
+      "type": "RichTextNode",
+      "textStyle": null,
+      "fontFamily": "Space Mono",
+      "fontSize": "11px",
+      "font": null,
+      "preview": ""
+    },
+    {
+      "path": "/",
+      "bp": "Desktop",
+      "id": "FlbY1fTWP",
+      "name": "",
+      "type": "RichTextNode",
+      "textStyle": null,
+      "fontFamily": "Fraunces",
+      "fontSize": "48px",
+      "font": null,
+      "preview": ""
+    },
+    {
+      "path": "/",
+      "bp": "Desktop",
+      "id": "N9SK6gnT4",
+      "name": "Journal Deck",
+      "type": "RichTextNode",
+      "textStyle": null,
+      "fontFamily": null,
+      "fontSize": null,
+      "font": null,
+      "preview": "Journal Deck"
+    },
+    {
+      "path": "/",
+      "bp": "Desktop",
+      "id": "s2BRf6eyb",
+      "name": "Newsletter Quarterly notes on new workS!",
+      "type": "RichTextNode",
+      "textStyle": null,
+      "fontFamily": "Space Mono",
+      "fontSize": "11px",
+      "font": null,
+      "preview": "Newsletter Quarterly notes on new workS!"
+    },
+    {
+      "path": "/properties",
+      "bp": "Desktop",
+      "id": "H0pCvPI36",
+      "name": "",
+      "type": "RichTextNode",
+      "textStyle": null,
+      "fontFamily": null,
+      "fontSize": null,
+      "font": null,
+      "preview": ""
+    },
+    {
+      "path": "/properties",
+      "bp": "Desktop",
+      "id": "WQob20jtV",
+      "name": "",
+      "type": "RichTextNode",
+      "textStyle": null,
+      "fontFamily": null,
+      "fontSize": null,
+      "font": null,
+      "preview": ""
+    },
+    {
+      "path": "/properties",
+      "bp": "Desktop",
+      "id": "eeii639K0",
+      "name": "",
+      "type": "RichTextNode",
+      "textStyle": null,
+      "fontFamily": null,
+      "fontSize": null,
+      "font": null,
+      "preview": ""
+    },
+    {
+      "path": "/properties",
+      "bp": "Desktop",
+      "id": "cR5cTWroe",
+      "name": "",
+      "type": "RichTextNode",
+      "textStyle": null,
+      "fontFamily": null,
+      "fontSize": null,
+      "font": null,
+      "preview": ""
+    },
+    {
+      "path": "/properties",
+      "bp": "Desktop",
+      "id": "rXbBK9R5f",
+      "name": "Collection Label",
+      "type": "RichTextNode",
+      "textStyle": null,
+      "fontFamily": "Space Mono",
+      "fontSize": "11px",
+      "font": null,
+      "preview": "Collection Label"
+    },
+    {
+      "path": "/properties",
+      "bp": "Desktop",
+      "id": "jtsX1XPEY",
+      "name": "Collection Count",
+      "type": "RichTextNode",
+      "textStyle": null,
+      "fontFamily": "Space Mono",
+      "fontSize": "11px",
+      "font": null,
+      "preview": "Collection Count"
+    },
+    {
+      "path": "/properties",
+      "bp": "Desktop",
+      "id": "qh2ov1u0z",
+      "name": "",
+      "type": "RichTextNode",
+      "textStyle": null,
+      "fontFamily": "Space Mono",
+      "fontSize": "9px",
+      "font": null,
+      "preview": ""
+    },
+    {
+      "path": "/properties",
+      "bp": "Desktop",
+      "id": "vpQs1iwIW",
+      "name": "",
+      "type": "RichTextNode",
+      "textStyle": null,
+      "fontFamily": "Space Mono",
+      "fontSize": "9px",
+      "font": null,
+      "preview": ""
+    },
+    {
+      "path": "/properties",
+      "bp": "Desktop",
+      "id": "r20pZz0kN",
+      "name": "",
+      "type": "RichTextNode",
+      "textStyle": null,
+      "fontFamily": "Space Mono",
+      "fontSize": "9px",
+      "font": null,
+      "preview": ""
+    },
+    {
+      "path": "/properties",
+      "bp": "Desktop",
+      "id": "mdsHI789x",
+      "name": "",
+      "type": "RichTextNode",
+      "textStyle": null,
+      "fontFamily": "Space Mono",
+      "fontSize": "9px",
+      "font": null,
+      "preview": ""
+    },
+    {
+      "path": "/properties",
+      "bp": "Desktop",
+      "id": "ZeHTMK_3R",
+      "name": "",
+      "type": "RichTextNode",
+      "textStyle": null,
+      "fontFamily": "Space Mono",
+      "fontSize": "9px",
+      "font": null,
+      "preview": ""
+    },
+    {
+      "path": "/properties",
+      "bp": "Desktop",
+      "id": "RBeIwvNqS",
+      "name": "",
+      "type": "RichTextNode",
+      "textStyle": null,
+      "fontFamily": "Space Mono",
+      "fontSize": "11px",
+      "font": null,
+      "preview": ""
+    },
+    {
+      "path": "/properties",
+      "bp": "Desktop",
+      "id": "o1PW8f3Gs",
+      "name": "",
+      "type": "RichTextNode",
+      "textStyle": null,
+      "fontFamily": "Space Mono",
+      "fontSize": "11px",
+      "font": null,
+      "preview": ""
+    },
+    {
+      "path": "/properties",
+      "bp": "Desktop",
+      "id": "jCP_5FgVg",
+      "name": "",
+      "type": "RichTextNode",
+      "textStyle": null,
+      "fontFamily": "Space Mono",
+      "fontSize": "11px",
+      "font": null,
+      "preview": ""
+    },
+    {
+      "path": "/properties",
+      "bp": "Desktop",
+      "id": "zvGdeCucM",
+      "name": "",
+      "type": "RichTextNode",
+      "textStyle": null,
+      "fontFamily": "Space Mono",
+      "fontSize": "11px",
+      "font": null,
+      "preview": ""
+    },
+    {
+      "path": "/properties",
+      "bp": "Desktop",
+      "id": "QLFQUOYXM",
+      "name": "",
+      "type": "RichTextNode",
+      "textStyle": null,
+      "fontFamily": null,
+      "fontSize": null,
+      "font": null,
+      "preview": ""
+    },
+    {
+      "path": "/properties",
+      "bp": "Desktop",
+      "id": "fWEtnTZY0",
+      "name": "",
+      "type": "RichTextNode",
+      "textStyle": null,
+      "fontFamily": "Inter",
+      "fontSize": "18px",
+      "font": null,
+      "preview": ""
+    },
+    {
+      "path": "/properties",
+      "bp": "Desktop",
+      "id": "LVO4XouiB",
+      "name": "",
+      "type": "RichTextNode",
+      "textStyle": null,
+      "fontFamily": "Space Mono",
+      "fontSize": "11px",
+      "font": null,
+      "preview": ""
+    },
+    {
+      "path": "/properties",
+      "bp": "Desktop",
+      "id": "DwKjRyj7K",
+      "name": "",
+      "type": "RichTextNode",
+      "textStyle": null,
+      "fontFamily": null,
+      "fontSize": null,
+      "font": null,
+      "preview": ""
+    },
+    {
+      "path": "/properties",
+      "bp": "Desktop",
+      "id": "oF8xNG5DJ",
+      "name": "",
+      "type": "RichTextNode",
+      "textStyle": null,
+      "fontFamily": "Space Mono",
+      "fontSize": "11px",
+      "font": null,
+      "preview": ""
+    },
+    {
+      "path": "/properties",
+      "bp": "Desktop",
+      "id": "eJwyF9sHo",
+      "name": "",
+      "type": "RichTextNode",
+      "textStyle": null,
+      "fontFamily": "Space Mono",
+      "fontSize": "11px",
+      "font": null,
+      "preview": ""
+    },
+    {
+      "path": "/properties",
+      "bp": "Desktop",
+      "id": "oEHXHtuRl",
+      "name": "",
+      "type": "RichTextNode",
+      "textStyle": null,
+      "fontFamily": "Fraunces",
+      "fontSize": "28px",
+      "font": null,
+      "preview": ""
+    },
+    {
+      "path": "/properties",
+      "bp": "Desktop",
+      "id": "QEXjleRNs",
+      "name": "",
+      "type": "RichTextNode",
+      "textStyle": null,
+      "fontFamily": "Inter",
+      "fontSize": "16px",
+      "font": null,
+      "preview": ""
+    },
+    {
+      "path": "/properties",
+      "bp": "Desktop",
+      "id": "NhduoRntY",
+      "name": "",
+      "type": "RichTextNode",
+      "textStyle": null,
+      "fontFamily": "Space Mono",
+      "fontSize": "11px",
+      "font": null,
+      "preview": ""
+    },
+    {
+      "path": "/properties",
+      "bp": "Desktop",
+      "id": "zbxrjDbo_",
+      "name": "",
+      "type": "RichTextNode",
+      "textStyle": null,
+      "fontFamily": "Fraunces",
+      "fontSize": "28px",
+      "font": null,
+      "preview": ""
+    },
+    {
+      "path": "/properties",
+      "bp": "Desktop",
+      "id": "bLkyXmYTL",
+      "name": "",
+      "type": "RichTextNode",
+      "textStyle": null,
+      "fontFamily": "Inter",
+      "fontSize": "16px",
+      "font": null,
+      "preview": ""
+    },
+    {
+      "path": "/properties",
+      "bp": "Desktop",
+      "id": "xNDSDLLMF",
+      "name": "",
+      "type": "RichTextNode",
+      "textStyle": null,
+      "fontFamily": "Space Mono",
+      "fontSize": "11px",
+      "font": null,
+      "preview": ""
+    },
+    {
+      "path": "/properties",
+      "bp": "Desktop",
+      "id": "hxsRn_9WN",
+      "name": "",
+      "type": "RichTextNode",
+      "textStyle": null,
+      "fontFamily": "Fraunces",
+      "fontSize": "28px",
+      "font": null,
+      "preview": ""
+    },
+    {
+      "path": "/properties",
+      "bp": "Desktop",
+      "id": "jb25IJ8pa",
+      "name": "",
+      "type": "RichTextNode",
+      "textStyle": null,
+      "fontFamily": "Inter",
+      "fontSize": "16px",
+      "font": null,
+      "preview": ""
+    },
+    {
+      "path": "/properties",
+      "bp": "Desktop",
+      "id": "mU8jaLXXI",
+      "name": "Discovery Label",
+      "type": "RichTextNode",
+      "textStyle": null,
+      "fontFamily": null,
+      "fontSize": null,
+      "font": null,
+      "preview": "Discovery Label"
+    },
+    {
+      "path": "/properties",
+      "bp": "Desktop",
+      "id": "qe0wB2yko",
+      "name": "Properties Label",
+      "type": "RichTextNode",
+      "textStyle": null,
+      "fontFamily": null,
+      "fontSize": null,
+      "font": null,
+      "preview": "Properties Label"
+    },
+    {
+      "path": "/properties",
+      "bp": "Desktop",
+      "id": "rAAv8VxgR",
+      "name": "Properties Title",
+      "type": "RichTextNode",
+      "textStyle": null,
+      "fontFamily": null,
+      "fontSize": null,
+      "font": null,
+      "preview": "Properties Title"
+    },
+    {
+      "path": "/properties",
+      "bp": "Desktop",
+      "id": "VhuRERf8g",
+      "name": "Properties Copy",
+      "type": "RichTextNode",
+      "textStyle": null,
+      "fontFamily": null,
+      "fontSize": null,
+      "font": null,
+      "preview": "Properties Copy"
+    },
+    {
+      "path": "/properties",
+      "bp": "Desktop",
+      "id": "eGUGiNFtd",
+      "name": "Enquiry Kicker",
+      "type": "RichTextNode",
+      "textStyle": null,
+      "fontFamily": null,
+      "fontSize": null,
+      "font": null,
+      "preview": "Enquiry Kicker"
+    },
+    {
+      "path": "/properties",
+      "bp": "Desktop",
+      "id": "ZqJnbUIG9",
+      "name": "Enquiry Heading",
+      "type": "RichTextNode",
+      "textStyle": null,
+      "fontFamily": null,
+      "fontSize": null,
+      "font": null,
+      "preview": "Enquiry Heading"
+    },
+    {
+      "path": "/properties",
+      "bp": "Desktop",
+      "id": "z4s1V3Jha",
+      "name": "",
+      "type": "RichTextNode",
+      "textStyle": null,
+      "fontFamily": null,
+      "fontSize": null,
+      "font": null,
+      "preview": ""
+    },
+    {
+      "path": "/neighbourhoods",
+      "bp": "Desktop",
+      "id": "mGNFNlJAN",
+      "name": "",
+      "type": "RichTextNode",
+      "textStyle": null,
+      "fontFamily": null,
+      "fontSize": null,
+      "font": null,
+      "preview": ""
+    },
+    {
+      "path": "/neighbourhoods",
+      "bp": "Desktop",
+      "id": "n9ay7tOtM",
+      "name": "",
+      "type": "RichTextNode",
+      "textStyle": null,
+      "fontFamily": null,
+      "fontSize": null,
+      "font": null,
+      "preview": ""
+    },
+    {
+      "path": "/neighbourhoods",
+      "bp": "Desktop",
+      "id": "rWmr0qn1F",
+      "name": "",
+      "type": "RichTextNode",
+      "textStyle": null,
+      "fontFamily": null,
+      "fontSize": null,
+      "font": null,
+      "preview": ""
+    },
+    {
+      "path": "/neighbourhoods",
+      "bp": "Desktop",
+      "id": "Dsp5KQS9c",
+      "name": "",
+      "type": "RichTextNode",
+      "textStyle": null,
+      "fontFamily": null,
+      "fontSize": null,
+      "font": null,
+      "preview": ""
+    },
+    {
+      "path": "/neighbourhoods",
+      "bp": "Desktop",
+      "id": "O26ITVtlq",
+      "name": "",
+      "type": "RichTextNode",
+      "textStyle": null,
+      "fontFamily": null,
+      "fontSize": null,
+      "font": null,
+      "preview": ""
+    },
+    {
+      "path": "/neighbourhoods",
+      "bp": "Desktop",
+      "id": "Z3DYUEfrR",
+      "name": "",
+      "type": "RichTextNode",
+      "textStyle": null,
+      "fontFamily": null,
+      "fontSize": null,
+      "font": null,
+      "preview": ""
+    },
+    {
+      "path": "/neighbourhoods",
+      "bp": "Desktop",
+      "id": "ZmKAjtBzH",
+      "name": "",
+      "type": "RichTextNode",
+      "textStyle": null,
+      "fontFamily": null,
+      "fontSize": null,
+      "font": null,
+      "preview": ""
+    },
+    {
+      "path": "/neighbourhoods",
+      "bp": "Desktop",
+      "id": "KJdpIBmOd",
+      "name": "",
+      "type": "RichTextNode",
+      "textStyle": null,
+      "fontFamily": null,
+      "fontSize": null,
+      "font": null,
+      "preview": ""
+    },
+    {
+      "path": "/notes",
+      "bp": "Desktop",
+      "id": "sqsFVTzsL",
+      "name": "",
+      "type": "RichTextNode",
+      "textStyle": null,
+      "fontFamily": null,
+      "fontSize": null,
+      "font": null,
+      "preview": ""
+    },
+    {
+      "path": "/notes",
+      "bp": "Desktop",
+      "id": "t1K8NQ7z5",
+      "name": "",
+      "type": "RichTextNode",
+      "textStyle": null,
+      "fontFamily": null,
+      "fontSize": null,
+      "font": null,
+      "preview": ""
+    },
+    {
+      "path": "/notes",
+      "bp": "Desktop",
+      "id": "xEORYedqg",
+      "name": "Display Title",
+      "type": "RichTextNode",
+      "textStyle": null,
+      "fontFamily": null,
+      "fontSize": null,
+      "font": null,
+      "preview": "Display Title"
+    },
+    {
+      "path": "/notes",
+      "bp": "Desktop",
+      "id": "dCYCf8ZZp",
+      "name": "Deck",
+      "type": "RichTextNode",
+      "textStyle": null,
+      "fontFamily": null,
+      "fontSize": null,
+      "font": null,
+      "preview": "Deck"
+    },
+    {
+      "path": "/notes",
+      "bp": "Desktop",
+      "id": "yzUPSfS5X",
+      "name": "",
+      "type": "RichTextNode",
+      "textStyle": null,
+      "fontFamily": null,
+      "fontSize": null,
+      "font": null,
+      "preview": ""
+    },
+    {
+      "path": "/notes",
+      "bp": "Desktop",
+      "id": "gyKLGUl9N",
+      "name": "",
+      "type": "RichTextNode",
+      "textStyle": null,
+      "fontFamily": null,
+      "fontSize": null,
+      "font": null,
+      "preview": ""
+    },
+    {
+      "path": "/notes",
+      "bp": "Desktop",
+      "id": "K7A1fvkV1",
+      "name": "Journal Topics",
+      "type": "RichTextNode",
+      "textStyle": null,
+      "fontFamily": null,
+      "fontSize": null,
+      "font": null,
+      "preview": "Journal Topics"
+    },
+    {
+      "path": "/notes",
+      "bp": "Desktop",
+      "id": "Uf5rLdqqP",
+      "name": "",
+      "type": "RichTextNode",
+      "textStyle": null,
+      "fontFamily": null,
+      "fontSize": null,
+      "font": null,
+      "preview": ""
+    },
+    {
+      "path": "/notes",
+      "bp": "Desktop",
+      "id": "hHJxir8HR",
+      "name": "",
+      "type": "RichTextNode",
+      "textStyle": null,
+      "fontFamily": null,
+      "fontSize": null,
+      "font": null,
+      "preview": ""
+    },
+    {
+      "path": "/notes",
+      "bp": "Desktop",
+      "id": "Yejmu7B7r",
+      "name": "",
+      "type": "RichTextNode",
+      "textStyle": null,
+      "fontFamily": null,
+      "fontSize": null,
+      "font": null,
+      "preview": ""
+    },
+    {
+      "path": "/notes",
+      "bp": "Desktop",
+      "id": "v_E9QKepJ",
+      "name": "",
+      "type": "RichTextNode",
+      "textStyle": null,
+      "fontFamily": null,
+      "fontSize": null,
+      "font": null,
+      "preview": ""
+    },
+    {
+      "path": "/notes",
+      "bp": "Desktop",
+      "id": "Yi1ld9Pc1",
+      "name": "",
+      "type": "RichTextNode",
+      "textStyle": null,
+      "fontFamily": null,
+      "fontSize": null,
+      "font": null,
+      "preview": ""
+    },
+    {
+      "path": "/notes",
+      "bp": "Desktop",
+      "id": "rcIiVrHBq",
+      "name": "",
+      "type": "RichTextNode",
+      "textStyle": null,
+      "fontFamily": null,
+      "fontSize": null,
+      "font": null,
+      "preview": ""
+    },
+    {
+      "path": "/notes",
+      "bp": "Desktop",
+      "id": "Fe5WKPsRA",
+      "name": "",
+      "type": "RichTextNode",
+      "textStyle": null,
+      "fontFamily": null,
+      "fontSize": null,
+      "font": null,
+      "preview": ""
+    },
+    {
+      "path": "/notes",
+      "bp": "Desktop",
+      "id": "WhizOzz3H",
+      "name": "",
+      "type": "RichTextNode",
+      "textStyle": null,
+      "fontFamily": null,
+      "fontSize": null,
+      "font": null,
+      "preview": ""
+    },
+    {
+      "path": "/notes",
+      "bp": "Desktop",
+      "id": "Z2YTa8BaL",
+      "name": "",
+      "type": "RichTextNode",
+      "textStyle": null,
+      "fontFamily": null,
+      "fontSize": null,
+      "font": null,
+      "preview": ""
+    },
+    {
+      "path": "/about",
+      "bp": "Desktop",
+      "id": "wSOaOIjVj",
+      "name": "",
+      "type": "RichTextNode",
+      "textStyle": null,
+      "fontFamily": null,
+      "fontSize": null,
+      "font": null,
+      "preview": ""
+    },
+    {
+      "path": "/about",
+      "bp": "Desktop",
+      "id": "in7YNz4XG",
+      "name": "",
+      "type": "RichTextNode",
+      "textStyle": null,
+      "fontFamily": null,
+      "fontSize": null,
+      "font": null,
+      "preview": ""
+    },
+    {
+      "path": "/about",
+      "bp": "Desktop",
+      "id": "Jq9L_1OW4",
+      "name": "",
+      "type": "RichTextNode",
+      "textStyle": null,
+      "fontFamily": null,
+      "fontSize": null,
+      "font": null,
+      "preview": ""
+    },
+    {
+      "path": "/about",
+      "bp": "Desktop",
+      "id": "jVJ8gDz5T",
+      "name": "",
+      "type": "RichTextNode",
+      "textStyle": null,
+      "fontFamily": null,
+      "fontSize": null,
+      "font": null,
+      "preview": ""
+    },
+    {
+      "path": "/about",
+      "bp": "Desktop",
+      "id": "FcjYKCG_4",
+      "name": "",
+      "type": "RichTextNode",
+      "textStyle": null,
+      "fontFamily": null,
+      "fontSize": null,
+      "font": null,
+      "preview": ""
+    },
+    {
+      "path": "/about",
+      "bp": "Desktop",
+      "id": "F4woaNv06",
+      "name": "",
+      "type": "RichTextNode",
+      "textStyle": null,
+      "fontFamily": null,
+      "fontSize": null,
+      "font": null,
+      "preview": ""
+    },
+    {
+      "path": "/about",
+      "bp": "Desktop",
+      "id": "IkD2jTgco",
+      "name": "",
+      "type": "RichTextNode",
+      "textStyle": null,
+      "fontFamily": null,
+      "fontSize": null,
+      "font": null,
+      "preview": ""
+    },
+    {
+      "path": "/about",
+      "bp": "Desktop",
+      "id": "HiipOw7wM",
+      "name": "",
+      "type": "RichTextNode",
+      "textStyle": null,
+      "fontFamily": null,
+      "fontSize": null,
+      "font": null,
+      "preview": ""
+    },
+    {
+      "path": "/about",
+      "bp": "Desktop",
+      "id": "v2b6nCPJF",
+      "name": "",
+      "type": "RichTextNode",
+      "textStyle": null,
+      "fontFamily": null,
+      "fontSize": null,
+      "font": null,
+      "preview": ""
+    },
+    {
+      "path": "/about",
+      "bp": "Desktop",
+      "id": "B5vQGhsM6",
+      "name": "",
+      "type": "RichTextNode",
+      "textStyle": null,
+      "fontFamily": null,
+      "fontSize": null,
+      "font": null,
+      "preview": ""
+    },
+    {
+      "path": "/about",
+      "bp": "Desktop",
+      "id": "KpIJLF6Pw",
+      "name": "",
+      "type": "RichTextNode",
+      "textStyle": null,
+      "fontFamily": null,
+      "fontSize": null,
+      "font": null,
+      "preview": ""
+    },
+    {
+      "path": "/about",
+      "bp": "Desktop",
+      "id": "ieTHKnebV",
+      "name": "Section Label",
+      "type": "RichTextNode",
+      "textStyle": null,
+      "fontFamily": null,
+      "fontSize": null,
+      "font": null,
+      "preview": "Section Label"
+    },
+    {
+      "path": "/about",
+      "bp": "Desktop",
+      "id": "pyJqmntLI",
+      "name": "Editorial Caption",
+      "type": "RichTextNode",
+      "textStyle": null,
+      "fontFamily": null,
+      "fontSize": null,
+      "font": null,
+      "preview": "Editorial Caption"
+    },
+    {
+      "path": "/about",
+      "bp": "Desktop",
+      "id": "N1vpwSkUZ",
+      "name": "Practice Statement",
+      "type": "RichTextNode",
+      "textStyle": null,
+      "fontFamily": null,
+      "fontSize": null,
+      "font": null,
+      "preview": "Practice Statement"
+    },
+    {
+      "path": "/about",
+      "bp": "Desktop",
+      "id": "wOYnDh97f",
+      "name": "",
+      "type": "RichTextNode",
+      "textStyle": null,
+      "fontFamily": null,
+      "fontSize": null,
+      "font": null,
+      "preview": ""
+    },
+    {
+      "path": "/about",
+      "bp": "Desktop",
+      "id": "ktspcEiIf",
+      "name": "",
+      "type": "RichTextNode",
+      "textStyle": null,
+      "fontFamily": null,
+      "fontSize": null,
+      "font": null,
+      "preview": ""
+    },
+    {
+      "path": "/about",
+      "bp": "Desktop",
+      "id": "HKEpYztEV",
+      "name": "",
+      "type": "RichTextNode",
+      "textStyle": null,
+      "fontFamily": null,
+      "fontSize": null,
+      "font": null,
+      "preview": ""
+    },
+    {
+      "path": "/about",
+      "bp": "Desktop",
+      "id": "wwK7aBtuc",
+      "name": "",
+      "type": "RichTextNode",
+      "textStyle": null,
+      "fontFamily": null,
+      "fontSize": null,
+      "font": null,
+      "preview": ""
+    },
+    {
+      "path": "/about",
+      "bp": "Desktop",
+      "id": "MDKKcsxIi",
+      "name": "",
+      "type": "RichTextNode",
+      "textStyle": null,
+      "fontFamily": null,
+      "fontSize": null,
+      "font": null,
+      "preview": ""
+    },
+    {
+      "path": "/about",
+      "bp": "Desktop",
+      "id": "JYYM61w1w",
+      "name": "",
+      "type": "RichTextNode",
+      "textStyle": null,
+      "fontFamily": null,
+      "fontSize": null,
+      "font": null,
+      "preview": ""
+    },
+    {
+      "path": "/about",
+      "bp": "Desktop",
+      "id": "UYhaHDCC3",
+      "name": "",
+      "type": "RichTextNode",
+      "textStyle": null,
+      "fontFamily": null,
+      "fontSize": null,
+      "font": null,
+      "preview": ""
+    },
+    {
+      "path": "/about",
+      "bp": "Desktop",
+      "id": "O1neFtNPQ",
+      "name": "",
+      "type": "RichTextNode",
+      "textStyle": null,
+      "fontFamily": null,
+      "fontSize": null,
+      "font": null,
+      "preview": ""
+    },
+    {
+      "path": "/about",
+      "bp": "Desktop",
+      "id": "ly_HhBD42",
+      "name": "",
+      "type": "RichTextNode",
+      "textStyle": null,
+      "fontFamily": null,
+      "fontSize": null,
+      "font": null,
+      "preview": ""
+    },
+    {
+      "path": "/about",
+      "bp": "Desktop",
+      "id": "J3kIJZAMA",
+      "name": "",
+      "type": "RichTextNode",
+      "textStyle": null,
+      "fontFamily": null,
+      "fontSize": null,
+      "font": null,
+      "preview": ""
+    },
+    {
+      "path": "/about",
+      "bp": "Desktop",
+      "id": "gKBWGey2K",
+      "name": "",
+      "type": "RichTextNode",
+      "textStyle": null,
+      "fontFamily": null,
+      "fontSize": null,
+      "font": null,
+      "preview": ""
+    },
+    {
+      "path": "/about",
+      "bp": "Desktop",
+      "id": "R6iXPXjxK",
+      "name": "",
+      "type": "RichTextNode",
+      "textStyle": null,
+      "fontFamily": null,
+      "fontSize": null,
+      "font": null,
+      "preview": ""
+    },
+    {
+      "path": "/about",
+      "bp": "Desktop",
+      "id": "h_YNoH2dN",
+      "name": "Enquiry Kicker",
+      "type": "RichTextNode",
+      "textStyle": null,
+      "fontFamily": null,
+      "fontSize": null,
+      "font": null,
+      "preview": "Enquiry Kicker"
+    },
+    {
+      "path": "/about",
+      "bp": "Desktop",
+      "id": "h_OuVAKl_",
+      "name": "Enquiry Heading",
+      "type": "RichTextNode",
+      "textStyle": null,
+      "fontFamily": null,
+      "fontSize": null,
+      "font": null,
+      "preview": "Enquiry Heading"
+    },
+    {
+      "path": "/about",
+      "bp": "Desktop",
+      "id": "tgyIYRpq7",
+      "name": "",
+      "type": "RichTextNode",
+      "textStyle": null,
+      "fontFamily": null,
+      "fontSize": null,
+      "font": null,
+      "preview": ""
+    },
+    {
+      "path": "/contact",
+      "bp": "Desktop",
+      "id": "TWVNilHRn",
+      "name": "",
+      "type": "RichTextNode",
+      "textStyle": null,
+      "fontFamily": null,
+      "fontSize": null,
+      "font": null,
+      "preview": ""
+    },
+    {
+      "path": "/contact",
+      "bp": "Desktop",
+      "id": "R80e8PwNu",
+      "name": "",
+      "type": "RichTextNode",
+      "textStyle": null,
+      "fontFamily": null,
+      "fontSize": null,
+      "font": null,
+      "preview": ""
+    },
+    {
+      "path": "/contact",
+      "bp": "Desktop",
+      "id": "jFTgrH9Eq",
+      "name": "",
+      "type": "RichTextNode",
+      "textStyle": null,
+      "fontFamily": null,
+      "fontSize": null,
+      "font": null,
+      "preview": ""
+    },
+    {
+      "path": "/contact",
+      "bp": "Desktop",
+      "id": "F6Dxn9vpj",
+      "name": "",
+      "type": "RichTextNode",
+      "textStyle": null,
+      "fontFamily": null,
+      "fontSize": null,
+      "font": null,
+      "preview": ""
+    },
+    {
+      "path": "/contact",
+      "bp": "Desktop",
+      "id": "at0UFQWlS",
+      "name": "",
+      "type": "RichTextNode",
+      "textStyle": null,
+      "fontFamily": null,
+      "fontSize": null,
+      "font": null,
+      "preview": ""
+    },
+    {
+      "path": "/contact",
+      "bp": "Desktop",
+      "id": "SEtzgNJzz",
+      "name": "",
+      "type": "RichTextNode",
+      "textStyle": null,
+      "fontFamily": null,
+      "fontSize": null,
+      "font": null,
+      "preview": ""
+    },
+    {
+      "path": "/contact",
+      "bp": "Desktop",
+      "id": "jy6AYu31v",
+      "name": "",
+      "type": "RichTextNode",
+      "textStyle": null,
+      "fontFamily": null,
+      "fontSize": null,
+      "font": null,
+      "preview": ""
+    },
+    {
+      "path": "/contact",
+      "bp": "Desktop",
+      "id": "QRBMckrZC",
+      "name": "",
+      "type": "RichTextNode",
+      "textStyle": null,
+      "fontFamily": null,
+      "fontSize": null,
+      "font": null,
+      "preview": ""
+    },
+    {
+      "path": "/contact",
+      "bp": "Desktop",
+      "id": "nfdJgK1V5",
+      "name": "",
+      "type": "RichTextNode",
+      "textStyle": null,
+      "fontFamily": null,
+      "fontSize": null,
+      "font": null,
+      "preview": ""
+    },
+    {
+      "path": "/contact",
+      "bp": "Desktop",
+      "id": "L62XWei6k",
+      "name": "",
+      "type": "RichTextNode",
+      "textStyle": null,
+      "fontFamily": null,
+      "fontSize": null,
+      "font": null,
+      "preview": ""
+    },
+    {
+      "path": "/contact",
+      "bp": "Desktop",
+      "id": "sjE6PBlZA",
+      "name": "",
+      "type": "RichTextNode",
+      "textStyle": null,
+      "fontFamily": null,
+      "fontSize": null,
+      "font": null,
+      "preview": ""
+    },
+    {
+      "path": "/contact",
+      "bp": "Desktop",
+      "id": "WDu0pxZr4",
+      "name": "",
+      "type": "RichTextNode",
+      "textStyle": null,
+      "fontFamily": null,
+      "fontSize": null,
+      "font": null,
+      "preview": ""
+    },
+    {
+      "path": "/contact",
+      "bp": "Desktop",
+      "id": "XokYhsPrk",
+      "name": "",
+      "type": "RichTextNode",
+      "textStyle": null,
+      "fontFamily": null,
+      "fontSize": null,
+      "font": null,
+      "preview": ""
+    },
+    {
+      "path": "/contact",
+      "bp": "Desktop",
+      "id": "Vj6fl3uhe",
+      "name": "",
+      "type": "RichTextNode",
+      "textStyle": null,
+      "fontFamily": null,
+      "fontSize": null,
+      "font": null,
+      "preview": ""
+    },
+    {
+      "path": "/contact",
+      "bp": "Desktop",
+      "id": "vYUj3ZHp7",
+      "name": "",
+      "type": "RichTextNode",
+      "textStyle": null,
+      "fontFamily": null,
+      "fontSize": null,
+      "font": null,
+      "preview": ""
+    },
+    {
+      "path": "/contact",
+      "bp": "Desktop",
+      "id": "lm10h19Ay",
+      "name": "",
+      "type": "RichTextNode",
+      "textStyle": null,
+      "fontFamily": null,
+      "fontSize": null,
+      "font": null,
+      "preview": ""
+    },
+    {
+      "path": "/contact",
+      "bp": "Desktop",
+      "id": "Ze2dVw_I8",
+      "name": "Consultation Statement",
+      "type": "RichTextNode",
+      "textStyle": null,
+      "fontFamily": null,
+      "fontSize": null,
+      "font": null,
+      "preview": "Consultation Statement"
+    },
+    {
+      "path": "/contact",
+      "bp": "Desktop",
+      "id": "pUvkaGv5Z",
+      "name": "",
+      "type": "RichTextNode",
+      "textStyle": null,
+      "fontFamily": null,
+      "fontSize": null,
+      "font": null,
+      "preview": ""
+    },
+    {
+      "path": "/contact",
+      "bp": "Desktop",
+      "id": "EuA2UleYw",
+      "name": "",
+      "type": "RichTextNode",
+      "textStyle": null,
+      "fontFamily": null,
+      "fontSize": null,
+      "font": null,
+      "preview": ""
+    },
+    {
+      "path": "/contact",
+      "bp": "Desktop",
+      "id": "xvtcI6cj9",
+      "name": "",
+      "type": "RichTextNode",
+      "textStyle": null,
+      "fontFamily": null,
+      "fontSize": null,
+      "font": null,
+      "preview": ""
+    },
+    {
+      "path": "/contact",
+      "bp": "Desktop",
+      "id": "cVLdkLcS3",
+      "name": "",
+      "type": "RichTextNode",
+      "textStyle": null,
+      "fontFamily": null,
+      "fontSize": null,
+      "font": null,
+      "preview": ""
+    },
+    {
+      "path": "/contact",
+      "bp": "Desktop",
+      "id": "bhQOxL_ST",
+      "name": "Newsletter Quarterly notes on new workS!",
+      "type": "RichTextNode",
+      "textStyle": null,
+      "fontFamily": null,
+      "fontSize": null,
+      "font": null,
+      "preview": "Newsletter Quarterly notes on new workS!"
+    },
+    {
+      "path": "/properties/:slug",
+      "bp": "Desktop",
+      "id": "o3sRRCUo2",
+      "name": "Return Label",
+      "type": "RichTextNode",
+      "textStyle": null,
+      "fontFamily": null,
+      "fontSize": null,
+      "font": null,
+      "preview": "Return Label"
+    },
+    {
+      "path": "/properties/:slug",
+      "bp": "Desktop",
+      "id": "e3GyRnyIH",
+      "name": "",
+      "type": "RichTextNode",
+      "textStyle": null,
+      "fontFamily": null,
+      "fontSize": null,
+      "font": null,
+      "preview": "var(--variable-sx_scwXZw)"
+    },
+    {
+      "path": "/properties/:slug",
+      "bp": "Desktop",
+      "id": "DoqsMLwNC",
+      "name": "",
+      "type": "RichTextNode",
+      "textStyle": null,
+      "fontFamily": null,
+      "fontSize": null,
+      "font": null,
+      "preview": "var(--variable-JpvlXWFTC)"
+    },
+    {
+      "path": "/properties/:slug",
+      "bp": "Desktop",
+      "id": "AH6rbB12u",
+      "name": "",
+      "type": "RichTextNode",
+      "textStyle": null,
+      "fontFamily": null,
+      "fontSize": null,
+      "font": null,
+      "preview": "var(--variable-fa3JCTHNW)"
+    },
+    {
+      "path": "/properties/:slug",
+      "bp": "Desktop",
+      "id": "Rhq1RvyMY",
+      "name": "",
+      "type": "RichTextNode",
+      "textStyle": null,
+      "fontFamily": null,
+      "fontSize": null,
+      "font": null,
+      "preview": ""
+    },
+    {
+      "path": "/properties/:slug",
+      "bp": "Desktop",
+      "id": "E_56VvGED",
+      "name": "",
+      "type": "RichTextNode",
+      "textStyle": null,
+      "fontFamily": null,
+      "fontSize": null,
+      "font": null,
+      "preview": "[object Object]"
+    },
+    {
+      "path": "/properties/:slug",
+      "bp": "Desktop",
+      "id": "BrDcHooTI",
+      "name": "",
+      "type": "RichTextNode",
+      "textStyle": null,
+      "fontFamily": null,
+      "fontSize": null,
+      "font": null,
+      "preview": ""
+    },
+    {
+      "path": "/properties/:slug",
+      "bp": "Desktop",
+      "id": "ZO3PVzj32",
+      "name": "",
+      "type": "RichTextNode",
+      "textStyle": null,
+      "fontFamily": null,
+      "fontSize": null,
+      "font": null,
+      "preview": "[object Object]"
+    },
+    {
+      "path": "/properties/:slug",
+      "bp": "Desktop",
+      "id": "ExDF9EEEh",
+      "name": "",
+      "type": "RichTextNode",
+      "textStyle": null,
+      "fontFamily": null,
+      "fontSize": null,
+      "font": null,
+      "preview": ""
+    },
+    {
+      "path": "/properties/:slug",
+      "bp": "Desktop",
+      "id": "RQOH14wBj",
+      "name": "",
+      "type": "RichTextNode",
+      "textStyle": null,
+      "fontFamily": null,
+      "fontSize": null,
+      "font": null,
+      "preview": "var(--variable-q4Uo_EM4a)"
+    },
+    {
+      "path": "/properties/:slug",
+      "bp": "Desktop",
+      "id": "Oj8ddKJH8",
+      "name": "",
+      "type": "RichTextNode",
+      "textStyle": null,
+      "fontFamily": null,
+      "fontSize": null,
+      "font": null,
+      "preview": ""
+    },
+    {
+      "path": "/properties/:slug",
+      "bp": "Desktop",
+      "id": "r22bo7RRn",
+      "name": "",
+      "type": "RichTextNode",
+      "textStyle": null,
+      "fontFamily": "Fraunces",
+      "fontSize": "24px",
+      "font": null,
+      "preview": "[object Object]"
+    },
+    {
+      "path": "/properties/:slug",
+      "bp": "Desktop",
+      "id": "KwDsV82id",
+      "name": "",
+      "type": "RichTextNode",
+      "textStyle": null,
+      "fontFamily": null,
+      "fontSize": null,
+      "font": null,
+      "preview": ""
+    },
+    {
+      "path": "/properties/:slug",
+      "bp": "Desktop",
+      "id": "V7Jo2HQsi",
+      "name": "",
+      "type": "RichTextNode",
+      "textStyle": null,
+      "fontFamily": null,
+      "fontSize": null,
+      "font": null,
+      "preview": ""
+    },
+    {
+      "path": "/properties/:slug",
+      "bp": "Desktop",
+      "id": "AW_GqgBLB",
+      "name": "",
+      "type": "RichTextNode",
+      "textStyle": null,
+      "fontFamily": null,
+      "fontSize": null,
+      "font": null,
+      "preview": ""
+    },
+    {
+      "path": "/properties/:slug",
+      "bp": "Desktop",
+      "id": "W4hAMYTj7",
+      "name": "",
+      "type": "RichTextNode",
+      "textStyle": null,
+      "fontFamily": null,
+      "fontSize": null,
+      "font": null,
+      "preview": "var(--variable-sx_scwXZw)"
+    },
+    {
+      "path": "/properties/:slug",
+      "bp": "Desktop",
+      "id": "MqTJwQ142",
+      "name": "",
+      "type": "RichTextNode",
+      "textStyle": null,
+      "fontFamily": null,
+      "fontSize": null,
+      "font": null,
+      "preview": ""
+    },
+    {
+      "path": "/properties/:slug",
+      "bp": "Desktop",
+      "id": "tQfwxGNgV",
+      "name": "",
+      "type": "RichTextNode",
+      "textStyle": null,
+      "fontFamily": null,
+      "fontSize": null,
+      "font": null,
+      "preview": "var(--variable-fa3JCTHNW)"
+    },
+    {
+      "path": "/properties/:slug",
+      "bp": "Desktop",
+      "id": "VNLnTbKMG",
+      "name": "",
+      "type": "RichTextNode",
+      "textStyle": null,
+      "fontFamily": null,
+      "fontSize": null,
+      "font": null,
+      "preview": ""
+    },
+    {
+      "path": "/properties/:slug",
+      "bp": "Desktop",
+      "id": "gB0CaDpqa",
+      "name": "Chapter One Title",
+      "type": "RichTextNode",
+      "textStyle": null,
+      "fontFamily": null,
+      "fontSize": null,
+      "font": null,
+      "preview": "Chapter One Title"
+    },
+    {
+      "path": "/properties/:slug",
+      "bp": "Desktop",
+      "id": "Yjl7mN_Ni",
+      "name": "",
+      "type": "RichTextNode",
+      "textStyle": null,
+      "fontFamily": null,
+      "fontSize": null,
+      "font": null,
+      "preview": "var(--variable-wPoac275x)"
+    },
+    {
+      "path": "/properties/:slug",
+      "bp": "Desktop",
+      "id": "oxMJ7AcyY",
+      "name": "Gallery Label",
+      "type": "RichTextNode",
+      "textStyle": null,
+      "fontFamily": null,
+      "fontSize": null,
+      "font": null,
+      "preview": "Gallery Label"
+    },
+    {
+      "path": "/properties/:slug",
+      "bp": "Desktop",
+      "id": "FH8AOsipo",
+      "name": "Gallery Title",
+      "type": "RichTextNode",
+      "textStyle": null,
+      "fontFamily": null,
+      "fontSize": null,
+      "font": null,
+      "preview": "Gallery Title"
+    },
+    {
+      "path": "/properties/:slug",
+      "bp": "Desktop",
+      "id": "dvQGZybHU",
+      "name": "Gallery Narrative",
+      "type": "RichTextNode",
+      "textStyle": null,
+      "fontFamily": null,
+      "fontSize": null,
+      "font": null,
+      "preview": "var(--variable-FCqIX3F0S)"
+    },
+    {
+      "path": "/properties/:slug",
+      "bp": "Desktop",
+      "id": "lt8o2Rpox",
+      "name": "Caption Detail",
+      "type": "RichTextNode",
+      "textStyle": null,
+      "fontFamily": null,
+      "fontSize": null,
+      "font": null,
+      "preview": "Caption Detail"
+    },
+    {
+      "path": "/properties/:slug",
+      "bp": "Desktop",
+      "id": "hjGB8uRkt",
+      "name": "Caption Index",
+      "type": "RichTextNode",
+      "textStyle": null,
+      "fontFamily": null,
+      "fontSize": null,
+      "font": null,
+      "preview": "Caption Index"
+    },
+    {
+      "path": "/properties/:slug",
+      "bp": "Desktop",
+      "id": "L2TceMHda",
+      "name": "Setting Label",
+      "type": "RichTextNode",
+      "textStyle": null,
+      "fontFamily": null,
+      "fontSize": null,
+      "font": null,
+      "preview": "Setting Label"
+    },
+    {
+      "path": "/properties/:slug",
+      "bp": "Desktop",
+      "id": "UvDjgzXCm",
+      "name": "Setting Title",
+      "type": "RichTextNode",
+      "textStyle": null,
+      "fontFamily": null,
+      "fontSize": null,
+      "font": null,
+      "preview": "Setting Title"
+    },
+    {
+      "path": "/properties/:slug",
+      "bp": "Desktop",
+      "id": "CRfh_mLch",
+      "name": "Property Location",
+      "type": "RichTextNode",
+      "textStyle": null,
+      "fontFamily": null,
+      "fontSize": null,
+      "font": null,
+      "preview": "var(--variable-sx_scwXZw)"
+    },
+    {
+      "path": "/properties/:slug",
+      "bp": "Desktop",
+      "id": "Z1CAZM5cW",
+      "name": "Setting Narrative",
+      "type": "RichTextNode",
+      "textStyle": null,
+      "fontFamily": null,
+      "fontSize": null,
+      "font": null,
+      "preview": "Setting Narrative"
+    },
+    {
+      "path": "/properties/:slug",
+      "bp": "Desktop",
+      "id": "bPW4fi6cp",
+      "name": "Setting Detail",
+      "type": "RichTextNode",
+      "textStyle": null,
+      "fontFamily": "Inter",
+      "fontSize": "16px",
+      "font": null,
+      "preview": "Setting Detail"
+    },
+    {
+      "path": "/properties/:slug",
+      "bp": "Desktop",
+      "id": "o9SWqciSq",
+      "name": "Particulars Kicker",
+      "type": "RichTextNode",
+      "textStyle": null,
+      "fontFamily": null,
+      "fontSize": null,
+      "font": null,
+      "preview": "Particulars Kicker"
+    },
+    {
+      "path": "/properties/:slug",
+      "bp": "Desktop",
+      "id": "wQrojsiG9",
+      "name": "Particulars Heading",
+      "type": "RichTextNode",
+      "textStyle": null,
+      "fontFamily": "Fraunces",
+      "fontSize": "52px",
+      "font": null,
+      "preview": "Particulars Heading"
+    },
+    {
+      "path": "/properties/:slug",
+      "bp": "Desktop",
+      "id": "ISEAVrT1Z",
+      "name": "Particulars Copy",
+      "type": "RichTextNode",
+      "textStyle": null,
+      "fontFamily": "Fraunces",
+      "fontSize": "20px",
+      "font": null,
+      "preview": "Particulars Copy"
+    },
+    {
+      "path": "/properties/:slug",
+      "bp": "Desktop",
+      "id": "dZPB5X_ML",
+      "name": "Private Enquiry Label",
+      "type": "RichTextNode",
+      "textStyle": null,
+      "fontFamily": null,
+      "fontSize": null,
+      "font": null,
+      "preview": "Private Enquiry Label"
+    },
+    {
+      "path": "/properties/:slug",
+      "bp": "Desktop",
+      "id": "ypkCRm6aW",
+      "name": "Property Features",
+      "type": "RichTextNode",
+      "textStyle": null,
+      "fontFamily": "Fraunces",
+      "fontSize": "28px",
+      "font": null,
+      "preview": "var(--variable-lQmjCV6Uu)"
+    },
+    {
+      "path": "/properties/:slug",
+      "bp": "Desktop",
+      "id": "oTADAStnm",
+      "name": "Discovery Label",
+      "type": "RichTextNode",
+      "textStyle": null,
+      "fontFamily": null,
+      "fontSize": null,
+      "font": null,
+      "preview": "Discovery Label"
+    },
+    {
+      "path": "/properties/:slug",
+      "bp": "Desktop",
+      "id": "Yu37lIMyP",
+      "name": "Properties Label",
+      "type": "RichTextNode",
+      "textStyle": null,
+      "fontFamily": null,
+      "fontSize": null,
+      "font": null,
+      "preview": "Properties Label"
+    },
+    {
+      "path": "/properties/:slug",
+      "bp": "Desktop",
+      "id": "ObIpMwp5D",
+      "name": "Properties Title",
+      "type": "RichTextNode",
+      "textStyle": null,
+      "fontFamily": null,
+      "fontSize": null,
+      "font": null,
+      "preview": "Properties Title"
+    },
+    {
+      "path": "/properties/:slug",
+      "bp": "Desktop",
+      "id": "vKBF5tkw8",
+      "name": "Properties Copy",
+      "type": "RichTextNode",
+      "textStyle": null,
+      "fontFamily": null,
+      "fontSize": null,
+      "font": null,
+      "preview": "Properties Copy"
+    },
+    {
+      "path": "/properties/:slug",
+      "bp": "Desktop",
+      "id": "E7jDKaZv3",
+      "name": "Enquiry Kicker",
+      "type": "RichTextNode",
+      "textStyle": null,
+      "fontFamily": null,
+      "fontSize": null,
+      "font": null,
+      "preview": "Enquiry Kicker"
+    },
+    {
+      "path": "/properties/:slug",
+      "bp": "Desktop",
+      "id": "qx96EF_Sp",
+      "name": "Enquiry Heading",
+      "type": "RichTextNode",
+      "textStyle": null,
+      "fontFamily": null,
+      "fontSize": null,
+      "font": null,
+      "preview": "Enquiry Heading"
+    },
+    {
+      "path": "/properties/:slug",
+      "bp": "Desktop",
+      "id": "nbzX2FUng",
+      "name": "",
+      "type": "RichTextNode",
+      "textStyle": null,
+      "fontFamily": null,
+      "fontSize": null,
+      "font": null,
+      "preview": ""
+    },
+    {
+      "path": "/notes/:slug",
+      "bp": "Desktop",
+      "id": "bk4wPgyNv",
+      "name": "Return Label",
+      "type": "RichTextNode",
+      "textStyle": null,
+      "fontFamily": null,
+      "fontSize": null,
+      "font": null,
+      "preview": "Return Label"
+    },
+    {
+      "path": "/notes/:slug",
+      "bp": "Desktop",
+      "id": "T2LFHaziB",
+      "name": "",
+      "type": "RichTextNode",
+      "textStyle": null,
+      "fontFamily": null,
+      "fontSize": null,
+      "font": null,
+      "preview": "var(--variable-Ht2pNTkTm)"
+    },
+    {
+      "path": "/notes/:slug",
+      "bp": "Desktop",
+      "id": "n114L0bZV",
+      "name": "Article Date",
+      "type": "RichTextNode",
+      "textStyle": null,
+      "fontFamily": null,
+      "fontSize": null,
+      "font": null,
+      "preview": "var(--variable-rZBsxUFGd)"
+    },
+    {
+      "path": "/notes/:slug",
+      "bp": "Desktop",
+      "id": "ZiTC3Ghmc",
+      "name": "",
+      "type": "RichTextNode",
+      "textStyle": null,
+      "fontFamily": null,
+      "fontSize": null,
+      "font": null,
+      "preview": "var(--variable-nheUxuW0y)"
+    },
+    {
+      "path": "/notes/:slug",
+      "bp": "Desktop",
+      "id": "QPghii7Fh",
+      "name": "",
+      "type": "RichTextNode",
+      "textStyle": null,
+      "fontFamily": null,
+      "fontSize": null,
+      "font": null,
+      "preview": "var(--variable-lIhfcSEN0)"
+    },
+    {
+      "path": "/notes/:slug",
+      "bp": "Desktop",
+      "id": "kXBqfOmZn",
+      "name": "",
+      "type": "RichTextNode",
+      "textStyle": null,
+      "fontFamily": null,
+      "fontSize": null,
+      "font": null,
+      "preview": ""
+    },
+    {
+      "path": "/notes/:slug",
+      "bp": "Desktop",
+      "id": "k8DlxTND5",
+      "name": "",
+      "type": "RichTextNode",
+      "textStyle": null,
+      "fontFamily": null,
+      "fontSize": null,
+      "font": null,
+      "preview": "[object Object]"
+    },
+    {
+      "path": "/notes/:slug",
+      "bp": "Desktop",
+      "id": "xToVo97Pe",
+      "name": "",
+      "type": "RichTextNode",
+      "textStyle": null,
+      "fontFamily": null,
+      "fontSize": null,
+      "font": null,
+      "preview": ""
+    },
+    {
+      "path": "/notes/:slug",
+      "bp": "Desktop",
+      "id": "wEGXV8ytj",
+      "name": "",
+      "type": "RichTextNode",
+      "textStyle": null,
+      "fontFamily": null,
+      "fontSize": null,
+      "font": null,
+      "preview": "[object Object]"
+    },
+    {
+      "path": "/notes/:slug",
+      "bp": "Desktop",
+      "id": "fm55VgLvp",
+      "name": "",
+      "type": "RichTextNode",
+      "textStyle": null,
+      "fontFamily": null,
+      "fontSize": null,
+      "font": null,
+      "preview": ""
+    },
+    {
+      "path": "/notes/:slug",
+      "bp": "Desktop",
+      "id": "w_gEyE5gr",
+      "name": "",
+      "type": "RichTextNode",
+      "textStyle": null,
+      "fontFamily": null,
+      "fontSize": null,
+      "font": null,
+      "preview": "var(--variable-Jd2WAsZn3)"
+    },
+    {
+      "path": "/notes/:slug",
+      "bp": "Desktop",
+      "id": "lNUCFBhko",
+      "name": "Article Body",
+      "type": "RichTextNode",
+      "textStyle": null,
+      "fontFamily": null,
+      "fontSize": null,
+      "font": null,
+      "preview": "var(--variable-skpgnx2PE)"
+    },
+    {
+      "path": "/notes/:slug",
+      "bp": "Desktop",
+      "id": "aLUKuA9kf",
+      "name": "Newsletter Quarterly notes on new workS!",
+      "type": "RichTextNode",
+      "textStyle": null,
+      "fontFamily": null,
+      "fontSize": null,
+      "font": null,
+      "preview": "Newsletter Quarterly notes on new workS!"
+    },
+    {
+      "path": "/notes/:slug",
+      "bp": "Desktop",
+      "id": "MHqgWO1nz",
+      "name": "Well for studios proud of their own digital presence; remove it if it doesn't fit.",
+      "type": "RichTextNode",
+      "textStyle": null,
+      "fontFamily": null,
+      "fontSize": null,
+      "font": null,
+      "preview": "Well for studios proud of their own digital pres"
+    },
+    {
+      "path": "/notes/:slug",
+      "bp": "Desktop",
+      "id": "xdJnss3VP",
+      "name": "",
+      "type": "RichTextNode",
+      "textStyle": null,
+      "fontFamily": null,
+      "fontSize": null,
+      "font": null,
+      "preview": ""
+    },
+    {
+      "path": "/notes/:slug",
+      "bp": "Desktop",
+      "id": "eOV768cPJ",
+      "name": "",
+      "type": "RichTextNode",
+      "textStyle": null,
+      "fontFamily": null,
+      "fontSize": null,
+      "font": null,
+      "preview": ""
+    },
+    {
+      "path": "/notes/:slug",
+      "bp": "Desktop",
+      "id": "yhtfZHYsl",
+      "name": "",
+      "type": "RichTextNode",
+      "textStyle": null,
+      "fontFamily": null,
+      "fontSize": null,
+      "font": null,
+      "preview": ""
+    },
+    {
+      "path": "/notes/:slug",
+      "bp": "Desktop",
+      "id": "UC44wVjIg",
+      "name": "",
+      "type": "RichTextNode",
+      "textStyle": null,
+      "fontFamily": "Fraunces",
+      "fontSize": "24px",
+      "font": null,
+      "preview": "[object Object]"
+    },
+    {
+      "path": "/notes/:slug",
+      "bp": "Desktop",
+      "id": "LzWdxJGwa",
+      "name": "",
+      "type": "RichTextNode",
+      "textStyle": null,
+      "fontFamily": null,
+      "fontSize": null,
+      "font": null,
+      "preview": ""
+    },
+    {
+      "path": "/notes/:slug",
+      "bp": "Desktop",
+      "id": "PKKjLspFx",
+      "name": "",
+      "type": "RichTextNode",
+      "textStyle": null,
+      "fontFamily": null,
+      "fontSize": null,
+      "font": null,
+      "preview": ""
+    },
+    {
+      "path": "/notes/:slug",
+      "bp": "Desktop",
+      "id": "oWdEoKFRL",
+      "name": "",
+      "type": "RichTextNode",
+      "textStyle": null,
+      "fontFamily": null,
+      "fontSize": null,
+      "font": null,
+      "preview": ""
+    },
+    {
+      "path": "/notes/:slug",
+      "bp": "Desktop",
+      "id": "bGLaHSkme",
+      "name": "",
+      "type": "RichTextNode",
+      "textStyle": null,
+      "fontFamily": null,
+      "fontSize": null,
+      "font": null,
+      "preview": "var(--variable-Jd2WAsZn3)"
+    },
+    {
+      "path": "/notes/:slug",
+      "bp": "Desktop",
+      "id": "Dx2XEnuRC",
+      "name": "",
+      "type": "RichTextNode",
+      "textStyle": null,
+      "fontFamily": null,
+      "fontSize": null,
+      "font": null,
+      "preview": ""
+    },
+    {
+      "path": "/notes/:slug",
+      "bp": "Desktop",
+      "id": "Bs_TSMkww",
+      "name": "",
+      "type": "RichTextNode",
+      "textStyle": null,
+      "fontFamily": null,
+      "fontSize": null,
+      "font": null,
+      "preview": "var(--variable-Jd2WAsZn3)"
+    },
+    {
+      "path": "/notes/:slug",
+      "bp": "Desktop",
+      "id": "SFXE0K48p",
+      "name": "",
+      "type": "RichTextNode",
+      "textStyle": null,
+      "fontFamily": null,
+      "fontSize": null,
+      "font": null,
+      "preview": ""
+    },
+    {
+      "path": "/notes/:slug",
+      "bp": "Desktop",
+      "id": "N896SgS_Z",
+      "name": "Chapter One Title",
+      "type": "RichTextNode",
+      "textStyle": null,
+      "fontFamily": null,
+      "fontSize": null,
+      "font": null,
+      "preview": "Chapter One Title"
+    },
+    {
+      "path": "/notes/:slug",
+      "bp": "Desktop",
+      "id": "U57vJ_RN2",
+      "name": "",
+      "type": "RichTextNode",
+      "textStyle": null,
+      "fontFamily": null,
+      "fontSize": null,
+      "font": null,
+      "preview": "var(--variable-skpgnx2PE)"
+    }
+  ],
+  "gapTop": [
+    [
+      "Desktop|0px",
+      33
+    ],
+    [
+      "Tablet|0px",
+      31
+    ],
+    [
+      "Phone|0px",
+      30
+    ],
+    [
+      "Phone|24px",
+      28
+    ],
+    [
+      "Desktop|24px",
+      18
+    ],
+    [
+      "Tablet|24px",
+      17
+    ],
+    [
+      "Tablet|40px",
+      16
+    ],
+    [
+      "Tablet|32px",
+      15
+    ],
+    [
+      "Phone|8px",
+      13
+    ],
+    [
+      "Phone|32px",
+      11
+    ],
+    [
+      "Phone|40px",
+      11
+    ],
+    [
+      "Desktop|32px",
+      10
+    ],
+    [
+      "Phone|16px",
+      10
+    ],
+    [
+      "Tablet|48px",
+      9
+    ],
+    [
+      "Desktop|48px",
+      8
+    ],
+    [
+      "Desktop|40px",
+      8
+    ],
+    [
+      "Desktop|64px",
+      6
+    ],
+    [
+      "Desktop|80px",
+      5
+    ],
+    [
+      "Tablet|20px",
+      5
+    ],
+    [
+      "Phone|20px",
+      4
+    ],
+    [
+      "Tablet|64px",
+      4
+    ],
+    [
+      "Tablet|56px",
+      3
+    ],
+    [
+      "Phone|48px",
+      3
+    ],
+    [
+      "Tablet|16px",
+      3
+    ],
+    [
+      "Desktop|96px",
+      3
+    ],
+    [
+      "Phone|12px",
+      3
+    ],
+    [
+      "Phone|10px",
+      3
+    ],
+    [
+      "Desktop|8px",
+      3
+    ],
+    [
+      "Tablet|8px",
+      3
+    ],
+    [
+      "Desktop|16px",
+      2
+    ],
+    [
+      "Desktop|28px",
+      2
+    ],
+    [
+      "Phone|28px",
+      2
+    ],
+    [
+      "Desktop|72px",
+      2
+    ],
+    [
+      "Tablet|10px",
+      2
+    ],
+    [
+      "Desktop|56px",
+      1
+    ],
+    [
+      "Phone|56px",
+      1
+    ],
+    [
+      "Desktop|88px",
+      1
+    ],
+    [
+      "Tablet|28px",
+      1
+    ],
+    [
+      "Desktop|20px",
+      1
+    ],
+    [
+      "Desktop|14px",
+      1
+    ],
+    [
+      "Desktop|12px",
+      1
+    ],
+    [
+      "Tablet|12px",
+      1
+    ],
+    [
+      "Phone|14px",
+      1
+    ],
+    [
+      "Phone|64px",
+      1
+    ],
+    [
+      "Desktop|10px",
+      1
+    ]
+  ],
+  "d1GapFreq": [
+    [
+      "Desktop|0px",
+      15
+    ],
+    [
+      "Tablet|0px",
+      14
+    ],
+    [
+      "Phone|0px",
+      14
+    ],
+    [
+      "Phone|40px",
+      9
+    ],
+    [
+      "Tablet|40px",
+      8
+    ],
+    [
+      "Desktop|40px",
+      6
+    ],
+    [
+      "Tablet|48px",
+      6
+    ],
+    [
+      "Phone|24px",
+      6
+    ],
+    [
+      "Desktop|48px",
+      4
+    ],
+    [
+      "Phone|32px",
+      4
+    ],
+    [
+      "Desktop|64px",
+      3
+    ],
+    [
+      "Tablet|32px",
+      3
+    ],
+    [
+      "Phone|48px",
+      2
+    ],
+    [
+      "Desktop|72px",
+      2
+    ],
+    [
+      "Desktop|24px",
+      2
+    ],
+    [
+      "Tablet|64px",
+      2
+    ],
+    [
+      "Tablet|24px",
+      2
+    ],
+    [
+      "Desktop|56px",
+      1
+    ],
+    [
+      "Tablet|56px",
+      1
+    ],
+    [
+      "Phone|56px",
+      1
+    ],
+    [
+      "Desktop|96px",
+      1
+    ],
+    [
+      "Desktop|28px",
+      1
+    ],
+    [
+      "Tablet|20px",
+      1
+    ],
+    [
+      "Desktop|10px",
+      1
+    ],
+    [
+      "Desktop|32px",
+      1
+    ],
+    [
+      "Tablet|10px",
+      1
+    ],
+    [
+      "Phone|10px",
+      1
+    ],
+    [
+      "Phone|28px",
+      1
+    ]
+  ],
+  "styleFreq": [
+    [
+      "unknown",
+      461
+    ],
+    [
+      "Space Mono",
+      126
+    ],
+    [
+      "Fraunces",
+      76
+    ],
+    [
+      "Inter",
+      42
+    ]
+  ]
+}

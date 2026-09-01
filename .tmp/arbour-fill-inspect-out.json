@@ -1,0 +1,1505 @@
+{
+  "sections": [
+    {
+      "path": "/",
+      "name": "Hero Section",
+      "id": "iq0rlFlTE",
+      "bg": null,
+      "fill": null,
+      "mw": "90%",
+      "w": "100%",
+      "h": "100vh",
+      "pad": "0px 0px 64px 0px",
+      "kids": [
+        {
+          "name": "Image Layer",
+          "id": "cJgmqsWkI",
+          "bg": null,
+          "fill": null,
+          "mw": null,
+          "w": "100%",
+          "h": "100%",
+          "pad": null
+        },
+        {
+          "name": "Gradient Overlay",
+          "id": "qpE9wJcPm",
+          "bg": null,
+          "fill": "linear-gradient(180deg, rgba(10, 22, 15, 0.08) 0%, rgba(10, 22, 15, 0) 38%, rgba(10, 22, 15, 0.52) 100%)",
+          "mw": null,
+          "w": "100%",
+          "h": "100%",
+          "pad": null
+        },
+        {
+          "name": "Text Content Column",
+          "id": "ET8JHTjC5",
+          "bg": null,
+          "fill": null,
+          "mw": "90%",
+          "w": "1fr",
+          "h": "100%",
+          "pad": "0px 48px 0px 48px"
+        }
+      ]
+    },
+    {
+      "path": "/",
+      "name": "Territories Section",
+      "id": "a6KIAp6Ii",
+      "bg": null,
+      "fill": "var(--token-d5b3c09d-0364-4ed0-8804-e56957faa275)",
+      "mw": null,
+      "w": "100%",
+      "h": "auto",
+      "pad": "128px 48px 128px 48px",
+      "kids": [
+        {
+          "name": "Territories Header",
+          "id": "du1d5C2G_",
+          "bg": null,
+          "fill": null,
+          "mw": "90%",
+          "w": "1fr",
+          "h": "auto",
+          "pad": null
+        },
+        {
+          "id": "yoT5YFvp5",
+          "bg": null,
+          "fill": null,
+          "mw": "90%",
+          "w": "1fr",
+          "h": "auto",
+          "pad": null
+        }
+      ]
+    },
+    {
+      "path": "/",
+      "name": "Portfolio Section",
+      "id": "RtG3B70W9",
+      "bg": null,
+      "fill": "var(--token-d5b3c09d-0364-4ed0-8804-e56957faa275)",
+      "mw": null,
+      "w": "100%",
+      "h": "auto",
+      "pad": "128px 48px 128px 48px",
+      "kids": [
+        {
+          "name": "Portfolio Container",
+          "id": "zBkRxuUmY",
+          "bg": null,
+          "fill": null,
+          "mw": "90%",
+          "w": "1fr",
+          "h": "auto",
+          "pad": null
+        }
+      ]
+    },
+    {
+      "path": "/",
+      "name": "Bottom",
+      "id": "sQUykbPr6",
+      "bg": null,
+      "fill": "var(--token-9d3d6ca5-f3ad-4d88-afc8-fc5bce03bd04)",
+      "mw": null,
+      "w": "100%",
+      "h": "auto",
+      "pad": null,
+      "kids": [
+        {
+          "name": "Content",
+          "id": "ohPeYYgHl",
+          "bg": null,
+          "fill": null,
+          "mw": "90%",
+          "w": "100%",
+          "h": "auto",
+          "pad": "64px 48px 32px 48px"
+        },
+        {
+          "name": "Bottom Parallax",
+          "id": "JdVr1t_jR",
+          "bg": null,
+          "fill": null,
+          "mw": null,
+          "w": "135.95833333333334%",
+          "h": "0.93125px",
+          "pad": null
+        }
+      ]
+    },
+    {
+      "path": "/",
+      "name": "Process Section",
+      "id": "H_KIxioFT",
+      "bg": null,
+      "fill": "var(--token-d5b3c09d-0364-4ed0-8804-e56957faa275)",
+      "mw": null,
+      "w": "100%",
+      "h": "auto",
+      "pad": "128px 48px 128px 48px",
+      "kids": [
+        {
+          "id": "PmjD_eoIk",
+          "bg": null,
+          "fill": null,
+          "mw": "90%",
+          "w": "1fr",
+          "h": "auto",
+          "pad": null
+        },
+        {
+          "id": "DZtq5dg52",
+          "bg": null,
+          "fill": null,
+          "mw": "90%",
+          "w": "1fr",
+          "h": "auto",
+          "pad": null
+        },
+        {
+          "name": "Process List",
+          "id": "tOn8dp9rd",
+          "bg": null,
+          "fill": null,
+          "mw": "90%",
+          "w": "1fr",
+          "h": "auto",
+          "pad": null
+        }
+      ]
+    },
+    {
+      "path": "/",
+      "name": "Arbour_StatsBand",
+      "id": "CMv32_lLx",
+      "bg": null,
+      "fill": null,
+      "mw": "90%",
+      "w": "1fr",
+      "h": "auto",
+      "pad": null,
+      "kids": []
+    },
+    {
+      "path": "/",
+      "name": "Recognition Section",
+      "id": "bkyM_6J5N",
+      "bg": null,
+      "fill": "var(--token-d5b3c09d-0364-4ed0-8804-e56957faa275)",
+      "mw": null,
+      "w": "100%",
+      "h": "auto",
+      "pad": "128px 48px 128px 48px",
+      "kids": [
+        {
+          "name": "Recognition Header",
+          "id": "PaH4kj8sh",
+          "bg": null,
+          "fill": null,
+          "mw": "90%",
+          "w": "1fr",
+          "h": "auto",
+          "pad": null
+        },
+        {
+          "name": "Recognition List",
+          "id": "DWggt2tS0",
+          "bg": null,
+          "fill": null,
+          "mw": "90%",
+          "w": "1fr",
+          "h": "auto",
+          "pad": null
+        }
+      ]
+    },
+    {
+      "path": "/",
+      "name": "Testimonial Section",
+      "id": "VXxBSnkhU",
+      "bg": null,
+      "fill": "var(--token-d5b3c09d-0364-4ed0-8804-e56957faa275)",
+      "mw": null,
+      "w": "100%",
+      "h": "auto",
+      "pad": "128px 48px 128px 48px",
+      "kids": [
+        {
+          "id": "ojxCqw0q5",
+          "bg": null,
+          "fill": null,
+          "mw": "90%",
+          "w": "auto",
+          "h": "auto",
+          "pad": null
+        },
+        {
+          "id": "ioPfPOqlo",
+          "bg": null,
+          "fill": null,
+          "mw": "90%",
+          "w": "1fr",
+          "h": "auto",
+          "pad": null
+        }
+      ]
+    },
+    {
+      "path": "/",
+      "name": "Journal",
+      "id": "ZsKgeszB_",
+      "bg": null,
+      "fill": "var(--token-425191b0-a245-4f14-88c2-f7144ab54959)",
+      "mw": null,
+      "w": "100%",
+      "h": "auto",
+      "pad": "128px 48px 128px 48px",
+      "kids": [
+        {
+          "id": "b800nNNFA",
+          "bg": null,
+          "fill": null,
+          "mw": "90%",
+          "w": "1fr",
+          "h": "auto",
+          "pad": "0px 0px 24px 0px"
+        },
+        {
+          "name": "Journal Deck",
+          "id": "N9SK6gnT4",
+          "bg": null,
+          "fill": null,
+          "mw": "90%",
+          "w": "auto",
+          "h": "auto",
+          "pad": null
+        },
+        {
+          "name": "Content Area",
+          "id": "agILcRHTJ",
+          "bg": null,
+          "fill": null,
+          "mw": "90%",
+          "w": "1fr",
+          "h": "auto",
+          "pad": null
+        }
+      ]
+    },
+    {
+      "path": "/",
+      "name": "Footer",
+      "id": "GRDC4z6MO",
+      "bg": null,
+      "fill": null,
+      "mw": null,
+      "w": "1fr",
+      "h": "auto",
+      "pad": null,
+      "kids": []
+    },
+    {
+      "path": "/properties",
+      "name": "Properties Content",
+      "id": "pXUtBMLpu",
+      "bg": null,
+      "fill": "var(--token-d5b3c09d-0364-4ed0-8804-e56957faa275)",
+      "mw": null,
+      "w": "100%",
+      "h": "auto",
+      "pad": null,
+      "kids": [
+        {
+          "name": "Properties Hero",
+          "id": "mGwrwOsDS",
+          "bg": null,
+          "fill": "var(--token-d5b3c09d-0364-4ed0-8804-e56957faa275)",
+          "mw": "90%",
+          "w": "1fr",
+          "h": "auto",
+          "pad": null
+        },
+        {
+          "name": "Collection Discovery",
+          "id": "Ox1AZj6Eq",
+          "bg": null,
+          "fill": "var(--token-d5b3c09d-0364-4ed0-8804-e56957faa275)",
+          "mw": "90%",
+          "w": "1fr",
+          "h": "auto",
+          "pad": "32px 48px 32px 48px"
+        },
+        {
+          "name": "Properties Grid",
+          "id": "gn2phxXn5",
+          "bg": null,
+          "fill": "var(--token-d5b3c09d-0364-4ed0-8804-e56957faa275)",
+          "mw": "90%",
+          "w": "1fr",
+          "h": "auto",
+          "pad": "128px 48px 128px 48px"
+        },
+        {
+          "name": "Market Editorial",
+          "id": "APChY780b",
+          "bg": null,
+          "fill": "var(--token-d5b3c09d-0364-4ed0-8804-e56957faa275)",
+          "mw": "90%",
+          "w": "1fr",
+          "h": "auto",
+          "pad": "128px 48px 128px 48px"
+        },
+        {
+          "id": "d65nHXHKZ",
+          "bg": null,
+          "fill": null,
+          "mw": "90%",
+          "w": "1fr",
+          "h": "auto",
+          "pad": null
+        },
+        {
+          "name": "Private Viewing Process",
+          "id": "pC9Un5Mw5",
+          "bg": null,
+          "fill": "var(--token-d5b3c09d-0364-4ed0-8804-e56957faa275)",
+          "mw": "90%",
+          "w": "1fr",
+          "h": "auto",
+          "pad": "128px 48px 128px 48px"
+        },
+        {
+          "name": "Continue Your Search",
+          "id": "ivqFzeVAZ",
+          "bg": null,
+          "fill": null,
+          "mw": "90%",
+          "w": "100%",
+          "h": "auto",
+          "pad": "128px 48px 128px 48px"
+        },
+        {
+          "name": "Enquiry CTA",
+          "id": "cFtWJlabj",
+          "bg": null,
+          "fill": "var(--token-425191b0-a245-4f14-88c2-f7144ab54959)",
+          "mw": "90%",
+          "w": "1fr",
+          "h": "auto",
+          "pad": "128px 48px 128px 48px"
+        }
+      ]
+    },
+    {
+      "path": "/properties",
+      "name": "Footer",
+      "id": "wssGwbNHc",
+      "bg": null,
+      "fill": null,
+      "mw": null,
+      "w": "1fr",
+      "h": "auto",
+      "pad": null,
+      "kids": []
+    },
+    {
+      "path": "/neighbourhoods",
+      "name": "Neighbourhoods Content",
+      "id": "H1kR5JcFp",
+      "bg": null,
+      "fill": "var(--token-d5b3c09d-0364-4ed0-8804-e56957faa275)",
+      "mw": null,
+      "w": "100%",
+      "h": "auto",
+      "pad": null,
+      "kids": [
+        {
+          "name": "Neighbourhoods Hero",
+          "id": "ycUqIc8V3",
+          "bg": null,
+          "fill": "var(--token-d5b3c09d-0364-4ed0-8804-e56957faa275)",
+          "mw": "90%",
+          "w": "1fr",
+          "h": "auto",
+          "pad": null
+        },
+        {
+          "name": "Territory Grid Section",
+          "id": "NrbMmTnFX",
+          "bg": null,
+          "fill": "var(--token-425191b0-a245-4f14-88c2-f7144ab54959)",
+          "mw": "90%",
+          "w": "1fr",
+          "h": "auto",
+          "pad": "128px 48px 128px 48px"
+        },
+        {
+          "name": "How We Read A Place",
+          "id": "KraraKF0A",
+          "bg": null,
+          "fill": "var(--token-425191b0-a245-4f14-88c2-f7144ab54959)",
+          "mw": "90%",
+          "w": "1fr",
+          "h": "auto",
+          "pad": "128px 48px 128px 48px"
+        }
+      ]
+    },
+    {
+      "path": "/neighbourhoods",
+      "name": "Footer",
+      "id": "DRglThXCl",
+      "bg": null,
+      "fill": null,
+      "mw": null,
+      "w": "1fr",
+      "h": "auto",
+      "pad": null,
+      "kids": []
+    },
+    {
+      "path": "/notes",
+      "name": "Journal",
+      "id": "wY1tfyIdc",
+      "bg": null,
+      "fill": "var(--token-d5b3c09d-0364-4ed0-8804-e56957faa275)",
+      "mw": null,
+      "w": "100%",
+      "h": "auto",
+      "pad": "128px 48px 0px 48px",
+      "kids": [
+        {
+          "name": "Notes Hero",
+          "id": "Vq1f2mEkj",
+          "bg": null,
+          "fill": null,
+          "mw": "90%",
+          "w": "1fr",
+          "h": "auto",
+          "pad": null
+        },
+        {
+          "name": "Content Area",
+          "id": "vKC8zoOjs",
+          "bg": null,
+          "fill": null,
+          "mw": "90%",
+          "w": "1fr",
+          "h": "auto",
+          "pad": null
+        }
+      ]
+    },
+    {
+      "path": "/notes",
+      "name": "Journal Manifesto",
+      "id": "p7CGH_nWX",
+      "bg": null,
+      "fill": "var(--token-425191b0-a245-4f14-88c2-f7144ab54959)",
+      "mw": null,
+      "w": "100%",
+      "h": "auto",
+      "pad": "128px 48px 128px 48px",
+      "kids": [
+        {
+          "name": "Manifesto Row",
+          "id": "DZBrgFJEu",
+          "bg": null,
+          "fill": null,
+          "mw": "90%",
+          "w": "1fr",
+          "h": "auto",
+          "pad": null
+        }
+      ]
+    },
+    {
+      "path": "/notes",
+      "name": "Footer",
+      "id": "w2XzAbdoF",
+      "bg": null,
+      "fill": null,
+      "mw": null,
+      "w": "1fr",
+      "h": "auto",
+      "pad": null,
+      "kids": []
+    },
+    {
+      "path": "/about",
+      "name": "Beat 1 — Portrait Stage",
+      "id": "QjoW3yYRJ",
+      "bg": null,
+      "fill": "var(--token-d5b3c09d-0364-4ed0-8804-e56957faa275)",
+      "mw": null,
+      "w": "100%",
+      "h": "auto",
+      "pad": null,
+      "kids": [
+        {
+          "name": "Opening Image Field",
+          "id": "rbeJ3XqVd",
+          "bg": null,
+          "fill": "https://framerusercontent.com/images/OGqGIs0ySta1iznVWkCeDYSBw.jpg",
+          "mw": "90%",
+          "w": "100%",
+          "h": "70vh",
+          "pad": null
+        },
+        {
+          "name": "Opening Copy",
+          "id": "QzWTnDkey",
+          "bg": null,
+          "fill": "var(--token-d5b3c09d-0364-4ed0-8804-e56957faa275)",
+          "mw": "90%",
+          "w": "100%",
+          "h": "auto",
+          "pad": "64px 48px 64px 48px"
+        }
+      ]
+    },
+    {
+      "path": "/about",
+      "name": "Beat 2 — Cinematic Image",
+      "id": "SbkA8xJAz",
+      "bg": null,
+      "fill": "var(--token-e2f9a9eb-668a-4021-80d9-b04413b5f392)",
+      "mw": null,
+      "w": "100%",
+      "h": "62vh",
+      "pad": null,
+      "kids": [
+        {
+          "id": "vLMfnaqF8",
+          "bg": null,
+          "fill": null,
+          "mw": null,
+          "w": "100%",
+          "h": "100%",
+          "pad": null
+        },
+        {
+          "name": "Image Editorial Overlay",
+          "id": "WZkTO3vdm",
+          "bg": null,
+          "fill": null,
+          "mw": "90%",
+          "w": "100%",
+          "h": "100%",
+          "pad": "64px 48px 32px 48px"
+        }
+      ]
+    },
+    {
+      "path": "/about",
+      "name": "Beat 3 — Manifesto",
+      "id": "m1IuCE2Ht",
+      "bg": null,
+      "fill": "var(--token-d5b3c09d-0364-4ed0-8804-e56957faa275)",
+      "mw": null,
+      "w": "100%",
+      "h": "auto",
+      "pad": "128px 48px 128px 48px",
+      "kids": [
+        {
+          "name": "Manifesto Editorial Row",
+          "id": "dJh2vQsQg",
+          "bg": null,
+          "fill": null,
+          "mw": "90%",
+          "w": "100%",
+          "h": "auto",
+          "pad": null
+        },
+        {
+          "id": "qU1PSkRMG",
+          "bg": null,
+          "fill": null,
+          "mw": "90%",
+          "w": "auto",
+          "h": "auto",
+          "pad": null
+        }
+      ]
+    },
+    {
+      "path": "/about",
+      "name": "Editorial Pause — Arbour in Practice",
+      "id": "Te9LPe3Or",
+      "bg": null,
+      "fill": "var(--token-fa6ec05f-9d2d-44ad-a813-6c56bf2b324e)",
+      "mw": null,
+      "w": "100%",
+      "h": "auto",
+      "pad": "96px 48px 96px 48px",
+      "kids": [
+        {
+          "name": "Practice Heading",
+          "id": "lGZQWN0ZG",
+          "bg": null,
+          "fill": null,
+          "mw": "90%",
+          "w": "100%",
+          "h": "auto",
+          "pad": null
+        },
+        {
+          "name": "Practice Statement",
+          "id": "N1vpwSkUZ",
+          "bg": null,
+          "fill": null,
+          "mw": "90%",
+          "w": "1fr",
+          "h": "auto",
+          "pad": null
+        },
+        {
+          "name": "Practice Markers",
+          "id": "KUhU48geC",
+          "bg": null,
+          "fill": null,
+          "mw": "90%",
+          "w": "100%",
+          "h": "auto",
+          "pad": "32px 0px 0px 0px"
+        }
+      ]
+    },
+    {
+      "path": "/about",
+      "name": "Chapter — The Principals",
+      "id": "AiolEHPNd",
+      "bg": null,
+      "fill": "var(--token-d5b3c09d-0364-4ed0-8804-e56957faa275)",
+      "mw": null,
+      "w": "100%",
+      "h": "auto",
+      "pad": "128px 48px 128px 48px",
+      "kids": [
+        {
+          "name": "Team Heading",
+          "id": "csvpfB13Z",
+          "bg": null,
+          "fill": null,
+          "mw": "90%",
+          "w": "100%",
+          "h": "auto",
+          "pad": null
+        },
+        {
+          "id": "lG0XIx4Ew",
+          "bg": null,
+          "fill": null,
+          "mw": "90%",
+          "w": "100%",
+          "h": "auto",
+          "pad": null
+        },
+        {
+          "id": "VRBMO9k6V",
+          "bg": null,
+          "fill": null,
+          "mw": "90%",
+          "w": "100%",
+          "h": "auto",
+          "pad": null
+        }
+      ]
+    },
+    {
+      "path": "/about",
+      "name": "Chapter — Two Offices",
+      "id": "sx_GA8kBh",
+      "bg": null,
+      "fill": "var(--token-d5b3c09d-0364-4ed0-8804-e56957faa275)",
+      "mw": null,
+      "w": "100%",
+      "h": "auto",
+      "pad": "128px 48px 128px 48px",
+      "kids": [
+        {
+          "name": "Atlas Heading",
+          "id": "vVFV_ZAA9",
+          "bg": null,
+          "fill": null,
+          "mw": "90%",
+          "w": "100%",
+          "h": "auto",
+          "pad": null
+        },
+        {
+          "name": "Office Atlas Grid",
+          "id": "eA1dianFD",
+          "bg": null,
+          "fill": null,
+          "mw": "90%",
+          "w": "100%",
+          "h": "auto",
+          "pad": null
+        }
+      ]
+    },
+    {
+      "path": "/about",
+      "name": "Enquiry CTA",
+      "id": "OIVgjc19d",
+      "bg": null,
+      "fill": "var(--token-425191b0-a245-4f14-88c2-f7144ab54959)",
+      "mw": null,
+      "w": "100%",
+      "h": "auto",
+      "pad": "128px 48px 128px 48px",
+      "kids": [
+        {
+          "id": "ZRxO4C6xr",
+          "bg": null,
+          "fill": null,
+          "mw": "90%",
+          "w": "1fr",
+          "h": "auto",
+          "pad": null
+        }
+      ]
+    },
+    {
+      "path": "/about",
+      "name": "Footer",
+      "id": "EnLRF_D_f",
+      "bg": null,
+      "fill": null,
+      "mw": null,
+      "w": "1fr",
+      "h": "auto",
+      "pad": null,
+      "kids": []
+    },
+    {
+      "path": "/contact",
+      "name": "Contact Hero",
+      "id": "jmmPpci8t",
+      "bg": null,
+      "fill": "var(--token-d5b3c09d-0364-4ed0-8804-e56957faa275)",
+      "mw": null,
+      "w": "100%",
+      "h": "52vh",
+      "pad": "128px 48px 64px 48px",
+      "kids": [
+        {
+          "name": "Hero Copy",
+          "id": "AATw4pip9",
+          "bg": null,
+          "fill": null,
+          "mw": "90%",
+          "w": "1fr",
+          "h": "1fr",
+          "pad": "0px 48px 0px 0px"
+        },
+        {
+          "name": "Hero Entrance Media",
+          "id": "WLSMm5iy1",
+          "bg": null,
+          "fill": "https://framerusercontent.com/images/5Ytxn8avZFwlwp4Ng3t8PDU56Lk.png",
+          "mw": "90%",
+          "w": "1fr",
+          "h": "1fr",
+          "pad": null
+        }
+      ]
+    },
+    {
+      "path": "/contact",
+      "name": "Contact Opening",
+      "id": "vv0Vi0hbh",
+      "bg": null,
+      "fill": "var(--token-d5b3c09d-0364-4ed0-8804-e56957faa275)",
+      "mw": null,
+      "w": "100%",
+      "h": "auto",
+      "pad": "128px 48px 128px 48px",
+      "kids": [
+        {
+          "id": "f6WUp6SN5",
+          "bg": null,
+          "fill": null,
+          "mw": "90%",
+          "w": "1fr",
+          "h": "auto",
+          "pad": null
+        },
+        {
+          "name": "Opening Note",
+          "id": "w1lCAnw5U",
+          "bg": null,
+          "fill": null,
+          "mw": "90%",
+          "w": "1fr",
+          "h": "auto",
+          "pad": "32px 0px 0px 0px"
+        }
+      ]
+    },
+    {
+      "path": "/contact",
+      "name": "Private Consultation Pause",
+      "id": "liyenGbOL",
+      "bg": null,
+      "fill": "var(--token-fa6ec05f-9d2d-44ad-a813-6c56bf2b324e)",
+      "mw": null,
+      "w": "100%",
+      "h": "auto",
+      "pad": "96px 48px 96px 48px",
+      "kids": [
+        {
+          "name": "Consultation Header",
+          "id": "Mh8CyV8RT",
+          "bg": null,
+          "fill": null,
+          "mw": "90%",
+          "w": "100%",
+          "h": "auto",
+          "pad": null
+        },
+        {
+          "name": "Consultation Statement",
+          "id": "Ze2dVw_I8",
+          "bg": null,
+          "fill": null,
+          "mw": "90%",
+          "w": "1fr",
+          "h": "auto",
+          "pad": null
+        },
+        {
+          "name": "Consultation Detail",
+          "id": "JGvIWaCrH",
+          "bg": null,
+          "fill": null,
+          "mw": "90%",
+          "w": "100%",
+          "h": "auto",
+          "pad": "32px 0px 0px 0px"
+        }
+      ]
+    },
+    {
+      "path": "/contact",
+      "name": "Journal",
+      "id": "R3nS8tMqV",
+      "bg": null,
+      "fill": "var(--token-d5b3c09d-0364-4ed0-8804-e56957faa275)",
+      "mw": null,
+      "w": "100%",
+      "h": "auto",
+      "pad": "128px 48px 128px 48px",
+      "kids": [
+        {
+          "id": "cAJdgOlMA",
+          "bg": null,
+          "fill": null,
+          "mw": "90%",
+          "w": "1fr",
+          "h": "auto",
+          "pad": "0px 0px 32px 0px"
+        },
+        {
+          "name": "Content Area",
+          "id": "VKMl8D_oG",
+          "bg": null,
+          "fill": null,
+          "mw": "90%",
+          "w": "1fr",
+          "h": "auto",
+          "pad": null
+        }
+      ]
+    },
+    {
+      "path": "/contact",
+      "name": "Footer",
+      "id": "R1UwW27g3",
+      "bg": null,
+      "fill": null,
+      "mw": null,
+      "w": "1fr",
+      "h": "auto",
+      "pad": null,
+      "kids": []
+    },
+    {
+      "path": "/properties/:slug",
+      "name": "Property Hero",
+      "id": "lODMk6Egu",
+      "bg": null,
+      "fill": null,
+      "mw": "90%",
+      "w": "1fr",
+      "h": "auto",
+      "pad": "128px 48px 128px 48px",
+      "kids": [
+        {
+          "id": "TanN7b8Lp",
+          "bg": null,
+          "fill": "var(--variable-XbvvpgHkd)",
+          "mw": null,
+          "w": "1fr",
+          "h": "27vh",
+          "pad": null
+        },
+        {
+          "id": "UpiWXZQpM",
+          "bg": null,
+          "fill": null,
+          "mw": null,
+          "w": "1fr",
+          "h": "auto",
+          "pad": "40px 0px 0px 0px"
+        }
+      ]
+    },
+    {
+      "path": "/properties/:slug",
+      "name": "Property Specs Band",
+      "id": "aqUTeKNkU",
+      "bg": null,
+      "fill": null,
+      "mw": "90%",
+      "w": "1fr",
+      "h": "auto",
+      "pad": "0px 48px 0px 48px",
+      "kids": [
+        {
+          "id": "qPHLZns2K",
+          "bg": null,
+          "fill": null,
+          "mw": null,
+          "w": "1fr",
+          "h": "auto",
+          "pad": null
+        }
+      ]
+    },
+    {
+      "path": "/properties/:slug",
+      "name": "Chapter Intro",
+      "id": "ubrig7P0R",
+      "bg": null,
+      "fill": null,
+      "mw": "90%",
+      "w": "1fr",
+      "h": "auto",
+      "pad": "128px 48px 128px 48px",
+      "kids": [
+        {
+          "id": "VNLnTbKMG",
+          "bg": null,
+          "fill": null,
+          "mw": null,
+          "w": "1fr",
+          "h": "auto",
+          "pad": null
+        },
+        {
+          "name": "Chapter One Title",
+          "id": "gB0CaDpqa",
+          "bg": null,
+          "fill": null,
+          "mw": "960px",
+          "w": "1fr",
+          "h": "auto",
+          "pad": null
+        },
+        {
+          "id": "Yjl7mN_Ni",
+          "bg": null,
+          "fill": null,
+          "mw": null,
+          "w": "1fr",
+          "h": "auto",
+          "pad": null
+        }
+      ]
+    },
+    {
+      "path": "/properties/:slug",
+      "name": "Cinematic Gallery",
+      "id": "lP4ZL6y0c",
+      "bg": null,
+      "fill": "var(--token-d5b3c09d-0364-4ed0-8804-e56957faa275)",
+      "mw": null,
+      "w": "100%",
+      "h": "auto",
+      "pad": "0px 48px 128px 48px",
+      "kids": [
+        {
+          "name": "Gallery Heading",
+          "id": "xikGIamdr",
+          "bg": null,
+          "fill": null,
+          "mw": "90%",
+          "w": "100%",
+          "h": "auto",
+          "pad": "128px 0px 32px 0px"
+        },
+        {
+          "name": "Gallery Grid",
+          "id": "CGYpcrzdu",
+          "bg": null,
+          "fill": null,
+          "mw": "90%",
+          "w": "1fr",
+          "h": "auto",
+          "pad": null
+        },
+        {
+          "name": "Gallery Narrative",
+          "id": "dvQGZybHU",
+          "bg": null,
+          "fill": null,
+          "mw": "90%",
+          "w": "1fr",
+          "h": "auto",
+          "pad": null
+        },
+        {
+          "name": "Gallery Caption",
+          "id": "XQfSPVEJl",
+          "bg": null,
+          "fill": null,
+          "mw": "90%",
+          "w": "100%",
+          "h": "auto",
+          "pad": null
+        }
+      ]
+    },
+    {
+      "path": "/properties/:slug",
+      "name": "The Setting",
+      "id": "uZ8oOXu4y",
+      "bg": null,
+      "fill": null,
+      "mw": "90%",
+      "w": "100%",
+      "h": "auto",
+      "pad": "128px 48px 128px 48px",
+      "kids": [
+        {
+          "name": "Setting Introduction",
+          "id": "o1RUuQ9Rb",
+          "bg": null,
+          "fill": null,
+          "mw": "420px",
+          "w": "1fr",
+          "h": "auto",
+          "pad": null
+        },
+        {
+          "name": "Setting Copy",
+          "id": "k7yeGH7Sv",
+          "bg": null,
+          "fill": null,
+          "mw": "520px",
+          "w": "1fr",
+          "h": "auto",
+          "pad": null
+        }
+      ]
+    },
+    {
+      "path": "/properties/:slug",
+      "name": "Property Particulars",
+      "id": "vlElPVCV7",
+      "bg": null,
+      "fill": "var(--token-fa6ec05f-9d2d-44ad-a813-6c56bf2b324e)",
+      "mw": null,
+      "w": "100%",
+      "h": "auto",
+      "pad": "128px 48px 128px 48px",
+      "kids": [
+        {
+          "name": "Particulars Inner",
+          "id": "sviYbp_hn",
+          "bg": null,
+          "fill": null,
+          "mw": "90%",
+          "w": "100%",
+          "h": "auto",
+          "pad": null
+        }
+      ]
+    },
+    {
+      "path": "/properties/:slug",
+      "name": "Continue Your Search",
+      "id": "OA3sHhDMv",
+      "bg": null,
+      "fill": null,
+      "mw": "90%",
+      "w": "100%",
+      "h": "auto",
+      "pad": "128px 48px 128px 48px",
+      "kids": [
+        {
+          "name": "Discovery Label",
+          "id": "oTADAStnm",
+          "bg": null,
+          "fill": null,
+          "mw": null,
+          "w": "1fr",
+          "h": "auto",
+          "pad": null
+        },
+        {
+          "name": "Discovery Routes",
+          "id": "DGxLaaPw7",
+          "bg": null,
+          "fill": null,
+          "mw": null,
+          "w": "100%",
+          "h": "auto",
+          "pad": null
+        }
+      ]
+    },
+    {
+      "path": "/properties/:slug",
+      "name": "Enquiry CTA",
+      "id": "Wy9_asNQu",
+      "bg": null,
+      "fill": "var(--token-425191b0-a245-4f14-88c2-f7144ab54959)",
+      "mw": null,
+      "w": "100%",
+      "h": "auto",
+      "pad": "128px 48px 128px 48px",
+      "kids": [
+        {
+          "id": "p_Sf6HGQb",
+          "bg": null,
+          "fill": null,
+          "mw": "90%",
+          "w": "1fr",
+          "h": "auto",
+          "pad": null
+        }
+      ]
+    },
+    {
+      "path": "/properties/:slug",
+      "name": "Footer",
+      "id": "CIYq_FTjP",
+      "bg": null,
+      "fill": null,
+      "mw": null,
+      "w": "1fr",
+      "h": "auto",
+      "pad": null,
+      "kids": []
+    },
+    {
+      "path": "/notes/:slug",
+      "name": "Article Hero Meta",
+      "id": "TYvLnLN5L",
+      "bg": null,
+      "fill": "var(--token-d5b3c09d-0364-4ed0-8804-e56957faa275)",
+      "mw": null,
+      "w": "100%",
+      "h": "auto",
+      "pad": "128px 48px 0px 48px",
+      "kids": [
+        {
+          "id": "XfQIW7biv",
+          "bg": null,
+          "fill": "rgba(0, 0, 0, 0)",
+          "mw": "90%",
+          "w": "1fr",
+          "h": "0px",
+          "pad": null
+        },
+        {
+          "id": "R_5Trg0eT",
+          "bg": null,
+          "fill": null,
+          "mw": "90%",
+          "w": "1fr",
+          "h": "auto",
+          "pad": "0px 0px 48px 0px"
+        }
+      ]
+    },
+    {
+      "path": "/notes/:slug",
+      "name": "Journal Hero Image",
+      "id": "rZDvGuaZD",
+      "bg": null,
+      "fill": "var(--variable-UuvdpyCxL)",
+      "mw": null,
+      "w": "100%",
+      "h": "48vh",
+      "pad": "64px 48px 0px 48px",
+      "kids": []
+    },
+    {
+      "path": "/notes/:slug",
+      "name": "Article Body Wrap",
+      "id": "F88MmOdES",
+      "bg": null,
+      "fill": null,
+      "mw": "90%",
+      "w": "1fr",
+      "h": "auto",
+      "pad": "64px 48px 128px 48px",
+      "kids": [
+        {
+          "name": "Article Body",
+          "id": "lNUCFBhko",
+          "bg": null,
+          "fill": null,
+          "mw": "720px",
+          "w": "1fr",
+          "h": "auto",
+          "pad": null
+        }
+      ]
+    },
+    {
+      "path": "/notes/:slug",
+      "name": "Journal Text Column",
+      "id": "HR7GLyyBT",
+      "bg": null,
+      "fill": null,
+      "mw": "90%",
+      "w": "1fr",
+      "h": "1fr",
+      "pad": null,
+      "kids": [
+        {
+          "name": "Wrapper",
+          "id": "sSzDlvcIm",
+          "bg": null,
+          "fill": null,
+          "mw": null,
+          "w": "1fr",
+          "h": "auto",
+          "pad": null
+        }
+      ]
+    },
+    {
+      "path": "/notes/:slug",
+      "name": "More From Journal",
+      "id": "cIncylbTv",
+      "bg": null,
+      "fill": "var(--token-425191b0-a245-4f14-88c2-f7144ab54959)",
+      "mw": null,
+      "w": "100%",
+      "h": "auto",
+      "pad": "128px 48px 128px 48px",
+      "kids": [
+        {
+          "id": "xdJnss3VP",
+          "bg": null,
+          "fill": null,
+          "mw": "90%",
+          "w": "auto",
+          "h": "auto",
+          "pad": null
+        },
+        {
+          "id": "eOV768cPJ",
+          "bg": null,
+          "fill": null,
+          "mw": "90%",
+          "w": "1fr",
+          "h": "auto",
+          "pad": null
+        },
+        {
+          "id": "OiPBCB4m7",
+          "bg": null,
+          "fill": null,
+          "mw": "90%",
+          "w": "1fr",
+          "h": "auto",
+          "pad": null
+        }
+      ]
+    },
+    {
+      "path": "/notes/:slug",
+      "name": "Specs Strip",
+      "id": "OE3uHiT52",
+      "bg": null,
+      "fill": null,
+      "mw": "90%",
+      "w": "1fr",
+      "h": "0px",
+      "pad": "0px 48px 0px 48px",
+      "kids": [
+        {
+          "id": "RNZYuZmYh",
+          "bg": null,
+          "fill": null,
+          "mw": null,
+          "w": "1fr",
+          "h": "auto",
+          "pad": null
+        }
+      ]
+    },
+    {
+      "path": "/notes/:slug",
+      "name": "Closing Chapter",
+      "id": "VeGntwuIg",
+      "bg": null,
+      "fill": null,
+      "mw": "90%",
+      "w": "1fr",
+      "h": "0px",
+      "pad": "96px 48px 96px 48px",
+      "kids": [
+        {
+          "id": "SFXE0K48p",
+          "bg": null,
+          "fill": null,
+          "mw": null,
+          "w": "1fr",
+          "h": "auto",
+          "pad": null
+        },
+        {
+          "name": "Chapter One Title",
+          "id": "N896SgS_Z",
+          "bg": null,
+          "fill": null,
+          "mw": null,
+          "w": "1fr",
+          "h": "auto",
+          "pad": null
+        },
+        {
+          "id": "U57vJ_RN2",
+          "bg": null,
+          "fill": null,
+          "mw": null,
+          "w": "1fr",
+          "h": "auto",
+          "pad": null
+        }
+      ]
+    },
+    {
+      "path": "/notes/:slug",
+      "name": "Footer",
+      "id": "WsEwAIpxM",
+      "bg": null,
+      "fill": null,
+      "mw": null,
+      "w": "1fr",
+      "h": "auto",
+      "pad": null,
+      "kids": []
+    }
+  ],
+  "ppDetail": [
+    {
+      "name": "Desktop",
+      "id": "d5T0Tmau8",
+      "bg": null,
+      "fill": "var(--token-d5b3c09d-0364-4ed0-8804-e56957faa275)",
+      "mw": "1104px",
+      "w": "1104px",
+      "h": "auto",
+      "pad": null,
+      "kids": [
+        {
+          "name": "Portrait",
+          "id": "j_gymdr8H",
+          "bg": null,
+          "fill": "var(--variable-N3JdxU0gM)",
+          "mw": "520px",
+          "w": "100%",
+          "h": "auto",
+          "pad": null
+        },
+        {
+          "name": "Profile Copy",
+          "id": "RkwVD2yoD",
+          "bg": null,
+          "fill": null,
+          "mw": null,
+          "w": "1fr",
+          "h": "auto",
+          "pad": "0px 0px 48px 0px"
+        }
+      ]
+    },
+    {
+      "name": "Tablet",
+      "id": "mxXljrpyb",
+      "bg": null,
+      "fill": "var(--token-d5b3c09d-0364-4ed0-8804-e56957faa275)",
+      "mw": "1104px",
+      "w": "730px",
+      "h": "auto",
+      "pad": null,
+      "kids": [
+        {
+          "name": "Portrait",
+          "id": "mxXljrpybj_gymdr8H",
+          "bg": null,
+          "fill": "var(--variable-N3JdxU0gM)",
+          "mw": "520px",
+          "w": "100%",
+          "h": "auto",
+          "pad": null
+        },
+        {
+          "name": "Profile Copy",
+          "id": "mxXljrpybRkwVD2yoD",
+          "bg": null,
+          "fill": null,
+          "mw": null,
+          "w": "1fr",
+          "h": "auto",
+          "pad": null
+        }
+      ]
+    },
+    {
+      "name": "Phone",
+      "id": "ZOGQS2oqd",
+      "bg": null,
+      "fill": "var(--token-d5b3c09d-0364-4ed0-8804-e56957faa275)",
+      "mw": "1104px",
+      "w": "342px",
+      "h": "auto",
+      "pad": null,
+      "kids": [
+        {
+          "name": "Portrait",
+          "id": "ZOGQS2oqdj_gymdr8H",
+          "bg": null,
+          "fill": "var(--variable-N3JdxU0gM)",
+          "mw": "520px",
+          "w": "100%",
+          "h": "auto",
+          "pad": null
+        },
+        {
+          "name": "Profile Copy",
+          "id": "ZOGQS2oqdRkwVD2yoD",
+          "bg": null,
+          "fill": null,
+          "mw": null,
+          "w": "1fr",
+          "h": "auto",
+          "pad": null
+        }
+      ]
+    }
+  ]
+}

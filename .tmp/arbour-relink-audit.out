@@ -1,0 +1,48 @@
+{
+  "pagePaths": [
+    {
+      "id": "augiA20Il",
+      "path": "/"
+    },
+    {
+      "id": "uBAGmujMa",
+      "path": "/properties"
+    },
+    {
+      "id": "dZfxmFpqB",
+      "path": "/neighbourhoods"
+    },
+    {
+      "id": "s8RpZIiJ8",
+      "path": "/notes"
+    },
+    {
+      "id": "OdFhPn9yz",
+      "path": "/about"
+    },
+    {
+      "id": "c7qpzB7hR",
+      "path": "/contact"
+    },
+    {
+      "id": "OhRUQROL4",
+      "path": "/properties/:slug"
+    },
+    {
+      "id": "YPPO8pJ92",
+      "path": "/notes/:slug"
+    },
+    {
+      "id": "ojmcAsLyM",
+      "path": "/404"
+    }
+  ],
+  "properties2Hits": [],
+  "codeHits": [],
+  "redirects": [],
+  "uniquePropsHrefs": [
+    "/properties",
+    "/properties/:slug"
+  ],
+  "propsLinkCount": 63
+}

@@ -1,0 +1,189 @@
+[
+  {
+    "page": "/",
+    "id": "X_yokItiU",
+    "type": "FrameNode",
+    "dump": {
+      "link": {
+        "href": "/work/:slug",
+        "collectionItem": "var(--variable-Bte5utJ62)"
+      }
+    }
+  },
+  {
+    "page": "/404",
+    "id": "dyBeOeyiJ",
+    "type": "RichTextNode",
+    "dump": {
+      "link": {
+        "href": "/"
+      },
+      "linkStylePreset": "Info Link"
+    }
+  },
+  {
+    "page": "/404",
+    "id": "BV5dxVKN3dyBeOeyiJ",
+    "type": "RichTextNode",
+    "dump": {
+      "link": {
+        "href": "/"
+      },
+      "linkStylePreset": "Info Link"
+    }
+  },
+  {
+    "page": "/404",
+    "id": "h0q8NyaAQdyBeOeyiJ",
+    "type": "RichTextNode",
+    "dump": {
+      "link": {
+        "href": "/"
+      },
+      "linkStylePreset": "Info Link"
+    }
+  },
+  {
+    "page": "/work/:Work",
+    "id": "tCeuqaScL",
+    "type": "RichTextNode",
+    "dump": {
+      "link": {
+        "href": "/"
+      },
+      "linkStylePreset": "Info Link"
+    }
+  },
+  {
+    "page": "/work/:Work",
+    "id": "bcSjKaIc9",
+    "type": "RichTextNode",
+    "dump": {
+      "link": {
+        "href": "/work/:slug",
+        "collectionItem": "var(--variable-previousItemId.Bte5utJ62)"
+      },
+      "linkStylePreset": "Info Link"
+    }
+  },
+  {
+    "page": "/work/:Work",
+    "id": "NxVQqH3rS",
+    "type": "RichTextNode",
+    "dump": {
+      "link": {
+        "href": "/work/:slug",
+        "collectionItem": "var(--variable-nextItemId.Bte5utJ62)"
+      },
+      "linkStylePreset": "Info Link"
+    }
+  },
+  {
+    "page": "/work/:Work",
+    "id": "LSqc1L2WHtCeuqaScL",
+    "type": "RichTextNode",
+    "dump": {
+      "link": {
+        "href": "/"
+      },
+      "linkStylePreset": "Info Link"
+    }
+  },
+  {
+    "page": "/work/:Work",
+    "id": "LSqc1L2WHbcSjKaIc9",
+    "type": "RichTextNode",
+    "dump": {
+      "link": {
+        "href": "/work/:slug",
+        "collectionItem": "var(--variable-previousItemId.Bte5utJ62)"
+      },
+      "linkStylePreset": "Info Link"
+    }
+  },
+  {
+    "page": "/work/:Work",
+    "id": "LSqc1L2WHNxVQqH3rS",
+    "type": "RichTextNode",
+    "dump": {
+      "link": {
+        "href": "/work/:slug",
+        "collectionItem": "var(--variable-nextItemId.Bte5utJ62)"
+      },
+      "linkStylePreset": "Info Link"
+    }
+  },
+  {
+    "page": "/work/:Work",
+    "id": "Tf2mbU7BvtCeuqaScL",
+    "type": "RichTextNode",
+    "dump": {
+      "link": {
+        "href": "/"
+      },
+      "linkStylePreset": "Info Link"
+    }
+  },
+  {
+    "page": "/work/:Work",
+    "id": "Tf2mbU7BvbcSjKaIc9",
+    "type": "RichTextNode",
+    "dump": {
+      "link": {
+        "href": "/work/:slug",
+        "collectionItem": "var(--variable-previousItemId.Bte5utJ62)"
+      },
+      "linkStylePreset": "Info Link"
+    }
+  },
+  {
+    "page": "/work/:Work",
+    "id": "Tf2mbU7BvNxVQqH3rS",
+    "type": "RichTextNode",
+    "dump": {
+      "link": {
+        "href": "/work/:slug",
+        "collectionItem": "var(--variable-nextItemId.Bte5utJ62)"
+      },
+      "linkStylePreset": "Info Link"
+    }
+  },
+  {
+    "page": "Nav",
+    "id": "sWU5I6bKH",
+    "type": "RichTextNode",
+    "dump": {
+      "linkStylePreset": "Info Link"
+    }
+  },
+  {
+    "page": "Nav",
+    "id": "OSaBHYPYg",
+    "type": "RichTextNode",
+    "dump": {
+      "link": {
+        "href": "mailto:studio@halden.work"
+      },
+      "linkStylePreset": "Info Link"
+    }
+  },
+  {
+    "page": "Nav",
+    "id": "lHV5aHgaZsWU5I6bKH",
+    "type": "RichTextNode",
+    "dump": {
+      "linkStylePreset": "Info Link"
+    }
+  },
+  {
+    "page": "Nav",
+    "id": "lHV5aHgaZOSaBHYPYg",
+    "type": "RichTextNode",
+    "dump": {
+      "link": {
+        "href": "mailto:studio@halden.work"
+      },
+      "linkStylePreset": "Info Link"
+    }
+  }
+]

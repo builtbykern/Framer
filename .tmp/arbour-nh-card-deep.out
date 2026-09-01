@@ -1,0 +1,617 @@
+{
+  "desktop": {
+    "id": "i56eWdACt",
+    "name": "Territory Card",
+    "type": "FrameNode",
+    "layout": "stack",
+    "stackDirection": "horizontal",
+    "stackDistribution": "space-between",
+    "stackAlignment": "start",
+    "gap": "0px",
+    "width": "1fr",
+    "height": "360px",
+    "border": "1px solid rgba(28, 27, 22, 0.14)",
+    "overflow": "clip",
+    "href": "/properties",
+    "children": [
+      {
+        "id": "QAa2V2fag",
+        "name": "Territory Dossier",
+        "type": "FrameNode",
+        "layout": "stack",
+        "stackDirection": "vertical",
+        "stackDistribution": "start",
+        "stackAlignment": "start",
+        "gap": "20px",
+        "padding": "28px",
+        "width": "1fr",
+        "height": "1fr",
+        "minHeight": "360px",
+        "overflow": "clip",
+        "children": [
+          {
+            "id": "buF4jg6C9",
+            "name": "Place Header",
+            "type": "FrameNode",
+            "layout": "stack",
+            "stackDirection": "vertical",
+            "stackDistribution": "start",
+            "stackAlignment": "start",
+            "gap": "0px",
+            "width": "1fr",
+            "height": "auto",
+            "children": [
+              {
+                "id": "Ltp8ot_zm",
+                "name": "Place Title",
+                "type": "FrameNode",
+                "layout": "stack",
+                "stackDirection": "horizontal",
+                "stackDistribution": "space-between",
+                "stackAlignment": "center",
+                "width": "1fr",
+                "height": "auto",
+                "children": [
+                  {
+                    "id": "rie14TaT9",
+                    "type": "RichTextNode",
+                    "width": "1fr",
+                    "height": "auto",
+                    "textColor": "var(--token-e2f9a9eb-668a-4021-80d9-b04413b5f392)",
+                    "textStylePreset": "Arbour/Subhead",
+                    "textAlignment": "start",
+                    "text": "var(--variable-tBUaKupCV)",
+                    "children": []
+                  },
+                  {
+                    "id": "d9SNjsdke",
+                    "type": "RichTextNode",
+                    "width": "auto",
+                    "height": "auto",
+                    "textColor": "var(--token-db86917b-d19e-4fd7-8dc5-e260f1f35cb1)",
+                    "textStylePreset": "Arbour/Meta",
+                    "textAlignment": "start",
+                    "children": [
+                      {
+                        "id": "v:d9SNjsdke:0",
+                        "type": "TextBlock",
+                        "children": [
+                          {
+                            "id": "v:d9SNjsdke:0:0",
+                            "type": "TextRun",
+                            "text": "VIEW →",
+                            "children": []
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "Xb7Sjgfsi",
+            "name": "Cartographic Field",
+            "type": "FrameNode",
+            "visible": "false",
+            "layout": "stack",
+            "stackDirection": "vertical",
+            "stackDistribution": "center",
+            "stackAlignment": "center",
+            "gap": "0px",
+            "width": "1fr",
+            "height": "auto",
+            "children": [
+              {
+                "id": "jMokcCFea",
+                "name": "Cartographic Watermark",
+                "type": "FrameNode",
+                "layout": "null",
+                "width": "258px",
+                "height": "149px",
+                "overflow": "hidden",
+                "opacity": "0.48",
+                "children": []
+              }
+            ]
+          },
+          {
+            "id": "rIIdBjqU_",
+            "name": "Place Reading",
+            "type": "FrameNode",
+            "layout": "stack",
+            "stackDirection": "vertical",
+            "stackDistribution": "start",
+            "stackAlignment": "start",
+            "gap": "10px",
+            "width": "1fr",
+            "height": "auto",
+            "children": [
+              {
+                "id": "v61cPV2xF",
+                "type": "RichTextNode",
+                "width": "1fr",
+                "height": "auto",
+                "overflow": "clip",
+                "textColor": "var(--token-0bc68d0d-4c0b-4126-8cce-9425cb153f4e)",
+                "textStylePreset": "Arbour/Body",
+                "textTruncation": "3",
+                "textAlignment": "start",
+                "text": "var(--variable-mNRagFPfJ)",
+                "children": []
+              },
+              {
+                "id": "sJB1mG6E1",
+                "type": "RichTextNode",
+                "width": "1fr",
+                "height": "auto",
+                "overflow": "clip",
+                "textColor": "var(--token-0bc68d0d-4c0b-4126-8cce-9425cb153f4e)",
+                "textStylePreset": "Arbour/Meta",
+                "textTruncation": "2",
+                "textAlignment": "start",
+                "text": "var(--variable-ZIEwtEwXa)",
+                "children": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "hX5NduSNi",
+        "name": "Territory Photograph",
+        "type": "FrameNode",
+        "layout": "stack",
+        "stackDirection": "vertical",
+        "stackDistribution": "start",
+        "stackAlignment": "start",
+        "gap": "0px",
+        "width": "1fr",
+        "height": "360px",
+        "minHeight": "360px",
+        "overflow": "clip",
+        "children": []
+      }
+    ]
+  },
+  "tablet": {
+    "id": "aJLpuUP0qi56eWdACt",
+    "name": "Territory Card",
+    "type": "FrameNode",
+    "layout": "stack",
+    "stackDirection": "horizontal",
+    "stackDistribution": "space-between",
+    "stackAlignment": "start",
+    "gap": "0px",
+    "width": "1fr",
+    "height": "320px",
+    "border": "1px solid rgba(28, 27, 22, 0.14)",
+    "overflow": "clip",
+    "href": "/properties",
+    "children": [
+      {
+        "id": "aJLpuUP0qQAa2V2fag",
+        "name": "Territory Dossier",
+        "type": "FrameNode",
+        "layout": "stack",
+        "stackDirection": "vertical",
+        "stackDistribution": "start",
+        "stackAlignment": "start",
+        "gap": "20px",
+        "padding": "28px",
+        "width": "1fr",
+        "height": "1fr",
+        "minHeight": "360px",
+        "overflow": "clip",
+        "children": [
+          {
+            "id": "aJLpuUP0qbuF4jg6C9",
+            "name": "Place Header",
+            "type": "FrameNode",
+            "layout": "stack",
+            "stackDirection": "vertical",
+            "stackDistribution": "start",
+            "stackAlignment": "start",
+            "gap": "0px",
+            "width": "1fr",
+            "height": "auto",
+            "children": [
+              {
+                "id": "aJLpuUP0qLtp8ot_zm",
+                "name": "Place Title",
+                "type": "FrameNode",
+                "layout": "stack",
+                "stackDirection": "horizontal",
+                "stackDistribution": "space-between",
+                "stackAlignment": "center",
+                "width": "1fr",
+                "height": "auto",
+                "children": [
+                  {
+                    "id": "aJLpuUP0qrie14TaT9",
+                    "type": "RichTextNode",
+                    "width": "1fr",
+                    "height": "auto",
+                    "textColor": "var(--token-e2f9a9eb-668a-4021-80d9-b04413b5f392)",
+                    "textStylePreset": "Arbour/Subhead",
+                    "textAlignment": "start",
+                    "text": "var(--variable-tBUaKupCV)",
+                    "children": []
+                  },
+                  {
+                    "id": "aJLpuUP0qd9SNjsdke",
+                    "type": "RichTextNode",
+                    "width": "auto",
+                    "height": "auto",
+                    "textColor": "var(--token-db86917b-d19e-4fd7-8dc5-e260f1f35cb1)",
+                    "textStylePreset": "Arbour/Meta",
+                    "textAlignment": "start",
+                    "children": [
+                      {
+                        "id": "v:aJLpuUP0qd9SNjsdke:0",
+                        "type": "TextBlock",
+                        "children": []
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "aJLpuUP0qXb7Sjgfsi",
+            "name": "Cartographic Field",
+            "type": "FrameNode",
+            "visible": "false",
+            "layout": "stack",
+            "stackDirection": "vertical",
+            "stackDistribution": "center",
+            "stackAlignment": "center",
+            "gap": "0px",
+            "width": "1fr",
+            "height": "auto",
+            "children": [
+              {
+                "id": "aJLpuUP0qjMokcCFea",
+                "name": "Cartographic Watermark",
+                "type": "FrameNode",
+                "layout": "null",
+                "width": "258px",
+                "height": "149px",
+                "overflow": "hidden",
+                "opacity": "0.48",
+                "children": []
+              }
+            ]
+          },
+          {
+            "id": "aJLpuUP0qrIIdBjqU_",
+            "name": "Place Reading",
+            "type": "FrameNode",
+            "layout": "stack",
+            "stackDirection": "vertical",
+            "stackDistribution": "start",
+            "stackAlignment": "start",
+            "gap": "10px",
+            "width": "1fr",
+            "height": "auto",
+            "children": [
+              {
+                "id": "aJLpuUP0qv61cPV2xF",
+                "type": "RichTextNode",
+                "width": "1fr",
+                "height": "auto",
+                "overflow": "clip",
+                "textColor": "var(--token-0bc68d0d-4c0b-4126-8cce-9425cb153f4e)",
+                "textStylePreset": "Arbour/Body",
+                "textTruncation": "3",
+                "textAlignment": "start",
+                "text": "var(--variable-mNRagFPfJ)",
+                "children": []
+              },
+              {
+                "id": "aJLpuUP0qsJB1mG6E1",
+                "type": "RichTextNode",
+                "width": "1fr",
+                "height": "auto",
+                "overflow": "clip",
+                "textColor": "var(--token-0bc68d0d-4c0b-4126-8cce-9425cb153f4e)",
+                "textStylePreset": "Arbour/Meta",
+                "textTruncation": "2",
+                "textAlignment": "start",
+                "text": "var(--variable-ZIEwtEwXa)",
+                "children": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "aJLpuUP0qhX5NduSNi",
+        "name": "Territory Photograph",
+        "type": "FrameNode",
+        "layout": "stack",
+        "stackDirection": "vertical",
+        "stackDistribution": "start",
+        "stackAlignment": "start",
+        "gap": "0px",
+        "width": "1fr",
+        "height": "360px",
+        "minHeight": "360px",
+        "overflow": "clip",
+        "children": []
+      }
+    ]
+  },
+  "phone": {
+    "id": "Qonafp_oDi56eWdACt",
+    "name": "Territory Card",
+    "type": "FrameNode",
+    "layout": "stack",
+    "stackDirection": "horizontal",
+    "stackDistribution": "space-between",
+    "stackAlignment": "start",
+    "gap": "0px",
+    "width": "1fr",
+    "height": "360px",
+    "border": "1px solid rgba(28, 27, 22, 0.14)",
+    "overflow": "clip",
+    "href": "/properties",
+    "children": [
+      {
+        "id": "Qonafp_oDQAa2V2fag",
+        "name": "Territory Dossier",
+        "type": "FrameNode",
+        "layout": "stack",
+        "stackDirection": "vertical",
+        "stackDistribution": "start",
+        "stackAlignment": "start",
+        "gap": "20px",
+        "padding": "28px",
+        "width": "1fr",
+        "height": "1fr",
+        "minHeight": "360px",
+        "overflow": "clip",
+        "children": [
+          {
+            "id": "Qonafp_oDbuF4jg6C9",
+            "name": "Place Header",
+            "type": "FrameNode",
+            "layout": "stack",
+            "stackDirection": "vertical",
+            "stackDistribution": "start",
+            "stackAlignment": "start",
+            "gap": "0px",
+            "width": "1fr",
+            "height": "auto",
+            "children": [
+              {
+                "id": "Qonafp_oDLtp8ot_zm",
+                "name": "Place Title",
+                "type": "FrameNode",
+                "layout": "stack",
+                "stackDirection": "horizontal",
+                "stackDistribution": "space-between",
+                "stackAlignment": "center",
+                "width": "1fr",
+                "height": "auto",
+                "children": [
+                  {
+                    "id": "Qonafp_oDrie14TaT9",
+                    "type": "RichTextNode",
+                    "width": "1fr",
+                    "height": "auto",
+                    "textColor": "var(--token-e2f9a9eb-668a-4021-80d9-b04413b5f392)",
+                    "textStylePreset": "Arbour/Subhead",
+                    "textAlignment": "start",
+                    "text": "var(--variable-tBUaKupCV)",
+                    "children": []
+                  },
+                  {
+                    "id": "Qonafp_oDd9SNjsdke",
+                    "type": "RichTextNode",
+                    "width": "auto",
+                    "height": "auto",
+                    "textColor": "var(--token-db86917b-d19e-4fd7-8dc5-e260f1f35cb1)",
+                    "textStylePreset": "Arbour/Meta",
+                    "textAlignment": "start",
+                    "children": [
+                      {
+                        "id": "v:Qonafp_oDd9SNjsdke:0",
+                        "type": "TextBlock",
+                        "children": []
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "Qonafp_oDXb7Sjgfsi",
+            "name": "Cartographic Field",
+            "type": "FrameNode",
+            "visible": "false",
+            "layout": "stack",
+            "stackDirection": "vertical",
+            "stackDistribution": "center",
+            "stackAlignment": "center",
+            "gap": "0px",
+            "width": "1fr",
+            "height": "auto",
+            "children": [
+              {
+                "id": "Qonafp_oDjMokcCFea",
+                "name": "Cartographic Watermark",
+                "type": "FrameNode",
+                "layout": "null",
+                "width": "258px",
+                "height": "149px",
+                "overflow": "hidden",
+                "opacity": "0.48",
+                "children": []
+              }
+            ]
+          },
+          {
+            "id": "Qonafp_oDrIIdBjqU_",
+            "name": "Place Reading",
+            "type": "FrameNode",
+            "layout": "stack",
+            "stackDirection": "vertical",
+            "stackDistribution": "start",
+            "stackAlignment": "start",
+            "gap": "10px",
+            "width": "1fr",
+            "height": "auto",
+            "children": [
+              {
+                "id": "Qonafp_oDv61cPV2xF",
+                "type": "RichTextNode",
+                "width": "1fr",
+                "height": "auto",
+                "overflow": "clip",
+                "textColor": "var(--token-0bc68d0d-4c0b-4126-8cce-9425cb153f4e)",
+                "textStylePreset": "Arbour/Body",
+                "textTruncation": "3",
+                "textAlignment": "start",
+                "text": "var(--variable-mNRagFPfJ)",
+                "children": []
+              },
+              {
+                "id": "Qonafp_oDsJB1mG6E1",
+                "type": "RichTextNode",
+                "width": "1fr",
+                "height": "auto",
+                "overflow": "clip",
+                "textColor": "var(--token-0bc68d0d-4c0b-4126-8cce-9425cb153f4e)",
+                "textStylePreset": "Arbour/Meta",
+                "textTruncation": "2",
+                "textAlignment": "start",
+                "text": "var(--variable-ZIEwtEwXa)",
+                "children": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "Qonafp_oDhX5NduSNi",
+        "name": "Territory Photograph",
+        "type": "FrameNode",
+        "layout": "stack",
+        "stackDirection": "vertical",
+        "stackDistribution": "start",
+        "stackAlignment": "start",
+        "gap": "0px",
+        "width": "1fr",
+        "height": "360px",
+        "minHeight": "360px",
+        "overflow": "clip",
+        "children": []
+      }
+    ]
+  },
+  "grid": {
+    "id": "km7dUqZI9",
+    "name": "Territory Checkerboard",
+    "type": "FrameNode",
+    "layout": "grid",
+    "gap": "16px",
+    "width": "1fr",
+    "height": "auto",
+    "children": [
+      {
+        "id": "i56eWdACt",
+        "name": "Territory Card",
+        "type": "FrameNode",
+        "layout": "stack",
+        "stackDirection": "horizontal",
+        "stackDistribution": "space-between",
+        "stackAlignment": "start",
+        "gap": "0px",
+        "width": "1fr",
+        "height": "360px",
+        "border": "1px solid rgba(28, 27, 22, 0.14)",
+        "overflow": "clip",
+        "href": "/properties",
+        "children": [
+          {
+            "id": "QAa2V2fag",
+            "name": "Territory Dossier",
+            "type": "FrameNode",
+            "layout": "stack",
+            "stackDirection": "vertical",
+            "stackDistribution": "start",
+            "stackAlignment": "start",
+            "gap": "20px",
+            "padding": "28px",
+            "width": "1fr",
+            "height": "1fr",
+            "minHeight": "360px",
+            "overflow": "clip",
+            "children": []
+          },
+          {
+            "id": "hX5NduSNi",
+            "name": "Territory Photograph",
+            "type": "FrameNode",
+            "layout": "stack",
+            "stackDirection": "vertical",
+            "stackDistribution": "start",
+            "stackAlignment": "start",
+            "gap": "0px",
+            "width": "1fr",
+            "height": "360px",
+            "minHeight": "360px",
+            "overflow": "clip",
+            "children": []
+          }
+        ]
+      }
+    ]
+  },
+  "panel": {
+    "id": "q3QLrEX8k",
+    "name": "Directory Panel",
+    "type": "FrameNode",
+    "layout": "stack",
+    "stackDirection": "vertical",
+    "stackDistribution": "start",
+    "stackAlignment": "center",
+    "gap": "0px",
+    "width": "1fr",
+    "height": "auto",
+    "maxWidth": "1200px",
+    "children": [
+      {
+        "id": "km7dUqZI9",
+        "name": "Territory Checkerboard",
+        "type": "FrameNode",
+        "layout": "grid",
+        "gap": "16px",
+        "width": "1fr",
+        "height": "auto",
+        "children": [
+          {
+            "id": "i56eWdACt",
+            "name": "Territory Card",
+            "type": "FrameNode",
+            "layout": "stack",
+            "stackDirection": "horizontal",
+            "stackDistribution": "space-between",
+            "stackAlignment": "start",
+            "gap": "0px",
+            "width": "1fr",
+            "height": "360px",
+            "border": "1px solid rgba(28, 27, 22, 0.14)",
+            "overflow": "clip",
+            "href": "/properties",
+            "children": []
+          }
+        ]
+      }
+    ]
+  }
+}

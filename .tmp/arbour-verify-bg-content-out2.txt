@@ -1,0 +1,154 @@
+{
+  "pass": false,
+  "bgViolations": [
+    {
+      "path": "FooterComp",
+      "bp": "Desktop",
+      "name": "variant root",
+      "id": "N8Ge7eNRv",
+      "issue": "BG fixed width=1200px"
+    },
+    {
+      "path": "FooterComp",
+      "bp": "Tablet",
+      "name": "variant root",
+      "id": "AWGNXf96_",
+      "issue": "BG fixed width=810px"
+    },
+    {
+      "path": "FooterComp",
+      "bp": "Phone",
+      "name": "variant root",
+      "id": "IitvyCHtz",
+      "issue": "BG fixed width=390px"
+    }
+  ],
+  "sectionMissing": [],
+  "sectionOkCount": 123,
+  "desktopOk": [
+    "/|Desktop|Text Content Column|1200px",
+    "/|Desktop|Territories Section|1200px",
+    "/|Desktop|Portfolio Section|1200px",
+    "/|Desktop|Bottom|1200px",
+    "/|Desktop|Process Section|1200px",
+    "/|Desktop|Arbour_StatsBand|1200px",
+    "/|Desktop|Recognition Section|1200px",
+    "/|Desktop|Testimonial Section|1200px",
+    "/|Desktop|Journal|1200px",
+    "/properties|Desktop|Properties Content|1200px",
+    "/neighbourhoods|Desktop|Neighbourhoods Content|1200px",
+    "/notes|Desktop|Journal|1200px",
+    "/notes|Desktop|Journal Manifesto|1200px",
+    "/about|Desktop|Beat 1 — Portrait Stage|1200px",
+    "/about|Desktop|Image Editorial Overlay|1200px",
+    "/about|Desktop|Beat 3 — Manifesto|1200px",
+    "/about|Desktop|Editorial Pause — Arbour in Practice|1200px",
+    "/about|Desktop|Chapter — The Principals|1200px",
+    "/about|Desktop|Chapter — Two Offices|1200px",
+    "/about|Desktop|Enquiry CTA|1200px",
+    "/contact|Desktop|Contact Hero|1200px",
+    "/contact|Desktop|Contact Opening|1200px",
+    "/contact|Desktop|Private Consultation Pause|1200px",
+    "/contact|Desktop|Journal|1200px",
+    "/properties/:slug|Desktop|Property Hero|1200px",
+    "/properties/:slug|Desktop|Property Specs Band|1200px",
+    "/properties/:slug|Desktop|Chapter Intro|1200px",
+    "/properties/:slug|Desktop|Cinematic Gallery|1200px",
+    "/properties/:slug|Desktop|The Setting|1200px",
+    "/properties/:slug|Desktop|Property Particulars|1200px",
+    "/properties/:slug|Desktop|Continue Your Search|1200px",
+    "/properties/:slug|Desktop|Enquiry CTA|1200px",
+    "/notes/:slug|Desktop|Article Hero Meta|1200px",
+    "/notes/:slug|Desktop|Journal Hero Image|1200px",
+    "/notes/:slug|Desktop|Article Body Wrap|1200px",
+    "/notes/:slug|Desktop|Journal Text Column|1200px",
+    "/notes/:slug|Desktop|More From Journal|1200px",
+    "/notes/:slug|Desktop|Specs Strip|1200px",
+    "/notes/:slug|Desktop|Closing Chapter|1200px",
+    "FooterComp|Desktop|Footer Editorial Grid|1200px",
+    "FooterComp|Desktop|(bar)|1200px"
+  ],
+  "footerReport": [
+    {
+      "bp": "Desktop",
+      "rootMax": null,
+      "align": "center",
+      "kids": [
+        {
+          "name": "Editorial Property Rail",
+          "maxW": null,
+          "w": "1fr"
+        },
+        {
+          "name": "Paper Mesh Atmosphere",
+          "maxW": null,
+          "w": "100%"
+        },
+        {
+          "name": "Footer Editorial Grid",
+          "maxW": "1200px",
+          "w": "1fr"
+        },
+        {
+          "name": "(bar)",
+          "maxW": "1200px",
+          "w": "1fr"
+        }
+      ]
+    },
+    {
+      "bp": "Tablet",
+      "rootMax": null,
+      "align": "center",
+      "kids": [
+        {
+          "name": "Editorial Property Rail",
+          "maxW": null,
+          "w": "1fr"
+        },
+        {
+          "name": "Paper Mesh Atmosphere",
+          "maxW": null,
+          "w": "100%"
+        },
+        {
+          "name": "Footer Editorial Grid",
+          "maxW": "1200px",
+          "w": "1fr"
+        },
+        {
+          "name": "(bar)",
+          "maxW": "1200px",
+          "w": "1fr"
+        }
+      ]
+    },
+    {
+      "bp": "Phone",
+      "rootMax": null,
+      "align": "center",
+      "kids": [
+        {
+          "name": "Editorial Property Rail",
+          "maxW": null,
+          "w": "1fr"
+        },
+        {
+          "name": "Paper Mesh Atmosphere",
+          "maxW": null,
+          "w": "100%"
+        },
+        {
+          "name": "Footer Editorial Grid",
+          "maxW": "1200px",
+          "w": "1fr"
+        },
+        {
+          "name": "(bar)",
+          "maxW": "1200px",
+          "w": "1fr"
+        }
+      ]
+    }
+  ]
+}

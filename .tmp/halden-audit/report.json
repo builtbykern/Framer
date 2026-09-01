@@ -1,0 +1,1063 @@
+{
+  "project": {
+    "id": "0883d50aeffae017a98fad0cbdef5d07c9e98864ad3524d2a64a424576d21c73",
+    "name": "Halden"
+  },
+  "generatedAt": "2026-08-23T16:05:20.655Z",
+  "rootMeta": {
+    "metadata": {
+      "title": "Halden",
+      "description": "Stills published as series. Rooms, roads, and people after the sitting.",
+      "socialImage": "https://framerusercontent.com/images/6b4CKZmkrGd2fkUib1dlDlZDM.jpg",
+      "favicon": "https://framerusercontent.com/images/Cdwk2p0keRGNANigYeEXZPswRSI.png",
+      "faviconDark": "https://framerusercontent.com/images/xNafp00IVrkCF4TVqEHVIKl75RA.png",
+      "appleTouchIcon": "https://framerusercontent.com/images/yrKgf55p8Ej3cMU0mPN2EddOZhQ.png"
+    }
+  },
+  "pages": [
+    {
+      "path": "/",
+      "id": "augiA20Il",
+      "type": "WebPageNode",
+      "title": "Halden",
+      "description": "Stills published as series. Rooms, roads, and people after the sitting.",
+      "keys": [
+        "metadata",
+        "path"
+      ],
+      "breakpoints": [
+        {
+          "id": "WQLkyLRf1",
+          "type": "FrameNode",
+          "width": "1440px",
+          "height": "auto",
+          "fill": "var(--token-38f71e00-788a-47bd-a813-10d6b48f262b)",
+          "overflow": "clip"
+        },
+        {
+          "id": "BjqrvIntT",
+          "type": "FrameNode",
+          "width": "768px",
+          "height": "auto",
+          "fill": "var(--token-38f71e00-788a-47bd-a813-10d6b48f262b)",
+          "overflow": "clip"
+        },
+        {
+          "id": "nyI5jW7lA",
+          "type": "FrameNode",
+          "width": "390px",
+          "height": "auto",
+          "fill": "var(--token-38f71e00-788a-47bd-a813-10d6b48f262b)",
+          "overflow": "clip"
+        },
+        {
+          "id": "TRSPZ1XN3",
+          "type": "RichTextNode",
+          "width": "1px",
+          "height": "1px",
+          "overflow": "hidden"
+        },
+        {
+          "id": "xmBenkfAk",
+          "type": "FrameNode",
+          "width": "390px",
+          "height": "auto",
+          "overflow": "clip"
+        }
+      ],
+      "attrsSample": {}
+    },
+    {
+      "path": "/404",
+      "id": "nizhx6wAX",
+      "type": "WebPageNode",
+      "title": "404 — Halden",
+      "description": "This still is not in the series. The plane on the home is the archive.",
+      "keys": [
+        "metadata",
+        "path"
+      ],
+      "breakpoints": [
+        {
+          "id": "nACIEuvcP",
+          "type": "FrameNode",
+          "width": "1440px",
+          "height": "auto",
+          "fill": "var(--token-38f71e00-788a-47bd-a813-10d6b48f262b)",
+          "overflow": "clip"
+        },
+        {
+          "id": "BV5dxVKN3",
+          "type": "FrameNode",
+          "width": "768px",
+          "height": "auto",
+          "fill": "var(--token-38f71e00-788a-47bd-a813-10d6b48f262b)",
+          "overflow": "clip"
+        },
+        {
+          "id": "h0q8NyaAQ",
+          "type": "FrameNode",
+          "width": "390px",
+          "height": "auto",
+          "fill": "var(--token-38f71e00-788a-47bd-a813-10d6b48f262b)",
+          "overflow": "clip"
+        }
+      ],
+      "attrsSample": {}
+    },
+    {
+      "path": "/work/:Work",
+      "id": "fpoP3kuA4",
+      "type": "WebPageNode",
+      "title": "{{Title}} — Halden",
+      "description": "{{Description}}",
+      "keys": [
+        "metadata",
+        "path"
+      ],
+      "breakpoints": [
+        {
+          "id": "rtJNTCNFr",
+          "type": "FrameNode",
+          "width": "1440px",
+          "height": "auto",
+          "fill": "var(--token-38f71e00-788a-47bd-a813-10d6b48f262b)",
+          "overflow": "clip"
+        },
+        {
+          "id": "LSqc1L2WH",
+          "type": "FrameNode",
+          "width": "768px",
+          "height": "auto",
+          "fill": "var(--token-38f71e00-788a-47bd-a813-10d6b48f262b)",
+          "overflow": "clip"
+        },
+        {
+          "id": "Tf2mbU7Bv",
+          "type": "FrameNode",
+          "width": "390px",
+          "height": "auto",
+          "fill": "var(--token-38f71e00-788a-47bd-a813-10d6b48f262b)",
+          "overflow": "clip"
+        }
+      ],
+      "attrsSample": {}
+    }
+  ],
+  "cms": [
+    {
+      "id": "amTC8pcIG",
+      "name": "Work",
+      "itemCount": 12,
+      "fields": [],
+      "items": [
+        {
+          "id": "pBtSPvfFv",
+          "slug": "salt-light",
+          "empty": [],
+          "keys": [
+            "lmTMqy_0B",
+            "KF94WDLfr",
+            "KKPJSa2Nk",
+            "dGKnlxrN9",
+            "GbFmUxRBk",
+            "w2PMSBOp6",
+            "bXpogfhdf",
+            "UOqAA6IiT",
+            "m5_QJQ2QW",
+            "blc_46opK",
+            "U9cnCLe41",
+            "cAgOu3Xwj",
+            "LrPrf7_RQ",
+            "WTTAaEd5y",
+            "ZMWV4jFbG",
+            "GgZlSrsxB",
+            "DtZHJ8qW_",
+            "uy9UcIWd9"
+          ]
+        },
+        {
+          "id": "AkaFk7c0w",
+          "slug": "the-waiting-room",
+          "empty": [],
+          "keys": [
+            "lmTMqy_0B",
+            "KF94WDLfr",
+            "KKPJSa2Nk",
+            "dGKnlxrN9",
+            "GbFmUxRBk",
+            "w2PMSBOp6",
+            "bXpogfhdf",
+            "UOqAA6IiT",
+            "m5_QJQ2QW",
+            "blc_46opK",
+            "U9cnCLe41",
+            "cAgOu3Xwj",
+            "LrPrf7_RQ",
+            "WTTAaEd5y",
+            "ZMWV4jFbG",
+            "GgZlSrsxB",
+            "DtZHJ8qW_",
+            "uy9UcIWd9"
+          ]
+        },
+        {
+          "id": "AJal7GYZv",
+          "slug": "glass-hours",
+          "empty": [],
+          "keys": [
+            "lmTMqy_0B",
+            "KF94WDLfr",
+            "KKPJSa2Nk",
+            "dGKnlxrN9",
+            "GbFmUxRBk",
+            "w2PMSBOp6",
+            "bXpogfhdf",
+            "UOqAA6IiT",
+            "m5_QJQ2QW",
+            "blc_46opK",
+            "U9cnCLe41",
+            "cAgOu3Xwj",
+            "LrPrf7_RQ",
+            "WTTAaEd5y",
+            "ZMWV4jFbG",
+            "GgZlSrsxB",
+            "DtZHJ8qW_",
+            "uy9UcIWd9"
+          ]
+        },
+        {
+          "id": "XIoyWdZZj",
+          "slug": "inland-signal",
+          "empty": [],
+          "keys": [
+            "lmTMqy_0B",
+            "KF94WDLfr",
+            "KKPJSa2Nk",
+            "dGKnlxrN9",
+            "GbFmUxRBk",
+            "w2PMSBOp6",
+            "bXpogfhdf",
+            "UOqAA6IiT",
+            "m5_QJQ2QW",
+            "blc_46opK",
+            "U9cnCLe41",
+            "cAgOu3Xwj",
+            "LrPrf7_RQ",
+            "WTTAaEd5y",
+            "ZMWV4jFbG",
+            "GgZlSrsxB",
+            "DtZHJ8qW_",
+            "uy9UcIWd9"
+          ]
+        },
+        {
+          "id": "Do0dxDUvA",
+          "slug": "after-the-sitting",
+          "empty": [],
+          "keys": [
+            "lmTMqy_0B",
+            "KF94WDLfr",
+            "KKPJSa2Nk",
+            "dGKnlxrN9",
+            "GbFmUxRBk",
+            "w2PMSBOp6",
+            "bXpogfhdf",
+            "UOqAA6IiT",
+            "m5_QJQ2QW",
+            "blc_46opK",
+            "U9cnCLe41",
+            "cAgOu3Xwj",
+            "LrPrf7_RQ",
+            "WTTAaEd5y",
+            "ZMWV4jFbG",
+            "GgZlSrsxB",
+            "DtZHJ8qW_",
+            "uy9UcIWd9"
+          ]
+        },
+        {
+          "id": "nYe1jKox0",
+          "slug": "unmade-light",
+          "empty": [],
+          "keys": [
+            "lmTMqy_0B",
+            "KF94WDLfr",
+            "KKPJSa2Nk",
+            "dGKnlxrN9",
+            "GbFmUxRBk",
+            "w2PMSBOp6",
+            "bXpogfhdf",
+            "UOqAA6IiT",
+            "m5_QJQ2QW",
+            "blc_46opK",
+            "U9cnCLe41",
+            "cAgOu3Xwj",
+            "LrPrf7_RQ",
+            "WTTAaEd5y",
+            "ZMWV4jFbG",
+            "GgZlSrsxB",
+            "DtZHJ8qW_",
+            "uy9UcIWd9"
+          ]
+        },
+        {
+          "id": "ITz7HuAe2",
+          "slug": "night-atlas",
+          "empty": [],
+          "keys": [
+            "lmTMqy_0B",
+            "KF94WDLfr",
+            "KKPJSa2Nk",
+            "dGKnlxrN9",
+            "GbFmUxRBk",
+            "w2PMSBOp6",
+            "bXpogfhdf",
+            "UOqAA6IiT",
+            "m5_QJQ2QW",
+            "blc_46opK",
+            "U9cnCLe41",
+            "cAgOu3Xwj",
+            "LrPrf7_RQ",
+            "WTTAaEd5y",
+            "ZMWV4jFbG",
+            "GgZlSrsxB",
+            "DtZHJ8qW_",
+            "uy9UcIWd9"
+          ]
+        },
+        {
+          "id": "hqpUFUbny",
+          "slug": "late-pool",
+          "empty": [],
+          "keys": [
+            "lmTMqy_0B",
+            "KF94WDLfr",
+            "KKPJSa2Nk",
+            "dGKnlxrN9",
+            "GbFmUxRBk",
+            "w2PMSBOp6",
+            "bXpogfhdf",
+            "UOqAA6IiT",
+            "m5_QJQ2QW",
+            "blc_46opK",
+            "U9cnCLe41",
+            "cAgOu3Xwj",
+            "LrPrf7_RQ",
+            "WTTAaEd5y",
+            "ZMWV4jFbG",
+            "GgZlSrsxB",
+            "DtZHJ8qW_",
+            "uy9UcIWd9"
+          ]
+        },
+        {
+          "id": "B1Lky4OTz",
+          "slug": "service-stairs",
+          "empty": [],
+          "keys": [
+            "lmTMqy_0B",
+            "KF94WDLfr",
+            "KKPJSa2Nk",
+            "dGKnlxrN9",
+            "GbFmUxRBk",
+            "w2PMSBOp6",
+            "bXpogfhdf",
+            "UOqAA6IiT",
+            "m5_QJQ2QW",
+            "blc_46opK",
+            "U9cnCLe41",
+            "cAgOu3Xwj",
+            "LrPrf7_RQ",
+            "WTTAaEd5y",
+            "ZMWV4jFbG",
+            "GgZlSrsxB",
+            "DtZHJ8qW_",
+            "uy9UcIWd9"
+          ]
+        },
+        {
+          "id": "NbPZBN8qz",
+          "slug": "the-fitting",
+          "empty": [],
+          "keys": [
+            "lmTMqy_0B",
+            "KF94WDLfr",
+            "KKPJSa2Nk",
+            "dGKnlxrN9",
+            "GbFmUxRBk",
+            "w2PMSBOp6",
+            "bXpogfhdf",
+            "UOqAA6IiT",
+            "m5_QJQ2QW",
+            "blc_46opK",
+            "U9cnCLe41",
+            "cAgOu3Xwj",
+            "LrPrf7_RQ",
+            "WTTAaEd5y",
+            "ZMWV4jFbG",
+            "GgZlSrsxB",
+            "DtZHJ8qW_",
+            "uy9UcIWd9"
+          ]
+        },
+        {
+          "id": "eEei6E4Hp",
+          "slug": "ferry-hour",
+          "empty": [],
+          "keys": [
+            "lmTMqy_0B",
+            "KF94WDLfr",
+            "KKPJSa2Nk",
+            "dGKnlxrN9",
+            "GbFmUxRBk",
+            "w2PMSBOp6",
+            "bXpogfhdf",
+            "UOqAA6IiT",
+            "m5_QJQ2QW",
+            "blc_46opK",
+            "U9cnCLe41",
+            "cAgOu3Xwj",
+            "LrPrf7_RQ",
+            "WTTAaEd5y",
+            "ZMWV4jFbG",
+            "GgZlSrsxB",
+            "DtZHJ8qW_",
+            "uy9UcIWd9"
+          ]
+        },
+        {
+          "id": "jPVVlGnNq",
+          "slug": "show-floor",
+          "empty": [],
+          "keys": [
+            "lmTMqy_0B",
+            "KF94WDLfr",
+            "KKPJSa2Nk",
+            "dGKnlxrN9",
+            "GbFmUxRBk",
+            "w2PMSBOp6",
+            "bXpogfhdf",
+            "UOqAA6IiT",
+            "m5_QJQ2QW",
+            "blc_46opK",
+            "U9cnCLe41",
+            "cAgOu3Xwj",
+            "LrPrf7_RQ",
+            "WTTAaEd5y",
+            "ZMWV4jFbG",
+            "GgZlSrsxB",
+            "DtZHJ8qW_",
+            "uy9UcIWd9"
+          ]
+        }
+      ]
+    }
+  ],
+  "colors": [
+    {
+      "id": "e99117c3-738b-494d-9693-f4469fd29b99",
+      "name": "home-bg",
+      "light": "rgb(5, 5, 5)"
+    },
+    {
+      "id": "38f71e00-788a-47bd-a813-10d6b48f262b",
+      "name": "paper",
+      "light": "rgb(247, 241, 232)"
+    },
+    {
+      "id": "24aaa6c6-0b98-4eac-b695-5f20471f6b92",
+      "name": "ink",
+      "light": "rgb(17, 17, 17)"
+    },
+    {
+      "id": "8028b435-146d-4074-967e-823e6635036f",
+      "name": "muted",
+      "light": "rgb(107, 107, 107)"
+    },
+    {
+      "id": "282fdcc4-6cdb-45c0-b253-cdfc6872052b",
+      "name": "line",
+      "light": "rgb(217, 212, 204)"
+    }
+  ],
+  "texts": [
+    {
+      "id": "q2kItQX4I",
+      "name": "Display",
+      "font": {
+        "selector": "FS;Syne-semibold",
+        "family": "Syne",
+        "weight": 600,
+        "style": "normal",
+        "url": "https://framerusercontent.com/third-party-assets/fontshare/wf/RAFAI37HQBAFL3S5FCFTUAVYW7S23DQT/JYJETRYLJRYC5FNMUIKMBP4VJQ22I7EX/T4RQQ24JKJIZNFP2FQZKFFD465WHEMMF.woff2"
+      },
+      "fontSize": "68px"
+    },
+    {
+      "id": "M5UfqsH9H",
+      "name": "Body",
+      "font": {
+        "selector": "FS;Syne-regular",
+        "family": "Syne",
+        "weight": 400,
+        "style": "normal",
+        "url": "https://framerusercontent.com/third-party-assets/fontshare/wf/EZ4M4FFL5RRTAZDND2TE76JUCMKHIGPC/3L356EOUEZGHXGK2GQZKXGWQKN4HCBG7/7OLADYLLTMNRJJ4ADOA4XUYD3EMUJP4S.woff2"
+      },
+      "fontSize": "15px"
+    },
+    {
+      "id": "I9B65psWv",
+      "name": "Label",
+      "font": {
+        "selector": "GF;IBM Plex Mono-regular",
+        "family": "IBM Plex Mono",
+        "weight": 400,
+        "style": "normal",
+        "url": "https://fonts.gstatic.com/s/ibmplexmono/v20/-F63fjptAgt5VM-kVkqdyU8n5i0g1l9kn-s.woff2"
+      },
+      "fontSize": "11px"
+    },
+    {
+      "id": "z7ihjGW9k",
+      "name": "Lead",
+      "font": {
+        "selector": "FS;Syne-medium",
+        "family": "Syne",
+        "weight": 500,
+        "style": "normal",
+        "url": "https://framerusercontent.com/third-party-assets/fontshare/wf/6RX5HIHKXSNRRZM4TG3ZDRLY4QYRWVVV/LDU4YZVURVJ7AUY5LTGS5UVZP5WMQGD2/HUZK5ZCPMLHN2C4WDX2FZVOULKRASN7B.woff2"
+      },
+      "fontSize": "27px"
+    },
+    {
+      "id": "ME4TV_Cm1",
+      "name": "Title",
+      "font": {
+        "selector": "GF;IBM Plex Sans-600",
+        "family": "IBM Plex Sans",
+        "weight": 600,
+        "style": "normal",
+        "url": "https://fonts.gstatic.com/s/ibmplexsans/v23/zYXGKVElMYYaJe8bpLHnCwDKr932-G7dytD-Dmu1swZSAXcomDVmadSDNF5zBaI5loa26g.woff2"
+      },
+      "fontSize": "40px"
+    }
+  ],
+  "code": [
+    {
+      "name": "Drift_Plane.tsx",
+      "id": "Og5966a",
+      "bytes": 56519,
+      "hasRaf": true,
+      "hasFixedRoot": false,
+      "hasStatic": true,
+      "hasWindowGuard": true,
+      "grain": false,
+      "exports": [
+        {
+          "name": "Drift Plane",
+          "componentId": "codeFile/Og5966a:default",
+          "type": "component"
+        }
+      ]
+    },
+    {
+      "name": "Page_Veil.tsx",
+      "id": "D6GDbcv",
+      "bytes": 15797,
+      "hasRaf": true,
+      "hasFixedRoot": true,
+      "hasStatic": true,
+      "hasWindowGuard": true,
+      "grain": false,
+      "exports": [
+        {
+          "name": "Page Veil",
+          "componentId": "codeFile/D6GDbcv:default",
+          "type": "component"
+        }
+      ]
+    },
+    {
+      "name": "Logo_Menu_Roll.tsx",
+      "id": "sQer058",
+      "bytes": 18583,
+      "hasRaf": false,
+      "hasFixedRoot": true,
+      "hasStatic": true,
+      "hasWindowGuard": true,
+      "grain": false,
+      "exports": [
+        {
+          "name": "Logo Menu Roll",
+          "componentId": "codeFile/sQer058:default",
+          "type": "component"
+        }
+      ]
+    },
+    {
+      "name": "Series_Stills.tsx",
+      "id": "jeA2cvO",
+      "bytes": 21182,
+      "hasRaf": false,
+      "hasFixedRoot": false,
+      "hasStatic": true,
+      "hasWindowGuard": true,
+      "grain": false,
+      "exports": [
+        {
+          "name": "Series Stills",
+          "componentId": "codeFile/jeA2cvO:default",
+          "type": "component"
+        }
+      ]
+    },
+    {
+      "name": "Menu_Paper_Reveal.tsx",
+      "id": "Da2L6vN",
+      "bytes": 15523,
+      "hasRaf": true,
+      "hasFixedRoot": true,
+      "hasStatic": true,
+      "hasWindowGuard": true,
+      "grain": true,
+      "exports": [
+        {
+          "name": "Menu Paper Reveal",
+          "componentId": "codeFile/Da2L6vN:default",
+          "type": "component"
+        }
+      ]
+    },
+    {
+      "name": "Still_Veil.tsx",
+      "id": "JqYCzpa",
+      "bytes": 12244,
+      "hasRaf": true,
+      "hasFixedRoot": false,
+      "hasStatic": true,
+      "hasWindowGuard": true,
+      "grain": false,
+      "exports": [
+        {
+          "name": "Still Veil",
+          "componentId": "codeFile/JqYCzpa:default",
+          "type": "component"
+        }
+      ]
+    },
+    {
+      "name": "Paper_Grain.tsx",
+      "id": "Qdi6E01",
+      "bytes": 1897,
+      "hasRaf": false,
+      "hasFixedRoot": false,
+      "hasStatic": false,
+      "hasWindowGuard": false,
+      "grain": true,
+      "exports": [
+        {
+          "name": "Paper Grain",
+          "componentId": "codeFile/Qdi6E01:default",
+          "type": "component"
+        }
+      ]
+    }
+  ],
+  "unnamedCount": 85,
+  "unnamedSample": [
+    {
+      "page": "/",
+      "id": "WQLkyLRf1",
+      "name": "(empty)",
+      "type": "FrameNode"
+    },
+    {
+      "page": "/",
+      "id": "bEk1u9XFC",
+      "name": "(empty)",
+      "type": "FrameNode"
+    },
+    {
+      "page": "/",
+      "id": "URKicPmXy",
+      "name": "(empty)",
+      "type": "FrameNode"
+    },
+    {
+      "page": "/",
+      "id": "BjqrvIntT",
+      "name": "(empty)",
+      "type": "FrameNode"
+    },
+    {
+      "page": "/",
+      "id": "BjqrvIntTbEk1u9XFC",
+      "name": "(empty)",
+      "type": "FrameNode"
+    },
+    {
+      "page": "/",
+      "id": "BjqrvIntTURKicPmXy",
+      "name": "(empty)",
+      "type": "FrameNode"
+    },
+    {
+      "page": "/",
+      "id": "nyI5jW7lA",
+      "name": "(empty)",
+      "type": "FrameNode"
+    },
+    {
+      "page": "/",
+      "id": "nyI5jW7lAbEk1u9XFC",
+      "name": "(empty)",
+      "type": "FrameNode"
+    },
+    {
+      "page": "/",
+      "id": "nyI5jW7lAURKicPmXy",
+      "name": "(empty)",
+      "type": "FrameNode"
+    },
+    {
+      "page": "/",
+      "id": "xmBenkfAk",
+      "name": "(empty)",
+      "type": "FrameNode"
+    },
+    {
+      "page": "/",
+      "id": "X_yokItiU",
+      "name": "(empty)",
+      "type": "FrameNode"
+    },
+    {
+      "page": "/",
+      "id": "dvcc6fymP",
+      "name": "(empty)",
+      "type": "FrameNode"
+    },
+    {
+      "page": "/",
+      "id": "n6_tda6VY",
+      "name": "(empty)",
+      "type": "FrameNode"
+    },
+    {
+      "page": "/404",
+      "id": "nACIEuvcP",
+      "name": "(empty)",
+      "type": "FrameNode"
+    },
+    {
+      "page": "/404",
+      "id": "M8y3zENAg",
+      "name": "(empty)",
+      "type": "FrameNode"
+    },
+    {
+      "page": "/404",
+      "id": "NJbw76nsm",
+      "name": "(empty)",
+      "type": "FrameNode"
+    },
+    {
+      "page": "/404",
+      "id": "BV5dxVKN3",
+      "name": "(empty)",
+      "type": "FrameNode"
+    },
+    {
+      "page": "/404",
+      "id": "BV5dxVKN3M8y3zENAg",
+      "name": "(empty)",
+      "type": "FrameNode"
+    },
+    {
+      "page": "/404",
+      "id": "BV5dxVKN3NJbw76nsm",
+      "name": "(empty)",
+      "type": "FrameNode"
+    },
+    {
+      "page": "/404",
+      "id": "h0q8NyaAQ",
+      "name": "(empty)",
+      "type": "FrameNode"
+    },
+    {
+      "page": "/404",
+      "id": "h0q8NyaAQM8y3zENAg",
+      "name": "(empty)",
+      "type": "FrameNode"
+    },
+    {
+      "page": "/404",
+      "id": "h0q8NyaAQNJbw76nsm",
+      "name": "(empty)",
+      "type": "FrameNode"
+    },
+    {
+      "page": "/work/:Work",
+      "id": "rtJNTCNFr",
+      "name": "(empty)",
+      "type": "FrameNode"
+    },
+    {
+      "page": "/work/:Work",
+      "id": "i_pl00Sun",
+      "name": "(empty)",
+      "type": "FrameNode"
+    },
+    {
+      "page": "/work/:Work",
+      "id": "rT9WGdFVR",
+      "name": "(empty)",
+      "type": "FrameNode"
+    },
+    {
+      "page": "/work/:Work",
+      "id": "DPXJnwuEB",
+      "name": "(empty)",
+      "type": "FrameNode"
+    },
+    {
+      "page": "/work/:Work",
+      "id": "BR9jz5ViZ",
+      "name": "(empty)",
+      "type": "FrameNode"
+    },
+    {
+      "page": "/work/:Work",
+      "id": "XSeOzvyqJ",
+      "name": "(empty)",
+      "type": "FrameNode"
+    },
+    {
+      "page": "/work/:Work",
+      "id": "An7GDN1Vn",
+      "name": "(empty)",
+      "type": "FrameNode"
+    },
+    {
+      "page": "/work/:Work",
+      "id": "HSJIzHYZd",
+      "name": "(empty)",
+      "type": "FrameNode"
+    },
+    {
+      "page": "/work/:Work",
+      "id": "dnDAXrEqq",
+      "name": "(empty)",
+      "type": "FrameNode"
+    },
+    {
+      "page": "/work/:Work",
+      "id": "vsQhdBRSa",
+      "name": "(empty)",
+      "type": "FrameNode"
+    },
+    {
+      "page": "/work/:Work",
+      "id": "ysMOpvpsd",
+      "name": "(empty)",
+      "type": "FrameNode"
+    },
+    {
+      "page": "/work/:Work",
+      "id": "MTe4u1qos",
+      "name": "(empty)",
+      "type": "FrameNode"
+    },
+    {
+      "page": "/work/:Work",
+      "id": "r2ewUZQeT",
+      "name": "(empty)",
+      "type": "FrameNode"
+    },
+    {
+      "page": "/work/:Work",
+      "id": "Pa1YgjT4E",
+      "name": "(empty)",
+      "type": "FrameNode"
+    },
+    {
+      "page": "/work/:Work",
+      "id": "r7a29NJU9",
+      "name": "(empty)",
+      "type": "FrameNode"
+    },
+    {
+      "page": "/work/:Work",
+      "id": "yn0nMGJJL",
+      "name": "(empty)",
+      "type": "FrameNode"
+    },
+    {
+      "page": "/work/:Work",
+      "id": "lgPBjlVA8",
+      "name": "(empty)",
+      "type": "FrameNode"
+    },
+    {
+      "page": "/work/:Work",
+      "id": "MI_ZHE7kH",
+      "name": "(empty)",
+      "type": "FrameNode"
+    }
+  ],
+  "lorem": [],
+  "links": [],
+  "navLinks": [],
+  "overflows": [],
+  "grainNodes": [],
+  "paperFillCount": 21,
+  "paperFillsSample": [
+    {
+      "page": "/",
+      "id": "WQLkyLRf1",
+      "name": "",
+      "type": "FrameNode"
+    },
+    {
+      "page": "/",
+      "id": "URKicPmXy",
+      "name": "",
+      "type": "FrameNode"
+    },
+    {
+      "page": "/",
+      "id": "BjqrvIntT",
+      "name": "",
+      "type": "FrameNode"
+    },
+    {
+      "page": "/",
+      "id": "BjqrvIntTURKicPmXy",
+      "name": "",
+      "type": "FrameNode"
+    },
+    {
+      "page": "/",
+      "id": "nyI5jW7lA",
+      "name": "",
+      "type": "FrameNode"
+    },
+    {
+      "page": "/",
+      "id": "nyI5jW7lAURKicPmXy",
+      "name": "",
+      "type": "FrameNode"
+    },
+    {
+      "page": "/404",
+      "id": "nACIEuvcP",
+      "name": "",
+      "type": "FrameNode"
+    },
+    {
+      "page": "/404",
+      "id": "M8y3zENAg",
+      "name": "",
+      "type": "FrameNode"
+    },
+    {
+      "page": "/404",
+      "id": "BV5dxVKN3",
+      "name": "",
+      "type": "FrameNode"
+    },
+    {
+      "page": "/404",
+      "id": "BV5dxVKN3M8y3zENAg",
+      "name": "",
+      "type": "FrameNode"
+    },
+    {
+      "page": "/404",
+      "id": "h0q8NyaAQ",
+      "name": "",
+      "type": "FrameNode"
+    },
+    {
+      "page": "/404",
+      "id": "h0q8NyaAQM8y3zENAg",
+      "name": "",
+      "type": "FrameNode"
+    },
+    {
+      "page": "/work/:Work",
+      "id": "rtJNTCNFr",
+      "name": "",
+      "type": "FrameNode"
+    },
+    {
+      "page": "/work/:Work",
+      "id": "i_pl00Sun",
+      "name": "",
+      "type": "FrameNode"
+    },
+    {
+      "page": "/work/:Work",
+      "id": "rT9WGdFVR",
+      "name": "",
+      "type": "FrameNode"
+    },
+    {
+      "page": "/work/:Work",
+      "id": "LSqc1L2WH",
+      "name": "",
+      "type": "FrameNode"
+    },
+    {
+      "page": "/work/:Work",
+      "id": "LSqc1L2WHi_pl00Sun",
+      "name": "",
+      "type": "FrameNode"
+    },
+    {
+      "page": "/work/:Work",
+      "id": "LSqc1L2WHrT9WGdFVR",
+      "name": "",
+      "type": "FrameNode"
+    },
+    {
+      "page": "/work/:Work",
+      "id": "Tf2mbU7Bv",
+      "name": "",
+      "type": "FrameNode"
+    },
+    {
+      "page": "/work/:Work",
+      "id": "Tf2mbU7Bvi_pl00Sun",
+      "name": "",
+      "type": "FrameNode"
+    },
+    {
+      "page": "/work/:Work",
+      "id": "Tf2mbU7BvrT9WGdFVR",
+      "name": "",
+      "type": "FrameNode"
+    }
+  ],
+  "ghostFrames": [],
+  "paperToken": {
+    "light": "rgb(247, 241, 232)"
+  },
+  "publish": {
+    "production": {
+      "deploymentTime": 1787500971949,
+      "optimizationStatus": "optimized",
+      "url": "https://halden.framer.website",
+      "currentPageUrl": "https://halden.framer.website/"
+    },
+    "staging": {
+      "deploymentTime": 1787500971949,
+      "optimizationStatus": "optimized",
+      "url": "https://higher-beet-425294.framer.app",
+      "currentPageUrl": "https://higher-beet-425294.framer.app/"
+    }
+  },
+  "fontsFromContext": true
+}

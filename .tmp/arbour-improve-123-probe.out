@@ -1,0 +1,175 @@
+{
+  "redirects": {
+    "before": [],
+    "added": null,
+    "error": "Current plan does not include Redirects",
+    "after": []
+  },
+  "nh": {
+    "existing": [
+      {
+        "id": "dZfxmFpqB",
+        "path": "/neighbourhoods",
+        "collectionId": null
+      }
+    ],
+    "collections": [
+      {
+        "id": "U0QLvHg7O",
+        "name": "Neighbourhoods"
+      },
+      {
+        "id": "CGTgzrUNU",
+        "name": "Agents"
+      },
+      {
+        "id": "VPfyI5Rxz",
+        "name": "Properties"
+      },
+      {
+        "id": "HozLKZ9WV",
+        "name": "Journal"
+      }
+    ],
+    "apis": {
+      "createWebPage": "function",
+      "createPage": "undefined",
+      "setAttributes": "function",
+      "agentCreate": "undefined"
+    }
+  },
+  "footer": {
+    "candidates": [
+      {
+        "id": "pXUahiblU",
+        "name": "Arbour/Footer",
+        "type": "ComponentNode",
+        "href": null,
+        "text": null,
+        "trail": []
+      },
+      {
+        "id": "ybimMi00F",
+        "name": "Arbour Introduction",
+        "type": "FrameNode",
+        "href": null,
+        "text": null,
+        "trail": [
+          "Arbour/Footer",
+          "Desktop",
+          "Footer Editorial Grid"
+        ]
+      },
+      {
+        "id": "v:fAzfyleWg:0:0",
+        "name": "",
+        "type": "TextRun",
+        "href": null,
+        "text": "ARBOUR",
+        "trail": [
+          "Desktop",
+          "Footer Editorial Grid",
+          "Arbour Introduction",
+          "fAzfyleWg",
+          "v:fAzfyleWg:0"
+        ]
+      },
+      {
+        "id": "v:B4GLgEaCM:0:0",
+        "name": "",
+        "type": "TextRun",
+        "href": null,
+        "text": "© Arbour Estates Ltd. Registered in Engl",
+        "trail": [
+          "Desktop",
+          "Footer Editorial Grid",
+          "Legal Details",
+          "B4GLgEaCM",
+          "v:B4GLgEaCM:0"
+        ]
+      },
+      {
+        "id": "AWGNXf96_ybimMi00F",
+        "name": "Arbour Introduction",
+        "type": "FrameNode",
+        "href": null,
+        "text": null,
+        "trail": [
+          "Arbour/Footer",
+          "Tablet",
+          "Footer Editorial Grid"
+        ]
+      },
+      {
+        "id": "v:AWGNXf96_fAzfyleWg:0:0",
+        "name": "",
+        "type": "TextRun",
+        "href": null,
+        "text": "ARBOUR",
+        "trail": [
+          "Tablet",
+          "Footer Editorial Grid",
+          "Arbour Introduction",
+          "AWGNXf96_fAzfyleWg",
+          "v:AWGNXf96_fAzfyleWg:0"
+        ]
+      },
+      {
+        "id": "v:AWGNXf96_B4GLgEaCM:0:0",
+        "name": "",
+        "type": "TextRun",
+        "href": null,
+        "text": "© Arbour Estates Ltd. Registered in Engl",
+        "trail": [
+          "Tablet",
+          "Footer Editorial Grid",
+          "Legal Details",
+          "AWGNXf96_B4GLgEaCM",
+          "v:AWGNXf96_B4GLgEaCM:0"
+        ]
+      },
+      {
+        "id": "IitvyCHtzybimMi00F",
+        "name": "Arbour Introduction",
+        "type": "FrameNode",
+        "href": null,
+        "text": null,
+        "trail": [
+          "Arbour/Footer",
+          "Phone",
+          "Footer Editorial Grid"
+        ]
+      },
+      {
+        "id": "v:IitvyCHtzfAzfyleWg:0:0",
+        "name": "",
+        "type": "TextRun",
+        "href": null,
+        "text": "ARBOUR",
+        "trail": [
+          "Phone",
+          "Footer Editorial Grid",
+          "Arbour Introduction",
+          "IitvyCHtzfAzfyleWg",
+          "v:IitvyCHtzfAzfyleWg:0"
+        ]
+      },
+      {
+        "id": "v:IitvyCHtzB4GLgEaCM:0:0",
+        "name": "",
+        "type": "TextRun",
+        "href": null,
+        "text": "© Arbour Estates Ltd. Registered in Engl",
+        "trail": [
+          "Phone",
+          "Footer Editorial Grid",
+          "Legal Details",
+          "IitvyCHtzB4GLgEaCM",
+          "v:IitvyCHtzB4GLgEaCM:0"
+        ]
+      }
+    ],
+    "rootName": "Arbour/Footer",
+    "rootType": "ComponentNode"
+  }
+}

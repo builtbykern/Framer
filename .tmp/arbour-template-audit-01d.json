@@ -1,0 +1,421 @@
+{
+  "at": "2026-08-01T12:33:19.556Z",
+  "project": {
+    "production": "https://arbour.framer.website",
+    "staging": "https://minimum-directions-600719.framer.app",
+    "optimization": {
+      "production": "optimized",
+      "staging": "optimized"
+    },
+    "deploymentTime": {
+      "production": 1785587528801,
+      "staging": 1785587528801
+    }
+  },
+  "publish": {
+    "changesCount": 0,
+    "changes": [],
+    "errors": [],
+    "status": "ready"
+  },
+  "review": null,
+  "externalsSnippet": "Current Project External Components\n[]\n",
+  "sitemap": [
+    {
+      "id": "augiA20Il",
+      "path": "/",
+      "name": "Home",
+      "collectionId": null,
+      "draft": false,
+      "title": "Arbour — Independent Estate Agency London",
+      "description": "Curated residences across London and the country. Discreet acquisition, disposal",
+      "bp": 3
+    },
+    {
+      "id": "uBAGmujMa",
+      "path": "/properties",
+      "name": "/properties",
+      "collectionId": null,
+      "draft": false,
+      "title": "Properties | Arbour",
+      "description": "Six homes of merit — curated residences for sale across London and the country.",
+      "bp": 3
+    },
+    {
+      "id": "dZfxmFpqB",
+      "path": "/neighbourhoods",
+      "name": "/neighbourhoods",
+      "collectionId": null,
+      "draft": false,
+      "title": "Neighbourhoods | Arbour",
+      "description": "Places we know by heart — Chelsea, Notting Hill, Hampstead, and beyond.",
+      "bp": 3
+    },
+    {
+      "id": "s8RpZIiJ8",
+      "path": "/notes",
+      "name": "/notes",
+      "collectionId": null,
+      "draft": false,
+      "title": "Notes | Arbour",
+      "description": "Field notes on place, craft, and acquisition — from the Arbour journal.",
+      "bp": 3
+    },
+    {
+      "id": "OdFhPn9yz",
+      "path": "/about",
+      "name": "/about",
+      "collectionId": null,
+      "draft": false,
+      "title": "About | Arbour",
+      "description": "Built on judgement, not volume. Independent estate agency since 1999.",
+      "bp": 3
+    },
+    {
+      "id": "c7qpzB7hR",
+      "path": "/contact",
+      "name": "/contact",
+      "collectionId": null,
+      "draft": false,
+      "title": "Contact | Arbour",
+      "description": "Begin a conversation — private consultations for buyers and sellers. By appointm",
+      "bp": 3
+    },
+    {
+      "id": "OhRUQROL4",
+      "path": "/properties/:slug",
+      "name": "/properties/:Properties",
+      "collectionId": "VPfyI5Rxz",
+      "draft": false,
+      "title": "{{SEO Title}}",
+      "description": "{{SEO Description}}",
+      "bp": 3
+    },
+    {
+      "id": "YPPO8pJ92",
+      "path": "/notes/:slug",
+      "name": "/notes/:Journal",
+      "collectionId": "HozLKZ9WV",
+      "draft": false,
+      "title": "{{SEO Title}}",
+      "description": "{{SEO Description}}",
+      "bp": 3
+    },
+    {
+      "id": "ojmcAsLyM",
+      "path": "/404",
+      "name": "/404",
+      "collectionId": null,
+      "draft": false,
+      "title": "Page not found | Arbour",
+      "description": "This page is out of frame. Return to Arbour.",
+      "bp": 3
+    }
+  ],
+  "cms": {
+    "Neighbourhoods": {
+      "id": "U0QLvHg7O",
+      "itemCount": 4,
+      "requiredCount": 4,
+      "requiredGaps": []
+    },
+    "Agents": {
+      "id": "CGTgzrUNU",
+      "itemCount": 4,
+      "requiredCount": 5,
+      "requiredGaps": []
+    },
+    "Properties": {
+      "id": "VPfyI5Rxz",
+      "itemCount": 6,
+      "requiredCount": 13,
+      "requiredGaps": [],
+      "neighbourhoodRefs": [
+        {
+          "slug": "cheyne-walk-riverside-residence",
+          "value": "chelsea"
+        },
+        {
+          "slug": "frognal-georgian-villa",
+          "value": "hampstead"
+        },
+        {
+          "slug": "bibury-stone-manor",
+          "value": "the-cotswolds"
+        },
+        {
+          "slug": "royal-avenue-lateral-apartment",
+          "value": "chelsea"
+        },
+        {
+          "slug": "ladbroke-grove-garden-house",
+          "value": "notting-hill"
+        },
+        {
+          "slug": "colville-mews-house",
+          "value": "notting-hill"
+        }
+      ]
+    },
+    "Journal": {
+      "id": "HozLKZ9WV",
+      "itemCount": 7,
+      "requiredCount": 1,
+      "requiredGaps": []
+    }
+  },
+  "nestedLinkRisks": [],
+  "brokenLinks": [],
+  "softIssues": [],
+  "homeFX": [
+    {
+      "id": "AV7lJ46Wl",
+      "name": "Arbour_TerritoryRail",
+      "component": "codeFile/il4DSn9:default"
+    },
+    {
+      "id": "nndydVj_G",
+      "name": "Arbour_EditorialReveal",
+      "component": "codeFile/gHPemNT:default"
+    },
+    {
+      "id": "PaGRz8lMz",
+      "name": "Arbour_ProgressiveBlur",
+      "component": "codeFile/fOrMtU2:default"
+    },
+    {
+      "id": "U3TeNUVXvAV7lJ46Wl",
+      "name": "Arbour_TerritoryRail",
+      "component": "codeFile/il4DSn9:default"
+    },
+    {
+      "id": "U3TeNUVXvnndydVj_G",
+      "name": "Arbour_EditorialReveal",
+      "component": "codeFile/gHPemNT:default"
+    },
+    {
+      "id": "U3TeNUVXvPaGRz8lMz",
+      "name": "Arbour_ProgressiveBlur",
+      "component": "codeFile/fOrMtU2:default"
+    },
+    {
+      "id": "pmAxXUJ0oAV7lJ46Wl",
+      "name": "Arbour_TerritoryRail",
+      "component": "codeFile/il4DSn9:default"
+    },
+    {
+      "id": "pmAxXUJ0onndydVj_G",
+      "name": "Arbour_EditorialReveal",
+      "component": "codeFile/gHPemNT:default"
+    },
+    {
+      "id": "pmAxXUJ0oPaGRz8lMz",
+      "name": "Arbour_ProgressiveBlur",
+      "component": "codeFile/fOrMtU2:default"
+    }
+  ],
+  "chrome": {
+    "Nav": {
+      "label": "Nav",
+      "hrefs": [
+        "/",
+        "/about",
+        "/contact",
+        "/neighbourhoods",
+        "/notes",
+        "/properties",
+        "https://www.instagram.com/arbour.london",
+        "https://www.linkedin.com/company/arbour",
+        "https://x.com/arbourlondon",
+        "mailto:enquiries@arbour.london",
+        "tel:+442073518800"
+      ]
+    },
+    "Footer": {
+      "label": "Footer",
+      "hrefs": [
+        "/about",
+        "/contact",
+        "/neighbourhoods",
+        "/notes",
+        "/properties",
+        "/properties/:slug"
+      ]
+    }
+  },
+  "code": {
+    "count": 19,
+    "propertyCardStatic": false,
+    "articleCardNotesPath": false,
+    "names": [
+      {
+        "id": "zQElsPn",
+        "name": "Arbour_InertiaFrame.tsx"
+      },
+      {
+        "id": "KzA2jsd",
+        "name": "Arbour_StatsBand.tsx"
+      },
+      {
+        "id": "GruqKYi",
+        "name": "Arbour_ScrollCue.tsx"
+      },
+      {
+        "id": "gHPemNT",
+        "name": "Arbour_EditorialReveal.tsx"
+      },
+      {
+        "id": "zCa0pzg",
+        "name": "Arbour_UnderlineLink.tsx"
+      },
+      {
+        "id": "DTpIPSC",
+        "name": "Arbour_MenuIcon.tsx"
+      },
+      {
+        "id": "IwchU7y",
+        "name": "Arbour_NoiseEffect.tsx"
+      },
+      {
+        "id": "fOrMtU2",
+        "name": "Arbour_ProgressiveBlur.tsx"
+      },
+      {
+        "id": "gKy5r76",
+        "name": "Arbour_StopScroll.tsx"
+      },
+      {
+        "id": "QsH9B_M",
+        "name": "Arbour_LoadingScreen.tsx"
+      },
+      {
+        "id": "lKYHG0I",
+        "name": "Arbour_SmoothScroll.tsx"
+      },
+      {
+        "id": "rB5gJ0d",
+        "name": "Arbour_PrimaryButton.tsx"
+      },
+      {
+        "id": "z3tkXk6",
+        "name": "Arbour_FormButton.tsx"
+      },
+      {
+        "id": "qAxfgzH",
+        "name": "Arbour_SectionHeader.tsx"
+      },
+      {
+        "id": "zbud3PK",
+        "name": "Arbour_Copyright.tsx"
+      },
+      {
+        "id": "emg8ovC",
+        "name": "Arbour_ArticleCard.tsx"
+      },
+      {
+        "id": "AXjaz2Z",
+        "name": "HideHorizontalScrollbar.tsx"
+      },
+      {
+        "id": "I2raC3I",
+        "name": "Arbour_PropertyCard.tsx"
+      },
+      {
+        "id": "il4DSn9",
+        "name": "Arbour_TerritoryRail.tsx"
+      }
+    ]
+  },
+  "key": {
+    "pathsIncludeProperties": true,
+    "pathsIncludeProperties2": false,
+    "propertiesList": {
+      "mentioned": true,
+      "filterCount": "present",
+      "listId": "D1P7aRrFn"
+    },
+    "nhCard": {
+      "id": "i56eWdACt",
+      "name": "Territory Card",
+      "href": "/properties",
+      "cursor": "pointer"
+    }
+  },
+  "redirects": [],
+  "counts": {
+    "pages": 9,
+    "pageStats": [
+      {
+        "path": "/",
+        "ul": 21,
+        "risks": 0,
+        "links": 6
+      },
+      {
+        "path": "/properties",
+        "ul": 3,
+        "risks": 0,
+        "links": 12
+      },
+      {
+        "path": "/neighbourhoods",
+        "ul": 3,
+        "risks": 0,
+        "links": 3
+      },
+      {
+        "path": "/notes",
+        "ul": 3,
+        "risks": 0,
+        "links": 3
+      },
+      {
+        "path": "/about",
+        "ul": 3,
+        "risks": 0,
+        "links": 3
+      },
+      {
+        "path": "/contact",
+        "ul": 6,
+        "risks": 0,
+        "links": 9
+      },
+      {
+        "path": "/properties/:slug",
+        "ul": 0,
+        "risks": 0,
+        "links": 12
+      },
+      {
+        "path": "/notes/:slug",
+        "ul": 0,
+        "risks": 0,
+        "links": 3
+      },
+      {
+        "path": "/404",
+        "ul": 0,
+        "risks": 0,
+        "links": 3
+      }
+    ],
+    "uniqueHrefs": [
+      "/",
+      "/about",
+      "/contact",
+      "/neighbourhoods",
+      "/notes",
+      "/properties",
+      "/properties/:slug",
+      "mailto:enquiries@arbour.london"
+    ],
+    "mailto": [
+      "mailto:enquiries@arbour.london"
+    ],
+    "http": [],
+    "broken": 0,
+    "nestedRisks": 0,
+    "soft": 0
+  }
+}

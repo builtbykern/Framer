@@ -1,0 +1,37 @@
+{
+  "status": "ready",
+  "changesCount": 3,
+  "errors": [],
+  "confirmationHash": "sovv1t",
+  "changes": [
+    {
+      "type": "WebPage",
+      "nodeId": "uBAGmujMa",
+      "name": "/properties-2",
+      "status": "updated"
+    },
+    {
+      "type": "WebPage",
+      "nodeId": "OhRUQROL4",
+      "name": "/properties-2/:slug",
+      "status": "updated"
+    },
+    {
+      "type": "SmartComponent",
+      "nodeId": "ynpqYJGOd",
+      "name": "Nav",
+      "status": "updated"
+    }
+  ]
+}
+{
+  "status": "published",
+  "message": "Site published to production (version ba42e640c).",
+  "version": {
+    "id": "ba42e640c"
+  },
+  "urls": {
+    "production": "https://arbour.framer.website",
+    "published": "https://arbour.framer.website"
+  }
+}

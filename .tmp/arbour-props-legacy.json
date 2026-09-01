@@ -1,0 +1,516 @@
+{
+  "legacy": {
+    "M8s542Syv": {
+      "name": "Property Card (legacy)",
+      "visible": "false",
+      "width": "1fr",
+      "height": "auto",
+      "parent": "pXUtBMLpu",
+      "link": {
+        "href": "/properties/:slug",
+        "collectionItem": "var(--variable-zwSbxzSmU)"
+      }
+    },
+    "vAsK0BRC0": {
+      "name": "Property Card (legacy)",
+      "visible": "false",
+      "width": "1fr",
+      "height": "auto",
+      "parent": "pXUtBMLpu",
+      "link": {
+        "href": "/properties/:slug",
+        "collectionItem": "var(--variable-zwSbxzSmU)"
+      }
+    },
+    "ndQSyDGaw": {
+      "name": "Property Card (legacy)",
+      "visible": "false",
+      "width": "1fr",
+      "height": "auto",
+      "parent": "pXUtBMLpu",
+      "link": {
+        "href": "/properties/:slug",
+        "collectionItem": "var(--variable-zwSbxzSmU)"
+      }
+    },
+    "NCIVLguKg": {
+      "name": "Property Card (legacy)",
+      "visible": "false",
+      "width": "1fr",
+      "height": "auto",
+      "parent": "pXUtBMLpu",
+      "link": {
+        "href": "/properties/:slug",
+        "collectionItem": "var(--variable-zwSbxzSmU)"
+      }
+    },
+    "ajh2B9ljF": {
+      "name": "Property Card (legacy)",
+      "visible": "false",
+      "width": "1fr",
+      "height": "auto",
+      "parent": "pXUtBMLpu",
+      "link": {
+        "href": "/properties/:slug",
+        "collectionItem": "var(--variable-zwSbxzSmU)"
+      }
+    },
+    "NsMsH_xvx": {
+      "name": "Property Card (legacy)",
+      "visible": "false",
+      "width": "1fr",
+      "height": "auto",
+      "parent": "pXUtBMLpu",
+      "link": {
+        "href": "/properties/:slug",
+        "collectionItem": "var(--variable-zwSbxzSmU)"
+      }
+    }
+  },
+  "blur": {
+    "D": {
+      "$control__position": "Bottom",
+      "$control__coverage": "60",
+      "$control__strength": "1.2",
+      "$control__divCount": "4",
+      "$control__exponential": "true",
+      "$control__curve": "Linear",
+      "$control__opacity": "1",
+      "opacity": "0.35",
+      "left": "0px",
+      "right": "0px",
+      "top": "null",
+      "bottom": "0px",
+      "centerAnchorX": "0%",
+      "centerAnchorY": "0%",
+      "constraintsLocked": false,
+      "width": "auto",
+      "height": "120px",
+      "visible": "false"
+    },
+    "T": {
+      "$control__position": "Bottom",
+      "$control__coverage": "60",
+      "$control__strength": "1.2",
+      "$control__divCount": "4",
+      "$control__exponential": "true",
+      "$control__curve": "Linear",
+      "$control__opacity": "1",
+      "opacity": "0.35",
+      "left": "0px",
+      "right": "0px",
+      "top": "null",
+      "bottom": "0px",
+      "centerAnchorX": "0%",
+      "centerAnchorY": "0%",
+      "constraintsLocked": false,
+      "width": "auto",
+      "height": "120px",
+      "visible": "false"
+    },
+    "P": {
+      "$control__position": "Bottom",
+      "$control__coverage": "60",
+      "$control__strength": "1.2",
+      "$control__divCount": "4",
+      "$control__exponential": "true",
+      "$control__curve": "Linear",
+      "$control__opacity": "1",
+      "opacity": "0.35",
+      "left": "0px",
+      "right": "0px",
+      "top": "null",
+      "bottom": "0px",
+      "centerAnchorX": "0%",
+      "centerAnchorY": "0%",
+      "constraintsLocked": false,
+      "width": "auto",
+      "height": "120px",
+      "visible": "false"
+    }
+  },
+  "gridCards": [
+    {
+      "id": "lIX6py1V0",
+      "name": "Property Link",
+      "type": "FrameNode",
+      "link": {
+        "href": "/properties/:slug",
+        "collectionItem": "var(--variable-zwSbxzSmU)"
+      }
+    },
+    {
+      "id": "WVombBjcj",
+      "name": "Property Card",
+      "type": "ComponentInstanceNode",
+      "component": "codeFile/I2raC3I:default"
+    },
+    {
+      "id": "RDH5AtXpi",
+      "name": "Property Link",
+      "type": "FrameNode",
+      "link": {
+        "href": "/properties/:slug",
+        "collectionItem": "var(--variable-zwSbxzSmU)"
+      }
+    },
+    {
+      "id": "LY7Xl0038",
+      "name": "Property Card",
+      "type": "ComponentInstanceNode",
+      "component": "codeFile/I2raC3I:default"
+    },
+    {
+      "id": "A75jx2rot",
+      "name": "Property Link",
+      "type": "FrameNode",
+      "link": {
+        "href": "/properties/:slug",
+        "collectionItem": "var(--variable-zwSbxzSmU)"
+      }
+    },
+    {
+      "id": "wfrBfUhOA",
+      "name": "Property Card",
+      "type": "ComponentInstanceNode",
+      "component": "codeFile/I2raC3I:default"
+    },
+    {
+      "id": "WDIyslCI4",
+      "name": "Property Link",
+      "type": "FrameNode",
+      "link": {
+        "href": "/properties/:slug",
+        "collectionItem": "var(--variable-zwSbxzSmU)"
+      }
+    },
+    {
+      "id": "ZnSLoFoz2",
+      "name": "Property Card",
+      "type": "ComponentInstanceNode",
+      "component": "codeFile/I2raC3I:default"
+    },
+    {
+      "id": "JkbmjatIk",
+      "name": "Property Link",
+      "type": "FrameNode",
+      "link": {
+        "href": "/properties/:slug",
+        "collectionItem": "var(--variable-zwSbxzSmU)"
+      }
+    },
+    {
+      "id": "ymLH5EXzH",
+      "name": "Property Card",
+      "type": "ComponentInstanceNode",
+      "component": "codeFile/I2raC3I:default"
+    },
+    {
+      "id": "KuTSRdGCu",
+      "name": "Property Link",
+      "type": "FrameNode",
+      "link": {
+        "href": "/properties/:slug",
+        "collectionItem": "var(--variable-zwSbxzSmU)"
+      }
+    },
+    {
+      "id": "FLn5Uk9as",
+      "name": "Property Card",
+      "type": "ComponentInstanceNode",
+      "component": "codeFile/I2raC3I:default"
+    }
+  ],
+  "filterTree": [
+    {
+      "id": "cmoUQBcbk",
+      "name": "Residence Filters",
+      "type": "FrameNode",
+      "controls": {}
+    },
+    {
+      "id": "mrNFM4m_2",
+      "name": "Availability Filter",
+      "type": "FrameNode",
+      "controls": {}
+    },
+    {
+      "id": "qh2ov1u0z",
+      "type": "RichTextNode",
+      "controls": {}
+    },
+    {
+      "id": "v:qh2ov1u0z:0",
+      "type": "TextBlock",
+      "controls": {}
+    },
+    {
+      "id": "v:qh2ov1u0z:0:0",
+      "type": "TextRun",
+      "controls": {}
+    },
+    {
+      "id": "shovmx7Bh",
+      "name": "Availability",
+      "type": "FormSelectNode",
+      "controls": {}
+    },
+    {
+      "id": "yrnkOdQWw",
+      "name": "Area Filter",
+      "type": "FrameNode",
+      "controls": {}
+    },
+    {
+      "id": "vpQs1iwIW",
+      "type": "RichTextNode",
+      "controls": {}
+    },
+    {
+      "id": "v:vpQs1iwIW:0",
+      "type": "TextBlock",
+      "controls": {}
+    },
+    {
+      "id": "v:vpQs1iwIW:0:0",
+      "type": "TextRun",
+      "controls": {}
+    },
+    {
+      "id": "GhyG7plzJ",
+      "name": "Neighbourhood",
+      "type": "FormSelectNode",
+      "controls": {}
+    },
+    {
+      "id": "edZBsAkvp",
+      "name": "Minimum Price Filter",
+      "type": "FrameNode",
+      "controls": {}
+    },
+    {
+      "id": "r20pZz0kN",
+      "type": "RichTextNode",
+      "controls": {}
+    },
+    {
+      "id": "v:r20pZz0kN:0",
+      "type": "TextBlock",
+      "controls": {}
+    },
+    {
+      "id": "v:r20pZz0kN:0:0",
+      "type": "TextRun",
+      "controls": {}
+    },
+    {
+      "id": "HhumSmpUg",
+      "name": "Minimum Price",
+      "type": "FormPlainTextInputNode",
+      "controls": {}
+    },
+    {
+      "id": "QRWxJ1ilB",
+      "name": "Maximum Price Filter",
+      "type": "FrameNode",
+      "controls": {}
+    },
+    {
+      "id": "mdsHI789x",
+      "type": "RichTextNode",
+      "controls": {}
+    },
+    {
+      "id": "v:mdsHI789x:0",
+      "type": "TextBlock",
+      "controls": {}
+    },
+    {
+      "id": "v:mdsHI789x:0:0",
+      "type": "TextRun",
+      "controls": {}
+    },
+    {
+      "id": "Te98AGNHb",
+      "name": "Maximum Price",
+      "type": "FormPlainTextInputNode",
+      "controls": {}
+    },
+    {
+      "id": "bdKCm1ItK",
+      "name": "Bedrooms Filter",
+      "type": "FrameNode",
+      "controls": {}
+    },
+    {
+      "id": "ZeHTMK_3R",
+      "type": "RichTextNode",
+      "controls": {}
+    },
+    {
+      "id": "v:ZeHTMK_3R:0",
+      "type": "TextBlock",
+      "controls": {}
+    },
+    {
+      "id": "v:ZeHTMK_3R:0:0",
+      "type": "TextRun",
+      "controls": {}
+    },
+    {
+      "id": "Ax3vnZU0e",
+      "name": "Minimum Bedrooms",
+      "type": "FormPlainTextInputNode",
+      "controls": {}
+    },
+    {
+      "id": "Ac838sKZ1",
+      "name": "Clear Filters",
+      "type": "FrameNode",
+      "controls": {}
+    },
+    {
+      "id": "RBeIwvNqS",
+      "type": "RichTextNode",
+      "controls": {}
+    },
+    {
+      "id": "v:RBeIwvNqS:0",
+      "type": "TextBlock",
+      "controls": {}
+    },
+    {
+      "id": "v:RBeIwvNqS:0:0",
+      "type": "TextRun",
+      "controls": {}
+    }
+  ],
+  "propertyCardInstances": [
+    {
+      "id": "EK6d5SyWLWVombBjcj",
+      "name": "Property Card",
+      "component": "codeFile/I2raC3I:default",
+      "scope": "uBAGmujMa",
+      "parent": "EK6d5SyWLlIX6py1V0"
+    },
+    {
+      "id": "SScKalu3BWVombBjcj",
+      "name": "Property Card",
+      "component": "codeFile/I2raC3I:default",
+      "scope": "uBAGmujMa",
+      "parent": "SScKalu3BlIX6py1V0"
+    },
+    {
+      "id": "WVombBjcj",
+      "name": "Property Card",
+      "component": "codeFile/I2raC3I:default",
+      "scope": "uBAGmujMa",
+      "parent": "lIX6py1V0"
+    },
+    {
+      "id": "EK6d5SyWLLY7Xl0038",
+      "name": "Property Card",
+      "component": "codeFile/I2raC3I:default",
+      "scope": "uBAGmujMa",
+      "parent": "EK6d5SyWLRDH5AtXpi"
+    },
+    {
+      "id": "SScKalu3BLY7Xl0038",
+      "name": "Property Card",
+      "component": "codeFile/I2raC3I:default",
+      "scope": "uBAGmujMa",
+      "parent": "SScKalu3BRDH5AtXpi"
+    },
+    {
+      "id": "LY7Xl0038",
+      "name": "Property Card",
+      "component": "codeFile/I2raC3I:default",
+      "scope": "uBAGmujMa",
+      "parent": "RDH5AtXpi"
+    },
+    {
+      "id": "EK6d5SyWLwfrBfUhOA",
+      "name": "Property Card",
+      "component": "codeFile/I2raC3I:default",
+      "scope": "uBAGmujMa",
+      "parent": "EK6d5SyWLA75jx2rot"
+    },
+    {
+      "id": "SScKalu3BwfrBfUhOA",
+      "name": "Property Card",
+      "component": "codeFile/I2raC3I:default",
+      "scope": "uBAGmujMa",
+      "parent": "SScKalu3BA75jx2rot"
+    },
+    {
+      "id": "wfrBfUhOA",
+      "name": "Property Card",
+      "component": "codeFile/I2raC3I:default",
+      "scope": "uBAGmujMa",
+      "parent": "A75jx2rot"
+    },
+    {
+      "id": "EK6d5SyWLZnSLoFoz2",
+      "name": "Property Card",
+      "component": "codeFile/I2raC3I:default",
+      "scope": "uBAGmujMa",
+      "parent": "EK6d5SyWLWDIyslCI4"
+    },
+    {
+      "id": "SScKalu3BZnSLoFoz2",
+      "name": "Property Card",
+      "component": "codeFile/I2raC3I:default",
+      "scope": "uBAGmujMa",
+      "parent": "SScKalu3BWDIyslCI4"
+    },
+    {
+      "id": "ZnSLoFoz2",
+      "name": "Property Card",
+      "component": "codeFile/I2raC3I:default",
+      "scope": "uBAGmujMa",
+      "parent": "WDIyslCI4"
+    },
+    {
+      "id": "EK6d5SyWLymLH5EXzH",
+      "name": "Property Card",
+      "component": "codeFile/I2raC3I:default",
+      "scope": "uBAGmujMa",
+      "parent": "EK6d5SyWLJkbmjatIk"
+    },
+    {
+      "id": "SScKalu3BymLH5EXzH",
+      "name": "Property Card",
+      "component": "codeFile/I2raC3I:default",
+      "scope": "uBAGmujMa",
+      "parent": "SScKalu3BJkbmjatIk"
+    },
+    {
+      "id": "ymLH5EXzH",
+      "name": "Property Card",
+      "component": "codeFile/I2raC3I:default",
+      "scope": "uBAGmujMa",
+      "parent": "JkbmjatIk"
+    },
+    {
+      "id": "EK6d5SyWLFLn5Uk9as",
+      "name": "Property Card",
+      "component": "codeFile/I2raC3I:default",
+      "scope": "uBAGmujMa",
+      "parent": "EK6d5SyWLKuTSRdGCu"
+    },
+    {
+      "id": "SScKalu3BFLn5Uk9as",
+      "name": "Property Card",
+      "component": "codeFile/I2raC3I:default",
+      "scope": "uBAGmujMa",
+      "parent": "SScKalu3BKuTSRdGCu"
+    },
+    {
+      "id": "FLn5Uk9as",
+      "name": "Property Card",
+      "component": "codeFile/I2raC3I:default",
+      "scope": "uBAGmujMa",
+      "parent": "KuTSRdGCu"
+    }
+  ]
+}

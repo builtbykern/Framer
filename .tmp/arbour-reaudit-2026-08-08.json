@@ -1,0 +1,470 @@
+{
+  "collectedAt": "2026-08-08T20:01:21.867Z",
+  "pages": [
+    {
+      "id": "kZL5hI0oT",
+      "path": "/",
+      "topCount": 15,
+      "tops": [
+        "Arbour_LoadingScreen",
+        "Arbour_SmoothScroll",
+        "Atmosphere",
+        "Nav",
+        "Hero Section",
+        "Territories Section",
+        "Portfolio Section",
+        "Bottom",
+        "Process Section",
+        "Arbour_StatsBand",
+        "Recognition Section",
+        "Testimonial Section",
+        "Journal",
+        "Footer",
+        "Arbour_ProgressiveBlur"
+      ],
+      "deskFill": "var(--token-d5b3c09d-0364-4ed0-8804-e56957faa275)",
+      "deskWidth": "1200px"
+    },
+    {
+      "id": "uBAGmujMa",
+      "path": "/properties",
+      "topCount": 6,
+      "tops": [
+        "Arbour_LoadingScreen",
+        "Arbour_SmoothScroll",
+        "Atmosphere",
+        "Nav",
+        "Properties Content",
+        "Footer"
+      ],
+      "deskFill": "var(--token-d5b3c09d-0364-4ed0-8804-e56957faa275)",
+      "deskWidth": "1200px"
+    },
+    {
+      "id": "dZfxmFpqB",
+      "path": "/neighbourhoods",
+      "topCount": 6,
+      "tops": [
+        "Arbour_LoadingScreen",
+        "Arbour_SmoothScroll",
+        "Atmosphere",
+        "Nav",
+        "Neighbourhoods Content",
+        "Footer"
+      ],
+      "deskFill": "var(--token-d5b3c09d-0364-4ed0-8804-e56957faa275)",
+      "deskWidth": "1200px"
+    },
+    {
+      "id": "s8RpZIiJ8",
+      "path": "/notes",
+      "topCount": 7,
+      "tops": [
+        "Arbour_LoadingScreen",
+        "Arbour_SmoothScroll",
+        "Atmosphere",
+        "Nav",
+        "Journal",
+        "Journal Manifesto",
+        "Footer"
+      ],
+      "deskFill": "var(--token-d5b3c09d-0364-4ed0-8804-e56957faa275)",
+      "deskWidth": "1200px"
+    },
+    {
+      "id": "OdFhPn9yz",
+      "path": "/about",
+      "topCount": 12,
+      "tops": [
+        "Nav",
+        "Arbour_LoadingScreen",
+        "Arbour_SmoothScroll",
+        "Beat 1 — Portrait Stage",
+        "Beat 3 — Manifesto",
+        "Beat 2 — Cinematic Image",
+        "Editorial Pause — Arbour in Practice",
+        "Chapter — The Principals",
+        "Chapter — Two Offices",
+        "Enquiry CTA",
+        "Atmosphere",
+        "Footer"
+      ],
+      "deskFill": "var(--token-d5b3c09d-0364-4ed0-8804-e56957faa275)",
+      "deskWidth": "1200px"
+    },
+    {
+      "id": "c7qpzB7hR",
+      "path": "/contact",
+      "topCount": 9,
+      "tops": [
+        "Nav",
+        "Arbour_LoadingScreen",
+        "Arbour_SmoothScroll",
+        "Atmosphere",
+        "Contact Hero",
+        "Contact Opening",
+        "Private Consultation Pause",
+        "Journal",
+        "Footer"
+      ],
+      "deskFill": "var(--token-d5b3c09d-0364-4ed0-8804-e56957faa275)",
+      "deskWidth": "1200px"
+    },
+    {
+      "id": "OhRUQROL4",
+      "path": "/properties/:slug",
+      "topCount": 13,
+      "tops": [
+        "Arbour_LoadingScreen",
+        "Arbour_SmoothScroll",
+        "Atmosphere",
+        "Nav",
+        "Property Hero",
+        "Property Specs Band",
+        "Chapter Intro",
+        "Cinematic Gallery",
+        "The Setting",
+        "Property Particulars",
+        "Continue Your Search",
+        "Enquiry CTA",
+        "Footer"
+      ],
+      "deskFill": "var(--token-d5b3c09d-0364-4ed0-8804-e56957faa275)",
+      "deskWidth": "1200px"
+    },
+    {
+      "id": "YPPO8pJ92",
+      "path": "/notes/:slug",
+      "topCount": 12,
+      "tops": [
+        "Arbour_LoadingScreen",
+        "Nav",
+        "Arbour_SmoothScroll",
+        "Article Hero Meta",
+        "Journal Hero Image",
+        "Article Body Wrap",
+        "Journal Text Column",
+        "More From Journal",
+        "Atmosphere",
+        "Specs Strip",
+        "Closing Chapter",
+        "Footer"
+      ],
+      "deskFill": "var(--token-d5b3c09d-0364-4ed0-8804-e56957faa275)",
+      "deskWidth": "1200px"
+    }
+  ],
+  "fxMatrix": {
+    "/": {
+      "Arbour_LoadingScreen": "Y",
+      "Arbour_SmoothScroll": "Y",
+      "Atmosphere": "Y",
+      "Arbour_NoiseEffect": "Y",
+      "Arbour_ProgressiveBlur": "Y",
+      "Arbour_ScrollCue": "Y",
+      "Nav": "Y",
+      "Footer": "Y"
+    },
+    "/properties": {
+      "Arbour_LoadingScreen": "Y",
+      "Arbour_SmoothScroll": "Y",
+      "Atmosphere": "Y",
+      "Arbour_NoiseEffect": "Y",
+      "Arbour_ProgressiveBlur": "Y",
+      "Arbour_ScrollCue": "Y",
+      "Nav": "Y",
+      "Footer": "Y"
+    },
+    "/neighbourhoods": {
+      "Arbour_LoadingScreen": "Y",
+      "Arbour_SmoothScroll": "Y",
+      "Atmosphere": "Y",
+      "Arbour_NoiseEffect": "Y",
+      "Arbour_ProgressiveBlur": "Y",
+      "Arbour_ScrollCue": "Y",
+      "Nav": "Y",
+      "Footer": "Y"
+    },
+    "/notes": {
+      "Arbour_LoadingScreen": "Y",
+      "Arbour_SmoothScroll": "Y",
+      "Atmosphere": "Y",
+      "Arbour_NoiseEffect": "Y",
+      "Arbour_ProgressiveBlur": "Y",
+      "Arbour_ScrollCue": "Y",
+      "Nav": "Y",
+      "Footer": "Y"
+    },
+    "/about": {
+      "Arbour_LoadingScreen": "Y",
+      "Arbour_SmoothScroll": "Y",
+      "Atmosphere": "Y",
+      "Arbour_NoiseEffect": "Y",
+      "Arbour_ProgressiveBlur": "Y",
+      "Arbour_ScrollCue": "Y",
+      "Nav": "Y",
+      "Footer": "Y"
+    },
+    "/contact": {
+      "Arbour_LoadingScreen": "Y",
+      "Arbour_SmoothScroll": "Y",
+      "Atmosphere": "Y",
+      "Arbour_NoiseEffect": "Y",
+      "Arbour_ProgressiveBlur": "Y",
+      "Arbour_ScrollCue": "Y",
+      "Nav": "Y",
+      "Footer": "Y"
+    },
+    "/properties/:slug": {
+      "Arbour_LoadingScreen": "Y",
+      "Arbour_SmoothScroll": "Y",
+      "Atmosphere": "Y",
+      "Arbour_NoiseEffect": "Y",
+      "Arbour_ProgressiveBlur": "Y",
+      "Arbour_ScrollCue": "Y",
+      "Nav": "Y",
+      "Footer": "Y"
+    },
+    "/notes/:slug": {
+      "Arbour_LoadingScreen": "Y",
+      "Arbour_SmoothScroll": "Y",
+      "Atmosphere": "Y",
+      "Arbour_NoiseEffect": "Y",
+      "Arbour_ProgressiveBlur": "Y",
+      "Arbour_ScrollCue": "Y",
+      "Nav": "Y",
+      "Footer": "Y"
+    }
+  },
+  "seo": {
+    "/": {
+      "title": "Arbour — Independent Estate Agency London",
+      "description": "Curated residences across London and the country. Discreet acquisition, disposal, and counsel since 1999."
+    },
+    "/properties": {
+      "title": "Properties | Arbour",
+      "description": "Six homes of merit — curated residences for sale across London and the country."
+    },
+    "/neighbourhoods": {
+      "title": "Neighbourhoods | Arbour",
+      "description": "Places we know by heart — Chelsea, Notting Hill, Hampstead, and beyond."
+    },
+    "/notes": {
+      "title": "Notes | Arbour",
+      "description": "Field notes on place, craft, and acquisition — from the Arbour journal."
+    },
+    "/about": {
+      "title": "About | Arbour",
+      "description": "Built on judgement, not volume. Independent estate agency since 1999."
+    },
+    "/contact": {
+      "title": "Contact | Arbour",
+      "description": "Begin a conversation — private consultations for buyers and sellers. By appointment only."
+    },
+    "/properties/:slug": {
+      "title": "{{SEO Title}}",
+      "description": "{{SEO Description}}"
+    },
+    "/notes/:slug": {
+      "title": "{{SEO Title}}",
+      "description": "{{SEO Description}}"
+    }
+  },
+  "hardOpaque": {
+    "/": {},
+    "/properties": {},
+    "/neighbourhoods": {},
+    "/notes": {},
+    "/about": {},
+    "/contact": {},
+    "/properties/:slug": {},
+    "/notes/:slug": {}
+  },
+  "unnamedTops": {
+    "/": [],
+    "/properties": [
+      {
+        "id": "wssGwbNHc",
+        "type": "ComponentInstanceNode"
+      }
+    ],
+    "/neighbourhoods": [],
+    "/notes": [],
+    "/about": [
+      {
+        "id": "EnLRF_D_f",
+        "type": "ComponentInstanceNode"
+      }
+    ],
+    "/contact": [
+      {
+        "id": "R1UwW27g3",
+        "type": "ComponentInstanceNode"
+      }
+    ],
+    "/properties/:slug": [],
+    "/notes/:slug": []
+  },
+  "maxWidth1440": [],
+  "padOutliers": [
+    {
+      "path": "/notes/:slug",
+      "id": "VeGntwuIg",
+      "name": "Closing Chapter",
+      "pad": "80px 48px 80px 48px"
+    }
+  ],
+  "footerNames": {
+    "/": {
+      "Footer": 1,
+      "Footer Container": 0
+    },
+    "/properties": {
+      "Footer": 1,
+      "Footer Container": 0
+    },
+    "/neighbourhoods": {
+      "Footer": 1,
+      "Footer Container": 0
+    },
+    "/notes": {
+      "Footer": 1,
+      "Footer Container": 0
+    },
+    "/about": {
+      "Footer": 1,
+      "Footer Container": 0
+    },
+    "/contact": {
+      "Footer": 1,
+      "Footer Container": 0
+    },
+    "/properties/:slug": {
+      "Footer": 1,
+      "Footer Container": 0
+    },
+    "/notes/:slug": {
+      "Footer": 1,
+      "Footer Container": 0
+    }
+  },
+  "navWidths": {
+    "/": [
+      {
+        "id": "CLzbrTVVb",
+        "width": "100%",
+        "position": "fixed"
+      }
+    ],
+    "/properties": [
+      {
+        "id": "qyfxlhyLO",
+        "width": "1fr",
+        "position": "sticky"
+      }
+    ],
+    "/neighbourhoods": [
+      {
+        "id": "Y_7x1hvx_",
+        "width": "100%",
+        "position": "fixed"
+      }
+    ],
+    "/notes": [
+      {
+        "id": "NwqSydI2k",
+        "width": "1fr",
+        "position": "sticky"
+      }
+    ],
+    "/about": [
+      {
+        "id": "MHsCYYNA7",
+        "width": "1fr",
+        "position": "sticky"
+      }
+    ],
+    "/contact": [
+      {
+        "id": "gQEDrZhwb",
+        "width": "1fr",
+        "position": "sticky"
+      }
+    ],
+    "/properties/:slug": [
+      {
+        "id": "W57T5rQpL",
+        "width": "1fr",
+        "position": "sticky"
+      }
+    ],
+    "/notes/:slug": [
+      {
+        "id": "zoiRFt077",
+        "width": "1fr",
+        "position": "sticky"
+      }
+    ]
+  },
+  "preview": {
+    "changesCount": 0,
+    "changes": [],
+    "errors": []
+  },
+  "publishInfo": {
+    "production": {
+      "deploymentTime": 1786219109642,
+      "optimizationStatus": "optimized",
+      "url": "https://arbour.framer.website",
+      "currentPageUrl": "https://arbour.framer.website/"
+    },
+    "staging": {
+      "deploymentTime": 1786219109642,
+      "optimizationStatus": "optimized",
+      "url": "https://minimum-directions-600719.framer.app",
+      "currentPageUrl": "https://minimum-directions-600719.framer.app/"
+    }
+  },
+  "cmsGaps": [],
+  "cmsGapCount": 0,
+  "orphans": [
+    {
+      "id": "DTpIPSC",
+      "name": "Arbour_MenuIcon.tsx"
+    },
+    {
+      "id": "gKy5r76",
+      "name": "Arbour_StopScroll.tsx"
+    },
+    {
+      "id": "qAxfgzH",
+      "name": "Arbour_SectionHeader.tsx"
+    },
+    {
+      "id": "zbud3PK",
+      "name": "Arbour_Copyright.tsx"
+    },
+    {
+      "id": "AXjaz2Z",
+      "name": "HideHorizontalScrollbar.tsx"
+    },
+    {
+      "id": "NN1s2o1",
+      "name": "Arbour_TerritoryHero.tsx"
+    },
+    {
+      "id": "CbZkhOy",
+      "name": "Arbour_BlendDisplay.tsx"
+    },
+    {
+      "id": "TE5IJ7M",
+      "name": "Arbour_BlendStyle.tsx"
+    }
+  ],
+  "underline": {
+    "total": 9,
+    "nestedRisk": 3
+  },
+  "codeFileCount": 23,
+  "collectionCount": 4
+}

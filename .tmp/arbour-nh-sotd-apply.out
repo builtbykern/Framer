@@ -1,0 +1,39 @@
+{
+  "message": "Lint: 12 warnings.",
+  "verify": {
+    "dossier": {
+      "id": "QAa2V2fag",
+      "name": "Territory Dossier",
+      "stackDistribution": "start",
+      "gap": "20px",
+      "text": "var(--variable-mNRagFPfJ)"
+    },
+    "reading": {
+      "id": "rIIdBjqU_",
+      "name": "Place Reading",
+      "stackDistribution": "start",
+      "gap": "10px",
+      "text": "var(--variable-mNRagFPfJ)"
+    },
+    "intro": {
+      "id": "v61cPV2xF",
+      "textTruncation": "3",
+      "textColor": "var(--token-0bc68d0d-4c0b-4126-8cce-9425cb153f4e)",
+      "textStylePreset": "Arbour/Body",
+      "text": "var(--variable-mNRagFPfJ)"
+    },
+    "highlights": {
+      "id": "sJB1mG6E1",
+      "textTruncation": "2",
+      "textColor": "var(--token-0bc68d0d-4c0b-4126-8cce-9425cb153f4e)",
+      "textStylePreset": "Arbour/Meta",
+      "text": "var(--variable-ZIEwtEwXa)"
+    },
+    "cta": {
+      "id": "d9SNjsdke",
+      "textColor": "var(--token-db86917b-d19e-4fd7-8dc5-e260f1f35cb1)",
+      "textStylePreset": "Arbour/Meta",
+      "text": "VIEW →"
+    }
+  }
+}

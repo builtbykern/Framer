@@ -1,0 +1,398 @@
+{
+  "collectedAt": "2026-07-17T18:49:43.092Z",
+  "pages": {
+    "/": {
+      "path": "/",
+      "hasNav": true,
+      "hasFooter": true,
+      "freehand": [],
+      "ul": [],
+      "residual120": [],
+      "hardOlive": [],
+      "truncated": [],
+      "displays": []
+    },
+    "/properties-2": {
+      "path": "/properties-2",
+      "hasNav": true,
+      "hasFooter": true,
+      "freehand": [],
+      "ul": [],
+      "residual120": [],
+      "hardOlive": [],
+      "truncated": [],
+      "displays": []
+    },
+    "/neighbourhoods": {
+      "path": "/neighbourhoods",
+      "hasNav": true,
+      "hasFooter": true,
+      "freehand": [],
+      "ul": [],
+      "residual120": [],
+      "hardOlive": [],
+      "truncated": [],
+      "displays": []
+    },
+    "/notes": {
+      "path": "/notes",
+      "hasNav": true,
+      "hasFooter": true,
+      "freehand": [],
+      "ul": [],
+      "residual120": [],
+      "hardOlive": [],
+      "truncated": [],
+      "displays": []
+    },
+    "/about": {
+      "path": "/about",
+      "hasNav": true,
+      "hasFooter": true,
+      "freehand": [],
+      "ul": [],
+      "residual120": [],
+      "hardOlive": [],
+      "truncated": [],
+      "displays": []
+    },
+    "/contact": {
+      "path": "/contact",
+      "hasNav": true,
+      "hasFooter": true,
+      "freehand": [],
+      "ul": [],
+      "residual120": [],
+      "hardOlive": [],
+      "truncated": [],
+      "displays": []
+    },
+    "/404": {
+      "path": "/404",
+      "hasNav": false,
+      "hasFooter": false,
+      "freehand": [],
+      "ul": [],
+      "residual120": [],
+      "hardOlive": [],
+      "truncated": [],
+      "displays": []
+    },
+    "/properties-2/:Properties": {
+      "path": "/properties-2/:Properties",
+      "hasNav": true,
+      "hasFooter": true,
+      "freehand": [],
+      "ul": [],
+      "residual120": [],
+      "hardOlive": [],
+      "truncated": [],
+      "displays": []
+    },
+    "/notes/:Journal": {
+      "path": "/notes/:Journal",
+      "hasNav": true,
+      "hasFooter": true,
+      "freehand": [],
+      "ul": [],
+      "residual120": [],
+      "hardOlive": [],
+      "truncated": [],
+      "displays": []
+    }
+  },
+  "chrome": {
+    "/": {
+      "nav": true,
+      "footer": true
+    },
+    "/properties-2": {
+      "nav": true,
+      "footer": true
+    },
+    "/neighbourhoods": {
+      "nav": true,
+      "footer": true
+    },
+    "/notes": {
+      "nav": true,
+      "footer": true
+    },
+    "/about": {
+      "nav": true,
+      "footer": true
+    },
+    "/contact": {
+      "nav": true,
+      "footer": true
+    },
+    "/404": {
+      "nav": false,
+      "footer": false
+    },
+    "/properties-2/:Properties": {
+      "nav": true,
+      "footer": true
+    },
+    "/notes/:Journal": {
+      "nav": true,
+      "footer": true
+    }
+  },
+  "meta": {
+    "/": {
+      "title": "Arbour — Independent Estate Agency London",
+      "description": "Curated residences across London and the country. Discreet acquisition, disposal, and counsel since 1999."
+    },
+    "/properties-2": {
+      "title": "Portfolio | Arbour",
+      "description": "Six homes of merit — curated residences for sale across London and the country."
+    },
+    "/neighbourhoods": {
+      "title": "Neighbourhoods | Arbour",
+      "description": "Places we know by heart — Chelsea, Notting Hill, Hampstead, and beyond."
+    },
+    "/notes": {
+      "title": "Notes | Arbour",
+      "description": "Field notes on place, craft, and acquisition — from the Arbour journal."
+    },
+    "/about": {
+      "title": "About | Arbour",
+      "description": "Built on judgement, not volume. Independent estate agency since 1999."
+    },
+    "/contact": {
+      "title": "Contact | Arbour",
+      "description": "Begin a conversation — private consultations for buyers and sellers. By appointment only."
+    },
+    "/404": {
+      "title": "Page not found | Arbour",
+      "description": "This page is out of frame. Return to Arbour.",
+      "noIndex": true,
+      "noIndexSite": true
+    },
+    "/properties-2/:Properties": {
+      "title": "Property | Arbour",
+      "description": "Full particulars and counsel for this residence. Arbour independent estate agency."
+    },
+    "/notes/:Journal": {
+      "title": "Property | Arbour",
+      "description": "Full particulars and counsel for this residence. Arbour independent estate agency."
+    }
+  },
+  "cms": {
+    "Neighbourhoods": {
+      "id": "U0QLvHg7O",
+      "items": 4,
+      "fields": [
+        "Name",
+        "Intro",
+        "Hero Image",
+        "Highlights",
+        "SEO Title",
+        "SEO Description",
+        "Map"
+      ],
+      "gaps": []
+    },
+    "Agents": {
+      "id": "CGTgzrUNU",
+      "items": 4,
+      "fields": [
+        "Name",
+        "Role",
+        "Photo",
+        "Email",
+        "Phone"
+      ],
+      "gaps": []
+    },
+    "Properties": {
+      "id": "VPfyI5Rxz",
+      "items": 6,
+      "fields": [
+        "Title",
+        "Price",
+        "Location",
+        "Neighbourhood",
+        "Featured",
+        "Bedrooms",
+        "Bathrooms",
+        "Area",
+        "Hero Image",
+        "Gallery",
+        "Description",
+        "Features",
+        "SEO Title",
+        "SEO Description",
+        "Status",
+        "Gallery Image One",
+        "Gallery Image Two",
+        "Gallery Image Three",
+        "Asking Price",
+        "Gallery Image Four",
+        "Gallery Narrative",
+        "Journal Entry"
+      ],
+      "gaps": []
+    },
+    "Journal": {
+      "id": "HozLKZ9WV",
+      "items": 7,
+      "fields": [
+        "Title",
+        "Category",
+        "Date",
+        "Excerpt",
+        "Cover Image",
+        "Featured",
+        "Body",
+        "SEO Description",
+        "Index"
+      ],
+      "gaps": []
+    }
+  },
+  "footer": [
+    {
+      "id": "NDTIDDKqL",
+      "text": "Navigate",
+      "link": null,
+      "color": "rgb(84, 98, 45)"
+    },
+    {
+      "id": "Z6pdpz5pD",
+      "text": "Properties",
+      "link": {
+        "href": "/properties-2"
+      },
+      "color": "var(--token-e2f9a9eb-668a-4021-80d9-b04413b5f392)"
+    },
+    {
+      "id": "AUgKRZDLa",
+      "text": "Neighbourhoods",
+      "link": {
+        "href": "/neighbourhoods"
+      },
+      "color": "var(--token-e2f9a9eb-668a-4021-80d9-b04413b5f392)"
+    },
+    {
+      "id": "qAqWkEULy",
+      "text": "Notes",
+      "link": {
+        "href": "/notes"
+      },
+      "color": "var(--token-e2f9a9eb-668a-4021-80d9-b04413b5f392)"
+    },
+    {
+      "id": "ZP4kFwKwc",
+      "text": "About",
+      "link": {
+        "href": "/about"
+      },
+      "color": "var(--token-e2f9a9eb-668a-4021-80d9-b04413b5f392)"
+    },
+    {
+      "id": "AlTIEFAKV",
+      "text": "Book a viewing",
+      "link": {
+        "href": "/contact"
+      },
+      "color": "var(--token-e2f9a9eb-668a-4021-80d9-b04413b5f392)"
+    }
+  ],
+  "truncatedTokens": [],
+  "hardOlive": [],
+  "freehandArrows": [],
+  "underlineLinks": [],
+  "residual120": [],
+  "bands128": 0,
+  "displayTitles": [],
+  "missingLinks": [],
+  "code": {
+    "count": 21,
+    "flags": [],
+    "motionNoReduced": [],
+    "er1": false,
+    "names": [
+      "Arbour_InertiaFrame.tsx",
+      "Arbour_StatsBand.tsx",
+      "Arbour_ScrollCue.tsx",
+      "Arbour_EditorialReveal.tsx",
+      "Arbour_UnderlineLink.tsx",
+      "Arbour_MenuIcon.tsx",
+      "Arbour_TerritoryRail.tsx",
+      "Arbour_NoiseEffect.tsx",
+      "Arbour_ProgressiveBlur.tsx",
+      "Arbour_StopScroll.tsx",
+      "Arbour_LoadingScreen.tsx",
+      "Arbour_SmoothScroll.tsx",
+      "Arbour_PrimaryButton.tsx",
+      "Arbour_FormButton.tsx",
+      "Arbour_SectionHeader.tsx",
+      "Arbour_Copyright.tsx",
+      "Arbour_ArticleCard.tsx",
+      "HideHorizontalScrollbar.tsx",
+      "Arbour_SoftOrb.tsx",
+      "Arbour_LondonMap.tsx",
+      "Arbour_PropertyCard.tsx"
+    ]
+  },
+  "publish": {
+    "production": {
+      "deploymentTime": 1784312956634,
+      "optimizationStatus": "error",
+      "url": "https://arbour.framer.website",
+      "currentPageUrl": "https://arbour.framer.website/"
+    },
+    "staging": {
+      "deploymentTime": 1784312956634,
+      "optimizationStatus": "error",
+      "url": "https://minimum-directions-600719.framer.app",
+      "currentPageUrl": "https://minimum-directions-600719.framer.app/"
+    }
+  },
+  "issues": [
+    {
+      "sev": "HIGH",
+      "dim": "A",
+      "msg": "Canvas ahead of production: 11 unpublished changes (live site lag)"
+    },
+    {
+      "sev": "MEDIUM",
+      "dim": "A",
+      "msg": "publish optimizationStatus still error"
+    }
+  ],
+  "publishPreview": {
+    "status": "ready",
+    "changesCount": 11,
+    "errors": [],
+    "warnings": []
+  },
+  "styles": {
+    "colors": [
+      "Parchment",
+      "Paper",
+      "Ink",
+      "Ink 60",
+      "Racing",
+      "Racing Deep",
+      "Stone",
+      "Cream On Dark",
+      "Oxblood",
+      "Chartreuse",
+      "Olive",
+      "Ink Soft"
+    ],
+    "texts": [
+      "Display",
+      "Heading",
+      "Subhead",
+      "Body",
+      "Tags",
+      "Meta",
+      "Price"
+    ],
+    "legacyLeft": []
+  }
+}

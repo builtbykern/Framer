@@ -1,0 +1,484 @@
+{
+  "collectedAt": "2026-08-09T17:51:35.030Z",
+  "styleCount": 22,
+  "styles": [
+    {
+      "name": "Parchment",
+      "light": "rgb(246, 242, 233)",
+      "uses": 30
+    },
+    {
+      "name": "Paper",
+      "light": "rgb(252, 250, 244)",
+      "uses": 182
+    },
+    {
+      "name": "Ink",
+      "light": "rgb(28, 27, 22)",
+      "uses": 156
+    },
+    {
+      "name": "Ink 60",
+      "light": "rgba(28, 27, 22, 0.6)",
+      "uses": 0
+    },
+    {
+      "name": "Racing",
+      "light": "rgb(31, 61, 43)",
+      "uses": 20
+    },
+    {
+      "name": "Racing Deep",
+      "light": "rgb(21, 43, 30)",
+      "uses": 59
+    },
+    {
+      "name": "Stone",
+      "light": "rgb(231, 223, 206)",
+      "uses": 0
+    },
+    {
+      "name": "Cream On Dark",
+      "light": "rgb(239, 233, 219)",
+      "uses": 63
+    },
+    {
+      "name": "Oxblood",
+      "light": "rgb(94, 43, 38)",
+      "uses": 0
+    },
+    {
+      "name": "Chartreuse",
+      "light": "rgb(214, 224, 74)",
+      "uses": 60
+    },
+    {
+      "name": "Olive",
+      "light": "rgb(84, 98, 45)",
+      "uses": 100
+    },
+    {
+      "name": "Ink Soft",
+      "light": "rgba(28, 27, 22, 0.55)",
+      "uses": 149
+    },
+    {
+      "name": "Paper 72",
+      "light": "rgba(252, 250, 244, 0.72)",
+      "uses": 33
+    },
+    {
+      "name": "Paper 45",
+      "light": "rgba(252, 250, 244, 0.45)",
+      "uses": 3
+    },
+    {
+      "name": "Paper 22",
+      "light": "rgba(252, 250, 244, 0.22)",
+      "uses": 27
+    },
+    {
+      "name": "Ink 18",
+      "light": "rgba(28, 27, 22, 0.18)",
+      "uses": 33
+    },
+    {
+      "name": "Ink 15",
+      "light": "rgba(28, 27, 22, 0.15)",
+      "uses": 39
+    },
+    {
+      "name": "Ink 12",
+      "light": "rgba(28, 27, 22, 0.12)",
+      "uses": 104
+    },
+    {
+      "name": "Racing Deep 60",
+      "light": "rgba(21, 43, 30, 0.6)",
+      "uses": 0
+    },
+    {
+      "name": "Cream 28",
+      "light": "rgba(239, 233, 219, 0.28)",
+      "uses": 3
+    },
+    {
+      "name": "Cream 16",
+      "light": "rgba(239, 233, 219, 0.16)",
+      "uses": 3
+    },
+    {
+      "name": "Racing Wash 60",
+      "light": "rgba(10, 22, 15, 0.6)",
+      "uses": 6
+    }
+  ],
+  "byPage": {
+    "/": {
+      "tokens": {
+        "Paper": 30,
+        "Racing Deep": 17,
+        "Cream On Dark": 18,
+        "Chartreuse": 9,
+        "Ink 12": 43,
+        "Racing Wash 60": 6,
+        "Ink": 3,
+        "Olive": 3,
+        "Parchment": 6,
+        "Racing": 2
+      },
+      "raw": 0,
+      "gradient": 3,
+      "variable": 6
+    },
+    "/properties": {
+      "tokens": {
+        "Paper": 36,
+        "Racing Deep": 9,
+        "Cream On Dark": 12,
+        "Ink 12": 9,
+        "Olive": 9,
+        "Ink": 45,
+        "Ink Soft": 27,
+        "Chartreuse": 21,
+        "Parchment": 6,
+        "Ink 18": 9,
+        "Ink 15": 6
+      },
+      "raw": 0,
+      "gradient": 0,
+      "variable": 0
+    },
+    "/neighbourhoods": {
+      "tokens": {
+        "Paper": 15,
+        "Racing Deep": 3,
+        "Cream On Dark": 3,
+        "Olive": 9,
+        "Ink": 6,
+        "Ink Soft": 12,
+        "Parchment": 6,
+        "Chartreuse": 3
+      },
+      "raw": 0,
+      "gradient": 0,
+      "variable": 3
+    },
+    "/notes": {
+      "tokens": {
+        "Paper": 9,
+        "Racing Deep": 3,
+        "Cream On Dark": 3,
+        "Ink 12": 3,
+        "Olive": 4,
+        "Ink Soft": 29,
+        "Ink": 6,
+        "Chartreuse": 3,
+        "Paper 22": 6,
+        "Racing": 6,
+        "Paper 72": 6,
+        "Parchment": 3,
+        "Cream 28": 3,
+        "Cream 16": 3
+      },
+      "raw": 0,
+      "gradient": 0,
+      "variable": 0
+    },
+    "/about": {
+      "tokens": {
+        "Paper": 42,
+        "Racing Deep": 9,
+        "Cream On Dark": 3,
+        "Olive": 15,
+        "Ink": 18,
+        "Ink 12": 12,
+        "Ink Soft": 12,
+        "Paper 72": 18,
+        "Chartreuse": 6,
+        "Paper 22": 6,
+        "Racing": 3,
+        "Parchment": 3
+      },
+      "raw": 0,
+      "gradient": 0,
+      "variable": 0
+    },
+    "/contact": {
+      "tokens": {
+        "Paper": 18,
+        "Racing Deep": 3,
+        "Cream On Dark": 3,
+        "Olive": 24,
+        "Ink": 24,
+        "Paper 45": 3,
+        "Ink Soft": 6,
+        "Ink 15": 12,
+        "Paper 22": 6,
+        "Racing": 3,
+        "Paper 72": 6,
+        "Chartreuse": 3,
+        "Ink 12": 9
+      },
+      "raw": 0,
+      "gradient": 0,
+      "variable": 0
+    },
+    "/properties/:slug": {
+      "tokens": {
+        "Paper": 14,
+        "Racing Deep": 6,
+        "Cream On Dark": 3,
+        "Chartreuse": 9,
+        "Ink 18": 12,
+        "Olive": 21,
+        "Ink 15": 18,
+        "Ink Soft": 33,
+        "Ink 12": 8,
+        "Ink": 30,
+        "Racing": 6,
+        "Paper 72": 3,
+        "Paper 22": 3,
+        "Parchment": 3
+      },
+      "raw": 0,
+      "gradient": 0,
+      "variable": 12
+    },
+    "/notes/:slug": {
+      "tokens": {
+        "Paper": 9,
+        "Racing Deep": 6,
+        "Cream On Dark": 3,
+        "Ink 12": 20,
+        "Ink 18": 12,
+        "Olive": 15,
+        "Ink Soft": 30,
+        "Chartreuse": 3,
+        "Ink": 21,
+        "Parchment": 3,
+        "Ink 15": 3
+      },
+      "raw": 0,
+      "gradient": 0,
+      "variable": 3
+    },
+    "/404": {
+      "tokens": {
+        "Racing Deep": 3,
+        "Cream On Dark": 15,
+        "Ink": 3,
+        "Paper": 9,
+        "Paper 22": 6,
+        "Chartreuse": 3
+      },
+      "raw": 0,
+      "gradient": 0,
+      "variable": 0
+    }
+  },
+  "rawHits": [],
+  "rawCount": 0,
+  "unknownTokens": [],
+  "unusedStyles": [
+    "Ink 60",
+    "Stone",
+    "Oxblood",
+    "Racing Deep 60"
+  ],
+  "missingCore": {
+    "/": [],
+    "/properties": [
+      "Racing"
+    ],
+    "/neighbourhoods": [
+      "Racing"
+    ],
+    "/notes": [],
+    "/about": [],
+    "/contact": [],
+    "/properties/:slug": [],
+    "/notes/:slug": [
+      "Racing"
+    ]
+  },
+  "softVs60": {
+    "/": {
+      "Ink Soft": 0,
+      "Ink 60": 0,
+      "Olive": 3
+    },
+    "/properties": {
+      "Ink Soft": 27,
+      "Ink 60": 0,
+      "Olive": 9
+    },
+    "/neighbourhoods": {
+      "Ink Soft": 12,
+      "Ink 60": 0,
+      "Olive": 9
+    },
+    "/notes": {
+      "Ink Soft": 29,
+      "Ink 60": 0,
+      "Olive": 4
+    },
+    "/about": {
+      "Ink Soft": 12,
+      "Ink 60": 0,
+      "Olive": 15
+    },
+    "/contact": {
+      "Ink Soft": 6,
+      "Ink 60": 0,
+      "Olive": 24
+    },
+    "/properties/:slug": {
+      "Ink Soft": 33,
+      "Ink 60": 0,
+      "Olive": 21
+    },
+    "/notes/:slug": {
+      "Ink Soft": 30,
+      "Ink 60": 0,
+      "Olive": 15
+    }
+  },
+  "compReport": [
+    {
+      "name": "Footer",
+      "tokens": {
+        "Parchment": 3,
+        "Ink 18": 25,
+        "Paper": 3,
+        "Ink": 27,
+        "Olive": 9,
+        "Ink Soft": 6
+      },
+      "raw": 0
+    },
+    {
+      "name": "Nav",
+      "tokens": {
+        "Paper": 19,
+        "Olive": 3,
+        "Ink Soft": 33,
+        "Ink": 48,
+        "Ink 15": 2,
+        "Parchment": 1,
+        "Ink 12": 1
+      },
+      "raw": 0
+    },
+    {
+      "name": "Services card",
+      "tokens": {
+        "Ink Soft": 2
+      },
+      "raw": 0
+    },
+    {
+      "name": "Arbour_PrincipalProfile",
+      "tokens": {
+        "Paper": 3,
+        "Olive": 3,
+        "Ink": 3,
+        "Ink Soft": 3
+      },
+      "raw": 0
+    },
+    {
+      "name": "Arbour_OfficeAtlasPanel",
+      "tokens": {
+        "Paper": 3,
+        "Olive": 6,
+        "Ink Soft": 3,
+        "Ink": 3
+      },
+      "raw": 0
+    },
+    {
+      "name": "Arbour Neighbourhood Feature",
+      "tokens": {
+        "Paper": 6,
+        "Ink Soft": 6,
+        "Ink": 3
+      },
+      "raw": 0
+    }
+  ],
+  "tokenUsageSorted": [
+    [
+      "Paper",
+      182
+    ],
+    [
+      "Ink",
+      156
+    ],
+    [
+      "Ink Soft",
+      149
+    ],
+    [
+      "Ink 12",
+      104
+    ],
+    [
+      "Olive",
+      100
+    ],
+    [
+      "Cream On Dark",
+      63
+    ],
+    [
+      "Chartreuse",
+      60
+    ],
+    [
+      "Racing Deep",
+      59
+    ],
+    [
+      "Ink 15",
+      39
+    ],
+    [
+      "Ink 18",
+      33
+    ],
+    [
+      "Paper 72",
+      33
+    ],
+    [
+      "Parchment",
+      30
+    ],
+    [
+      "Paper 22",
+      27
+    ],
+    [
+      "Racing",
+      20
+    ],
+    [
+      "Racing Wash 60",
+      6
+    ],
+    [
+      "Cream 28",
+      3
+    ],
+    [
+      "Cream 16",
+      3
+    ],
+    [
+      "Paper 45",
+      3
+    ]
+  ]
+}

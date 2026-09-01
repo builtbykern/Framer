@@ -1,0 +1,30 @@
+{
+  "applied": 24,
+  "notes": [
+    "/|Desktop Footer NONE→1200",
+    "/|Tablet Footer NONE→1200",
+    "/|Phone Footer NONE→1200",
+    "/properties|Desktop Footer NONE→1200",
+    "/properties|Tablet Footer NONE→1200",
+    "/properties|Phone Footer NONE→1200",
+    "/neighbourhoods|Desktop Footer NONE→1200",
+    "/neighbourhoods|Tablet Footer NONE→1200",
+    "/neighbourhoods|Phone Footer NONE→1200",
+    "/notes|Desktop Footer NONE→1200",
+    "/notes|Tablet Footer NONE→1200",
+    "/notes|Phone Footer NONE→1200",
+    "/about|Desktop Footer NONE→1200",
+    "/about|Tablet Footer NONE→1200",
+    "/about|Phone Footer NONE→1200",
+    "/contact|Desktop Footer NONE→1200",
+    "/contact|Tablet Footer NONE→1200",
+    "/contact|Phone Footer NONE→1200",
+    "/properties/:slug|Desktop Footer NONE→1200",
+    "/properties/:slug|Tablet Footer NONE→1200",
+    "/properties/:slug|Phone Footer NONE→1200",
+    "/notes/:slug|Desktop Footer NONE→1200",
+    "/notes/:slug|Tablet Footer NONE→1200",
+    "/notes/:slug|Phone Footer NONE→1200"
+  ],
+  "result": "Lint: 25 warnings."
+}

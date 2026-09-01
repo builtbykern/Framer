@@ -1,0 +1,39 @@
+{
+  "applied": 235,
+  "noteCount": 235,
+  "sample": [
+    "//Territories Header",
+    "//yoT5YFvp5",
+    "//Portfolio Container",
+    "//Content",
+    "//PmjD_eoIk",
+    "//DZtq5dg52",
+    "//Process List",
+    "//Arbour_StatsBand",
+    "//Recognition Header",
+    "//Recognition List",
+    "//ojxCqw0q5",
+    "//ioPfPOqlo",
+    "//b800nNNFA",
+    "//Journal Deck",
+    "//Content Area",
+    "//Territories Header",
+    "//wBAtV56MEyoT5YFvp5",
+    "//Portfolio Container",
+    "//Content",
+    "//wBAtV56MEPmjD_eoIk",
+    "//wBAtV56MEDZtq5dg52",
+    "//Process List",
+    "//Arbour_StatsBand",
+    "//Recognition Header",
+    "//Recognition List"
+  ],
+  "results": [
+    "Lint: 36 warnings.",
+    "Lint: 21 warnings.",
+    "Lint: 16 warnings.",
+    "Lint: 3 errors, 21 warnings.",
+    "Lint: 1 error, 25 warnings.",
+    "Lint: 1 error, 32 warnings."
+  ]
+}

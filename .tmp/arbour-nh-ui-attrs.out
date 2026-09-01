@@ -1,0 +1,167 @@
+{
+  "found": [
+    "q3QLrEX8k:Directory Panel",
+    "km7dUqZI9:Territory Checkerboard",
+    "aJLpuUP0qq3QLrEX8k:Directory Panel",
+    "aJLpuUP0qkm7dUqZI9:Territory Checkerboard",
+    "Qonafp_oDq3QLrEX8k:Directory Panel",
+    "Qonafp_oDkm7dUqZI9:Territory Checkerboard"
+  ],
+  "NrbMmTnFX": {
+    "id": "NrbMmTnFX",
+    "name": "Territory Grid Section",
+    "type": "FrameNode",
+    "layout": "stack",
+    "stackDirection": "vertical",
+    "gap": "32px",
+    "padding": "128px 48px 128px 48px",
+    "width": "1fr",
+    "height": "auto",
+    "children": [
+      "Dsp5KQS9c",
+      "Directory Panel"
+    ]
+  },
+  "km7dUqZI9": {
+    "id": "km7dUqZI9",
+    "name": "Territory Checkerboard",
+    "type": "FrameNode",
+    "layout": "grid",
+    "gap": "16px",
+    "width": "1fr",
+    "height": "auto",
+    "gridColumnCount": 2,
+    "children": [
+      "Territory Card"
+    ]
+  },
+  "i56eWdACt": {
+    "id": "i56eWdACt",
+    "name": "Territory Card",
+    "type": "FrameNode",
+    "layout": "stack",
+    "stackDirection": "horizontal",
+    "gap": "0px",
+    "width": "1fr",
+    "height": "360px",
+    "border": "1px solid rgba(28, 27, 22, 0.14)",
+    "overflow": "clip",
+    "children": [
+      "Territory Dossier",
+      "Territory Photograph"
+    ]
+  },
+  "QAa2V2fag": {
+    "id": "QAa2V2fag",
+    "name": "Territory Dossier",
+    "type": "FrameNode",
+    "layout": "stack",
+    "stackDirection": "vertical",
+    "padding": "28px",
+    "width": "1fr",
+    "height": "1fr",
+    "overflow": "clip",
+    "children": [
+      "Place Header",
+      "Cartographic Field",
+      "Place Reading"
+    ]
+  },
+  "hX5NduSNi": {
+    "id": "hX5NduSNi",
+    "name": "Territory Photograph",
+    "type": "FrameNode",
+    "layout": "stack",
+    "stackDirection": "vertical",
+    "gap": "0px",
+    "width": "1fr",
+    "height": "360px",
+    "overflow": "clip",
+    "children": []
+  },
+  "v61cPV2xF": {
+    "id": "v61cPV2xF",
+    "type": "RichTextNode",
+    "width": "1fr",
+    "height": "auto",
+    "overflow": "clip",
+    "children": []
+  },
+  "rie14TaT9": {
+    "id": "rie14TaT9",
+    "type": "RichTextNode",
+    "width": "1fr",
+    "height": "auto",
+    "children": []
+  },
+  "d9SNjsdke": {
+    "id": "d9SNjsdke",
+    "type": "RichTextNode",
+    "width": "auto",
+    "height": "auto",
+    "children": [
+      "v:d9SNjsdke:0"
+    ]
+  },
+  "sJB1mG6E1": {
+    "id": "sJB1mG6E1",
+    "type": "RichTextNode",
+    "width": "1fr",
+    "height": "auto",
+    "children": []
+  },
+  "rt_v61cPV2xF": {
+    "attrs": {
+      "overflow": "clip",
+      "left": "null",
+      "right": "null",
+      "top": "null",
+      "bottom": "null",
+      "centerAnchorX": "0%",
+      "centerAnchorY": "0%",
+      "constraintsLocked": false,
+      "width": "1fr",
+      "height": "auto",
+      "text": "var(--variable-mNRagFPfJ)",
+      "textTruncation": "4",
+      "textStylePreset": "Arbour/Body",
+      "textAlignment": "start",
+      "textColor": "var(--token-0bc68d0d-4c0b-4126-8cce-9425cb153f4e)"
+    }
+  },
+  "rt_rie14TaT9": {
+    "attrs": {
+      "left": "-100px",
+      "right": "null",
+      "top": "-100px",
+      "bottom": "null",
+      "centerAnchorX": "0%",
+      "centerAnchorY": "0%",
+      "constraintsLocked": false,
+      "width": "1fr",
+      "height": "auto",
+      "text": "var(--variable-tBUaKupCV)",
+      "textStylePreset": "Arbour/Subhead",
+      "textAlignment": "start",
+      "textColor": "var(--token-e2f9a9eb-668a-4021-80d9-b04413b5f392)"
+    }
+  },
+  "rt_sJB1mG6E1": {
+    "attrs": {
+      "left": "null",
+      "right": "null",
+      "top": "null",
+      "bottom": "null",
+      "centerAnchorX": "0%",
+      "centerAnchorY": "0%",
+      "constraintsLocked": false,
+      "width": "1fr",
+      "height": "auto",
+      "text": "var(--variable-ZIEwtEwXa)",
+      "textStylePreset": "Arbour/Meta",
+      "textAlignment": "start",
+      "textColor": "var(--token-a16d0333-6bd5-4d60-aa00-fac26447145d)",
+      "visible": "false"
+    }
+  }
+}

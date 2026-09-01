@@ -1,0 +1,32 @@
+[
+  {
+    "label": "D",
+    "w": 1440,
+    "path": ".tmp/arbour-nh-live-D.png",
+    "imgCount": 18,
+    "placeholderCount": 0,
+    "bgUrls": [],
+    "hasChelsea": true,
+    "hasContentPlaceholder": false
+  },
+  {
+    "label": "T",
+    "w": 810,
+    "path": ".tmp/arbour-nh-live-T.png",
+    "imgCount": 8,
+    "placeholderCount": 0,
+    "bgUrls": [],
+    "hasChelsea": true,
+    "hasContentPlaceholder": false
+  },
+  {
+    "label": "P",
+    "w": 390,
+    "path": ".tmp/arbour-nh-live-P.png",
+    "imgCount": 7,
+    "placeholderCount": 0,
+    "bgUrls": [],
+    "hasChelsea": true,
+    "hasContentPlaceholder": false
+  }
+]

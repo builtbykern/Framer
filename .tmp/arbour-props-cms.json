@@ -1,0 +1,335 @@
+{
+  "collection": {
+    "id": "VPfyI5Rxz",
+    "name": "Properties",
+    "itemCount": 6
+  },
+  "fields": [
+    {
+      "id": "JpvlXWFTC",
+      "name": "Title",
+      "type": "string",
+      "required": true
+    },
+    {
+      "id": "fa3JCTHNW",
+      "name": "Price",
+      "type": "string",
+      "required": true
+    },
+    {
+      "id": "sx_scwXZw",
+      "name": "Location",
+      "type": "string",
+      "required": true
+    },
+    {
+      "id": "CMUgdu94U",
+      "name": "Neighbourhood",
+      "type": "collectionReference",
+      "required": true
+    },
+    {
+      "id": "WHncbRkaV",
+      "name": "Featured",
+      "type": "boolean"
+    },
+    {
+      "id": "NhFNrVQpk",
+      "name": "Bedrooms",
+      "type": "number"
+    },
+    {
+      "id": "eITsJ9En3",
+      "name": "Bathrooms",
+      "type": "number"
+    },
+    {
+      "id": "q4Uo_EM4a",
+      "name": "Area",
+      "type": "string",
+      "required": true
+    },
+    {
+      "id": "XbvvpgHkd",
+      "name": "Hero Image",
+      "type": "image",
+      "required": true
+    },
+    {
+      "id": "Ofa3NaclH",
+      "name": "Gallery",
+      "type": "array",
+      "required": false
+    },
+    {
+      "id": "wPoac275x",
+      "name": "Description",
+      "type": "formattedText",
+      "required": true
+    },
+    {
+      "id": "lQmjCV6Uu",
+      "name": "Features",
+      "type": "string",
+      "required": true
+    },
+    {
+      "id": "QRdU66YBY",
+      "name": "SEO Title",
+      "type": "string",
+      "required": true
+    },
+    {
+      "id": "HTr2Xrqif",
+      "name": "SEO Description",
+      "type": "string",
+      "required": true
+    },
+    {
+      "id": "v7H6zOjma",
+      "name": "Status",
+      "type": "enum"
+    },
+    {
+      "id": "PTGBkP8Sq",
+      "name": "Gallery Image One",
+      "type": "image",
+      "required": true
+    },
+    {
+      "id": "AZU9d3yUd",
+      "name": "Gallery Image Two",
+      "type": "image",
+      "required": true
+    },
+    {
+      "id": "MVdVRzr5d",
+      "name": "Gallery Image Three",
+      "type": "image",
+      "required": true
+    },
+    {
+      "id": "bpAC1Cq67",
+      "name": "Asking Price",
+      "type": "number"
+    },
+    {
+      "id": "zQ6nBGiUU",
+      "name": "Gallery Image Four",
+      "type": "image",
+      "required": false
+    },
+    {
+      "id": "FCqIX3F0S",
+      "name": "Gallery Narrative",
+      "type": "formattedText",
+      "required": false
+    },
+    {
+      "id": "SXn09JG9g",
+      "name": "Journal Entry",
+      "type": "boolean"
+    }
+  ],
+  "items": [
+    {
+      "id": "O_32H7OFQ",
+      "slug": "cheyne-walk-riverside-residence",
+      "JpvlXWFTC": "Cheyne Walk Riverside Residence",
+      "fa3JCTHNW": "£4,750,000",
+      "sx_scwXZw": "Cheyne Walk, Chelsea SW3",
+      "CMUgdu94U": [
+        "type",
+        "value"
+      ],
+      "WHncbRkaV": true,
+      "NhFNrVQpk": 4,
+      "eITsJ9En3": 3,
+      "q4Uo_EM4a": "2,840 sq ft",
+      "XbvvpgHkd": "https://framerusercontent.com/images/LbYhvKzwEJNib5o77SBnb59y0.jpg",
+      "Ofa3NaclH": [
+        "0",
+        "1",
+        "2"
+      ],
+      "wPoac275x": "string",
+      "lQmjCV6Uu": "Four bedrooms · Riverside setting · Private walled courtyard · Principal suite across the second floor",
+      "QRdU66YBY": "Cheyne Walk Riverside Residence | Arbour",
+      "HTr2Xrqif": "Four-bedroom riverside residence on Cheyne Walk, Chelsea — restored brick façade, raised-ground receptions, and Thames views across 2,840 sq ft.",
+      "v7H6zOjma": "For Sale",
+      "PTGBkP8Sq": "https://framerusercontent.com/images/TU8VoRAYMhzJbNfqoR8q1LUUv0.jpg",
+      "AZU9d3yUd": "https://framerusercontent.com/images/ojFEpBxUK0v5ZdHavr6BvCUang.jpg",
+      "MVdVRzr5d": "https://framerusercontent.com/images/PHKuq8b2CbWGW2oLkv99sqx6ZIU.jpg",
+      "bpAC1Cq67": 4750000,
+      "zQ6nBGiUU": "https://framerusercontent.com/images/i9soEyVT6DZfiOo4U0AoJB8Xg.jpg",
+      "FCqIX3F0S": "string",
+      "SXn09JG9g": false
+    },
+    {
+      "id": "XvxpO6t4m",
+      "slug": "frognal-georgian-villa",
+      "JpvlXWFTC": "Frognal Georgian Villa",
+      "fa3JCTHNW": "£8,950,000",
+      "sx_scwXZw": "Frognal, Hampstead NW3",
+      "CMUgdu94U": [
+        "type",
+        "value"
+      ],
+      "WHncbRkaV": true,
+      "NhFNrVQpk": 6,
+      "eITsJ9En3": 5,
+      "q4Uo_EM4a": "5,800 sq ft",
+      "XbvvpgHkd": "https://framerusercontent.com/images/TNfTZnbeGo5SMOXppWDMzBohsU.jpg",
+      "Ofa3NaclH": [
+        "0",
+        "1",
+        "2"
+      ],
+      "wPoac275x": "string",
+      "lQmjCV6Uu": "Grade II listed villa · Gardens backing onto Hampstead Heath · Six bedrooms · Wine cellar and home cinema",
+      "QRdU66YBY": "Frognal Georgian Villa | Arbour",
+      "HTr2Xrqif": "Grade II Georgian villa on Frognal, Hampstead — six bedrooms, Heath-backed gardens, and period reception rooms across 5,800 sq ft.",
+      "v7H6zOjma": "For Sale",
+      "PTGBkP8Sq": "https://framerusercontent.com/images/OvFWWet7jRwYYL7BnAMRQTACDc.jpg",
+      "AZU9d3yUd": "https://framerusercontent.com/images/mAiVG80DHYgpNB8IzBvkY3BMdT4.jpg",
+      "MVdVRzr5d": "https://framerusercontent.com/images/55fU64RUqocwyRRGeoOtjQdc07s.jpg",
+      "bpAC1Cq67": 8950000,
+      "zQ6nBGiUU": "https://framerusercontent.com/images/eU5StD6q2HpWyFTQjqzZnThvg.jpg",
+      "FCqIX3F0S": "string",
+      "SXn09JG9g": false
+    },
+    {
+      "id": "UoQUHJmyn",
+      "slug": "bibury-stone-manor",
+      "JpvlXWFTC": "Bibury Stone Manor",
+      "fa3JCTHNW": "£3,650,000",
+      "sx_scwXZw": "Bibury, Gloucestershire",
+      "CMUgdu94U": [
+        "type",
+        "value"
+      ],
+      "WHncbRkaV": false,
+      "NhFNrVQpk": 5,
+      "eITsJ9En3": 4,
+      "q4Uo_EM4a": "4,200 sq ft",
+      "XbvvpgHkd": "https://framerusercontent.com/images/r3ikfrQGbEcLmfVHpdTfrST0qQ8.jpg",
+      "Ofa3NaclH": [
+        "0",
+        "1",
+        "2"
+      ],
+      "wPoac275x": "string",
+      "lQmjCV6Uu": "Seventeenth-century stone manor · Converted stone barn annexe · Walled kitchen garden · Orchard and courtyard",
+      "QRdU66YBY": "Bibury Stone Manor | Arbour",
+      "HTr2Xrqif": "Honey-stone Cotswolds manor near Bibury — five bedrooms, seventeenth-century character, and private approach across 4,200 sq ft.",
+      "v7H6zOjma": "For Sale",
+      "PTGBkP8Sq": "https://framerusercontent.com/images/jqF7vCSvRWPV7DSCYONTO5fQ3sM.jpg",
+      "AZU9d3yUd": "https://framerusercontent.com/images/wMb4UJir2ajBPQhIvlkpBaMudM.jpg",
+      "MVdVRzr5d": "https://framerusercontent.com/images/LDRj2XTq2KA27olL3Skt4URejP8.jpg",
+      "bpAC1Cq67": 3650000,
+      "zQ6nBGiUU": "https://framerusercontent.com/images/CX3lNHygWXf7avp9dg5nMCZMWg.jpg",
+      "FCqIX3F0S": "string",
+      "SXn09JG9g": false
+    },
+    {
+      "id": "du52Xg978",
+      "slug": "royal-avenue-lateral-apartment",
+      "JpvlXWFTC": "Royal Avenue Lateral Apartment",
+      "fa3JCTHNW": "£2,950,000",
+      "sx_scwXZw": "Royal Avenue, Chelsea SW3",
+      "CMUgdu94U": [
+        "type",
+        "value"
+      ],
+      "WHncbRkaV": false,
+      "NhFNrVQpk": 2,
+      "eITsJ9En3": 2,
+      "q4Uo_EM4a": "1,680 sq ft",
+      "XbvvpgHkd": "https://framerusercontent.com/images/GkSIc0sFCHvK7PnF7QWErfMYsvo.jpg",
+      "Ofa3NaclH": [
+        "0",
+        "1",
+        "2"
+      ],
+      "wPoac275x": "string",
+      "lQmjCV6Uu": "Entire first-floor lateral apartment · Private balcony · Bulthaup kitchen · Porter and lift service",
+      "QRdU66YBY": "Royal Avenue Lateral Apartment | Arbour",
+      "HTr2Xrqif": "Lateral first-floor apartment on Royal Avenue, Chelsea — two bedrooms, private balcony over plane trees, and open modern plan across 1,680 sq ft.",
+      "v7H6zOjma": "For Sale",
+      "PTGBkP8Sq": "https://framerusercontent.com/images/0pC1XQf9v7YiY7rnP1xngOb4QI.jpg",
+      "AZU9d3yUd": "https://framerusercontent.com/images/1qPzfuO67tvknSUI3kd3DvZQ4YM.jpg",
+      "MVdVRzr5d": "https://framerusercontent.com/images/Uh4y4khMGzXwpIC1rvAgRbg2I.jpg",
+      "bpAC1Cq67": 2950000,
+      "zQ6nBGiUU": "https://framerusercontent.com/images/JBbi5R0Qef64pshjnYnQgOcRs.jpg",
+      "FCqIX3F0S": "string",
+      "SXn09JG9g": false
+    },
+    {
+      "id": "pJzNUKbbP",
+      "slug": "ladbroke-grove-garden-house",
+      "JpvlXWFTC": "Ladbroke Grove Garden House",
+      "fa3JCTHNW": "£5,250,000",
+      "sx_scwXZw": "Ladbroke Grove, Notting Hill W11",
+      "CMUgdu94U": [
+        "type",
+        "value"
+      ],
+      "WHncbRkaV": true,
+      "NhFNrVQpk": 5,
+      "eITsJ9En3": 4,
+      "q4Uo_EM4a": "3,420 sq ft",
+      "XbvvpgHkd": "https://framerusercontent.com/images/OzuXREVblE0sc7nhN339AtynOI.jpg",
+      "Ofa3NaclH": [
+        "0",
+        "1",
+        "2"
+      ],
+      "wPoac275x": "string",
+      "lQmjCV6Uu": "Five-floor garden house · Original cornicing and fireplaces · Glass-walled rear extension · Direct gated garden access",
+      "QRdU66YBY": "Ladbroke Grove Garden House | Arbour",
+      "HTr2Xrqif": "Five-bedroom garden house on Ladbroke Grove, Notting Hill — period front rooms, glass-walled rear, and courtyard living across 3,420 sq ft.",
+      "v7H6zOjma": "For Sale",
+      "PTGBkP8Sq": "https://framerusercontent.com/images/1pmm5sJ3hUnozvPJ2Mb73v7TPtc.jpg",
+      "AZU9d3yUd": "https://framerusercontent.com/images/vgQ8pQuA3CVAqhIIyKdNO1XRe8.jpg",
+      "MVdVRzr5d": "https://framerusercontent.com/images/hkjptmezu64wT6rCPSjuoeK9upc.jpg",
+      "bpAC1Cq67": 5250000,
+      "zQ6nBGiUU": "https://framerusercontent.com/images/OvFWWet7jRwYYL7BnAMRQTACDc.jpg",
+      "FCqIX3F0S": "string",
+      "SXn09JG9g": false
+    },
+    {
+      "id": "xKchdtkT1",
+      "slug": "colville-mews-house",
+      "JpvlXWFTC": "Colville Mews House",
+      "fa3JCTHNW": "£2,450,000",
+      "sx_scwXZw": "Colville Terrace, Notting Hill W11",
+      "CMUgdu94U": [
+        "type",
+        "value"
+      ],
+      "WHncbRkaV": false,
+      "NhFNrVQpk": 3,
+      "eITsJ9En3": 2,
+      "q4Uo_EM4a": "1,420 sq ft",
+      "XbvvpgHkd": "https://framerusercontent.com/images/gAMGkrSVnr6Ga0qLkY26jt5r3HE.jpg",
+      "Ofa3NaclH": [
+        "0",
+        "1",
+        "2"
+      ],
+      "wPoac275x": "string",
+      "lQmjCV6Uu": "Quiet cobbled mews house · Roof terrace · Integral garage · Open kitchen-living plan",
+      "QRdU66YBY": "Colville Mews House | Arbour",
+      "HTr2Xrqif": "Three-bedroom mews house off Colville Terrace, Notting Hill — cobbled approach, teal door, and bright open-plan living across 1,420 sq ft.",
+      "v7H6zOjma": "For Sale",
+      "PTGBkP8Sq": "https://framerusercontent.com/images/30WZrL4TP9QKkWXDzKPtLGaGf7E.jpg",
+      "AZU9d3yUd": "https://framerusercontent.com/images/SY1CcKWkU8E5ldBo4gdmj1udExk.jpg",
+      "MVdVRzr5d": "https://framerusercontent.com/images/2CRMsDwm36odXXeLAcJ6kYdu1po.jpg",
+      "bpAC1Cq67": 2450000,
+      "zQ6nBGiUU": "https://framerusercontent.com/images/UTMIGQdtkrk05ocnd8VqYESjUns.jpg",
+      "FCqIX3F0S": "string",
+      "SXn09JG9g": false
+    }
+  ]
+}

@@ -1,0 +1,141 @@
+{
+  "codeFile/fOrMtU2:default": {
+    "controls": {
+      "$control__position": {
+        "type": "enum",
+        "options": [
+          "top",
+          "bottom",
+          "left",
+          "right"
+        ],
+        "defaultValue": "bottom"
+      },
+      "$control__coverage": {
+        "type": "number",
+        "defaultValue": 60
+      },
+      "$control__strength": {
+        "type": "number",
+        "defaultValue": 1.2
+      },
+      "$control__divCount": {
+        "type": "number",
+        "defaultValue": 4
+      },
+      "$control__exponential": {
+        "type": "boolean",
+        "defaultValue": true
+      },
+      "$control__curve": {
+        "type": "enum",
+        "options": [
+          "linear",
+          "bezier",
+          "ease-in",
+          "ease-out",
+          "ease-in-out"
+        ],
+        "defaultValue": "linear"
+      },
+      "$control__opacity": {
+        "type": "number",
+        "defaultValue": 1
+      }
+    }
+  },
+  "eITABUpGF0ytPyxYWYqu": {
+    "controls": {
+      "$control__shape": {
+        "type": "enum",
+        "options": [
+          "edge",
+          "u",
+          "inverted"
+        ],
+        "defaultValue": "edge"
+      },
+      "$control__position": {
+        "type": "enum",
+        "options": [
+          "bottom",
+          "top"
+        ],
+        "defaultValue": "bottom"
+      },
+      "$control__strength": {
+        "type": "number",
+        "defaultValue": 8
+      },
+      "$control__mode": {
+        "type": "enum",
+        "options": [
+          "Always On",
+          "Follow Scroll",
+          "Off"
+        ],
+        "defaultValue": "Always On"
+      },
+      "$control__settle": {
+        "type": "number",
+        "defaultValue": 280
+      }
+    }
+  }
+}
+BLUR_INST {
+  "type": "ComponentInstanceNode",
+  "id": "AorZcTogz",
+  "component": "eITABUpGF0ytPyxYWYqu",
+  "$parentId": "WQLkyLRf1",
+  "$groundNodeId": "WQLkyLRf1",
+  "$scopeId": "augiA20Il",
+  "$rect": {
+    "width": 1200
+  },
+  "$mediaQuery": {
+    "range": "(min-width: 1200px)",
+    "name": "Desktop"
+  },
+  "$componentDisplayName": "Scroll Blur",
+  "attributes": {
+    "$control__shape": "U",
+    "$control__position": "Bottom",
+    "$control__strength": "2",
+    "$control__mode": "Follow Scroll",
+    "$control__settle": "300",
+    "position": "fixed",
+    "left": "null",
+    "right": "null",
+    "top": "null",
+    "bottom": "0px",
+    "centerAnchorX": "50%",
+    "centerAnchorY": "95.5%",
+    "constraintsLocked": false,
+    "width": "100%",
+    "height": "72px",
+    "zIndex": "3"
+  }
+}
+RAIL_INST {
+  "type": "ComponentInstanceNode",
+  "id": "uGXrCjuAT",
+  "component": "MxeAzs2A7r9z5wIAtPij",
+  "$parentId": "u7ILl18T3",
+  "$groundNodeId": "WQLkyLRf1",
+  "$scopeId": "augiA20Il",
+  "$rect": {
+    "x": 0,
+    "y": 0,
+    "width": 1104,
+    "height": 634
+  },
+  "$mediaQuery": {
+    "range": "(min-width: 1200px)",
+    "name": "Desktop"
+  },
+  "$componentDisplayName": "Arbour_TerritoryRail",
+  "attributes": {
+    "$control__territories": "[{\"type\":\"object\",\"value\":{\"name\":{\"type\":\"string\",\"value\":\"Chelsea\"},\"imageUrl\":{\"type\":\"string\",\"value\":\"https://framerusercontent.com/images/8IGPbFclzfRApOAIssLZgmHsnw.png\"},\"slug\":{\"type\":\"string\",\"value\":\"chelsea\"},\"alt\":{\"type\":\"string\",\"value\":\"Explore prime Chelsea homes for sale, from Cheyne Walk river frontages to quiet garden squares off the King's Road.\"},\"coords\":{\"type\":\"string\",\"value\":\"51.4875° N — 0.1687° W\"}},\"id\":\"default-item-0\"},{\"type\":\"object\",\"value\":{\"name\":{\"type\":\"string\",\"value\":\"Notting Hill\"},\"imageUrl\":{\"type\":\"string\",\"value\":\"https://framerusercontent.com/images/AOaAcGKE51AkwHdqIubUdXQHRf8.png\"},\"slug\":{\"type\":\"string\",\"value\":\"notting-hill\"},\"alt\":{\"type\":\"string\",\"value\":\"Discover Notting Hill's finest pastel townhouses and garden squares, moments from Portobello Road.\"},\"coords\":{\"type\":\"string\",\"value\":\"51.5090° N — 0.1963° W\"}},\"id\":\"default-item-1\"},{\"type\":\"object\",\"value\":{\"name\":{\"type\":\"string\",\"value\":\"Hampstead\"},\"imageUrl\":{\"type\":\"string\",\"value\":\"https://framerusercontent.com/images/cCQCSnQDjuSX1xXtwUtrzIHQ.png\"},\"slug\":{\"type\":\"string\",\"value\":\"hampstead\"},\"alt\":{\"type\":\"string\",\"value\":\"Search Hampstead's finest period houses, moments from the Heath and Kenwood House.\"},\"coords\":{\"type\":\"string\",\"value\":\"51.5560° N — 0.1780° W\"}},\"id\":\"default-item-2\"},{\"type\":\"object\",\"value\":{\"name\":{\"type\":\"string\",\"value\":\"The Cotswolds\"},\"imageUrl\":{\"type\":\"string\",\"value\":\"https://framerusercontent.com/images/UT2rfsfKG6VCT8OfYxd7DZWEA0.png\"},\"slug\":{\"type\":\"string\",\"value\":\"the-cotswolds\"},\"alt\":{\"type\":\"string\",\"value\":\"Browse country houses and cottages for sale across the Cotswolds' finest villages.\"},\"coords\":{\"type\":\"string\",\"value\":\"51.8330° N — 1.8433° W\"}},\"id\":\"default-item-3\"}]",
+    "$control__content": "{\"itemLimit\":{\"type\":\"number\",\"value\":12},\"linkBase\":{\"type\":\"string\",\"value\":\"/neighbourhoods\"},\"viewLabel\":{\"type\":\"string\",\"value\":\"VIEW →\"},\"ariaLabel\":{\"type\":\"string\",\"value\":\"Territories\"}}",
+    "$control__layout": "{\"imageRatio\":{\"type\":\"number\",\"value\":1.74},\"stripWidth\":{\"type\":\"number\",\"value\":160},\"stripHeight\":{\"type\":\"number\",\"value\":240},\"stripLift\":{\"type\":\"number\",\"value\":26},\"stripInactiveOpacity\":{\"type\":\"number\",\"value\":0.4},\"stripGap\":{\"type\":\"number\",\"value\":0},\"stripPosition\":{\"type\":\"enum\",\"value\":\"bottom\"},\"imagePadding\":{\"type\":\"number\",\"value\":0},\"textAlign\":{\"type\":\"enum\",\"value\":\"center\"},\"contentPadding\":{\"type\":\"number\",\"value\":40},\"contentPosition\":{\"type\":\"enum\",\"value\":\"top\"},\"topBandAlign\":{\"type\":\"enum\",\"value\":\"inline\"},\"showEditorialIndex\":{\"type\":\"boolean\",\"value\":false},\"showViewLink\":{\"type\":\"boolean\",\"value\":false},\"re

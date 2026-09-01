@@ -1,0 +1,308 @@
+{
+  "pagePaths": [
+    "/",
+    "/properties",
+    "/neighbourhoods",
+    "/notes",
+    "/about",
+    "/contact",
+    "/properties/:slug",
+    "/notes/:slug",
+    "/404"
+  ],
+  "missingPages": [],
+  "missingComps": [
+    "Arbour_StatsBand"
+  ],
+  "total90": 234,
+  "okCount": 234,
+  "badCount": 0,
+  "bad": [],
+  "byPath": {
+    "/|Desktop": {
+      "total90": 16,
+      "bad": 0
+    },
+    "/|Tablet": {
+      "total90": 16,
+      "bad": 0
+    },
+    "/|Phone": {
+      "total90": 17,
+      "bad": 0
+    },
+    "/properties|Desktop": {
+      "total90": 8,
+      "bad": 0
+    },
+    "/properties|Tablet": {
+      "total90": 8,
+      "bad": 0
+    },
+    "/properties|Phone": {
+      "total90": 8,
+      "bad": 0
+    },
+    "/neighbourhoods|Desktop": {
+      "total90": 4,
+      "bad": 0
+    },
+    "/neighbourhoods|Tablet": {
+      "total90": 4,
+      "bad": 0
+    },
+    "/neighbourhoods|Phone": {
+      "total90": 4,
+      "bad": 0
+    },
+    "/notes|Desktop": {
+      "total90": 4,
+      "bad": 0
+    },
+    "/notes|Tablet": {
+      "total90": 4,
+      "bad": 0
+    },
+    "/notes|Phone": {
+      "total90": 4,
+      "bad": 0
+    },
+    "/about|Desktop": {
+      "total90": 14,
+      "bad": 0
+    },
+    "/about|Tablet": {
+      "total90": 14,
+      "bad": 0
+    },
+    "/about|Phone": {
+      "total90": 14,
+      "bad": 0
+    },
+    "/contact|Desktop": {
+      "total90": 9,
+      "bad": 0
+    },
+    "/contact|Tablet": {
+      "total90": 9,
+      "bad": 0
+    },
+    "/contact|Phone": {
+      "total90": 9,
+      "bad": 0
+    },
+    "/properties/:slug|Desktop": {
+      "total90": 10,
+      "bad": 0
+    },
+    "/properties/:slug|Tablet": {
+      "total90": 10,
+      "bad": 0
+    },
+    "/properties/:slug|Phone": {
+      "total90": 10,
+      "bad": 0
+    },
+    "/notes/:slug|Desktop": {
+      "total90": 8,
+      "bad": 0
+    },
+    "/notes/:slug|Tablet": {
+      "total90": 8,
+      "bad": 0
+    },
+    "/notes/:slug|Phone": {
+      "total90": 8,
+      "bad": 0
+    },
+    "comp:Nav|Desktop": {
+      "total90": 1,
+      "bad": 0
+    },
+    "comp:Nav|Tablet - Close": {
+      "total90": 2,
+      "bad": 0
+    },
+    "comp:Nav|Tablet - Open": {
+      "total90": 1,
+      "bad": 0
+    },
+    "comp:Nav|Phone - Close": {
+      "total90": 2,
+      "bad": 0
+    },
+    "comp:Nav|Phone - Open": {
+      "total90": 1,
+      "bad": 0
+    },
+    "comp:Nav|Desktop - Open": {
+      "total90": 1,
+      "bad": 0
+    },
+    "comp:Footer|Desktop": {
+      "total90": 2,
+      "bad": 0
+    },
+    "comp:Footer|Tablet": {
+      "total90": 2,
+      "bad": 0
+    },
+    "comp:Footer|Phone": {
+      "total90": 2,
+      "bad": 0
+    }
+  },
+  "stringHits": 0,
+  "okWithVertical": [
+    {
+      "path": "/",
+      "bp": "Desktop",
+      "name": "Content",
+      "id": "ohPeYYgHl",
+      "w": "90%",
+      "mw": "90%",
+      "pad": "64px 0px 32px 0px",
+      "trail": "//Desktop/Bottom/Content"
+    },
+    {
+      "path": "/",
+      "bp": "Desktop",
+      "name": "(unnamed)",
+      "id": "b800nNNFA",
+      "w": "90%",
+      "mw": "90%",
+      "pad": "0px 0px 24px 0px",
+      "trail": "//Desktop/Journal/(unnamed)"
+    },
+    {
+      "path": "/",
+      "bp": "Tablet",
+      "name": "Text Content Column",
+      "id": "wBAtV56MEET8JHTjC5",
+      "w": "90%",
+      "mw": "90%",
+      "pad": "0px 0px 24px 0px",
+      "trail": "//Tablet/Hero Section/Text Content Column"
+    },
+    {
+      "path": "/",
+      "bp": "Tablet",
+      "name": "Territories Header",
+      "id": "wBAtV56MEdu1d5C2G_",
+      "w": "90%",
+      "mw": "90%",
+      "pad": "0px 0px 24px 0px",
+      "trail": "//Tablet/Territories Section/Territories Header"
+    },
+    {
+      "path": "/",
+      "bp": "Tablet",
+      "name": "Content",
+      "id": "wBAtV56MEohPeYYgHl",
+      "w": "90%",
+      "mw": "90%",
+      "pad": "48px 0px 48px 0px",
+      "trail": "//Tablet/Bottom/Content"
+    },
+    {
+      "path": "/",
+      "bp": "Tablet",
+      "name": "(unnamed)",
+      "id": "wBAtV56MEb800nNNFA",
+      "w": "90%",
+      "mw": "90%",
+      "pad": "0px 0px 24px 0px",
+      "trail": "//Tablet/Journal/(unnamed)"
+    },
+    {
+      "path": "/",
+      "bp": "Phone",
+      "name": "Text Content Column",
+      "id": "mcL3MFzFVET8JHTjC5",
+      "w": "90%",
+      "mw": "90%",
+      "pad": "24px 0px 24px 0px",
+      "trail": "//Phone/Hero Section/Text Content Column"
+    },
+    {
+      "path": "/",
+      "bp": "Phone",
+      "name": "Territories Header",
+      "id": "mcL3MFzFVdu1d5C2G_",
+      "w": "90%",
+      "mw": "90%",
+      "pad": "0px 0px 24px 0px",
+      "trail": "//Phone/Territories Section/Territories Header"
+    },
+    {
+      "path": "/",
+      "bp": "Phone",
+      "name": "(unnamed)",
+      "id": "mcL3MFzFVb800nNNFA",
+      "w": "90%",
+      "mw": "90%",
+      "pad": "0px 0px 16px 0px",
+      "trail": "//Phone/Journal/(unnamed)"
+    },
+    {
+      "path": "/properties",
+      "bp": "Desktop",
+      "name": "Hero Copy",
+      "id": "L9uNRqah7",
+      "w": "90%",
+      "mw": "90%",
+      "pad": "128px 0px 64px 0px",
+      "trail": "/properties/Desktop/Properties Content/Properties Hero/Hero Copy"
+    },
+    {
+      "path": "/properties",
+      "bp": "Desktop",
+      "name": "Collection Discovery",
+      "id": "Ox1AZj6Eq",
+      "w": "90%",
+      "mw": "90%",
+      "pad": "32px 0px 32px 0px",
+      "trail": "/properties/Desktop/Properties Content/Collection Discovery"
+    },
+    {
+      "path": "/properties",
+      "bp": "Desktop",
+      "name": "Properties Grid",
+      "id": "gn2phxXn5",
+      "w": "90%",
+      "mw": "90%",
+      "pad": "128px 0px 128px 0px",
+      "trail": "/properties/Desktop/Properties Content/Properties Grid"
+    },
+    {
+      "path": "/properties",
+      "bp": "Desktop",
+      "name": "Market Editorial",
+      "id": "APChY780b",
+      "w": "90%",
+      "mw": "90%",
+      "pad": "128px 0px 128px 0px",
+      "trail": "/properties/Desktop/Properties Content/Market Editorial"
+    },
+    {
+      "path": "/properties",
+      "bp": "Desktop",
+      "name": "Private Viewing Process",
+      "id": "pC9Un5Mw5",
+      "w": "90%",
+      "mw": "90%",
+      "pad": "128px 0px 128px 0px",
+      "trail": "/properties/Desktop/Properties Content/Private Viewing Process"
+    },
+    {
+      "path": "/properties",
+      "bp": "Desktop",
+      "name": "Continue Your Search",
+      "id": "ivqFzeVAZ",
+      "w": "90%",
+      "mw": "90%",
+      "pad": "128px 0px 128px 0px",
+      "trail": "/properties/Desktop/Properties Content/Continue Your Search"
+    }
+  ]
+}

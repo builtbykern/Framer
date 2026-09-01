@@ -1,0 +1,39 @@
+{
+  "unpublished": 1,
+  "card": {
+    "dir": "vertical",
+    "h": "auto",
+    "border": "1px solid rgba(28, 27, 22, 0.10)",
+    "gap": "0px",
+    "href": "/properties",
+    "order": [
+      "Territory Photograph",
+      "Territory Dossier"
+    ]
+  },
+  "photo": {
+    "h": "220px",
+    "ar": 1.6,
+    "fill": "var(--variable-dM8yn13g7)",
+    "hover": {
+      "opacity": 0.9,
+      "x": "0px",
+      "y": "0px",
+      "scale": 1,
+      "skewX": "0deg",
+      "skewY": "0deg",
+      "transition": "tween 0.23,1,0.32,1 0.18s 0s",
+      "rotate": "0deg"
+    }
+  },
+  "dossier": {
+    "pad": "24px",
+    "gap": "12px",
+    "dist": "start"
+  },
+  "grid": {
+    "gap": "24px",
+    "cols": 2,
+    "layout": "grid"
+  }
+}

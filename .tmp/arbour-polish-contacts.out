@@ -1,0 +1,252 @@
+{
+  "contact": {
+    "message": "Lint: 18 warnings.",
+    "linter": {
+      "warnings": {
+        "Visible siblings in a stack might be too close. If this is not intended, set `gap` on the parent or wrap either sibling in a frame with `padding`.": [
+          {
+            "id": "eSIn17Npa",
+            "siblingIds": [
+              "vv0Vi0hbh",
+              "jmmPpci8t"
+            ],
+            "spacing": -780,
+            "minSpacing": 4,
+            "axis": "vertical"
+          },
+          {
+            "id": "eSIn17Npa",
+            "siblingIds": [
+              "jmmPpci8t",
+              "liyenGbOL"
+            ],
+            "spacing": -496.61,
+            "minSpacing": 4,
+            "axis": "vertical"
+          },
+          {
+            "id": "eSIn17Npa",
+            "siblingIds": [
+              "liyenGbOL",
+              "R3nS8tMqV"
+            ],
+            "spacing": -398.74,
+            "minSpacing": 4,
+            "axis": "vertical"
+          },
+          {
+            "id": "puCbB_BBh",
+            "siblingIds": [
+              "jaoBzZ16E",
+              "LUWFM6muE"
+            ],
+            "spacing": -258.45,
+            "minSpacing": 4,
+            "axis": "vertical"
+          },
+          {
+            "id": "puCbB_BBh",
+            "siblingIds": [
+              "LUWFM6muE",
+              "aClZLZOdE"
+            ],
+            "spacing": -288.5,
+            "minSpacing": 4,
+            "axis": "vertical"
+          },
+          {
+            "id": "vv0Vi0hbh",
+            "siblingIds": [
+              "w1lCAnw5U",
+              "f6WUp6SN5"
+            ],
+            "spacing": -241.62,
+            "minSpacing": 4,
+            "axis": "vertical"
+          },
+          {
+            "id": "qjv2S9Wpa",
+            "siblingIds": [
+              "qjv2S9WpajmmPpci8t",
+              "qjv2S9WpaliyenGbOL"
+            ],
+            "spacing": -496.61,
+            "minSpacing": 4,
+            "axis": "vertical"
+          },
+          {
+            "id": "qjv2S9Wpa",
+            "siblingIds": [
+              "qjv2S9WpaliyenGbOL",
+              "qjv2S9Wpavv0Vi0hbh"
+            ],
+            "spacing": -435.01,
+            "minSpacing": 4,
+            "axis": "vertical"
+          },
+          {
+            "id": "qjv2S9Wpa",
+            "siblingIds": [
+              "qjv2S9Wpavv0Vi0hbh",
+              "qjv2S9WpaR3nS8tMqV"
+            ],
+            "spacing": -395.35,
+            "minSpacing": 4,
+            "axis": "vertical"
+          },
+          {
+            "id": "qjv2S9WpapuCbB_BBh",
+            "siblingIds": [
+              "qjv2S9WpajaoBzZ16E",
+              "qjv2S9WpaLUWFM6muE"
+            ],
+            "spacing": -258.45,
+            "minSpacing": 4,
+            "axis": "vertical"
+          },
+          {
+            "id": "qjv2S9WpapuCbB_BBh",
+            "siblingIds": [
+              "qjv2S9WpaLUWFM6muE",
+              "qjv2S9WpaaClZLZOdE"
+            ],
+            "spacing": -288.5,
+            "minSpacing": 4,
+            "axis": "vertical"
+          },
+          {
+            "id": "qjv2S9Wpavv0Vi0hbh",
+            "siblingIds": [
+              "qjv2S9Wpaf6WUp6SN5",
+              "qjv2S9Wpaw1lCAnw5U"
+            ],
+            "spacing": -308.27,
+            "minSpacing": 4,
+            "axis": "vertical"
+          },
+          {
+            "id": "jEM0wBo2v",
+            "siblingIds": [
+              "jEM0wBo2vR3nS8tMqV",
+              "jEM0wBo2vjmmPpci8t"
+            ],
+            "spacing": -1053.61,
+            "minSpacing": 4,
+            "axis": "vertical"
+          },
+          {
+            "id": "jEM0wBo2v",
+            "siblingIds": [
+              "jEM0wBo2vjmmPpci8t",
+              "jEM0wBo2vliyenGbOL"
+            ],
+            "spacing": -496.61,
+            "minSpacing": 4,
+            "axis": "vertical"
+          },
+          {
+            "id": "jEM0wBo2v",
+            "siblingIds": [
+              "jEM0wBo2vliyenGbOL",
+              "jEM0wBo2vvv0Vi0hbh"
+            ],
+            "spacing": -435.01,
+            "minSpacing": 4,
+            "axis": "vertical"
+          },
+          {
+            "id": "jEM0wBo2vpuCbB_BBh",
+            "siblingIds": [
+              "jEM0wBo2vjaoBzZ16E",
+              "jEM0wBo2vLUWFM6muE"
+            ],
+            "spacing": -258.45,
+            "minSpacing": 4,
+            "axis": "vertical"
+          },
+          {
+            "id": "jEM0wBo2vpuCbB_BBh",
+            "siblingIds": [
+              "jEM0wBo2vLUWFM6muE",
+              "jEM0wBo2vaClZLZOdE"
+            ],
+            "spacing": -288.5,
+            "minSpacing": 4,
+            "axis": "vertical"
+          },
+          {
+            "id": "jEM0wBo2vvv0Vi0hbh",
+            "siblingIds": [
+              "jEM0wBo2vf6WUp6SN5",
+              "jEM0wBo2vw1lCAnw5U"
+            ],
+            "spacing": -308.27,
+            "minSpacing": 4,
+            "axis": "vertical"
+          }
+        ]
+      }
+    }
+  },
+  "nav": {
+    "message": "Lint: 6 warnings.",
+    "linter": {
+      "warnings": {
+        "Component variants should usually have an opaque background fill so text remains legible on different backgrounds": [
+          {
+            "id": "YrKq9_bDB",
+            "theme": "light"
+          },
+          {
+            "id": "I3SpHi24v",
+            "theme": "light"
+          },
+          {
+            "id": "GBmgkcS5c",
+            "theme": "light"
+          }
+        ],
+        "Visible siblings in a stack might be too close. If this is not intended, set `gap` on the parent or wrap either sibling in a frame with `padding`.": [
+          {
+            "id": "rL2ZHlVqg",
+            "siblingIds": [
+              "rL2ZHlVqgsxhzAXUR_",
+              "rL2ZHlVqgEJPuaSmlO"
+            ],
+            "spacing": -154.29,
+            "minSpacing": 4,
+            "axis": "vertical"
+          },
+          {
+            "id": "WLQAqm0QzhTjpCrIL4",
+            "siblingIds": [
+              "WLQAqm0QzWxy35MQ3M",
+              "WLQAqm0QzPFKQwmSQS"
+            ],
+            "spacing": -220,
+            "minSpacing": 4,
+            "axis": "vertical"
+          },
+          {
+            "id": "WLQAqm0Qz",
+            "siblingIds": [
+              "WLQAqm0QzsxhzAXUR_",
+              "WLQAqm0QzEJPuaSmlO"
+            ],
+            "spacing": -142.86,
+            "minSpacing": 4,
+            "axis": "vertical"
+          }
+        ]
+      }
+    }
+  },
+  "targets": {
+    "MAILTO": "mailto:enquiries@arbour.london",
+    "SOCIAL": {
+      "ig": "https://www.instagram.com/arbour.london",
+      "li": "https://www.linkedin.com/company/arbour",
+      "x": "https://x.com/arbourlondon"
+    }
+  }
+}

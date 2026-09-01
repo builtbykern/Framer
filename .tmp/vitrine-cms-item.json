@@ -1,0 +1,25 @@
+[
+  {
+    "type": "CollectionItemNode",
+    "id": "tZytgw_pu",
+    "$parentId": "t2sbY17Aq",
+    "$groundNodeId": "t2sbY17Aq",
+    "$scopeId": "contentManagement",
+    "attributes": {
+      "$control__slug": "dish-two",
+      "$control__still": {
+        "src": "https://framerusercontent.com/images/uuqJtsVz2GJQEbive50JAThDsKs.jpg",
+        "alt": "a couple of cups sitting on top of each other"
+      },
+      "$control__cover": {
+        "src": "https://framerusercontent.com/images/erzXiD8x0aw5x8FISGgfLPOG4oQ.jpg",
+        "alt": "a table with a vase of flowers and a plate"
+      },
+      "$control__module": "Square",
+      "$control__featured": "true",
+      "$control__description": "A small clay dish. The foot is still wet in the photo.",
+      "$control__date": "2025-03-14",
+      "$control__title": "Dish Two"
+    }
+  }
+]

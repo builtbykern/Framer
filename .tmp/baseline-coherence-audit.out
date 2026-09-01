@@ -1,0 +1,6601 @@
+{
+  "pages": {
+    "/": {
+      "pageId": "augiA20Il",
+      "richTextCount": 1260,
+      "componentCount": 391,
+      "hasNav": true,
+      "hasFooter": true,
+      "uniquePresets": [
+        "Arbour/Meta",
+        "Arbour/Display",
+        "Arbour/Body",
+        "Arbour/Heading",
+        "Arbour/Price",
+        "Arbour/Subhead",
+        "Arbour/Tags"
+      ],
+      "titles": [
+        {
+          "pagePath": "/",
+          "id": "Qonafp_oDSJuRWbpih",
+          "preset": "Arbour/Display",
+          "fontName": null,
+          "fontSize": null,
+          "fontWeight": null,
+          "letterSpacing": null,
+          "textColor": null
+        },
+        {
+          "pagePath": "/",
+          "id": "aJLpuUP0qSJuRWbpih",
+          "preset": "Arbour/Display",
+          "fontName": null,
+          "fontSize": null,
+          "fontWeight": null,
+          "letterSpacing": null,
+          "textColor": null
+        },
+        {
+          "pagePath": "/",
+          "id": "SJuRWbpih",
+          "preset": "Arbour/Display",
+          "fontName": null,
+          "fontSize": null,
+          "fontWeight": null,
+          "letterSpacing": null,
+          "textColor": null
+        },
+        {
+          "pagePath": "/",
+          "id": "MrTKJzwELDoqsMLwNC",
+          "text": "var(--variable-JpvlXWFTC)",
+          "preset": "Arbour/Heading",
+          "fontName": null,
+          "fontSize": null,
+          "fontWeight": null,
+          "letterSpacing": null,
+          "textColor": null
+        },
+        {
+          "pagePath": "/",
+          "id": "IQmBTrFpbDoqsMLwNC",
+          "text": "var(--variable-JpvlXWFTC)",
+          "preset": "Arbour/Heading",
+          "fontName": null,
+          "fontSize": null,
+          "fontWeight": null,
+          "letterSpacing": null,
+          "textColor": null
+        },
+        {
+          "pagePath": "/",
+          "id": "DoqsMLwNC",
+          "text": "var(--variable-JpvlXWFTC)",
+          "preset": "Arbour/Heading",
+          "fontName": null,
+          "fontSize": null,
+          "fontWeight": null,
+          "letterSpacing": null,
+          "textColor": null
+        },
+        {
+          "pagePath": "/",
+          "id": "EzJ9P5nkc",
+          "preset": "Arbour/Display",
+          "fontName": null,
+          "fontSize": null,
+          "fontWeight": null,
+          "letterSpacing": null,
+          "textColor": null
+        },
+        {
+          "pagePath": "/",
+          "id": "K2hD_wHuJ",
+          "preset": "Arbour/Subhead",
+          "fontName": null,
+          "fontSize": null,
+          "fontWeight": null,
+          "letterSpacing": null,
+          "textColor": "rgba(28, 27, 22, 0.6)"
+        },
+        {
+          "pagePath": "/",
+          "id": "zfTFui6Z4",
+          "preset": "Arbour/Subhead",
+          "fontName": null,
+          "fontSize": null,
+          "fontWeight": null,
+          "letterSpacing": null,
+          "textColor": "rgb(28, 27, 22)"
+        },
+        {
+          "pagePath": "/",
+          "id": "VKuWujVH0",
+          "preset": "Arbour/Subhead",
+          "fontName": null,
+          "fontSize": null,
+          "fontWeight": null,
+          "letterSpacing": null,
+          "textColor": "rgb(28, 27, 22)"
+        },
+        {
+          "pagePath": "/",
+          "id": "eeokQqTqW",
+          "preset": "Arbour/Subhead",
+          "fontName": null,
+          "fontSize": null,
+          "fontWeight": null,
+          "letterSpacing": null,
+          "textColor": "rgb(28, 27, 22)"
+        },
+        {
+          "pagePath": "/",
+          "id": "aLAKIE0BP",
+          "preset": "Arbour/Subhead",
+          "fontName": null,
+          "fontSize": null,
+          "fontWeight": null,
+          "letterSpacing": null,
+          "textColor": "rgb(252, 250, 244)"
+        },
+        {
+          "pagePath": "/",
+          "id": "G1kUXfSAk",
+          "preset": "Arbour/Subhead",
+          "fontName": null,
+          "fontSize": null,
+          "fontWeight": null,
+          "letterSpacing": null,
+          "textColor": "rgb(252, 250, 244)"
+        },
+        {
+          "pagePath": "/",
+          "id": "keLdgDqUY",
+          "preset": "Arbour/Subhead",
+          "fontName": null,
+          "fontSize": null,
+          "fontWeight": null,
+          "letterSpacing": null,
+          "textColor": "rgb(252, 250, 244)"
+        },
+        {
+          "pagePath": "/",
+          "id": "ieBQRO9tF",
+          "preset": "Arbour/Subhead",
+          "fontName": null,
+          "fontSize": null,
+          "fontWeight": null,
+          "letterSpacing": null,
+          "textColor": "rgb(28, 27, 22)"
+        },
+        {
+          "pagePath": "/",
+          "id": "iWKhT_gex",
+          "preset": "Arbour/Subhead",
+          "fontName": null,
+          "fontSize": null,
+          "fontWeight": null,
+          "letterSpacing": null,
+          "textColor": "rgb(28, 27, 22)"
+        },
+        {
+          "pagePath": "/",
+          "id": "PwybvF8o3",
+          "preset": "Arbour/Subhead",
+          "fontName": null,
+          "fontSize": null,
+          "fontWeight": null,
+          "letterSpacing": null,
+          "textColor": "rgb(252, 250, 244)"
+        },
+        {
+          "pagePath": "/",
+          "id": "wfaMRS3i1",
+          "preset": "Arbour/Subhead",
+          "fontName": null,
+          "fontSize": null,
+          "fontWeight": null,
+          "letterSpacing": null,
+          "textColor": "rgb(252, 250, 244)"
+        },
+        {
+          "pagePath": "/",
+          "id": "yazX6e9PS",
+          "preset": "Arbour/Display",
+          "fontName": null,
+          "fontSize": null,
+          "fontWeight": null,
+          "letterSpacing": null,
+          "textColor": null
+        },
+        {
+          "pagePath": "/",
+          "id": "Q2e_TgYuK",
+          "preset": "Arbour/Heading",
+          "fontName": null,
+          "fontSize": null,
+          "fontWeight": null,
+          "letterSpacing": null,
+          "textColor": null
+        }
+      ],
+      "components": [
+        "Footer",
+        "Arbour_InertiaFrame",
+        "Nav",
+        "Arbour_MenuIcon",
+        "Arbour_StatsBand",
+        "Arbour_UnderlineLink",
+        "Arbour_PrincipalProfile",
+        "Arbour_OfficeAtlasPanel",
+        "Arbour_EditorialReveal",
+        "Arbour_ScrollCue",
+        "Arbour Neighbourhood Feature",
+        "Arbour_NoiseEffect",
+        "Arbour_ProgressiveBlur",
+        "Arbour_FormButton",
+        "Arbour_ArticleCard",
+        "Arbour_Copyright",
+        "Arbour_PrimaryButton",
+        "Arbour_StopScroll",
+        "Arbour_LoadingScreen",
+        "Arbour_SmoothScroll",
+        "Arbour_TerritoryRail",
+        "Arbour_PropertyCard"
+      ],
+      "rawFillsTop": [
+        {
+          "id": "HWlQMt_5S",
+          "name": "Gradient Overlay",
+          "fill": "linear-gradient(180deg, rgba(10, 22, 15, 0.08) 0%, rgba(10, 22, 15, 0) 38%, rgba(10, 22, 15, 0.52) 100%)"
+        },
+        {
+          "id": "U3TeNUVXvQWUEMYFj7",
+          "name": "Hero Section",
+          "fill": "rgb(21, 43, 30)"
+        },
+        {
+          "id": "U3TeNUVXvHWlQMt_5S",
+          "name": "Gradient Overlay",
+          "fill": "linear-gradient(180deg, rgba(10, 22, 15, 0.08) 0%, rgba(10, 22, 15, 0) 38%, rgba(10, 22, 15, 0.52) 100%)"
+        },
+        {
+          "id": "pmAxXUJ0oQWUEMYFj7",
+          "name": "Hero Section",
+          "fill": "rgb(21, 43, 30)"
+        },
+        {
+          "id": "pmAxXUJ0oHWlQMt_5S",
+          "name": "Gradient Overlay",
+          "fill": "linear-gradient(180deg, rgba(10, 22, 15, 0.08) 0%, rgba(10, 22, 15, 0) 38%, rgba(10, 22, 15, 0.52) 100%)"
+        }
+      ]
+    },
+    "/properties-2": {
+      "pageId": "uBAGmujMa",
+      "richTextCount": 1260,
+      "componentCount": 391,
+      "hasNav": true,
+      "hasFooter": true,
+      "uniquePresets": [
+        "Arbour/Meta",
+        "Arbour/Display",
+        "Arbour/Body",
+        "Arbour/Heading",
+        "Arbour/Price",
+        "Arbour/Subhead",
+        "Arbour/Tags"
+      ],
+      "titles": [
+        {
+          "pagePath": "/properties-2",
+          "id": "Qonafp_oDSJuRWbpih",
+          "preset": "Arbour/Display",
+          "fontName": null,
+          "fontSize": null,
+          "fontWeight": null,
+          "letterSpacing": null,
+          "textColor": null
+        },
+        {
+          "pagePath": "/properties-2",
+          "id": "aJLpuUP0qSJuRWbpih",
+          "preset": "Arbour/Display",
+          "fontName": null,
+          "fontSize": null,
+          "fontWeight": null,
+          "letterSpacing": null,
+          "textColor": null
+        },
+        {
+          "pagePath": "/properties-2",
+          "id": "SJuRWbpih",
+          "preset": "Arbour/Display",
+          "fontName": null,
+          "fontSize": null,
+          "fontWeight": null,
+          "letterSpacing": null,
+          "textColor": null
+        },
+        {
+          "pagePath": "/properties-2",
+          "id": "MrTKJzwELDoqsMLwNC",
+          "text": "var(--variable-JpvlXWFTC)",
+          "preset": "Arbour/Heading",
+          "fontName": null,
+          "fontSize": null,
+          "fontWeight": null,
+          "letterSpacing": null,
+          "textColor": null
+        },
+        {
+          "pagePath": "/properties-2",
+          "id": "IQmBTrFpbDoqsMLwNC",
+          "text": "var(--variable-JpvlXWFTC)",
+          "preset": "Arbour/Heading",
+          "fontName": null,
+          "fontSize": null,
+          "fontWeight": null,
+          "letterSpacing": null,
+          "textColor": null
+        },
+        {
+          "pagePath": "/properties-2",
+          "id": "DoqsMLwNC",
+          "text": "var(--variable-JpvlXWFTC)",
+          "preset": "Arbour/Heading",
+          "fontName": null,
+          "fontSize": null,
+          "fontWeight": null,
+          "letterSpacing": null,
+          "textColor": null
+        },
+        {
+          "pagePath": "/properties-2",
+          "id": "EzJ9P5nkc",
+          "preset": "Arbour/Display",
+          "fontName": null,
+          "fontSize": null,
+          "fontWeight": null,
+          "letterSpacing": null,
+          "textColor": null
+        },
+        {
+          "pagePath": "/properties-2",
+          "id": "K2hD_wHuJ",
+          "preset": "Arbour/Subhead",
+          "fontName": null,
+          "fontSize": null,
+          "fontWeight": null,
+          "letterSpacing": null,
+          "textColor": "rgba(28, 27, 22, 0.6)"
+        },
+        {
+          "pagePath": "/properties-2",
+          "id": "zfTFui6Z4",
+          "preset": "Arbour/Subhead",
+          "fontName": null,
+          "fontSize": null,
+          "fontWeight": null,
+          "letterSpacing": null,
+          "textColor": "rgb(28, 27, 22)"
+        },
+        {
+          "pagePath": "/properties-2",
+          "id": "VKuWujVH0",
+          "preset": "Arbour/Subhead",
+          "fontName": null,
+          "fontSize": null,
+          "fontWeight": null,
+          "letterSpacing": null,
+          "textColor": "rgb(28, 27, 22)"
+        },
+        {
+          "pagePath": "/properties-2",
+          "id": "eeokQqTqW",
+          "preset": "Arbour/Subhead",
+          "fontName": null,
+          "fontSize": null,
+          "fontWeight": null,
+          "letterSpacing": null,
+          "textColor": "rgb(28, 27, 22)"
+        },
+        {
+          "pagePath": "/properties-2",
+          "id": "aLAKIE0BP",
+          "preset": "Arbour/Subhead",
+          "fontName": null,
+          "fontSize": null,
+          "fontWeight": null,
+          "letterSpacing": null,
+          "textColor": "rgb(252, 250, 244)"
+        },
+        {
+          "pagePath": "/properties-2",
+          "id": "G1kUXfSAk",
+          "preset": "Arbour/Subhead",
+          "fontName": null,
+          "fontSize": null,
+          "fontWeight": null,
+          "letterSpacing": null,
+          "textColor": "rgb(252, 250, 244)"
+        },
+        {
+          "pagePath": "/properties-2",
+          "id": "keLdgDqUY",
+          "preset": "Arbour/Subhead",
+          "fontName": null,
+          "fontSize": null,
+          "fontWeight": null,
+          "letterSpacing": null,
+          "textColor": "rgb(252, 250, 244)"
+        },
+        {
+          "pagePath": "/properties-2",
+          "id": "ieBQRO9tF",
+          "preset": "Arbour/Subhead",
+          "fontName": null,
+          "fontSize": null,
+          "fontWeight": null,
+          "letterSpacing": null,
+          "textColor": "rgb(28, 27, 22)"
+        },
+        {
+          "pagePath": "/properties-2",
+          "id": "iWKhT_gex",
+          "preset": "Arbour/Subhead",
+          "fontName": null,
+          "fontSize": null,
+          "fontWeight": null,
+          "letterSpacing": null,
+          "textColor": "rgb(28, 27, 22)"
+        },
+        {
+          "pagePath": "/properties-2",
+          "id": "PwybvF8o3",
+          "preset": "Arbour/Subhead",
+          "fontName": null,
+          "fontSize": null,
+          "fontWeight": null,
+          "letterSpacing": null,
+          "textColor": "rgb(252, 250, 244)"
+        },
+        {
+          "pagePath": "/properties-2",
+          "id": "wfaMRS3i1",
+          "preset": "Arbour/Subhead",
+          "fontName": null,
+          "fontSize": null,
+          "fontWeight": null,
+          "letterSpacing": null,
+          "textColor": "rgb(252, 250, 244)"
+        },
+        {
+          "pagePath": "/properties-2",
+          "id": "yazX6e9PS",
+          "preset": "Arbour/Display",
+          "fontName": null,
+          "fontSize": null,
+          "fontWeight": null,
+          "letterSpacing": null,
+          "textColor": null
+        },
+        {
+          "pagePath": "/properties-2",
+          "id": "Q2e_TgYuK",
+          "preset": "Arbour/Heading",
+          "fontName": null,
+          "fontSize": null,
+          "fontWeight": null,
+          "letterSpacing": null,
+          "textColor": null
+        }
+      ],
+      "components": [
+        "Footer",
+        "Arbour_InertiaFrame",
+        "Nav",
+        "Arbour_MenuIcon",
+        "Arbour_StatsBand",
+        "Arbour_UnderlineLink",
+        "Arbour_PrincipalProfile",
+        "Arbour_OfficeAtlasPanel",
+        "Arbour_EditorialReveal",
+        "Arbour_ScrollCue",
+        "Arbour Neighbourhood Feature",
+        "Arbour_NoiseEffect",
+        "Arbour_ProgressiveBlur",
+        "Arbour_FormButton",
+        "Arbour_ArticleCard",
+        "Arbour_Copyright",
+        "Arbour_PrimaryButton",
+        "Arbour_StopScroll",
+        "Arbour_LoadingScreen",
+        "Arbour_SmoothScroll",
+        "Arbour_TerritoryRail",
+        "Arbour_PropertyCard"
+      ],
+      "rawFillsTop": [
+        {
+          "id": "obfRB9jeb",
+          "name": "Desktop",
+          "fill": "rgb(252, 250, 244)"
+        },
+        {
+          "id": "SScKalu3B",
+          "name": "Tablet",
+          "fill": "rgb(252, 250, 244)"
+        },
+        {
+          "id": "EK6d5SyWL",
+          "name": "Phone",
+          "fill": "rgb(252, 250, 244)"
+        }
+      ]
+    },
+    "/neighbourhoods": {
+      "pageId": "dZfxmFpqB",
+      "richTextCount": 1260,
+      "componentCount": 391,
+      "hasNav": true,
+      "hasFooter": true,
+      "uniquePresets": [
+        "Arbour/Meta",
+        "Arbour/Display",
+        "Arbour/Body",
+        "Arbour/Heading",
+        "Arbour/Price",
+        "Arbour/Subhead",
+        "Arbour/Tags"
+      ],
+      "titles": [
+        {
+          "pagePath": "/neighbourhoods",
+          "id": "Qonafp_oDSJuRWbpih",
+          "preset": "Arbour/Display",
+          "fontName": null,
+          "fontSize": null,
+          "fontWeight": null,
+          "letterSpacing": null,
+          "textColor": null
+        },
+        {
+          "pagePath": "/neighbourhoods",
+          "id": "aJLpuUP0qSJuRWbpih",
+          "preset": "Arbour/Display",
+          "fontName": null,
+          "fontSize": null,
+          "fontWeight": null,
+          "letterSpacing": null,
+          "textColor": null
+        },
+        {
+          "pagePath": "/neighbourhoods",
+          "id": "SJuRWbpih",
+          "preset": "Arbour/Display",
+          "fontName": null,
+          "fontSize": null,
+          "fontWeight": null,
+          "letterSpacing": null,
+          "textColor": null
+        },
+        {
+          "pagePath": "/neighbourhoods",
+          "id": "MrTKJzwELDoqsMLwNC",
+          "text": "var(--variable-JpvlXWFTC)",
+          "preset": "Arbour/Heading",
+          "fontName": null,
+          "fontSize": null,
+          "fontWeight": null,
+          "letterSpacing": null,
+          "textColor": null
+        },
+        {
+          "pagePath": "/neighbourhoods",
+          "id": "IQmBTrFpbDoqsMLwNC",
+          "text": "var(--variable-JpvlXWFTC)",
+          "preset": "Arbour/Heading",
+          "fontName": null,
+          "fontSize": null,
+          "fontWeight": null,
+          "letterSpacing": null,
+          "textColor": null
+        },
+        {
+          "pagePath": "/neighbourhoods",
+          "id": "DoqsMLwNC",
+          "text": "var(--variable-JpvlXWFTC)",
+          "preset": "Arbour/Heading",
+          "fontName": null,
+          "fontSize": null,
+          "fontWeight": null,
+          "letterSpacing": null,
+          "textColor": null
+        },
+        {
+          "pagePath": "/neighbourhoods",
+          "id": "EzJ9P5nkc",
+          "preset": "Arbour/Display",
+          "fontName": null,
+          "fontSize": null,
+          "fontWeight": null,
+          "letterSpacing": null,
+          "textColor": null
+        },
+        {
+          "pagePath": "/neighbourhoods",
+          "id": "K2hD_wHuJ",
+          "preset": "Arbour/Subhead",
+          "fontName": null,
+          "fontSize": null,
+          "fontWeight": null,
+          "letterSpacing": null,
+          "textColor": "rgba(28, 27, 22, 0.6)"
+        },
+        {
+          "pagePath": "/neighbourhoods",
+          "id": "zfTFui6Z4",
+          "preset": "Arbour/Subhead",
+          "fontName": null,
+          "fontSize": null,
+          "fontWeight": null,
+          "letterSpacing": null,
+          "textColor": "rgb(28, 27, 22)"
+        },
+        {
+          "pagePath": "/neighbourhoods",
+          "id": "VKuWujVH0",
+          "preset": "Arbour/Subhead",
+          "fontName": null,
+          "fontSize": null,
+          "fontWeight": null,
+          "letterSpacing": null,
+          "textColor": "rgb(28, 27, 22)"
+        },
+        {
+          "pagePath": "/neighbourhoods",
+          "id": "eeokQqTqW",
+          "preset": "Arbour/Subhead",
+          "fontName": null,
+          "fontSize": null,
+          "fontWeight": null,
+          "letterSpacing": null,
+          "textColor": "rgb(28, 27, 22)"
+        },
+        {
+          "pagePath": "/neighbourhoods",
+          "id": "aLAKIE0BP",
+          "preset": "Arbour/Subhead",
+          "fontName": null,
+          "fontSize": null,
+          "fontWeight": null,
+          "letterSpacing": null,
+          "textColor": "rgb(252, 250, 244)"
+        },
+        {
+          "pagePath": "/neighbourhoods",
+          "id": "G1kUXfSAk",
+          "preset": "Arbour/Subhead",
+          "fontName": null,
+          "fontSize": null,
+          "fontWeight": null,
+          "letterSpacing": null,
+          "textColor": "rgb(252, 250, 244)"
+        },
+        {
+          "pagePath": "/neighbourhoods",
+          "id": "keLdgDqUY",
+          "preset": "Arbour/Subhead",
+          "fontName": null,
+          "fontSize": null,
+          "fontWeight": null,
+          "letterSpacing": null,
+          "textColor": "rgb(252, 250, 244)"
+        },
+        {
+          "pagePath": "/neighbourhoods",
+          "id": "ieBQRO9tF",
+          "preset": "Arbour/Subhead",
+          "fontName": null,
+          "fontSize": null,
+          "fontWeight": null,
+          "letterSpacing": null,
+          "textColor": "rgb(28, 27, 22)"
+        },
+        {
+          "pagePath": "/neighbourhoods",
+          "id": "iWKhT_gex",
+          "preset": "Arbour/Subhead",
+          "fontName": null,
+          "fontSize": null,
+          "fontWeight": null,
+          "letterSpacing": null,
+          "textColor": "rgb(28, 27, 22)"
+        },
+        {
+          "pagePath": "/neighbourhoods",
+          "id": "PwybvF8o3",
+          "preset": "Arbour/Subhead",
+          "fontName": null,
+          "fontSize": null,
+          "fontWeight": null,
+          "letterSpacing": null,
+          "textColor": "rgb(252, 250, 244)"
+        },
+        {
+          "pagePath": "/neighbourhoods",
+          "id": "wfaMRS3i1",
+          "preset": "Arbour/Subhead",
+          "fontName": null,
+          "fontSize": null,
+          "fontWeight": null,
+          "letterSpacing": null,
+          "textColor": "rgb(252, 250, 244)"
+        },
+        {
+          "pagePath": "/neighbourhoods",
+          "id": "yazX6e9PS",
+          "preset": "Arbour/Display",
+          "fontName": null,
+          "fontSize": null,
+          "fontWeight": null,
+          "letterSpacing": null,
+          "textColor": null
+        },
+        {
+          "pagePath": "/neighbourhoods",
+          "id": "Q2e_TgYuK",
+          "preset": "Arbour/Heading",
+          "fontName": null,
+          "fontSize": null,
+          "fontWeight": null,
+          "letterSpacing": null,
+          "textColor": null
+        }
+      ],
+      "components": [
+        "Footer",
+        "Arbour_InertiaFrame",
+        "Nav",
+        "Arbour_MenuIcon",
+        "Arbour_StatsBand",
+        "Arbour_UnderlineLink",
+        "Arbour_PrincipalProfile",
+        "Arbour_OfficeAtlasPanel",
+        "Arbour_EditorialReveal",
+        "Arbour_ScrollCue",
+        "Arbour Neighbourhood Feature",
+        "Arbour_NoiseEffect",
+        "Arbour_ProgressiveBlur",
+        "Arbour_FormButton",
+        "Arbour_ArticleCard",
+        "Arbour_Copyright",
+        "Arbour_PrimaryButton",
+        "Arbour_StopScroll",
+        "Arbour_LoadingScreen",
+        "Arbour_SmoothScroll",
+        "Arbour_TerritoryRail",
+        "Arbour_PropertyCard"
+      ],
+      "rawFillsTop": [
+        {
+          "id": "LmDrAnCZU",
+          "name": "Desktop",
+          "fill": "rgb(252, 250, 244)"
+        },
+        {
+          "id": "aJLpuUP0q",
+          "name": "Tablet",
+          "fill": "rgb(252, 250, 244)"
+        },
+        {
+          "id": "Qonafp_oD",
+          "name": "Phone",
+          "fill": "rgb(252, 250, 244)"
+        }
+      ]
+    },
+    "/notes": {
+      "pageId": "s8RpZIiJ8",
+      "richTextCount": 1260,
+      "componentCount": 391,
+      "hasNav": true,
+      "hasFooter": true,
+      "uniquePresets": [
+        "Arbour/Meta",
+        "Arbour/Display",
+        "Arbour/Body",
+        "Arbour/Heading",
+        "Arbour/Price",
+        "Arbour/Subhead",
+        "Arbour/Tags"
+      ],
+      "titles": [
+        {
+          "pagePath": "/notes",
+          "id": "Qonafp_oDSJuRWbpih",
+          "preset": "Arbour/Display",
+          "fontName": null,
+          "fontSize": null,
+          "fontWeight": null,
+          "letterSpacing": null,
+          "textColor": null
+        },
+        {
+          "pagePath": "/notes",
+          "id": "aJLpuUP0qSJuRWbpih",
+          "preset": "Arbour/Display",
+          "fontName": null,
+          "fontSize": null,
+          "fontWeight": null,
+          "letterSpacing": null,
+          "textColor": null
+        },
+        {
+          "pagePath": "/notes",
+          "id": "SJuRWbpih",
+          "preset": "Arbour/Display",
+          "fontName": null,
+          "fontSize": null,
+          "fontWeight": null,
+          "letterSpacing": null,
+          "textColor": null
+        },
+        {
+          "pagePath": "/notes",
+          "id": "MrTKJzwELDoqsMLwNC",
+          "text": "var(--variable-JpvlXWFTC)",
+          "preset": "Arbour/Heading",
+          "fontName": null,
+          "fontSize": null,
+          "fontWeight": null,
+          "letterSpacing": null,
+          "textColor": null
+        },
+        {
+          "pagePath": "/notes",
+          "id": "IQmBTrFpbDoqsMLwNC",
+          "text": "var(--variable-JpvlXWFTC)",
+          "preset": "Arbour/Heading",
+          "fontName": null,
+          "fontSize": null,
+          "fontWeight": null,
+          "letterSpacing": null,
+          "textColor": null
+        },
+        {
+          "pagePath": "/notes",
+          "id": "DoqsMLwNC",
+          "text": "var(--variable-JpvlXWFTC)",
+          "preset": "Arbour/Heading",
+          "fontName": null,
+          "fontSize": null,
+          "fontWeight": null,
+          "letterSpacing": null,
+          "textColor": null
+        },
+        {
+          "pagePath": "/notes",
+          "id": "EzJ9P5nkc",
+          "preset": "Arbour/Display",
+          "fontName": null,
+          "fontSize": null,
+          "fontWeight": null,
+          "letterSpacing": null,
+          "textColor": null
+        },
+        {
+          "pagePath": "/notes",
+          "id": "K2hD_wHuJ",
+          "preset": "Arbour/Subhead",
+          "fontName": null,
+          "fontSize": null,
+          "fontWeight": null,
+          "letterSpacing": null,
+          "textColor": "rgba(28, 27, 22, 0.6)"
+        },
+        {
+          "pagePath": "/notes",
+          "id": "zfTFui6Z4",
+          "preset": "Arbour/Subhead",
+          "fontName": null,
+          "fontSize": null,
+          "fontWeight": null,
+          "letterSpacing": null,
+          "textColor": "rgb(28, 27, 22)"
+        },
+        {
+          "pagePath": "/notes",
+          "id": "VKuWujVH0",
+          "preset": "Arbour/Subhead",
+          "fontName": null,
+          "fontSize": null,
+          "fontWeight": null,
+          "letterSpacing": null,
+          "textColor": "rgb(28, 27, 22)"
+        },
+        {
+          "pagePath": "/notes",
+          "id": "eeokQqTqW",
+          "preset": "Arbour/Subhead",
+          "fontName": null,
+          "fontSize": null,
+          "fontWeight": null,
+          "letterSpacing": null,
+          "textColor": "rgb(28, 27, 22)"
+        },
+        {
+          "pagePath": "/notes",
+          "id": "aLAKIE0BP",
+          "preset": "Arbour/Subhead",
+          "fontName": null,
+          "fontSize": null,
+          "fontWeight": null,
+          "letterSpacing": null,
+          "textColor": "rgb(252, 250, 244)"
+        },
+        {
+          "pagePath": "/notes",
+          "id": "G1kUXfSAk",
+          "preset": "Arbour/Subhead",
+          "fontName": null,
+          "fontSize": null,
+          "fontWeight": null,
+          "letterSpacing": null,
+          "textColor": "rgb(252, 250, 244)"
+        },
+        {
+          "pagePath": "/notes",
+          "id": "keLdgDqUY",
+          "preset": "Arbour/Subhead",
+          "fontName": null,
+          "fontSize": null,
+          "fontWeight": null,
+          "letterSpacing": null,
+          "textColor": "rgb(252, 250, 244)"
+        },
+        {
+          "pagePath": "/notes",
+          "id": "ieBQRO9tF",
+          "preset": "Arbour/Subhead",
+          "fontName": null,
+          "fontSize": null,
+          "fontWeight": null,
+          "letterSpacing": null,
+          "textColor": "rgb(28, 27, 22)"
+        },
+        {
+          "pagePath": "/notes",
+          "id": "iWKhT_gex",
+          "preset": "Arbour/Subhead",
+          "fontName": null,
+          "fontSize": null,
+          "fontWeight": null,
+          "letterSpacing": null,
+          "textColor": "rgb(28, 27, 22)"
+        },
+        {
+          "pagePath": "/notes",
+          "id": "PwybvF8o3",
+          "preset": "Arbour/Subhead",
+          "fontName": null,
+          "fontSize": null,
+          "fontWeight": null,
+          "letterSpacing": null,
+          "textColor": "rgb(252, 250, 244)"
+        },
+        {
+          "pagePath": "/notes",
+          "id": "wfaMRS3i1",
+          "preset": "Arbour/Subhead",
+          "fontName": null,
+          "fontSize": null,
+          "fontWeight": null,
+          "letterSpacing": null,
+          "textColor": "rgb(252, 250, 244)"
+        },
+        {
+          "pagePath": "/notes",
+          "id": "yazX6e9PS",
+          "preset": "Arbour/Display",
+          "fontName": null,
+          "fontSize": null,
+          "fontWeight": null,
+          "letterSpacing": null,
+          "textColor": null
+        },
+        {
+          "pagePath": "/notes",
+          "id": "Q2e_TgYuK",
+          "preset": "Arbour/Heading",
+          "fontName": null,
+          "fontSize": null,
+          "fontWeight": null,
+          "letterSpacing": null,
+          "textColor": null
+        }
+      ],
+      "components": [
+        "Footer",
+        "Arbour_InertiaFrame",
+        "Nav",
+        "Arbour_MenuIcon",
+        "Arbour_StatsBand",
+        "Arbour_UnderlineLink",
+        "Arbour_PrincipalProfile",
+        "Arbour_OfficeAtlasPanel",
+        "Arbour_EditorialReveal",
+        "Arbour_ScrollCue",
+        "Arbour Neighbourhood Feature",
+        "Arbour_NoiseEffect",
+        "Arbour_ProgressiveBlur",
+        "Arbour_FormButton",
+        "Arbour_ArticleCard",
+        "Arbour_Copyright",
+        "Arbour_PrimaryButton",
+        "Arbour_StopScroll",
+        "Arbour_LoadingScreen",
+        "Arbour_SmoothScroll",
+        "Arbour_TerritoryRail",
+        "Arbour_PropertyCard"
+      ],
+      "rawFillsTop": [
+        {
+          "id": "T4DtVCP3y",
+          "name": "Desktop",
+          "fill": "rgb(252, 250, 244)"
+        },
+        {
+          "id": "LptqEiXVp",
+          "name": "Tablet",
+          "fill": "rgb(252, 250, 244)"
+        },
+        {
+          "id": "INUKgvAna",
+          "name": "Phone",
+          "fill": "rgb(252, 250, 244)"
+        }
+      ]
+    },
+    "/about": {
+      "pageId": "OdFhPn9yz",
+      "richTextCount": 1260,
+      "componentCount": 391,
+      "hasNav": true,
+      "hasFooter": true,
+      "uniquePresets": [
+        "Arbour/Meta",
+        "Arbour/Display",
+        "Arbour/Body",
+        "Arbour/Heading",
+        "Arbour/Price",
+        "Arbour/Subhead",
+        "Arbour/Tags"
+      ],
+      "titles": [
+        {
+          "pagePath": "/about",
+          "id": "Qonafp_oDSJuRWbpih",
+          "preset": "Arbour/Display",
+          "fontName": null,
+          "fontSize": null,
+          "fontWeight": null,
+          "letterSpacing": null,
+          "textColor": null
+        },
+        {
+          "pagePath": "/about",
+          "id": "aJLpuUP0qSJuRWbpih",
+          "preset": "Arbour/Display",
+          "fontName": null,
+          "fontSize": null,
+          "fontWeight": null,
+          "letterSpacing": null,
+          "textColor": null
+        },
+        {
+          "pagePath": "/about",
+          "id": "SJuRWbpih",
+          "preset": "Arbour/Display",
+          "fontName": null,
+          "fontSize": null,
+          "fontWeight": null,
+          "letterSpacing": null,
+          "textColor": null
+        },
+        {
+          "pagePath": "/about",
+          "id": "MrTKJzwELDoqsMLwNC",
+          "text": "var(--variable-JpvlXWFTC)",
+          "preset": "Arbour/Heading",
+          "fontName": null,
+          "fontSize": null,
+          "fontWeight": null,
+          "letterSpacing": null,
+          "textColor": null
+        },
+        {
+          "pagePath": "/about",
+          "id": "IQmBTrFpbDoqsMLwNC",
+          "text": "var(--variable-JpvlXWFTC)",
+          "preset": "Arbour/Heading",
+          "fontName": null,
+          "fontSize": null,
+          "fontWeight": null,
+          "letterSpacing": null,
+          "textColor": null
+        },
+        {
+          "pagePath": "/about",
+          "id": "DoqsMLwNC",
+          "text": "var(--variable-JpvlXWFTC)",
+          "preset": "Arbour/Heading",
+          "fontName": null,
+          "fontSize": null,
+          "fontWeight": null,
+          "letterSpacing": null,
+          "textColor": null
+        },
+        {
+          "pagePath": "/about",
+          "id": "EzJ9P5nkc",
+          "preset": "Arbour/Display",
+          "fontName": null,
+          "fontSize": null,
+          "fontWeight": null,
+          "letterSpacing": null,
+          "textColor": null
+        },
+        {
+          "pagePath": "/about",
+          "id": "K2hD_wHuJ",
+          "preset": "Arbour/Subhead",
+          "fontName": null,
+          "fontSize": null,
+          "fontWeight": null,
+          "letterSpacing": null,
+          "textColor": "rgba(28, 27, 22, 0.6)"
+        },
+        {
+          "pagePath": "/about",
+          "id": "zfTFui6Z4",
+          "preset": "Arbour/Subhead",
+          "fontName": null,
+          "fontSize": null,
+          "fontWeight": null,
+          "letterSpacing": null,
+          "textColor": "rgb(28, 27, 22)"
+        },
+        {
+          "pagePath": "/about",
+          "id": "VKuWujVH0",
+          "preset": "Arbour/Subhead",
+          "fontName": null,
+          "fontSize": null,
+          "fontWeight": null,
+          "letterSpacing": null,
+          "textColor": "rgb(28, 27, 22)"
+        },
+        {
+          "pagePath": "/about",
+          "id": "eeokQqTqW",
+          "preset": "Arbour/Subhead",
+          "fontName": null,
+          "fontSize": null,
+          "fontWeight": null,
+          "letterSpacing": null,
+          "textColor": "rgb(28, 27, 22)"
+        },
+        {
+          "pagePath": "/about",
+          "id": "aLAKIE0BP",
+          "preset": "Arbour/Subhead",
+          "fontName": null,
+          "fontSize": null,
+          "fontWeight": null,
+          "letterSpacing": null,
+          "textColor": "rgb(252, 250, 244)"
+        },
+        {
+          "pagePath": "/about",
+          "id": "G1kUXfSAk",
+          "preset": "Arbour/Subhead",
+          "fontName": null,
+          "fontSize": null,
+          "fontWeight": null,
+          "letterSpacing": null,
+          "textColor": "rgb(252, 250, 244)"
+        },
+        {
+          "pagePath": "/about",
+          "id": "keLdgDqUY",
+          "preset": "Arbour/Subhead",
+          "fontName": null,
+          "fontSize": null,
+          "fontWeight": null,
+          "letterSpacing": null,
+          "textColor": "rgb(252, 250, 244)"
+        },
+        {
+          "pagePath": "/about",
+          "id": "ieBQRO9tF",
+          "preset": "Arbour/Subhead",
+          "fontName": null,
+          "fontSize": null,
+          "fontWeight": null,
+          "letterSpacing": null,
+          "textColor": "rgb(28, 27, 22)"
+        },
+        {
+          "pagePath": "/about",
+          "id": "iWKhT_gex",
+          "preset": "Arbour/Subhead",
+          "fontName": null,
+          "fontSize": null,
+          "fontWeight": null,
+          "letterSpacing": null,
+          "textColor": "rgb(28, 27, 22)"
+        },
+        {
+          "pagePath": "/about",
+          "id": "PwybvF8o3",
+          "preset": "Arbour/Subhead",
+          "fontName": null,
+          "fontSize": null,
+          "fontWeight": null,
+          "letterSpacing": null,
+          "textColor": "rgb(252, 250, 244)"
+        },
+        {
+          "pagePath": "/about",
+          "id": "wfaMRS3i1",
+          "preset": "Arbour/Subhead",
+          "fontName": null,
+          "fontSize": null,
+          "fontWeight": null,
+          "letterSpacing": null,
+          "textColor": "rgb(252, 250, 244)"
+        },
+        {
+          "pagePath": "/about",
+          "id": "yazX6e9PS",
+          "preset": "Arbour/Display",
+          "fontName": null,
+          "fontSize": null,
+          "fontWeight": null,
+          "letterSpacing": null,
+          "textColor": null
+        },
+        {
+          "pagePath": "/about",
+          "id": "Q2e_TgYuK",
+          "preset": "Arbour/Heading",
+          "fontName": null,
+          "fontSize": null,
+          "fontWeight": null,
+          "letterSpacing": null,
+          "textColor": null
+        }
+      ],
+      "components": [
+        "Footer",
+        "Arbour_InertiaFrame",
+        "Nav",
+        "Arbour_MenuIcon",
+        "Arbour_StatsBand",
+        "Arbour_UnderlineLink",
+        "Arbour_PrincipalProfile",
+        "Arbour_OfficeAtlasPanel",
+        "Arbour_EditorialReveal",
+        "Arbour_ScrollCue",
+        "Arbour Neighbourhood Feature",
+        "Arbour_NoiseEffect",
+        "Arbour_ProgressiveBlur",
+        "Arbour_FormButton",
+        "Arbour_ArticleCard",
+        "Arbour_Copyright",
+        "Arbour_PrimaryButton",
+        "Arbour_StopScroll",
+        "Arbour_LoadingScreen",
+        "Arbour_SmoothScroll",
+        "Arbour_TerritoryRail",
+        "Arbour_PropertyCard"
+      ],
+      "rawFillsTop": [
+        {
+          "id": "hd9EqB_ax",
+          "name": "Desktop",
+          "fill": "rgb(252, 250, 244)"
+        },
+        {
+          "id": "xvqDXw58e",
+          "name": "Tablet",
+          "fill": "rgb(252, 250, 244)"
+        },
+        {
+          "id": "CYNrpU04t",
+          "name": "Phone",
+          "fill": "rgb(252, 250, 244)"
+        }
+      ]
+    },
+    "/contact": {
+      "pageId": "c7qpzB7hR",
+      "richTextCount": 1260,
+      "componentCount": 391,
+      "hasNav": true,
+      "hasFooter": true,
+      "uniquePresets": [
+        "Arbour/Meta",
+        "Arbour/Display",
+        "Arbour/Body",
+        "Arbour/Heading",
+        "Arbour/Price",
+        "Arbour/Subhead",
+        "Arbour/Tags"
+      ],
+      "titles": [
+        {
+          "pagePath": "/contact",
+          "id": "Qonafp_oDSJuRWbpih",
+          "preset": "Arbour/Display",
+          "fontName": null,
+          "fontSize": null,
+          "fontWeight": null,
+          "letterSpacing": null,
+          "textColor": null
+        },
+        {
+          "pagePath": "/contact",
+          "id": "aJLpuUP0qSJuRWbpih",
+          "preset": "Arbour/Display",
+          "fontName": null,
+          "fontSize": null,
+          "fontWeight": null,
+          "letterSpacing": null,
+          "textColor": null
+        },
+        {
+          "pagePath": "/contact",
+          "id": "SJuRWbpih",
+          "preset": "Arbour/Display",
+          "fontName": null,
+          "fontSize": null,
+          "fontWeight": null,
+          "letterSpacing": null,
+          "textColor": null
+        },
+        {
+          "pagePath": "/contact",
+          "id": "MrTKJzwELDoqsMLwNC",
+          "text": "var(--variable-JpvlXWFTC)",
+          "preset": "Arbour/Heading",
+          "fontName": null,
+          "fontSize": null,
+          "fontWeight": null,
+          "letterSpacing": null,
+          "textColor": null
+        },
+        {
+          "pagePath": "/contact",
+          "id": "IQmBTrFpbDoqsMLwNC",
+          "text": "var(--variable-JpvlXWFTC)",
+          "preset": "Arbour/Heading",
+          "fontName": null,
+          "fontSize": null,
+          "fontWeight": null,
+          "letterSpacing": null,
+          "textColor": null
+        },
+        {
+          "pagePath": "/contact",
+          "id": "DoqsMLwNC",
+          "text": "var(--variable-JpvlXWFTC)",
+          "preset": "Arbour/Heading",
+          "fontName": null,
+          "fontSize": null,
+          "fontWeight": null,
+          "letterSpacing": null,
+          "textColor": null
+        },
+        {
+          "pagePath": "/contact",
+          "id": "EzJ9P5nkc",
+          "preset": "Arbour/Display",
+          "fontName": null,
+          "fontSize": null,
+          "fontWeight": null,
+          "letterSpacing": null,
+          "textColor": null
+        },
+        {
+          "pagePath": "/contact",
+          "id": "K2hD_wHuJ",
+          "preset": "Arbour/Subhead",
+          "fontName": null,
+          "fontSize": null,
+          "fontWeight": null,
+          "letterSpacing": null,
+          "textColor": "rgba(28, 27, 22, 0.6)"
+        },
+        {
+          "pagePath": "/contact",
+          "id": "zfTFui6Z4",
+          "preset": "Arbour/Subhead",
+          "fontName": null,
+          "fontSize": null,
+          "fontWeight": null,
+          "letterSpacing": null,
+          "textColor": "rgb(28, 27, 22)"
+        },
+        {
+          "pagePath": "/contact",
+          "id": "VKuWujVH0",
+          "preset": "Arbour/Subhead",
+          "fontName": null,
+          "fontSize": null,
+          "fontWeight": null,
+          "letterSpacing": null,
+          "textColor": "rgb(28, 27, 22)"
+        },
+        {
+          "pagePath": "/contact",
+          "id": "eeokQqTqW",
+          "preset": "Arbour/Subhead",
+          "fontName": null,
+          "fontSize": null,
+          "fontWeight": null,
+          "letterSpacing": null,
+          "textColor": "rgb(28, 27, 22)"
+        },
+        {
+          "pagePath": "/contact",
+          "id": "aLAKIE0BP",
+          "preset": "Arbour/Subhead",
+          "fontName": null,
+          "fontSize": null,
+          "fontWeight": null,
+          "letterSpacing": null,
+          "textColor": "rgb(252, 250, 244)"
+        },
+        {
+          "pagePath": "/contact",
+          "id": "G1kUXfSAk",
+          "preset": "Arbour/Subhead",
+          "fontName": null,
+          "fontSize": null,
+          "fontWeight": null,
+          "letterSpacing": null,
+          "textColor": "rgb(252, 250, 244)"
+        },
+        {
+          "pagePath": "/contact",
+          "id": "keLdgDqUY",
+          "preset": "Arbour/Subhead",
+          "fontName": null,
+          "fontSize": null,
+          "fontWeight": null,
+          "letterSpacing": null,
+          "textColor": "rgb(252, 250, 244)"
+        },
+        {
+          "pagePath": "/contact",
+          "id": "ieBQRO9tF",
+          "preset": "Arbour/Subhead",
+          "fontName": null,
+          "fontSize": null,
+          "fontWeight": null,
+          "letterSpacing": null,
+          "textColor": "rgb(28, 27, 22)"
+        },
+        {
+          "pagePath": "/contact",
+          "id": "iWKhT_gex",
+          "preset": "Arbour/Subhead",
+          "fontName": null,
+          "fontSize": null,
+          "fontWeight": null,
+          "letterSpacing": null,
+          "textColor": "rgb(28, 27, 22)"
+        },
+        {
+          "pagePath": "/contact",
+          "id": "PwybvF8o3",
+          "preset": "Arbour/Subhead",
+          "fontName": null,
+          "fontSize": null,
+          "fontWeight": null,
+          "letterSpacing": null,
+          "textColor": "rgb(252, 250, 244)"
+        },
+        {
+          "pagePath": "/contact",
+          "id": "wfaMRS3i1",
+          "preset": "Arbour/Subhead",
+          "fontName": null,
+          "fontSize": null,
+          "fontWeight": null,
+          "letterSpacing": null,
+          "textColor": "rgb(252, 250, 244)"
+        },
+        {
+          "pagePath": "/contact",
+          "id": "yazX6e9PS",
+          "preset": "Arbour/Display",
+          "fontName": null,
+          "fontSize": null,
+          "fontWeight": null,
+          "letterSpacing": null,
+          "textColor": null
+        },
+        {
+          "pagePath": "/contact",
+          "id": "Q2e_TgYuK",
+          "preset": "Arbour/Heading",
+          "fontName": null,
+          "fontSize": null,
+          "fontWeight": null,
+          "letterSpacing": null,
+          "textColor": null
+        }
+      ],
+      "components": [
+        "Footer",
+        "Arbour_InertiaFrame",
+        "Nav",
+        "Arbour_MenuIcon",
+        "Arbour_StatsBand",
+        "Arbour_UnderlineLink",
+        "Arbour_PrincipalProfile",
+        "Arbour_OfficeAtlasPanel",
+        "Arbour_EditorialReveal",
+        "Arbour_ScrollCue",
+        "Arbour Neighbourhood Feature",
+        "Arbour_NoiseEffect",
+        "Arbour_ProgressiveBlur",
+        "Arbour_FormButton",
+        "Arbour_ArticleCard",
+        "Arbour_Copyright",
+        "Arbour_PrimaryButton",
+        "Arbour_StopScroll",
+        "Arbour_LoadingScreen",
+        "Arbour_SmoothScroll",
+        "Arbour_TerritoryRail",
+        "Arbour_PropertyCard"
+      ],
+      "rawFillsTop": [
+        {
+          "id": "eSIn17Npa",
+          "name": "Desktop",
+          "fill": "rgb(252, 250, 244)"
+        },
+        {
+          "id": "qjv2S9Wpa",
+          "name": "Tablet",
+          "fill": "rgb(252, 250, 244)"
+        },
+        {
+          "id": "jEM0wBo2v",
+          "name": "Phone",
+          "fill": "rgb(252, 250, 244)"
+        }
+      ]
+    },
+    "/properties-2/:Properties": {
+      "pageId": "OhRUQROL4",
+      "richTextCount": 1260,
+      "componentCount": 391,
+      "hasNav": true,
+      "hasFooter": true,
+      "uniquePresets": [
+        "Arbour/Meta",
+        "Arbour/Display",
+        "Arbour/Body",
+        "Arbour/Heading",
+        "Arbour/Price",
+        "Arbour/Subhead",
+        "Arbour/Tags"
+      ],
+      "titles": [
+        {
+          "pagePath": "/properties-2/:Properties",
+          "id": "Qonafp_oDSJuRWbpih",
+          "preset": "Arbour/Display",
+          "fontName": null,
+          "fontSize": null,
+          "fontWeight": null,
+          "letterSpacing": null,
+          "textColor": null
+        },
+        {
+          "pagePath": "/properties-2/:Properties",
+          "id": "aJLpuUP0qSJuRWbpih",
+          "preset": "Arbour/Display",
+          "fontName": null,
+          "fontSize": null,
+          "fontWeight": null,
+          "letterSpacing": null,
+          "textColor": null
+        },
+        {
+          "pagePath": "/properties-2/:Properties",
+          "id": "SJuRWbpih",
+          "preset": "Arbour/Display",
+          "fontName": null,
+          "fontSize": null,
+          "fontWeight": null,
+          "letterSpacing": null,
+          "textColor": null
+        },
+        {
+          "pagePath": "/properties-2/:Properties",
+          "id": "MrTKJzwELDoqsMLwNC",
+          "text": "var(--variable-JpvlXWFTC)",
+          "preset": "Arbour/Heading",
+          "fontName": null,
+          "fontSize": null,
+          "fontWeight": null,
+          "letterSpacing": null,
+          "textColor": null
+        },
+        {
+          "pagePath": "/properties-2/:Properties",
+          "id": "IQmBTrFpbDoqsMLwNC",
+          "text": "var(--variable-JpvlXWFTC)",
+          "preset": "Arbour/Heading",
+          "fontName": null,
+          "fontSize": null,
+          "fontWeight": null,
+          "letterSpacing": null,
+          "textColor": null
+        },
+        {
+          "pagePath": "/properties-2/:Properties",
+          "id": "DoqsMLwNC",
+          "text": "var(--variable-JpvlXWFTC)",
+          "preset": "Arbour/Heading",
+          "fontName": null,
+          "fontSize": null,
+          "fontWeight": null,
+          "letterSpacing": null,
+          "textColor": null
+        },
+        {
+          "pagePath": "/properties-2/:Properties",
+          "id": "EzJ9P5nkc",
+          "preset": "Arbour/Display",
+          "fontName": null,
+          "fontSize": null,
+          "fontWeight": null,
+          "letterSpacing": null,
+          "textColor": null
+        },
+        {
+          "pagePath": "/properties-2/:Properties",
+          "id": "K2hD_wHuJ",
+          "preset": "Arbour/Subhead",
+          "fontName": null,
+          "fontSize": null,
+          "fontWeight": null,
+          "letterSpacing": null,
+          "textColor": "rgba(28, 27, 22, 0.6)"
+        },
+        {
+          "pagePath": "/properties-2/:Properties",
+          "id": "zfTFui6Z4",
+          "preset": "Arbour/Subhead",
+          "fontName": null,
+          "fontSize": null,
+          "fontWeight": null,
+          "letterSpacing": null,
+          "textColor": "rgb(28, 27, 22)"
+        },
+        {
+          "pagePath": "/properties-2/:Properties",
+          "id": "VKuWujVH0",
+          "preset": "Arbour/Subhead",
+          "fontName": null,
+          "fontSize": null,
+          "fontWeight": null,
+          "letterSpacing": null,
+          "textColor": "rgb(28, 27, 22)"
+        },
+        {
+          "pagePath": "/properties-2/:Properties",
+          "id": "eeokQqTqW",
+          "preset": "Arbour/Subhead",
+          "fontName": null,
+          "fontSize": null,
+          "fontWeight": null,
+          "letterSpacing": null,
+          "textColor": "rgb(28, 27, 22)"
+        },
+        {
+          "pagePath": "/properties-2/:Properties",
+          "id": "aLAKIE0BP",
+          "preset": "Arbour/Subhead",
+          "fontName": null,
+          "fontSize": null,
+          "fontWeight": null,
+          "letterSpacing": null,
+          "textColor": "rgb(252, 250, 244)"
+        },
+        {
+          "pagePath": "/properties-2/:Properties",
+          "id": "G1kUXfSAk",
+          "preset": "Arbour/Subhead",
+          "fontName": null,
+          "fontSize": null,
+          "fontWeight": null,
+          "letterSpacing": null,
+          "textColor": "rgb(252, 250, 244)"
+        },
+        {
+          "pagePath": "/properties-2/:Properties",
+          "id": "keLdgDqUY",
+          "preset": "Arbour/Subhead",
+          "fontName": null,
+          "fontSize": null,
+          "fontWeight": null,
+          "letterSpacing": null,
+          "textColor": "rgb(252, 250, 244)"
+        },
+        {
+          "pagePath": "/properties-2/:Properties",
+          "id": "ieBQRO9tF",
+          "preset": "Arbour/Subhead",
+          "fontName": null,
+          "fontSize": null,
+          "fontWeight": null,
+          "letterSpacing": null,
+          "textColor": "rgb(28, 27, 22)"
+        },
+        {
+          "pagePath": "/properties-2/:Properties",
+          "id": "iWKhT_gex",
+          "preset": "Arbour/Subhead",
+          "fontName": null,
+          "fontSize": null,
+          "fontWeight": null,
+          "letterSpacing": null,
+          "textColor": "rgb(28, 27, 22)"
+        },
+        {
+          "pagePath": "/properties-2/:Properties",
+          "id": "PwybvF8o3",
+          "preset": "Arbour/Subhead",
+          "fontName": null,
+          "fontSize": null,
+          "fontWeight": null,
+          "letterSpacing": null,
+          "textColor": "rgb(252, 250, 244)"
+        },
+        {
+          "pagePath": "/properties-2/:Properties",
+          "id": "wfaMRS3i1",
+          "preset": "Arbour/Subhead",
+          "fontName": null,
+          "fontSize": null,
+          "fontWeight": null,
+          "letterSpacing": null,
+          "textColor": "rgb(252, 250, 244)"
+        },
+        {
+          "pagePath": "/properties-2/:Properties",
+          "id": "yazX6e9PS",
+          "preset": "Arbour/Display",
+          "fontName": null,
+          "fontSize": null,
+          "fontWeight": null,
+          "letterSpacing": null,
+          "textColor": null
+        },
+        {
+          "pagePath": "/properties-2/:Properties",
+          "id": "Q2e_TgYuK",
+          "preset": "Arbour/Heading",
+          "fontName": null,
+          "fontSize": null,
+          "fontWeight": null,
+          "letterSpacing": null,
+          "textColor": null
+        }
+      ],
+      "components": [
+        "Footer",
+        "Arbour_InertiaFrame",
+        "Nav",
+        "Arbour_MenuIcon",
+        "Arbour_StatsBand",
+        "Arbour_UnderlineLink",
+        "Arbour_PrincipalProfile",
+        "Arbour_OfficeAtlasPanel",
+        "Arbour_EditorialReveal",
+        "Arbour_ScrollCue",
+        "Arbour Neighbourhood Feature",
+        "Arbour_NoiseEffect",
+        "Arbour_ProgressiveBlur",
+        "Arbour_FormButton",
+        "Arbour_ArticleCard",
+        "Arbour_Copyright",
+        "Arbour_PrimaryButton",
+        "Arbour_StopScroll",
+        "Arbour_LoadingScreen",
+        "Arbour_SmoothScroll",
+        "Arbour_TerritoryRail",
+        "Arbour_PropertyCard"
+      ],
+      "rawFillsTop": [
+        {
+          "id": "ym6hx2Otc",
+          "name": "Desktop",
+          "fill": "rgb(252, 250, 244)"
+        },
+        {
+          "id": "lP4ZL6y0c",
+          "name": "Cinematic Gallery",
+          "fill": "rgb(252, 250, 244)"
+        },
+        {
+          "id": "vlElPVCV7",
+          "name": "Property Particulars",
+          "fill": "rgb(21, 43, 30)"
+        },
+        {
+          "id": "IQmBTrFpb",
+          "name": "Tablet",
+          "fill": "rgb(252, 250, 244)"
+        },
+        {
+          "id": "IQmBTrFpblP4ZL6y0c",
+          "name": "Cinematic Gallery",
+          "fill": "rgb(252, 250, 244)"
+        },
+        {
+          "id": "IQmBTrFpbvlElPVCV7",
+          "name": "Property Particulars",
+          "fill": "rgb(21, 43, 30)"
+        },
+        {
+          "id": "MrTKJzwEL",
+          "name": "Phone",
+          "fill": "rgb(252, 250, 244)"
+        },
+        {
+          "id": "MrTKJzwELlP4ZL6y0c",
+          "name": "Cinematic Gallery",
+          "fill": "rgb(252, 250, 244)"
+        },
+        {
+          "id": "MrTKJzwELvlElPVCV7",
+          "name": "Property Particulars",
+          "fill": "rgb(21, 43, 30)"
+        }
+      ]
+    },
+    "/notes/:Journal": {
+      "pageId": "YPPO8pJ92",
+      "richTextCount": 1260,
+      "componentCount": 391,
+      "hasNav": true,
+      "hasFooter": true,
+      "uniquePresets": [
+        "Arbour/Meta",
+        "Arbour/Display",
+        "Arbour/Body",
+        "Arbour/Heading",
+        "Arbour/Price",
+        "Arbour/Subhead",
+        "Arbour/Tags"
+      ],
+      "titles": [
+        {
+          "pagePath": "/notes/:Journal",
+          "id": "Qonafp_oDSJuRWbpih",
+          "preset": "Arbour/Display",
+          "fontName": null,
+          "fontSize": null,
+          "fontWeight": null,
+          "letterSpacing": null,
+          "textColor": null
+        },
+        {
+          "pagePath": "/notes/:Journal",
+          "id": "aJLpuUP0qSJuRWbpih",
+          "preset": "Arbour/Display",
+          "fontName": null,
+          "fontSize": null,
+          "fontWeight": null,
+          "letterSpacing": null,
+          "textColor": null
+        },
+        {
+          "pagePath": "/notes/:Journal",
+          "id": "SJuRWbpih",
+          "preset": "Arbour/Display",
+          "fontName": null,
+          "fontSize": null,
+          "fontWeight": null,
+          "letterSpacing": null,
+          "textColor": null
+        },
+        {
+          "pagePath": "/notes/:Journal",
+          "id": "MrTKJzwELDoqsMLwNC",
+          "text": "var(--variable-JpvlXWFTC)",
+          "preset": "Arbour/Heading",
+          "fontName": null,
+          "fontSize": null,
+          "fontWeight": null,
+          "letterSpacing": null,
+          "textColor": null
+        },
+        {
+          "pagePath": "/notes/:Journal",
+          "id": "IQmBTrFpbDoqsMLwNC",
+          "text": "var(--variable-JpvlXWFTC)",
+          "preset": "Arbour/Heading",
+          "fontName": null,
+          "fontSize": null,
+          "fontWeight": null,
+          "letterSpacing": null,
+          "textColor": null
+        },
+        {
+          "pagePath": "/notes/:Journal",
+          "id": "DoqsMLwNC",
+          "text": "var(--variable-JpvlXWFTC)",
+          "preset": "Arbour/Heading",
+          "fontName": null,
+          "fontSize": null,
+          "fontWeight": null,
+          "letterSpacing": null,
+          "textColor": null
+        },
+        {
+          "pagePath": "/notes/:Journal",
+          "id": "EzJ9P5nkc",
+          "preset": "Arbour/Display",
+          "fontName": null,
+          "fontSize": null,
+          "fontWeight": null,
+          "letterSpacing": null,
+          "textColor": null
+        },
+        {
+          "pagePath": "/notes/:Journal",
+          "id": "K2hD_wHuJ",
+          "preset": "Arbour/Subhead",
+          "fontName": null,
+          "fontSize": null,
+          "fontWeight": null,
+          "letterSpacing": null,
+          "textColor": "rgba(28, 27, 22, 0.6)"
+        },
+        {
+          "pagePath": "/notes/:Journal",
+          "id": "zfTFui6Z4",
+          "preset": "Arbour/Subhead",
+          "fontName": null,
+          "fontSize": null,
+          "fontWeight": null,
+          "letterSpacing": null,
+          "textColor": "rgb(28, 27, 22)"
+        },
+        {
+          "pagePath": "/notes/:Journal",
+          "id": "VKuWujVH0",
+          "preset": "Arbour/Subhead",
+          "fontName": null,
+          "fontSize": null,
+          "fontWeight": null,
+          "letterSpacing": null,
+          "textColor": "rgb(28, 27, 22)"
+        },
+        {
+          "pagePath": "/notes/:Journal",
+          "id": "eeokQqTqW",
+          "preset": "Arbour/Subhead",
+          "fontName": null,
+          "fontSize": null,
+          "fontWeight": null,
+          "letterSpacing": null,
+          "textColor": "rgb(28, 27, 22)"
+        },
+        {
+          "pagePath": "/notes/:Journal",
+          "id": "aLAKIE0BP",
+          "preset": "Arbour/Subhead",
+          "fontName": null,
+          "fontSize": null,
+          "fontWeight": null,
+          "letterSpacing": null,
+          "textColor": "rgb(252, 250, 244)"
+        },
+        {
+          "pagePath": "/notes/:Journal",
+          "id": "G1kUXfSAk",
+          "preset": "Arbour/Subhead",
+          "fontName": null,
+          "fontSize": null,
+          "fontWeight": null,
+          "letterSpacing": null,
+          "textColor": "rgb(252, 250, 244)"
+        },
+        {
+          "pagePath": "/notes/:Journal",
+          "id": "keLdgDqUY",
+          "preset": "Arbour/Subhead",
+          "fontName": null,
+          "fontSize": null,
+          "fontWeight": null,
+          "letterSpacing": null,
+          "textColor": "rgb(252, 250, 244)"
+        },
+        {
+          "pagePath": "/notes/:Journal",
+          "id": "ieBQRO9tF",
+          "preset": "Arbour/Subhead",
+          "fontName": null,
+          "fontSize": null,
+          "fontWeight": null,
+          "letterSpacing": null,
+          "textColor": "rgb(28, 27, 22)"
+        },
+        {
+          "pagePath": "/notes/:Journal",
+          "id": "iWKhT_gex",
+          "preset": "Arbour/Subhead",
+          "fontName": null,
+          "fontSize": null,
+          "fontWeight": null,
+          "letterSpacing": null,
+          "textColor": "rgb(28, 27, 22)"
+        },
+        {
+          "pagePath": "/notes/:Journal",
+          "id": "PwybvF8o3",
+          "preset": "Arbour/Subhead",
+          "fontName": null,
+          "fontSize": null,
+          "fontWeight": null,
+          "letterSpacing": null,
+          "textColor": "rgb(252, 250, 244)"
+        },
+        {
+          "pagePath": "/notes/:Journal",
+          "id": "wfaMRS3i1",
+          "preset": "Arbour/Subhead",
+          "fontName": null,
+          "fontSize": null,
+          "fontWeight": null,
+          "letterSpacing": null,
+          "textColor": "rgb(252, 250, 244)"
+        },
+        {
+          "pagePath": "/notes/:Journal",
+          "id": "yazX6e9PS",
+          "preset": "Arbour/Display",
+          "fontName": null,
+          "fontSize": null,
+          "fontWeight": null,
+          "letterSpacing": null,
+          "textColor": null
+        },
+        {
+          "pagePath": "/notes/:Journal",
+          "id": "Q2e_TgYuK",
+          "preset": "Arbour/Heading",
+          "fontName": null,
+          "fontSize": null,
+          "fontWeight": null,
+          "letterSpacing": null,
+          "textColor": null
+        }
+      ],
+      "components": [
+        "Footer",
+        "Arbour_InertiaFrame",
+        "Nav",
+        "Arbour_MenuIcon",
+        "Arbour_StatsBand",
+        "Arbour_UnderlineLink",
+        "Arbour_PrincipalProfile",
+        "Arbour_OfficeAtlasPanel",
+        "Arbour_EditorialReveal",
+        "Arbour_ScrollCue",
+        "Arbour Neighbourhood Feature",
+        "Arbour_NoiseEffect",
+        "Arbour_ProgressiveBlur",
+        "Arbour_FormButton",
+        "Arbour_ArticleCard",
+        "Arbour_Copyright",
+        "Arbour_PrimaryButton",
+        "Arbour_StopScroll",
+        "Arbour_LoadingScreen",
+        "Arbour_SmoothScroll",
+        "Arbour_TerritoryRail",
+        "Arbour_PropertyCard"
+      ],
+      "rawFillsTop": [
+        {
+          "id": "n1MGlvW2_",
+          "name": "Desktop",
+          "fill": "rgb(252, 250, 244)"
+        },
+        {
+          "id": "TYvLnLN5L",
+          "fill": "rgb(252, 250, 244)"
+        },
+        {
+          "id": "XfQIW7biv",
+          "fill": "rgba(0, 0, 0, 0)"
+        },
+        {
+          "id": "JnURREKMn",
+          "name": "Property Particulars",
+          "fill": "rgb(21, 43, 30)"
+        },
+        {
+          "id": "gZUAlaJJ1",
+          "name": "Tablet",
+          "fill": "rgb(252, 250, 244)"
+        },
+        {
+          "id": "gZUAlaJJ1TYvLnLN5L",
+          "fill": "rgb(252, 250, 244)"
+        },
+        {
+          "id": "gZUAlaJJ1XfQIW7biv",
+          "fill": "rgba(0, 0, 0, 0)"
+        },
+        {
+          "id": "gZUAlaJJ1JnURREKMn",
+          "name": "Property Particulars",
+          "fill": "rgb(21, 43, 30)"
+        },
+        {
+          "id": "EavJve6uG",
+          "name": "Phone",
+          "fill": "rgb(252, 250, 244)"
+        },
+        {
+          "id": "EavJve6uGTYvLnLN5L",
+          "fill": "rgb(252, 250, 244)"
+        },
+        {
+          "id": "EavJve6uGXfQIW7biv",
+          "fill": "rgba(0, 0, 0, 0)"
+        },
+        {
+          "id": "EavJve6uGJnURREKMn",
+          "name": "Property Particulars",
+          "fill": "rgb(21, 43, 30)"
+        }
+      ]
+    },
+    "/404": {
+      "pageId": "ojmcAsLyM",
+      "richTextCount": 1260,
+      "componentCount": 391,
+      "hasNav": true,
+      "hasFooter": true,
+      "uniquePresets": [
+        "Arbour/Meta",
+        "Arbour/Display",
+        "Arbour/Body",
+        "Arbour/Heading",
+        "Arbour/Price",
+        "Arbour/Subhead",
+        "Arbour/Tags"
+      ],
+      "titles": [
+        {
+          "pagePath": "/404",
+          "id": "Qonafp_oDSJuRWbpih",
+          "preset": "Arbour/Display",
+          "fontName": null,
+          "fontSize": null,
+          "fontWeight": null,
+          "letterSpacing": null,
+          "textColor": null
+        },
+        {
+          "pagePath": "/404",
+          "id": "aJLpuUP0qSJuRWbpih",
+          "preset": "Arbour/Display",
+          "fontName": null,
+          "fontSize": null,
+          "fontWeight": null,
+          "letterSpacing": null,
+          "textColor": null
+        },
+        {
+          "pagePath": "/404",
+          "id": "SJuRWbpih",
+          "preset": "Arbour/Display",
+          "fontName": null,
+          "fontSize": null,
+          "fontWeight": null,
+          "letterSpacing": null,
+          "textColor": null
+        },
+        {
+          "pagePath": "/404",
+          "id": "MrTKJzwELDoqsMLwNC",
+          "text": "var(--variable-JpvlXWFTC)",
+          "preset": "Arbour/Heading",
+          "fontName": null,
+          "fontSize": null,
+          "fontWeight": null,
+          "letterSpacing": null,
+          "textColor": null
+        },
+        {
+          "pagePath": "/404",
+          "id": "IQmBTrFpbDoqsMLwNC",
+          "text": "var(--variable-JpvlXWFTC)",
+          "preset": "Arbour/Heading",
+          "fontName": null,
+          "fontSize": null,
+          "fontWeight": null,
+          "letterSpacing": null,
+          "textColor": null
+        },
+        {
+          "pagePath": "/404",
+          "id": "DoqsMLwNC",
+          "text": "var(--variable-JpvlXWFTC)",
+          "preset": "Arbour/Heading",
+          "fontName": null,
+          "fontSize": null,
+          "fontWeight": null,
+          "letterSpacing": null,
+          "textColor": null
+        },
+        {
+          "pagePath": "/404",
+          "id": "EzJ9P5nkc",
+          "preset": "Arbour/Display",
+          "fontName": null,
+          "fontSize": null,
+          "fontWeight": null,
+          "letterSpacing": null,
+          "textColor": null
+        },
+        {
+          "pagePath": "/404",
+          "id": "K2hD_wHuJ",
+          "preset": "Arbour/Subhead",
+          "fontName": null,
+          "fontSize": null,
+          "fontWeight": null,
+          "letterSpacing": null,
+          "textColor": "rgba(28, 27, 22, 0.6)"
+        },
+        {
+          "pagePath": "/404",
+          "id": "zfTFui6Z4",
+          "preset": "Arbour/Subhead",
+          "fontName": null,
+          "fontSize": null,
+          "fontWeight": null,
+          "letterSpacing": null,
+          "textColor": "rgb(28, 27, 22)"
+        },
+        {
+          "pagePath": "/404",
+          "id": "VKuWujVH0",
+          "preset": "Arbour/Subhead",
+          "fontName": null,
+          "fontSize": null,
+          "fontWeight": null,
+          "letterSpacing": null,
+          "textColor": "rgb(28, 27, 22)"
+        },
+        {
+          "pagePath": "/404",
+          "id": "eeokQqTqW",
+          "preset": "Arbour/Subhead",
+          "fontName": null,
+          "fontSize": null,
+          "fontWeight": null,
+          "letterSpacing": null,
+          "textColor": "rgb(28, 27, 22)"
+        },
+        {
+          "pagePath": "/404",
+          "id": "aLAKIE0BP",
+          "preset": "Arbour/Subhead",
+          "fontName": null,
+          "fontSize": null,
+          "fontWeight": null,
+          "letterSpacing": null,
+          "textColor": "rgb(252, 250, 244)"
+        },
+        {
+          "pagePath": "/404",
+          "id": "G1kUXfSAk",
+          "preset": "Arbour/Subhead",
+          "fontName": null,
+          "fontSize": null,
+          "fontWeight": null,
+          "letterSpacing": null,
+          "textColor": "rgb(252, 250, 244)"
+        },
+        {
+          "pagePath": "/404",
+          "id": "keLdgDqUY",
+          "preset": "Arbour/Subhead",
+          "fontName": null,
+          "fontSize": null,
+          "fontWeight": null,
+          "letterSpacing": null,
+          "textColor": "rgb(252, 250, 244)"
+        },
+        {
+          "pagePath": "/404",
+          "id": "ieBQRO9tF",
+          "preset": "Arbour/Subhead",
+          "fontName": null,
+          "fontSize": null,
+          "fontWeight": null,
+          "letterSpacing": null,
+          "textColor": "rgb(28, 27, 22)"
+        },
+        {
+          "pagePath": "/404",
+          "id": "iWKhT_gex",
+          "preset": "Arbour/Subhead",
+          "fontName": null,
+          "fontSize": null,
+          "fontWeight": null,
+          "letterSpacing": null,
+          "textColor": "rgb(28, 27, 22)"
+        },
+        {
+          "pagePath": "/404",
+          "id": "PwybvF8o3",
+          "preset": "Arbour/Subhead",
+          "fontName": null,
+          "fontSize": null,
+          "fontWeight": null,
+          "letterSpacing": null,
+          "textColor": "rgb(252, 250, 244)"
+        },
+        {
+          "pagePath": "/404",
+          "id": "wfaMRS3i1",
+          "preset": "Arbour/Subhead",
+          "fontName": null,
+          "fontSize": null,
+          "fontWeight": null,
+          "letterSpacing": null,
+          "textColor": "rgb(252, 250, 244)"
+        },
+        {
+          "pagePath": "/404",
+          "id": "yazX6e9PS",
+          "preset": "Arbour/Display",
+          "fontName": null,
+          "fontSize": null,
+          "fontWeight": null,
+          "letterSpacing": null,
+          "textColor": null
+        },
+        {
+          "pagePath": "/404",
+          "id": "Q2e_TgYuK",
+          "preset": "Arbour/Heading",
+          "fontName": null,
+          "fontSize": null,
+          "fontWeight": null,
+          "letterSpacing": null,
+          "textColor": null
+        }
+      ],
+      "components": [
+        "Footer",
+        "Arbour_InertiaFrame",
+        "Nav",
+        "Arbour_MenuIcon",
+        "Arbour_StatsBand",
+        "Arbour_UnderlineLink",
+        "Arbour_PrincipalProfile",
+        "Arbour_OfficeAtlasPanel",
+        "Arbour_EditorialReveal",
+        "Arbour_ScrollCue",
+        "Arbour Neighbourhood Feature",
+        "Arbour_NoiseEffect",
+        "Arbour_ProgressiveBlur",
+        "Arbour_FormButton",
+        "Arbour_ArticleCard",
+        "Arbour_Copyright",
+        "Arbour_PrimaryButton",
+        "Arbour_StopScroll",
+        "Arbour_LoadingScreen",
+        "Arbour_SmoothScroll",
+        "Arbour_TerritoryRail",
+        "Arbour_PropertyCard"
+      ],
+      "rawFillsTop": [
+        {
+          "id": "j4N1jForf",
+          "name": "404 — Lost Address",
+          "fill": "rgba(28, 27, 22, 0.9)"
+        },
+        {
+          "id": "fajgZq_WSj4N1jForf",
+          "name": "404 — Lost Address",
+          "fill": "rgba(28, 27, 22, 0.9)"
+        },
+        {
+          "id": "TmwJ7gTG4j4N1jForf",
+          "name": "404 — Lost Address",
+          "fill": "rgba(28, 27, 22, 0.9)"
+        }
+      ]
+    }
+  },
+  "textPresetCounts": {
+    "Arbour/Meta": 4752,
+    "Arbour/Display": 108,
+    "(none)": 3789,
+    "Arbour/Body": 846,
+    "Arbour/Heading": 324,
+    "Arbour/Price": 180,
+    "Arbour/Subhead": 963,
+    "Arbour/Tags": 378
+  },
+  "nonArbourPresets": {
+    "total": 0,
+    "items": []
+  },
+  "rawFontOverrides": {
+    "total": 495,
+    "items": [
+      {
+        "pagePath": "/",
+        "id": "XTRvNWtsXf5qt18dac",
+        "name": "Text",
+        "preset": null,
+        "fontName": "Inter",
+        "fontSize": "16px",
+        "fontWeight": 400,
+        "letterSpacing": "0em",
+        "textColor": null
+      },
+      {
+        "pagePath": "/",
+        "id": "kkEkae9aPf5qt18dac",
+        "name": "Text",
+        "preset": null,
+        "fontName": "Inter",
+        "fontSize": "16px",
+        "fontWeight": 400,
+        "letterSpacing": "0em",
+        "textColor": null
+      },
+      {
+        "pagePath": "/",
+        "id": "d32_rx10Ef5qt18dac",
+        "name": "Text",
+        "preset": null,
+        "fontName": "Inter",
+        "fontSize": "16px",
+        "fontWeight": 400,
+        "letterSpacing": "0em",
+        "textColor": null
+      },
+      {
+        "pagePath": "/",
+        "id": "RzdeytPaVf5qt18dac",
+        "name": "Text",
+        "preset": null,
+        "fontName": "Inter",
+        "fontSize": "16px",
+        "fontWeight": 400,
+        "letterSpacing": "0em",
+        "textColor": null
+      },
+      {
+        "pagePath": "/",
+        "id": "f5qt18dac",
+        "name": "Text",
+        "preset": null,
+        "fontName": "Inter",
+        "fontSize": "16px",
+        "fontWeight": 400,
+        "letterSpacing": "0em",
+        "textColor": null
+      },
+      {
+        "pagePath": "/",
+        "id": "MrTKJzwELbPW4fi6cp",
+        "name": "Setting Detail",
+        "preset": null,
+        "fontName": "Inter",
+        "fontSize": "16px",
+        "fontWeight": 400,
+        "letterSpacing": "0em",
+        "textColor": "rgba(28, 27, 22, 0.55)"
+      },
+      {
+        "pagePath": "/",
+        "id": "IQmBTrFpbbPW4fi6cp",
+        "name": "Setting Detail",
+        "preset": null,
+        "fontName": "Inter",
+        "fontSize": "16px",
+        "fontWeight": 400,
+        "letterSpacing": "0em",
+        "textColor": "rgba(28, 27, 22, 0.55)"
+      },
+      {
+        "pagePath": "/",
+        "id": "bPW4fi6cp",
+        "name": "Setting Detail",
+        "preset": null,
+        "fontName": "Inter",
+        "fontSize": "16px",
+        "fontWeight": 400,
+        "letterSpacing": "0em",
+        "textColor": "rgba(28, 27, 22, 0.55)"
+      },
+      {
+        "pagePath": "/",
+        "id": "EK6d5SyWLfWEtnTZY0",
+        "preset": null,
+        "fontName": "Inter",
+        "fontSize": "18px",
+        "fontWeight": 400,
+        "letterSpacing": "-0.01em",
+        "textColor": "rgba(28, 27, 22, 0.55)"
+      },
+      {
+        "pagePath": "/",
+        "id": "SScKalu3BfWEtnTZY0",
+        "preset": null,
+        "fontName": "Inter",
+        "fontSize": "18px",
+        "fontWeight": 400,
+        "letterSpacing": "-0.01em",
+        "textColor": "rgba(28, 27, 22, 0.55)"
+      },
+      {
+        "pagePath": "/",
+        "id": "fWEtnTZY0",
+        "preset": null,
+        "fontName": "Inter",
+        "fontSize": "18px",
+        "fontWeight": 400,
+        "letterSpacing": "-0.01em",
+        "textColor": "rgba(28, 27, 22, 0.55)"
+      },
+      {
+        "pagePath": "/",
+        "id": "EK6d5SyWLQEXjleRNs",
+        "preset": null,
+        "fontName": "Inter",
+        "fontSize": "16px",
+        "fontWeight": 400,
+        "letterSpacing": "-0.01em",
+        "textColor": "rgba(28, 27, 22, 0.55)"
+      },
+      {
+        "pagePath": "/",
+        "id": "SScKalu3BQEXjleRNs",
+        "preset": null,
+        "fontName": "Inter",
+        "fontSize": "16px",
+        "fontWeight": 400,
+        "letterSpacing": "-0.01em",
+        "textColor": "rgba(28, 27, 22, 0.55)"
+      },
+      {
+        "pagePath": "/",
+        "id": "QEXjleRNs",
+        "preset": null,
+        "fontName": "Inter",
+        "fontSize": "16px",
+        "fontWeight": 400,
+        "letterSpacing": "-0.01em",
+        "textColor": "rgba(28, 27, 22, 0.55)"
+      },
+      {
+        "pagePath": "/",
+        "id": "EK6d5SyWLbLkyXmYTL",
+        "preset": null,
+        "fontName": "Inter",
+        "fontSize": "16px",
+        "fontWeight": 400,
+        "letterSpacing": "-0.01em",
+        "textColor": "rgba(28, 27, 22, 0.55)"
+      },
+      {
+        "pagePath": "/",
+        "id": "SScKalu3BbLkyXmYTL",
+        "preset": null,
+        "fontName": "Inter",
+        "fontSize": "16px",
+        "fontWeight": 400,
+        "letterSpacing": "-0.01em",
+        "textColor": "rgba(28, 27, 22, 0.55)"
+      },
+      {
+        "pagePath": "/",
+        "id": "bLkyXmYTL",
+        "preset": null,
+        "fontName": "Inter",
+        "fontSize": "16px",
+        "fontWeight": 400,
+        "letterSpacing": "-0.01em",
+        "textColor": "rgba(28, 27, 22, 0.55)"
+      },
+      {
+        "pagePath": "/",
+        "id": "EK6d5SyWLjb25IJ8pa",
+        "preset": null,
+        "fontName": "Inter",
+        "fontSize": "16px",
+        "fontWeight": 400,
+        "letterSpacing": "-0.01em",
+        "textColor": "rgba(28, 27, 22, 0.55)"
+      },
+      {
+        "pagePath": "/",
+        "id": "SScKalu3Bjb25IJ8pa",
+        "preset": null,
+        "fontName": "Inter",
+        "fontSize": "16px",
+        "fontWeight": 400,
+        "letterSpacing": "-0.01em",
+        "textColor": "rgba(28, 27, 22, 0.55)"
+      },
+      {
+        "pagePath": "/",
+        "id": "jb25IJ8pa",
+        "preset": null,
+        "fontName": "Inter",
+        "fontSize": "16px",
+        "fontWeight": 400,
+        "letterSpacing": "-0.01em",
+        "textColor": "rgba(28, 27, 22, 0.55)"
+      },
+      {
+        "pagePath": "/",
+        "id": "pmAxXUJ0oJFYCwkmiL",
+        "name": "Subheadline",
+        "preset": null,
+        "fontName": "Inter",
+        "fontSize": "14px",
+        "fontWeight": 400,
+        "letterSpacing": "-0.02em",
+        "textColor": "rgb(252, 250, 244)"
+      },
+      {
+        "pagePath": "/",
+        "id": "U3TeNUVXvJFYCwkmiL",
+        "name": "Subheadline",
+        "preset": null,
+        "fontName": "Inter",
+        "fontSize": "15px",
+        "fontWeight": 400,
+        "letterSpacing": "-0.02em",
+        "textColor": "rgb(252, 250, 244)"
+      },
+      {
+        "pagePath": "/",
+        "id": "JFYCwkmiL",
+        "name": "Subheadline",
+        "preset": null,
+        "fontName": "Inter",
+        "fontSize": "16px",
+        "fontWeight": 400,
+        "letterSpacing": "-0.02em",
+        "textColor": "rgb(252, 250, 244)"
+      },
+      {
+        "pagePath": "/",
+        "id": "TmwJ7gTG4X1y97oCSA",
+        "name": "Supporting Copy",
+        "preset": null,
+        "fontName": "Inter",
+        "fontSize": "14px",
+        "fontWeight": 400,
+        "letterSpacing": "0em",
+        "textColor": "rgba(239, 233, 219, 0.72)"
+      },
+      {
+        "pagePath": "/",
+        "id": "fajgZq_WSX1y97oCSA",
+        "name": "Supporting Copy",
+        "preset": null,
+        "fontName": "Inter",
+        "fontSize": "15px",
+        "fontWeight": 400,
+        "letterSpacing": "0em",
+        "textColor": "rgba(239, 233, 219, 0.72)"
+      },
+      {
+        "pagePath": "/",
+        "id": "X1y97oCSA",
+        "name": "Supporting Copy",
+        "preset": null,
+        "fontName": "Inter",
+        "fontSize": "16px",
+        "fontWeight": 400,
+        "letterSpacing": "0em",
+        "textColor": "rgba(239, 233, 219, 0.72)"
+      },
+      {
+        "pagePath": "/",
+        "id": "EavJve6uGF8mJdJsOh",
+        "name": "Setting Detail",
+        "preset": null,
+        "fontName": "Inter",
+        "fontSize": "16px",
+        "fontWeight": 400,
+        "letterSpacing": "0em",
+        "textColor": "rgba(28, 27, 22, 0.55)"
+      },
+      {
+        "pagePath": "/",
+        "id": "gZUAlaJJ1F8mJdJsOh",
+        "name": "Setting Detail",
+        "preset": null,
+        "fontName": "Inter",
+        "fontSize": "16px",
+        "fontWeight": 400,
+        "letterSpacing": "0em",
+        "textColor": "rgba(28, 27, 22, 0.55)"
+      },
+      {
+        "pagePath": "/",
+        "id": "F8mJdJsOh",
+        "name": "Setting Detail",
+        "preset": null,
+        "fontName": "Inter",
+        "fontSize": "16px",
+        "fontWeight": 400,
+        "letterSpacing": "0em",
+        "textColor": "rgba(28, 27, 22, 0.55)"
+      },
+      {
+        "pagePath": "/",
+        "id": "INUKgvAnaZ2YTa8BaL",
+        "preset": null,
+        "fontName": "Inter",
+        "fontSize": "16px",
+        "fontWeight": 400,
+        "letterSpacing": "-0.02em",
+        "textColor": "rgba(242, 237, 231, 0.62)"
+      },
+      {
+        "pagePath": "/",
+        "id": "LptqEiXVpZ2YTa8BaL",
+        "preset": null,
+        "fontName": "Inter",
+        "fontSize": "17px",
+        "fontWeight": 400,
+        "letterSpacing": "-0.02em",
+        "textColor": "rgba(242, 237, 231, 0.62)"
+      },
+      {
+        "pagePath": "/",
+        "id": "Z2YTa8BaL",
+        "preset": null,
+        "fontName": "Inter",
+        "fontSize": "17px",
+        "fontWeight": 400,
+        "letterSpacing": "-0.02em",
+        "textColor": "rgba(242, 237, 231, 0.62)"
+      },
+      {
+        "pagePath": "/",
+        "id": "INUKgvAnadCYCf8ZZp",
+        "name": "Deck",
+        "preset": null,
+        "fontName": "Inter",
+        "fontSize": "20px",
+        "fontWeight": 400,
+        "letterSpacing": "-0.015em",
+        "textColor": "rgba(252, 250, 244, 0.72)"
+      },
+      {
+        "pagePath": "/",
+        "id": "LptqEiXVpdCYCf8ZZp",
+        "name": "Deck",
+        "preset": null,
+        "fontName": "Inter",
+        "fontSize": "22px",
+        "fontWeight": 400,
+        "letterSpacing": "-0.015em",
+        "textColor": "rgba(252, 250, 244, 0.72)"
+      },
+      {
+        "pagePath": "/",
+        "id": "dCYCf8ZZp",
+        "name": "Deck",
+        "preset": null,
+        "fontName": "Inter",
+        "fontSize": "17px",
+        "fontWeight": 400,
+        "letterSpacing": "-0.015em",
+        "textColor": "rgba(252, 250, 244, 0.72)"
+      },
+      {
+        "pagePath": "/",
+        "id": "Qonafp_oDrWmr0qn1F",
+        "preset": null,
+        "fontName": "Inter",
+        "fontSize": "17px",
+        "fontWeight": 400,
+        "letterSpacing": "0em",
+        "textColor": "rgba(252, 250, 244, 0.72)"
+      },
+      {
+        "pagePath": "/",
+        "id": "aJLpuUP0qrWmr0qn1F",
+        "preset": null,
+        "fontName": "Inter",
+        "fontSize": "17px",
+        "fontWeight": 400,
+        "letterSpacing": "0em",
+        "textColor": "rgba(252, 250, 244, 0.72)"
+      },
+      {
+        "pagePath": "/",
+        "id": "rWmr0qn1F",
+        "preset": null,
+        "fontName": "Inter",
+        "fontSize": "17px",
+        "fontWeight": 400,
+        "letterSpacing": "0em",
+        "textColor": "rgba(252, 250, 244, 0.72)"
+      },
+      {
+        "pagePath": "/",
+        "id": "Qonafp_oDKJdpIBmOd",
+        "preset": null,
+        "fontName": "Inter",
+        "fontSize": "17px",
+        "fontWeight": 400,
+        "letterSpacing": "0em",
+        "textColor": "rgba(252, 250, 244, 0.72)"
+      },
+      {
+        "pagePath": "/",
+        "id": "aJLpuUP0qKJdpIBmOd",
+        "preset": null,
+        "fontName": "Inter",
+        "fontSize": "17px",
+        "fontWeight": 400,
+        "letterSpacing": "0em",
+        "textColor": "rgba(252, 250, 244, 0.72)"
+      },
+      {
+        "pagePath": "/",
+        "id": "KJdpIBmOd",
+        "preset": null,
+        "fontName": "Inter",
+        "fontSize": "17px",
+        "fontWeight": 400,
+        "letterSpacing": "0em",
+        "textColor": "rgba(252, 250, 244, 0.72)"
+      },
+      {
+        "pagePath": "/",
+        "id": "Qonafp_oDA7DVbO4ux",
+        "preset": null,
+        "fontName": "Inter",
+        "fontSize": "15px",
+        "fontWeight": 400,
+        "letterSpacing": "0em",
+        "textColor": "rgb(28, 27, 22)"
+      },
+      {
+        "pagePath": "/",
+        "id": "aJLpuUP0qA7DVbO4ux",
+        "preset": null,
+        "fontName": "Inter",
+        "fontSize": "15px",
+        "fontWeight": 400,
+        "letterSpacing": "0em",
+        "textColor": "rgb(28, 27, 22)"
+      },
+      {
+        "pagePath": "/",
+        "id": "A7DVbO4ux",
+        "preset": null,
+        "fontName": "Inter",
+        "fontSize": "15px",
+        "fontWeight": 400,
+        "letterSpacing": "0em",
+        "textColor": "rgb(28, 27, 22)"
+      },
+      {
+        "pagePath": "/",
+        "id": "Qonafp_oDClU1r2Bz7",
+        "text": "var(--variable-mNRagFPfJ)",
+        "preset": null,
+        "fontName": "Inter",
+        "fontSize": "12px",
+        "fontWeight": 400,
+        "letterSpacing": "0em",
+        "textColor": "rgba(28, 27, 22, 0.5)"
+      },
+      {
+        "pagePath": "/",
+        "id": "aJLpuUP0qClU1r2Bz7",
+        "text": "var(--variable-mNRagFPfJ)",
+        "preset": null,
+        "fontName": "Inter",
+        "fontSize": "12px",
+        "fontWeight": 400,
+        "letterSpacing": "0em",
+        "textColor": "rgba(28, 27, 22, 0.5)"
+      },
+      {
+        "pagePath": "/",
+        "id": "ClU1r2Bz7",
+        "text": "var(--variable-mNRagFPfJ)",
+        "preset": null,
+        "fontName": "Inter",
+        "fontSize": "12px",
+        "fontWeight": 400,
+        "letterSpacing": "0em",
+        "textColor": "rgba(28, 27, 22, 0.5)"
+      },
+      {
+        "pagePath": "/",
+        "id": "EK6d5SyWLxdyqPewkZ",
+        "name": "Card Title",
+        "text": "var(--variable-JpvlXWFTC)",
+        "preset": null,
+        "fontName": "Inter",
+        "fontSize": "16px",
+        "fontWeight": 400,
+        "letterSpacing": "0em",
+        "textColor": "rgb(0, 0, 0)"
+      },
+      {
+        "pagePath": "/",
+        "id": "SScKalu3BxdyqPewkZ",
+        "name": "Card Title",
+        "text": "var(--variable-JpvlXWFTC)",
+        "preset": null,
+        "fontName": "Inter",
+        "fontSize": "16px",
+        "fontWeight": 400,
+        "letterSpacing": "0em",
+        "textColor": "rgb(0, 0, 0)"
+      },
+      {
+        "pagePath": "/",
+        "id": "EK6d5SyWLZazQNyfnk",
+        "name": "Card Price",
+        "text": "var(--variable-fa3JCTHNW)",
+        "preset": null,
+        "fontName": "Inter",
+        "fontSize": "16px",
+        "fontWeight": 400,
+        "letterSpacing": "0em",
+        "textColor": "rgb(0, 0, 0)"
+      },
+      {
+        "pagePath": "/",
+        "id": "SScKalu3BZazQNyfnk",
+        "name": "Card Price",
+        "text": "var(--variable-fa3JCTHNW)",
+        "preset": null,
+        "fontName": "Inter",
+        "fontSize": "16px",
+        "fontWeight": 400,
+        "letterSpacing": "0em",
+        "textColor": "rgb(0, 0, 0)"
+      },
+      {
+        "pagePath": "/",
+        "id": "EK6d5SyWLtYC5LtoAQ",
+        "name": "Card Location",
+        "text": "var(--variable-sx_scwXZw)",
+        "preset": null,
+        "fontName": "Inter",
+        "fontSize": "16px",
+        "fontWeight": 400,
+        "letterSpacing": "0em",
+        "textColor": "rgb(0, 0, 0)"
+      },
+      {
+        "pagePath": "/",
+        "id": "SScKalu3BtYC5LtoAQ",
+        "name": "Card Location",
+        "text": "var(--variable-sx_scwXZw)",
+        "preset": null,
+        "fontName": "Inter",
+        "fontSize": "16px",
+        "fontWeight": 400,
+        "letterSpacing": "0em",
+        "textColor": "rgb(0, 0, 0)"
+      },
+      {
+        "pagePath": "/",
+        "id": "EK6d5SyWLRZSs4jqEK",
+        "name": "Card Area",
+        "text": "var(--variable-q4Uo_EM4a)",
+        "preset": null,
+        "fontName": "Inter",
+        "fontSize": "16px",
+        "fontWeight": 400,
+        "letterSpacing": "0em",
+        "textColor": "rgb(0, 0, 0)"
+      },
+      {
+        "pagePath": "/",
+        "id": "SScKalu3BRZSs4jqEK",
+        "name": "Card Area",
+        "text": "var(--variable-q4Uo_EM4a)",
+        "preset": null,
+        "fontName": "Inter",
+        "fontSize": "16px",
+        "fontWeight": 400,
+        "letterSpacing": "0em",
+        "textColor": "rgb(0, 0, 0)"
+      },
+      {
+        "pagePath": "/properties-2",
+        "id": "XTRvNWtsXf5qt18dac",
+        "name": "Text",
+        "preset": null,
+        "fontName": "Inter",
+        "fontSize": "16px",
+        "fontWeight": 400,
+        "letterSpacing": "0em",
+        "textColor": null
+      },
+      {
+        "pagePath": "/properties-2",
+        "id": "kkEkae9aPf5qt18dac",
+        "name": "Text",
+        "preset": null,
+        "fontName": "Inter",
+        "fontSize": "16px",
+        "fontWeight": 400,
+        "letterSpacing": "0em",
+        "textColor": null
+      },
+      {
+        "pagePath": "/properties-2",
+        "id": "d32_rx10Ef5qt18dac",
+        "name": "Text",
+        "preset": null,
+        "fontName": "Inter",
+        "fontSize": "16px",
+        "fontWeight": 400,
+        "letterSpacing": "0em",
+        "textColor": null
+      },
+      {
+        "pagePath": "/properties-2",
+        "id": "RzdeytPaVf5qt18dac",
+        "name": "Text",
+        "preset": null,
+        "fontName": "Inter",
+        "fontSize": "16px",
+        "fontWeight": 400,
+        "letterSpacing": "0em",
+        "textColor": null
+      },
+      {
+        "pagePath": "/properties-2",
+        "id": "f5qt18dac",
+        "name": "Text",
+        "preset": null,
+        "fontName": "Inter",
+        "fontSize": "16px",
+        "fontWeight": 400,
+        "letterSpacing": "0em",
+        "textColor": null
+      }
+    ]
+  },
+  "rawTextColors": {
+    "total": 9837,
+    "items": [
+      {
+        "pagePath": "/",
+        "id": "Qonafp_oDC23aFLBsd",
+        "preset": "Arbour/Meta",
+        "fontName": null,
+        "fontSize": null,
+        "fontWeight": null,
+        "letterSpacing": null,
+        "textColor": "rgb(84, 98, 45)"
+      },
+      {
+        "pagePath": "/",
+        "id": "aJLpuUP0qC23aFLBsd",
+        "preset": "Arbour/Meta",
+        "fontName": null,
+        "fontSize": null,
+        "fontWeight": null,
+        "letterSpacing": null,
+        "textColor": "rgb(84, 98, 45)"
+      },
+      {
+        "pagePath": "/",
+        "id": "C23aFLBsd",
+        "preset": "Arbour/Meta",
+        "fontName": null,
+        "fontSize": null,
+        "fontWeight": null,
+        "letterSpacing": null,
+        "textColor": "rgb(84, 98, 45)"
+      },
+      {
+        "pagePath": "/",
+        "id": "jEM0wBo2vF6Dxn9vpj",
+        "preset": "Arbour/Meta",
+        "fontName": null,
+        "fontSize": null,
+        "fontWeight": null,
+        "letterSpacing": null,
+        "textColor": "rgb(84, 98, 45)"
+      },
+      {
+        "pagePath": "/",
+        "id": "qjv2S9WpaF6Dxn9vpj",
+        "preset": "Arbour/Meta",
+        "fontName": null,
+        "fontSize": null,
+        "fontWeight": null,
+        "letterSpacing": null,
+        "textColor": "rgb(84, 98, 45)"
+      },
+      {
+        "pagePath": "/",
+        "id": "F6Dxn9vpj",
+        "preset": "Arbour/Meta",
+        "fontName": null,
+        "fontSize": null,
+        "fontWeight": null,
+        "letterSpacing": null,
+        "textColor": "rgb(84, 98, 45)"
+      },
+      {
+        "pagePath": "/",
+        "id": "jEM0wBo2vat0UFQWlS",
+        "preset": null,
+        "fontName": "Fraunces",
+        "fontSize": "52px",
+        "fontWeight": 400,
+        "letterSpacing": "-0.04em",
+        "textColor": "rgb(0, 0, 0)"
+      },
+      {
+        "pagePath": "/",
+        "id": "qjv2S9Wpaat0UFQWlS",
+        "preset": null,
+        "fontName": "Fraunces",
+        "fontSize": "76px",
+        "fontWeight": 400,
+        "letterSpacing": "-0.045em",
+        "textColor": "rgb(0, 0, 0)"
+      },
+      {
+        "pagePath": "/",
+        "id": "at0UFQWlS",
+        "preset": null,
+        "fontName": "Fraunces",
+        "fontSize": "96px",
+        "fontWeight": 400,
+        "letterSpacing": "-0.045em",
+        "textColor": "rgb(0, 0, 0)"
+      },
+      {
+        "pagePath": "/",
+        "id": "jEM0wBo2vSEtzgNJzz",
+        "preset": null,
+        "fontName": "Fraunces",
+        "fontSize": "17px",
+        "fontWeight": 400,
+        "letterSpacing": "-0.01em",
+        "textColor": "rgba(28, 27, 22, 0.7)"
+      },
+      {
+        "pagePath": "/",
+        "id": "qjv2S9WpaSEtzgNJzz",
+        "preset": null,
+        "fontName": "Fraunces",
+        "fontSize": "19px",
+        "fontWeight": 400,
+        "letterSpacing": "-0.01em",
+        "textColor": "rgba(28, 27, 22, 0.7)"
+      },
+      {
+        "pagePath": "/",
+        "id": "SEtzgNJzz",
+        "preset": null,
+        "fontName": "Fraunces",
+        "fontSize": "19px",
+        "fontWeight": 400,
+        "letterSpacing": "-0.01em",
+        "textColor": "rgba(28, 27, 22, 0.7)"
+      },
+      {
+        "pagePath": "/",
+        "id": "jEM0wBo2vjy6AYu31v",
+        "preset": "Arbour/Meta",
+        "fontName": null,
+        "fontSize": null,
+        "fontWeight": null,
+        "letterSpacing": null,
+        "textColor": "rgb(84, 98, 45)"
+      },
+      {
+        "pagePath": "/",
+        "id": "qjv2S9Wpajy6AYu31v",
+        "preset": "Arbour/Meta",
+        "fontName": null,
+        "fontSize": null,
+        "fontWeight": null,
+        "letterSpacing": null,
+        "textColor": "rgb(84, 98, 45)"
+      },
+      {
+        "pagePath": "/",
+        "id": "jy6AYu31v",
+        "preset": "Arbour/Meta",
+        "fontName": null,
+        "fontSize": null,
+        "fontWeight": null,
+        "letterSpacing": null,
+        "textColor": "rgb(84, 98, 45)"
+      },
+      {
+        "pagePath": "/",
+        "id": "jEM0wBo2vnfdJgK1V5",
+        "preset": "Arbour/Meta",
+        "fontName": null,
+        "fontSize": null,
+        "fontWeight": null,
+        "letterSpacing": null,
+        "textColor": "rgb(84, 98, 45)"
+      },
+      {
+        "pagePath": "/",
+        "id": "qjv2S9WpanfdJgK1V5",
+        "preset": "Arbour/Meta",
+        "fontName": null,
+        "fontSize": null,
+        "fontWeight": null,
+        "letterSpacing": null,
+        "textColor": "rgb(84, 98, 45)"
+      },
+      {
+        "pagePath": "/",
+        "id": "nfdJgK1V5",
+        "preset": "Arbour/Meta",
+        "fontName": null,
+        "fontSize": null,
+        "fontWeight": null,
+        "letterSpacing": null,
+        "textColor": "rgb(84, 98, 45)"
+      },
+      {
+        "pagePath": "/",
+        "id": "jEM0wBo2vsjE6PBlZA",
+        "preset": "Arbour/Meta",
+        "fontName": null,
+        "fontSize": null,
+        "fontWeight": null,
+        "letterSpacing": null,
+        "textColor": "rgb(84, 98, 45)"
+      },
+      {
+        "pagePath": "/",
+        "id": "qjv2S9WpasjE6PBlZA",
+        "preset": "Arbour/Meta",
+        "fontName": null,
+        "fontSize": null,
+        "fontWeight": null,
+        "letterSpacing": null,
+        "textColor": "rgb(84, 98, 45)"
+      },
+      {
+        "pagePath": "/",
+        "id": "sjE6PBlZA",
+        "preset": "Arbour/Meta",
+        "fontName": null,
+        "fontSize": null,
+        "fontWeight": null,
+        "letterSpacing": null,
+        "textColor": "rgb(84, 98, 45)"
+      },
+      {
+        "pagePath": "/",
+        "id": "MrTKJzwELe3GyRnyIH",
+        "text": "var(--variable-sx_scwXZw)",
+        "preset": "Arbour/Meta",
+        "fontName": null,
+        "fontSize": null,
+        "fontWeight": null,
+        "letterSpacing": null,
+        "textColor": "rgb(84, 98, 45)"
+      },
+      {
+        "pagePath": "/",
+        "id": "IQmBTrFpbe3GyRnyIH",
+        "text": "var(--variable-sx_scwXZw)",
+        "preset": "Arbour/Meta",
+        "fontName": null,
+        "fontSize": null,
+        "fontWeight": null,
+        "letterSpacing": null,
+        "textColor": "rgb(84, 98, 45)"
+      },
+      {
+        "pagePath": "/",
+        "id": "e3GyRnyIH",
+        "text": "var(--variable-sx_scwXZw)",
+        "preset": "Arbour/Meta",
+        "fontName": null,
+        "fontSize": null,
+        "fontWeight": null,
+        "letterSpacing": null,
+        "textColor": "rgb(84, 98, 45)"
+      },
+      {
+        "pagePath": "/",
+        "id": "MrTKJzwELRhq1RvyMY",
+        "preset": "Arbour/Meta",
+        "fontName": null,
+        "fontSize": null,
+        "fontWeight": null,
+        "letterSpacing": null,
+        "textColor": "rgba(28, 27, 22, 0.55)"
+      },
+      {
+        "pagePath": "/",
+        "id": "IQmBTrFpbRhq1RvyMY",
+        "preset": "Arbour/Meta",
+        "fontName": null,
+        "fontSize": null,
+        "fontWeight": null,
+        "letterSpacing": null,
+        "textColor": "rgba(28, 27, 22, 0.55)"
+      },
+      {
+        "pagePath": "/",
+        "id": "Rhq1RvyMY",
+        "preset": "Arbour/Meta",
+        "fontName": null,
+        "fontSize": null,
+        "fontWeight": null,
+        "letterSpacing": null,
+        "textColor": "rgba(28, 27, 22, 0.55)"
+      },
+      {
+        "pagePath": "/",
+        "id": "MrTKJzwELBrDcHooTI",
+        "preset": "Arbour/Meta",
+        "fontName": null,
+        "fontSize": null,
+        "fontWeight": null,
+        "letterSpacing": null,
+        "textColor": "rgba(28, 27, 22, 0.55)"
+      },
+      {
+        "pagePath": "/",
+        "id": "IQmBTrFpbBrDcHooTI",
+        "preset": "Arbour/Meta",
+        "fontName": null,
+        "fontSize": null,
+        "fontWeight": null,
+        "letterSpacing": null,
+        "textColor": "rgba(28, 27, 22, 0.55)"
+      },
+      {
+        "pagePath": "/",
+        "id": "BrDcHooTI",
+        "preset": "Arbour/Meta",
+        "fontName": null,
+        "fontSize": null,
+        "fontWeight": null,
+        "letterSpacing": null,
+        "textColor": "rgba(28, 27, 22, 0.55)"
+      },
+      {
+        "pagePath": "/",
+        "id": "MrTKJzwELExDF9EEEh",
+        "preset": "Arbour/Meta",
+        "fontName": null,
+        "fontSize": null,
+        "fontWeight": null,
+        "letterSpacing": null,
+        "textColor": "rgba(28, 27, 22, 0.55)"
+      },
+      {
+        "pagePath": "/",
+        "id": "IQmBTrFpbExDF9EEEh",
+        "preset": "Arbour/Meta",
+        "fontName": null,
+        "fontSize": null,
+        "fontWeight": null,
+        "letterSpacing": null,
+        "textColor": "rgba(28, 27, 22, 0.55)"
+      },
+      {
+        "pagePath": "/",
+        "id": "ExDF9EEEh",
+        "preset": "Arbour/Meta",
+        "fontName": null,
+        "fontSize": null,
+        "fontWeight": null,
+        "letterSpacing": null,
+        "textColor": "rgba(28, 27, 22, 0.55)"
+      },
+      {
+        "pagePath": "/",
+        "id": "MrTKJzwELVNLnTbKMG",
+        "preset": "Arbour/Meta",
+        "fontName": null,
+        "fontSize": null,
+        "fontWeight": null,
+        "letterSpacing": null,
+        "textColor": "rgb(84, 98, 45)"
+      },
+      {
+        "pagePath": "/",
+        "id": "IQmBTrFpbVNLnTbKMG",
+        "preset": "Arbour/Meta",
+        "fontName": null,
+        "fontSize": null,
+        "fontWeight": null,
+        "letterSpacing": null,
+        "textColor": "rgb(84, 98, 45)"
+      },
+      {
+        "pagePath": "/",
+        "id": "VNLnTbKMG",
+        "preset": "Arbour/Meta",
+        "fontName": null,
+        "fontSize": null,
+        "fontWeight": null,
+        "letterSpacing": null,
+        "textColor": "rgb(84, 98, 45)"
+      },
+      {
+        "pagePath": "/",
+        "id": "vPgvRyQ31",
+        "preset": "Arbour/Meta",
+        "fontName": null,
+        "fontSize": null,
+        "fontWeight": null,
+        "letterSpacing": null,
+        "textColor": "rgb(84, 98, 45)"
+      },
+      {
+        "pagePath": "/",
+        "id": "K2hD_wHuJ",
+        "preset": "Arbour/Subhead",
+        "fontName": null,
+        "fontSize": null,
+        "fontWeight": null,
+        "letterSpacing": null,
+        "textColor": "rgba(28, 27, 22, 0.6)"
+      },
+      {
+        "pagePath": "/",
+        "id": "JcHHHXIAN",
+        "preset": "Arbour/Meta",
+        "fontName": null,
+        "fontSize": null,
+        "fontWeight": null,
+        "letterSpacing": null,
+        "textColor": "rgb(84, 98, 45)"
+      },
+      {
+        "pagePath": "/",
+        "id": "zfTFui6Z4",
+        "preset": "Arbour/Subhead",
+        "fontName": null,
+        "fontSize": null,
+        "fontWeight": null,
+        "letterSpacing": null,
+        "textColor": "rgb(28, 27, 22)"
+      },
+      {
+        "pagePath": "/",
+        "id": "Wll7W4sd1",
+        "preset": "Arbour/Meta",
+        "fontName": null,
+        "fontSize": null,
+        "fontWeight": null,
+        "letterSpacing": null,
+        "textColor": "rgb(28, 27, 22)"
+      },
+      {
+        "pagePath": "/",
+        "id": "VKuWujVH0",
+        "preset": "Arbour/Subhead",
+        "fontName": null,
+        "fontSize": null,
+        "fontWeight": null,
+        "letterSpacing": null,
+        "textColor": "rgb(28, 27, 22)"
+      },
+      {
+        "pagePath": "/",
+        "id": "FGYQmf9kN",
+        "preset": "Arbour/Meta",
+        "fontName": null,
+        "fontSize": null,
+        "fontWeight": null,
+        "letterSpacing": null,
+        "textColor": "rgb(28, 27, 22)"
+      },
+      {
+        "pagePath": "/",
+        "id": "eeokQqTqW",
+        "preset": "Arbour/Subhead",
+        "fontName": null,
+        "fontSize": null,
+        "fontWeight": null,
+        "letterSpacing": null,
+        "textColor": "rgb(28, 27, 22)"
+      },
+      {
+        "pagePath": "/",
+        "id": "dTXuEPwoM",
+        "preset": "Arbour/Meta",
+        "fontName": null,
+        "fontSize": null,
+        "fontWeight": null,
+        "letterSpacing": null,
+        "textColor": "rgb(28, 27, 22)"
+      },
+      {
+        "pagePath": "/",
+        "id": "aLAKIE0BP",
+        "preset": "Arbour/Subhead",
+        "fontName": null,
+        "fontSize": null,
+        "fontWeight": null,
+        "letterSpacing": null,
+        "textColor": "rgb(252, 250, 244)"
+      },
+      {
+        "pagePath": "/",
+        "id": "g19z4dI8f",
+        "preset": "Arbour/Meta",
+        "fontName": null,
+        "fontSize": null,
+        "fontWeight": null,
+        "letterSpacing": null,
+        "textColor": "rgb(252, 250, 244)"
+      },
+      {
+        "pagePath": "/",
+        "id": "G1kUXfSAk",
+        "preset": "Arbour/Subhead",
+        "fontName": null,
+        "fontSize": null,
+        "fontWeight": null,
+        "letterSpacing": null,
+        "textColor": "rgb(252, 250, 244)"
+      },
+      {
+        "pagePath": "/",
+        "id": "KpeqcYoxu",
+        "preset": "Arbour/Meta",
+        "fontName": null,
+        "fontSize": null,
+        "fontWeight": null,
+        "letterSpacing": null,
+        "textColor": "rgb(252, 250, 244)"
+      },
+      {
+        "pagePath": "/",
+        "id": "keLdgDqUY",
+        "preset": "Arbour/Subhead",
+        "fontName": null,
+        "fontSize": null,
+        "fontWeight": null,
+        "letterSpacing": null,
+        "textColor": "rgb(252, 250, 244)"
+      },
+      {
+        "pagePath": "/",
+        "id": "IjqCmooQh",
+        "preset": "Arbour/Meta",
+        "fontName": null,
+        "fontSize": null,
+        "fontWeight": null,
+        "letterSpacing": null,
+        "textColor": "rgb(252, 250, 244)"
+      },
+      {
+        "pagePath": "/",
+        "id": "ieBQRO9tF",
+        "preset": "Arbour/Subhead",
+        "fontName": null,
+        "fontSize": null,
+        "fontWeight": null,
+        "letterSpacing": null,
+        "textColor": "rgb(28, 27, 22)"
+      },
+      {
+        "pagePath": "/",
+        "id": "ldrO0jWa5",
+        "preset": "Arbour/Meta",
+        "fontName": null,
+        "fontSize": null,
+        "fontWeight": null,
+        "letterSpacing": null,
+        "textColor": "rgb(28, 27, 22)"
+      },
+      {
+        "pagePath": "/",
+        "id": "iWKhT_gex",
+        "preset": "Arbour/Subhead",
+        "fontName": null,
+        "fontSize": null,
+        "fontWeight": null,
+        "letterSpacing": null,
+        "textColor": "rgb(28, 27, 22)"
+      },
+      {
+        "pagePath": "/",
+        "id": "gvXyYtgCY",
+        "preset": "Arbour/Meta",
+        "fontName": null,
+        "fontSize": null,
+        "fontWeight": null,
+        "letterSpacing": null,
+        "textColor": "rgb(28, 27, 22)"
+      },
+      {
+        "pagePath": "/",
+        "id": "PwybvF8o3",
+        "preset": "Arbour/Subhead",
+        "fontName": null,
+        "fontSize": null,
+        "fontWeight": null,
+        "letterSpacing": null,
+        "textColor": "rgb(252, 250, 244)"
+      },
+      {
+        "pagePath": "/",
+        "id": "UpgSyEadY",
+        "preset": "Arbour/Meta",
+        "fontName": null,
+        "fontSize": null,
+        "fontWeight": null,
+        "letterSpacing": null,
+        "textColor": "rgb(252, 250, 244)"
+      },
+      {
+        "pagePath": "/",
+        "id": "wfaMRS3i1",
+        "preset": "Arbour/Subhead",
+        "fontName": null,
+        "fontSize": null,
+        "fontWeight": null,
+        "letterSpacing": null,
+        "textColor": "rgb(252, 250, 244)"
+      },
+      {
+        "pagePath": "/",
+        "id": "HmSwxcIWq",
+        "preset": "Arbour/Meta",
+        "fontName": null,
+        "fontSize": null,
+        "fontWeight": null,
+        "letterSpacing": null,
+        "textColor": "rgb(252, 250, 244)"
+      },
+      {
+        "pagePath": "/",
+        "id": "COSrFUFwV",
+        "preset": "Arbour/Meta",
+        "fontName": null,
+        "fontSize": null,
+        "fontWeight": null,
+        "letterSpacing": null,
+        "textColor": "rgb(84, 98, 45)"
+      }
+    ]
+  },
+  "rawFills": {
+    "total": 44,
+    "items": [
+      {
+        "pagePath": "/",
+        "id": "HWlQMt_5S",
+        "name": "Gradient Overlay",
+        "fill": "linear-gradient(180deg, rgba(10, 22, 15, 0.08) 0%, rgba(10, 22, 15, 0) 38%, rgba(10, 22, 15, 0.52) 100%)"
+      },
+      {
+        "pagePath": "/",
+        "id": "U3TeNUVXvQWUEMYFj7",
+        "name": "Hero Section",
+        "fill": "rgb(21, 43, 30)"
+      },
+      {
+        "pagePath": "/",
+        "id": "U3TeNUVXvHWlQMt_5S",
+        "name": "Gradient Overlay",
+        "fill": "linear-gradient(180deg, rgba(10, 22, 15, 0.08) 0%, rgba(10, 22, 15, 0) 38%, rgba(10, 22, 15, 0.52) 100%)"
+      },
+      {
+        "pagePath": "/",
+        "id": "pmAxXUJ0oQWUEMYFj7",
+        "name": "Hero Section",
+        "fill": "rgb(21, 43, 30)"
+      },
+      {
+        "pagePath": "/",
+        "id": "pmAxXUJ0oHWlQMt_5S",
+        "name": "Gradient Overlay",
+        "fill": "linear-gradient(180deg, rgba(10, 22, 15, 0.08) 0%, rgba(10, 22, 15, 0) 38%, rgba(10, 22, 15, 0.52) 100%)"
+      },
+      {
+        "pagePath": "/properties-2",
+        "id": "obfRB9jeb",
+        "name": "Desktop",
+        "fill": "rgb(252, 250, 244)"
+      },
+      {
+        "pagePath": "/properties-2",
+        "id": "SScKalu3B",
+        "name": "Tablet",
+        "fill": "rgb(252, 250, 244)"
+      },
+      {
+        "pagePath": "/properties-2",
+        "id": "EK6d5SyWL",
+        "name": "Phone",
+        "fill": "rgb(252, 250, 244)"
+      },
+      {
+        "pagePath": "/neighbourhoods",
+        "id": "LmDrAnCZU",
+        "name": "Desktop",
+        "fill": "rgb(252, 250, 244)"
+      },
+      {
+        "pagePath": "/neighbourhoods",
+        "id": "aJLpuUP0q",
+        "name": "Tablet",
+        "fill": "rgb(252, 250, 244)"
+      },
+      {
+        "pagePath": "/neighbourhoods",
+        "id": "Qonafp_oD",
+        "name": "Phone",
+        "fill": "rgb(252, 250, 244)"
+      },
+      {
+        "pagePath": "/notes",
+        "id": "T4DtVCP3y",
+        "name": "Desktop",
+        "fill": "rgb(252, 250, 244)"
+      },
+      {
+        "pagePath": "/notes",
+        "id": "LptqEiXVp",
+        "name": "Tablet",
+        "fill": "rgb(252, 250, 244)"
+      },
+      {
+        "pagePath": "/notes",
+        "id": "INUKgvAna",
+        "name": "Phone",
+        "fill": "rgb(252, 250, 244)"
+      },
+      {
+        "pagePath": "/about",
+        "id": "hd9EqB_ax",
+        "name": "Desktop",
+        "fill": "rgb(252, 250, 244)"
+      },
+      {
+        "pagePath": "/about",
+        "id": "xvqDXw58e",
+        "name": "Tablet",
+        "fill": "rgb(252, 250, 244)"
+      },
+      {
+        "pagePath": "/about",
+        "id": "CYNrpU04t",
+        "name": "Phone",
+        "fill": "rgb(252, 250, 244)"
+      },
+      {
+        "pagePath": "/contact",
+        "id": "eSIn17Npa",
+        "name": "Desktop",
+        "fill": "rgb(252, 250, 244)"
+      },
+      {
+        "pagePath": "/contact",
+        "id": "qjv2S9Wpa",
+        "name": "Tablet",
+        "fill": "rgb(252, 250, 244)"
+      },
+      {
+        "pagePath": "/contact",
+        "id": "jEM0wBo2v",
+        "name": "Phone",
+        "fill": "rgb(252, 250, 244)"
+      },
+      {
+        "pagePath": "/properties-2/:Properties",
+        "id": "ym6hx2Otc",
+        "name": "Desktop",
+        "fill": "rgb(252, 250, 244)"
+      },
+      {
+        "pagePath": "/properties-2/:Properties",
+        "id": "lP4ZL6y0c",
+        "name": "Cinematic Gallery",
+        "fill": "rgb(252, 250, 244)"
+      },
+      {
+        "pagePath": "/properties-2/:Properties",
+        "id": "vlElPVCV7",
+        "name": "Property Particulars",
+        "fill": "rgb(21, 43, 30)"
+      },
+      {
+        "pagePath": "/properties-2/:Properties",
+        "id": "IQmBTrFpb",
+        "name": "Tablet",
+        "fill": "rgb(252, 250, 244)"
+      },
+      {
+        "pagePath": "/properties-2/:Properties",
+        "id": "IQmBTrFpblP4ZL6y0c",
+        "name": "Cinematic Gallery",
+        "fill": "rgb(252, 250, 244)"
+      },
+      {
+        "pagePath": "/properties-2/:Properties",
+        "id": "IQmBTrFpbvlElPVCV7",
+        "name": "Property Particulars",
+        "fill": "rgb(21, 43, 30)"
+      },
+      {
+        "pagePath": "/properties-2/:Properties",
+        "id": "MrTKJzwEL",
+        "name": "Phone",
+        "fill": "rgb(252, 250, 244)"
+      },
+      {
+        "pagePath": "/properties-2/:Properties",
+        "id": "MrTKJzwELlP4ZL6y0c",
+        "name": "Cinematic Gallery",
+        "fill": "rgb(252, 250, 244)"
+      },
+      {
+        "pagePath": "/properties-2/:Properties",
+        "id": "MrTKJzwELvlElPVCV7",
+        "name": "Property Particulars",
+        "fill": "rgb(21, 43, 30)"
+      },
+      {
+        "pagePath": "/notes/:Journal",
+        "id": "n1MGlvW2_",
+        "name": "Desktop",
+        "fill": "rgb(252, 250, 244)"
+      },
+      {
+        "pagePath": "/notes/:Journal",
+        "id": "TYvLnLN5L",
+        "fill": "rgb(252, 250, 244)"
+      },
+      {
+        "pagePath": "/notes/:Journal",
+        "id": "XfQIW7biv",
+        "fill": "rgba(0, 0, 0, 0)"
+      },
+      {
+        "pagePath": "/notes/:Journal",
+        "id": "JnURREKMn",
+        "name": "Property Particulars",
+        "fill": "rgb(21, 43, 30)"
+      },
+      {
+        "pagePath": "/notes/:Journal",
+        "id": "gZUAlaJJ1",
+        "name": "Tablet",
+        "fill": "rgb(252, 250, 244)"
+      },
+      {
+        "pagePath": "/notes/:Journal",
+        "id": "gZUAlaJJ1TYvLnLN5L",
+        "fill": "rgb(252, 250, 244)"
+      },
+      {
+        "pagePath": "/notes/:Journal",
+        "id": "gZUAlaJJ1XfQIW7biv",
+        "fill": "rgba(0, 0, 0, 0)"
+      },
+      {
+        "pagePath": "/notes/:Journal",
+        "id": "gZUAlaJJ1JnURREKMn",
+        "name": "Property Particulars",
+        "fill": "rgb(21, 43, 30)"
+      },
+      {
+        "pagePath": "/notes/:Journal",
+        "id": "EavJve6uG",
+        "name": "Phone",
+        "fill": "rgb(252, 250, 244)"
+      },
+      {
+        "pagePath": "/notes/:Journal",
+        "id": "EavJve6uGTYvLnLN5L",
+        "fill": "rgb(252, 250, 244)"
+      },
+      {
+        "pagePath": "/notes/:Journal",
+        "id": "EavJve6uGXfQIW7biv",
+        "fill": "rgba(0, 0, 0, 0)"
+      },
+      {
+        "pagePath": "/notes/:Journal",
+        "id": "EavJve6uGJnURREKMn",
+        "name": "Property Particulars",
+        "fill": "rgb(21, 43, 30)"
+      },
+      {
+        "pagePath": "/404",
+        "id": "j4N1jForf",
+        "name": "404 — Lost Address",
+        "fill": "rgba(28, 27, 22, 0.9)"
+      },
+      {
+        "pagePath": "/404",
+        "id": "fajgZq_WSj4N1jForf",
+        "name": "404 — Lost Address",
+        "fill": "rgba(28, 27, 22, 0.9)"
+      },
+      {
+        "pagePath": "/404",
+        "id": "TmwJ7gTG4j4N1jForf",
+        "name": "404 — Lost Address",
+        "fill": "rgba(28, 27, 22, 0.9)"
+      }
+    ]
+  },
+  "letterSpacingHits": {
+    "total": 3132,
+    "items": [
+      {
+        "pagePath": "/",
+        "id": "jEM0wBo2vat0UFQWlS",
+        "preset": null,
+        "fontName": "Fraunces",
+        "fontSize": "52px",
+        "fontWeight": 400,
+        "letterSpacing": "-0.04em",
+        "textColor": "rgb(0, 0, 0)"
+      },
+      {
+        "pagePath": "/",
+        "id": "qjv2S9Wpaat0UFQWlS",
+        "preset": null,
+        "fontName": "Fraunces",
+        "fontSize": "76px",
+        "fontWeight": 400,
+        "letterSpacing": "-0.045em",
+        "textColor": "rgb(0, 0, 0)"
+      },
+      {
+        "pagePath": "/",
+        "id": "at0UFQWlS",
+        "preset": null,
+        "fontName": "Fraunces",
+        "fontSize": "96px",
+        "fontWeight": 400,
+        "letterSpacing": "-0.045em",
+        "textColor": "rgb(0, 0, 0)"
+      },
+      {
+        "pagePath": "/",
+        "id": "jEM0wBo2vSEtzgNJzz",
+        "preset": null,
+        "fontName": "Fraunces",
+        "fontSize": "17px",
+        "fontWeight": 400,
+        "letterSpacing": "-0.01em",
+        "textColor": "rgba(28, 27, 22, 0.7)"
+      },
+      {
+        "pagePath": "/",
+        "id": "qjv2S9WpaSEtzgNJzz",
+        "preset": null,
+        "fontName": "Fraunces",
+        "fontSize": "19px",
+        "fontWeight": 400,
+        "letterSpacing": "-0.01em",
+        "textColor": "rgba(28, 27, 22, 0.7)"
+      },
+      {
+        "pagePath": "/",
+        "id": "SEtzgNJzz",
+        "preset": null,
+        "fontName": "Fraunces",
+        "fontSize": "19px",
+        "fontWeight": 400,
+        "letterSpacing": "-0.01em",
+        "textColor": "rgba(28, 27, 22, 0.7)"
+      },
+      {
+        "pagePath": "/",
+        "id": "MrTKJzwELr22bo7RRn",
+        "preset": null,
+        "fontName": "Fraunces",
+        "fontSize": "20px",
+        "fontWeight": 400,
+        "letterSpacing": "-0.02em",
+        "textColor": "rgb(28, 27, 22)"
+      },
+      {
+        "pagePath": "/",
+        "id": "IQmBTrFpbr22bo7RRn",
+        "preset": null,
+        "fontName": "Fraunces",
+        "fontSize": "24px",
+        "fontWeight": 400,
+        "letterSpacing": "-0.02em",
+        "textColor": "rgb(28, 27, 22)"
+      },
+      {
+        "pagePath": "/",
+        "id": "r22bo7RRn",
+        "preset": null,
+        "fontName": "Fraunces",
+        "fontSize": "24px",
+        "fontWeight": 400,
+        "letterSpacing": "-0.02em",
+        "textColor": "rgb(28, 27, 22)"
+      },
+      {
+        "pagePath": "/",
+        "id": "XTRvNWtsXqtK6WYc1c",
+        "name": "SL no",
+        "preset": null,
+        "fontName": "PT Sans Narrow",
+        "fontSize": "40px",
+        "fontWeight": 700,
+        "letterSpacing": "-0.01em",
+        "textColor": null
+      },
+      {
+        "pagePath": "/",
+        "id": "kkEkae9aPqtK6WYc1c",
+        "name": "SL no",
+        "preset": null,
+        "fontName": "PT Sans Narrow",
+        "fontSize": "40px",
+        "fontWeight": 700,
+        "letterSpacing": "-0.01em",
+        "textColor": "var(--token-3bc5f574-f65c-4d38-8888-80d60545fb82, rgb(172, 172, 172))"
+      },
+      {
+        "pagePath": "/",
+        "id": "d32_rx10EqtK6WYc1c",
+        "name": "SL no",
+        "preset": null,
+        "fontName": "PT Sans Narrow",
+        "fontSize": "40px",
+        "fontWeight": 700,
+        "letterSpacing": "-0.01em",
+        "textColor": null
+      },
+      {
+        "pagePath": "/",
+        "id": "RzdeytPaVqtK6WYc1c",
+        "name": "SL no",
+        "preset": null,
+        "fontName": "PT Sans Narrow",
+        "fontSize": "40px",
+        "fontWeight": 700,
+        "letterSpacing": "-0.01em",
+        "textColor": null
+      },
+      {
+        "pagePath": "/",
+        "id": "qtK6WYc1c",
+        "name": "SL no",
+        "preset": null,
+        "fontName": "PT Sans Narrow",
+        "fontSize": "40px",
+        "fontWeight": 700,
+        "letterSpacing": "-0.01em",
+        "textColor": null
+      },
+      {
+        "pagePath": "/",
+        "id": "XTRvNWtsXigQkLnjYP",
+        "name": "Title",
+        "preset": null,
+        "fontName": "PT Sans Narrow",
+        "fontSize": "30px",
+        "fontWeight": 700,
+        "letterSpacing": "-0.01em",
+        "textColor": null
+      },
+      {
+        "pagePath": "/",
+        "id": "kkEkae9aPigQkLnjYP",
+        "name": "Title",
+        "preset": null,
+        "fontName": "PT Sans Narrow",
+        "fontSize": "30px",
+        "fontWeight": 700,
+        "letterSpacing": "-0.01em",
+        "textColor": "var(--token-3bc5f574-f65c-4d38-8888-80d60545fb82, rgb(172, 172, 172))"
+      },
+      {
+        "pagePath": "/",
+        "id": "d32_rx10EigQkLnjYP",
+        "name": "Title",
+        "preset": null,
+        "fontName": "PT Sans Narrow",
+        "fontSize": "30px",
+        "fontWeight": 700,
+        "letterSpacing": "-0.01em",
+        "textColor": null
+      },
+      {
+        "pagePath": "/",
+        "id": "RzdeytPaVigQkLnjYP",
+        "name": "Title",
+        "preset": null,
+        "fontName": "PT Sans Narrow",
+        "fontSize": "30px",
+        "fontWeight": 700,
+        "letterSpacing": "-0.01em",
+        "textColor": null
+      },
+      {
+        "pagePath": "/",
+        "id": "igQkLnjYP",
+        "name": "Title",
+        "preset": null,
+        "fontName": "PT Sans Narrow",
+        "fontSize": "30px",
+        "fontWeight": 700,
+        "letterSpacing": "-0.01em",
+        "textColor": null
+      },
+      {
+        "pagePath": "/",
+        "id": "EK6d5SyWLWQob20jtV",
+        "preset": null,
+        "fontName": "Fraunces",
+        "fontSize": "44px",
+        "fontWeight": 340,
+        "letterSpacing": "-0.03em",
+        "textColor": "rgb(28, 27, 22)"
+      },
+      {
+        "pagePath": "/",
+        "id": "SScKalu3BWQob20jtV",
+        "preset": null,
+        "fontName": "Fraunces",
+        "fontSize": "84px",
+        "fontWeight": 340,
+        "letterSpacing": "-0.03em",
+        "textColor": "rgb(28, 27, 22)"
+      },
+      {
+        "pagePath": "/",
+        "id": "WQob20jtV",
+        "preset": null,
+        "fontName": "Fraunces",
+        "fontSize": "84px",
+        "fontWeight": 340,
+        "letterSpacing": "-0.03em",
+        "textColor": "rgb(28, 27, 22)"
+      },
+      {
+        "pagePath": "/",
+        "id": "EK6d5SyWLeeii639K0",
+        "preset": null,
+        "fontName": "Fraunces",
+        "fontSize": "21px",
+        "fontWeight": 300,
+        "letterSpacing": "-0.04em",
+        "textColor": "rgba(28, 27, 22, 0.65)"
+      },
+      {
+        "pagePath": "/",
+        "id": "SScKalu3Beeii639K0",
+        "preset": null,
+        "fontName": "Fraunces",
+        "fontSize": "21px",
+        "fontWeight": 300,
+        "letterSpacing": "-0.04em",
+        "textColor": "rgba(28, 27, 22, 0.65)"
+      },
+      {
+        "pagePath": "/",
+        "id": "eeii639K0",
+        "preset": null,
+        "fontName": "Fraunces",
+        "fontSize": "21px",
+        "fontWeight": 300,
+        "letterSpacing": "-0.04em",
+        "textColor": "rgba(28, 27, 22, 0.65)"
+      },
+      {
+        "pagePath": "/",
+        "id": "EK6d5SyWLZqJnbUIG9",
+        "name": "Enquiry Heading",
+        "preset": null,
+        "fontName": "Fraunces",
+        "fontSize": "40px",
+        "fontWeight": 300,
+        "letterSpacing": "-0.03em",
+        "textColor": "rgb(28, 27, 22)"
+      },
+      {
+        "pagePath": "/",
+        "id": "SScKalu3BZqJnbUIG9",
+        "name": "Enquiry Heading",
+        "preset": null,
+        "fontName": "Fraunces",
+        "fontSize": "52px",
+        "fontWeight": 300,
+        "letterSpacing": "-0.03em",
+        "textColor": "rgb(28, 27, 22)"
+      },
+      {
+        "pagePath": "/",
+        "id": "ZqJnbUIG9",
+        "name": "Enquiry Heading",
+        "preset": null,
+        "fontName": "Fraunces",
+        "fontSize": "64px",
+        "fontWeight": 300,
+        "letterSpacing": "-0.03em",
+        "textColor": "rgb(28, 27, 22)"
+      },
+      {
+        "pagePath": "/",
+        "id": "IitvyCHtzfAzfyleWg",
+        "preset": null,
+        "fontName": "Fraunces",
+        "fontSize": "22px",
+        "fontWeight": 500,
+        "letterSpacing": "0.1em",
+        "textColor": "rgb(28, 27, 22)"
+      },
+      {
+        "pagePath": "/",
+        "id": "AWGNXf96_fAzfyleWg",
+        "preset": null,
+        "fontName": "Fraunces",
+        "fontSize": "22px",
+        "fontWeight": 500,
+        "letterSpacing": "0.1em",
+        "textColor": "rgb(28, 27, 22)"
+      },
+      {
+        "pagePath": "/",
+        "id": "fAzfyleWg",
+        "preset": null,
+        "fontName": "Fraunces",
+        "fontSize": "22px",
+        "fontWeight": 500,
+        "letterSpacing": "0.1em",
+        "textColor": "rgb(28, 27, 22)"
+      },
+      {
+        "pagePath": "/",
+        "id": "IitvyCHtzZ6pdpz5pD",
+        "preset": null,
+        "fontName": "Fraunces",
+        "fontSize": "26px",
+        "fontWeight": 340,
+        "letterSpacing": "-0.02em",
+        "textColor": "rgb(28, 27, 22)"
+      },
+      {
+        "pagePath": "/",
+        "id": "AWGNXf96_Z6pdpz5pD",
+        "preset": null,
+        "fontName": "Fraunces",
+        "fontSize": "28px",
+        "fontWeight": 340,
+        "letterSpacing": "-0.02em",
+        "textColor": "rgb(28, 27, 22)"
+      },
+      {
+        "pagePath": "/",
+        "id": "Z6pdpz5pD",
+        "preset": null,
+        "fontName": "Fraunces",
+        "fontSize": "32px",
+        "fontWeight": 340,
+        "letterSpacing": "-0.02em",
+        "textColor": "rgb(28, 27, 22)"
+      },
+      {
+        "pagePath": "/",
+        "id": "IitvyCHtzAUgKRZDLa",
+        "preset": null,
+        "fontName": "Fraunces",
+        "fontSize": "26px",
+        "fontWeight": 340,
+        "letterSpacing": "-0.02em",
+        "textColor": "rgb(28, 27, 22)"
+      },
+      {
+        "pagePath": "/",
+        "id": "AWGNXf96_AUgKRZDLa",
+        "preset": null,
+        "fontName": "Fraunces",
+        "fontSize": "28px",
+        "fontWeight": 340,
+        "letterSpacing": "-0.02em",
+        "textColor": "rgb(28, 27, 22)"
+      },
+      {
+        "pagePath": "/",
+        "id": "AUgKRZDLa",
+        "preset": null,
+        "fontName": "Fraunces",
+        "fontSize": "32px",
+        "fontWeight": 340,
+        "letterSpacing": "-0.02em",
+        "textColor": "rgb(28, 27, 22)"
+      },
+      {
+        "pagePath": "/",
+        "id": "IitvyCHtzZP4kFwKwc",
+        "preset": null,
+        "fontName": "Fraunces",
+        "fontSize": "26px",
+        "fontWeight": 340,
+        "letterSpacing": "-0.02em",
+        "textColor": "rgb(28, 27, 22)"
+      },
+      {
+        "pagePath": "/",
+        "id": "AWGNXf96_ZP4kFwKwc",
+        "preset": null,
+        "fontName": "Fraunces",
+        "fontSize": "28px",
+        "fontWeight": 340,
+        "letterSpacing": "-0.02em",
+        "textColor": "rgb(28, 27, 22)"
+      },
+      {
+        "pagePath": "/",
+        "id": "ZP4kFwKwc",
+        "preset": null,
+        "fontName": "Fraunces",
+        "fontSize": "32px",
+        "fontWeight": 340,
+        "letterSpacing": "-0.02em",
+        "textColor": "rgb(28, 27, 22)"
+      },
+      {
+        "pagePath": "/",
+        "id": "IitvyCHtzAlTIEFAKV",
+        "preset": null,
+        "fontName": "Fraunces",
+        "fontSize": "26px",
+        "fontWeight": 340,
+        "letterSpacing": "-0.02em",
+        "textColor": "rgb(28, 27, 22)"
+      },
+      {
+        "pagePath": "/",
+        "id": "AWGNXf96_AlTIEFAKV",
+        "preset": null,
+        "fontName": "Fraunces",
+        "fontSize": "28px",
+        "fontWeight": 340,
+        "letterSpacing": "-0.02em",
+        "textColor": "rgb(28, 27, 22)"
+      },
+      {
+        "pagePath": "/",
+        "id": "AlTIEFAKV",
+        "preset": null,
+        "fontName": "Fraunces",
+        "fontSize": "32px",
+        "fontWeight": 340,
+        "letterSpacing": "-0.02em",
+        "textColor": "rgb(28, 27, 22)"
+      },
+      {
+        "pagePath": "/",
+        "id": "IitvyCHtzB4GLgEaCM",
+        "preset": null,
+        "fontName": "Space Mono",
+        "fontSize": "11px",
+        "fontWeight": 400,
+        "letterSpacing": "0.02em",
+        "textColor": "rgba(28, 27, 22, 0.62)"
+      },
+      {
+        "pagePath": "/",
+        "id": "AWGNXf96_B4GLgEaCM",
+        "preset": null,
+        "fontName": "Space Mono",
+        "fontSize": "11px",
+        "fontWeight": 400,
+        "letterSpacing": "0.02em",
+        "textColor": "rgba(28, 27, 22, 0.62)"
+      },
+      {
+        "pagePath": "/",
+        "id": "B4GLgEaCM",
+        "preset": null,
+        "fontName": "Space Mono",
+        "fontSize": "11px",
+        "fontWeight": 400,
+        "letterSpacing": "0.02em",
+        "textColor": "rgba(28, 27, 22, 0.62)"
+      },
+      {
+        "pagePath": "/",
+        "id": "IitvyCHtzYLCfgu4Or",
+        "preset": null,
+        "fontName": "Space Mono",
+        "fontSize": "10px",
+        "fontWeight": 400,
+        "letterSpacing": "0.06em",
+        "textColor": "rgba(28, 27, 22, 0.52)"
+      },
+      {
+        "pagePath": "/",
+        "id": "AWGNXf96_YLCfgu4Or",
+        "preset": null,
+        "fontName": "Space Mono",
+        "fontSize": "10px",
+        "fontWeight": 400,
+        "letterSpacing": "0.06em",
+        "textColor": "rgba(28, 27, 22, 0.52)"
+      },
+      {
+        "pagePath": "/",
+        "id": "YLCfgu4Or",
+        "preset": null,
+        "fontName": "Space Mono",
+        "fontSize": "10px",
+        "fontWeight": 400,
+        "letterSpacing": "0.06em",
+        "textColor": "rgba(28, 27, 22, 0.52)"
+      },
+      {
+        "pagePath": "/",
+        "id": "MrTKJzwELqx96EF_Sp",
+        "name": "Enquiry Heading",
+        "preset": null,
+        "fontName": "Fraunces",
+        "fontSize": "36px",
+        "fontWeight": 300,
+        "letterSpacing": "-0.03em",
+        "textColor": "rgb(28, 27, 22)"
+      },
+      {
+        "pagePath": "/",
+        "id": "IQmBTrFpbqx96EF_Sp",
+        "name": "Enquiry Heading",
+        "preset": null,
+        "fontName": "Fraunces",
+        "fontSize": "52px",
+        "fontWeight": 300,
+        "letterSpacing": "-0.03em",
+        "textColor": "rgb(28, 27, 22)"
+      },
+      {
+        "pagePath": "/",
+        "id": "qx96EF_Sp",
+        "name": "Enquiry Heading",
+        "preset": null,
+        "fontName": "Fraunces",
+        "fontSize": "64px",
+        "fontWeight": 300,
+        "letterSpacing": "-0.03em",
+        "textColor": "rgb(28, 27, 22)"
+      },
+      {
+        "pagePath": "/",
+        "id": "MrTKJzwELwQrojsiG9",
+        "name": "Particulars Heading",
+        "preset": null,
+        "fontName": "Fraunces",
+        "fontSize": "40px",
+        "fontWeight": 400,
+        "letterSpacing": "-0.04em",
+        "textColor": "rgb(252, 250, 244)"
+      },
+      {
+        "pagePath": "/",
+        "id": "IQmBTrFpbwQrojsiG9",
+        "name": "Particulars Heading",
+        "preset": null,
+        "fontName": "Fraunces",
+        "fontSize": "52px",
+        "fontWeight": 400,
+        "letterSpacing": "-0.04em",
+        "textColor": "rgb(252, 250, 244)"
+      },
+      {
+        "pagePath": "/",
+        "id": "wQrojsiG9",
+        "name": "Particulars Heading",
+        "preset": null,
+        "fontName": "Fraunces",
+        "fontSize": "52px",
+        "fontWeight": 400,
+        "letterSpacing": "-0.04em",
+        "textColor": "rgb(252, 250, 244)"
+      },
+      {
+        "pagePath": "/",
+        "id": "MrTKJzwELISEAVrT1Z",
+        "name": "Particulars Copy",
+        "preset": null,
+        "fontName": "Fraunces",
+        "fontSize": "18px",
+        "fontWeight": 300,
+        "letterSpacing": "-0.02em",
+        "textColor": "rgba(252, 250, 244, 0.72)"
+      },
+      {
+        "pagePath": "/",
+        "id": "IQmBTrFpbISEAVrT1Z",
+        "name": "Particulars Copy",
+        "preset": null,
+        "fontName": "Fraunces",
+        "fontSize": "20px",
+        "fontWeight": 300,
+        "letterSpacing": "-0.02em",
+        "textColor": "rgba(252, 250, 244, 0.72)"
+      },
+      {
+        "pagePath": "/",
+        "id": "ISEAVrT1Z",
+        "name": "Particulars Copy",
+        "preset": null,
+        "fontName": "Fraunces",
+        "fontSize": "20px",
+        "fontWeight": 300,
+        "letterSpacing": "-0.02em",
+        "textColor": "rgba(252, 250, 244, 0.72)"
+      },
+      {
+        "pagePath": "/",
+        "id": "MrTKJzwELypkCRm6aW",
+        "name": "Property Features",
+        "text": "var(--variable-lQmjCV6Uu)",
+        "preset": null,
+        "fontName": "Fraunces",
+        "fontSize": "24px",
+        "fontWeight": 300,
+        "letterSpacing": "-0.03em",
+        "textColor": "rgb(252, 250, 244)"
+      },
+      {
+        "pagePath": "/",
+        "id": "IQmBTrFpbypkCRm6aW",
+        "name": "Property Features",
+        "text": "var(--variable-lQmjCV6Uu)",
+        "preset": null,
+        "fontName": "Fraunces",
+        "fontSize": "30px",
+        "fontWeight": 300,
+        "letterSpacing": "-0.03em",
+        "textColor": "rgb(252, 250, 244)"
+      }
+    ]
+  },
+  "missingNav": [],
+  "missingFooter": [],
+  "sectionInventory": {
+    "/": [
+      {
+        "breakpoint": "Desktop",
+        "id": "FhAzGDVSu",
+        "name": "Arbour_LoadingScreen",
+        "type": "ComponentInstanceNode",
+        "component": "codeFile/QsH9B_M:default"
+      },
+      {
+        "breakpoint": "Desktop",
+        "id": "RarocYSyC",
+        "name": "Arbour_SmoothScroll",
+        "type": "ComponentInstanceNode",
+        "component": "codeFile/lKYHG0I:default"
+      },
+      {
+        "breakpoint": "Desktop",
+        "id": "a43bChsI4",
+        "name": "Atmosphere",
+        "type": "FrameNode"
+      },
+      {
+        "breakpoint": "Desktop",
+        "id": "xiqH0OxcR",
+        "type": "ComponentInstanceNode",
+        "component": "ynpqYJGOd"
+      },
+      {
+        "breakpoint": "Desktop",
+        "id": "QWUEMYFj7",
+        "name": "Hero Section",
+        "type": "FrameNode",
+        "gap": "0px",
+        "padding": "0px 0px 72px 0px"
+      },
+      {
+        "breakpoint": "Desktop",
+        "id": "CXKn_oqE0",
+        "name": "Territories Section",
+        "type": "FrameNode",
+        "fill": "var(--token-d5b3c09d-0364-4ed0-8804-e56957faa275)",
+        "gap": "48px",
+        "padding": "128px 48px 128px 48px"
+      },
+      {
+        "breakpoint": "Desktop",
+        "id": "rAukVaNHU",
+        "name": "Portfolio Section",
+        "type": "FrameNode",
+        "fill": "var(--token-d5b3c09d-0364-4ed0-8804-e56957faa275)",
+        "gap": "56px",
+        "padding": "128px 48px 128px 48px"
+      },
+      {
+        "breakpoint": "Desktop",
+        "id": "wFx8igsWY",
+        "name": "Bottom",
+        "type": "FrameNode",
+        "fill": "var(--token-9d3d6ca5-f3ad-4d88-afc8-fc5bce03bd04)",
+        "gap": "0px"
+      },
+      {
+        "breakpoint": "Desktop",
+        "id": "vyLrJ6ztM",
+        "type": "FrameNode",
+        "fill": "var(--token-d5b3c09d-0364-4ed0-8804-e56957faa275)",
+        "gap": "40px",
+        "padding": "128px 48px 128px 48px"
+      },
+      {
+        "breakpoint": "Desktop",
+        "id": "niUaR1BQD",
+        "type": "ComponentInstanceNode",
+        "component": "codeFile/KzA2jsd:default"
+      },
+      {
+        "breakpoint": "Desktop",
+        "id": "U9mwOiQun",
+        "name": "Recognition Section",
+        "type": "FrameNode",
+        "fill": "var(--token-d5b3c09d-0364-4ed0-8804-e56957faa275)",
+        "gap": "40px",
+        "padding": "128px 48px 128px 48px"
+      },
+      {
+        "breakpoint": "Desktop",
+        "id": "PWy2_wM2R",
+        "name": "Testimonial Section",
+        "type": "FrameNode",
+        "fill": "var(--token-d5b3c09d-0364-4ed0-8804-e56957faa275)",
+        "gap": "40px",
+        "padding": "128px 48px 128px 48px"
+      },
+      {
+        "breakpoint": "Desktop",
+        "id": "z3aj0E0xy",
+        "name": "Journal",
+        "type": "FrameNode",
+        "fill": "var(--token-d5b3c09d-0364-4ed0-8804-e56957faa275)",
+        "gap": "40px",
+        "padding": "128px 48px 128px 48px"
+      },
+      {
+        "breakpoint": "Desktop",
+        "id": "GYfGDq3cB",
+        "name": "Footer Container",
+        "type": "ComponentInstanceNode",
+        "component": "pXUahiblU"
+      },
+      {
+        "breakpoint": "Tablet",
+        "id": "U3TeNUVXvFhAzGDVSu",
+        "name": "Arbour_LoadingScreen",
+        "type": "ComponentInstanceNode",
+        "component": "codeFile/QsH9B_M:default"
+      },
+      {
+        "breakpoint": "Tablet",
+        "id": "U3TeNUVXvRarocYSyC",
+        "name": "Arbour_SmoothScroll",
+        "type": "ComponentInstanceNode",
+        "component": "codeFile/lKYHG0I:default"
+      },
+      {
+        "breakpoint": "Tablet",
+        "id": "U3TeNUVXva43bChsI4",
+        "name": "Atmosphere",
+        "type": "FrameNode"
+      },
+      {
+        "breakpoint": "Tablet",
+        "id": "U3TeNUVXvxiqH0OxcR",
+        "type": "ComponentInstanceNode",
+        "component": "ynpqYJGOd"
+      },
+      {
+        "breakpoint": "Tablet",
+        "id": "U3TeNUVXvQWUEMYFj7",
+        "name": "Hero Section",
+        "type": "FrameNode",
+        "fill": "rgb(21, 43, 30)",
+        "gap": "0px",
+        "padding": "0px 0px 72px 0px"
+      },
+      {
+        "breakpoint": "Tablet",
+        "id": "U3TeNUVXvCXKn_oqE0",
+        "name": "Territories Section",
+        "type": "FrameNode",
+        "fill": "var(--token-d5b3c09d-0364-4ed0-8804-e56957faa275)",
+        "gap": "48px",
+        "padding": "96px 40px 96px 40px"
+      },
+      {
+        "breakpoint": "Tablet",
+        "id": "U3TeNUVXvrAukVaNHU",
+        "name": "Portfolio Section",
+        "type": "FrameNode",
+        "fill": "var(--token-d5b3c09d-0364-4ed0-8804-e56957faa275)",
+        "gap": "56px",
+        "padding": "96px 40px 96px 40px"
+      },
+      {
+        "breakpoint": "Tablet",
+        "id": "U3TeNUVXvwFx8igsWY",
+        "name": "Bottom",
+        "type": "FrameNode",
+        "fill": "var(--token-9d3d6ca5-f3ad-4d88-afc8-fc5bce03bd04)",
+        "gap": "0px"
+      },
+      {
+        "breakpoint": "Tablet",
+        "id": "U3TeNUVXvvyLrJ6ztM",
+        "type": "FrameNode",
+        "fill": "var(--token-d5b3c09d-0364-4ed0-8804-e56957faa275)",
+        "gap": "40px",
+        "padding": "96px 40px 96px 40px"
+      },
+      {
+        "breakpoint": "Tablet",
+        "id": "U3TeNUVXvniUaR1BQD",
+        "type": "ComponentInstanceNode",
+        "component": "codeFile/KzA2jsd:default"
+      },
+      {
+        "breakpoint": "Tablet",
+        "id": "U3TeNUVXvU9mwOiQun",
+        "name": "Recognition Section",
+        "type": "FrameNode",
+        "fill": "var(--token-d5b3c09d-0364-4ed0-8804-e56957faa275)",
+        "gap": "40px",
+        "padding": "96px 40px 96px 40px"
+      },
+      {
+        "breakpoint": "Tablet",
+        "id": "U3TeNUVXvPWy2_wM2R",
+        "name": "Testimonial Section",
+        "type": "FrameNode",
+        "fill": "var(--token-d5b3c09d-0364-4ed0-8804-e56957faa275)",
+        "gap": "40px",
+        "padding": "96px 40px 96px 40px"
+      },
+      {
+        "breakpoint": "Tablet",
+        "id": "U3TeNUVXvz3aj0E0xy",
+        "name": "Journal",
+        "type": "FrameNode",
+        "fill": "var(--token-d5b3c09d-0364-4ed0-8804-e56957faa275)",
+        "gap": "40px",
+        "padding": "96px 40px 96px 40px"
+      },
+      {
+        "breakpoint": "Tablet",
+        "id": "U3TeNUVXvGYfGDq3cB",
+        "name": "Footer Container",
+        "type": "ComponentInstanceNode",
+        "component": "pXUahiblU"
+      },
+      {
+        "breakpoint": "Phone",
+        "id": "pmAxXUJ0oFhAzGDVSu",
+        "name": "Arbour_LoadingScreen",
+        "type": "ComponentInstanceNode",
+        "component": "codeFile/QsH9B_M:default"
+      },
+      {
+        "breakpoint": "Phone",
+        "id": "pmAxXUJ0oRarocYSyC",
+        "name": "Arbour_SmoothScroll",
+        "type": "ComponentInstanceNode",
+        "component": "codeFile/lKYHG0I:default"
+      },
+      {
+        "breakpoint": "Phone",
+        "id": "pmAxXUJ0oa43bChsI4",
+        "name": "Atmosphere",
+        "type": "FrameNode"
+      },
+      {
+        "breakpoint": "Phone",
+        "id": "pmAxXUJ0oxiqH0OxcR",
+        "type": "ComponentInstanceNode",
+        "component": "ynpqYJGOd"
+      },
+      {
+        "breakpoint": "Phone",
+        "id": "pmAxXUJ0oQWUEMYFj7",
+        "name": "Hero Section",
+        "type": "FrameNode",
+        "fill": "rgb(21, 43, 30)",
+        "gap": "0px",
+        "padding": "0px 0px 72px 0px"
+      },
+      {
+        "breakpoint": "Phone",
+        "id": "pmAxXUJ0oCXKn_oqE0",
+        "name": "Territories Section",
+        "type": "FrameNode",
+        "fill": "var(--token-d5b3c09d-0364-4ed0-8804-e56957faa275)",
+        "gap": "48px",
+        "padding": "64px 16px 64px 16px"
+      },
+      {
+        "breakpoint": "Phone",
+        "id": "pmAxXUJ0orAukVaNHU",
+        "name": "Portfolio Section",
+        "type": "FrameNode",
+        "fill": "var(--token-d5b3c09d-0364-4ed0-8804-e56957faa275)",
+        "gap": "56px",
+        "padding": "64px 16px 64px 16px"
+      },
+      {
+        "breakpoint": "Phone",
+        "id": "pmAxXUJ0owFx8igsWY",
+        "name": "Bottom",
+        "type": "FrameNode",
+        "fill": "var(--token-9d3d6ca5-f3ad-4d88-afc8-fc5bce03bd04)",
+        "gap": "0px",
+        "padding": "40px 16px 40px 16px"
+      },
+      {
+        "breakpoint": "Phone",
+        "id": "pmAxXUJ0ovyLrJ6ztM",
+        "type": "FrameNode",
+        "fill": "var(--token-d5b3c09d-0364-4ed0-8804-e56957faa275)",
+        "gap": "40px",
+        "padding": "64px 16px 64px 16px"
+      },
+      {
+        "breakpoint": "Phone",
+        "id": "pmAxXUJ0oniUaR1BQD",
+        "type": "ComponentInstanceNode",
+        "component": "codeFile/KzA2jsd:default"
+      },
+      {
+        "breakpoint": "Phone",
+        "id": "pmAxXUJ0oU9mwOiQun",
+        "name": "Recognition Section",
+        "type": "FrameNode",
+        "fill": "var(--token-d5b3c09d-0364-4ed0-8804-e56957faa275)",
+        "gap": "40px",
+        "padding": "64px 16px 64px 16px"
+      },
+      {
+        "breakpoint": "Phone",
+        "id": "pmAxXUJ0oPWy2_wM2R",
+        "name": "Testimonial Section",
+        "type": "FrameNode",
+        "fill": "var(--token-d5b3c09d-0364-4ed0-8804-e56957faa275)",
+        "gap": "40px",
+        "padding": "64px 16px 64px 16px"
+      },
+      {
+        "breakpoint": "Phone",
+        "id": "pmAxXUJ0oz3aj0E0xy",
+        "name": "Journal",
+        "type": "FrameNode",
+        "fill": "var(--token-d5b3c09d-0364-4ed0-8804-e56957faa275)",
+        "gap": "40px",
+        "padding": "64px 16px 64px 16px"
+      },
+      {
+        "breakpoint": "Phone",
+        "id": "pmAxXUJ0oGYfGDq3cB",
+        "name": "Footer Container",
+        "type": "ComponentInstanceNode",
+        "component": "pXUahiblU"
+      }
+    ],
+    "/properties-2": [
+      {
+        "breakpoint": "Desktop",
+        "id": "zFXoY2vSJ",
+        "name": "Arbour_LoadingScreen",
+        "type": "ComponentInstanceNode",
+        "component": "codeFile/QsH9B_M:default"
+      },
+      {
+        "breakpoint": "Desktop",
+        "id": "LtrTDICTP",
+        "name": "Arbour_SmoothScroll",
+        "type": "ComponentInstanceNode",
+        "component": "codeFile/lKYHG0I:default"
+      },
+      {
+        "breakpoint": "Desktop",
+        "id": "Enop673eO",
+        "name": "Atmosphere",
+        "type": "FrameNode"
+      },
+      {
+        "breakpoint": "Desktop",
+        "id": "uCzV2eFzE",
+        "name": "Nav",
+        "type": "ComponentInstanceNode",
+        "component": "ynpqYJGOd"
+      },
+      {
+        "breakpoint": "Desktop",
+        "id": "TRyzI7kr0",
+        "name": "Nav",
+        "type": "ComponentInstanceNode",
+        "component": "ynpqYJGOd"
+      },
+      {
+        "breakpoint": "Desktop",
+        "id": "qyfxlhyLO",
+        "name": "Nav",
+        "type": "ComponentInstanceNode",
+        "component": "ynpqYJGOd"
+      },
+      {
+        "breakpoint": "Desktop",
+        "id": "pXUtBMLpu",
+        "name": "Properties Content",
+        "type": "FrameNode",
+        "fill": "var(--token-d5b3c09d-0364-4ed0-8804-e56957faa275)",
+        "gap": "0px"
+      },
+      {
+        "breakpoint": "Desktop",
+        "id": "wssGwbNHc",
+        "type": "ComponentInstanceNode",
+        "component": "pXUahiblU"
+      },
+      {
+        "breakpoint": "Tablet",
+        "id": "SScKalu3BzFXoY2vSJ",
+        "name": "Arbour_LoadingScreen",
+        "type": "ComponentInstanceNode",
+        "component": "codeFile/QsH9B_M:default"
+      },
+      {
+        "breakpoint": "Tablet",
+        "id": "SScKalu3BLtrTDICTP",
+        "name": "Arbour_SmoothScroll",
+        "type": "ComponentInstanceNode",
+        "component": "codeFile/lKYHG0I:default"
+      },
+      {
+        "breakpoint": "Tablet",
+        "id": "SScKalu3BEnop673eO",
+        "name": "Atmosphere",
+        "type": "FrameNode"
+      },
+      {
+        "breakpoint": "Tablet",
+        "id": "SScKalu3BuCzV2eFzE",
+        "name": "Nav",
+        "type": "ComponentInstanceNode",
+        "component": "ynpqYJGOd"
+      },
+      {
+        "breakpoint": "Tablet",
+        "id": "SScKalu3BTRyzI7kr0",
+        "name": "Nav",
+        "type": "ComponentInstanceNode",
+        "component": "ynpqYJGOd"
+      },
+      {
+        "breakpoint": "Tablet",
+        "id": "SScKalu3BqyfxlhyLO",
+        "name": "Nav",
+        "type": "ComponentInstanceNode",
+        "component": "ynpqYJGOd"
+      },
+      {
+        "breakpoint": "Tablet",
+        "id": "SScKalu3BpXUtBMLpu",
+        "name": "Properties Content",
+        "type": "FrameNode",
+        "fill": "var(--token-d5b3c09d-0364-4ed0-8804-e56957faa275)",
+        "gap": "0px"
+      },
+      {
+        "breakpoint": "Tablet",
+        "id": "SScKalu3BwssGwbNHc",
+        "type": "ComponentInstanceNode",
+        "component": "pXUahiblU"
+      },
+      {
+        "breakpoint": "Phone",
+        "id": "EK6d5SyWLzFXoY2vSJ",
+        "name": "Arbour_LoadingScreen",
+        "type": "ComponentInstanceNode",
+        "component": "codeFile/QsH9B_M:default"
+      },
+      {
+        "breakpoint": "Phone",
+        "id": "EK6d5SyWLLtrTDICTP",
+        "name": "Arbour_SmoothScroll",
+        "type": "ComponentInstanceNode",
+        "component": "codeFile/lKYHG0I:default"
+      },
+      {
+        "breakpoint": "Phone",
+        "id": "EK6d5SyWLEnop673eO",
+        "name": "Atmosphere",
+        "type": "FrameNode"
+      },
+      {
+        "breakpoint": "Phone",
+        "id": "EK6d5SyWLuCzV2eFzE",
+        "name": "Nav",
+        "type": "ComponentInstanceNode",
+        "component": "ynpqYJGOd"
+      },
+      {
+        "breakpoint": "Phone",
+        "id": "EK6d5SyWLTRyzI7kr0",
+        "name": "Nav",
+        "type": "ComponentInstanceNode",
+        "component": "ynpqYJGOd"
+      },
+      {
+        "breakpoint": "Phone",
+        "id": "EK6d5SyWLqyfxlhyLO",
+        "name": "Nav",
+        "type": "ComponentInstanceNode",
+        "component": "ynpqYJGOd"
+      },
+      {
+        "breakpoint": "Phone",
+        "id": "EK6d5SyWLpXUtBMLpu",
+        "name": "Properties Content",
+        "type": "FrameNode",
+        "fill": "var(--token-d5b3c09d-0364-4ed0-8804-e56957faa275)",
+        "gap": "0px"
+      },
+      {
+        "breakpoint": "Phone",
+        "id": "EK6d5SyWLwssGwbNHc",
+        "type": "ComponentInstanceNode",
+        "component": "pXUahiblU"
+      }
+    ],
+    "/neighbourhoods": [
+      {
+        "breakpoint": "Desktop",
+        "id": "R81UYvUBM",
+        "name": "Nav",
+        "type": "ComponentInstanceNode",
+        "component": "ynpqYJGOd"
+      },
+      {
+        "breakpoint": "Desktop",
+        "id": "AubAuufSl",
+        "name": "Nav",
+        "type": "ComponentInstanceNode",
+        "component": "ynpqYJGOd"
+      },
+      {
+        "breakpoint": "Desktop",
+        "id": "Y_7x1hvx_",
+        "name": "Nav",
+        "type": "ComponentInstanceNode",
+        "component": "ynpqYJGOd"
+      },
+      {
+        "breakpoint": "Desktop",
+        "id": "mjvg9J7Zq",
+        "name": "Atmosphere",
+        "type": "FrameNode"
+      },
+      {
+        "breakpoint": "Desktop",
+        "id": "H1kR5JcFp",
+        "name": "Neighbourhoods Content",
+        "type": "FrameNode",
+        "fill": "var(--token-d5b3c09d-0364-4ed0-8804-e56957faa275)",
+        "gap": "0px"
+      },
+      {
+        "breakpoint": "Desktop",
+        "id": "DRglThXCl",
+        "type": "ComponentInstanceNode",
+        "component": "pXUahiblU"
+      },
+      {
+        "breakpoint": "Tablet",
+        "id": "aJLpuUP0qR81UYvUBM",
+        "name": "Nav",
+        "type": "ComponentInstanceNode",
+        "component": "ynpqYJGOd"
+      },
+      {
+        "breakpoint": "Tablet",
+        "id": "aJLpuUP0qAubAuufSl",
+        "name": "Nav",
+        "type": "ComponentInstanceNode",
+        "component": "ynpqYJGOd"
+      },
+      {
+        "breakpoint": "Tablet",
+        "id": "aJLpuUP0qY_7x1hvx_",
+        "name": "Nav",
+        "type": "ComponentInstanceNode",
+        "component": "ynpqYJGOd"
+      },
+      {
+        "breakpoint": "Tablet",
+        "id": "aJLpuUP0qmjvg9J7Zq",
+        "name": "Atmosphere",
+        "type": "FrameNode",
+        "gap": "10px"
+      },
+      {
+        "breakpoint": "Tablet",
+        "id": "aJLpuUP0qH1kR5JcFp",
+        "name": "Neighbourhoods Content",
+        "type": "FrameNode",
+        "fill": "var(--token-d5b3c09d-0364-4ed0-8804-e56957faa275)",
+        "gap": "0px"
+      },
+      {
+        "breakpoint": "Tablet",
+        "id": "aJLpuUP0qDRglThXCl",
+        "type": "ComponentInstanceNode",
+        "component": "pXUahiblU"
+      },
+      {
+        "breakpoint": "Phone",
+        "id": "Qonafp_oDR81UYvUBM",
+        "name": "Nav",
+        "type": "ComponentInstanceNode",
+        "component": "ynpqYJGOd"
+      },
+      {
+        "breakpoint": "Phone",
+        "id": "Qonafp_oDAubAuufSl",
+        "name": "Nav",
+        "type": "ComponentInstanceNode",
+        "component": "ynpqYJGOd"
+      },
+      {
+        "breakpoint": "Phone",
+        "id": "Qonafp_oDY_7x1hvx_",
+        "name": "Nav",
+        "type": "ComponentInstanceNode",
+        "component": "ynpqYJGOd"
+      },
+      {
+        "breakpoint": "Phone",
+        "id": "Qonafp_oDmjvg9J7Zq",
+        "name": "Atmosphere",
+        "type": "FrameNode"
+      },
+      {
+        "breakpoint": "Phone",
+        "id": "Qonafp_oDH1kR5JcFp",
+        "name": "Neighbourhoods Content",
+        "type": "FrameNode",
+        "fill": "var(--token-d5b3c09d-0364-4ed0-8804-e56957faa275)",
+        "gap": "0px"
+      },
+      {
+        "breakpoint": "Phone",
+        "id": "Qonafp_oDDRglThXCl",
+        "type": "ComponentInstanceNode",
+        "component": "pXUahiblU"
+      }
+    ],
+    "/notes": [
+      {
+        "breakpoint": "Desktop",
+        "id": "hINdx0rlE",
+        "name": "Nav",
+        "type": "ComponentInstanceNode",
+        "component": "ynpqYJGOd"
+      },
+      {
+        "breakpoint": "Desktop",
+        "id": "dQsZshsSJ",
+        "name": "Nav",
+        "type": "ComponentInstanceNode",
+        "component": "ynpqYJGOd"
+      },
+      {
+        "breakpoint": "Desktop",
+        "id": "NwqSydI2k",
+        "name": "Nav",
+        "type": "ComponentInstanceNode",
+        "component": "ynpqYJGOd"
+      },
+      {
+        "breakpoint": "Desktop",
+        "id": "wY1tfyIdc",
+        "name": "Journal",
+        "type": "FrameNode",
+        "fill": "var(--token-425191b0-a245-4f14-88c2-f7144ab54959)",
+        "gap": "0px",
+        "padding": "0px 48px 0px 48px"
+      },
+      {
+        "breakpoint": "Desktop",
+        "id": "p7CGH_nWX",
+        "name": "Journal Manifesto",
+        "type": "FrameNode",
+        "fill": "var(--token-9d3d6ca5-f3ad-4d88-afc8-fc5bce03bd04)",
+        "gap": "0px",
+        "padding": "120px 48px 120px 48px"
+      },
+      {
+        "breakpoint": "Desktop",
+        "id": "w2XzAbdoF",
+        "name": "Footer Container",
+        "type": "ComponentInstanceNode",
+        "component": "pXUahiblU"
+      },
+      {
+        "breakpoint": "Tablet",
+        "id": "LptqEiXVphINdx0rlE",
+        "name": "Nav",
+        "type": "ComponentInstanceNode",
+        "component": "ynpqYJGOd"
+      },
+      {
+        "breakpoint": "Tablet",
+        "id": "LptqEiXVpdQsZshsSJ",
+        "name": "Nav",
+        "type": "ComponentInstanceNode",
+        "component": "ynpqYJGOd"
+      },
+      {
+        "breakpoint": "Tablet",
+        "id": "LptqEiXVpNwqSydI2k",
+        "name": "Nav",
+        "type": "ComponentInstanceNode",
+        "component": "ynpqYJGOd"
+      },
+      {
+        "breakpoint": "Tablet",
+        "id": "LptqEiXVpwY1tfyIdc",
+        "name": "Journal",
+        "type": "FrameNode",
+        "fill": "var(--token-425191b0-a245-4f14-88c2-f7144ab54959)",
+        "gap": "0px",
+        "padding": "0px 40px 0px 40px"
+      },
+      {
+        "breakpoint": "Tablet",
+        "id": "LptqEiXVpp7CGH_nWX",
+        "name": "Journal Manifesto",
+        "type": "FrameNode",
+        "fill": "var(--token-9d3d6ca5-f3ad-4d88-afc8-fc5bce03bd04)",
+        "gap": "0px",
+        "padding": "96px 40px 96px 40px"
+      },
+      {
+        "breakpoint": "Tablet",
+        "id": "LptqEiXVpw2XzAbdoF",
+        "name": "Footer Container",
+        "type": "ComponentInstanceNode",
+        "component": "pXUahiblU"
+      },
+      {
+        "breakpoint": "Phone",
+        "id": "INUKgvAnahINdx0rlE",
+        "name": "Nav",
+        "type": "ComponentInstanceNode",
+        "component": "ynpqYJGOd"
+      },
+      {
+        "breakpoint": "Phone",
+        "id": "INUKgvAnadQsZshsSJ",
+        "name": "Nav",
+        "type": "ComponentInstanceNode",
+        "component": "ynpqYJGOd"
+      },
+      {
+        "breakpoint": "Phone",
+        "id": "INUKgvAnaNwqSydI2k",
+        "name": "Nav",
+        "type": "ComponentInstanceNode",
+        "component": "ynpqYJGOd"
+      },
+      {
+        "breakpoint": "Phone",
+        "id": "INUKgvAnawY1tfyIdc",
+        "name": "Journal",
+        "type": "FrameNode",
+        "fill": "var(--token-425191b0-a245-4f14-88c2-f7144ab54959)",
+        "gap": "0px",
+        "padding": "0px 16px 0px 16px"
+      },
+      {
+        "breakpoint": "Phone",
+        "id": "INUKgvAnap7CGH_nWX",
+        "name": "Journal Manifesto",
+        "type": "FrameNode",
+        "fill": "var(--token-9d3d6ca5-f3ad-4d88-afc8-fc5bce03bd04)",
+        "gap": "24px",
+        "padding": "64px 16px 64px 16px"
+      },
+      {
+        "breakpoint": "Phone",
+        "id": "INUKgvAnaw2XzAbdoF",
+        "name": "Footer Container",
+        "type": "ComponentInstanceNode",
+        "component": "pXUahiblU"
+      }
+    ],
+    "/about": [
+      {
+        "breakpoint": "Desktop",
+        "id": "G4Hb0k0X4",
+        "name": "Nav",
+        "type": "ComponentInstanceNode",
+        "component": "ynpqYJGOd"
+      },
+      {
+        "breakpoint": "Desktop",
+        "id": "Z2UQ5rytK",
+        "name": "Nav",
+        "type": "ComponentInstanceNode",
+        "component": "ynpqYJGOd"
+      },
+      {
+        "breakpoint": "Desktop",
+        "id": "MHsCYYNA7",
+        "name": "Nav",
+        "type": "ComponentInstanceNode",
+        "component": "ynpqYJGOd"
+      },
+      {
+        "breakpoint": "Desktop",
+        "id": "qzeVD3m4X",
+        "name": "Arbour_LoadingScreen",
+        "type": "ComponentInstanceNode",
+        "component": "codeFile/QsH9B_M:default"
+      },
+      {
+        "breakpoint": "Desktop",
+        "id": "DsFZ4eorC",
+        "name": "Arbour_SmoothScroll",
+        "type": "ComponentInstanceNode",
+        "component": "codeFile/lKYHG0I:default"
+      },
+      {
+        "breakpoint": "Desktop",
+        "id": "QjoW3yYRJ",
+        "name": "Beat 1 — Paper Opener",
+        "type": "FrameNode",
+        "fill": "var(--token-d5b3c09d-0364-4ed0-8804-e56957faa275)",
+        "gap": "48px",
+        "padding": "120px 48px 48px 48px"
+      },
+      {
+        "breakpoint": "Desktop",
+        "id": "m1IuCE2Ht",
+        "name": "Beat 3 — Manifesto",
+        "type": "FrameNode",
+        "fill": "var(--token-d5b3c09d-0364-4ed0-8804-e56957faa275)",
+        "gap": "64px",
+        "padding": "128px 48px 128px 48px"
+      },
+      {
+        "breakpoint": "Desktop",
+        "id": "SbkA8xJAz",
+        "name": "Beat 2 — Cinematic Image",
+        "type": "FrameNode",
+        "fill": "var(--token-e2f9a9eb-668a-4021-80d9-b04413b5f392)",
+        "gap": "0px"
+      },
+      {
+        "breakpoint": "Desktop",
+        "id": "AiolEHPNd",
+        "name": "Chapter — The Principals",
+        "type": "FrameNode",
+        "fill": "var(--token-d5b3c09d-0364-4ed0-8804-e56957faa275)",
+        "gap": "96px",
+        "padding": "128px 48px 128px 48px"
+      },
+      {
+        "breakpoint": "Desktop",
+        "id": "sx_GA8kBh",
+        "name": "Chapter — Two Offices",
+        "type": "FrameNode",
+        "fill": "var(--token-d5b3c09d-0364-4ed0-8804-e56957faa275)",
+        "gap": "72px",
+        "padding": "128px 48px 128px 48px"
+      },
+      {
+        "breakpoint": "Desktop",
+        "id": "OIVgjc19d",
+        "name": "Enquiry CTA",
+        "type": "FrameNode",
+        "fill": "var(--token-425191b0-a245-4f14-88c2-f7144ab54959)",
+        "gap": "24px",
+        "padding": "120px 48px 120px 48px"
+      },
+      {
+        "breakpoint": "Desktop",
+        "id": "MCIVu1EAA",
+        "name": "Atmosphere",
+        "type": "FrameNode"
+      },
+      {
+        "breakpoint": "Desktop",
+        "id": "EnLRF_D_f",
+        "type": "ComponentInstanceNode",
+        "component": "pXUahiblU"
+      },
+      {
+        "breakpoint": "Tablet",
+        "id": "xvqDXw58eG4Hb0k0X4",
+        "name": "Nav",
+        "type": "ComponentInstanceNode",
+        "component": "ynpqYJGOd"
+      },
+      {
+        "breakpoint": "Tablet",
+        "id": "xvqDXw58eZ2UQ5rytK",
+        "name": "Nav",
+        "type": "ComponentInstanceNode",
+        "component": "ynpqYJGOd"
+      },
+      {
+        "breakpoint": "Tablet",
+        "id": "xvqDXw58eMHsCYYNA7",
+        "name": "Nav",
+        "type": "ComponentInstanceNode",
+        "component": "ynpqYJGOd"
+      },
+      {
+        "breakpoint": "Tablet",
+        "id": "xvqDXw58eqzeVD3m4X",
+        "name": "Arbour_LoadingScreen",
+        "type": "ComponentInstanceNode",
+        "component": "codeFile/QsH9B_M:default"
+      },
+      {
+        "breakpoint": "Tablet",
+        "id": "xvqDXw58eDsFZ4eorC",
+        "name": "Arbour_SmoothScroll",
+        "type": "ComponentInstanceNode",
+        "component": "codeFile/lKYHG0I:default"
+      },
+      {
+        "breakpoint": "Tablet",
+        "id": "xvqDXw58eQjoW3yYRJ",
+        "name": "Beat 1 — Paper Opener",
+        "type": "FrameNode",
+        "fill": "var(--token-d5b3c09d-0364-4ed0-8804-e56957faa275)",
+        "gap": "40px",
+        "padding": "96px 40px 40px 40px"
+      },
+      {
+        "breakpoint": "Tablet",
+        "id": "xvqDXw58em1IuCE2Ht",
+        "name": "Beat 3 — Manifesto",
+        "type": "FrameNode",
+        "fill": "var(--token-d5b3c09d-0364-4ed0-8804-e56957faa275)",
+        "gap": "48px",
+        "padding": "96px 40px 96px 40px"
+      },
+      {
+        "breakpoint": "Tablet",
+        "id": "xvqDXw58eSbkA8xJAz",
+        "name": "Beat 2 — Cinematic Image",
+        "type": "FrameNode",
+        "fill": "var(--token-e2f9a9eb-668a-4021-80d9-b04413b5f392)",
+        "gap": "0px"
+      },
+      {
+        "breakpoint": "Tablet",
+        "id": "xvqDXw58eAiolEHPNd",
+        "name": "Chapter — The Principals",
+        "type": "FrameNode",
+        "fill": "var(--token-d5b3c09d-0364-4ed0-8804-e56957faa275)",
+        "gap": "64px",
+        "padding": "96px 40px 96px 40px"
+      },
+      {
+        "breakpoint": "Tablet",
+        "id": "xvqDXw58esx_GA8kBh",
+        "name": "Chapter — Two Offices",
+        "type": "FrameNode",
+        "fill": "var(--token-d5b3c09d-0364-4ed0-8804-e56957faa275)",
+        "gap": "48px",
+        "padding": "96px 40px 96px 40px"
+      },
+      {
+        "breakpoint": "Tablet",
+        "id": "xvqDXw58eOIVgjc19d",
+        "name": "Enquiry CTA",
+        "type": "FrameNode",
+        "fill": "var(--token-425191b0-a245-4f14-88c2-f7144ab54959)",
+        "gap": "24px",
+        "padding": "88px 40px 88px 40px"
+      },
+      {
+        "breakpoint": "Tablet",
+        "id": "xvqDXw58eMCIVu1EAA",
+        "name": "Atmosphere",
+        "type": "FrameNode"
+      },
+      {
+        "breakpoint": "Tablet",
+        "id": "xvqDXw58eEnLRF_D_f",
+        "type": "ComponentInstanceNode",
+        "component": "pXUahiblU"
+      },
+      {
+        "breakpoint": "Phone",
+        "id": "CYNrpU04tG4Hb0k0X4",
+        "name": "Nav",
+        "type": "ComponentInstanceNode",
+        "component": "ynpqYJGOd"
+      },
+      {
+        "breakpoint": "Phone",
+        "id": "CYNrpU04tZ2UQ5rytK",
+        "name": "Nav",
+        "type": "ComponentInstanceNode",
+        "component": "ynpqYJGOd"
+      },
+      {
+        "breakpoint": "Phone",
+        "id": "CYNrpU04tMHsCYYNA7",
+        "name": "Nav",
+        "type": "ComponentInstanceNode",
+        "component": "ynpqYJGOd"
+      },
+      {
+        "breakpoint": "Phone",
+        "id": "CYNrpU04tqzeVD3m4X",
+        "name": "Arbour_LoadingScreen",
+        "type": "ComponentInstanceNode",
+        "component": "codeFile/QsH9B_M:default"
+      },
+      {
+        "breakpoint": "Phone",
+        "id": "CYNrpU04tDsFZ4eorC",
+        "name": "Arbour_SmoothScroll",
+        "type": "ComponentInstanceNode",
+        "component": "codeFile/lKYHG0I:default"
+      },
+      {
+        "breakpoint": "Phone",
+        "id": "CYNrpU04tQjoW3yYRJ",
+        "name": "Beat 1 — Paper Opener",
+        "type": "FrameNode",
+        "fill": "var(--token-d5b3c09d-0364-4ed0-8804-e56957faa275)",
+        "gap": "32px",
+        "padding": "64px 16px 40px 16px"
+      },
+      {
+        "breakpoint": "Phone",
+        "id": "CYNrpU04tm1IuCE2Ht",
+        "name": "Beat 3 — Manifesto",
+        "type": "FrameNode",
+        "fill": "var(--token-d5b3c09d-0364-4ed0-8804-e56957faa275)",
+        "gap": "40px",
+        "padding": "64px 16px 64px 16px"
+      },
+      {
+        "breakpoint": "Phone",
+        "id": "CYNrpU04tSbkA8xJAz",
+        "name": "Beat 2 — Cinematic Image",
+        "type": "FrameNode",
+        "fill": "var(--token-e2f9a9eb-668a-4021-80d9-b04413b5f392)",
+        "gap": "0px"
+      },
+      {
+        "breakpoint": "Phone",
+        "id": "CYNrpU04tAiolEHPNd",
+        "name": "Chapter — The Principals",
+        "type": "FrameNode",
+        "fill": "var(--token-d5b3c09d-0364-4ed0-8804-e56957faa275)",
+        "gap": "48px",
+        "padding": "64px 16px 64px 16px"
+      },
+      {
+        "breakpoint": "Phone",
+        "id": "CYNrpU04tsx_GA8kBh",
+        "name": "Chapter — Two Offices",
+        "type": "FrameNode",
+        "fill": "var(--token-d5b3c09d-0364-4ed0-8804-e56957faa275)",
+        "gap": "40px",
+        "padding": "64px 16px 64px 16px"
+      },
+      {
+        "breakpoint": "Phone",
+        "id": "CYNrpU04tOIVgjc19d",
+        "name": "Enquiry CTA",
+        "type": "FrameNode",
+        "fill": "var(--token-425191b0-a245-4f14-88c2-f7144ab54959)",
+        "gap": "20px",
+        "padding": "64px 16px 64px 16px"
+      },
+      {
+        "breakpoint": "Phone",
+        "id": "CYNrpU04tMCIVu1EAA",
+        "name": "Atmosphere",
+        "type": "FrameNode"
+      },
+      {
+        "breakpoint": "Phone",
+        "id": "CYNrpU04tEnLRF_D_f",
+        "type": "ComponentInstanceNode",
+        "component": "pXUahiblU"
+      }
+    ],
+    "/contact": [
+      {
+        "breakpoint": "Desktop",
+        "id": "C5AVwVLkc",
+        "name": "Nav",
+        "type": "ComponentInstanceNode",
+        "component": "ynpqYJGOd"
+      },
+      {
+        "breakpoint": "Desktop",
+        "id": "Km6LqM1gG",
+        "name": "Nav",
+        "type": "ComponentInstanceNode",
+        "component": "ynpqYJGOd"
+      },
+      {
+        "breakpoint": "Desktop",
+        "id": "gQEDrZhwb",
+        "name": "Nav",
+        "type": "ComponentInstanceNode",
+        "component": "ynpqYJGOd"
+      },
+      {
+        "breakpoint": "Desktop",
+        "id": "rceI9CYyX",
+        "name": "Arbour_LoadingScreen",
+        "type": "ComponentInstanceNode",
+        "component": "codeFile/QsH9B_M:default"
+      },
+      {
+        "breakpoint": "Desktop",
+        "id": "Oysf3kFhQ",
+        "name": "Arbour_SmoothScroll",
+        "type": "ComponentInstanceNode",
+        "component": "codeFile/lKYHG0I:default"
+      },
+      {
+        "breakpoint": "Desktop",
+        "id": "BnJUxgLWN",
+        "name": "Atmosphere",
+        "type": "FrameNode"
+      },
+      {
+        "breakpoint": "Desktop",
+        "id": "jmmPpci8t",
+        "name": "Private Enquiry — Cinematic",
+        "type": "FrameNode",
+        "fill": "var(--token-e2f9a9eb-668a-4021-80d9-b04413b5f392)",
+        "gap": "0px"
+      },
+      {
+        "breakpoint": "Desktop",
+        "id": "vv0Vi0hbh",
+        "name": "Contact Opening",
+        "type": "FrameNode",
+        "fill": "var(--token-d5b3c09d-0364-4ed0-8804-e56957faa275)",
+        "gap": "0px",
+        "padding": "128px 48px 128px 48px"
+      },
+      {
+        "breakpoint": "Desktop",
+        "id": "R3nS8tMqV",
+        "name": "Journal",
+        "type": "FrameNode",
+        "fill": "var(--token-d5b3c09d-0364-4ed0-8804-e56957faa275)",
+        "gap": "48px",
+        "padding": "128px 48px 128px 48px"
+      },
+      {
+        "breakpoint": "Desktop",
+        "id": "R1UwW27g3",
+        "type": "ComponentInstanceNode",
+        "component": "pXUahiblU"
+      },
+      {
+        "breakpoint": "Tablet",
+        "id": "qjv2S9WpaC5AVwVLkc",
+        "name": "Nav",
+        "type": "ComponentInstanceNode",
+        "component": "ynpqYJGOd"
+      },
+      {
+        "breakpoint": "Tablet",
+        "id": "qjv2S9WpaKm6LqM1gG",
+        "name": "Nav",
+        "type": "ComponentInstanceNode",
+        "component": "ynpqYJGOd"
+      },
+      {
+        "breakpoint": "Tablet",
+        "id": "qjv2S9WpagQEDrZhwb",
+        "name": "Nav",
+        "type": "ComponentInstanceNode",
+        "component": "ynpqYJGOd"
+      },
+      {
+        "breakpoint": "Tablet",
+        "id": "qjv2S9WparceI9CYyX",
+        "name": "Arbour_LoadingScreen",
+        "type": "ComponentInstanceNode",
+        "component": "codeFile/QsH9B_M:default"
+      },
+      {
+        "breakpoint": "Tablet",
+        "id": "qjv2S9WpaOysf3kFhQ",
+        "name": "Arbour_SmoothScroll",
+        "type": "ComponentInstanceNode",
+        "component": "codeFile/lKYHG0I:default"
+      },
+      {
+        "breakpoint": "Tablet",
+        "id": "qjv2S9WpaBnJUxgLWN",
+        "name": "Atmosphere",
+        "type": "FrameNode"
+      },
+      {
+        "breakpoint": "Tablet",
+        "id": "qjv2S9WpajmmPpci8t",
+        "name": "Private Enquiry — Cinematic",
+        "type": "FrameNode",
+        "fill": "var(--token-e2f9a9eb-668a-4021-80d9-b04413b5f392)",
+        "gap": "0px"
+      },
+      {
+        "breakpoint": "Tablet",
+        "id": "qjv2S9Wpavv0Vi0hbh",
+        "name": "Contact Opening",
+        "type": "FrameNode",
+        "fill": "var(--token-d5b3c09d-0364-4ed0-8804-e56957faa275)",
+        "gap": "0px",
+        "padding": "96px 40px 96px 40px"
+      },
+      {
+        "breakpoint": "Tablet",
+        "id": "qjv2S9WpaR3nS8tMqV",
+        "name": "Journal",
+        "type": "FrameNode",
+        "fill": "var(--token-d5b3c09d-0364-4ed0-8804-e56957faa275)",
+        "gap": "40px",
+        "padding": "96px 40px 96px 40px"
+      },
+      {
+        "breakpoint": "Tablet",
+        "id": "qjv2S9WpaR1UwW27g3",
+        "type": "ComponentInstanceNode",
+        "component": "pXUahiblU"
+      },
+      {
+        "breakpoint": "Phone",
+        "id": "jEM0wBo2vC5AVwVLkc",
+        "name": "Nav",
+        "type": "ComponentInstanceNode",
+        "component": "ynpqYJGOd"
+      },
+      {
+        "breakpoint": "Phone",
+        "id": "jEM0wBo2vKm6LqM1gG",
+        "name": "Nav",
+        "type": "ComponentInstanceNode",
+        "component": "ynpqYJGOd"
+      },
+      {
+        "breakpoint": "Phone",
+        "id": "jEM0wBo2vgQEDrZhwb",
+        "name": "Nav",
+        "type": "ComponentInstanceNode",
+        "component": "ynpqYJGOd"
+      },
+      {
+        "breakpoint": "Phone",
+        "id": "jEM0wBo2vrceI9CYyX",
+        "name": "Arbour_LoadingScreen",
+        "type": "ComponentInstanceNode",
+        "component": "codeFile/QsH9B_M:default"
+      },
+      {
+        "breakpoint": "Phone",
+        "id": "jEM0wBo2vOysf3kFhQ",
+        "name": "Arbour_SmoothScroll",
+        "type": "ComponentInstanceNode",
+        "component": "codeFile/lKYHG0I:default"
+      },
+      {
+        "breakpoint": "Phone",
+        "id": "jEM0wBo2vBnJUxgLWN",
+        "name": "Atmosphere",
+        "type": "FrameNode"
+      },
+      {
+        "breakpoint": "Phone",
+        "id": "jEM0wBo2vjmmPpci8t",
+        "name": "Private Enquiry — Cinematic",
+        "type": "FrameNode",
+        "fill": "var(--token-e2f9a9eb-668a-4021-80d9-b04413b5f392)",
+        "gap": "0px"
+      },
+      {
+        "breakpoint": "Phone",
+        "id": "jEM0wBo2vvv0Vi0hbh",
+        "name": "Contact Opening",
+        "type": "FrameNode",
+        "fill": "var(--token-d5b3c09d-0364-4ed0-8804-e56957faa275)",
+        "gap": "0px",
+        "padding": "64px 16px 64px 16px"
+      },
+      {
+        "breakpoint": "Phone",
+        "id": "jEM0wBo2vR3nS8tMqV",
+        "name": "Journal",
+        "type": "FrameNode",
+        "fill": "var(--token-d5b3c09d-0364-4ed0-8804-e56957faa275)",
+        "gap": "32px",
+        "padding": "64px 16px 64px 16px"
+      },
+      {
+        "breakpoint": "Phone",
+        "id": "jEM0wBo2vR1UwW27g3",
+        "type": "ComponentInstanceNode",
+        "component": "pXUahiblU"
+      }
+    ],
+    "/properties-2/:Properties": [
+      {
+        "breakpoint": "Desktop",
+        "id": "AgSQrniYR",
+        "name": "Arbour_LoadingScreen",
+        "type": "ComponentInstanceNode",
+        "component": "codeFile/QsH9B_M:default"
+      },
+      {
+        "breakpoint": "Desktop",
+        "id": "G51GKYGAu",
+        "name": "Arbour_SmoothScroll",
+        "type": "ComponentInstanceNode",
+        "component": "codeFile/lKYHG0I:default"
+      },
+      {
+        "breakpoint": "Desktop",
+        "id": "ESmV_RMan",
+        "name": "Atmosphere",
+        "type": "FrameNode"
+      },
+      {
+        "breakpoint": "Desktop",
+        "id": "W57T5rQpL",
+        "type": "ComponentInstanceNode",
+        "component": "ynpqYJGOd"
+      },
+      {
+        "breakpoint": "Desktop",
+        "id": "lODMk6Egu",
+        "type": "FrameNode",
+        "gap": "56px",
+        "padding": "120px 48px 112px 48px"
+      },
+      {
+        "breakpoint": "Desktop",
+        "id": "aqUTeKNkU",
+        "type": "FrameNode",
+        "gap": "0px",
+        "padding": "0px 48px 0px 48px"
+      },
+      {
+        "breakpoint": "Desktop",
+        "id": "ubrig7P0R",
+        "type": "FrameNode",
+        "gap": "32px",
+        "padding": "80px 48px 80px 48px"
+      },
+      {
+        "breakpoint": "Desktop",
+        "id": "lP4ZL6y0c",
+        "name": "Cinematic Gallery",
+        "type": "FrameNode",
+        "fill": "rgb(252, 250, 244)",
+        "gap": "48px",
+        "padding": "0px 48px 120px 48px"
+      },
+      {
+        "breakpoint": "Desktop",
+        "id": "uZ8oOXu4y",
+        "name": "The Setting",
+        "type": "FrameNode",
+        "padding": "120px 48px 120px 48px"
+      },
+      {
+        "breakpoint": "Desktop",
+        "id": "vlElPVCV7",
+        "name": "Property Particulars",
+        "type": "FrameNode",
+        "fill": "rgb(21, 43, 30)",
+        "gap": "0px",
+        "padding": "120px 48px 120px 48px"
+      },
+      {
+        "breakpoint": "Desktop",
+        "id": "OA3sHhDMv",
+        "name": "Continue Your Search",
+        "type": "FrameNode",
+        "gap": "40px",
+        "padding": "120px 48px 120px 48px"
+      },
+      {
+        "breakpoint": "Desktop",
+        "id": "Wy9_asNQu",
+        "name": "Enquiry CTA",
+        "type": "FrameNode",
+        "fill": "var(--token-425191b0-a245-4f14-88c2-f7144ab54959)",
+        "gap": "24px",
+        "padding": "120px 48px 120px 48px"
+      },
+      {
+        "breakpoint": "Desktop",
+        "id": "CIYq_FTjP",
+        "type": "ComponentInstanceNode",
+        "component": "pXUahiblU"
+      },
+      {
+        "breakpoint": "Tablet",
+        "id": "IQmBTrFpbAgSQrniYR",
+        "name": "Arbour_LoadingScreen",
+        "type": "ComponentInstanceNode",
+        "component": "codeFile/QsH9B_M:default"
+      },
+      {
+        "breakpoint": "Tablet",
+        "id": "IQmBTrFpbG51GKYGAu",
+        "name": "Arbour_SmoothScroll",
+        "type": "ComponentInstanceNode",
+        "component": "codeFile/lKYHG0I:default"
+      },
+      {
+        "breakpoint": "Tablet",
+        "id": "IQmBTrFpbESmV_RMan",
+        "name": "Atmosphere",
+        "type": "FrameNode"
+      },
+      {
+        "breakpoint": "Tablet",
+        "id": "IQmBTrFpbW57T5rQpL",
+        "type": "ComponentInstanceNode",
+        "component": "ynpqYJGOd"
+      },
+      {
+        "breakpoint": "Tablet",
+        "id": "IQmBTrFpblODMk6Egu",
+        "type": "FrameNode",
+        "gap": "40px",
+        "padding": "96px 40px 80px 40px"
+      },
+      {
+        "breakpoint": "Tablet",
+        "id": "IQmBTrFpbaqUTeKNkU",
+        "type": "FrameNode",
+        "gap": "0px",
+        "padding": "0px 40px 0px 40px"
+      },
+      {
+        "breakpoint": "Tablet",
+        "id": "IQmBTrFpbubrig7P0R",
+        "type": "FrameNode",
+        "gap": "32px",
+        "padding": "40px"
+      },
+      {
+        "breakpoint": "Tablet",
+        "id": "IQmBTrFpblP4ZL6y0c",
+        "name": "Cinematic Gallery",
+        "type": "FrameNode",
+        "fill": "rgb(252, 250, 244)",
+        "gap": "40px",
+        "padding": "0px 40px 96px 40px"
+      },
+      {
+        "breakpoint": "Tablet",
+        "id": "IQmBTrFpbuZ8oOXu4y",
+        "name": "The Setting",
+        "type": "FrameNode",
+        "gap": "48px",
+        "padding": "96px 40px 96px 40px"
+      },
+      {
+        "breakpoint": "Tablet",
+        "id": "IQmBTrFpbvlElPVCV7",
+        "name": "Property Particulars",
+        "type": "FrameNode",
+        "fill": "rgb(21, 43, 30)",
+        "gap": "0px",
+        "padding": "96px 40px 96px 40px"
+      },
+      {
+        "breakpoint": "Tablet",
+        "id": "IQmBTrFpbOA3sHhDMv",
+        "name": "Continue Your Search",
+        "type": "FrameNode",
+        "gap": "32px",
+        "padding": "96px 40px 96px 40px"
+      },
+      {
+        "breakpoint": "Tablet",
+        "id": "IQmBTrFpbWy9_asNQu",
+        "name": "Enquiry CTA",
+        "type": "FrameNode",
+        "fill": "var(--token-425191b0-a245-4f14-88c2-f7144ab54959)",
+        "gap": "24px",
+        "padding": "88px 40px 88px 40px"
+      },
+      {
+        "breakpoint": "Tablet",
+        "id": "IQmBTrFpbCIYq_FTjP",
+        "type": "ComponentInstanceNode",
+        "component": "pXUahiblU"
+      },
+      {
+        "breakpoint": "Phone",
+        "id": "MrTKJzwELAgSQrniYR",
+        "name": "Arbour_LoadingScreen",
+        "type": "ComponentInstanceNode",
+        "component": "codeFile/QsH9B_M:default"
+      },
+      {
+        "breakpoint": "Phone",
+        "id": "MrTKJzwELG51GKYGAu",
+        "name": "Arbour_SmoothScroll",
+        "type": "ComponentInstanceNode",
+        "component": "codeFile/lKYHG0I:default"
+      },
+      {
+        "breakpoint": "Phone",
+        "id": "MrTKJzwELESmV_RMan",
+        "name": "Atmosphere",
+        "type": "FrameNode"
+      },
+      {
+        "breakpoint": "Phone",
+        "id": "MrTKJzwELW57T5rQpL",
+        "type": "ComponentInstanceNode",
+        "component": "ynpqYJGOd"
+      },
+      {
+        "breakpoint": "Phone",
+        "id": "MrTKJzwELlODMk6Egu",
+        "type": "FrameNode",
+        "gap": "32px",
+        "padding": "40px 16px 40px 16px"
+      },
+      {
+        "breakpoint": "Phone",
+        "id": "MrTKJzwELaqUTeKNkU",
+        "type": "FrameNode",
+        "gap": "0px",
+        "padding": "40px 16px 40px 16px"
+      },
+      {
+        "breakpoint": "Phone",
+        "id": "MrTKJzwELubrig7P0R",
+        "type": "FrameNode",
+        "gap": "24px",
+        "padding": "40px 16px 40px 16px"
+      },
+      {
+        "breakpoint": "Phone",
+        "id": "MrTKJzwELlP4ZL6y0c",
+        "name": "Cinematic Gallery",
+        "type": "FrameNode",
+        "fill": "rgb(252, 250, 244)",
+        "gap": "32px",
+        "padding": "0px 16px 64px 16px"
+      },
+      {
+        "breakpoint": "Phone",
+        "id": "MrTKJzwELuZ8oOXu4y",
+        "name": "The Setting",
+        "type": "FrameNode",
+        "gap": "40px",
+        "padding": "64px 16px 64px 16px"
+      },
+      {
+        "breakpoint": "Phone",
+        "id": "MrTKJzwELvlElPVCV7",
+        "name": "Property Particulars",
+        "type": "FrameNode",
+        "fill": "rgb(21, 43, 30)",
+        "gap": "0px",
+        "padding": "64px 16px 64px 16px"
+      },
+      {
+        "breakpoint": "Phone",
+        "id": "MrTKJzwELOA3sHhDMv",
+        "name": "Continue Your Search",
+        "type": "FrameNode",
+        "gap": "24px",
+        "padding": "64px 16px 64px 16px"
+      },
+      {
+        "breakpoint": "Phone",
+        "id": "MrTKJzwELWy9_asNQu",
+        "name": "Enquiry CTA",
+        "type": "FrameNode",
+        "fill": "var(--token-425191b0-a245-4f14-88c2-f7144ab54959)",
+        "gap": "20px",
+        "padding": "64px 16px 64px 16px"
+      },
+      {
+        "breakpoint": "Phone",
+        "id": "MrTKJzwELCIYq_FTjP",
+        "type": "ComponentInstanceNode",
+        "component": "pXUahiblU"
+      }
+    ],
+    "/notes/:Journal": [
+      {
+        "breakpoint": "Desktop",
+        "id": "Op000hbXW",
+        "name": "Arbour_LoadingScreen",
+        "type": "ComponentInstanceNode",
+        "component": "codeFile/QsH9B_M:default"
+      },
+      {
+        "breakpoint": "Desktop",
+        "id": "zoiRFt077",
+        "type": "ComponentInstanceNode",
+        "component": "ynpqYJGOd"
+      },
+      {
+        "breakpoint": "Desktop",
+        "id": "YkOoyEoXW",
+        "name": "Arbour_SmoothScroll",
+        "type": "ComponentInstanceNode",
+        "component": "codeFile/lKYHG0I:default"
+      },
+      {
+        "breakpoint": "Desktop",
+        "id": "TYvLnLN5L",
+        "type": "FrameNode",
+        "fill": "rgb(252, 250, 244)",
+        "gap": "0px",
+        "padding": "128px 48px 0px 48px"
+      },
+      {
+        "breakpoint": "Desktop",
+        "id": "rZDvGuaZD",
+        "name": "Journal Hero Image",
+        "type": "FrameNode",
+        "fill": "var(--variable-UuvdpyCxL)",
+        "gap": "0px",
+        "padding": "48px 48px 0px 48px"
+      },
+      {
+        "breakpoint": "Desktop",
+        "id": "F88MmOdES",
+        "name": "Article Body Wrap",
+        "type": "FrameNode",
+        "gap": "0px",
+        "padding": "56px 48px 120px 48px"
+      },
+      {
+        "breakpoint": "Desktop",
+        "id": "HR7GLyyBT",
+        "name": "Journal Text Column",
+        "type": "FrameNode",
+        "gap": "10px"
+      },
+      {
+        "breakpoint": "Desktop",
+        "id": "cIncylbTv",
+        "name": "More From Journal",
+        "type": "FrameNode",
+        "fill": "var(--token-425191b0-a245-4f14-88c2-f7144ab54959)",
+        "gap": "40px",
+        "padding": "120px 48px 120px 48px"
+      },
+      {
+        "breakpoint": "Desktop",
+        "id": "RYeMH2jXD",
+        "name": "Atmosphere",
+        "type": "FrameNode"
+      },
+      {
+        "breakpoint": "Desktop",
+        "id": "OE3uHiT52",
+        "type": "FrameNode",
+        "gap": "0px",
+        "padding": "0px 48px 0px 48px"
+      },
+      {
+        "breakpoint": "Desktop",
+        "id": "VeGntwuIg",
+        "type": "FrameNode",
+        "gap": "32px",
+        "padding": "80px 48px 80px 48px"
+      },
+      {
+        "breakpoint": "Desktop",
+        "id": "d82gQ_1I3",
+        "name": "Cinematic Gallery",
+        "type": "FrameNode",
+        "gap": "48px",
+        "padding": "40px 48px 120px 48px"
+      },
+      {
+        "breakpoint": "Desktop",
+        "id": "RM2lKjL9K",
+        "name": "The Setting",
+        "type": "FrameNode",
+        "padding": "80px 48px 120px 48px"
+      },
+      {
+        "breakpoint": "Desktop",
+        "id": "JnURREKMn",
+        "name": "Property Particulars",
+        "type": "FrameNode",
+        "fill": "rgb(21, 43, 30)",
+        "gap": "0px",
+        "padding": "120px 48px 120px 48px"
+      },
+      {
+        "breakpoint": "Desktop",
+        "id": "BrbaLNfZ4",
+        "name": "Continue Your Search",
+        "type": "FrameNode",
+        "gap": "40px",
+        "padding": "120px 48px 120px 48px"
+      },
+      {
+        "breakpoint": "Desktop",
+        "id": "swn4E8_G4",
+        "name": "Enquiry CTA",
+        "type": "FrameNode",
+        "fill": "var(--token-425191b0-a245-4f14-88c2-f7144ab54959)",
+        "gap": "24px",
+        "padding": "104px 48px 104px 48px"
+      },
+      {
+        "breakpoint": "Desktop",
+        "id": "WsEwAIpxM",
+        "type": "ComponentInstanceNode",
+        "component": "pXUahiblU"
+      },
+      {
+        "breakpoint": "Tablet",
+        "id": "gZUAlaJJ1Op000hbXW",
+        "name": "Arbour_LoadingScreen",
+        "type": "ComponentInstanceNode",
+        "component": "codeFile/QsH9B_M:default"
+      },
+      {
+        "breakpoint": "Tablet",
+        "id": "gZUAlaJJ1zoiRFt077",
+        "type": "ComponentInstanceNode",
+        "component": "ynpqYJGOd"
+      },
+      {
+        "breakpoint": "Tablet",
+        "id": "gZUAlaJJ1YkOoyEoXW",
+        "name": "Arbour_SmoothScroll",
+        "type": "ComponentInstanceNode",
+        "component": "codeFile/lKYHG0I:default"
+      },
+      {
+        "breakpoint": "Tablet",
+        "id": "gZUAlaJJ1TYvLnLN5L",
+        "type": "FrameNode",
+        "fill": "rgb(252, 250, 244)",
+        "gap": "40px",
+        "padding": "96px 40px 0px 40px"
+      },
+      {
+        "breakpoint": "Tablet",
+        "id": "gZUAlaJJ1rZDvGuaZD",
+        "name": "Journal Hero Image",
+        "type": "FrameNode",
+        "fill": "var(--variable-UuvdpyCxL)",
+        "gap": "0px",
+        "padding": "40px 40px 0px 40px"
+      },
+      {
+        "breakpoint": "Tablet",
+        "id": "gZUAlaJJ1F88MmOdES",
+        "name": "Article Body Wrap",
+        "type": "FrameNode",
+        "gap": "0px",
+        "padding": "48px 40px 96px 40px"
+      },
+      {
+        "breakpoint": "Tablet",
+        "id": "gZUAlaJJ1HR7GLyyBT",
+        "name": "Journal Text Column",
+        "type": "FrameNode",
+        "gap": "10px"
+      },
+      {
+        "breakpoint": "Tablet",
+        "id": "gZUAlaJJ1cIncylbTv",
+        "name": "More From Journal",
+        "type": "FrameNode",
+        "fill": "var(--token-425191b0-a245-4f14-88c2-f7144ab54959)",
+        "gap": "32px",
+        "padding": "96px 40px 96px 40px"
+      },
+      {
+        "breakpoint": "Tablet",
+        "id": "gZUAlaJJ1RYeMH2jXD",
+        "name": "Atmosphere",
+        "type": "FrameNode"
+      },
+      {
+        "breakpoint": "Tablet",
+        "id": "gZUAlaJJ1OE3uHiT52",
+        "type": "FrameNode",
+        "gap": "0px",
+        "padding": "40px"
+      },
+      {
+        "breakpoint": "Tablet",
+        "id": "gZUAlaJJ1VeGntwuIg",
+        "type": "FrameNode",
+        "gap": "32px",
+        "padding": "40px"
+      },
+      {
+        "breakpoint": "Tablet",
+        "id": "gZUAlaJJ1d82gQ_1I3",
+        "name": "Cinematic Gallery",
+        "type": "FrameNode",
+        "gap": "16px",
+        "padding": "40px"
+      },
+      {
+        "breakpoint": "Tablet",
+        "id": "gZUAlaJJ1RM2lKjL9K",
+        "name": "The Setting",
+        "type": "FrameNode",
+        "gap": "48px",
+        "padding": "40px"
+      },
+      {
+        "breakpoint": "Tablet",
+        "id": "gZUAlaJJ1JnURREKMn",
+        "name": "Property Particulars",
+        "type": "FrameNode",
+        "fill": "rgb(21, 43, 30)",
+        "gap": "0px",
+        "padding": "40px"
+      },
+      {
+        "breakpoint": "Tablet",
+        "id": "gZUAlaJJ1BrbaLNfZ4",
+        "name": "Continue Your Search",
+        "type": "FrameNode",
+        "gap": "24px",
+        "padding": "40px"
+      },
+      {
+        "breakpoint": "Tablet",
+        "id": "gZUAlaJJ1swn4E8_G4",
+        "name": "Enquiry CTA",
+        "type": "FrameNode",
+        "fill": "var(--token-425191b0-a245-4f14-88c2-f7144ab54959)",
+        "gap": "18px",
+        "padding": "40px"
+      },
+      {
+        "breakpoint": "Tablet",
+        "id": "gZUAlaJJ1WsEwAIpxM",
+        "type": "ComponentInstanceNode",
+        "component": "pXUahiblU"
+      },
+      {
+        "breakpoint": "Phone",
+        "id": "EavJve6uGOp000hbXW",
+        "name": "Arbour_LoadingScreen",
+        "type": "ComponentInstanceNode",
+        "component": "codeFile/QsH9B_M:default"
+      },
+      {
+        "breakpoint": "Phone",
+        "id": "EavJve6uGzoiRFt077",
+        "type": "ComponentInstanceNode",
+        "component": "ynpqYJGOd"
+      },
+      {
+        "breakpoint": "Phone",
+        "id": "EavJve6uGYkOoyEoXW",
+        "name": "Arbour_SmoothScroll",
+        "type": "ComponentInstanceNode",
+        "component": "codeFile/lKYHG0I:default"
+      },
+      {
+        "breakpoint": "Phone",
+        "id": "EavJve6uGTYvLnLN5L",
+        "type": "FrameNode",
+        "fill": "rgb(252, 250, 244)",
+        "gap": "32px",
+        "padding": "64px 16px 0px 16px"
+      },
+      {
+        "breakpoint": "Phone",
+        "id": "EavJve6uGrZDvGuaZD",
+        "name": "Journal Hero Image",
+        "type": "FrameNode",
+        "fill": "var(--variable-UuvdpyCxL)",
+        "gap": "0px",
+        "padding": "32px 16px 0px 16px"
+      },
+      {
+        "breakpoint": "Phone",
+        "id": "EavJve6uGF88MmOdES",
+        "name": "Article Body Wrap",
+        "type": "FrameNode",
+        "gap": "0px",
+        "padding": "40px 16px 64px 16px"
+      },
+      {
+        "breakpoint": "Phone",
+        "id": "EavJve6uGHR7GLyyBT",
+        "name": "Journal Text Column",
+        "type": "FrameNode",
+        "gap": "10px"
+      },
+      {
+        "breakpoint": "Phone",
+        "id": "EavJve6uGcIncylbTv",
+        "name": "More From Journal",
+        "type": "FrameNode",
+        "fill": "var(--token-425191b0-a245-4f14-88c2-f7144ab54959)",
+        "gap": "28px",
+        "padding": "64px 16px 64px 16px"
+      },
+      {
+        "breakpoint": "Phone",
+        "id": "EavJve6uGRYeMH2jXD",
+        "name": "Atmosphere",
+        "type": "FrameNode"
+      },
+      {
+        "breakpoint": "Phone",
+        "id": "EavJve6uGOE3uHiT52",
+        "type": "FrameNode",
+        "gap": "0px",
+        "padding": "40px 16px 40px 16px"
+      },
+      {
+        "breakpoint": "Phone",
+        "id": "EavJve6uGVeGntwuIg",
+        "type": "FrameNode",
+        "gap": "24px",
+        "padding": "40px 16px 40px 16px"
+      },
+      {
+        "breakpoint": "Phone",
+        "id": "EavJve6uGd82gQ_1I3",
+        "name": "Cinematic Gallery",
+        "type": "FrameNode",
+        "gap": "40px",
+        "padding": "40px 16px 40px 16px"
+      },
+      {
+        "breakpoint": "Phone",
+        "id": "EavJve6uGRM2lKjL9K",
+        "name": "The Setting",
+        "type": "FrameNode",
+        "gap": "40px",
+        "padding": "40px 16px 40px 16px"
+      },
+      {
+        "breakpoint": "Phone",
+        "id": "EavJve6uGJnURREKMn",
+        "name": "Property Particulars",
+        "type": "FrameNode",
+        "fill": "rgb(21, 43, 30)",
+        "gap": "0px",
+        "padding": "40px 16px 40px 16px"
+      },
+      {
+        "breakpoint": "Phone",
+        "id": "EavJve6uGBrbaLNfZ4",
+        "name": "Continue Your Search",
+        "type": "FrameNode",
+        "gap": "24px",
+        "padding": "40px 16px 40px 16px"
+      },
+      {
+        "breakpoint": "Phone",
+        "id": "EavJve6uGswn4E8_G4",
+        "name": "Enquiry CTA",
+        "type": "FrameNode",
+        "fill": "var(--token-425191b0-a245-4f14-88c2-f7144ab54959)",
+        "gap": "16px",
+        "padding": "40px 16px 40px 16px"
+      },
+      {
+        "breakpoint": "Phone",
+        "id": "EavJve6uGWsEwAIpxM",
+        "type": "ComponentInstanceNode",
+        "component": "pXUahiblU"
+      }
+    ],
+    "/404": [
+      {
+        "breakpoint": "Desktop",
+        "id": "j4N1jForf",
+        "name": "404 — Lost Address",
+        "type": "FrameNode",
+        "fill": "rgba(28, 27, 22, 0.9)",
+        "gap": "0px",
+        "padding": "32px 40px 32px 40px"
+      },
+      {
+        "breakpoint": "Tablet",
+        "id": "fajgZq_WSj4N1jForf",
+        "name": "404 — Lost Address",
+        "type": "FrameNode",
+        "fill": "rgba(28, 27, 22, 0.9)",
+        "gap": "0px",
+        "padding": "40px"
+      },
+      {
+        "breakpoint": "Phone",
+        "id": "TmwJ7gTG4j4N1jForf",
+        "name": "404 — Lost Address",
+        "type": "FrameNode",
+        "fill": "rgba(28, 27, 22, 0.9)",
+        "gap": "0px",
+        "padding": "40px 16px 40px 16px"
+      }
+    ]
+  }
+}

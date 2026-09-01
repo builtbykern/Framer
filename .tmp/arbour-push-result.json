@@ -1,0 +1,52 @@
+[
+  {
+    "name": "Arbour_ProgressiveBlur.tsx",
+    "lines": 222,
+    "hasStatic": true
+  },
+  {
+    "name": "Arbour_InertiaFrame.tsx",
+    "lines": 484,
+    "hasStatic": true
+  },
+  {
+    "name": "Arbour_ScrollCue.tsx",
+    "lines": 295,
+    "hasStatic": true
+  },
+  {
+    "name": "Arbour_EditorialReveal.tsx",
+    "lines": 257,
+    "hasStatic": true
+  },
+  {
+    "name": "Arbour_UnderlineLink.tsx",
+    "lines": 159,
+    "hasStatic": true
+  },
+  {
+    "name": "Arbour_TerritoryRail.tsx",
+    "lines": 2287,
+    "hasStatic": true
+  },
+  {
+    "name": "Arbour_PrimaryButton.tsx",
+    "lines": 177,
+    "hasStatic": true
+  },
+  {
+    "name": "Arbour_FormButton.tsx",
+    "lines": 107,
+    "hasStatic": true
+  },
+  {
+    "name": "Arbour_SectionHeader.tsx",
+    "lines": 294,
+    "hasStatic": true
+  },
+  {
+    "name": "Arbour_ArticleCard.tsx",
+    "lines": 485,
+    "hasStatic": true
+  }
+]

@@ -1,0 +1,16 @@
+file:///Users/noel/Desktop/Framer/scripts/framer/lib.mjs:111
+    const err = new Error(
+                ^
+
+Error: framer agent failed (1): Error: Invalid or unexpected token
+    at runFramerAgent (file:///Users/noel/Desktop/Framer/scripts/framer/lib.mjs:111:17)
+    at file:///Users/noel/Desktop/Framer/scripts/framer/exec.mjs:35:28
+    at ModuleJob.run (node:internal/modules/esm/module_job:569:25)
+    at async node:internal/modules/esm/loader:650:26
+    at async asyncRunEntryPointWithESMLoader (node:internal/modules/run_main:101:5) {
+  status: 1,
+  stdout: '',
+  stderr: 'Error: Invalid or unexpected token'
+}
+
+Node.js v26.5.0

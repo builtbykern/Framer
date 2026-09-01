@@ -1,0 +1,22 @@
+{
+  "applied": 16,
+  "notes": [
+    "/|Desktop|Scroll Blur 1200px→100%",
+    "/|Tablet|Scroll Blur 1200px→100%",
+    "/|Phone|Scroll Blur 390px→100%",
+    "/about|Desktop|Beat 2 — Cinematic Image clear maxW (full-bleed)",
+    "/about|Desktop|Beat 2 — Cinematic Image align→center",
+    "/about|Desktop|Image Editorial Overlay →1200",
+    "/about|Tablet|Atmosphere 810px→100%",
+    "/about|Tablet|Arbour_NoiseEffect 810px→100%",
+    "/about|Tablet|Beat 2 — Cinematic Image clear maxW (full-bleed)",
+    "/about|Tablet|Beat 2 — Cinematic Image align→center",
+    "/about|Tablet|Image Editorial Overlay →1200",
+    "/about|Phone|Atmosphere 390px→100%",
+    "/about|Phone|Arbour_NoiseEffect 390px→100%",
+    "/about|Phone|Beat 2 — Cinematic Image clear maxW (full-bleed)",
+    "/about|Phone|Beat 2 — Cinematic Image align→center",
+    "/about|Phone|Image Editorial Overlay →1200"
+  ],
+  "result": "Lint: 15 warnings."
+}

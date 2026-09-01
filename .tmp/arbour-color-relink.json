@@ -1,0 +1,105 @@
+{
+  "created": {
+    "Paper 72": "1dfffd49-52d9-48d0-9ba9-c92684e4378c",
+    "Paper 45": "97e7a3c1-73bf-4916-b613-d08712585fcd",
+    "Paper 22": "0dc7875f-5bbf-461b-99d8-40ad797e73af",
+    "Ink 18": "28604152-36fa-4af0-b3be-0ea05dff0572",
+    "Ink 15": "0b4ce3d2-6811-49ee-abc8-2f7d60f59f6f",
+    "Ink 12": "969f7cf3-a250-4902-b32f-23bda6b27fd2"
+  },
+  "IDS": {
+    "Paper": "d5b3c09d-0364-4ed0-8804-e56957faa275",
+    "Parchment": "425191b0-a245-4f14-88c2-f7144ab54959",
+    "Ink": "e2f9a9eb-668a-4021-80d9-b04413b5f392",
+    "Ink 60": "cf5bf9af-72f6-4da6-ad12-b9daaa07387b",
+    "Ink Soft": "0bc68d0d-4c0b-4126-8cce-9425cb153f4e",
+    "Racing": "fa6ec05f-9d2d-44ad-a813-6c56bf2b324e",
+    "Racing Deep": "9d3d6ca5-f3ad-4d88-afc8-fc5bce03bd04",
+    "Cream On Dark": "537bd017-a079-4a2b-9afa-25208d628840",
+    "Olive": "a16d0333-6bd5-4d60-aa00-fac26447145d",
+    "Chartreuse": "db86917b-d19e-4fd7-8dc5-e260f1f35cb1",
+    "Stone": "8e108d61-e166-4e15-8c30-69c8865f3f4a",
+    "Oxblood": "3a86a4b6-e73d-409f-8eaa-4f155132899b",
+    "Paper 72": "1dfffd49-52d9-48d0-9ba9-c92684e4378c",
+    "Paper 45": "97e7a3c1-73bf-4916-b613-d08712585fcd",
+    "Paper 22": "0dc7875f-5bbf-461b-99d8-40ad797e73af",
+    "Ink 18": "28604152-36fa-4af0-b3be-0ea05dff0572",
+    "Ink 15": "0b4ce3d2-6811-49ee-abc8-2f7d60f59f6f",
+    "Ink 12": "969f7cf3-a250-4902-b32f-23bda6b27fd2"
+  },
+  "lineCount": 583,
+  "sample": [
+    "SET ToeEHgQCq $control__background=\"var(--token-9d3d6ca5-f3ad-4d88-afc8-fc5bce03bd04)\";",
+    "SET ToeEHgQCq $control__countColor=\"var(--token-537bd017-a079-4a2b-9afa-25208d628840)\";",
+    "SET IFLE4S10p $control__scrimColor=\"var(--token-9d3d6ca5-f3ad-4d88-afc8-fc5bce03bd04)\";",
+    "SET Ztf5as0HE $control__coords=\"var(--token-1dfffd49-52d9-48d0-9ba9-c92684e4378c)\";",
+    "SET Ztf5as0HE $control__label1=\"var(--token-d5b3c09d-0364-4ed0-8804-e56957faa275)\";",
+    "SET Ztf5as0HE $control__accent=\"var(--token-db86917b-d19e-4fd7-8dc5-e260f1f35cb1)\";",
+    "SET CDv8aL5JZ $control__colors=\"var(--token-d5b3c09d-0364-4ed0-8804-e56957faa275)\";",
+    "SET SU31Vf1Xh borderColor=\"var(--token-969f7cf3-a250-4902-b32f-23bda6b27fd2)\";",
+    "SET pbxBoE90U borderColor=\"var(--token-969f7cf3-a250-4902-b32f-23bda6b27fd2)\";",
+    "SET srqouA3C7 borderColor=\"var(--token-969f7cf3-a250-4902-b32f-23bda6b27fd2)\";",
+    "SET kMPm9hzII $control__kicker1=\"var(--token-db86917b-d19e-4fd7-8dc5-e260f1f35cb1)\";",
+    "SET JdVr1t_jR $control__scrimColor=\"var(--token-9d3d6ca5-f3ad-4d88-afc8-fc5bce03bd04)\";",
+    "SET w3kyse_7s borderColor=\"var(--token-969f7cf3-a250-4902-b32f-23bda6b27fd2)\";",
+    "SET oIT9IrRiy borderColor=\"var(--token-969f7cf3-a250-4902-b32f-23bda6b27fd2)\";",
+    "SET ko3Oouocy borderColor=\"var(--token-969f7cf3-a250-4902-b32f-23bda6b27fd2)\";",
+    "SET eAt1AYMf9 borderColor=\"var(--token-969f7cf3-a250-4902-b32f-23bda6b27fd2)\";",
+    "SET CMv32_lLx $control__surfaceColor=\"var(--token-e2f9a9eb-668a-4021-80d9-b04413b5f392)\";",
+    "SET CMv32_lLx $control__dividerColor=\"var(--token-537bd017-a079-4a2b-9afa-25208d628840)\";",
+    "SET CMv32_lLx $control__background=\"var(--token-9d3d6ca5-f3ad-4d88-afc8-fc5bce03bd04)\";",
+    "SET CMv32_lLx $control__borderColor=\"var(--token-537bd017-a079-4a2b-9afa-25208d628840)\";",
+    "SET CMv32_lLx $control__accent=\"var(--token-db86917b-d19e-4fd7-8dc5-e260f1f35cb1)\";",
+    "SET CMv32_lLx $control__border=\"var(--token-537bd017-a079-4a2b-9afa-25208d628840)\";",
+    "SET Y6WbS6_wg borderColor=\"var(--token-969f7cf3-a250-4902-b32f-23bda6b27fd2)\";",
+    "SET vDgoknehn borderColor=\"var(--token-969f7cf3-a250-4902-b32f-23bda6b27fd2)\";",
+    "SET UgWxBj6nn borderColor=\"var(--token-969f7cf3-a250-4902-b32f-23bda6b27fd2)\";",
+    "SET IotRzEZ0q borderColor=\"var(--token-969f7cf3-a250-4902-b32f-23bda6b27fd2)\";",
+    "SET ID4PTlGny borderColor=\"var(--token-969f7cf3-a250-4902-b32f-23bda6b27fd2)\";",
+    "SET A_AlBDana borderColor=\"var(--token-969f7cf3-a250-4902-b32f-23bda6b27fd2)\";",
+    "SET b800nNNFA borderColor=\"var(--token-969f7cf3-a250-4902-b32f-23bda6b27fd2)\";",
+    "SET jpRWj7kB6 borderColor=\"var(--token-969f7cf3-a250-4902-b32f-23bda6b27fd2)\";"
+  ],
+  "results": [
+    {
+      "i": 0,
+      "n": 80,
+      "message": "Commands: 3 errors. Lint: 22 warnings."
+    },
+    {
+      "i": 80,
+      "n": 80,
+      "message": "Lint: 17 warnings."
+    },
+    {
+      "i": 160,
+      "n": 80,
+      "message": "Lint: 21 warnings."
+    },
+    {
+      "i": 240,
+      "n": 80,
+      "message": "Lint: 22 warnings."
+    },
+    {
+      "i": 320,
+      "n": 80,
+      "message": "Lint: 2 errors, 23 warnings."
+    },
+    {
+      "i": 400,
+      "n": 80,
+      "message": "Lint: 1 error, 11 warnings."
+    },
+    {
+      "i": 480,
+      "n": 80,
+      "message": "Lint: 11 warnings."
+    },
+    {
+      "i": 560,
+      "n": 23,
+      "message": "Commands applied cleanly."
+    }
+  ]
+}

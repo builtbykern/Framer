@@ -1,0 +1,333 @@
+{
+  "count": 18,
+  "findings": [
+    {
+      "pagePath": "/",
+      "kind": "UnderlineLink",
+      "id": "CAdGD1vAP",
+      "component": "codeFile/zCa0pzg:default",
+      "display": "Arbour_UnderlineLink",
+      "outer": {
+        "id": "wsIijK_jR",
+        "name": "Residence Link",
+        "type": "FrameNode",
+        "href": "/properties-2/:slug"
+      },
+      "attrs": null,
+      "keys": [
+        "component",
+        "$componentDisplayName"
+      ]
+    },
+    {
+      "pagePath": "/",
+      "kind": "UnderlineLink",
+      "id": "h0vfeOTBw",
+      "name": "Arbour_UnderlineLink",
+      "component": "codeFile/zCa0pzg:default",
+      "display": "Arbour_UnderlineLink",
+      "outer": {
+        "id": "wsIijK_jR",
+        "name": "Residence Link",
+        "type": "FrameNode",
+        "href": "/properties-2/:slug"
+      },
+      "attrs": null,
+      "keys": [
+        "component",
+        "$componentDisplayName"
+      ]
+    },
+    {
+      "pagePath": "/",
+      "kind": "UnderlineLink",
+      "id": "f2fxMg6nz",
+      "component": "codeFile/zCa0pzg:default",
+      "display": "Arbour_UnderlineLink",
+      "outer": {
+        "id": "qL69wgei1",
+        "name": "Property Card Small",
+        "type": "FrameNode",
+        "href": "/properties-2/:slug"
+      },
+      "attrs": null,
+      "keys": [
+        "component",
+        "$componentDisplayName"
+      ]
+    },
+    {
+      "pagePath": "/",
+      "kind": "UnderlineLink",
+      "id": "LL2hvcJ80",
+      "component": "codeFile/zCa0pzg:default",
+      "display": "Arbour_UnderlineLink",
+      "outer": {
+        "id": "qL69wgei1",
+        "name": "Property Card Small",
+        "type": "FrameNode",
+        "href": "/properties-2/:slug"
+      },
+      "attrs": null,
+      "keys": [
+        "component",
+        "$componentDisplayName"
+      ]
+    },
+    {
+      "pagePath": "/",
+      "kind": "UnderlineLink",
+      "id": "U3TeNUVXvCAdGD1vAP",
+      "component": "codeFile/zCa0pzg:default",
+      "display": "Arbour_UnderlineLink",
+      "outer": {
+        "id": "U3TeNUVXvwsIijK_jR",
+        "name": "Residence Link",
+        "type": "FrameNode",
+        "href": "/properties-2/:slug"
+      },
+      "attrs": null,
+      "keys": [
+        "component",
+        "$componentDisplayName"
+      ]
+    },
+    {
+      "pagePath": "/",
+      "kind": "UnderlineLink",
+      "id": "U3TeNUVXvh0vfeOTBw",
+      "name": "Arbour_UnderlineLink",
+      "component": "codeFile/zCa0pzg:default",
+      "display": "Arbour_UnderlineLink",
+      "outer": {
+        "id": "U3TeNUVXvwsIijK_jR",
+        "name": "Residence Link",
+        "type": "FrameNode",
+        "href": "/properties-2/:slug"
+      },
+      "attrs": null,
+      "keys": [
+        "component",
+        "$componentDisplayName"
+      ]
+    },
+    {
+      "pagePath": "/",
+      "kind": "UnderlineLink",
+      "id": "U3TeNUVXvf2fxMg6nz",
+      "component": "codeFile/zCa0pzg:default",
+      "display": "Arbour_UnderlineLink",
+      "outer": {
+        "id": "U3TeNUVXvqL69wgei1",
+        "name": "Property Card Small",
+        "type": "FrameNode",
+        "href": "/properties-2/:slug"
+      },
+      "attrs": null,
+      "keys": [
+        "component",
+        "$componentDisplayName"
+      ]
+    },
+    {
+      "pagePath": "/",
+      "kind": "UnderlineLink",
+      "id": "U3TeNUVXvLL2hvcJ80",
+      "component": "codeFile/zCa0pzg:default",
+      "display": "Arbour_UnderlineLink",
+      "outer": {
+        "id": "U3TeNUVXvqL69wgei1",
+        "name": "Property Card Small",
+        "type": "FrameNode",
+        "href": "/properties-2/:slug"
+      },
+      "attrs": null,
+      "keys": [
+        "component",
+        "$componentDisplayName"
+      ]
+    },
+    {
+      "pagePath": "/",
+      "kind": "UnderlineLink",
+      "id": "pmAxXUJ0oCAdGD1vAP",
+      "component": "codeFile/zCa0pzg:default",
+      "display": "Arbour_UnderlineLink",
+      "outer": {
+        "id": "pmAxXUJ0owsIijK_jR",
+        "name": "Residence Link",
+        "type": "FrameNode",
+        "href": "/properties-2/:slug"
+      },
+      "attrs": null,
+      "keys": [
+        "component",
+        "$componentDisplayName"
+      ]
+    },
+    {
+      "pagePath": "/",
+      "kind": "UnderlineLink",
+      "id": "pmAxXUJ0oh0vfeOTBw",
+      "name": "Arbour_UnderlineLink",
+      "component": "codeFile/zCa0pzg:default",
+      "display": "Arbour_UnderlineLink",
+      "outer": {
+        "id": "pmAxXUJ0owsIijK_jR",
+        "name": "Residence Link",
+        "type": "FrameNode",
+        "href": "/properties-2/:slug"
+      },
+      "attrs": null,
+      "keys": [
+        "component",
+        "$componentDisplayName"
+      ]
+    },
+    {
+      "pagePath": "/",
+      "kind": "UnderlineLink",
+      "id": "pmAxXUJ0of2fxMg6nz",
+      "component": "codeFile/zCa0pzg:default",
+      "display": "Arbour_UnderlineLink",
+      "outer": {
+        "id": "pmAxXUJ0oqL69wgei1",
+        "name": "Property Card Small",
+        "type": "FrameNode",
+        "href": "/properties-2/:slug"
+      },
+      "attrs": null,
+      "keys": [
+        "component",
+        "$componentDisplayName"
+      ]
+    },
+    {
+      "pagePath": "/",
+      "kind": "UnderlineLink",
+      "id": "pmAxXUJ0oLL2hvcJ80",
+      "component": "codeFile/zCa0pzg:default",
+      "display": "Arbour_UnderlineLink",
+      "outer": {
+        "id": "pmAxXUJ0oqL69wgei1",
+        "name": "Property Card Small",
+        "type": "FrameNode",
+        "href": "/properties-2/:slug"
+      },
+      "attrs": null,
+      "keys": [
+        "component",
+        "$componentDisplayName"
+      ]
+    },
+    {
+      "pagePath": "/properties-2",
+      "kind": "UnderlineLink",
+      "id": "gAOwaKVbo",
+      "component": "codeFile/zCa0pzg:default",
+      "display": "Arbour_UnderlineLink",
+      "outer": {
+        "id": "KoYNULHfP",
+        "name": "Explore Neighbourhoods",
+        "type": "FrameNode",
+        "href": "/neighbourhoods"
+      },
+      "attrs": null,
+      "keys": [
+        "component",
+        "$componentDisplayName"
+      ]
+    },
+    {
+      "pagePath": "/properties-2",
+      "kind": "UnderlineLink",
+      "id": "SScKalu3BgAOwaKVbo",
+      "component": "codeFile/zCa0pzg:default",
+      "display": "Arbour_UnderlineLink",
+      "outer": {
+        "id": "SScKalu3BKoYNULHfP",
+        "name": "Explore Neighbourhoods",
+        "type": "FrameNode",
+        "href": "/neighbourhoods"
+      },
+      "attrs": null,
+      "keys": [
+        "component",
+        "$componentDisplayName"
+      ]
+    },
+    {
+      "pagePath": "/properties-2",
+      "kind": "UnderlineLink",
+      "id": "EK6d5SyWLgAOwaKVbo",
+      "component": "codeFile/zCa0pzg:default",
+      "display": "Arbour_UnderlineLink",
+      "outer": {
+        "id": "EK6d5SyWLKoYNULHfP",
+        "name": "Explore Neighbourhoods",
+        "type": "FrameNode",
+        "href": "/neighbourhoods"
+      },
+      "attrs": null,
+      "keys": [
+        "component",
+        "$componentDisplayName"
+      ]
+    },
+    {
+      "pagePath": "/contact",
+      "kind": "UnderlineLink",
+      "id": "BMhLvwqld",
+      "component": "codeFile/zCa0pzg:default",
+      "display": "Arbour_UnderlineLink",
+      "outer": {
+        "id": "uONXSHosa",
+        "name": "Direct Enquiry",
+        "type": "FrameNode",
+        "href": "mailto:enquiries@arbour.estate"
+      },
+      "attrs": null,
+      "keys": [
+        "component",
+        "$componentDisplayName"
+      ]
+    },
+    {
+      "pagePath": "/contact",
+      "kind": "UnderlineLink",
+      "id": "qjv2S9WpaBMhLvwqld",
+      "component": "codeFile/zCa0pzg:default",
+      "display": "Arbour_UnderlineLink",
+      "outer": {
+        "id": "qjv2S9WpauONXSHosa",
+        "name": "Direct Enquiry",
+        "type": "FrameNode",
+        "href": "mailto:enquiries@arbour.estate"
+      },
+      "attrs": null,
+      "keys": [
+        "component",
+        "$componentDisplayName"
+      ]
+    },
+    {
+      "pagePath": "/contact",
+      "kind": "UnderlineLink",
+      "id": "jEM0wBo2vBMhLvwqld",
+      "component": "codeFile/zCa0pzg:default",
+      "display": "Arbour_UnderlineLink",
+      "outer": {
+        "id": "jEM0wBo2vuONXSHosa",
+        "name": "Direct Enquiry",
+        "type": "FrameNode",
+        "href": "mailto:enquiries@arbour.estate"
+      },
+      "attrs": null,
+      "keys": [
+        "component",
+        "$componentDisplayName"
+      ]
+    }
+  ],
+  "sampleControls": "FramerPluginError: Error on typia.createAssert(): invalid type on $input[0].componentIds, expect to be ReadonlyArray<string>"
+}

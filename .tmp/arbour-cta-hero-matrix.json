@@ -1,0 +1,1944 @@
+{
+  "collectedAt": "2026-08-09T17:08:01.605Z",
+  "heroes": [
+    {
+      "path": "/",
+      "bp": "Desktop",
+      "id": "iq0rlFlTE",
+      "name": "Hero Section",
+      "depth": 1,
+      "padding": "0px 0px 64px 0px",
+      "gap": "0px",
+      "maxWidth": null,
+      "children": [
+        "Image Layer",
+        "Gradient Overlay",
+        "Text Content Column"
+      ]
+    },
+    {
+      "path": "/",
+      "bp": "Desktop",
+      "id": "ZsKgeszB_",
+      "name": "Journal",
+      "depth": 1,
+      "padding": "128px 48px 128px 48px",
+      "gap": "40px",
+      "maxWidth": "1200px",
+      "children": [
+        "FrameNode",
+        "Journal Deck",
+        "Content Area"
+      ]
+    },
+    {
+      "path": "/",
+      "bp": "Tablet",
+      "id": "wBAtV56MEiq0rlFlTE",
+      "name": "Hero Section",
+      "depth": 1,
+      "padding": "0px 0px 64px 0px",
+      "gap": "0px",
+      "maxWidth": null,
+      "children": [
+        "Image Layer",
+        "Gradient Overlay",
+        "Text Content Column"
+      ]
+    },
+    {
+      "path": "/",
+      "bp": "Tablet",
+      "id": "wBAtV56MEZsKgeszB_",
+      "name": "Journal",
+      "depth": 1,
+      "padding": "96px 40px 96px 40px",
+      "gap": "40px",
+      "maxWidth": "1200px",
+      "children": [
+        "FrameNode",
+        "Journal Deck",
+        "Content Area"
+      ]
+    },
+    {
+      "path": "/",
+      "bp": "Phone",
+      "id": "mcL3MFzFViq0rlFlTE",
+      "name": "Hero Section",
+      "depth": 1,
+      "padding": "0px 0px 64px 0px",
+      "gap": "0px",
+      "maxWidth": null,
+      "children": [
+        "Image Layer",
+        "Gradient Overlay",
+        "Text Content Column"
+      ]
+    },
+    {
+      "path": "/",
+      "bp": "Phone",
+      "id": "mcL3MFzFVZsKgeszB_",
+      "name": "Journal",
+      "depth": 1,
+      "padding": "64px 16px 64px 16px",
+      "gap": "40px",
+      "maxWidth": "1200px",
+      "children": [
+        "FrameNode",
+        "Journal Deck",
+        "Content Area"
+      ]
+    },
+    {
+      "path": "/properties",
+      "bp": "Desktop",
+      "id": "mGwrwOsDS",
+      "name": "Properties Hero",
+      "depth": 2,
+      "padding": null,
+      "gap": "0px",
+      "maxWidth": "1200px",
+      "children": [
+        "Hero Copy"
+      ]
+    },
+    {
+      "path": "/properties",
+      "bp": "Tablet",
+      "id": "SScKalu3BmGwrwOsDS",
+      "name": "Properties Hero",
+      "depth": 2,
+      "padding": null,
+      "gap": "0px",
+      "maxWidth": "1200px",
+      "children": [
+        "Hero Copy"
+      ]
+    },
+    {
+      "path": "/properties",
+      "bp": "Phone",
+      "id": "EK6d5SyWLmGwrwOsDS",
+      "name": "Properties Hero",
+      "depth": 2,
+      "padding": null,
+      "gap": "0px",
+      "maxWidth": "1200px",
+      "children": [
+        "Hero Copy"
+      ]
+    },
+    {
+      "path": "/neighbourhoods",
+      "bp": "Desktop",
+      "id": "ycUqIc8V3",
+      "name": "Neighbourhoods Hero",
+      "depth": 2,
+      "padding": null,
+      "gap": "0px",
+      "maxWidth": "1200px",
+      "children": [
+        "Hero Copy"
+      ]
+    },
+    {
+      "path": "/neighbourhoods",
+      "bp": "Tablet",
+      "id": "aJLpuUP0qycUqIc8V3",
+      "name": "Neighbourhoods Hero",
+      "depth": 2,
+      "padding": null,
+      "gap": "20px",
+      "maxWidth": "1200px",
+      "children": [
+        "Hero Copy"
+      ]
+    },
+    {
+      "path": "/neighbourhoods",
+      "bp": "Phone",
+      "id": "Qonafp_oDycUqIc8V3",
+      "name": "Neighbourhoods Hero",
+      "depth": 2,
+      "padding": null,
+      "gap": "16px",
+      "maxWidth": "1200px",
+      "children": [
+        "Hero Copy"
+      ]
+    },
+    {
+      "path": "/notes",
+      "bp": "Desktop",
+      "id": "wY1tfyIdc",
+      "name": "Journal",
+      "depth": 1,
+      "padding": "128px 48px 0px 48px",
+      "gap": "0px",
+      "maxWidth": "1200px",
+      "children": [
+        "Notes Hero",
+        "Content Area"
+      ]
+    },
+    {
+      "path": "/notes",
+      "bp": "Desktop",
+      "id": "Vq1f2mEkj",
+      "name": "Notes Hero",
+      "depth": 2,
+      "padding": null,
+      "gap": "0px",
+      "maxWidth": "1200px",
+      "children": [
+        "Hero Copy"
+      ]
+    },
+    {
+      "path": "/notes",
+      "bp": "Tablet",
+      "id": "LptqEiXVpwY1tfyIdc",
+      "name": "Journal",
+      "depth": 1,
+      "padding": "96px 40px 0px 40px",
+      "gap": "0px",
+      "maxWidth": null,
+      "children": [
+        "Notes Hero",
+        "Content Area"
+      ]
+    },
+    {
+      "path": "/notes",
+      "bp": "Tablet",
+      "id": "LptqEiXVpVq1f2mEkj",
+      "name": "Notes Hero",
+      "depth": 2,
+      "padding": null,
+      "gap": "0px",
+      "maxWidth": "1200px",
+      "children": [
+        "Hero Copy"
+      ]
+    },
+    {
+      "path": "/notes",
+      "bp": "Phone",
+      "id": "INUKgvAnawY1tfyIdc",
+      "name": "Journal",
+      "depth": 1,
+      "padding": "64px 16px 0px 16px",
+      "gap": "0px",
+      "maxWidth": null,
+      "children": [
+        "Notes Hero",
+        "Content Area"
+      ]
+    },
+    {
+      "path": "/notes",
+      "bp": "Phone",
+      "id": "INUKgvAnaVq1f2mEkj",
+      "name": "Notes Hero",
+      "depth": 2,
+      "padding": null,
+      "gap": "0px",
+      "maxWidth": "1200px",
+      "children": [
+        "Hero Copy"
+      ]
+    },
+    {
+      "path": "/about",
+      "bp": "Desktop",
+      "id": "QjoW3yYRJ",
+      "name": "Beat 1 — Portrait Stage",
+      "depth": 1,
+      "padding": null,
+      "gap": "0px",
+      "maxWidth": "1200px",
+      "children": [
+        "Opening Image Field",
+        "Opening Copy"
+      ]
+    },
+    {
+      "path": "/about",
+      "bp": "Tablet",
+      "id": "xvqDXw58eQjoW3yYRJ",
+      "name": "Beat 1 — Portrait Stage",
+      "depth": 1,
+      "padding": null,
+      "gap": "0px",
+      "maxWidth": "1200px",
+      "children": [
+        "Opening Image Field",
+        "Opening Copy"
+      ]
+    },
+    {
+      "path": "/about",
+      "bp": "Phone",
+      "id": "CYNrpU04tQjoW3yYRJ",
+      "name": "Beat 1 — Portrait Stage",
+      "depth": 1,
+      "padding": null,
+      "gap": "0px",
+      "maxWidth": "1200px",
+      "children": [
+        "Opening Image Field",
+        "Opening Copy"
+      ]
+    },
+    {
+      "path": "/contact",
+      "bp": "Desktop",
+      "id": "jmmPpci8t",
+      "name": "Contact Hero",
+      "depth": 1,
+      "padding": "0px 48px 64px 48px",
+      "gap": "24px",
+      "maxWidth": null,
+      "children": [
+        "Hero Copy",
+        "Hero Entrance Media"
+      ]
+    },
+    {
+      "path": "/contact",
+      "bp": "Desktop",
+      "id": "AATw4pip9",
+      "name": "Hero Copy",
+      "depth": 2,
+      "padding": "32px 48px 32px 48px",
+      "gap": "16px",
+      "maxWidth": null,
+      "children": [
+        "Native Enquiry Copy",
+        "Direct Enquiry",
+        "Arbour_ScrollCue"
+      ]
+    },
+    {
+      "path": "/contact",
+      "bp": "Desktop",
+      "id": "WLSMm5iy1",
+      "name": "Hero Entrance Media",
+      "depth": 2,
+      "padding": null,
+      "gap": "0px",
+      "maxWidth": null,
+      "children": []
+    },
+    {
+      "path": "/contact",
+      "bp": "Desktop",
+      "id": "w1lCAnw5U",
+      "name": "Opening Note",
+      "depth": 2,
+      "padding": "32px 0px 0px 0px",
+      "gap": null,
+      "maxWidth": "1200px",
+      "children": [
+        "RichTextNode",
+        "RichTextNode"
+      ]
+    },
+    {
+      "path": "/contact",
+      "bp": "Desktop",
+      "id": "R3nS8tMqV",
+      "name": "Journal",
+      "depth": 1,
+      "padding": "128px 48px 128px 48px",
+      "gap": "48px",
+      "maxWidth": null,
+      "children": [
+        "FrameNode",
+        "Content Area"
+      ]
+    },
+    {
+      "path": "/contact",
+      "bp": "Tablet",
+      "id": "qjv2S9WpajmmPpci8t",
+      "name": "Contact Hero",
+      "depth": 1,
+      "padding": "0px 40px 48px 40px",
+      "gap": "24px",
+      "maxWidth": null,
+      "children": [
+        "Hero Copy",
+        "Hero Entrance Media"
+      ]
+    },
+    {
+      "path": "/contact",
+      "bp": "Tablet",
+      "id": "qjv2S9WpaAATw4pip9",
+      "name": "Hero Copy",
+      "depth": 2,
+      "padding": "24px 40px 24px 40px",
+      "gap": "12px",
+      "maxWidth": null,
+      "children": [
+        "Native Enquiry Copy",
+        "Direct Enquiry",
+        "Arbour_ScrollCue"
+      ]
+    },
+    {
+      "path": "/contact",
+      "bp": "Tablet",
+      "id": "qjv2S9WpaWLSMm5iy1",
+      "name": "Hero Entrance Media",
+      "depth": 2,
+      "padding": null,
+      "gap": "0px",
+      "maxWidth": null,
+      "children": []
+    },
+    {
+      "path": "/contact",
+      "bp": "Tablet",
+      "id": "qjv2S9Wpaw1lCAnw5U",
+      "name": "Opening Note",
+      "depth": 2,
+      "padding": "24px 0px 0px 0px",
+      "gap": null,
+      "maxWidth": "1200px",
+      "children": [
+        "RichTextNode",
+        "RichTextNode"
+      ]
+    },
+    {
+      "path": "/contact",
+      "bp": "Tablet",
+      "id": "qjv2S9WpaR3nS8tMqV",
+      "name": "Journal",
+      "depth": 1,
+      "padding": "96px 40px 96px 40px",
+      "gap": "40px",
+      "maxWidth": null,
+      "children": [
+        "FrameNode",
+        "Content Area"
+      ]
+    },
+    {
+      "path": "/contact",
+      "bp": "Phone",
+      "id": "jEM0wBo2vjmmPpci8t",
+      "name": "Contact Hero",
+      "depth": 1,
+      "padding": null,
+      "gap": "0px",
+      "maxWidth": null,
+      "children": [
+        "Hero Copy",
+        "Hero Entrance Media"
+      ]
+    },
+    {
+      "path": "/contact",
+      "bp": "Phone",
+      "id": "jEM0wBo2vAATw4pip9",
+      "name": "Hero Copy",
+      "depth": 2,
+      "padding": "40px 16px 40px 16px",
+      "gap": "16px",
+      "maxWidth": null,
+      "children": [
+        "Native Enquiry Copy",
+        "Direct Enquiry",
+        "Arbour_ScrollCue"
+      ]
+    },
+    {
+      "path": "/contact",
+      "bp": "Phone",
+      "id": "jEM0wBo2vWLSMm5iy1",
+      "name": "Hero Entrance Media",
+      "depth": 2,
+      "padding": null,
+      "gap": "0px",
+      "maxWidth": null,
+      "children": []
+    },
+    {
+      "path": "/contact",
+      "bp": "Phone",
+      "id": "jEM0wBo2vw1lCAnw5U",
+      "name": "Opening Note",
+      "depth": 2,
+      "padding": "24px 0px 0px 0px",
+      "gap": "10px",
+      "maxWidth": "1200px",
+      "children": [
+        "RichTextNode",
+        "RichTextNode"
+      ]
+    },
+    {
+      "path": "/contact",
+      "bp": "Phone",
+      "id": "jEM0wBo2vR3nS8tMqV",
+      "name": "Journal",
+      "depth": 1,
+      "padding": "64px 16px 64px 16px",
+      "gap": "32px",
+      "maxWidth": null,
+      "children": [
+        "FrameNode",
+        "Content Area"
+      ]
+    },
+    {
+      "path": "/properties/:slug",
+      "bp": "Desktop",
+      "id": "lODMk6Egu",
+      "name": "Property Hero",
+      "depth": 1,
+      "padding": "128px 48px 128px 48px",
+      "gap": "64px",
+      "maxWidth": "1200px",
+      "children": [
+        "FrameNode",
+        "FrameNode"
+      ]
+    },
+    {
+      "path": "/properties/:slug",
+      "bp": "Tablet",
+      "id": "IQmBTrFpblODMk6Egu",
+      "name": "Property Hero",
+      "depth": 1,
+      "padding": "96px 40px 96px 40px",
+      "gap": "40px",
+      "maxWidth": "1200px",
+      "children": [
+        "FrameNode",
+        "FrameNode"
+      ]
+    },
+    {
+      "path": "/properties/:slug",
+      "bp": "Phone",
+      "id": "MrTKJzwELlODMk6Egu",
+      "name": "Property Hero",
+      "depth": 1,
+      "padding": "64px 16px 64px 16px",
+      "gap": "32px",
+      "maxWidth": null,
+      "children": [
+        "FrameNode",
+        "FrameNode"
+      ]
+    },
+    {
+      "path": "/notes/:slug",
+      "bp": "Desktop",
+      "id": "TYvLnLN5L",
+      "name": "Article Hero Meta",
+      "depth": 1,
+      "padding": "128px 48px 0px 48px",
+      "gap": "0px",
+      "maxWidth": "1200px",
+      "children": [
+        "FrameNode",
+        "FrameNode"
+      ]
+    },
+    {
+      "path": "/notes/:slug",
+      "bp": "Desktop",
+      "id": "rZDvGuaZD",
+      "name": "Journal Hero Image",
+      "depth": 1,
+      "padding": "64px 48px 0px 48px",
+      "gap": "0px",
+      "maxWidth": "1200px",
+      "children": []
+    },
+    {
+      "path": "/notes/:slug",
+      "bp": "Desktop",
+      "id": "HR7GLyyBT",
+      "name": "Journal Text Column",
+      "depth": 1,
+      "padding": null,
+      "gap": "10px",
+      "maxWidth": null,
+      "children": [
+        "Wrapper"
+      ]
+    },
+    {
+      "path": "/notes/:slug",
+      "bp": "Desktop",
+      "id": "cIncylbTv",
+      "name": "More From Journal",
+      "depth": 1,
+      "padding": "128px 48px 128px 48px",
+      "gap": "40px",
+      "maxWidth": "1200px",
+      "children": [
+        "RichTextNode",
+        "RichTextNode",
+        "FrameNode"
+      ]
+    },
+    {
+      "path": "/notes/:slug",
+      "bp": "Tablet",
+      "id": "gZUAlaJJ1TYvLnLN5L",
+      "name": "Article Hero Meta",
+      "depth": 1,
+      "padding": "96px 40px 0px 40px",
+      "gap": "40px",
+      "maxWidth": "100%",
+      "children": [
+        "FrameNode",
+        "FrameNode"
+      ]
+    },
+    {
+      "path": "/notes/:slug",
+      "bp": "Tablet",
+      "id": "gZUAlaJJ1rZDvGuaZD",
+      "name": "Journal Hero Image",
+      "depth": 1,
+      "padding": "48px 40px 0px 40px",
+      "gap": "0px",
+      "maxWidth": "100%",
+      "children": []
+    },
+    {
+      "path": "/notes/:slug",
+      "bp": "Tablet",
+      "id": "gZUAlaJJ1HR7GLyyBT",
+      "name": "Journal Text Column",
+      "depth": 1,
+      "padding": null,
+      "gap": "10px",
+      "maxWidth": null,
+      "children": [
+        "Wrapper"
+      ]
+    },
+    {
+      "path": "/notes/:slug",
+      "bp": "Tablet",
+      "id": "gZUAlaJJ1cIncylbTv",
+      "name": "More From Journal",
+      "depth": 1,
+      "padding": "96px 40px 96px 40px",
+      "gap": "32px",
+      "maxWidth": "100%",
+      "children": [
+        "RichTextNode",
+        "RichTextNode",
+        "FrameNode"
+      ]
+    },
+    {
+      "path": "/notes/:slug",
+      "bp": "Phone",
+      "id": "EavJve6uGTYvLnLN5L",
+      "name": "Article Hero Meta",
+      "depth": 1,
+      "padding": "64px 16px 0px 16px",
+      "gap": "32px",
+      "maxWidth": "100%",
+      "children": [
+        "FrameNode",
+        "FrameNode"
+      ]
+    },
+    {
+      "path": "/notes/:slug",
+      "bp": "Phone",
+      "id": "EavJve6uGrZDvGuaZD",
+      "name": "Journal Hero Image",
+      "depth": 1,
+      "padding": "40px 16px 0px 16px",
+      "gap": "0px",
+      "maxWidth": "100%",
+      "children": []
+    },
+    {
+      "path": "/notes/:slug",
+      "bp": "Phone",
+      "id": "EavJve6uGHR7GLyyBT",
+      "name": "Journal Text Column",
+      "depth": 1,
+      "padding": null,
+      "gap": "10px",
+      "maxWidth": null,
+      "children": [
+        "Wrapper"
+      ]
+    },
+    {
+      "path": "/notes/:slug",
+      "bp": "Phone",
+      "id": "EavJve6uGcIncylbTv",
+      "name": "More From Journal",
+      "depth": 1,
+      "padding": "64px 16px 64px 16px",
+      "gap": "32px",
+      "maxWidth": "100%",
+      "children": [
+        "RichTextNode",
+        "RichTextNode",
+        "FrameNode"
+      ]
+    }
+  ],
+  "ctas": [
+    {
+      "path": "/",
+      "bp": "Desktop",
+      "id": "ZsKgeszB_",
+      "name": "Journal",
+      "depth": 1,
+      "padding": "128px 48px 128px 48px",
+      "gap": "40px",
+      "maxWidth": "1200px",
+      "children": [
+        "FrameNode",
+        "Journal Deck",
+        "Content Area"
+      ]
+    },
+    {
+      "path": "/",
+      "bp": "Tablet",
+      "id": "wBAtV56MEZsKgeszB_",
+      "name": "Journal",
+      "depth": 1,
+      "padding": "96px 40px 96px 40px",
+      "gap": "40px",
+      "maxWidth": "1200px",
+      "children": [
+        "FrameNode",
+        "Journal Deck",
+        "Content Area"
+      ]
+    },
+    {
+      "path": "/",
+      "bp": "Phone",
+      "id": "mcL3MFzFVZsKgeszB_",
+      "name": "Journal",
+      "depth": 1,
+      "padding": "64px 16px 64px 16px",
+      "gap": "40px",
+      "maxWidth": "1200px",
+      "children": [
+        "FrameNode",
+        "Journal Deck",
+        "Content Area"
+      ]
+    },
+    {
+      "path": "/properties",
+      "bp": "Desktop",
+      "id": "ivqFzeVAZ",
+      "name": "Continue Your Search",
+      "depth": 2,
+      "padding": "128px 48px 128px 48px",
+      "gap": "40px",
+      "maxWidth": "1200px",
+      "children": [
+        "Discovery Label",
+        "Discovery Routes"
+      ]
+    },
+    {
+      "path": "/properties",
+      "bp": "Desktop",
+      "id": "cFtWJlabj",
+      "name": "Enquiry CTA",
+      "depth": 2,
+      "padding": "128px 48px 128px 48px",
+      "gap": "24px",
+      "maxWidth": null,
+      "children": [
+        "FrameNode",
+        "Arbour_NoiseEffect"
+      ]
+    },
+    {
+      "path": "/properties",
+      "bp": "Tablet",
+      "id": "SScKalu3BivqFzeVAZ",
+      "name": "Continue Your Search",
+      "depth": 2,
+      "padding": "96px 40px 96px 40px",
+      "gap": "32px",
+      "maxWidth": "1200px",
+      "children": [
+        "Discovery Label",
+        "Discovery Routes"
+      ]
+    },
+    {
+      "path": "/properties",
+      "bp": "Tablet",
+      "id": "SScKalu3BcFtWJlabj",
+      "name": "Enquiry CTA",
+      "depth": 2,
+      "padding": "96px 40px 96px 40px",
+      "gap": "24px",
+      "maxWidth": null,
+      "children": [
+        "FrameNode",
+        "Arbour_NoiseEffect"
+      ]
+    },
+    {
+      "path": "/properties",
+      "bp": "Phone",
+      "id": "EK6d5SyWLivqFzeVAZ",
+      "name": "Continue Your Search",
+      "depth": 2,
+      "padding": "64px 16px 64px 16px",
+      "gap": "24px",
+      "maxWidth": "1200px",
+      "children": [
+        "Discovery Label",
+        "Discovery Routes"
+      ]
+    },
+    {
+      "path": "/properties",
+      "bp": "Phone",
+      "id": "EK6d5SyWLcFtWJlabj",
+      "name": "Enquiry CTA",
+      "depth": 2,
+      "padding": "64px 16px 64px 16px",
+      "gap": "20px",
+      "maxWidth": null,
+      "children": [
+        "FrameNode",
+        "Arbour_NoiseEffect"
+      ]
+    },
+    {
+      "path": "/notes",
+      "bp": "Desktop",
+      "id": "wY1tfyIdc",
+      "name": "Journal",
+      "depth": 1,
+      "padding": "128px 48px 0px 48px",
+      "gap": "0px",
+      "maxWidth": "1200px",
+      "children": [
+        "Notes Hero",
+        "Content Area"
+      ]
+    },
+    {
+      "path": "/notes",
+      "bp": "Desktop",
+      "id": "p7CGH_nWX",
+      "name": "Journal Manifesto",
+      "depth": 1,
+      "padding": "128px 48px 128px 48px",
+      "gap": "0px",
+      "maxWidth": null,
+      "children": [
+        "Manifesto Row"
+      ]
+    },
+    {
+      "path": "/notes",
+      "bp": "Tablet",
+      "id": "LptqEiXVpwY1tfyIdc",
+      "name": "Journal",
+      "depth": 1,
+      "padding": "96px 40px 0px 40px",
+      "gap": "0px",
+      "maxWidth": null,
+      "children": [
+        "Notes Hero",
+        "Content Area"
+      ]
+    },
+    {
+      "path": "/notes",
+      "bp": "Tablet",
+      "id": "LptqEiXVpp7CGH_nWX",
+      "name": "Journal Manifesto",
+      "depth": 1,
+      "padding": "96px 40px 96px 40px",
+      "gap": "0px",
+      "maxWidth": null,
+      "children": [
+        "Manifesto Row"
+      ]
+    },
+    {
+      "path": "/notes",
+      "bp": "Phone",
+      "id": "INUKgvAnawY1tfyIdc",
+      "name": "Journal",
+      "depth": 1,
+      "padding": "64px 16px 0px 16px",
+      "gap": "0px",
+      "maxWidth": null,
+      "children": [
+        "Notes Hero",
+        "Content Area"
+      ]
+    },
+    {
+      "path": "/notes",
+      "bp": "Phone",
+      "id": "INUKgvAnap7CGH_nWX",
+      "name": "Journal Manifesto",
+      "depth": 1,
+      "padding": "64px 16px 64px 16px",
+      "gap": "24px",
+      "maxWidth": null,
+      "children": [
+        "Manifesto Row"
+      ]
+    },
+    {
+      "path": "/about",
+      "bp": "Desktop",
+      "id": "OIVgjc19d",
+      "name": "Enquiry CTA",
+      "depth": 1,
+      "padding": "128px 48px 128px 48px",
+      "gap": "24px",
+      "maxWidth": null,
+      "children": [
+        "FrameNode",
+        "Arbour_NoiseEffect"
+      ]
+    },
+    {
+      "path": "/about",
+      "bp": "Tablet",
+      "id": "xvqDXw58eOIVgjc19d",
+      "name": "Enquiry CTA",
+      "depth": 1,
+      "padding": "96px 40px 96px 40px",
+      "gap": "24px",
+      "maxWidth": null,
+      "children": [
+        "FrameNode",
+        "Arbour_NoiseEffect"
+      ]
+    },
+    {
+      "path": "/about",
+      "bp": "Phone",
+      "id": "CYNrpU04tOIVgjc19d",
+      "name": "Enquiry CTA",
+      "depth": 1,
+      "padding": "64px 16px 64px 16px",
+      "gap": "24px",
+      "maxWidth": null,
+      "children": [
+        "FrameNode",
+        "Arbour_NoiseEffect"
+      ]
+    },
+    {
+      "path": "/contact",
+      "bp": "Desktop",
+      "id": "liyenGbOL",
+      "name": "Private Consultation Pause",
+      "depth": 1,
+      "padding": "96px 48px 96px 48px",
+      "gap": "48px",
+      "maxWidth": "1200px",
+      "children": [
+        "Consultation Header",
+        "Consultation Statement",
+        "Consultation Detail"
+      ]
+    },
+    {
+      "path": "/contact",
+      "bp": "Desktop",
+      "id": "R3nS8tMqV",
+      "name": "Journal",
+      "depth": 1,
+      "padding": "128px 48px 128px 48px",
+      "gap": "48px",
+      "maxWidth": null,
+      "children": [
+        "FrameNode",
+        "Content Area"
+      ]
+    },
+    {
+      "path": "/contact",
+      "bp": "Tablet",
+      "id": "qjv2S9WpaliyenGbOL",
+      "name": "Private Consultation Pause",
+      "depth": 1,
+      "padding": "72px 40px 72px 40px",
+      "gap": "48px",
+      "maxWidth": "1200px",
+      "children": [
+        "Consultation Header",
+        "Consultation Statement",
+        "Consultation Detail"
+      ]
+    },
+    {
+      "path": "/contact",
+      "bp": "Tablet",
+      "id": "qjv2S9WpaR3nS8tMqV",
+      "name": "Journal",
+      "depth": 1,
+      "padding": "96px 40px 96px 40px",
+      "gap": "40px",
+      "maxWidth": null,
+      "children": [
+        "FrameNode",
+        "Content Area"
+      ]
+    },
+    {
+      "path": "/contact",
+      "bp": "Phone",
+      "id": "jEM0wBo2vliyenGbOL",
+      "name": "Private Consultation Pause",
+      "depth": 1,
+      "padding": "48px 16px 48px 16px",
+      "gap": "40px",
+      "maxWidth": "1200px",
+      "children": [
+        "Consultation Header",
+        "Consultation Statement",
+        "Consultation Detail"
+      ]
+    },
+    {
+      "path": "/contact",
+      "bp": "Phone",
+      "id": "jEM0wBo2vR3nS8tMqV",
+      "name": "Journal",
+      "depth": 1,
+      "padding": "64px 16px 64px 16px",
+      "gap": "32px",
+      "maxWidth": null,
+      "children": [
+        "FrameNode",
+        "Content Area"
+      ]
+    },
+    {
+      "path": "/properties/:slug",
+      "bp": "Desktop",
+      "id": "OA3sHhDMv",
+      "name": "Continue Your Search",
+      "depth": 1,
+      "padding": "128px 48px 128px 48px",
+      "gap": "40px",
+      "maxWidth": "1200px",
+      "children": [
+        "Discovery Label",
+        "Discovery Routes"
+      ]
+    },
+    {
+      "path": "/properties/:slug",
+      "bp": "Desktop",
+      "id": "Wy9_asNQu",
+      "name": "Enquiry CTA",
+      "depth": 1,
+      "padding": "128px 48px 128px 48px",
+      "gap": "24px",
+      "maxWidth": "1200px",
+      "children": [
+        "FrameNode",
+        "Arbour_NoiseEffect"
+      ]
+    },
+    {
+      "path": "/properties/:slug",
+      "bp": "Tablet",
+      "id": "IQmBTrFpbOA3sHhDMv",
+      "name": "Continue Your Search",
+      "depth": 1,
+      "padding": "96px 40px 96px 40px",
+      "gap": "32px",
+      "maxWidth": "1200px",
+      "children": [
+        "Discovery Label",
+        "Discovery Routes"
+      ]
+    },
+    {
+      "path": "/properties/:slug",
+      "bp": "Tablet",
+      "id": "IQmBTrFpbWy9_asNQu",
+      "name": "Enquiry CTA",
+      "depth": 1,
+      "padding": "96px 40px 96px 40px",
+      "gap": "24px",
+      "maxWidth": "1200px",
+      "children": [
+        "FrameNode",
+        "Arbour_NoiseEffect"
+      ]
+    },
+    {
+      "path": "/properties/:slug",
+      "bp": "Phone",
+      "id": "MrTKJzwELOA3sHhDMv",
+      "name": "Continue Your Search",
+      "depth": 1,
+      "padding": "64px 16px 64px 16px",
+      "gap": "24px",
+      "maxWidth": "1200px",
+      "children": [
+        "Discovery Label",
+        "Discovery Routes"
+      ]
+    },
+    {
+      "path": "/properties/:slug",
+      "bp": "Phone",
+      "id": "MrTKJzwELWy9_asNQu",
+      "name": "Enquiry CTA",
+      "depth": 1,
+      "padding": "64px 16px 64px 16px",
+      "gap": "24px",
+      "maxWidth": "1200px",
+      "children": [
+        "FrameNode",
+        "Arbour_NoiseEffect"
+      ]
+    },
+    {
+      "path": "/notes/:slug",
+      "bp": "Desktop",
+      "id": "rZDvGuaZD",
+      "name": "Journal Hero Image",
+      "depth": 1,
+      "padding": "64px 48px 0px 48px",
+      "gap": "0px",
+      "maxWidth": "1200px",
+      "children": []
+    },
+    {
+      "path": "/notes/:slug",
+      "bp": "Desktop",
+      "id": "cIncylbTv",
+      "name": "More From Journal",
+      "depth": 1,
+      "padding": "128px 48px 128px 48px",
+      "gap": "40px",
+      "maxWidth": "1200px",
+      "children": [
+        "RichTextNode",
+        "RichTextNode",
+        "FrameNode"
+      ]
+    },
+    {
+      "path": "/notes/:slug",
+      "bp": "Tablet",
+      "id": "gZUAlaJJ1rZDvGuaZD",
+      "name": "Journal Hero Image",
+      "depth": 1,
+      "padding": "48px 40px 0px 40px",
+      "gap": "0px",
+      "maxWidth": "100%",
+      "children": []
+    },
+    {
+      "path": "/notes/:slug",
+      "bp": "Tablet",
+      "id": "gZUAlaJJ1cIncylbTv",
+      "name": "More From Journal",
+      "depth": 1,
+      "padding": "96px 40px 96px 40px",
+      "gap": "32px",
+      "maxWidth": "100%",
+      "children": [
+        "RichTextNode",
+        "RichTextNode",
+        "FrameNode"
+      ]
+    },
+    {
+      "path": "/notes/:slug",
+      "bp": "Phone",
+      "id": "EavJve6uGrZDvGuaZD",
+      "name": "Journal Hero Image",
+      "depth": 1,
+      "padding": "40px 16px 0px 16px",
+      "gap": "0px",
+      "maxWidth": "100%",
+      "children": []
+    },
+    {
+      "path": "/notes/:slug",
+      "bp": "Phone",
+      "id": "EavJve6uGcIncylbTv",
+      "name": "More From Journal",
+      "depth": 1,
+      "padding": "64px 16px 64px 16px",
+      "gap": "32px",
+      "maxWidth": "100%",
+      "children": [
+        "RichTextNode",
+        "RichTextNode",
+        "FrameNode"
+      ]
+    }
+  ],
+  "buttons": [
+    {
+      "path": "/",
+      "bp": "Desktop",
+      "id": "uZK8SOCnV",
+      "name": "Arbour_UnderlineLink",
+      "display": "Arbour_UnderlineLink",
+      "type": "ComponentInstanceNode",
+      "compId": null,
+      "controls": {
+        "$control__label": "EXPLORE →",
+        "$control__link": "/neighbourhoods",
+        "$control__newTab": "false",
+        "$control__decorative": "false",
+        "$control__text": "var(--token-a16d0333-6bd5-4d60-aa00-fac26447145d)",
+        "$control__underline": "var(--token-a16d0333-6bd5-4d60-aa00-fac26447145d)",
+        "$control__line": "1",
+        "$control__offset": "4"
+      },
+      "parentHint": "Territories Header"
+    },
+    {
+      "path": "/",
+      "bp": "Desktop",
+      "id": "Rx9M1Tkyw",
+      "name": "Arbour_UnderlineLink",
+      "display": "Arbour_UnderlineLink",
+      "type": "ComponentInstanceNode",
+      "compId": null,
+      "controls": {
+        "$control__label": "VIEW ALL →",
+        "$control__link": "/properties",
+        "$control__newTab": "false",
+        "$control__decorative": "false",
+        "$control__text": "var(--token-a16d0333-6bd5-4d60-aa00-fac26447145d)",
+        "$control__underline": "var(--token-a16d0333-6bd5-4d60-aa00-fac26447145d)",
+        "$control__line": "1",
+        "$control__offset": "4"
+      },
+      "parentHint": "Portfolio Row"
+    },
+    {
+      "path": "/",
+      "bp": "Tablet",
+      "id": "wBAtV56MEuZK8SOCnV",
+      "name": "Arbour_UnderlineLink",
+      "display": "Arbour_UnderlineLink",
+      "type": "ComponentInstanceNode",
+      "compId": null,
+      "controls": {
+        "$control__label": "EXPLORE →",
+        "$control__link": "/neighbourhoods",
+        "$control__newTab": "false",
+        "$control__decorative": "false",
+        "$control__text": "var(--token-a16d0333-6bd5-4d60-aa00-fac26447145d)",
+        "$control__underline": "var(--token-a16d0333-6bd5-4d60-aa00-fac26447145d)",
+        "$control__line": "1",
+        "$control__offset": "4"
+      },
+      "parentHint": "Territories Header"
+    },
+    {
+      "path": "/",
+      "bp": "Tablet",
+      "id": "wBAtV56MERx9M1Tkyw",
+      "name": "Arbour_UnderlineLink",
+      "display": "Arbour_UnderlineLink",
+      "type": "ComponentInstanceNode",
+      "compId": null,
+      "controls": {
+        "$control__label": "VIEW ALL →",
+        "$control__link": "/properties",
+        "$control__newTab": "false",
+        "$control__decorative": "false",
+        "$control__text": "var(--token-a16d0333-6bd5-4d60-aa00-fac26447145d)",
+        "$control__underline": "var(--token-a16d0333-6bd5-4d60-aa00-fac26447145d)",
+        "$control__line": "1",
+        "$control__offset": "4"
+      },
+      "parentHint": "Portfolio Row"
+    },
+    {
+      "path": "/",
+      "bp": "Phone",
+      "id": "mcL3MFzFVuZK8SOCnV",
+      "name": "Arbour_UnderlineLink",
+      "display": "Arbour_UnderlineLink",
+      "type": "ComponentInstanceNode",
+      "compId": null,
+      "controls": {
+        "$control__label": "EXPLORE →",
+        "$control__link": "/neighbourhoods",
+        "$control__newTab": "false",
+        "$control__decorative": "false",
+        "$control__text": "var(--token-a16d0333-6bd5-4d60-aa00-fac26447145d)",
+        "$control__underline": "var(--token-a16d0333-6bd5-4d60-aa00-fac26447145d)",
+        "$control__line": "1",
+        "$control__offset": "4"
+      },
+      "parentHint": "Territories Header"
+    },
+    {
+      "path": "/",
+      "bp": "Phone",
+      "id": "mcL3MFzFVRx9M1Tkyw",
+      "name": "Arbour_UnderlineLink",
+      "display": "Arbour_UnderlineLink",
+      "type": "ComponentInstanceNode",
+      "compId": null,
+      "controls": {
+        "$control__label": "VIEW ALL →",
+        "$control__link": "/properties",
+        "$control__newTab": "false",
+        "$control__decorative": "false",
+        "$control__text": "var(--token-a16d0333-6bd5-4d60-aa00-fac26447145d)",
+        "$control__underline": "var(--token-a16d0333-6bd5-4d60-aa00-fac26447145d)",
+        "$control__line": "1",
+        "$control__offset": "4"
+      },
+      "parentHint": "Portfolio Row"
+    },
+    {
+      "path": "/properties",
+      "bp": "Desktop",
+      "id": "BkebzBLil",
+      "name": "Arbour_NoiseEffect",
+      "display": "Arbour_NoiseEffect",
+      "type": "ComponentInstanceNode",
+      "compId": null,
+      "controls": {
+        "$control__grainStrength": "0.05",
+        "$control__animateGrain": "true",
+        "$control__patternSize": "280",
+        "$control__scaleX": "1",
+        "$control__scaleY": "1",
+        "$control__refreshRate": "4",
+        "$control__blendMode": "Soft Light"
+      },
+      "parentHint": "Atmosphere"
+    },
+    {
+      "path": "/properties",
+      "bp": "Desktop",
+      "id": "V_m88mojx",
+      "name": "Arbour_NoiseEffect",
+      "display": "Arbour_NoiseEffect",
+      "type": "ComponentInstanceNode",
+      "compId": null,
+      "controls": {
+        "$control__grainStrength": "0.05",
+        "$control__animateGrain": "true",
+        "$control__patternSize": "280",
+        "$control__scaleX": "1",
+        "$control__scaleY": "1",
+        "$control__refreshRate": "4",
+        "$control__blendMode": "Soft Light"
+      },
+      "parentHint": "Enquiry CTA"
+    },
+    {
+      "path": "/properties",
+      "bp": "Tablet",
+      "id": "SScKalu3BBkebzBLil",
+      "name": "Arbour_NoiseEffect",
+      "display": "Arbour_NoiseEffect",
+      "type": "ComponentInstanceNode",
+      "compId": null,
+      "controls": {
+        "$control__grainStrength": "0.05",
+        "$control__animateGrain": "true",
+        "$control__patternSize": "280",
+        "$control__scaleX": "1",
+        "$control__scaleY": "1",
+        "$control__refreshRate": "4",
+        "$control__blendMode": "Soft Light"
+      },
+      "parentHint": "Atmosphere"
+    },
+    {
+      "path": "/properties",
+      "bp": "Tablet",
+      "id": "SScKalu3BV_m88mojx",
+      "name": "Arbour_NoiseEffect",
+      "display": "Arbour_NoiseEffect",
+      "type": "ComponentInstanceNode",
+      "compId": null,
+      "controls": {
+        "$control__grainStrength": "0.05",
+        "$control__animateGrain": "true",
+        "$control__patternSize": "280",
+        "$control__scaleX": "1",
+        "$control__scaleY": "1",
+        "$control__refreshRate": "4",
+        "$control__blendMode": "Soft Light"
+      },
+      "parentHint": "Enquiry CTA"
+    },
+    {
+      "path": "/properties",
+      "bp": "Phone",
+      "id": "EK6d5SyWLBkebzBLil",
+      "name": "Arbour_NoiseEffect",
+      "display": "Arbour_NoiseEffect",
+      "type": "ComponentInstanceNode",
+      "compId": null,
+      "controls": {
+        "$control__grainStrength": "0.05",
+        "$control__animateGrain": "true",
+        "$control__patternSize": "280",
+        "$control__scaleX": "1",
+        "$control__scaleY": "1",
+        "$control__refreshRate": "4",
+        "$control__blendMode": "Soft Light"
+      },
+      "parentHint": "Atmosphere"
+    },
+    {
+      "path": "/properties",
+      "bp": "Phone",
+      "id": "EK6d5SyWLV_m88mojx",
+      "name": "Arbour_NoiseEffect",
+      "display": "Arbour_NoiseEffect",
+      "type": "ComponentInstanceNode",
+      "compId": null,
+      "controls": {
+        "$control__grainStrength": "0.05",
+        "$control__animateGrain": "true",
+        "$control__patternSize": "280",
+        "$control__scaleX": "1",
+        "$control__scaleY": "1",
+        "$control__refreshRate": "4",
+        "$control__blendMode": "Soft Light"
+      },
+      "parentHint": "Enquiry CTA"
+    },
+    {
+      "path": "/neighbourhoods",
+      "bp": "Desktop",
+      "id": "X9WviaouP",
+      "name": "Arbour_NoiseEffect",
+      "display": "Arbour_NoiseEffect",
+      "type": "ComponentInstanceNode",
+      "compId": null,
+      "controls": {
+        "$control__grainStrength": "0.05",
+        "$control__animateGrain": "true",
+        "$control__patternSize": "280",
+        "$control__scaleX": "1",
+        "$control__scaleY": "1",
+        "$control__refreshRate": "4",
+        "$control__blendMode": "Soft Light"
+      },
+      "parentHint": "Atmosphere"
+    },
+    {
+      "path": "/neighbourhoods",
+      "bp": "Tablet",
+      "id": "aJLpuUP0qX9WviaouP",
+      "name": "Arbour_NoiseEffect",
+      "display": "Arbour_NoiseEffect",
+      "type": "ComponentInstanceNode",
+      "compId": null,
+      "controls": {
+        "$control__grainStrength": "0.05",
+        "$control__animateGrain": "true",
+        "$control__patternSize": "280",
+        "$control__scaleX": "1",
+        "$control__scaleY": "1",
+        "$control__refreshRate": "4",
+        "$control__blendMode": "Soft Light"
+      },
+      "parentHint": "Atmosphere"
+    },
+    {
+      "path": "/neighbourhoods",
+      "bp": "Phone",
+      "id": "Qonafp_oDX9WviaouP",
+      "name": "Arbour_NoiseEffect",
+      "display": "Arbour_NoiseEffect",
+      "type": "ComponentInstanceNode",
+      "compId": null,
+      "controls": {
+        "$control__grainStrength": "0.05",
+        "$control__animateGrain": "true",
+        "$control__patternSize": "280",
+        "$control__scaleX": "1",
+        "$control__scaleY": "1",
+        "$control__refreshRate": "4",
+        "$control__blendMode": "Soft Light"
+      },
+      "parentHint": "Atmosphere"
+    },
+    {
+      "path": "/notes",
+      "bp": "Desktop",
+      "id": "UHp6ZaX9O",
+      "name": "Journal Button",
+      "display": "Journal Button",
+      "type": "ComponentInstanceNode",
+      "compId": null,
+      "controls": {
+        "$control__label": "Load more",
+        "$control__newTab": "false",
+        "$control__formSubmit": "false",
+        "$control__variant": "light",
+        "$control__fill": "rgb(21, 43, 30)",
+        "$control__text": "rgb(252, 250, 244)",
+        "$control__border": "rgba(28, 27, 22, 0.18)"
+      },
+      "parentHint": "Frame 57"
+    },
+    {
+      "path": "/notes",
+      "bp": "Tablet",
+      "id": "LptqEiXVpUHp6ZaX9O",
+      "name": "Journal Button",
+      "display": "Journal Button",
+      "type": "ComponentInstanceNode",
+      "compId": null,
+      "controls": {
+        "$control__label": "Load more",
+        "$control__newTab": "false",
+        "$control__formSubmit": "false",
+        "$control__variant": "light",
+        "$control__fill": "rgb(21, 43, 30)",
+        "$control__text": "rgb(252, 250, 244)",
+        "$control__border": "rgba(28, 27, 22, 0.18)"
+      },
+      "parentHint": "Frame 57"
+    },
+    {
+      "path": "/notes",
+      "bp": "Phone",
+      "id": "INUKgvAnaUHp6ZaX9O",
+      "name": "Journal Button",
+      "display": "Journal Button",
+      "type": "ComponentInstanceNode",
+      "compId": null,
+      "controls": {
+        "$control__label": "Load more",
+        "$control__newTab": "false",
+        "$control__formSubmit": "false",
+        "$control__variant": "light",
+        "$control__fill": "rgb(21, 43, 30)",
+        "$control__text": "rgb(252, 250, 244)",
+        "$control__border": "rgba(28, 27, 22, 0.18)"
+      },
+      "parentHint": "Frame 57"
+    },
+    {
+      "path": "/about",
+      "bp": "Desktop",
+      "id": "KhXZ3GFX_",
+      "name": "Arbour_NoiseEffect",
+      "display": "Arbour_NoiseEffect",
+      "type": "ComponentInstanceNode",
+      "compId": null,
+      "controls": {
+        "$control__grainStrength": "0.05",
+        "$control__animateGrain": "true",
+        "$control__patternSize": "280",
+        "$control__scaleX": "1",
+        "$control__scaleY": "1",
+        "$control__refreshRate": "4",
+        "$control__blendMode": "Soft Light"
+      },
+      "parentHint": "Atmosphere"
+    },
+    {
+      "path": "/about",
+      "bp": "Desktop",
+      "id": "NBHyWELQz",
+      "name": "Arbour_NoiseEffect",
+      "display": "Arbour_NoiseEffect",
+      "type": "ComponentInstanceNode",
+      "compId": null,
+      "controls": {
+        "$control__grainStrength": "0.05",
+        "$control__animateGrain": "true",
+        "$control__patternSize": "280",
+        "$control__scaleX": "1",
+        "$control__scaleY": "1",
+        "$control__refreshRate": "4",
+        "$control__blendMode": "Soft Light"
+      },
+      "parentHint": "Enquiry CTA"
+    },
+    {
+      "path": "/about",
+      "bp": "Tablet",
+      "id": "xvqDXw58eNBHyWELQz",
+      "name": "Arbour_NoiseEffect",
+      "display": "Arbour_NoiseEffect",
+      "type": "ComponentInstanceNode",
+      "compId": null,
+      "controls": {
+        "$control__grainStrength": "0.05",
+        "$control__animateGrain": "true",
+        "$control__patternSize": "280",
+        "$control__scaleX": "1",
+        "$control__scaleY": "1",
+        "$control__refreshRate": "4",
+        "$control__blendMode": "Soft Light"
+      },
+      "parentHint": "Enquiry CTA"
+    },
+    {
+      "path": "/about",
+      "bp": "Tablet",
+      "id": "xvqDXw58eKhXZ3GFX_",
+      "name": "Arbour_NoiseEffect",
+      "display": "Arbour_NoiseEffect",
+      "type": "ComponentInstanceNode",
+      "compId": null,
+      "controls": {
+        "$control__grainStrength": "0.05",
+        "$control__animateGrain": "true",
+        "$control__patternSize": "280",
+        "$control__scaleX": "1",
+        "$control__scaleY": "1",
+        "$control__refreshRate": "4",
+        "$control__blendMode": "Soft Light"
+      },
+      "parentHint": "Atmosphere"
+    },
+    {
+      "path": "/about",
+      "bp": "Phone",
+      "id": "CYNrpU04tNBHyWELQz",
+      "name": "Arbour_NoiseEffect",
+      "display": "Arbour_NoiseEffect",
+      "type": "ComponentInstanceNode",
+      "compId": null,
+      "controls": {
+        "$control__grainStrength": "0.05",
+        "$control__animateGrain": "true",
+        "$control__patternSize": "280",
+        "$control__scaleX": "1",
+        "$control__scaleY": "1",
+        "$control__refreshRate": "4",
+        "$control__blendMode": "Soft Light"
+      },
+      "parentHint": "Enquiry CTA"
+    },
+    {
+      "path": "/about",
+      "bp": "Phone",
+      "id": "CYNrpU04tKhXZ3GFX_",
+      "name": "Arbour_NoiseEffect",
+      "display": "Arbour_NoiseEffect",
+      "type": "ComponentInstanceNode",
+      "compId": null,
+      "controls": {
+        "$control__grainStrength": "0.05",
+        "$control__animateGrain": "true",
+        "$control__patternSize": "280",
+        "$control__scaleX": "1",
+        "$control__scaleY": "1",
+        "$control__refreshRate": "4",
+        "$control__blendMode": "Soft Light"
+      },
+      "parentHint": "Atmosphere"
+    },
+    {
+      "path": "/contact",
+      "bp": "Desktop",
+      "id": "zQumCoq6L",
+      "name": "Arbour_NoiseEffect",
+      "display": "Arbour_NoiseEffect",
+      "type": "ComponentInstanceNode",
+      "compId": null,
+      "controls": {
+        "$control__grainStrength": "0.08",
+        "$control__animateGrain": "true",
+        "$control__patternSize": "240",
+        "$control__scaleX": "1",
+        "$control__scaleY": "1",
+        "$control__refreshRate": "4",
+        "$control__blendMode": "Soft Light"
+      },
+      "parentHint": "Atmosphere"
+    },
+    {
+      "path": "/contact",
+      "bp": "Tablet",
+      "id": "qjv2S9WpazQumCoq6L",
+      "name": "Arbour_NoiseEffect",
+      "display": "Arbour_NoiseEffect",
+      "type": "ComponentInstanceNode",
+      "compId": null,
+      "controls": {
+        "$control__grainStrength": "0.08",
+        "$control__animateGrain": "true",
+        "$control__patternSize": "240",
+        "$control__scaleX": "1",
+        "$control__scaleY": "1",
+        "$control__refreshRate": "4",
+        "$control__blendMode": "Soft Light"
+      },
+      "parentHint": "Atmosphere"
+    },
+    {
+      "path": "/contact",
+      "bp": "Phone",
+      "id": "jEM0wBo2vzQumCoq6L",
+      "name": "Arbour_NoiseEffect",
+      "display": "Arbour_NoiseEffect",
+      "type": "ComponentInstanceNode",
+      "compId": null,
+      "controls": {
+        "$control__grainStrength": "0.08",
+        "$control__animateGrain": "true",
+        "$control__patternSize": "240",
+        "$control__scaleX": "1",
+        "$control__scaleY": "1",
+        "$control__refreshRate": "4",
+        "$control__blendMode": "Soft Light"
+      },
+      "parentHint": "Atmosphere"
+    },
+    {
+      "path": "/properties/:slug",
+      "bp": "Desktop",
+      "id": "u_hqcut3V",
+      "name": "Arbour_NoiseEffect",
+      "display": "Arbour_NoiseEffect",
+      "type": "ComponentInstanceNode",
+      "compId": null,
+      "controls": {
+        "$control__grainStrength": "0.05",
+        "$control__animateGrain": "true",
+        "$control__patternSize": "280",
+        "$control__scaleX": "1",
+        "$control__scaleY": "1",
+        "$control__refreshRate": "4",
+        "$control__blendMode": "Soft Light"
+      },
+      "parentHint": "Atmosphere"
+    },
+    {
+      "path": "/properties/:slug",
+      "bp": "Desktop",
+      "id": "smtYX2w5u",
+      "name": "Arbour_NoiseEffect",
+      "display": "Arbour_NoiseEffect",
+      "type": "ComponentInstanceNode",
+      "compId": null,
+      "controls": {
+        "$control__grainStrength": "0.05",
+        "$control__animateGrain": "true",
+        "$control__patternSize": "280",
+        "$control__scaleX": "1",
+        "$control__scaleY": "1",
+        "$control__refreshRate": "4",
+        "$control__blendMode": "Soft Light"
+      },
+      "parentHint": "Enquiry CTA"
+    },
+    {
+      "path": "/properties/:slug",
+      "bp": "Tablet",
+      "id": "IQmBTrFpbu_hqcut3V",
+      "name": "Arbour_NoiseEffect",
+      "display": "Arbour_NoiseEffect",
+      "type": "ComponentInstanceNode",
+      "compId": null,
+      "controls": {
+        "$control__grainStrength": "0.05",
+        "$control__animateGrain": "true",
+        "$control__patternSize": "280",
+        "$control__scaleX": "1",
+        "$control__scaleY": "1",
+        "$control__refreshRate": "4",
+        "$control__blendMode": "Soft Light"
+      },
+      "parentHint": "Atmosphere"
+    },
+    {
+      "path": "/properties/:slug",
+      "bp": "Tablet",
+      "id": "IQmBTrFpbsmtYX2w5u",
+      "name": "Arbour_NoiseEffect",
+      "display": "Arbour_NoiseEffect",
+      "type": "ComponentInstanceNode",
+      "compId": null,
+      "controls": {
+        "$control__grainStrength": "0.05",
+        "$control__animateGrain": "true",
+        "$control__patternSize": "280",
+        "$control__scaleX": "1",
+        "$control__scaleY": "1",
+        "$control__refreshRate": "4",
+        "$control__blendMode": "Soft Light"
+      },
+      "parentHint": "Enquiry CTA"
+    },
+    {
+      "path": "/properties/:slug",
+      "bp": "Phone",
+      "id": "MrTKJzwELu_hqcut3V",
+      "name": "Arbour_NoiseEffect",
+      "display": "Arbour_NoiseEffect",
+      "type": "ComponentInstanceNode",
+      "compId": null,
+      "controls": {
+        "$control__grainStrength": "0.05",
+        "$control__animateGrain": "true",
+        "$control__patternSize": "280",
+        "$control__scaleX": "1",
+        "$control__scaleY": "1",
+        "$control__refreshRate": "4",
+        "$control__blendMode": "Soft Light"
+      },
+      "parentHint": "Atmosphere"
+    },
+    {
+      "path": "/properties/:slug",
+      "bp": "Phone",
+      "id": "MrTKJzwELsmtYX2w5u",
+      "name": "Arbour_NoiseEffect",
+      "display": "Arbour_NoiseEffect",
+      "type": "ComponentInstanceNode",
+      "compId": null,
+      "controls": {
+        "$control__grainStrength": "0.05",
+        "$control__animateGrain": "true",
+        "$control__patternSize": "280",
+        "$control__scaleX": "1",
+        "$control__scaleY": "1",
+        "$control__refreshRate": "4",
+        "$control__blendMode": "Soft Light"
+      },
+      "parentHint": "Enquiry CTA"
+    },
+    {
+      "path": "/notes/:slug",
+      "bp": "Desktop",
+      "id": "F5o6nvLlt",
+      "name": "Arbour_NoiseEffect",
+      "display": "Arbour_NoiseEffect",
+      "type": "ComponentInstanceNode",
+      "compId": null,
+      "controls": {
+        "$control__grainStrength": "0.05",
+        "$control__animateGrain": "true",
+        "$control__patternSize": "280",
+        "$control__scaleX": "1",
+        "$control__scaleY": "1",
+        "$control__refreshRate": "4",
+        "$control__blendMode": "Soft Light"
+      },
+      "parentHint": "Atmosphere"
+    },
+    {
+      "path": "/notes/:slug",
+      "bp": "Desktop",
+      "id": "IfYR6VpwS",
+      "name": "Submit Button",
+      "display": "Submit Button",
+      "type": "ComponentInstanceNode",
+      "compId": null,
+      "controls": {
+        "$control__label": "SUBSCRIBE →",
+        "$control__text": "rgb(252, 250, 244)",
+        "$control__borderCSS": "1px solid var(--token-cd9ab0b2-9cd9-4969-83c9-2d224b49d0b5, rgb(244, 244, 244))",
+        "$control__background": "rgba(0, 0, 0, 0)"
+      },
+      "parentHint": "Form Container"
+    },
+    {
+      "path": "/notes/:slug",
+      "bp": "Tablet",
+      "id": "gZUAlaJJ1F5o6nvLlt",
+      "name": "Arbour_NoiseEffect",
+      "display": "Arbour_NoiseEffect",
+      "type": "ComponentInstanceNode",
+      "compId": null,
+      "controls": {
+        "$control__grainStrength": "0.05",
+        "$control__animateGrain": "true",
+        "$control__patternSize": "280",
+        "$control__scaleX": "1",
+        "$control__scaleY": "1",
+        "$control__refreshRate": "4",
+        "$control__blendMode": "Soft Light"
+      },
+      "parentHint": "Atmosphere"
+    },
+    {
+      "path": "/notes/:slug",
+      "bp": "Tablet",
+      "id": "gZUAlaJJ1IfYR6VpwS",
+      "name": "Submit Button",
+      "display": "Submit Button",
+      "type": "ComponentInstanceNode",
+      "compId": null,
+      "controls": {
+        "$control__label": "SUBSCRIBE →",
+        "$control__text": "rgb(252, 250, 244)",
+        "$control__borderCSS": "1px solid var(--token-cd9ab0b2-9cd9-4969-83c9-2d224b49d0b5, rgb(244, 244, 244))",
+        "$control__background": "rgba(0, 0, 0, 0)"
+      },
+      "parentHint": "Form Container"
+    },
+    {
+      "path": "/notes/:slug",
+      "bp": "Phone",
+      "id": "EavJve6uGF5o6nvLlt",
+      "name": "Arbour_NoiseEffect",
+      "display": "Arbour_NoiseEffect",
+      "type": "ComponentInstanceNode",
+      "compId": null,
+      "controls": {
+        "$control__grainStrength": "0.05",
+        "$control__animateGrain": "true",
+        "$control__patternSize": "280",
+        "$control__scaleX": "1",
+        "$control__scaleY": "1",
+        "$control__refreshRate": "4",
+        "$control__blendMode": "Soft Light"
+      },
+      "parentHint": "Atmosphere"
+    },
+    {
+      "path": "/notes/:slug",
+      "bp": "Phone",
+      "id": "EavJve6uGIfYR6VpwS",
+      "name": "Submit Button",
+      "display": "Submit Button",
+      "type": "ComponentInstanceNode",
+      "compId": null,
+      "controls": {
+        "$control__label": "SUBSCRIBE →",
+        "$control__text": "rgb(252, 250, 244)",
+        "$control__borderCSS": "1px solid var(--token-cd9ab0b2-9cd9-4969-83c9-2d224b49d0b5, rgb(244, 244, 244))",
+        "$control__background": "rgba(0, 0, 0, 0)"
+      },
+      "parentHint": "Form Container"
+    }
+  ]
+}

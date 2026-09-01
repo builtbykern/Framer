@@ -1,0 +1,825 @@
+{
+  "step": "rail-swap",
+  "railRes": {
+    "message": "Some commands failed to parse. Commands: 6 errors. Lint: 2 warnings.",
+    "parseErrors": {
+      "Invalid command type": [
+        "DELETE uGXrCjuAT"
+      ]
+    },
+    "errors": {
+      "Cannot apply `$control__content=\"{\"itemLimit\":\"12\",\"linkBase\":\"/neighbourhoods\",\"viewLabel\":\"VIEW →\",\"ariaLabel\":\"Territories\"}\"`: Control \"$control__content\" has unsupported type \"object\".": [
+        "homeRail"
+      ],
+      "Cannot apply `$control__layout=\"{\"imageRatio\":\"1.74\",\"stripWidth\":\"160\",\"stripHeight\":\"240\",\"stripLift\":\"26\",\"stripInactiveOpacity\":\"0.4\",\"stripGap\":\"0\",\"stripPosition\":\"bottom\",\"imagePadding\":\"0\",\"textAlign\":\"center\",\"contentPadding\":\"40\",\"contentPosition\":\"top\",\"topBandAlign\":\"inline\",\"showEditorialIndex\":\"false\",\"showViewLink\":\"false\",\"responsiveThumbSize\":\"64\",\"responsiveThumbMinSize\":\"56\",\"responsiveThumbGap\":\"8\"}\"`: Control \"$control__layout\" has unsupported type \"object\".": [
+        "homeRail"
+      ],
+      "Cannot apply `$control__typography=\"{\"titleUppercase\":\"true\"}\"`: Control \"$control__typography\" has unsupported type \"object\".": [
+        "homeRail"
+      ],
+      "Cannot apply `$control__atmosphere=\"{\"showGrain\":\"true\",\"showVignette\":\"false\",\"showFrame\":\"true\",\"showBlur\":\"true\",\"showTopBlur\":\"true\",\"blurStrength\":\"10\",\"grainOpacity\":\"0.33\"}\"`: Control \"$control__atmosphere\" has unsupported type \"object\".": [
+        "homeRail"
+      ],
+      "Cannot apply `$control__colors=\"{\"titleColor\":\"rgb(252, 250, 244)\",\"metaColor\":\"rgba(252, 250, 244, 0.72)\",\"accentColor\":\"rgb(214, 224, 74)\",\"stageBackground\":\"rgb(21, 43, 30)\",\"scrimColor\":\"rgba(21, 43, 30, 0.7)\",\"scrimOpacity\":\"0.72\",\"showIndex\":\"true\"}\"`: Control \"$control__colors\" has unsupported type \"object\".": [
+        "homeRail"
+      ],
+      "Cannot apply `$control__motion=\"{\"slideInterval\":\"10\",\"pauseOnHover\":\"true\",\"springStiffness\":\"90\",\"springDamping\":\"22\"}\"`: Control \"$control__motion\" has unsupported type \"object\".": [
+        "homeRail"
+      ]
+    },
+    "linter": {
+      "warnings": {
+        "Content inside a full-bleed or proportional layout should set a maxWidth so large screens don't cause huge content": [
+          "QWUEMYFj7",
+          "vyLrJ6ztM"
+        ]
+      }
+    },
+    "renamedIds": {
+      "homeRail": "WwRpRyoiD"
+    }
+  }
+}
+{
+  "step": "rail-verify",
+  "newRail": {
+    "id": "uGXrCjuAT",
+    "component": "MxeAzs2A7r9z5wIAtPij",
+    "name": "Arbour_TerritoryRail"
+  },
+  "kids": [
+    {
+      "id": "uGXrCjuAT",
+      "component": "MxeAzs2A7r9z5wIAtPij"
+    },
+    {
+      "id": "WwRpRyoiD",
+      "component": "codeFile/il4DSn9:default"
+    }
+  ]
+}
+{
+  "step": "rail-bp-overrides",
+  "overrideDsl": "\nSET U3TeNUVXvuGXrCjuAT $control__layout.stripWidth=100 $control__layout.stripHeight=260 $control__layout.stripLift=40 $control__layout.stripInactiveOpacity=0.42 $control__atmosphere.showVignette=true;\nSET pmAxXUJ0ouGXrCjuAT width=\"100%\" $control__layout.stripWidth=100 $control__layout.stripHeight=260 $control__layout.stripLift=40 $control__layout.stripInactiveOpacity=0.42 $control__layout.showEditorialIndex=true $control__layout.responsiveThumbSize=80 $control__layout.responsiveThumbMinSize=64 $control__atmosphere.showVignette=false $control__atmosphere.blurStrength=28 $control__atmosphere.grainOpacity=0.5;\n",
+  "ovRes": {
+    "message": "Commands: 4 errors. Lint: 6 warnings.",
+    "errors": {
+      "Cannot apply `$control__layout=\"{\"stripWidth\":\"100\",\"stripHeight\":\"260\",\"stripLift\":\"40\",\"stripInactiveOpacity\":\"0.42\"}\"`: Control \"$control__layout\" has unsupported type \"object\".": [
+        "U3TeNUVXvuGXrCjuAT"
+      ],
+      "Cannot apply `$control__atmosphere=\"{\"showVignette\":\"true\"}\"`: Control \"$control__atmosphere\" has unsupported type \"object\".": [
+        "U3TeNUVXvuGXrCjuAT"
+      ],
+      "Cannot apply `$control__layout=\"{\"stripWidth\":\"100\",\"stripHeight\":\"260\",\"stripLift\":\"40\",\"stripInactiveOpacity\":\"0.42\",\"showEditorialIndex\":\"true\",\"responsiveThumbSize\":\"80\",\"responsiveThumbMinSize\":\"64\"}\"`: Control \"$control__layout\" has unsupported type \"object\".": [
+        "pmAxXUJ0ouGXrCjuAT"
+      ],
+      "Cannot apply `$control__atmosphere=\"{\"showVignette\":\"false\",\"blurStrength\":\"28\",\"grainOpacity\":\"0.5\"}\"`: Control \"$control__atmosphere\" has unsupported type \"object\".": [
+        "pmAxXUJ0ouGXrCjuAT"
+      ]
+    },
+    "linter": {
+      "warnings": {
+        "Visible siblings in a stack might be too close. If this is not intended, set `gap` on the parent or wrap either sibling in a frame with `padding`.": [
+          {
+            "id": "pmAxXUJ0o",
+            "siblingIds": [
+              "pmAxXUJ0oQWUEMYFj7",
+              "pmAxXUJ0orAukVaNHU"
+            ],
+            "spacing": -752.01,
+            "minSpacing": 4,
+            "axis": "vertical"
+          },
+          {
+            "id": "pmAxXUJ0o",
+            "siblingIds": [
+              "pmAxXUJ0orAukVaNHU",
+              "pmAxXUJ0oCXKn_oqE0"
+            ],
+            "spacing": -462.69,
+            "minSpacing": 4,
+            "axis": "vertical"
+          },
+          {
+            "id": "pmAxXUJ0o",
+            "siblingIds": [
+              "pmAxXUJ0oCXKn_oqE0",
+              "pmAxXUJ0oU9mwOiQun"
+            ],
+            "spacing": -425.71,
+            "minSpacing": 4,
+            "axis": "vertical"
+          },
+          {
+            "id": "pmAxXUJ0o",
+            "siblingIds": [
+              "pmAxXUJ0oU9mwOiQun",
+              "pmAxXUJ0oPWy2_wM2R"
+            ],
+            "spacing": -407.59,
+            "minSpacing": 4,
+            "axis": "vertical"
+          },
+          {
+            "id": "pmAxXUJ0o",
+            "siblingIds": [
+              "pmAxXUJ0oPWy2_wM2R",
+              "pmAxXUJ0oz3aj0E0xy"
+            ],
+            "spacing": -400.11,
+            "minSpacing": 4,
+            "axis": "vertical"
+          },
+          {
+            "id": "pmAxXUJ0o",
+            "siblingIds": [
+              "pmAxXUJ0oz3aj0E0xy",
+              "pmAxXUJ0ovyLrJ6ztM"
+            ],
+            "spacing": -401.65,
+            "minSpacing": 4,
+            "axis": "vertical"
+          }
+        ]
+      }
+    }
+  }
+}
+{
+  "step": "blur-swap",
+  "blurRes": {
+    "message": "Some commands failed to parse. Lint: 2 warnings.",
+    "parseErrors": {
+      "Invalid command type": [
+        "DELETE AorZcTogz"
+      ]
+    },
+    "linter": {
+      "warnings": {
+        "Content inside a full-bleed or proportional layout should set a maxWidth so large screens don't cause huge content": [
+          "QWUEMYFj7",
+          "vyLrJ6ztM"
+        ]
+      }
+    },
+    "renamedIds": {
+      "homeBlur": "PaGRz8lMz"
+    }
+  }
+}
+{
+  "step": "final-verify",
+  "after": {
+    "uGXrCjuAT": {
+      "id": "uGXrCjuAT",
+      "component": "MxeAzs2A7r9z5wIAtPij",
+      "display": "Arbour_TerritoryRail"
+    },
+    "U3TeNUVXvuGXrCjuAT": {
+      "id": "U3TeNUVXvuGXrCjuAT",
+      "component": "MxeAzs2A7r9z5wIAtPij",
+      "display": "Arbour_TerritoryRail"
+    },
+    "pmAxXUJ0ouGXrCjuAT": {
+      "id": "pmAxXUJ0ouGXrCjuAT",
+      "component": "MxeAzs2A7r9z5wIAtPij",
+      "display": "Arbour_TerritoryRail"
+    },
+    "AorZcTogz": {
+      "id": "AorZcTogz",
+      "component": "eITABUpGF0ytPyxYWYqu",
+      "display": "Scroll Blur"
+    },
+    "U3TeNUVXvAorZcTogz": {
+      "id": "U3TeNUVXvAorZcTogz",
+      "component": "eITABUpGF0ytPyxYWYqu",
+      "display": "Scroll Blur"
+    },
+    "pmAxXUJ0oAorZcTogz": {
+      "id": "pmAxXUJ0oAorZcTogz",
+      "component": "eITABUpGF0ytPyxYWYqu",
+      "display": "Scroll Blur"
+    }
+  },
+  "homeBlurNodes": [
+    {
+      "type": "ComponentInstanceNode",
+      "id": "EK6d5SyWLnxB2bxcYs",
+      "name": "Arbour_ProgressiveBlur",
+      "component": "codeFile/fOrMtU2:default",
+      "$parentId": "EK6d5SyWLEnop673eO",
+      "$groundNodeId": "EK6d5SyWL",
+      "$scopeId": "uBAGmujMa",
+      "$replicaId": "EK6d5SyWL",
+      "$originalId": "nxB2bxcYs",
+      "$componentDisplayName": "Arbour_ProgressiveBlur",
+      "attributes": {
+        "$control__position": "Bottom",
+        "$control__coverage": "60",
+        "$control__strength": "1.2",
+        "$control__divCount": "4",
+        "$control__exponential": "true",
+        "$control__curve": "Linear",
+        "$control__opacity": "1",
+        "opacity": "0.35",
+        "left": "0px",
+        "right": "0px",
+        "top": "null",
+        "bottom": "0px",
+        "centerAnchorX": "0%",
+        "centerAnchorY": "0%",
+        "constraintsLocked": false,
+        "width": "auto",
+        "height": "120px",
+        "visible": "false"
+      }
+    },
+    {
+      "type": "ComponentInstanceNode",
+      "id": "SScKalu3BnxB2bxcYs",
+      "name": "Arbour_ProgressiveBlur",
+      "component": "codeFile/fOrMtU2:default",
+      "$parentId": "SScKalu3BEnop673eO",
+      "$groundNodeId": "SScKalu3B",
+      "$scopeId": "uBAGmujMa",
+      "$replicaId": "SScKalu3B",
+      "$originalId": "nxB2bxcYs",
+      "$componentDisplayName": "Arbour_ProgressiveBlur",
+      "attributes": {
+        "$control__position": "Bottom",
+        "$control__coverage": "60",
+        "$control__strength": "1.2",
+        "$control__divCount": "4",
+        "$control__exponential": "true",
+        "$control__curve": "Linear",
+        "$control__opacity": "1",
+        "opacity": "0.35",
+        "left": "0px",
+        "right": "0px",
+        "top": "null",
+        "bottom": "0px",
+        "centerAnchorX": "0%",
+        "centerAnchorY": "0%",
+        "constraintsLocked": false,
+        "width": "auto",
+        "height": "120px",
+        "visible": "false"
+      }
+    },
+    {
+      "type": "ComponentInstanceNode",
+      "id": "nxB2bxcYs",
+      "name": "Arbour_ProgressiveBlur",
+      "component": "codeFile/fOrMtU2:default",
+      "$parentId": "Enop673eO",
+      "$groundNodeId": "obfRB9jeb",
+      "$scopeId": "uBAGmujMa",
+      "$componentDisplayName": "Arbour_ProgressiveBlur",
+      "attributes": {
+        "$control__position": "Bottom",
+        "$control__coverage": "60",
+        "$control__strength": "1.2",
+        "$control__divCount": "4",
+        "$control__exponential": "true",
+        "$control__curve": "Linear",
+        "$control__opacity": "1",
+        "opacity": "0.35",
+        "left": "0px",
+        "right": "0px",
+        "top": "null",
+        "bottom": "0px",
+        "centerAnchorX": "0%",
+        "centerAnchorY": "0%",
+        "constraintsLocked": false,
+        "width": "auto",
+        "height": "120px",
+        "visible": "false"
+      }
+    },
+    {
+      "type": "ComponentInstanceNode",
+      "id": "Qonafp_oDzx5ctk2R5",
+      "name": "Arbour_ProgressiveBlur",
+      "component": "codeFile/fOrMtU2:default",
+      "$parentId": "Qonafp_oDmjvg9J7Zq",
+      "$groundNodeId": "Qonafp_oD",
+      "$scopeId": "dZfxmFpqB",
+      "$replicaId": "Qonafp_oD",
+      "$originalId": "zx5ctk2R5",
+      "$componentDisplayName": "Arbour_ProgressiveBlur",
+      "attributes": {
+        "$control__position": "Bottom",
+        "$control__coverage": "60",
+        "$control__strength": "1.2",
+        "$control__divCount": "4",
+        "$control__exponential": "true",
+        "$control__curve": "Linear",
+        "$control__opacity": "1",
+        "opacity": "0.85",
+        "left": "0px",
+        "right": "0px",
+        "top": "null",
+        "bottom": "0px",
+        "centerAnchorX": "0%",
+        "centerAnchorY": "0%",
+        "constraintsLocked": false,
+        "width": "auto",
+        "height": "160px"
+      }
+    },
+    {
+      "type": "ComponentInstanceNode",
+      "id": "aJLpuUP0qzx5ctk2R5",
+      "name": "Arbour_ProgressiveBlur",
+      "component": "codeFile/fOrMtU2:default",
+      "$parentId": "aJLpuUP0qmjvg9J7Zq",
+      "$groundNodeId": "aJLpuUP0q",
+      "$scopeId": "dZfxmFpqB",
+      "$replicaId": "aJLpuUP0q",
+      "$originalId": "zx5ctk2R5",
+      "$componentDisplayName": "Arbour_ProgressiveBlur",
+      "attributes": {
+        "$control__position": "Bottom",
+        "$control__coverage": "60",
+        "$control__strength": "1.2",
+        "$control__divCount": "4",
+        "$control__exponential": "true",
+        "$control__curve": "Linear",
+        "$control__opacity": "1",
+        "opacity": "0.85",
+        "left": "0px",
+        "right": "0px",
+        "top": "null",
+        "bottom": "0px",
+        "centerAnchorX": "0%",
+        "centerAnchorY": "0%",
+        "constraintsLocked": false,
+        "width": "auto",
+        "height": "160px"
+      }
+    },
+    {
+      "type": "ComponentInstanceNode",
+      "id": "zx5ctk2R5",
+      "name": "Arbour_ProgressiveBlur",
+      "component": "codeFile/fOrMtU2:default",
+      "$parentId": "mjvg9J7Zq",
+      "$groundNodeId": "LmDrAnCZU",
+      "$scopeId": "dZfxmFpqB",
+      "$componentDisplayName": "Arbour_ProgressiveBlur",
+      "attributes": {
+        "$control__position": "Bottom",
+        "$control__coverage": "60",
+        "$control__strength": "1.2",
+        "$control__divCount": "4",
+        "$control__exponential": "true",
+        "$control__curve": "Linear",
+        "$control__opacity": "1",
+        "opacity": "0.85",
+        "left": "0px",
+        "right": "0px",
+        "top": "null",
+        "bottom": "0px",
+        "centerAnchorX": "0%",
+        "centerAnchorY": "0%",
+        "constraintsLocked": false,
+        "width": "auto",
+        "height": "160px"
+      }
+    },
+    {
+      "type": "ComponentInstanceNode",
+      "id": "CYNrpU04tdHWF8DavK",
+      "name": "Arbour_ProgressiveBlur",
+      "component": "codeFile/fOrMtU2:default",
+      "$parentId": "CYNrpU04tMCIVu1EAA",
+      "$groundNodeId": "CYNrpU04t",
+      "$scopeId": "OdFhPn9yz",
+      "$replicaId": "CYNrpU04t",
+      "$originalId": "dHWF8DavK",
+      "$componentDisplayName": "Arbour_ProgressiveBlur",
+      "attributes": {
+        "$control__position": "Bottom",
+        "$control__coverage": "60",
+        "$control__strength": "1.2",
+        "$control__divCount": "4",
+        "$control__exponential": "true",
+        "$control__curve": "Linear",
+        "$control__opacity": "1",
+        "opacity": "0.85",
+        "left": "0px",
+        "right": "0px",
+        "top": "null",
+        "bottom": "0px",
+        "centerAnchorX": "0%",
+        "centerAnchorY": "0%",
+        "constraintsLocked": false,
+        "width": "auto",
+        "height": "160px",
+        "visible": "false"
+      }
+    },
+    {
+      "type": "ComponentInstanceNode",
+      "id": "xvqDXw58edHWF8DavK",
+      "name": "Arbour_ProgressiveBlur",
+      "component": "codeFile/fOrMtU2:default",
+      "$parentId": "xvqDXw58eMCIVu1EAA",
+      "$groundNodeId": "xvqDXw58e",
+      "$scopeId": "OdFhPn9yz",
+      "$replicaId": "xvqDXw58e",
+      "$originalId": "dHWF8DavK",
+      "$componentDisplayName": "Arbour_ProgressiveBlur",
+      "attributes": {
+        "$control__position": "Bottom",
+        "$control__coverage": "60",
+        "$control__strength": "1.2",
+        "$control__divCount": "4",
+        "$control__exponential": "true",
+        "$control__curve": "Linear",
+        "$control__opacity": "1",
+        "opacity": "0.85",
+        "left": "0px",
+        "right": "0px",
+        "top": "null",
+        "bottom": "0px",
+        "centerAnchorX": "0%",
+        "centerAnchorY": "0%",
+        "constraintsLocked": false,
+        "width": "auto",
+        "height": "160px",
+        "visible": "false"
+      }
+    },
+    {
+      "type": "ComponentInstanceNode",
+      "id": "dHWF8DavK",
+      "name": "Arbour_ProgressiveBlur",
+      "component": "codeFile/fOrMtU2:default",
+      "$parentId": "MCIVu1EAA",
+      "$groundNodeId": "hd9EqB_ax",
+      "$scopeId": "OdFhPn9yz",
+      "$componentDisplayName": "Arbour_ProgressiveBlur",
+      "attributes": {
+        "$control__position": "Bottom",
+        "$control__coverage": "60",
+        "$control__strength": "1.2",
+        "$control__divCount": "4",
+        "$control__exponential": "true",
+        "$control__curve": "Linear",
+        "$control__opacity": "1",
+        "opacity": "0.85",
+        "left": "0px",
+        "right": "0px",
+        "top": "null",
+        "bottom": "0px",
+        "centerAnchorX": "0%",
+        "centerAnchorY": "0%",
+        "constraintsLocked": false,
+        "width": "auto",
+        "height": "160px",
+        "visible": "false"
+      }
+    },
+    {
+      "type": "ComponentInstanceNode",
+      "id": "jEM0wBo2vltGkm2o5u",
+      "name": "Arbour_ProgressiveBlur",
+      "component": "codeFile/fOrMtU2:default",
+      "$parentId": "jEM0wBo2vBnJUxgLWN",
+      "$groundNodeId": "jEM0wBo2v",
+      "$scopeId": "c7qpzB7hR",
+      "$replicaId": "jEM0wBo2v",
+      "$originalId": "ltGkm2o5u",
+      "$componentDisplayName": "Arbour_ProgressiveBlur",
+      "attributes": {
+        "$control__position": "Bottom",
+        "$control__coverage": "60",
+        "$control__strength": "1.2",
+        "$control__divCount": "4",
+        "$control__exponential": "true",
+        "$control__curve": "Linear",
+        "$control__opacity": "1",
+        "opacity": "0.85",
+        "left": "0px",
+        "right": "0px",
+        "top": "null",
+        "bottom": "0px",
+        "centerAnchorX": "0%",
+        "centerAnchorY": "0%",
+        "constraintsLocked": false,
+        "width": "auto",
+        "height": "160px",
+        "visible": "false"
+      }
+    },
+    {
+      "type": "ComponentInstanceNode",
+      "id": "qjv2S9WpaltGkm2o5u",
+      "name": "Arbour_ProgressiveBlur",
+      "component": "codeFile/fOrMtU2:default",
+      "$parentId": "qjv2S9WpaBnJUxgLWN",
+      "$groundNodeId": "qjv2S9Wpa",
+      "$scopeId": "c7qpzB7hR",
+      "$replicaId": "qjv2S9Wpa",
+      "$originalId": "ltGkm2o5u",
+      "$componentDisplayName": "Arbour_ProgressiveBlur",
+      "attributes": {
+        "$control__position": "Bottom",
+        "$control__coverage": "60",
+        "$control__strength": "1.2",
+        "$control__divCount": "4",
+        "$control__exponential": "true",
+        "$control__curve": "Linear",
+        "$control__opacity": "1",
+        "opacity": "0.85",
+        "left": "0px",
+        "right": "0px",
+        "top": "null",
+        "bottom": "0px",
+        "centerAnchorX": "0%",
+        "centerAnchorY": "0%",
+        "constraintsLocked": false,
+        "width": "auto",
+        "height": "160px",
+        "visible": "false"
+      }
+    },
+    {
+      "type": "ComponentInstanceNode",
+      "id": "ltGkm2o5u",
+      "name": "Arbour_ProgressiveBlur",
+      "component": "codeFile/fOrMtU2:default",
+      "$parentId": "BnJUxgLWN",
+      "$groundNodeId": "eSIn17Npa",
+      "$scopeId": "c7qpzB7hR",
+      "$componentDisplayName": "Arbour_ProgressiveBlur",
+      "attributes": {
+        "$control__position": "Bottom",
+        "$control__coverage": "60",
+        "$control__strength": "1.2",
+        "$control__divCount": "4",
+        "$control__exponential": "true",
+        "$control__curve": "Linear",
+        "$control__opacity": "1",
+        "opacity": "0.85",
+        "left": "0px",
+        "right": "0px",
+        "top": "null",
+        "bottom": "0px",
+        "centerAnchorX": "0%",
+        "centerAnchorY": "0%",
+        "constraintsLocked": false,
+        "width": "auto",
+        "height": "160px",
+        "visible": "false"
+      }
+    },
+    {
+      "type": "ComponentInstanceNode",
+      "id": "MrTKJzwELswKftxaXK",
+      "name": "Arbour_ProgressiveBlur",
+      "component": "codeFile/fOrMtU2:default",
+      "$parentId": "MrTKJzwELESmV_RMan",
+      "$groundNodeId": "MrTKJzwEL",
+      "$scopeId": "OhRUQROL4",
+      "$replicaId": "MrTKJzwEL",
+      "$originalId": "swKftxaXK",
+      "$componentDisplayName": "Arbour_ProgressiveBlur",
+      "attributes": {
+        "$control__position": "Bottom",
+        "$control__coverage": "60",
+        "$control__strength": "1.2",
+        "$control__divCount": "4",
+        "$control__exponential": "true",
+        "$control__curve": "Linear",
+        "$control__opacity": "1",
+        "opacity": "0.85",
+        "left": "0px",
+        "right": "0px",
+        "top": "null",
+        "bottom": "0px",
+        "centerAnchorX": "0%",
+        "centerAnchorY": "0%",
+        "constraintsLocked": false,
+        "width": "auto",
+        "height": "160px",
+        "visible": "false"
+      }
+    },
+    {
+      "type": "ComponentInstanceNode",
+      "id": "IQmBTrFpbswKftxaXK",
+      "name": "Arbour_ProgressiveBlur",
+      "component": "codeFile/fOrMtU2:default",
+      "$parentId": "IQmBTrFpbESmV_RMan",
+      "$groundNodeId": "IQmBTrFpb",
+      "$scopeId": "OhRUQROL4",
+      "$replicaId": "IQmBTrFpb",
+      "$originalId": "swKftxaXK",
+      "$componentDisplayName": "Arbour_ProgressiveBlur",
+      "attributes": {
+        "$control__position": "Bottom",
+        "$control__coverage": "60",
+        "$control__strength": "1.2",
+        "$control__divCount": "4",
+        "$control__exponential": "true",
+        "$control__curve": "Linear",
+        "$control__opacity": "1",
+        "opacity": "0.85",
+        "left": "0px",
+        "right": "0px",
+        "top": "null",
+        "bottom": "0px",
+        "centerAnchorX": "0%",
+        "centerAnchorY": "0%",
+        "constraintsLocked": false,
+        "width": "auto",
+        "height": "160px",
+        "visible": "false"
+      }
+    },
+    {
+      "type": "ComponentInstanceNode",
+      "id": "swKftxaXK",
+      "name": "Arbour_ProgressiveBlur",
+      "component": "codeFile/fOrMtU2:default",
+      "$parentId": "ESmV_RMan",
+      "$groundNodeId": "ym6hx2Otc",
+      "$scopeId": "OhRUQROL4",
+      "$componentDisplayName": "Arbour_ProgressiveBlur",
+      "attributes": {
+        "$control__position": "Bottom",
+        "$control__coverage": "60",
+        "$control__strength": "1.2",
+        "$control__divCount": "4",
+        "$control__exponential": "true",
+        "$control__curve": "Linear",
+        "$control__opacity": "1",
+        "opacity": "0.85",
+        "left": "0px",
+        "right": "0px",
+        "top": "null",
+        "bottom": "0px",
+        "centerAnchorX": "0%",
+        "centerAnchorY": "0%",
+        "constraintsLocked": false,
+        "width": "auto",
+        "height": "160px",
+        "visible": "false"
+      }
+    },
+    {
+      "type": "ComponentInstanceNode",
+      "id": "EavJve6uGXTdFlDmnv",
+      "name": "Arbour_ProgressiveBlur",
+      "component": "codeFile/fOrMtU2:default",
+      "$parentId": "EavJve6uGRYeMH2jXD",
+      "$groundNodeId": "EavJve6uG",
+      "$scopeId": "YPPO8pJ92",
+      "$replicaId": "EavJve6uG",
+      "$originalId": "XTdFlDmnv",
+      "$componentDisplayName": "Arbour_ProgressiveBlur",
+      "attributes": {
+        "$control__position": "Bottom",
+        "$control__coverage": "60",
+        "$control__strength": "1.2",
+        "$control__divCount": "4",
+        "$control__exponential": "true",
+        "$control__curve": "Linear",
+        "$control__opacity": "1",
+        "opacity": "0.85",
+        "left": "0px",
+        "right": "0px",
+        "top": "null",
+        "bottom": "0px",
+        "centerAnchorX": "0%",
+        "centerAnchorY": "0%",
+        "constraintsLocked": false,
+        "width": "auto",
+        "height": "160px",
+        "visible": "false"
+      }
+    },
+    {
+      "type": "ComponentInstanceNode",
+      "id": "gZUAlaJJ1XTdFlDmnv",
+      "name": "Arbour_ProgressiveBlur",
+      "component": "codeFile/fOrMtU2:default",
+      "$parentId": "gZUAlaJJ1RYeMH2jXD",
+      "$groundNodeId": "gZUAlaJJ1",
+      "$scopeId": "YPPO8pJ92",
+      "$replicaId": "gZUAlaJJ1",
+      "$originalId": "XTdFlDmnv",
+      "$componentDisplayName": "Arbour_ProgressiveBlur",
+      "attributes": {
+        "$control__position": "Bottom",
+        "$control__coverage": "60",
+        "$control__strength": "1.2",
+        "$control__divCount": "4",
+        "$control__exponential": "true",
+        "$control__curve": "Linear",
+        "$control__opacity": "1",
+        "opacity": "0.85",
+        "left": "0px",
+        "right": "0px",
+        "top": "null",
+        "bottom": "0px",
+        "centerAnchorX": "0%",
+        "centerAnchorY": "0%",
+        "constraintsLocked": false,
+        "width": "auto",
+        "height": "160px",
+        "visible": "false"
+      }
+    },
+    {
+      "type": "ComponentInstanceNode",
+      "id": "XTdFlDmnv",
+      "name": "Arbour_ProgressiveBlur",
+      "component": "codeFile/fOrMtU2:default",
+      "$parentId": "RYeMH2jXD",
+      "$groundNodeId": "n1MGlvW2_",
+      "$scopeId": "YPPO8pJ92",
+      "$componentDisplayName": "Arbour_ProgressiveBlur",
+      "attributes": {
+        "$control__position": "Bottom",
+        "$control__coverage": "60",
+        "$control__strength": "1.2",
+        "$control__divCount": "4",
+        "$control__exponential": "true",
+        "$control__curve": "Linear",
+        "$control__opacity": "1",
+        "opacity": "0.85",
+        "left": "0px",
+        "right": "0px",
+        "top": "null",
+        "bottom": "0px",
+        "centerAnchorX": "0%",
+        "centerAnchorY": "0%",
+        "constraintsLocked": false,
+        "width": "auto",
+        "height": "160px",
+        "visible": "false"
+      }
+    },
+    {
+      "type": "ComponentInstanceNode",
+      "id": "pmAxXUJ0oAorZcTogz",
+      "component": "eITABUpGF0ytPyxYWYqu",
+      "$parentId": "pmAxXUJ0o",
+      "$groundNodeId": "pmAxXUJ0o",
+      "$scopeId": "augiA20Il",
+      "$replicaId": "pmAxXUJ0o",
+      "$originalId": "AorZcTogz",
+      "$componentDisplayName": "Scroll Blur",
+      "attributes": {
+        "$control__shape": "U",
+        "$control__position": "Bottom",
+        "$control__strength": "2",
+        "$control__mode": "Follow Scroll",
+        "$control__settle": "300",
+        "position": "fixed",
+        "left": "null",
+        "right": "null",
+        "top": "null",
+        "bottom": "0px",
+        "centerAnchorX": "50%",
+        "centerAnchorY": "95.5%",
+        "constraintsLocked": false,
+        "width": "100%",
+        "height": "72px",
+        "zIndex": "3"
+      }
+    },
+    {
+      "type": "ComponentInstanceNode",
+      "id": "U3TeNUVXvAorZcTogz",
+      "component": "eITABUpGF0ytPyxYWYqu",
+      "$parentId": "U3TeNUVXv",
+      "$groundNodeId": "U3TeNUVXv",
+      "$scopeId": "augiA20Il",
+      "$replicaId": "U3TeNUVXv",
+      "$originalId": "AorZcTogz",
+      "$componentDisplayName": "Scroll Blur",
+      "attributes": {
+        "$control__shape": "U",
+        "$control__position": "Bottom",
+        "$control__strength": "2",
+        "$control__mode": "Follow Scroll",
+        "$control__settle": "300",
+        "position": "fixed",
+        "left": "null",
+        "right": "null",
+        "top": "null",
+        "bottom": "0px",
+        "centerAnchorX": "50%",
+        "centerAnchorY": "95.5%",
+        "constraintsLocked": false,
+        "width": "100%",
+        "height": "72px",
+        "zIndex": "3"
+      }
+    }
+  ]
+}

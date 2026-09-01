@@ -1,0 +1,24 @@
+{
+  "applied": 18,
+  "notes": [
+    "Desktop align→center",
+    "Desktop root pad L/R→0 (was 16px 48px 16px 48px)",
+    "Desktop|top →1440",
+    "Desktop|top pad→16px 48px 16px 48px",
+    "Tablet - Close align→center",
+    "Tablet - Close|top →1440",
+    "Tablet - Open align→center",
+    "Tablet - Open|top →1440",
+    "Phone - Close align→center",
+    "Phone - Close|top →1440",
+    "Phone - Close|top pad→16px 16px 16px 16px",
+    "Phone - Open align→center",
+    "Phone - Open|top →1440",
+    "Phone - Open|top pad→16px 16px 16px 16px",
+    "Desktop - Open align→center",
+    "Desktop - Open root pad L/R→0 (was 16px 48px 48px 48px)",
+    "Desktop - Open|top →1440",
+    "Desktop - Open|top pad→16px 48px 16px 48px"
+  ],
+  "result": "Lint: 9 warnings."
+}

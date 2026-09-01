@@ -1,0 +1,124 @@
+{
+  "navTop": {
+    "name": "top",
+    "id": "EJPuaSmlO",
+    "mw": "90%",
+    "w": "90%",
+    "pad": "16px 48px 16px 48px",
+    "h": "auto",
+    "fill": null
+  },
+  "hero": {
+    "name": "Hero Section",
+    "id": "iq0rlFlTE",
+    "mw": "100%",
+    "w": "100%",
+    "pad": "0px 0px 64px 0px",
+    "h": "100vh",
+    "fill": null
+  },
+  "text": {
+    "name": "Text Content Column",
+    "id": "ET8JHTjC5",
+    "mw": "90%",
+    "w": "90%",
+    "pad": "0px 48px 0px 48px",
+    "h": "100%",
+    "fill": null
+  },
+  "processKids": [
+    {
+      "id": "PmjD_eoIk",
+      "mw": "90%",
+      "w": "90%",
+      "pad": null,
+      "h": "auto",
+      "fill": null
+    },
+    {
+      "id": "DZtq5dg52",
+      "mw": "90%",
+      "w": "90%",
+      "pad": null,
+      "h": "auto",
+      "fill": null
+    },
+    {
+      "name": "Process List",
+      "id": "tOn8dp9rd",
+      "mw": "90%",
+      "w": "90%",
+      "pad": null,
+      "h": "auto",
+      "fill": null
+    }
+  ],
+  "stats": {
+    "name": "Arbour_StatsBand",
+    "id": "CMv32_lLx",
+    "mw": "90%",
+    "w": "90%",
+    "pad": null,
+    "h": "auto",
+    "fill": null
+  },
+  "alts": [
+    {
+      "name": "Neighbourhoods Hero",
+      "id": "ycUqIc8V3",
+      "mw": "90%",
+      "w": "90%",
+      "pad": null,
+      "h": "auto",
+      "fill": "var(--token-d5b3c09d-0364-4ed0-8804-"
+    },
+    {
+      "name": "Territory Grid Section",
+      "id": "NrbMmTnFX",
+      "mw": "100%",
+      "w": "100%",
+      "pad": "128px 48px 128px 48px",
+      "h": "auto",
+      "fill": "var(--token-425191b0-a245-4f14-88c2-"
+    },
+    {
+      "name": "How We Read A Place",
+      "id": "KraraKF0A",
+      "mw": "100%",
+      "w": "100%",
+      "pad": "128px 48px 128px 48px",
+      "h": "auto",
+      "fill": "var(--token-425191b0-a245-4f14-88c2-"
+    }
+  ],
+  "principals": [],
+  "ppVars": [
+    {
+      "name": "Desktop",
+      "id": "d5T0Tmau8",
+      "mw": "100%",
+      "w": "1104px",
+      "pad": null,
+      "h": "auto",
+      "fill": "var(--token-d5b3c09d-0364-4ed0-8804-"
+    },
+    {
+      "name": "Tablet",
+      "id": "mxXljrpyb",
+      "mw": "100%",
+      "w": "730px",
+      "pad": null,
+      "h": "auto",
+      "fill": "var(--token-d5b3c09d-0364-4ed0-8804-"
+    },
+    {
+      "name": "Phone",
+      "id": "ZOGQS2oqd",
+      "mw": "100%",
+      "w": "342px",
+      "pad": null,
+      "h": "auto",
+      "fill": "var(--token-d5b3c09d-0364-4ed0-8804-"
+    }
+  ]
+}

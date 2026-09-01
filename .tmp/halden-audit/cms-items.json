@@ -1,0 +1,1315 @@
+[
+  {
+    "id": "pBtSPvfFv",
+    "slug": "salt-light",
+    "draft": false,
+    "fields": {
+      "lmTMqy_0B": {
+        "t": "string",
+        "empty": false,
+        "extra": null
+      },
+      "KF94WDLfr": {
+        "t": "image",
+        "empty": false,
+        "extra": {
+          "alt": "Twilight ocean from a rusted sea wall",
+          "url": true
+        }
+      },
+      "KKPJSa2Nk": {
+        "t": "number",
+        "empty": false,
+        "extra": 2024
+      },
+      "dGKnlxrN9": {
+        "t": "string",
+        "empty": false,
+        "extra": null
+      },
+      "GbFmUxRBk": {
+        "t": "string",
+        "empty": false,
+        "extra": null
+      },
+      "w2PMSBOp6": {
+        "t": "string",
+        "empty": false,
+        "extra": null
+      },
+      "bXpogfhdf": {
+        "t": "string",
+        "empty": false,
+        "extra": null
+      },
+      "UOqAA6IiT": {
+        "t": "string",
+        "empty": false,
+        "extra": null
+      },
+      "m5_QJQ2QW": {
+        "t": "string",
+        "empty": false,
+        "extra": null
+      },
+      "blc_46opK": {
+        "t": "string",
+        "empty": false,
+        "extra": null
+      },
+      "U9cnCLe41": {
+        "t": "string",
+        "empty": false,
+        "extra": null
+      },
+      "cAgOu3Xwj": {
+        "t": "string",
+        "empty": false,
+        "extra": null
+      },
+      "LrPrf7_RQ": {
+        "t": "boolean",
+        "empty": false,
+        "extra": true
+      },
+      "WTTAaEd5y": {
+        "t": "array",
+        "empty": false,
+        "extra": {
+          "n": 4,
+          "alts": [
+            "Salt on the cliff",
+            "Rusted rail",
+            "Water after the lamps",
+            "Wave on the wall"
+          ],
+          "missingUrl": 0
+        }
+      },
+      "ZMWV4jFbG": {
+        "t": "enum",
+        "empty": false,
+        "extra": "place"
+      },
+      "GgZlSrsxB": {
+        "t": "formattedText",
+        "empty": false,
+        "extra": null
+      },
+      "DtZHJ8qW_": {
+        "t": "string",
+        "empty": false,
+        "extra": null
+      },
+      "uy9UcIWd9": {
+        "t": "date",
+        "empty": false,
+        "extra": "2024-01-08T00:00:00.000Z"
+      }
+    }
+  },
+  {
+    "id": "AkaFk7c0w",
+    "slug": "the-waiting-room",
+    "draft": false,
+    "fields": {
+      "lmTMqy_0B": {
+        "t": "string",
+        "empty": false,
+        "extra": null
+      },
+      "KF94WDLfr": {
+        "t": "image",
+        "empty": false,
+        "extra": {
+          "alt": "Institutional waiting room with a wilted plant",
+          "url": true
+        }
+      },
+      "KKPJSa2Nk": {
+        "t": "number",
+        "empty": false,
+        "extra": 2023
+      },
+      "dGKnlxrN9": {
+        "t": "string",
+        "empty": false,
+        "extra": null
+      },
+      "GbFmUxRBk": {
+        "t": "string",
+        "empty": false,
+        "extra": null
+      },
+      "w2PMSBOp6": {
+        "t": "string",
+        "empty": false,
+        "extra": null
+      },
+      "bXpogfhdf": {
+        "t": "string",
+        "empty": false,
+        "extra": null
+      },
+      "UOqAA6IiT": {
+        "t": "string",
+        "empty": false,
+        "extra": null
+      },
+      "m5_QJQ2QW": {
+        "t": "string",
+        "empty": false,
+        "extra": null
+      },
+      "blc_46opK": {
+        "t": "string",
+        "empty": false,
+        "extra": null
+      },
+      "U9cnCLe41": {
+        "t": "string",
+        "empty": false,
+        "extra": null
+      },
+      "cAgOu3Xwj": {
+        "t": "string",
+        "empty": false,
+        "extra": null
+      },
+      "LrPrf7_RQ": {
+        "t": "boolean",
+        "empty": false,
+        "extra": true
+      },
+      "WTTAaEd5y": {
+        "t": "array",
+        "empty": false,
+        "extra": {
+          "n": 4,
+          "alts": [
+            "Lobby chairs",
+            "Clock and plant",
+            "Corridor light",
+            "Waiting room door"
+          ],
+          "missingUrl": 0
+        }
+      },
+      "ZMWV4jFbG": {
+        "t": "enum",
+        "empty": false,
+        "extra": "place"
+      },
+      "GgZlSrsxB": {
+        "t": "formattedText",
+        "empty": false,
+        "extra": null
+      },
+      "DtZHJ8qW_": {
+        "t": "string",
+        "empty": false,
+        "extra": null
+      },
+      "uy9UcIWd9": {
+        "t": "date",
+        "empty": false,
+        "extra": "2023-02-11T00:00:00.000Z"
+      }
+    }
+  },
+  {
+    "id": "AJal7GYZv",
+    "slug": "glass-hours",
+    "draft": false,
+    "fields": {
+      "lmTMqy_0B": {
+        "t": "string",
+        "empty": false,
+        "extra": null
+      },
+      "KF94WDLfr": {
+        "t": "image",
+        "empty": false,
+        "extra": {
+          "alt": "Glass house opening onto pine forest",
+          "url": true
+        }
+      },
+      "KKPJSa2Nk": {
+        "t": "number",
+        "empty": false,
+        "extra": 2025
+      },
+      "dGKnlxrN9": {
+        "t": "string",
+        "empty": false,
+        "extra": null
+      },
+      "GbFmUxRBk": {
+        "t": "string",
+        "empty": false,
+        "extra": null
+      },
+      "w2PMSBOp6": {
+        "t": "string",
+        "empty": false,
+        "extra": null
+      },
+      "bXpogfhdf": {
+        "t": "string",
+        "empty": false,
+        "extra": null
+      },
+      "UOqAA6IiT": {
+        "t": "string",
+        "empty": false,
+        "extra": null
+      },
+      "m5_QJQ2QW": {
+        "t": "string",
+        "empty": false,
+        "extra": null
+      },
+      "blc_46opK": {
+        "t": "string",
+        "empty": false,
+        "extra": null
+      },
+      "U9cnCLe41": {
+        "t": "string",
+        "empty": false,
+        "extra": null
+      },
+      "cAgOu3Xwj": {
+        "t": "string",
+        "empty": false,
+        "extra": null
+      },
+      "LrPrf7_RQ": {
+        "t": "boolean",
+        "empty": false,
+        "extra": true
+      },
+      "WTTAaEd5y": {
+        "t": "array",
+        "empty": false,
+        "extra": {
+          "n": 4,
+          "alts": [
+            "Glass wall and trees",
+            "Floor reflection",
+            "House interior",
+            "Forest at the pane"
+          ],
+          "missingUrl": 0
+        }
+      },
+      "ZMWV4jFbG": {
+        "t": "enum",
+        "empty": false,
+        "extra": "commission"
+      },
+      "GgZlSrsxB": {
+        "t": "formattedText",
+        "empty": false,
+        "extra": null
+      },
+      "DtZHJ8qW_": {
+        "t": "string",
+        "empty": false,
+        "extra": null
+      },
+      "uy9UcIWd9": {
+        "t": "date",
+        "empty": false,
+        "extra": "2025-03-14T00:00:00.000Z"
+      }
+    }
+  },
+  {
+    "id": "XIoyWdZZj",
+    "slug": "inland-signal",
+    "draft": false,
+    "fields": {
+      "lmTMqy_0B": {
+        "t": "string",
+        "empty": false,
+        "extra": null
+      },
+      "KF94WDLfr": {
+        "t": "image",
+        "empty": false,
+        "extra": {
+          "alt": "Figure on an inland road at late light",
+          "url": true
+        }
+      },
+      "KKPJSa2Nk": {
+        "t": "number",
+        "empty": false,
+        "extra": 2024
+      },
+      "dGKnlxrN9": {
+        "t": "string",
+        "empty": false,
+        "extra": null
+      },
+      "GbFmUxRBk": {
+        "t": "string",
+        "empty": false,
+        "extra": null
+      },
+      "w2PMSBOp6": {
+        "t": "string",
+        "empty": false,
+        "extra": null
+      },
+      "bXpogfhdf": {
+        "t": "string",
+        "empty": false,
+        "extra": null
+      },
+      "UOqAA6IiT": {
+        "t": "string",
+        "empty": false,
+        "extra": null
+      },
+      "m5_QJQ2QW": {
+        "t": "string",
+        "empty": false,
+        "extra": null
+      },
+      "blc_46opK": {
+        "t": "string",
+        "empty": false,
+        "extra": null
+      },
+      "U9cnCLe41": {
+        "t": "string",
+        "empty": false,
+        "extra": null
+      },
+      "cAgOu3Xwj": {
+        "t": "string",
+        "empty": false,
+        "extra": null
+      },
+      "LrPrf7_RQ": {
+        "t": "boolean",
+        "empty": false,
+        "extra": true
+      },
+      "WTTAaEd5y": {
+        "t": "array",
+        "empty": false,
+        "extra": {
+          "n": 4,
+          "alts": [
+            "Interior road",
+            "Heat haze",
+            "Parked car",
+            "Long distance"
+          ],
+          "missingUrl": 0
+        }
+      },
+      "ZMWV4jFbG": {
+        "t": "enum",
+        "empty": false,
+        "extra": "place"
+      },
+      "GgZlSrsxB": {
+        "t": "formattedText",
+        "empty": false,
+        "extra": null
+      },
+      "DtZHJ8qW_": {
+        "t": "string",
+        "empty": false,
+        "extra": null
+      },
+      "uy9UcIWd9": {
+        "t": "date",
+        "empty": false,
+        "extra": "2024-04-17T00:00:00.000Z"
+      }
+    }
+  },
+  {
+    "id": "Do0dxDUvA",
+    "slug": "after-the-sitting",
+    "draft": false,
+    "fields": {
+      "lmTMqy_0B": {
+        "t": "string",
+        "empty": false,
+        "extra": null
+      },
+      "KF94WDLfr": {
+        "t": "image",
+        "empty": false,
+        "extra": {
+          "alt": "Traveler at an open window",
+          "url": true
+        }
+      },
+      "KKPJSa2Nk": {
+        "t": "number",
+        "empty": false,
+        "extra": 2023
+      },
+      "dGKnlxrN9": {
+        "t": "string",
+        "empty": false,
+        "extra": null
+      },
+      "GbFmUxRBk": {
+        "t": "string",
+        "empty": false,
+        "extra": null
+      },
+      "w2PMSBOp6": {
+        "t": "string",
+        "empty": false,
+        "extra": null
+      },
+      "bXpogfhdf": {
+        "t": "string",
+        "empty": false,
+        "extra": null
+      },
+      "UOqAA6IiT": {
+        "t": "string",
+        "empty": false,
+        "extra": null
+      },
+      "m5_QJQ2QW": {
+        "t": "string",
+        "empty": false,
+        "extra": null
+      },
+      "blc_46opK": {
+        "t": "string",
+        "empty": false,
+        "extra": null
+      },
+      "U9cnCLe41": {
+        "t": "string",
+        "empty": false,
+        "extra": null
+      },
+      "cAgOu3Xwj": {
+        "t": "string",
+        "empty": false,
+        "extra": null
+      },
+      "LrPrf7_RQ": {
+        "t": "boolean",
+        "empty": false,
+        "extra": true
+      },
+      "WTTAaEd5y": {
+        "t": "array",
+        "empty": false,
+        "extra": {
+          "n": 4,
+          "alts": [
+            "Profile at a window",
+            "Clothes after sitting",
+            "Room portrait",
+            "Hands at rest"
+          ],
+          "missingUrl": 0
+        }
+      },
+      "ZMWV4jFbG": {
+        "t": "enum",
+        "empty": false,
+        "extra": "people"
+      },
+      "GgZlSrsxB": {
+        "t": "formattedText",
+        "empty": false,
+        "extra": null
+      },
+      "DtZHJ8qW_": {
+        "t": "string",
+        "empty": false,
+        "extra": null
+      },
+      "uy9UcIWd9": {
+        "t": "date",
+        "empty": false,
+        "extra": "2023-05-20T00:00:00.000Z"
+      }
+    }
+  },
+  {
+    "id": "nYe1jKox0",
+    "slug": "unmade-light",
+    "draft": false,
+    "fields": {
+      "lmTMqy_0B": {
+        "t": "string",
+        "empty": false,
+        "extra": null
+      },
+      "KF94WDLfr": {
+        "t": "image",
+        "empty": false,
+        "extra": {
+          "alt": "Unmade bed, morning light",
+          "url": true
+        }
+      },
+      "KKPJSa2Nk": {
+        "t": "number",
+        "empty": false,
+        "extra": 2025
+      },
+      "dGKnlxrN9": {
+        "t": "string",
+        "empty": false,
+        "extra": null
+      },
+      "GbFmUxRBk": {
+        "t": "string",
+        "empty": false,
+        "extra": null
+      },
+      "w2PMSBOp6": {
+        "t": "string",
+        "empty": false,
+        "extra": null
+      },
+      "bXpogfhdf": {
+        "t": "string",
+        "empty": false,
+        "extra": null
+      },
+      "UOqAA6IiT": {
+        "t": "string",
+        "empty": false,
+        "extra": null
+      },
+      "m5_QJQ2QW": {
+        "t": "string",
+        "empty": false,
+        "extra": null
+      },
+      "blc_46opK": {
+        "t": "string",
+        "empty": false,
+        "extra": null
+      },
+      "U9cnCLe41": {
+        "t": "string",
+        "empty": false,
+        "extra": null
+      },
+      "cAgOu3Xwj": {
+        "t": "string",
+        "empty": false,
+        "extra": null
+      },
+      "LrPrf7_RQ": {
+        "t": "boolean",
+        "empty": false,
+        "extra": true
+      },
+      "WTTAaEd5y": {
+        "t": "array",
+        "empty": false,
+        "extra": {
+          "n": 4,
+          "alts": [
+            "Unmade linen",
+            "Clothing on a chair",
+            "Rented interior",
+            "Window and bed"
+          ],
+          "missingUrl": 0
+        }
+      },
+      "ZMWV4jFbG": {
+        "t": "enum",
+        "empty": false,
+        "extra": "commission"
+      },
+      "GgZlSrsxB": {
+        "t": "formattedText",
+        "empty": false,
+        "extra": null
+      },
+      "DtZHJ8qW_": {
+        "t": "string",
+        "empty": false,
+        "extra": null
+      },
+      "uy9UcIWd9": {
+        "t": "date",
+        "empty": false,
+        "extra": "2025-06-23T00:00:00.000Z"
+      }
+    }
+  },
+  {
+    "id": "ITz7HuAe2",
+    "slug": "night-atlas",
+    "draft": false,
+    "fields": {
+      "lmTMqy_0B": {
+        "t": "string",
+        "empty": false,
+        "extra": null
+      },
+      "KF94WDLfr": {
+        "t": "image",
+        "empty": false,
+        "extra": {
+          "alt": "Fogged café, chained chairs, night road",
+          "url": true
+        }
+      },
+      "KKPJSa2Nk": {
+        "t": "number",
+        "empty": false,
+        "extra": 2022
+      },
+      "dGKnlxrN9": {
+        "t": "string",
+        "empty": false,
+        "extra": null
+      },
+      "GbFmUxRBk": {
+        "t": "string",
+        "empty": false,
+        "extra": null
+      },
+      "w2PMSBOp6": {
+        "t": "string",
+        "empty": false,
+        "extra": null
+      },
+      "bXpogfhdf": {
+        "t": "string",
+        "empty": false,
+        "extra": null
+      },
+      "UOqAA6IiT": {
+        "t": "string",
+        "empty": false,
+        "extra": null
+      },
+      "m5_QJQ2QW": {
+        "t": "string",
+        "empty": false,
+        "extra": null
+      },
+      "blc_46opK": {
+        "t": "string",
+        "empty": false,
+        "extra": null
+      },
+      "U9cnCLe41": {
+        "t": "string",
+        "empty": false,
+        "extra": null
+      },
+      "cAgOu3Xwj": {
+        "t": "string",
+        "empty": false,
+        "extra": null
+      },
+      "LrPrf7_RQ": {
+        "t": "boolean",
+        "empty": false,
+        "extra": true
+      },
+      "WTTAaEd5y": {
+        "t": "array",
+        "empty": false,
+        "extra": {
+          "n": 4,
+          "alts": [
+            "Café in fog",
+            "Chained chairs",
+            "Road at night",
+            "Closed front"
+          ],
+          "missingUrl": 0
+        }
+      },
+      "ZMWV4jFbG": {
+        "t": "enum",
+        "empty": false,
+        "extra": "place"
+      },
+      "GgZlSrsxB": {
+        "t": "formattedText",
+        "empty": false,
+        "extra": null
+      },
+      "DtZHJ8qW_": {
+        "t": "string",
+        "empty": false,
+        "extra": null
+      },
+      "uy9UcIWd9": {
+        "t": "date",
+        "empty": false,
+        "extra": "2022-07-26T00:00:00.000Z"
+      }
+    }
+  },
+  {
+    "id": "hqpUFUbny",
+    "slug": "late-pool",
+    "draft": false,
+    "fields": {
+      "lmTMqy_0B": {
+        "t": "string",
+        "empty": false,
+        "extra": null
+      },
+      "KF94WDLfr": {
+        "t": "image",
+        "empty": false,
+        "extra": {
+          "alt": "Municipal indoor pool after close, wet starting block",
+          "url": true
+        }
+      },
+      "KKPJSa2Nk": {
+        "t": "number",
+        "empty": false,
+        "extra": 2024
+      },
+      "dGKnlxrN9": {
+        "t": "string",
+        "empty": false,
+        "extra": null
+      },
+      "GbFmUxRBk": {
+        "t": "string",
+        "empty": false,
+        "extra": null
+      },
+      "w2PMSBOp6": {
+        "t": "string",
+        "empty": false,
+        "extra": null
+      },
+      "bXpogfhdf": {
+        "t": "string",
+        "empty": false,
+        "extra": null
+      },
+      "UOqAA6IiT": {
+        "t": "string",
+        "empty": false,
+        "extra": null
+      },
+      "m5_QJQ2QW": {
+        "t": "string",
+        "empty": false,
+        "extra": null
+      },
+      "blc_46opK": {
+        "t": "string",
+        "empty": false,
+        "extra": null
+      },
+      "U9cnCLe41": {
+        "t": "string",
+        "empty": false,
+        "extra": null
+      },
+      "cAgOu3Xwj": {
+        "t": "string",
+        "empty": false,
+        "extra": null
+      },
+      "LrPrf7_RQ": {
+        "t": "boolean",
+        "empty": false,
+        "extra": true
+      },
+      "WTTAaEd5y": {
+        "t": "array",
+        "empty": false,
+        "extra": {
+          "n": 5,
+          "alts": [
+            "Lane from water level, slack rope",
+            "Empty gallery seats above the water",
+            "Wet tile, fading footprints at the pool edge",
+            "High window dusk over still water",
+            "Municipal shower corridor, curtain half drawn"
+          ],
+          "missingUrl": 0
+        }
+      },
+      "ZMWV4jFbG": {
+        "t": "enum",
+        "empty": false,
+        "extra": "place"
+      },
+      "GgZlSrsxB": {
+        "t": "formattedText",
+        "empty": false,
+        "extra": null
+      },
+      "DtZHJ8qW_": {
+        "t": "string",
+        "empty": false,
+        "extra": null
+      },
+      "uy9UcIWd9": {
+        "t": "date",
+        "empty": false,
+        "extra": "2024-08-10T00:00:00.000Z"
+      }
+    }
+  },
+  {
+    "id": "B1Lky4OTz",
+    "slug": "service-stairs",
+    "draft": false,
+    "fields": {
+      "lmTMqy_0B": {
+        "t": "string",
+        "empty": false,
+        "extra": null
+      },
+      "KF94WDLfr": {
+        "t": "image",
+        "empty": false,
+        "extra": {
+          "alt": "Hotel service stair, gloss paint, closed fire door",
+          "url": true
+        }
+      },
+      "KKPJSa2Nk": {
+        "t": "number",
+        "empty": false,
+        "extra": 2023
+      },
+      "dGKnlxrN9": {
+        "t": "string",
+        "empty": false,
+        "extra": null
+      },
+      "GbFmUxRBk": {
+        "t": "string",
+        "empty": false,
+        "extra": null
+      },
+      "w2PMSBOp6": {
+        "t": "string",
+        "empty": false,
+        "extra": null
+      },
+      "bXpogfhdf": {
+        "t": "string",
+        "empty": false,
+        "extra": null
+      },
+      "UOqAA6IiT": {
+        "t": "string",
+        "empty": false,
+        "extra": null
+      },
+      "m5_QJQ2QW": {
+        "t": "string",
+        "empty": false,
+        "extra": null
+      },
+      "blc_46opK": {
+        "t": "string",
+        "empty": false,
+        "extra": null
+      },
+      "U9cnCLe41": {
+        "t": "string",
+        "empty": false,
+        "extra": null
+      },
+      "cAgOu3Xwj": {
+        "t": "string",
+        "empty": false,
+        "extra": null
+      },
+      "LrPrf7_RQ": {
+        "t": "boolean",
+        "empty": false,
+        "extra": true
+      },
+      "WTTAaEd5y": {
+        "t": "array",
+        "empty": false,
+        "extra": {
+          "n": 5,
+          "alts": [
+            "Looking up the service stairwell",
+            "Hose reel beside the fire door",
+            "Landing window, night as black",
+            "Half-open service door, linen bags",
+            "Two concrete risers, paint drips"
+          ],
+          "missingUrl": 0
+        }
+      },
+      "ZMWV4jFbG": {
+        "t": "enum",
+        "empty": false,
+        "extra": "place"
+      },
+      "GgZlSrsxB": {
+        "t": "formattedText",
+        "empty": false,
+        "extra": null
+      },
+      "DtZHJ8qW_": {
+        "t": "string",
+        "empty": false,
+        "extra": null
+      },
+      "uy9UcIWd9": {
+        "t": "date",
+        "empty": false,
+        "extra": "2023-09-13T00:00:00.000Z"
+      }
+    }
+  },
+  {
+    "id": "NbPZBN8qz",
+    "slug": "the-fitting",
+    "draft": false,
+    "fields": {
+      "lmTMqy_0B": {
+        "t": "string",
+        "empty": false,
+        "extra": null
+      },
+      "KF94WDLfr": {
+        "t": "image",
+        "empty": false,
+        "extra": {
+          "alt": "Standing sitter in a pinned coat, looking away",
+          "url": true
+        }
+      },
+      "KKPJSa2Nk": {
+        "t": "number",
+        "empty": false,
+        "extra": 2025
+      },
+      "dGKnlxrN9": {
+        "t": "string",
+        "empty": false,
+        "extra": null
+      },
+      "GbFmUxRBk": {
+        "t": "string",
+        "empty": false,
+        "extra": null
+      },
+      "w2PMSBOp6": {
+        "t": "string",
+        "empty": false,
+        "extra": null
+      },
+      "bXpogfhdf": {
+        "t": "string",
+        "empty": false,
+        "extra": null
+      },
+      "UOqAA6IiT": {
+        "t": "string",
+        "empty": false,
+        "extra": null
+      },
+      "m5_QJQ2QW": {
+        "t": "string",
+        "empty": false,
+        "extra": null
+      },
+      "blc_46opK": {
+        "t": "string",
+        "empty": false,
+        "extra": null
+      },
+      "U9cnCLe41": {
+        "t": "string",
+        "empty": false,
+        "extra": null
+      },
+      "cAgOu3Xwj": {
+        "t": "string",
+        "empty": false,
+        "extra": null
+      },
+      "LrPrf7_RQ": {
+        "t": "boolean",
+        "empty": false,
+        "extra": true
+      },
+      "WTTAaEd5y": {
+        "t": "array",
+        "empty": false,
+        "extra": {
+          "n": 5,
+          "alts": [
+            "Coat hem and weight on one foot",
+            "Coat on a wooden chair, pins still in",
+            "Hand on the door frame, face turned away",
+            "Table by the window: pins, chalk, tape",
+            "Nape, collar, pins at the shoulder"
+          ],
+          "missingUrl": 0
+        }
+      },
+      "ZMWV4jFbG": {
+        "t": "enum",
+        "empty": false,
+        "extra": "people"
+      },
+      "GgZlSrsxB": {
+        "t": "formattedText",
+        "empty": false,
+        "extra": null
+      },
+      "DtZHJ8qW_": {
+        "t": "string",
+        "empty": false,
+        "extra": null
+      },
+      "uy9UcIWd9": {
+        "t": "date",
+        "empty": false,
+        "extra": "2025-10-16T00:00:00.000Z"
+      }
+    }
+  },
+  {
+    "id": "eEei6E4Hp",
+    "slug": "ferry-hour",
+    "draft": false,
+    "fields": {
+      "lmTMqy_0B": {
+        "t": "string",
+        "empty": false,
+        "extra": null
+      },
+      "KF94WDLfr": {
+        "t": "image",
+        "empty": false,
+        "extra": {
+          "alt": "Empty ferry saloon at night, wet window, orange seats",
+          "url": true
+        }
+      },
+      "KKPJSa2Nk": {
+        "t": "number",
+        "empty": false,
+        "extra": 2022
+      },
+      "dGKnlxrN9": {
+        "t": "string",
+        "empty": false,
+        "extra": null
+      },
+      "GbFmUxRBk": {
+        "t": "string",
+        "empty": false,
+        "extra": null
+      },
+      "w2PMSBOp6": {
+        "t": "string",
+        "empty": false,
+        "extra": null
+      },
+      "bXpogfhdf": {
+        "t": "string",
+        "empty": false,
+        "extra": null
+      },
+      "UOqAA6IiT": {
+        "t": "string",
+        "empty": false,
+        "extra": null
+      },
+      "m5_QJQ2QW": {
+        "t": "string",
+        "empty": false,
+        "extra": null
+      },
+      "blc_46opK": {
+        "t": "string",
+        "empty": false,
+        "extra": null
+      },
+      "U9cnCLe41": {
+        "t": "string",
+        "empty": false,
+        "extra": null
+      },
+      "cAgOu3Xwj": {
+        "t": "string",
+        "empty": false,
+        "extra": null
+      },
+      "LrPrf7_RQ": {
+        "t": "boolean",
+        "empty": false,
+        "extra": true
+      },
+      "WTTAaEd5y": {
+        "t": "array",
+        "empty": false,
+        "extra": {
+          "n": 5,
+          "alts": [
+            "Wet linoleum aisle, metal handrail",
+            "Closed kiosk shutter, tired fluorescent",
+            "Orange lifejackets behind mesh",
+            "Metal stair to deck, door ajar onto night",
+            "Wake through wet glass, interior light in the pane"
+          ],
+          "missingUrl": 0
+        }
+      },
+      "ZMWV4jFbG": {
+        "t": "enum",
+        "empty": false,
+        "extra": "place"
+      },
+      "GgZlSrsxB": {
+        "t": "formattedText",
+        "empty": false,
+        "extra": null
+      },
+      "DtZHJ8qW_": {
+        "t": "string",
+        "empty": false,
+        "extra": null
+      },
+      "uy9UcIWd9": {
+        "t": "date",
+        "empty": false,
+        "extra": "2022-11-19T00:00:00.000Z"
+      }
+    }
+  },
+  {
+    "id": "jPVVlGnNq",
+    "slug": "show-floor",
+    "draft": false,
+    "fields": {
+      "lmTMqy_0B": {
+        "t": "string",
+        "empty": false,
+        "extra": null
+      },
+      "KF94WDLfr": {
+        "t": "image",
+        "empty": false,
+        "extra": {
+          "alt": "Closed furniture showroom, sofa in plastic, path in the carpet",
+          "url": true
+        }
+      },
+      "KKPJSa2Nk": {
+        "t": "number",
+        "empty": false,
+        "extra": 2025
+      },
+      "dGKnlxrN9": {
+        "t": "string",
+        "empty": false,
+        "extra": null
+      },
+      "GbFmUxRBk": {
+        "t": "string",
+        "empty": false,
+        "extra": null
+      },
+      "w2PMSBOp6": {
+        "t": "string",
+        "empty": false,
+        "extra": null
+      },
+      "bXpogfhdf": {
+        "t": "string",
+        "empty": false,
+        "extra": null
+      },
+      "UOqAA6IiT": {
+        "t": "string",
+        "empty": false,
+        "extra": null
+      },
+      "m5_QJQ2QW": {
+        "t": "string",
+        "empty": false,
+        "extra": null
+      },
+      "blc_46opK": {
+        "t": "string",
+        "empty": false,
+        "extra": null
+      },
+      "U9cnCLe41": {
+        "t": "string",
+        "empty": false,
+        "extra": null
+      },
+      "cAgOu3Xwj": {
+        "t": "string",
+        "empty": false,
+        "extra": null
+      },
+      "LrPrf7_RQ": {
+        "t": "boolean",
+        "empty": false,
+        "extra": true
+      },
+      "WTTAaEd5y": {
+        "t": "array",
+        "empty": false,
+        "extra": {
+          "n": 5,
+          "alts": [
+            "Aisle of tagged floor lamps, half off",
+            "Shopfront from inside, empty street",
+            "Dining table, plastic on one seat",
+            "Carpet path toward sofa legs",
+            "Stockroom door ajar, one chair on its side"
+          ],
+          "missingUrl": 0
+        }
+      },
+      "ZMWV4jFbG": {
+        "t": "enum",
+        "empty": false,
+        "extra": "commission"
+      },
+      "GgZlSrsxB": {
+        "t": "formattedText",
+        "empty": false,
+        "extra": null
+      },
+      "DtZHJ8qW_": {
+        "t": "string",
+        "empty": false,
+        "extra": null
+      },
+      "uy9UcIWd9": {
+        "t": "date",
+        "empty": false,
+        "extra": "2025-12-22T00:00:00.000Z"
+      }
+    }
+  }
+]

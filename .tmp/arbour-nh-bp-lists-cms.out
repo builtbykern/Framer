@@ -1,0 +1,150 @@
+{
+  "lists": [
+    {
+      "id": "km7dUqZI9",
+      "type": "FrameNode",
+      "name": "Territory Checkerboard",
+      "path": [
+        "Desktop",
+        "Neighbourhoods Content",
+        "Territory Grid Section",
+        "Directory Panel"
+      ],
+      "kids": 1
+    },
+    {
+      "id": "i56eWdACt",
+      "type": "FrameNode",
+      "name": "Territory Card",
+      "path": [
+        "Neighbourhoods Content",
+        "Territory Grid Section",
+        "Directory Panel",
+        "Territory Checkerboard"
+      ],
+      "kids": 0
+    },
+    {
+      "id": "aJLpuUP0qkm7dUqZI9",
+      "type": "FrameNode",
+      "name": "Territory Checkerboard",
+      "path": [
+        "Tablet",
+        "Neighbourhoods Content",
+        "Territory Grid Section",
+        "Directory Panel"
+      ],
+      "kids": 1
+    },
+    {
+      "id": "aJLpuUP0qi56eWdACt",
+      "type": "FrameNode",
+      "name": "Territory Card",
+      "path": [
+        "Neighbourhoods Content",
+        "Territory Grid Section",
+        "Directory Panel",
+        "Territory Checkerboard"
+      ],
+      "kids": 0
+    },
+    {
+      "id": "Qonafp_oDkm7dUqZI9",
+      "type": "FrameNode",
+      "name": "Territory Checkerboard",
+      "path": [
+        "Phone",
+        "Neighbourhoods Content",
+        "Territory Grid Section",
+        "Directory Panel"
+      ],
+      "kids": 1
+    },
+    {
+      "id": "Qonafp_oDi56eWdACt",
+      "type": "FrameNode",
+      "name": "Territory Card",
+      "path": [
+        "Neighbourhoods Content",
+        "Territory Grid Section",
+        "Directory Panel",
+        "Territory Checkerboard"
+      ],
+      "kids": 0
+    }
+  ],
+  "cards": [
+    {
+      "id": "i56eWdACt",
+      "type": "FrameNode",
+      "name": "Territory Card",
+      "path": [
+        "Neighbourhoods Content",
+        "Territory Grid Section",
+        "Directory Panel",
+        "Territory Checkerboard"
+      ]
+    },
+    {
+      "id": "aJLpuUP0qi56eWdACt",
+      "type": "FrameNode",
+      "name": "Territory Card",
+      "path": [
+        "Neighbourhoods Content",
+        "Territory Grid Section",
+        "Directory Panel",
+        "Territory Checkerboard"
+      ]
+    },
+    {
+      "id": "Qonafp_oDi56eWdACt",
+      "type": "FrameNode",
+      "name": "Territory Card",
+      "path": [
+        "Neighbourhoods Content",
+        "Territory Grid Section",
+        "Directory Panel",
+        "Territory Checkerboard"
+      ]
+    }
+  ],
+  "itemImgs": [
+    {
+      "slug": "chelsea",
+      "title": "Chelsea",
+      "hero": "https://framerusercontent.com/images/8IGPbFclzfRApOAIssLZgmHsnw.png",
+      "map": "https://framerusercontent.com/images/LSpstJ3Kt80bgXSK7340UZY2Og.jpg",
+      "hasHero": true,
+      "hasMap": true
+    },
+    {
+      "slug": "notting-hill",
+      "title": "Notting Hill",
+      "hero": "https://framerusercontent.com/images/AOaAcGKE51AkwHdqIubUdXQHRf8.png",
+      "map": "https://framerusercontent.com/images/WSFMMexhlil4aviCQffQ8ObCr0k.jpg",
+      "hasHero": true,
+      "hasMap": true
+    },
+    {
+      "slug": "hampstead",
+      "title": "Hampstead",
+      "hero": "https://framerusercontent.com/images/cCQCSnQDjuSX1xXtwUtrzIHQ.png",
+      "map": "https://framerusercontent.com/images/blssu6sdtZBmrF7ASG8peO6HyrI.jpg",
+      "hasHero": true,
+      "hasMap": true
+    },
+    {
+      "slug": "the-cotswolds",
+      "title": "The Cotswolds",
+      "hero": "https://framerusercontent.com/images/UT2rfsfKG6VCT8OfYxd7DZWEA0.png",
+      "map": "https://framerusercontent.com/images/xbMhMFG0Bpg7vLA0zjUc8j48xxg.jpg",
+      "hasHero": true,
+      "hasMap": true
+    }
+  ],
+  "controls": {
+    "nMMl08t": {
+      "error": "Unknown component id \"nMMl08t\". Use a component id from <available-components>."
+    }
+  }
+}

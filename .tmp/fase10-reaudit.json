@@ -1,0 +1,329 @@
+{
+  "/": {
+    "fill": "var(--token-d5b3c09d-0364-4ed0-8804-e56957faa275)",
+    "navs": 1,
+    "footers": 1,
+    "sectionNames": [
+      "Arbour_LoadingScreen",
+      "Arbour_SmoothScroll",
+      "Atmosphere",
+      "Nav",
+      "Hero Section",
+      "Territories Section",
+      "Portfolio Section",
+      "Bottom",
+      null,
+      "Arbour_StatsBand",
+      "Recognition Section",
+      "Testimonial Section",
+      "Journal",
+      "Footer Container"
+    ],
+    "heroes": [
+      {
+        "section": "Hero Section",
+        "fill": "",
+        "pad": "0px 0px 72px 0px",
+        "texts": [
+          {
+            "id": "JFYCwkmiL",
+            "font": "Inter",
+            "size": "16px",
+            "color": "rgb(252, 250, 244)"
+          }
+        ]
+      }
+    ]
+  },
+  "/properties-2": {
+    "fill": "var(--token-d5b3c09d-0364-4ed0-8804-e56957faa275)",
+    "navs": 1,
+    "footers": 1,
+    "sectionNames": [
+      "Arbour_LoadingScreen",
+      "Arbour_SmoothScroll",
+      "Atmosphere",
+      "Nav",
+      "Properties Content",
+      "Footer"
+    ],
+    "heroes": []
+  },
+  "/neighbourhoods": {
+    "fill": "var(--token-d5b3c09d-0364-4ed0-8804-e56957faa275)",
+    "navs": 1,
+    "footers": 1,
+    "sectionNames": [
+      "Nav",
+      "Atmosphere",
+      "Neighbourhoods Content",
+      "Footer"
+    ],
+    "heroes": []
+  },
+  "/notes": {
+    "fill": "var(--token-d5b3c09d-0364-4ed0-8804-e56957faa275)",
+    "navs": 1,
+    "footers": 1,
+    "sectionNames": [
+      "Nav",
+      "Journal",
+      "Journal Manifesto",
+      "Footer Container"
+    ],
+    "heroes": []
+  },
+  "/about": {
+    "fill": "var(--token-d5b3c09d-0364-4ed0-8804-e56957faa275)",
+    "navs": 1,
+    "footers": 1,
+    "sectionNames": [
+      "Nav",
+      "Arbour_LoadingScreen",
+      "Arbour_SmoothScroll",
+      "Beat 1 — Paper Opener",
+      "Beat 3 — Manifesto",
+      "Beat 2 — Cinematic Image",
+      "Chapter — The Principals",
+      "Chapter — Two Offices",
+      "Enquiry CTA",
+      "Atmosphere",
+      "Footer"
+    ],
+    "heroes": [
+      {
+        "section": "Beat 1 — Paper Opener",
+        "fill": "var(--token-d5b3c09d-0364-4ed0-8804-e569",
+        "pad": "120px 48px 48px 48px",
+        "texts": [
+          {
+            "id": "Jq9L_1OW4",
+            "preset": "Arbour/Meta",
+            "color": "var(--token-a16d0333-6bd5-4d60-aa00-fac2"
+          },
+          {
+            "id": "jVJ8gDz5T",
+            "preset": "Arbour/Display",
+            "color": "var(--token-e2f9a9eb-668a-4021-80d9-b044"
+          },
+          {
+            "id": "FcjYKCG_4",
+            "preset": "Arbour/Meta",
+            "color": "var(--token-0bc68d0d-4c0b-4126-8cce-9425"
+          },
+          {
+            "id": "F4woaNv06",
+            "preset": "Arbour/Meta",
+            "color": "var(--token-0bc68d0d-4c0b-4126-8cce-9425"
+          },
+          {
+            "id": "wSOaOIjVj",
+            "preset": "Arbour/Meta",
+            "color": "var(--token-d5b3c09d-0364-4ed0-8804-e569"
+          },
+          {
+            "id": "in7YNz4XG",
+            "preset": "Arbour/Meta",
+            "color": "var(--token-d5b3c09d-0364-4ed0-8804-e569"
+          }
+        ]
+      }
+    ]
+  },
+  "/contact": {
+    "fill": "var(--token-d5b3c09d-0364-4ed0-8804-e56957faa275)",
+    "navs": 1,
+    "footers": 1,
+    "sectionNames": [
+      "Nav",
+      "Arbour_LoadingScreen",
+      "Arbour_SmoothScroll",
+      "Atmosphere",
+      "Contact Hero",
+      "Contact Opening",
+      "Journal",
+      "Footer"
+    ],
+    "heroes": [
+      {
+        "section": "Contact Hero",
+        "fill": "var(--token-d5b3c09d-0364-4ed0-8804-e569",
+        "texts": [
+          {
+            "id": "TWVNilHRn",
+            "preset": "Arbour/Meta",
+            "color": "var(--token-a16d0333-6bd5-4d60-aa00-fac2"
+          },
+          {
+            "id": "R80e8PwNu",
+            "preset": "Arbour/Display",
+            "color": "var(--token-e2f9a9eb-668a-4021-80d9-b044"
+          },
+          {
+            "id": "jFTgrH9Eq",
+            "preset": "Arbour/Meta",
+            "color": "var(--token-e2f9a9eb-668a-4021-80d9-b044"
+          },
+          {
+            "id": "yXnPwn7e1",
+            "preset": "Arbour/Meta",
+            "color": "var(--token-a16d0333-6bd5-4d60-aa00-fac2"
+          },
+          {
+            "id": "mJdtIzdKI",
+            "preset": "Arbour/Meta",
+            "color": "var(--token-0bc68d0d-4c0b-4126-8cce-9425"
+          }
+        ]
+      },
+      {
+        "section": "Contact Opening",
+        "fill": "var(--token-d5b3c09d-0364-4ed0-8804-e569",
+        "pad": "128px 48px 128px 48px",
+        "texts": [
+          {
+            "id": "F6Dxn9vpj",
+            "preset": "Arbour/Meta",
+            "color": "var(--token-a16d0333-6bd5-4d60-aa00-fac2"
+          },
+          {
+            "id": "at0UFQWlS",
+            "preset": "Arbour/Display",
+            "color": "var(--token-e2f9a9eb-668a-4021-80d9-b044"
+          },
+          {
+            "id": "SEtzgNJzz",
+            "preset": "Arbour/Subhead",
+            "color": "var(--token-0bc68d0d-4c0b-4126-8cce-9425"
+          },
+          {
+            "id": "jy6AYu31v",
+            "preset": "Arbour/Meta",
+            "color": "var(--token-a16d0333-6bd5-4d60-aa00-fac2"
+          },
+          {
+            "id": "QRBMckrZC",
+            "preset": "Arbour/Body",
+            "color": ""
+          },
+          {
+            "id": "nfdJgK1V5",
+            "preset": "Arbour/Meta",
+            "color": "var(--token-a16d0333-6bd5-4d60-aa00-fac2"
+          },
+          {
+            "id": "L62XWei6k",
+            "preset": "Arbour/Body",
+            "color": ""
+          },
+          {
+            "id": "sjE6PBlZA",
+            "preset": "Arbour/Meta",
+            "color": "var(--token-a16d0333-6bd5-4d60-aa00-fac2"
+          }
+        ]
+      }
+    ]
+  },
+  "/404": {
+    "fill": "var(--token-d5b3c09d-0364-4ed0-8804-e56957faa275)",
+    "navs": 1,
+    "footers": 1,
+    "sectionNames": [
+      "Nav",
+      "404 Hero",
+      "Footer"
+    ],
+    "heroes": [
+      {
+        "section": "404 Hero",
+        "fill": "var(--token-d5b3c09d-0364-4ed0-8804-e569",
+        "pad": "72px 48px 56px 48px",
+        "texts": [
+          {
+            "id": "syKmEViQZ",
+            "preset": "Arbour/Meta",
+            "color": "var(--token-a16d0333-6bd5-4d60-aa00-fac2"
+          },
+          {
+            "id": "mgkoCUdZt",
+            "preset": "Arbour/Meta",
+            "color": "var(--token-0bc68d0d-4c0b-4126-8cce-9425"
+          },
+          {
+            "id": "ghdyof0u1",
+            "preset": "Arbour/Display",
+            "color": "var(--token-0bc68d0d-4c0b-4126-8cce-9425"
+          },
+          {
+            "id": "V7kO2l0VX",
+            "preset": "Arbour/Meta",
+            "color": "var(--token-a16d0333-6bd5-4d60-aa00-fac2"
+          },
+          {
+            "id": "ZodqIH8_r",
+            "preset": "Arbour/Display",
+            "color": "var(--token-e2f9a9eb-668a-4021-80d9-b044"
+          },
+          {
+            "id": "X1y97oCSA",
+            "preset": "Arbour/Body",
+            "color": "var(--token-0bc68d0d-4c0b-4126-8cce-9425"
+          },
+          {
+            "id": "W3SWZOH5_",
+            "font": "Space Mono",
+            "size": "11px",
+            "color": "rgb(252, 250, 244)"
+          },
+          {
+            "id": "qhl2thyrV",
+            "preset": "Arbour/Meta",
+            "color": "var(--token-0bc68d0d-4c0b-4126-8cce-9425"
+          }
+        ]
+      }
+    ]
+  },
+  "/notes/:Journal": {
+    "fill": "var(--token-d5b3c09d-0364-4ed0-8804-e56957faa275)",
+    "navs": 1,
+    "footers": 1,
+    "sectionNames": [
+      "Arbour_LoadingScreen",
+      "Nav",
+      "Arbour_SmoothScroll",
+      null,
+      "Journal Hero Image",
+      "Article Body Wrap",
+      "Journal Text Column",
+      "More From Journal",
+      "Atmosphere",
+      null,
+      null,
+      "Footer"
+    ],
+    "heroes": []
+  },
+  "/properties-2/:Properties": {
+    "fill": "var(--token-d5b3c09d-0364-4ed0-8804-e56957faa275)",
+    "navs": 1,
+    "footers": 1,
+    "sectionNames": [
+      "Arbour_LoadingScreen",
+      "Arbour_SmoothScroll",
+      "Atmosphere",
+      "Nav",
+      null,
+      null,
+      null,
+      "Cinematic Gallery",
+      "The Setting",
+      "Property Particulars",
+      "Continue Your Search",
+      "Enquiry CTA",
+      "Footer"
+    ],
+    "heroes": []
+  }
+}

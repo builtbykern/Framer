@@ -1,0 +1,83 @@
+{
+  "railDsl": "SET uGXrCjuAT component=\"codeFile/il4DSn9:default\"; SET U3TeNUVXvuGXrCjuAT component=\"codeFile/il4DSn9:default\"; SET pmAxXUJ0ouGXrCjuAT component=\"codeFile/il4DSn9:default\"",
+  "railRes": {
+    "message": "Commands: 3 errors. Lint: 8 warnings.",
+    "errors": {
+      "Cannot change `component=\"codeFile/il4DSn9:default\"` with SET. DEL this node and add a new one with `component=\"codeFile/il4DSn9:default\"`, then set the relevant controls on the new node.": [
+        "uGXrCjuAT",
+        "U3TeNUVXvuGXrCjuAT",
+        "pmAxXUJ0ouGXrCjuAT"
+      ]
+    },
+    "linter": {
+      "warnings": {
+        "Content inside a full-bleed or proportional layout should set a maxWidth so large screens don't cause huge content": [
+          "QWUEMYFj7",
+          "vyLrJ6ztM"
+        ],
+        "Visible siblings in a stack might be too close. If this is not intended, set `gap` on the parent or wrap either sibling in a frame with `padding`.": [
+          {
+            "id": "pmAxXUJ0o",
+            "siblingIds": [
+              "pmAxXUJ0oQWUEMYFj7",
+              "pmAxXUJ0orAukVaNHU"
+            ],
+            "spacing": -752.01,
+            "minSpacing": 4,
+            "axis": "vertical"
+          },
+          {
+            "id": "pmAxXUJ0o",
+            "siblingIds": [
+              "pmAxXUJ0orAukVaNHU",
+              "pmAxXUJ0oCXKn_oqE0"
+            ],
+            "spacing": -462.69,
+            "minSpacing": 4,
+            "axis": "vertical"
+          },
+          {
+            "id": "pmAxXUJ0o",
+            "siblingIds": [
+              "pmAxXUJ0oCXKn_oqE0",
+              "pmAxXUJ0oU9mwOiQun"
+            ],
+            "spacing": -425.71,
+            "minSpacing": 4,
+            "axis": "vertical"
+          },
+          {
+            "id": "pmAxXUJ0o",
+            "siblingIds": [
+              "pmAxXUJ0oU9mwOiQun",
+              "pmAxXUJ0oPWy2_wM2R"
+            ],
+            "spacing": -407.59,
+            "minSpacing": 4,
+            "axis": "vertical"
+          },
+          {
+            "id": "pmAxXUJ0o",
+            "siblingIds": [
+              "pmAxXUJ0oPWy2_wM2R",
+              "pmAxXUJ0oz3aj0E0xy"
+            ],
+            "spacing": -400.11,
+            "minSpacing": 4,
+            "axis": "vertical"
+          },
+          {
+            "id": "pmAxXUJ0o",
+            "siblingIds": [
+              "pmAxXUJ0oz3aj0E0xy",
+              "pmAxXUJ0ovyLrJ6ztM"
+            ],
+            "spacing": -401.65,
+            "minSpacing": 4,
+            "axis": "vertical"
+          }
+        ]
+      }
+    }
+  }
+}

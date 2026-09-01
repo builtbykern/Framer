@@ -1,0 +1,13 @@
+{
+  "at": "2026-07-17T18:37:50.291Z",
+  "effort": "deep",
+  "report": "template-plans/REPORT-arbour-super-audit.md",
+  "findingCount": 12,
+  "high": [
+    1,
+    2,
+    3
+  ],
+  "improveFirst": 1,
+  "sessionId": "3"
+}

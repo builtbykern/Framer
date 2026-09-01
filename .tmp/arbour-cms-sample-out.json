@@ -1,0 +1,350 @@
+[
+  {
+    "name": "Neighbourhoods",
+    "id": "U0QLvHg7O",
+    "itemCount": 4,
+    "samples": [
+      {
+        "id": "wQIxxNoGu",
+        "slug": "chelsea",
+        "draft": false,
+        "Name": "Chelsea",
+        "Intro": "Chelsea has long been the address of choice for London's most discerning buyers — a village of white stucco terraces, re…",
+        "Hero Image": {
+          "type": "asset",
+          "url": "https://framerusercontent.com/images/8IGPbFclzfRApOAIssLZgmH"
+        },
+        "Highlights": "Cheyne Walk river frontages\nKing's Road boutique shopping\nSaatchi Gallery and the Chelsea Physic Garden\nOutstanding inde…",
+        "SEO Title": "Chelsea Property Guide | Arbour",
+        "SEO Description": "Explore prime Chelsea homes for sale, from Cheyne Walk river frontages to quiet garden squares off the King's Road.",
+        "Map": {
+          "type": "asset",
+          "url": "https://framerusercontent.com/images/LSpstJ3Kt80bgXSK7340UZY"
+        }
+      },
+      {
+        "id": "Jfbalm8Q5",
+        "slug": "notting-hill",
+        "draft": false,
+        "Name": "Notting Hill",
+        "Intro": "Pastel-painted townhouses, the antique stalls of Portobello Road and a genuinely villagey atmosphere make Notting Hill o…",
+        "Hero Image": {
+          "type": "asset",
+          "url": "https://framerusercontent.com/images/AOaAcGKE51AkwHdqIubUdXQ"
+        },
+        "Highlights": "Portobello Road Market\nLadbroke Grove communal gardens\nElectric Cinema on Portobello Road\nWestbourne Grove designer bout…",
+        "SEO Title": "Notting Hill Property Guide | Arbour",
+        "SEO Description": "Discover Notting Hill's finest pastel townhouses and garden squares, moments from Portobello Road.",
+        "Map": {
+          "type": "asset",
+          "url": "https://framerusercontent.com/images/WSFMMexhlil4aviCQffQ8Ob"
+        }
+      },
+      {
+        "id": "h6Uk_Pbg1",
+        "slug": "hampstead",
+        "draft": false,
+        "Name": "Hampstead",
+        "Intro": "Set on a wooded hilltop above the city, Hampstead pairs Georgian and Victorian villas with the open expanse of the Heath…",
+        "Hero Image": {
+          "type": "asset",
+          "url": "https://framerusercontent.com/images/cCQCSnQDjuSX1xXtwUtrzIH"
+        },
+        "Highlights": "791 acres of Hampstead Heath\nKenwood House and its lakeside grounds\nHampstead village boutiques and pubs\nOutstanding sta…",
+        "SEO Title": "Hampstead Property Guide | Arbour",
+        "SEO Description": "Search Hampstead's finest period houses, moments from the Heath and Kenwood House.",
+        "Map": {
+          "type": "asset",
+          "url": "https://framerusercontent.com/images/blssu6sdtZBmrF7ASG8peO6"
+        }
+      }
+    ],
+    "refIssues": []
+  },
+  {
+    "name": "Agents",
+    "id": "CGTgzrUNU",
+    "itemCount": 4,
+    "samples": [
+      {
+        "id": "Fu_Q_4fJd",
+        "slug": "charlotte-pemberton-hale",
+        "draft": false,
+        "Name": "Charlotte Pemberton-Hale",
+        "Role": "Head of Prime Sales",
+        "Photo": {
+          "type": "asset",
+          "url": "https://framerusercontent.com/images/zZdXc5VHlO21UsqQIVt3ffa"
+        },
+        "Email": "charlotte.pemberton-hale@arbour.estate",
+        "Phone": "+44 20 7946 0182"
+      },
+      {
+        "id": "ZaIHrC_TI",
+        "slug": "james-ashworth-reid",
+        "draft": false,
+        "Name": "James Ashworth-Reid",
+        "Role": "Senior Director, Chelsea & Notting Hill",
+        "Photo": {
+          "type": "asset",
+          "url": "https://framerusercontent.com/images/XVM7jutS7on6VVND9D5kuV2"
+        },
+        "Email": "james.ashworth-reid@arbour.estate",
+        "Phone": "+44 20 7946 0247"
+      },
+      {
+        "id": "Eh402IAIy",
+        "slug": "olivia-fairweather",
+        "draft": false,
+        "Name": "Olivia Fairweather",
+        "Role": "Associate Director, Country Houses",
+        "Photo": {
+          "type": "asset",
+          "url": "https://framerusercontent.com/images/hsV3belmTqbCv4frTyoi1K3"
+        },
+        "Email": "olivia.fairweather@arbour.estate",
+        "Phone": "+44 1451 830 219"
+      }
+    ],
+    "refIssues": []
+  },
+  {
+    "name": "Properties",
+    "id": "VPfyI5Rxz",
+    "itemCount": 6,
+    "samples": [
+      {
+        "id": "O_32H7OFQ",
+        "slug": "cheyne-walk-riverside-residence",
+        "draft": false,
+        "Title": "Cheyne Walk Riverside Residence",
+        "Price": "£4,750,000",
+        "Location": "Cheyne Walk, Chelsea SW3",
+        "Neighbourhood": "chelsea",
+        "Featured": true,
+        "Bedrooms": 4,
+        "Bathrooms": 3,
+        "Area": "2,840 sq ft",
+        "Hero Image": {
+          "type": "asset",
+          "url": "https://framerusercontent.com/images/TU8VoRAYMhzJbNfqoR8q1LU"
+        },
+        "Gallery": {
+          "type": "array",
+          "length": 3
+        },
+        "Description": "<p dir=\"auto\">Set behind a handsome brick façade on one of Chelsea's most celebrated riverside addresses, this four-bedr…",
+        "Features": "Four bedrooms · Riverside setting · Private walled courtyard · Principal suite across the second floor",
+        "SEO Title": "Cheyne Walk Riverside Residence | Arbour",
+        "SEO Description": "Four-bedroom riverside residence on Cheyne Walk, Chelsea — restored brick façade, raised-ground receptions, and Thames v…",
+        "Status": "For Sale",
+        "Gallery Image One": {
+          "type": "asset",
+          "url": "https://framerusercontent.com/images/TU8VoRAYMhzJbNfqoR8q1LU"
+        },
+        "Gallery Image Two": {
+          "type": "asset",
+          "url": "https://framerusercontent.com/images/ojFEpBxUK0v5ZdHavr6BvCU"
+        },
+        "Gallery Image Three": {
+          "type": "asset",
+          "url": "https://framerusercontent.com/images/PHKuq8b2CbWGW2oLkv99sqx"
+        },
+        "Asking Price": 4750000,
+        "Gallery Image Four": {
+          "type": "asset",
+          "url": "https://framerusercontent.com/images/i9soEyVT6DZfiOo4U0AoJB8"
+        },
+        "Gallery Narrative": "<p dir=\"auto\">From the balcony, the city reads as a slow panorama — river light, chimney pots, and the particular hush o…",
+        "Journal Entry": false,
+        "Grid Image Height": 540
+      },
+      {
+        "id": "XvxpO6t4m",
+        "slug": "frognal-georgian-villa",
+        "draft": false,
+        "Title": "Frognal Georgian Villa",
+        "Price": "£8,950,000",
+        "Location": "Frognal, Hampstead NW3",
+        "Neighbourhood": "hampstead",
+        "Featured": true,
+        "Bedrooms": 6,
+        "Bathrooms": 5,
+        "Area": "5,800 sq ft",
+        "Hero Image": {
+          "type": "asset",
+          "url": "https://framerusercontent.com/images/TNfTZnbeGo5SMOXppWDMzBo"
+        },
+        "Gallery": {
+          "type": "array",
+          "length": 3
+        },
+        "Description": "<p dir=\"auto\">This exceptional Grade II listed villa sits within one of Frognal's finest plots, with mature gardens back…",
+        "Features": "Grade II listed villa · Gardens backing onto Hampstead Heath · Six bedrooms · Wine cellar and home cinema",
+        "SEO Title": "Frognal Georgian Villa | Arbour",
+        "SEO Description": "Grade II Georgian villa on Frognal, Hampstead — six bedrooms, Heath-backed gardens, and period reception rooms across 5,…",
+        "Status": "For Sale",
+        "Gallery Image One": {
+          "type": "asset",
+          "url": "https://framerusercontent.com/images/OvFWWet7jRwYYL7BnAMRQTA"
+        },
+        "Gallery Image Two": {
+          "type": "asset",
+          "url": "https://framerusercontent.com/images/mAiVG80DHYgpNB8IzBvkY3B"
+        },
+        "Gallery Image Three": {
+          "type": "asset",
+          "url": "https://framerusercontent.com/images/55fU64RUqocwyRRGeoOtjQd"
+        },
+        "Asking Price": 8950000,
+        "Gallery Image Four": {
+          "type": "asset",
+          "url": "https://framerusercontent.com/images/eU5StD6q2HpWyFTQjqzZnTh"
+        },
+        "Gallery Narrative": "<p dir=\"auto\">Period proportion governs every view — tall windows, panelled walls, and a staircase that sets the tone be…",
+        "Journal Entry": false,
+        "Grid Image Height": 360
+      },
+      {
+        "id": "UoQUHJmyn",
+        "slug": "bibury-stone-manor",
+        "draft": false,
+        "Title": "Bibury Stone Manor",
+        "Price": "£3,650,000",
+        "Location": "Bibury, Gloucestershire",
+        "Neighbourhood": "the-cotswolds",
+        "Featured": false,
+        "Bedrooms": 5,
+        "Bathrooms": 4,
+        "Area": "4,200 sq ft",
+        "Hero Image": {
+          "type": "asset",
+          "url": "https://framerusercontent.com/images/r3ikfrQGbEcLmfVHpdTfrST"
+        },
+        "Gallery": {
+          "type": "array",
+          "length": 3
+        },
+        "Description": "<p dir=\"auto\">Approached along a private gravel drive, this honey-stone manor dates in part to the seventeenth century a…",
+        "Features": "Seventeenth-century stone manor · Converted stone barn annexe · Walled kitchen garden · Orchard and courtyard",
+        "SEO Title": "Bibury Stone Manor | Arbour",
+        "SEO Description": "Honey-stone Cotswolds manor near Bibury — five bedrooms, seventeenth-century character, and private approach across 4,20…",
+        "Status": "For Sale",
+        "Gallery Image One": {
+          "type": "asset",
+          "url": "https://framerusercontent.com/images/jqF7vCSvRWPV7DSCYONTO5f"
+        },
+        "Gallery Image Two": {
+          "type": "asset",
+          "url": "https://framerusercontent.com/images/wMb4UJir2ajBPQhIvlkpBaM"
+        },
+        "Gallery Image Three": {
+          "type": "asset",
+          "url": "https://framerusercontent.com/images/LDRj2XTq2KA27olL3Skt4UR"
+        },
+        "Asking Price": 3650000,
+        "Gallery Image Four": {
+          "type": "asset",
+          "url": "https://framerusercontent.com/images/CX3lNHygWXf7avp9dg5nMCZ"
+        },
+        "Gallery Narrative": "<p dir=\"auto\">Stone, timber, and courtyard air give the house its Cotswolds character. Interiors lean into warmth — deep…",
+        "Journal Entry": false,
+        "Grid Image Height": 420
+      }
+    ],
+    "refIssues": [
+      {
+        "slug": "cheyne-walk-riverside-residence",
+        "issue": "orphan neighbourhood ref",
+        "ref": "chelsea"
+      },
+      {
+        "slug": "frognal-georgian-villa",
+        "issue": "orphan neighbourhood ref",
+        "ref": "hampstead"
+      },
+      {
+        "slug": "bibury-stone-manor",
+        "issue": "orphan neighbourhood ref",
+        "ref": "the-cotswolds"
+      },
+      {
+        "slug": "royal-avenue-lateral-apartment",
+        "issue": "orphan neighbourhood ref",
+        "ref": "chelsea"
+      },
+      {
+        "slug": "ladbroke-grove-garden-house",
+        "issue": "orphan neighbourhood ref",
+        "ref": "notting-hill"
+      },
+      {
+        "slug": "colville-mews-house",
+        "issue": "orphan neighbourhood ref",
+        "ref": "notting-hill"
+      }
+    ]
+  },
+  {
+    "name": "Journal",
+    "id": "HozLKZ9WV",
+    "itemCount": 7,
+    "samples": [
+      {
+        "id": "prDqtfgPz",
+        "slug": "on-proportion-light-london-row-house",
+        "draft": false,
+        "Title": "On proportion, light, and the London row house.",
+        "Category": "FIELD NOTES",
+        "Date": "12 JUN 2026",
+        "Excerpt": "A short editorial note on reading architecture as a lived surface — bay rhythm, cornice line, and morning light.",
+        "Cover Image": {
+          "type": "asset",
+          "url": "https://framerusercontent.com/images/e6gkMLN4uDb047jdjtCeGaH"
+        },
+        "Featured": true,
+        "Body": "<p dir=\"auto\">The row house asks for patience. Its rhythm is vertical — bays, cornice, chimney — but the pleasure is hor…",
+        "SEO Description": "How ceiling height, bay depth, and afternoon light decide whether a London terrace feels generous or merely large — note…",
+        "Index": "02",
+        "SEO Title": "On proportion, light, and the London row house. | Arbour"
+      },
+      {
+        "id": "v1eSMlrhB",
+        "slug": "reading-a-facade-as-ledger",
+        "draft": false,
+        "Title": "Reading a façade as a ledger of ownership.",
+        "Category": "FIELD NOTES",
+        "Date": "28 MAY 2026",
+        "Excerpt": "What the street-facing plane reveals before you cross the threshold.",
+        "Cover Image": {
+          "type": "asset",
+          "url": "https://framerusercontent.com/images/Q62zztvmrue26HMdGmau2uN"
+        },
+        "Featured": true,
+        "Body": "<p dir=\"auto\">A façade is a contract with the city. Materials, fenestration, and maintenance tell you who has invested —…",
+        "SEO Description": "Door furniture, brick courses, and patched stucco as a quiet record of who cared for a house — and who merely held it.",
+        "Index": "04",
+        "SEO Title": "Reading a façade as a ledger of ownership. | Arbour"
+      },
+      {
+        "id": "jIfPFNERf",
+        "slug": "mews-houses-second-visit",
+        "draft": false,
+        "Title": "Why mews houses reward a slower second visit.",
+        "Category": "NEIGHBOURHOODS",
+        "Date": "14 MAY 2026",
+        "Excerpt": "Compact footprints that open into unexpected calm.",
+        "Cover Image": {
+          "type": "asset",
+          "url": "https://framerusercontent.com/images/lBfFl3QUAP5c1NwKhfYIvYk"
+        },
+        "Featured": false,
+        "Body": "<p dir=\"auto\">First impressions favour the grand avenue. Second visits belong to the mews: the change of scale, the priv…",
+        "SEO Description": "Why the second appointment in a mews reveals scale, service access, and neighbour rhythm that a rushed first viewing con…",
+        "Index": "06",
+        "SEO Title": "Why mews houses reward a slower second visit. | Arbour"
+      }
+    ],
+    "refIssues": []
+  }
+]

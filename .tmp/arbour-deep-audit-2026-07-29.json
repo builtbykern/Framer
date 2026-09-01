@@ -1,0 +1,181 @@
+{
+  "collectedAt": "2026-07-29T19:59:27.310Z",
+  "publishPreview": {
+    "changesCount": null,
+    "errors": null,
+    "error": "FramerPluginError: [\n  {\n    \"code\": \"invalid_value\",\n    \"values\": [\n      \"preview\",\n      \"confirm_publish\",\n      \"deploy_to_production\"\n    ],\n    \"path\": [\n      \"action\"\n    ],\n    \"message\": \"Invalid option: expected one of \\\"preview\\\"|\\\"confirm_publish\\\"|\\\"deploy_to_production\\\"\"\n  }\n]",
+    "keys": [
+      "error"
+    ],
+    "rawSnippet": "{\"error\":\"FramerPluginError: [\\n  {\\n    \\\"code\\\": \\\"invalid_value\\\",\\n    \\\"values\\\": [\\n      \\\"preview\\\",\\n      \\\"confirm_publish\\\",\\n      \\\"deploy_to_production\\\"\\n    ],\\n    \\\"path\\\": [\\n      \\\"action\\\"\\n    ],\\n    \\\"message\\\": \\\"Invalid option: expected one of \\\\\\\"preview\\\\\\\"|\\\\\\\"confirm_publish\\\\\\\"|\\\\\\\"deploy_to_production\\\\\\\"\\\"\\n  }\\n]\"}"
+  },
+  "publishInfo": {
+    "production": {
+      "deploymentTime": 1779287200943,
+      "optimizationStatus": "optimized",
+      "url": "https://massive-concept-195780.framer.app",
+      "currentPageUrl": "https://massive-concept-195780.framer.app/"
+    },
+    "staging": {
+      "deploymentTime": 1779287200943,
+      "optimizationStatus": "optimized",
+      "url": "https://massive-concept-195780.framer.app",
+      "currentPageUrl": "https://massive-concept-195780.framer.app/"
+    }
+  },
+  "pageReports": [
+    {
+      "path": "/",
+      "title": null,
+      "description": null,
+      "hardInk": 0,
+      "hardOlive": 0,
+      "ashHits": 0,
+      "ashSample": null,
+      "nodeHint": "string"
+    },
+    {
+      "path": "/properties-2",
+      "title": null,
+      "description": null,
+      "hardInk": 0,
+      "hardOlive": 0,
+      "ashHits": 0,
+      "ashSample": null,
+      "nodeHint": "string"
+    },
+    {
+      "path": "/neighbourhoods",
+      "title": null,
+      "description": null,
+      "hardInk": 0,
+      "hardOlive": 0,
+      "ashHits": 0,
+      "ashSample": null,
+      "nodeHint": "string"
+    },
+    {
+      "path": "/notes",
+      "title": null,
+      "description": null,
+      "hardInk": 0,
+      "hardOlive": 0,
+      "ashHits": 0,
+      "ashSample": null,
+      "nodeHint": "string"
+    },
+    {
+      "path": "/about",
+      "title": null,
+      "description": null,
+      "hardInk": 0,
+      "hardOlive": 0,
+      "ashHits": 0,
+      "ashSample": null,
+      "nodeHint": "string"
+    },
+    {
+      "path": "/contact",
+      "title": null,
+      "description": null,
+      "hardInk": 0,
+      "hardOlive": 0,
+      "ashHits": 0,
+      "ashSample": null,
+      "nodeHint": "string"
+    },
+    {
+      "path": "/404",
+      "title": null,
+      "description": null,
+      "hardInk": 0,
+      "hardOlive": 0,
+      "ashHits": 0,
+      "ashSample": null,
+      "nodeHint": "string"
+    },
+    {
+      "path": "/properties-2/:Properties",
+      "title": null,
+      "description": null,
+      "hardInk": 0,
+      "hardOlive": 0,
+      "ashHits": 0,
+      "ashSample": null,
+      "nodeHint": "string"
+    },
+    {
+      "path": "/notes/:Journal",
+      "title": null,
+      "description": null,
+      "hardInk": 0,
+      "hardOlive": 0,
+      "ashHits": 0,
+      "ashSample": null,
+      "nodeHint": "string"
+    }
+  ],
+  "cms": [],
+  "codeScan": [
+    {
+      "name": "Arbour_InertiaFrame.tsx",
+      "missing": true
+    },
+    {
+      "name": "Arbour_ScrollCue.tsx",
+      "missing": true
+    },
+    {
+      "name": "Arbour_EditorialReveal.tsx",
+      "missing": true
+    },
+    {
+      "name": "Arbour_UnderlineLink.tsx",
+      "missing": true
+    },
+    {
+      "name": "Arbour_TerritoryRail.tsx",
+      "missing": true
+    },
+    {
+      "name": "Arbour_ProgressiveBlur.tsx",
+      "missing": true
+    },
+    {
+      "name": "Arbour_PrimaryButton.tsx",
+      "missing": true
+    },
+    {
+      "name": "Arbour_FormButton.tsx",
+      "missing": true
+    },
+    {
+      "name": "Arbour_SectionHeader.tsx",
+      "missing": true
+    },
+    {
+      "name": "Arbour_ArticleCard.tsx",
+      "missing": true
+    },
+    {
+      "name": "Arbour_StatsBand.tsx",
+      "missing": true
+    },
+    {
+      "name": "Arbour_MenuIcon.tsx",
+      "missing": true
+    },
+    {
+      "name": "Arbour_NoiseEffect.tsx",
+      "missing": true
+    },
+    {
+      "name": "Arbour_LoadingScreen.tsx",
+      "missing": true
+    },
+    {
+      "name": "Arbour_PropertyCard.tsx",
+      "missing": true
+    }
+  ]
+}

@@ -1,0 +1,34 @@
+{
+  "ok": true,
+  "sessionId": "1",
+  "blocking": false,
+  "warningCount": 0,
+  "errors": [],
+  "changes": [
+    {
+      "type": "WebPage",
+      "nodeId": "augiA20Il",
+      "name": "Home",
+      "status": "updated"
+    },
+    {
+      "type": "WebPage",
+      "nodeId": "c7qpzB7hR",
+      "name": "/contact",
+      "status": "updated"
+    },
+    {
+      "type": "WebPage",
+      "nodeId": "uBAGmujMa",
+      "name": "/properties-2",
+      "status": "updated"
+    }
+  ],
+  "changesCount": 3,
+  "status": "ready",
+  "deferredCount": 0,
+  "rect": null,
+  "rectError": null,
+  "hasScreenshot": false,
+  "screenshotError": null
+}

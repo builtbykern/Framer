@@ -1,0 +1,22 @@
+{
+  "ok": true,
+  "sessionId": "3",
+  "blocking": false,
+  "warningCount": 0,
+  "errors": [],
+  "changes": [
+    {
+      "type": "SmartComponent",
+      "nodeId": "ynpqYJGOd",
+      "name": "Nav",
+      "status": "updated"
+    }
+  ],
+  "changesCount": 1,
+  "status": "ready",
+  "deferredCount": 0,
+  "rect": null,
+  "rectError": null,
+  "hasScreenshot": false,
+  "screenshotError": null
+}

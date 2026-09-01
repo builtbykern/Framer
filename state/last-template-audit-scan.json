@@ -1,0 +1,494 @@
+{
+  "collectedAt": "2026-07-17T19:41:06.999Z",
+  "publish": {
+    "production": {
+      "deploymentTime": 1784317193997,
+      "optimizationStatus": "error",
+      "url": "https://arbour.framer.website",
+      "currentPageUrl": "https://arbour.framer.website/"
+    },
+    "staging": {
+      "deploymentTime": 1784317193997,
+      "optimizationStatus": "error",
+      "url": "https://minimum-directions-600719.framer.app",
+      "currentPageUrl": "https://minimum-directions-600719.framer.app/"
+    }
+  },
+  "pageMeta": {
+    "/": {
+      "metadata": {
+        "title": "Arbour — Independent Estate Agency London",
+        "description": "Curated residences across London and the country. Discreet acquisition, disposal, and counsel since 1999."
+      },
+      "attrs": {
+        "metadata": {
+          "title": "Arbour — Independent Estate Agency London",
+          "description": "Curated residences across London and the country. Discreet acquisition, disposal, and counsel since 1999."
+        }
+      }
+    },
+    "/notes": {
+      "metadata": {
+        "title": "Notes | Arbour",
+        "description": "Field notes on place, craft, and acquisition — from the Arbour journal."
+      },
+      "attrs": {
+        "metadata": {
+          "title": "Notes | Arbour",
+          "description": "Field notes on place, craft, and acquisition — from the Arbour journal."
+        }
+      }
+    },
+    "/properties-2": {
+      "metadata": {
+        "title": "Portfolio | Arbour",
+        "description": "Six homes of merit — curated residences for sale across London and the country."
+      },
+      "attrs": {
+        "metadata": {
+          "title": "Portfolio | Arbour",
+          "description": "Six homes of merit — curated residences for sale across London and the country."
+        }
+      }
+    },
+    "/neighbourhoods": {
+      "metadata": {
+        "title": "Neighbourhoods | Arbour",
+        "description": "Places we know by heart — Chelsea, Notting Hill, Hampstead, and beyond."
+      },
+      "attrs": {
+        "metadata": {
+          "title": "Neighbourhoods | Arbour",
+          "description": "Places we know by heart — Chelsea, Notting Hill, Hampstead, and beyond."
+        }
+      }
+    },
+    "/about": {
+      "metadata": {
+        "title": "About | Arbour",
+        "description": "Built on judgement, not volume. Independent estate agency since 1999."
+      },
+      "attrs": {
+        "metadata": {
+          "title": "About | Arbour",
+          "description": "Built on judgement, not volume. Independent estate agency since 1999."
+        }
+      }
+    },
+    "/contact": {
+      "metadata": {
+        "title": "Contact | Arbour",
+        "description": "Begin a conversation — private consultations for buyers and sellers. By appointment only."
+      },
+      "attrs": {
+        "metadata": {
+          "title": "Contact | Arbour",
+          "description": "Begin a conversation — private consultations for buyers and sellers. By appointment only."
+        }
+      }
+    },
+    "/404": {
+      "metadata": {
+        "title": "Page not found | Arbour",
+        "description": "This page is out of frame. Return to Arbour.",
+        "noIndex": true,
+        "noIndexSite": true
+      },
+      "attrs": {
+        "metadata": {
+          "title": "Page not found | Arbour",
+          "description": "This page is out of frame. Return to Arbour.",
+          "noIndex": true,
+          "noIndexSite": true
+        }
+      }
+    },
+    "/properties-2/:Properties": {
+      "metadata": {
+        "title": "{{SEO Title}}",
+        "description": "{{SEO Description}}"
+      },
+      "attrs": {
+        "metadata": {
+          "title": "{{SEO Title}}",
+          "description": "{{SEO Description}}"
+        }
+      }
+    },
+    "/notes/:Journal": {
+      "metadata": {
+        "title": "{{Title}} | Arbour",
+        "description": "{{SEO Description}}"
+      },
+      "attrs": {
+        "metadata": {
+          "title": "{{Title}} | Arbour",
+          "description": "{{SEO Description}}"
+        }
+      }
+    }
+  },
+  "pad120": [
+    {
+      "path": "/about",
+      "id": "QjoW3yYRJ",
+      "name": "Beat 1 — Paper Opener",
+      "pad": "120px 48px 48px 48px"
+    },
+    {
+      "path": "/properties-2/:Properties",
+      "id": "lP4ZL6y0c",
+      "name": "Cinematic Gallery",
+      "pad": "0px 48px 120px 48px"
+    },
+    {
+      "path": "/notes/:Journal",
+      "id": "F88MmOdES",
+      "name": "Article Body Wrap",
+      "pad": "56px 48px 120px 48px"
+    }
+  ],
+  "navigateLabel": {
+    "id": "IitvyCHtzNDTIDDKqL",
+    "text": "Navigate",
+    "color": "var(--token-a16d0333-6bd5-4d60-aa00-fac26447145d)",
+    "preset": "Arbour/Meta"
+  },
+  "cmsSeo": {
+    "properties": [
+      {
+        "id": "O_32H7OFQ",
+        "slug": "cheyne-walk-riverside-residence",
+        "SEO Title": "Cheyne Walk Riverside Residence | Arbour",
+        "Title": "Cheyne Walk Riverside Residence",
+        "SEO Description": "Cheyne Walk Riverside Residence — Arbour instruction."
+      },
+      {
+        "id": "XvxpO6t4m",
+        "slug": "frognal-georgian-villa",
+        "SEO Title": "Frognal Georgian Villa | Arbour",
+        "Title": "Frognal Georgian Villa",
+        "SEO Description": "Frognal Georgian Villa — Arbour instruction."
+      },
+      {
+        "id": "UoQUHJmyn",
+        "slug": "bibury-stone-manor",
+        "SEO Title": "Bibury Stone Manor | Arbour",
+        "Title": "Bibury Stone Manor",
+        "SEO Description": "Bibury Stone Manor — Arbour instruction."
+      },
+      {
+        "id": "du52Xg978",
+        "slug": "royal-avenue-lateral-apartment",
+        "SEO Title": "Royal Avenue Lateral Apartment | Arbour",
+        "Title": "Royal Avenue Lateral Apartment",
+        "SEO Description": "Royal Avenue Lateral Apartment — Arbour instruction."
+      },
+      {
+        "id": "pJzNUKbbP",
+        "slug": "ladbroke-grove-garden-house",
+        "SEO Title": "Ladbroke Grove Garden House | Arbour",
+        "Title": "Ladbroke Grove Garden House",
+        "SEO Description": "Ladbroke Grove Garden House — Arbour instruction."
+      },
+      {
+        "id": "xKchdtkT1",
+        "slug": "colville-mews-house",
+        "SEO Title": "Colville Mews House | Arbour",
+        "Title": "Colville Mews House",
+        "SEO Description": "Colville Mews House — Arbour instruction."
+      }
+    ],
+    "journal": [
+      {
+        "id": "prDqtfgPz",
+        "slug": "on-proportion-light-london-row-house",
+        "Title": "On proportion, light, and the London row house.",
+        "SEO Description": "On proportion, light, and the London row house — Arbour field notes."
+      },
+      {
+        "id": "v1eSMlrhB",
+        "slug": "reading-a-facade-as-ledger",
+        "Title": "Reading a façade as a ledger of ownership.",
+        "SEO Description": "Reading a façade as a ledger of ownership — Arbour journal."
+      },
+      {
+        "id": "jIfPFNERf",
+        "slug": "mews-houses-second-visit",
+        "Title": "Why mews houses reward a slower second visit.",
+        "SEO Description": "Why mews houses reward a slower second visit — Arbour notes."
+      },
+      {
+        "id": "b5qKjmJM8",
+        "slug": "colville-terrace-field-notes",
+        "Title": "Field notes from the Colville terrace.",
+        "SEO Description": "Field notes from the Colville terrace — Arbour journal."
+      },
+      {
+        "id": "pB1MgkmA5",
+        "slug": "what-a-second-viewing-is-really-for",
+        "Title": "What a second viewing is really for.",
+        "SEO Description": "What a second viewing is really for — Arbour buying notes."
+      },
+      {
+        "id": "tWZUWOTR7",
+        "slug": "notting-hill-after-the-rain",
+        "Title": "Notting Hill after the rain.",
+        "SEO Description": "Notting Hill after the rain — Arbour neighbourhood notes."
+      },
+      {
+        "id": "L49uUmsdU",
+        "slug": "on-instructing-an-agent-without-losing-your-nerve",
+        "Title": "On instructing an agent without losing your nerve.",
+        "SEO Description": "On instructing an agent without losing your nerve — Arbour buying notes."
+      }
+    ],
+    "neighbourhoods": [
+      {
+        "id": "wQIxxNoGu",
+        "slug": "chelsea",
+        "SEO Title": "Chelsea Property Guide | Ashcombe & Vane",
+        "Name": "Chelsea",
+        "SEO Description": "Explore prime Chelsea homes for sale, from Cheyne Walk river frontages to quiet garden squares off the King's Road."
+      },
+      {
+        "id": "Jfbalm8Q5",
+        "slug": "notting-hill",
+        "SEO Title": "Notting Hill Property Guide | Ashcombe & Vane",
+        "Name": "Notting Hill",
+        "SEO Description": "Discover Notting Hill's finest pastel townhouses and garden squares, moments from Portobello Road."
+      },
+      {
+        "id": "h6Uk_Pbg1",
+        "slug": "hampstead",
+        "SEO Title": "Hampstead Property Guide | Ashcombe & Vane",
+        "Name": "Hampstead",
+        "SEO Description": "Search Hampstead's finest period houses, moments from the Heath and Kenwood House."
+      },
+      {
+        "id": "jU2rRJwn9",
+        "slug": "the-cotswolds",
+        "SEO Title": "Cotswolds Property Guide | Ashcombe & Vane",
+        "Name": "The Cotswolds",
+        "SEO Description": "Browse country houses and cottages for sale across the Cotswolds' finest villages."
+      }
+    ],
+    "propertiesFields": [
+      "Title",
+      "Price",
+      "Location",
+      "Neighbourhood",
+      "Featured",
+      "Bedrooms",
+      "Bathrooms",
+      "Area",
+      "Hero Image",
+      "Gallery",
+      "Description",
+      "Features",
+      "SEO Title",
+      "SEO Description",
+      "Status",
+      "Gallery Image One",
+      "Gallery Image Two",
+      "Gallery Image Three",
+      "Asking Price",
+      "Gallery Image Four",
+      "Gallery Narrative",
+      "Journal Entry"
+    ],
+    "journalFields": [
+      "Title",
+      "Category",
+      "Date",
+      "Excerpt",
+      "Cover Image",
+      "Featured",
+      "Body",
+      "SEO Description",
+      "Index"
+    ],
+    "neighbourhoodsFields": [
+      "Name",
+      "Intro",
+      "Hero Image",
+      "Highlights",
+      "SEO Title",
+      "SEO Description",
+      "Map"
+    ]
+  },
+  "freehandArrows": [],
+  "contentBandOk": [],
+  "publishPreview": {
+    "status": "ready",
+    "changesCount": 0,
+    "errors": [],
+    "warnings": [],
+    "changes": [],
+    "confirmationHash": "present"
+  },
+  "hardRgbCount": 136,
+  "hardRgbHomeSection": [
+    {
+      "path": "/",
+      "id": "tc5tJ8Lai",
+      "name": "Territories Headline",
+      "color": "rgb(28, 27, 22)",
+      "preset": "Arbour/Display",
+      "text": ""
+    },
+    {
+      "path": "/",
+      "id": "PtBYeOGJ9",
+      "name": "Portfolio Date",
+      "color": "rgba(28, 27, 22, 0.55)",
+      "preset": "Arbour/Meta",
+      "text": ""
+    },
+    {
+      "path": "/",
+      "id": "kbwlOX9Ng",
+      "name": "Portfolio Heading",
+      "color": "rgb(28, 27, 22)",
+      "preset": "Arbour/Display",
+      "text": ""
+    },
+    {
+      "path": "/",
+      "id": "Ya1V87AAT",
+      "name": "Process Title",
+      "color": "rgb(28, 27, 22)",
+      "preset": "Arbour/Subhead",
+      "text": ""
+    },
+    {
+      "path": "/",
+      "id": "yyTjiHrht",
+      "name": "Process Body",
+      "color": "rgba(28, 27, 22, 0.6)",
+      "preset": "Arbour/Body",
+      "text": ""
+    },
+    {
+      "path": "/",
+      "id": "qCiQ3sDPT",
+      "name": "Process Title",
+      "color": "rgb(28, 27, 22)",
+      "preset": "Arbour/Subhead",
+      "text": ""
+    },
+    {
+      "path": "/",
+      "id": "cHaFATepk",
+      "name": "Process Body",
+      "color": "rgba(28, 27, 22, 0.6)",
+      "preset": "Arbour/Body",
+      "text": ""
+    },
+    {
+      "path": "/",
+      "id": "hodzRaZtC",
+      "name": "Process Title",
+      "color": "rgb(28, 27, 22)",
+      "preset": "Arbour/Subhead",
+      "text": ""
+    },
+    {
+      "path": "/",
+      "id": "pKoThRnqI",
+      "name": "Process Body",
+      "color": "rgba(28, 27, 22, 0.6)",
+      "preset": "Arbour/Body",
+      "text": ""
+    },
+    {
+      "path": "/",
+      "id": "vPu0KNHzV",
+      "name": "Process Title",
+      "color": "rgb(28, 27, 22)",
+      "preset": "Arbour/Subhead",
+      "text": ""
+    },
+    {
+      "path": "/",
+      "id": "BfHxR6Mqq",
+      "name": "Process Body",
+      "color": "rgba(28, 27, 22, 0.6)",
+      "preset": "Arbour/Body",
+      "text": ""
+    },
+    {
+      "path": "/",
+      "id": "CgZbUoKqS",
+      "name": "Recognition Subtitle",
+      "color": "rgba(28, 27, 22, 0.5)",
+      "preset": "Arbour/Meta",
+      "text": ""
+    },
+    {
+      "path": "/",
+      "id": "tvDLcF4SM",
+      "name": "Recognition Name",
+      "color": "rgb(28, 27, 22)",
+      "preset": "Arbour/Subhead",
+      "text": ""
+    },
+    {
+      "path": "/",
+      "id": "eIx_4L02n",
+      "name": "Recognition Detail",
+      "color": "rgba(28, 27, 22, 0.6)",
+      "preset": "Arbour/Body",
+      "text": ""
+    },
+    {
+      "path": "/",
+      "id": "r89Ro6TLw",
+      "name": "Recognition Name",
+      "color": "rgb(28, 27, 22)",
+      "preset": "Arbour/Subhead",
+      "text": ""
+    },
+    {
+      "path": "/",
+      "id": "GnTo5Eidw",
+      "name": "Recognition Detail",
+      "color": "rgba(28, 27, 22, 0.6)",
+      "preset": "Arbour/Body",
+      "text": ""
+    },
+    {
+      "path": "/",
+      "id": "Vy8nLB6JO",
+      "name": "Recognition Name",
+      "color": "rgb(28, 27, 22)",
+      "preset": "Arbour/Subhead",
+      "text": ""
+    },
+    {
+      "path": "/",
+      "id": "KWirUZuFS",
+      "name": "Recognition Detail",
+      "color": "rgba(28, 27, 22, 0.6)",
+      "preset": "Arbour/Body",
+      "text": ""
+    },
+    {
+      "path": "/",
+      "id": "RfeqPjNz8",
+      "name": "Recognition Name",
+      "color": "rgb(28, 27, 22)",
+      "preset": "Arbour/Subhead",
+      "text": ""
+    },
+    {
+      "path": "/",
+      "id": "MlifSd3kg",
+      "name": "Recognition Detail",
+      "color": "rgba(28, 27, 22, 0.6)",
+      "preset": "Arbour/Body",
+      "text": ""
+    }
+  ]
+}

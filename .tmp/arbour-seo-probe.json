@@ -1,0 +1,26 @@
+{
+  "tried": {
+    "getSEO": "missing",
+    "getPageMetadata": "missing",
+    "getMetadata": "missing",
+    "getSiteSettings": "missing"
+  },
+  "serKeys": [
+    "type",
+    "id",
+    "name",
+    "variables",
+    "$parentId",
+    "$breakpoints",
+    "attributes",
+    "children",
+    "$truncated",
+    "$descendantCount"
+  ],
+  "serAttrs": [
+    "metadata",
+    "path"
+  ],
+  "path": "/",
+  "draft": false
+}

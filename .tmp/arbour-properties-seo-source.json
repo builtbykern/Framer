@@ -1,0 +1,90 @@
+{
+  "seoFieldId": "HTr2Xrqif",
+  "seoFieldType": "string",
+  "rows": [
+    {
+      "id": "O_32H7OFQ",
+      "slug": "cheyne-walk-riverside-residence",
+      "title": "Cheyne Walk Riverside Residence",
+      "location": "Cheyne Walk, Chelsea SW3",
+      "price": "£4,750,000",
+      "bedrooms": 4,
+      "bathrooms": 3,
+      "area": "2,840 sq ft",
+      "status": "For Sale",
+      "desc": "<p dir=\"auto\">Set behind a handsome brick façade on one of Chelsea's most celebrated riverside addresses, this four-bedroom residence has been restored with exceptional care. Reception rooms sit on the raised ground floor, with tall glazing framing views across the Thames towards",
+      "seoDesc": "Cheyne Walk Riverside Residence — Arbour instruction.",
+      "seoFieldId": "HTr2Xrqif"
+    },
+    {
+      "id": "XvxpO6t4m",
+      "slug": "frognal-georgian-villa",
+      "title": "Frognal Georgian Villa",
+      "location": "Frognal, Hampstead NW3",
+      "price": "£8,950,000",
+      "bedrooms": 6,
+      "bathrooms": 5,
+      "area": "5,800 sq ft",
+      "status": "For Sale",
+      "desc": "<p dir=\"auto\">This exceptional Grade II listed villa sits within one of Frognal's finest plots, with mature gardens backing directly onto Hampstead Heath. Elegant proportions and generous ceiling heights define the period reception rooms, where sash windows, panelled walls, and o",
+      "seoDesc": "Frognal Georgian Villa — Arbour instruction.",
+      "seoFieldId": "HTr2Xrqif"
+    },
+    {
+      "id": "UoQUHJmyn",
+      "slug": "bibury-stone-manor",
+      "title": "Bibury Stone Manor",
+      "location": "Bibury, Gloucestershire",
+      "price": "£3,650,000",
+      "bedrooms": 5,
+      "bathrooms": 4,
+      "area": "4,200 sq ft",
+      "status": "For Sale",
+      "desc": "<p dir=\"auto\">Approached along a private gravel drive, this honey-stone manor dates in part to the seventeenth century and has been sympathetically updated to combine period character with modern comfort. Flagstone halls, exposed beams, and deep window seats give the house its Co",
+      "seoDesc": "Bibury Stone Manor — Arbour instruction.",
+      "seoFieldId": "HTr2Xrqif"
+    },
+    {
+      "id": "du52Xg978",
+      "slug": "royal-avenue-lateral-apartment",
+      "title": "Royal Avenue Lateral Apartment",
+      "location": "Royal Avenue, Chelsea SW3",
+      "price": "£2,950,000",
+      "bedrooms": 2,
+      "bathrooms": 2,
+      "area": "1,680 sq ft",
+      "status": "For Sale",
+      "desc": "<p dir=\"auto\">Occupying the entire first floor of an elegant redbrick mansion block, this lateral apartment enjoys a rare private balcony overlooking the plane trees of Royal Avenue. The plan is unmistakably modern: open living, clean sightlines, and a sense of width rarely found",
+      "seoDesc": "Royal Avenue Lateral Apartment — Arbour instruction.",
+      "seoFieldId": "HTr2Xrqif"
+    },
+    {
+      "id": "pJzNUKbbP",
+      "slug": "ladbroke-grove-garden-house",
+      "title": "Ladbroke Grove Garden House",
+      "location": "Ladbroke Grove, Notting Hill W11",
+      "price": "£5,250,000",
+      "bedrooms": 5,
+      "bathrooms": 4,
+      "area": "3,420 sq ft",
+      "status": "For Sale",
+      "desc": "<p dir=\"auto\">A striking contemporary garden house on Ladbroke Grove, offering wonderfully proportioned family accommodation across five floors. The double reception retains original cornicing and working fireplaces, while a glass-walled rear extension draws the courtyard garden ",
+      "seoDesc": "Ladbroke Grove Garden House — Arbour instruction.",
+      "seoFieldId": "HTr2Xrqif"
+    },
+    {
+      "id": "xKchdtkT1",
+      "slug": "colville-mews-house",
+      "title": "Colville Mews House",
+      "location": "Colville Terrace, Notting Hill W11",
+      "price": "£2,450,000",
+      "bedrooms": 3,
+      "bathrooms": 2,
+      "area": "1,420 sq ft",
+      "status": "For Sale",
+      "desc": "<p dir=\"auto\">Tucked along a quiet cobbled mews just off Westbourne Grove, this beautifully finished house has been reconfigured to offer bright, open-plan living across three floors. The brick façade, teal door, and narrow frontage give immediate character the moment you arrive.",
+      "seoDesc": "Colville Mews House — Arbour instruction.",
+      "seoFieldId": "HTr2Xrqif"
+    }
+  ]
+}

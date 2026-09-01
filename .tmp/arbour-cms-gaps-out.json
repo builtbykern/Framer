@@ -1,0 +1,557 @@
+{
+  "collectedAt": "2026-08-09T20:11:57.294Z",
+  "collections": [
+    {
+      "id": "U0QLvHg7O",
+      "name": "Neighbourhoods",
+      "itemCount": 4,
+      "fields": [
+        {
+          "id": "tBUaKupCV",
+          "name": "Name",
+          "type": "string"
+        },
+        {
+          "id": "mNRagFPfJ",
+          "name": "Intro",
+          "type": "string"
+        },
+        {
+          "id": "dM8yn13g7",
+          "name": "Hero Image",
+          "type": "image"
+        },
+        {
+          "id": "ZIEwtEwXa",
+          "name": "Highlights",
+          "type": "string"
+        },
+        {
+          "id": "c8BGAzFA4",
+          "name": "SEO Title",
+          "type": "string"
+        },
+        {
+          "id": "MSw6_cI4R",
+          "name": "SEO Description",
+          "type": "string"
+        },
+        {
+          "id": "ppzgDk7Mi",
+          "name": "Map",
+          "type": "image"
+        }
+      ],
+      "focused": {
+        "emptySlug": [],
+        "emptyPrimaryImage": {
+          "Hero Image": []
+        },
+        "emptySeoTitle": [],
+        "emptySeoDescription": []
+      },
+      "secondaryImageGaps": {
+        "Map": {
+          "emptyCount": 0,
+          "emptySlugs": []
+        }
+      },
+      "fieldGaps": {
+        "Name": {
+          "type": "string",
+          "emptyCount": 0,
+          "emptySlugs": []
+        },
+        "Intro": {
+          "type": "string",
+          "emptyCount": 0,
+          "emptySlugs": []
+        },
+        "Hero Image": {
+          "type": "image",
+          "emptyCount": 0,
+          "emptySlugs": []
+        },
+        "Highlights": {
+          "type": "string",
+          "emptyCount": 0,
+          "emptySlugs": []
+        },
+        "SEO Title": {
+          "type": "string",
+          "emptyCount": 0,
+          "emptySlugs": []
+        },
+        "SEO Description": {
+          "type": "string",
+          "emptyCount": 0,
+          "emptySlugs": []
+        },
+        "Map": {
+          "type": "image",
+          "emptyCount": 0,
+          "emptySlugs": []
+        }
+      },
+      "itemsWithAnyCriticalGap": []
+    },
+    {
+      "id": "CGTgzrUNU",
+      "name": "Agents",
+      "itemCount": 4,
+      "fields": [
+        {
+          "id": "lX7mjgBfH",
+          "name": "Name",
+          "type": "string"
+        },
+        {
+          "id": "q15gxdXUE",
+          "name": "Role",
+          "type": "string"
+        },
+        {
+          "id": "yDq9nQLHC",
+          "name": "Photo",
+          "type": "image"
+        },
+        {
+          "id": "sZNQOVMy4",
+          "name": "Email",
+          "type": "string"
+        },
+        {
+          "id": "EtdQyyBvb",
+          "name": "Phone",
+          "type": "string"
+        }
+      ],
+      "focused": {
+        "emptySlug": [],
+        "emptyPrimaryImage": {
+          "Photo": []
+        },
+        "emptySeoTitle": [],
+        "emptySeoDescription": []
+      },
+      "secondaryImageGaps": {},
+      "fieldGaps": {
+        "Name": {
+          "type": "string",
+          "emptyCount": 0,
+          "emptySlugs": []
+        },
+        "Role": {
+          "type": "string",
+          "emptyCount": 0,
+          "emptySlugs": []
+        },
+        "Photo": {
+          "type": "image",
+          "emptyCount": 0,
+          "emptySlugs": []
+        },
+        "Email": {
+          "type": "string",
+          "emptyCount": 0,
+          "emptySlugs": []
+        },
+        "Phone": {
+          "type": "string",
+          "emptyCount": 0,
+          "emptySlugs": []
+        }
+      },
+      "itemsWithAnyCriticalGap": []
+    },
+    {
+      "id": "VPfyI5Rxz",
+      "name": "Properties",
+      "itemCount": 6,
+      "fields": [
+        {
+          "id": "JpvlXWFTC",
+          "name": "Title",
+          "type": "string"
+        },
+        {
+          "id": "fa3JCTHNW",
+          "name": "Price",
+          "type": "string"
+        },
+        {
+          "id": "sx_scwXZw",
+          "name": "Location",
+          "type": "string"
+        },
+        {
+          "id": "CMUgdu94U",
+          "name": "Neighbourhood",
+          "type": "collectionReference"
+        },
+        {
+          "id": "WHncbRkaV",
+          "name": "Featured",
+          "type": "boolean"
+        },
+        {
+          "id": "NhFNrVQpk",
+          "name": "Bedrooms",
+          "type": "number"
+        },
+        {
+          "id": "eITsJ9En3",
+          "name": "Bathrooms",
+          "type": "number"
+        },
+        {
+          "id": "q4Uo_EM4a",
+          "name": "Area",
+          "type": "string"
+        },
+        {
+          "id": "XbvvpgHkd",
+          "name": "Hero Image",
+          "type": "image"
+        },
+        {
+          "id": "Ofa3NaclH",
+          "name": "Gallery",
+          "type": "array"
+        },
+        {
+          "id": "wPoac275x",
+          "name": "Description",
+          "type": "formattedText"
+        },
+        {
+          "id": "lQmjCV6Uu",
+          "name": "Features",
+          "type": "string"
+        },
+        {
+          "id": "QRdU66YBY",
+          "name": "SEO Title",
+          "type": "string"
+        },
+        {
+          "id": "HTr2Xrqif",
+          "name": "SEO Description",
+          "type": "string"
+        },
+        {
+          "id": "v7H6zOjma",
+          "name": "Status",
+          "type": "enum"
+        },
+        {
+          "id": "PTGBkP8Sq",
+          "name": "Gallery Image One",
+          "type": "image"
+        },
+        {
+          "id": "AZU9d3yUd",
+          "name": "Gallery Image Two",
+          "type": "image"
+        },
+        {
+          "id": "MVdVRzr5d",
+          "name": "Gallery Image Three",
+          "type": "image"
+        },
+        {
+          "id": "bpAC1Cq67",
+          "name": "Asking Price",
+          "type": "number"
+        },
+        {
+          "id": "zQ6nBGiUU",
+          "name": "Gallery Image Four",
+          "type": "image"
+        },
+        {
+          "id": "FCqIX3F0S",
+          "name": "Gallery Narrative",
+          "type": "formattedText"
+        },
+        {
+          "id": "SXn09JG9g",
+          "name": "Journal Entry",
+          "type": "boolean"
+        },
+        {
+          "id": "UJBcXTUYR",
+          "name": "Grid Image Height",
+          "type": "number"
+        }
+      ],
+      "focused": {
+        "emptySlug": [],
+        "emptyPrimaryImage": {
+          "Hero Image": []
+        },
+        "emptySeoTitle": [],
+        "emptySeoDescription": []
+      },
+      "secondaryImageGaps": {
+        "Gallery": {
+          "emptyCount": 0,
+          "emptySlugs": []
+        },
+        "Gallery Image One": {
+          "emptyCount": 0,
+          "emptySlugs": []
+        },
+        "Gallery Image Two": {
+          "emptyCount": 0,
+          "emptySlugs": []
+        },
+        "Gallery Image Three": {
+          "emptyCount": 0,
+          "emptySlugs": []
+        },
+        "Gallery Image Four": {
+          "emptyCount": 0,
+          "emptySlugs": []
+        }
+      },
+      "fieldGaps": {
+        "Title": {
+          "type": "string",
+          "emptyCount": 0,
+          "emptySlugs": []
+        },
+        "Price": {
+          "type": "string",
+          "emptyCount": 0,
+          "emptySlugs": []
+        },
+        "Location": {
+          "type": "string",
+          "emptyCount": 0,
+          "emptySlugs": []
+        },
+        "Neighbourhood": {
+          "type": "collectionReference",
+          "emptyCount": 0,
+          "emptySlugs": []
+        },
+        "Featured": {
+          "type": "boolean",
+          "emptyCount": 0,
+          "emptySlugs": []
+        },
+        "Bedrooms": {
+          "type": "number",
+          "emptyCount": 0,
+          "emptySlugs": []
+        },
+        "Bathrooms": {
+          "type": "number",
+          "emptyCount": 0,
+          "emptySlugs": []
+        },
+        "Area": {
+          "type": "string",
+          "emptyCount": 0,
+          "emptySlugs": []
+        },
+        "Hero Image": {
+          "type": "image",
+          "emptyCount": 0,
+          "emptySlugs": []
+        },
+        "Gallery": {
+          "type": "array",
+          "emptyCount": 0,
+          "emptySlugs": []
+        },
+        "Description": {
+          "type": "formattedText",
+          "emptyCount": 0,
+          "emptySlugs": []
+        },
+        "Features": {
+          "type": "string",
+          "emptyCount": 0,
+          "emptySlugs": []
+        },
+        "SEO Title": {
+          "type": "string",
+          "emptyCount": 0,
+          "emptySlugs": []
+        },
+        "SEO Description": {
+          "type": "string",
+          "emptyCount": 0,
+          "emptySlugs": []
+        },
+        "Status": {
+          "type": "enum",
+          "emptyCount": 0,
+          "emptySlugs": []
+        },
+        "Gallery Image One": {
+          "type": "image",
+          "emptyCount": 0,
+          "emptySlugs": []
+        },
+        "Gallery Image Two": {
+          "type": "image",
+          "emptyCount": 0,
+          "emptySlugs": []
+        },
+        "Gallery Image Three": {
+          "type": "image",
+          "emptyCount": 0,
+          "emptySlugs": []
+        },
+        "Asking Price": {
+          "type": "number",
+          "emptyCount": 0,
+          "emptySlugs": []
+        },
+        "Gallery Image Four": {
+          "type": "image",
+          "emptyCount": 0,
+          "emptySlugs": []
+        },
+        "Gallery Narrative": {
+          "type": "formattedText",
+          "emptyCount": 0,
+          "emptySlugs": []
+        },
+        "Journal Entry": {
+          "type": "boolean",
+          "emptyCount": 0,
+          "emptySlugs": []
+        },
+        "Grid Image Height": {
+          "type": "number",
+          "emptyCount": 0,
+          "emptySlugs": []
+        }
+      },
+      "itemsWithAnyCriticalGap": []
+    },
+    {
+      "id": "HozLKZ9WV",
+      "name": "Journal",
+      "itemCount": 7,
+      "fields": [
+        {
+          "id": "nheUxuW0y",
+          "name": "Title",
+          "type": "string"
+        },
+        {
+          "id": "Ht2pNTkTm",
+          "name": "Category",
+          "type": "string"
+        },
+        {
+          "id": "rZBsxUFGd",
+          "name": "Date",
+          "type": "string"
+        },
+        {
+          "id": "lIhfcSEN0",
+          "name": "Excerpt",
+          "type": "string"
+        },
+        {
+          "id": "UuvdpyCxL",
+          "name": "Cover Image",
+          "type": "image"
+        },
+        {
+          "id": "Sc4W2ROpL",
+          "name": "Featured",
+          "type": "boolean"
+        },
+        {
+          "id": "skpgnx2PE",
+          "name": "Body",
+          "type": "formattedText"
+        },
+        {
+          "id": "ot4fVInCI",
+          "name": "SEO Description",
+          "type": "string"
+        },
+        {
+          "id": "gVQCAVyS2",
+          "name": "Index",
+          "type": "string"
+        },
+        {
+          "id": "wW927Nvg1",
+          "name": "SEO Title",
+          "type": "string"
+        }
+      ],
+      "focused": {
+        "emptySlug": [],
+        "emptyPrimaryImage": {
+          "Cover Image": []
+        },
+        "emptySeoTitle": [],
+        "emptySeoDescription": []
+      },
+      "secondaryImageGaps": {},
+      "fieldGaps": {
+        "Title": {
+          "type": "string",
+          "emptyCount": 0,
+          "emptySlugs": []
+        },
+        "Category": {
+          "type": "string",
+          "emptyCount": 0,
+          "emptySlugs": []
+        },
+        "Date": {
+          "type": "string",
+          "emptyCount": 0,
+          "emptySlugs": []
+        },
+        "Excerpt": {
+          "type": "string",
+          "emptyCount": 0,
+          "emptySlugs": []
+        },
+        "Cover Image": {
+          "type": "image",
+          "emptyCount": 0,
+          "emptySlugs": []
+        },
+        "Featured": {
+          "type": "boolean",
+          "emptyCount": 0,
+          "emptySlugs": []
+        },
+        "Body": {
+          "type": "formattedText",
+          "emptyCount": 0,
+          "emptySlugs": []
+        },
+        "SEO Description": {
+          "type": "string",
+          "emptyCount": 0,
+          "emptySlugs": []
+        },
+        "Index": {
+          "type": "string",
+          "emptyCount": 0,
+          "emptySlugs": []
+        },
+        "SEO Title": {
+          "type": "string",
+          "emptyCount": 0,
+          "emptySlugs": []
+        }
+      },
+      "itemsWithAnyCriticalGap": []
+    }
+  ]
+}

@@ -1,0 +1,58 @@
+[
+  {
+    "name": "Drift_Plane.tsx",
+    "typeErrors": [],
+    "innerFixed": 0,
+    "freeze": true,
+    "reduced": true,
+    "firstReturnHasFixed": false
+  },
+  {
+    "name": "Page_Veil.tsx",
+    "typeErrors": [],
+    "innerFixed": 1,
+    "freeze": true,
+    "reduced": false,
+    "firstReturnHasFixed": false
+  },
+  {
+    "name": "Logo_Menu_Roll.tsx",
+    "typeErrors": [],
+    "innerFixed": 1,
+    "freeze": true,
+    "reduced": true,
+    "firstReturnHasFixed": false
+  },
+  {
+    "name": "Series_Stills.tsx",
+    "typeErrors": [],
+    "innerFixed": 0,
+    "freeze": true,
+    "reduced": true,
+    "firstReturnHasFixed": false
+  },
+  {
+    "name": "Menu_Paper_Reveal.tsx",
+    "typeErrors": [],
+    "innerFixed": 1,
+    "freeze": true,
+    "reduced": true,
+    "firstReturnHasFixed": false
+  },
+  {
+    "name": "Still_Veil.tsx",
+    "typeErrors": [],
+    "innerFixed": 0,
+    "freeze": true,
+    "reduced": false,
+    "firstReturnHasFixed": false
+  },
+  {
+    "name": "Paper_Grain.tsx",
+    "typeErrors": [],
+    "innerFixed": 0,
+    "freeze": false,
+    "reduced": false,
+    "firstReturnHasFixed": false
+  }
+]

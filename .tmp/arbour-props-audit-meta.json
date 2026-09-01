@@ -1,0 +1,263 @@
+{
+  "allPages": [
+    {
+      "id": "augiA20Il",
+      "name": "Home",
+      "path": "/"
+    },
+    {
+      "id": "dZfxmFpqB",
+      "name": "/neighbourhoods",
+      "path": "/neighbourhoods"
+    },
+    {
+      "id": "OdFhPn9yz",
+      "name": "/about",
+      "path": "/about"
+    },
+    {
+      "id": "c7qpzB7hR",
+      "name": "/contact",
+      "path": "/contact"
+    },
+    {
+      "id": "OhRUQROL4",
+      "name": "/properties/:Properties",
+      "path": "/properties/:Properties"
+    },
+    {
+      "id": "uBAGmujMa",
+      "name": "/properties",
+      "path": "/properties"
+    },
+    {
+      "id": "ojmcAsLyM",
+      "name": "/404",
+      "path": "/404"
+    },
+    {
+      "id": "YPPO8pJ92",
+      "name": "/notes/:Journal",
+      "path": "/notes/:Journal"
+    },
+    {
+      "id": "s8RpZIiJ8",
+      "name": "/notes",
+      "path": "/notes"
+    }
+  ],
+  "propsPages": [
+    {
+      "id": "OhRUQROL4",
+      "name": "/properties/:Properties",
+      "path": "/properties/:Properties"
+    },
+    {
+      "id": "uBAGmujMa",
+      "name": "/properties",
+      "path": "/properties"
+    }
+  ]
+}
+LISTING META {
+  "type": "WebPageNode",
+  "id": "uBAGmujMa",
+  "name": "/properties",
+  "variables": [
+    {
+      "key": "$control__filterStatus",
+      "id": "MbD8tn7Et",
+      "name": "Filter Status",
+      "node": "Variable",
+      "type": "string",
+      "queryParam": "filter-status"
+    },
+    {
+      "key": "$control__filterRegion",
+      "id": "naaKEmpBr",
+      "name": "Filter Region",
+      "node": "Variable",
+      "type": "string",
+      "queryParam": "filter-region"
+    },
+    {
+      "key": "$control__filterPrice",
+      "id": "WHaORrtne",
+      "name": "Filter Price",
+      "node": "Variable",
+      "type": "string",
+      "queryParam": "filter-price"
+    },
+    {
+      "key": "$control__filterBeds",
+      "id": "w34ik5yUy",
+      "name": "Filter Beds",
+      "node": "Variable",
+      "type": "string",
+      "queryParam": "filter-beds"
+    },
+    {
+      "key": "$control__neighbourhoodFilter",
+      "id": "VeGWz5YVC",
+      "name": "Neighbourhood Filter",
+      "node": "CollectionReferenceVariable",
+      "type": "single",
+      "collection": "Neighbourhoods",
+      "queryParam": "neighbourhood-filter"
+    },
+    {
+      "key": "$control__availability",
+      "id": "ilQ96ocgq",
+      "name": "Availability",
+      "node": "ControlReferenceVariable",
+      "type": "option",
+      "source": "Properties",
+      "control": "v7H6zOjma",
+      "queryParam": "availability"
+    },
+    {
+      "key": "$control__minPriceFilter",
+      "id": "RJEDdFSrI",
+      "name": "Min Price Filter",
+      "node": "Variable",
+      "type": "number",
+      "queryParam": "min-price-filter"
+    },
+    {
+      "key": "$control__maxPriceFilter",
+      "id": "MO1UzXqjU",
+      "name": "Max Price Filter",
+      "node": "Variable",
+      "type": "number",
+      "queryParam": "max-price-filter"
+    },
+    {
+      "key": "$control__minBedsFilter",
+      "id": "qLVzKQ5S2",
+      "name": "Min Beds Filter",
+      "node": "Variable",
+      "type": "number",
+      "queryParam": "min-beds-filter"
+    },
+    {
+      "key": "$control__x",
+      "id": "KNO8Zxv4k",
+      "name": "x",
+      "node": "CollectionReferenceVariable",
+      "type": "single",
+      "collection": "Neighbourhoods",
+      "queryParam": "x"
+    },
+    {
+      "key": "$control__minPriceFilter",
+      "id": "OTos_tSpE",
+      "name": "Min Price Filter",
+      "node": "Variable",
+      "type": "number",
+      "queryParam": "min-price-filter"
+    },
+    {
+      "key": "$control__maxPriceFilter",
+      "id": "ThGLQ4tz2",
+      "name": "Max Price Filter",
+      "node": "Variable",
+      "type": "number",
+      "queryParam": "max-price-filter"
+    },
+    {
+      "key": "$control__minBedsFilter",
+      "id": "lW4qJF_Jb",
+      "name": "Min Beds Filter",
+      "node": "Variable",
+      "type": "number",
+      "queryParam": "min-beds-filter"
+    },
+    {
+      "key": "$control__statusFilter",
+      "id": "Khh_E75L7",
+      "name": "Status Filter",
+      "node": "Variable",
+      "type": "string",
+      "queryParam": "status-filter"
+    }
+  ],
+  "$parentId": "sn7IXw6X9",
+  "$breakpoints": [
+    {
+      "id": "obfRB9jeb",
+      "name": "Desktop",
+      "mediaQueryRange": "(min-width: 1200px)"
+    },
+    {
+      "id": "SScKalu3B",
+      "name": "Tablet",
+      "mediaQueryRange": "(min-width: 810px) and (max-width: 1199.98px)"
+    },
+    {
+      "id": "EK6d5SyWL",
+      "name": "Phone",
+      "mediaQueryRange": "(max-width: 809.98px)"
+    }
+  ],
+  "attributes": {
+    "metadata": {
+      "title": "Portfolio | Arbour",
+      "description": "Six homes of merit — curated residences for sale across London and the country."
+    },
+    "path": "/properties"
+  },
+  "$truncated": true,
+  "$descendantCount": 927
+}
+DETAIL META {
+  "type": "WebPageNode",
+  "id": "OhRUQROL4",
+  "name": "/properties/:Properties",
+  "variables": [],
+  "$parentId": "sn7IXw6X9",
+  "$breakpoints": [
+    {
+      "id": "ym6hx2Otc",
+      "name": "Desktop",
+      "mediaQueryRange": "(min-width: 1200px)"
+    },
+    {
+      "id": "IQmBTrFpb",
+      "name": "Tablet",
+      "mediaQueryRange": "(min-width: 810px) and (max-width: 1199.98px)"
+    },
+    {
+      "id": "MrTKJzwEL",
+      "name": "Phone",
+      "mediaQueryRange": "(max-width: 809.98px)"
+    }
+  ],
+  "attributes": {
+    "metadata": {
+      "title": "{{SEO Title}}",
+      "description": "{{SEO Description}}"
+    },
+    "path": "/properties/:Properties"
+  },
+  "$truncated": true,
+  "$descendantCount": 450
+}
+PUBLISH {
+  "status": "ready",
+  "changesCount": 2,
+  "errors": []
+}
+PUBINFO {
+  "production": {
+    "deploymentTime": 1785412980372,
+    "optimizationStatus": "optimized",
+    "url": "https://arbour.framer.website",
+    "currentPageUrl": "https://arbour.framer.website/"
+  },
+  "staging": {
+    "deploymentTime": 1785412980372,
+    "optimizationStatus": "optimized",
+    "url": "https://minimum-directions-600719.framer.app",
+    "currentPageUrl": "https://minimum-directions-600719.framer.app/"
+  }
+}

@@ -1,0 +1,136 @@
+{
+  "metadata": {
+    "title": "Arbour — Independent Estate Agency London",
+    "description": "Curated residences across London and the country. Discreet acquisition, disposal, and counsel since 1999."
+  },
+  "hits": [
+    {
+      "bp": "Primary",
+      "id": "AorZcTogz",
+      "display": "Scroll Blur",
+      "component": "eITABUpGF0ytPyxYWYqu",
+      "attrs": {
+        "$control__mode": "Follow Scroll",
+        "$control__strength": "2",
+        "$control__shape": "U",
+        "$control__position": "Bottom"
+      },
+      "path": [
+        "Home",
+        "Desktop"
+      ]
+    },
+    {
+      "bp": "Primary",
+      "id": "U3TeNUVXvAorZcTogz",
+      "display": "Scroll Blur",
+      "component": "eITABUpGF0ytPyxYWYqu",
+      "attrs": {
+        "$control__mode": "Follow Scroll",
+        "$control__strength": "2",
+        "$control__shape": "U",
+        "$control__position": "Bottom"
+      },
+      "path": [
+        "Home",
+        "Tablet"
+      ]
+    },
+    {
+      "bp": "Primary",
+      "id": "pmAxXUJ0oAorZcTogz",
+      "display": "Scroll Blur",
+      "component": "eITABUpGF0ytPyxYWYqu",
+      "attrs": {
+        "$control__mode": "Follow Scroll",
+        "$control__strength": "2",
+        "$control__shape": "U",
+        "$control__position": "Bottom"
+      },
+      "path": [
+        "Home",
+        "Phone"
+      ]
+    }
+  ],
+  "chrome": [
+    {
+      "bp": "Primary",
+      "id": "Wh_PLAvf9",
+      "display": "Nav",
+      "component": "ynpqYJGOd"
+    },
+    {
+      "bp": "Primary",
+      "id": "GYfGDq3cB",
+      "name": "Footer Container",
+      "display": "Footer",
+      "component": "pXUahiblU"
+    },
+    {
+      "bp": "Primary",
+      "id": "U3TeNUVXvWh_PLAvf9",
+      "display": "Nav",
+      "component": "ynpqYJGOd"
+    },
+    {
+      "bp": "Primary",
+      "id": "U3TeNUVXvGYfGDq3cB",
+      "name": "Footer Container",
+      "display": "Footer",
+      "component": "pXUahiblU"
+    },
+    {
+      "bp": "Primary",
+      "id": "pmAxXUJ0oWh_PLAvf9",
+      "display": "Nav",
+      "component": "ynpqYJGOd"
+    },
+    {
+      "bp": "Primary",
+      "id": "pmAxXUJ0oGYfGDq3cB",
+      "name": "Footer Container",
+      "display": "Footer",
+      "component": "pXUahiblU"
+    }
+  ],
+  "fileCount": 18,
+  "fileNames": [
+    "Arbour_ArticleCard.tsx",
+    "Arbour_Copyright.tsx",
+    "Arbour_EditorialReveal.tsx",
+    "Arbour_FormButton.tsx",
+    "Arbour_InertiaFrame.tsx",
+    "Arbour_LoadingScreen.tsx",
+    "Arbour_MenuIcon.tsx",
+    "Arbour_NoiseEffect.tsx",
+    "Arbour_PrimaryButton.tsx",
+    "Arbour_ProgressiveBlur.tsx",
+    "Arbour_PropertyCard.tsx",
+    "Arbour_ScrollCue.tsx",
+    "Arbour_SectionHeader.tsx",
+    "Arbour_SmoothScroll.tsx",
+    "Arbour_StatsBand.tsx",
+    "Arbour_StopScroll.tsx",
+    "Arbour_UnderlineLink.tsx",
+    "HideHorizontalScrollbar.tsx"
+  ],
+  "externals": [
+    {
+      "id": "9ajhXMTvNHa3o84QkAph",
+      "displayName": "Stop Scroll"
+    },
+    {
+      "id": "MxeAzs2A7r9z5wIAtPij",
+      "displayName": "Arbour_TerritoryRail"
+    },
+    {
+      "id": "P52cqIVrKigQv4GmBCap",
+      "displayName": "Arbour_EditorialReveal"
+    },
+    {
+      "id": "eITABUpGF0ytPyxYWYqu",
+      "displayName": "Scroll Blur"
+    }
+  ]
+}

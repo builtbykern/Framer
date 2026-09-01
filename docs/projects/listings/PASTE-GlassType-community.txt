@@ -1,0 +1,19 @@
+Shipped Glass Type. One glass lens over your type. The mouse moves the glass. Type does not.
+
+Two scenes from the panel:
+→ Line — the whole string rises through the lens
+→ Drift — each word walks through once
+
+Play:
+→ Hover — type parked, glass follows
+→ Once — plays through and holds
+→ Loop — rises and falls
+
+Paper transparent on drop. Ink is the letters. Fringe is the rim. Lens is mouse only.
+
+Marketplace: [paste link after publish]
+Preview: https://social-track-366523.framer.app
+
+WDUT — Line on a mark, or Drift across a word?
+
+— BuiltByKern · built brutally well

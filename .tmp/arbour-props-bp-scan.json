@@ -1,0 +1,267 @@
+{
+  "sections": {
+    "D": [
+      {
+        "id": "zFXoY2vSJ",
+        "type": "ComponentInstanceNode",
+        "name": "Arbour_LoadingScreen",
+        "component": "codeFile/QsH9B_M:default"
+      },
+      {
+        "id": "LtrTDICTP",
+        "type": "ComponentInstanceNode",
+        "name": "Arbour_SmoothScroll",
+        "component": "codeFile/lKYHG0I:default"
+      },
+      {
+        "id": "Enop673eO",
+        "type": "FrameNode",
+        "name": "Atmosphere"
+      },
+      {
+        "id": "qyfxlhyLO",
+        "type": "ComponentInstanceNode",
+        "name": "Nav",
+        "component": "ynpqYJGOd"
+      },
+      {
+        "id": "pXUtBMLpu",
+        "type": "FrameNode",
+        "name": "Properties Content"
+      },
+      {
+        "id": "wssGwbNHc",
+        "type": "ComponentInstanceNode",
+        "name": "Footer",
+        "component": "pXUahiblU"
+      }
+    ],
+    "T": [
+      {
+        "id": "SScKalu3BzFXoY2vSJ",
+        "type": "ComponentInstanceNode",
+        "name": "Arbour_LoadingScreen",
+        "component": "codeFile/QsH9B_M:default"
+      },
+      {
+        "id": "SScKalu3BLtrTDICTP",
+        "type": "ComponentInstanceNode",
+        "name": "Arbour_SmoothScroll",
+        "component": "codeFile/lKYHG0I:default"
+      },
+      {
+        "id": "SScKalu3BEnop673eO",
+        "type": "FrameNode",
+        "name": "Atmosphere"
+      },
+      {
+        "id": "SScKalu3BqyfxlhyLO",
+        "type": "ComponentInstanceNode",
+        "name": "Nav",
+        "component": "ynpqYJGOd"
+      },
+      {
+        "id": "SScKalu3BpXUtBMLpu",
+        "type": "FrameNode",
+        "name": "Properties Content"
+      },
+      {
+        "id": "SScKalu3BwssGwbNHc",
+        "type": "ComponentInstanceNode",
+        "name": "Footer",
+        "component": "pXUahiblU"
+      }
+    ],
+    "P": [
+      {
+        "id": "EK6d5SyWLzFXoY2vSJ",
+        "type": "ComponentInstanceNode",
+        "name": "Arbour_LoadingScreen",
+        "component": "codeFile/QsH9B_M:default"
+      },
+      {
+        "id": "EK6d5SyWLLtrTDICTP",
+        "type": "ComponentInstanceNode",
+        "name": "Arbour_SmoothScroll",
+        "component": "codeFile/lKYHG0I:default"
+      },
+      {
+        "id": "EK6d5SyWLEnop673eO",
+        "type": "FrameNode",
+        "name": "Atmosphere"
+      },
+      {
+        "id": "EK6d5SyWLqyfxlhyLO",
+        "type": "ComponentInstanceNode",
+        "name": "Nav",
+        "component": "ynpqYJGOd"
+      },
+      {
+        "id": "EK6d5SyWLpXUtBMLpu",
+        "type": "FrameNode",
+        "name": "Properties Content"
+      },
+      {
+        "id": "EK6d5SyWLwssGwbNHc",
+        "type": "ComponentInstanceNode",
+        "name": "Footer",
+        "component": "pXUahiblU"
+      }
+    ]
+  },
+  "parity": {
+    "D": {
+      "Arbour_LoadingScreen": 1,
+      "Arbour_SmoothScroll": 1,
+      "Arbour_NoiseEffect": 2,
+      "Arbour_ProgressiveBlur": 1,
+      "Nav": 1,
+      "Arbour_InertiaFrame": 12,
+      "Arbour_StatsBand": 1,
+      "Arbour Neighbourhood Feature": 1,
+      "Footer": 1
+    },
+    "T": {
+      "Arbour_LoadingScreen": 1,
+      "Arbour_SmoothScroll": 1,
+      "Arbour_NoiseEffect": 2,
+      "Arbour_ProgressiveBlur": 1,
+      "Nav": 1,
+      "Arbour_InertiaFrame": 12,
+      "Arbour_StatsBand": 1,
+      "Arbour Neighbourhood Feature": 1,
+      "Footer": 1
+    },
+    "P": {
+      "Arbour_LoadingScreen": 1,
+      "Arbour_SmoothScroll": 1,
+      "Arbour_NoiseEffect": 2,
+      "Arbour_ProgressiveBlur": 1,
+      "Nav": 1,
+      "Arbour_InertiaFrame": 12,
+      "Arbour_StatsBand": 1,
+      "Arbour Neighbourhood Feature": 1,
+      "Footer": 1
+    }
+  },
+  "extHits": {
+    "D": [],
+    "T": [],
+    "P": []
+  },
+  "underlineLinks": {
+    "D": [],
+    "T": [],
+    "P": []
+  },
+  "propertyCards": {
+    "D": []
+  },
+  "allCompNamesD": [
+    {
+      "id": "zFXoY2vSJ",
+      "name": "Arbour_LoadingScreen",
+      "component": "codeFile/QsH9B_M:default"
+    },
+    {
+      "id": "LtrTDICTP",
+      "name": "Arbour_SmoothScroll",
+      "component": "codeFile/lKYHG0I:default"
+    },
+    {
+      "id": "BkebzBLil",
+      "name": "Arbour_NoiseEffect",
+      "component": "codeFile/IwchU7y:default"
+    },
+    {
+      "id": "nxB2bxcYs",
+      "name": "Arbour_ProgressiveBlur",
+      "component": "codeFile/fOrMtU2:default"
+    },
+    {
+      "id": "qyfxlhyLO",
+      "name": "Nav",
+      "component": "ynpqYJGOd"
+    },
+    {
+      "id": "SumtJ2osG",
+      "name": "Arbour_InertiaFrame",
+      "component": "codeFile/zQElsPn:default"
+    },
+    {
+      "id": "U9fxvbDiH",
+      "name": "Arbour_InertiaFrame",
+      "component": "codeFile/zQElsPn:default"
+    },
+    {
+      "id": "FkX2QLf1Z",
+      "name": "Arbour_InertiaFrame",
+      "component": "codeFile/zQElsPn:default"
+    },
+    {
+      "id": "fEGVsch7t",
+      "name": "Arbour_InertiaFrame",
+      "component": "codeFile/zQElsPn:default"
+    },
+    {
+      "id": "TSuPzJXDb",
+      "name": "Arbour_InertiaFrame",
+      "component": "codeFile/zQElsPn:default"
+    },
+    {
+      "id": "omXW8r8rk",
+      "name": "Arbour_InertiaFrame",
+      "component": "codeFile/zQElsPn:default"
+    },
+    {
+      "id": "NqSCRkIwt",
+      "name": "Arbour_InertiaFrame",
+      "component": "codeFile/zQElsPn:default"
+    },
+    {
+      "id": "GgR3KBmG6",
+      "name": "Arbour_InertiaFrame",
+      "component": "codeFile/zQElsPn:default"
+    },
+    {
+      "id": "lBP_p9mIW",
+      "name": "Arbour_InertiaFrame",
+      "component": "codeFile/zQElsPn:default"
+    },
+    {
+      "id": "nlHEVcC6M",
+      "name": "Arbour_InertiaFrame",
+      "component": "codeFile/zQElsPn:default"
+    },
+    {
+      "id": "eusRBnAM1",
+      "name": "Arbour_InertiaFrame",
+      "component": "codeFile/zQElsPn:default"
+    },
+    {
+      "id": "raPNd26Vk",
+      "name": "Arbour_InertiaFrame",
+      "component": "codeFile/zQElsPn:default"
+    },
+    {
+      "id": "d65nHXHKZ",
+      "name": "Arbour_StatsBand",
+      "component": "codeFile/KzA2jsd:default"
+    },
+    {
+      "id": "yupGO6JVW",
+      "name": "Arbour Neighbourhood Feature",
+      "component": "HA6ZLKBrB"
+    },
+    {
+      "id": "V_m88mojx",
+      "name": "Arbour_NoiseEffect",
+      "component": "codeFile/IwchU7y:default"
+    },
+    {
+      "id": "wssGwbNHc",
+      "name": "Footer",
+      "component": "pXUahiblU"
+    }
+  ]
+}

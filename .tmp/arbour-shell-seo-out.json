@@ -1,0 +1,710 @@
+{
+  "shell": [
+    {
+      "path": "/",
+      "bp": "Desktop",
+      "hit": {
+        "Atmosphere": true,
+        "Noise": false,
+        "Scroll Blur": false,
+        "ScrollCue": false,
+        "Nav": true,
+        "Footer": true
+      },
+      "top": [
+        "Atmosphere",
+        "Nav",
+        "Hero Section",
+        "Territories Section",
+        "Portfolio Section",
+        "Bottom",
+        "Process Section",
+        "Arbour_StatsBand",
+        "Recognition Section",
+        "Testimonial Section",
+        "Journal",
+        "Footer"
+      ]
+    },
+    {
+      "path": "/",
+      "bp": "Tablet",
+      "hit": {
+        "Atmosphere": true,
+        "Noise": false,
+        "Scroll Blur": false,
+        "ScrollCue": false,
+        "Nav": true,
+        "Footer": true
+      },
+      "top": [
+        "Atmosphere",
+        "Nav",
+        "Hero Section",
+        "Territories Section",
+        "Portfolio Section",
+        "Bottom",
+        "Process Section",
+        "Arbour_StatsBand",
+        "Recognition Section",
+        "Testimonial Section",
+        "Journal",
+        "Footer"
+      ]
+    },
+    {
+      "path": "/",
+      "bp": "Phone",
+      "hit": {
+        "Atmosphere": true,
+        "Noise": false,
+        "Scroll Blur": false,
+        "ScrollCue": false,
+        "Nav": true,
+        "Footer": true
+      },
+      "top": [
+        "Atmosphere",
+        "Nav",
+        "Hero Section",
+        "Territories Section",
+        "Portfolio Section",
+        "Bottom",
+        "Process Section",
+        "Arbour_StatsBand",
+        "Recognition Section",
+        "Testimonial Section",
+        "Journal",
+        "Footer"
+      ]
+    },
+    {
+      "path": "/properties",
+      "bp": "Desktop",
+      "hit": {
+        "Atmosphere": true,
+        "Noise": false,
+        "Scroll Blur": false,
+        "ScrollCue": false,
+        "Nav": true,
+        "Footer": true
+      },
+      "top": [
+        "Atmosphere",
+        "Nav",
+        "Properties Content",
+        "Footer"
+      ]
+    },
+    {
+      "path": "/properties",
+      "bp": "Tablet",
+      "hit": {
+        "Atmosphere": true,
+        "Noise": false,
+        "Scroll Blur": false,
+        "ScrollCue": false,
+        "Nav": true,
+        "Footer": true
+      },
+      "top": [
+        "Atmosphere",
+        "Nav",
+        "Properties Content",
+        "Footer"
+      ]
+    },
+    {
+      "path": "/properties",
+      "bp": "Phone",
+      "hit": {
+        "Atmosphere": true,
+        "Noise": false,
+        "Scroll Blur": false,
+        "ScrollCue": false,
+        "Nav": true,
+        "Footer": true
+      },
+      "top": [
+        "Atmosphere",
+        "Nav",
+        "Properties Content",
+        "Footer"
+      ]
+    },
+    {
+      "path": "/neighbourhoods",
+      "bp": "Desktop",
+      "hit": {
+        "Atmosphere": true,
+        "Noise": false,
+        "Scroll Blur": false,
+        "ScrollCue": false,
+        "Nav": true,
+        "Footer": true
+      },
+      "top": [
+        "Atmosphere",
+        "Nav",
+        "Neighbourhoods Content",
+        "Footer"
+      ]
+    },
+    {
+      "path": "/neighbourhoods",
+      "bp": "Tablet",
+      "hit": {
+        "Atmosphere": true,
+        "Noise": false,
+        "Scroll Blur": false,
+        "ScrollCue": false,
+        "Nav": true,
+        "Footer": true
+      },
+      "top": [
+        "Atmosphere",
+        "Nav",
+        "Neighbourhoods Content",
+        "Footer"
+      ]
+    },
+    {
+      "path": "/neighbourhoods",
+      "bp": "Phone",
+      "hit": {
+        "Atmosphere": true,
+        "Noise": false,
+        "Scroll Blur": false,
+        "ScrollCue": false,
+        "Nav": true,
+        "Footer": true
+      },
+      "top": [
+        "Atmosphere",
+        "Nav",
+        "Neighbourhoods Content",
+        "Footer"
+      ]
+    },
+    {
+      "path": "/notes",
+      "bp": "Desktop",
+      "hit": {
+        "Atmosphere": true,
+        "Noise": false,
+        "Scroll Blur": false,
+        "ScrollCue": false,
+        "Nav": true,
+        "Footer": true
+      },
+      "top": [
+        "Atmosphere",
+        "Nav",
+        "Journal",
+        "Journal Manifesto",
+        "Footer"
+      ]
+    },
+    {
+      "path": "/notes",
+      "bp": "Tablet",
+      "hit": {
+        "Atmosphere": true,
+        "Noise": false,
+        "Scroll Blur": false,
+        "ScrollCue": false,
+        "Nav": true,
+        "Footer": true
+      },
+      "top": [
+        "Atmosphere",
+        "Nav",
+        "Journal",
+        "Journal Manifesto",
+        "Footer"
+      ]
+    },
+    {
+      "path": "/notes",
+      "bp": "Phone",
+      "hit": {
+        "Atmosphere": true,
+        "Noise": false,
+        "Scroll Blur": false,
+        "ScrollCue": false,
+        "Nav": true,
+        "Footer": true
+      },
+      "top": [
+        "Atmosphere",
+        "Nav",
+        "Journal",
+        "Journal Manifesto",
+        "Footer"
+      ]
+    },
+    {
+      "path": "/about",
+      "bp": "Desktop",
+      "hit": {
+        "Atmosphere": true,
+        "Noise": false,
+        "Scroll Blur": false,
+        "ScrollCue": false,
+        "Nav": true,
+        "Footer": true
+      },
+      "top": [
+        "Atmosphere",
+        "Nav",
+        "Beat 1 — Portrait Stage",
+        "Beat 2 — Cinematic Image",
+        "Beat 3 — Manifesto",
+        "Editorial Pause — Arbour in Practice",
+        "Chapter — The Principals",
+        "Chapter — Two Offices",
+        "Enquiry CTA",
+        "Footer"
+      ]
+    },
+    {
+      "path": "/about",
+      "bp": "Tablet",
+      "hit": {
+        "Atmosphere": true,
+        "Noise": false,
+        "Scroll Blur": false,
+        "ScrollCue": false,
+        "Nav": true,
+        "Footer": true
+      },
+      "top": [
+        "Atmosphere",
+        "Nav",
+        "Beat 1 — Portrait Stage",
+        "Beat 2 — Cinematic Image",
+        "Beat 3 — Manifesto",
+        "Editorial Pause — Arbour in Practice",
+        "Chapter — The Principals",
+        "Chapter — Two Offices",
+        "Enquiry CTA",
+        "Footer"
+      ]
+    },
+    {
+      "path": "/about",
+      "bp": "Phone",
+      "hit": {
+        "Atmosphere": true,
+        "Noise": false,
+        "Scroll Blur": false,
+        "ScrollCue": false,
+        "Nav": true,
+        "Footer": true
+      },
+      "top": [
+        "Atmosphere",
+        "Nav",
+        "Beat 1 — Portrait Stage",
+        "Beat 2 — Cinematic Image",
+        "Beat 3 — Manifesto",
+        "Editorial Pause — Arbour in Practice",
+        "Chapter — The Principals",
+        "Chapter — Two Offices",
+        "Enquiry CTA",
+        "Footer"
+      ]
+    },
+    {
+      "path": "/contact",
+      "bp": "Desktop",
+      "hit": {
+        "Atmosphere": true,
+        "Noise": false,
+        "Scroll Blur": false,
+        "ScrollCue": false,
+        "Nav": true,
+        "Footer": true
+      },
+      "top": [
+        "Atmosphere",
+        "Nav",
+        "Contact Hero",
+        "Contact Opening",
+        "Private Consultation Pause",
+        "Journal",
+        "Footer"
+      ]
+    },
+    {
+      "path": "/contact",
+      "bp": "Tablet",
+      "hit": {
+        "Atmosphere": true,
+        "Noise": false,
+        "Scroll Blur": false,
+        "ScrollCue": false,
+        "Nav": true,
+        "Footer": true
+      },
+      "top": [
+        "Atmosphere",
+        "Nav",
+        "Contact Hero",
+        "Contact Opening",
+        "Private Consultation Pause",
+        "Journal",
+        "Footer"
+      ]
+    },
+    {
+      "path": "/contact",
+      "bp": "Phone",
+      "hit": {
+        "Atmosphere": true,
+        "Noise": false,
+        "Scroll Blur": false,
+        "ScrollCue": false,
+        "Nav": true,
+        "Footer": true
+      },
+      "top": [
+        "Atmosphere",
+        "Nav",
+        "Contact Hero",
+        "Contact Opening",
+        "Private Consultation Pause",
+        "Journal",
+        "Footer"
+      ]
+    },
+    {
+      "path": "/properties/:slug",
+      "bp": "Desktop",
+      "hit": {
+        "Atmosphere": true,
+        "Noise": false,
+        "Scroll Blur": false,
+        "ScrollCue": false,
+        "Nav": true,
+        "Footer": true
+      },
+      "top": [
+        "Atmosphere",
+        "Nav",
+        "Property Hero",
+        "Property Specs Band",
+        "Chapter Intro",
+        "Cinematic Gallery",
+        "The Setting",
+        "Property Particulars",
+        "Continue Your Search",
+        "Enquiry CTA",
+        "Footer"
+      ]
+    },
+    {
+      "path": "/properties/:slug",
+      "bp": "Tablet",
+      "hit": {
+        "Atmosphere": true,
+        "Noise": false,
+        "Scroll Blur": false,
+        "ScrollCue": false,
+        "Nav": true,
+        "Footer": true
+      },
+      "top": [
+        "Atmosphere",
+        "Nav",
+        "Property Hero",
+        "Property Specs Band",
+        "Chapter Intro",
+        "Cinematic Gallery",
+        "The Setting",
+        "Property Particulars",
+        "Continue Your Search",
+        "Enquiry CTA",
+        "Footer"
+      ]
+    },
+    {
+      "path": "/properties/:slug",
+      "bp": "Phone",
+      "hit": {
+        "Atmosphere": true,
+        "Noise": false,
+        "Scroll Blur": false,
+        "ScrollCue": false,
+        "Nav": true,
+        "Footer": true
+      },
+      "top": [
+        "Atmosphere",
+        "Nav",
+        "Property Hero",
+        "Property Specs Band",
+        "Chapter Intro",
+        "Cinematic Gallery",
+        "The Setting",
+        "Property Particulars",
+        "Continue Your Search",
+        "Enquiry CTA",
+        "Footer"
+      ]
+    },
+    {
+      "path": "/notes/:slug",
+      "bp": "Desktop",
+      "hit": {
+        "Atmosphere": true,
+        "Noise": false,
+        "Scroll Blur": false,
+        "ScrollCue": false,
+        "Nav": true,
+        "Footer": true
+      },
+      "top": [
+        "Atmosphere",
+        "Nav",
+        "Article Hero Meta",
+        "Journal Hero Image",
+        "Article Body Wrap",
+        "Journal Text Column",
+        "More From Journal",
+        "Specs Strip",
+        "Closing Chapter",
+        "Footer"
+      ]
+    },
+    {
+      "path": "/notes/:slug",
+      "bp": "Tablet",
+      "hit": {
+        "Atmosphere": true,
+        "Noise": false,
+        "Scroll Blur": false,
+        "ScrollCue": false,
+        "Nav": true,
+        "Footer": true
+      },
+      "top": [
+        "Atmosphere",
+        "Nav",
+        "Article Hero Meta",
+        "Journal Hero Image",
+        "Article Body Wrap",
+        "Journal Text Column",
+        "More From Journal",
+        "Specs Strip",
+        "Closing Chapter",
+        "Footer"
+      ]
+    },
+    {
+      "path": "/notes/:slug",
+      "bp": "Phone",
+      "hit": {
+        "Atmosphere": true,
+        "Noise": false,
+        "Scroll Blur": false,
+        "ScrollCue": false,
+        "Nav": true,
+        "Footer": true
+      },
+      "top": [
+        "Atmosphere",
+        "Nav",
+        "Article Hero Meta",
+        "Journal Hero Image",
+        "Article Body Wrap",
+        "Journal Text Column",
+        "More From Journal",
+        "Specs Strip",
+        "Closing Chapter",
+        "Footer"
+      ]
+    },
+    {
+      "path": "/404",
+      "bp": "Desktop",
+      "hit": {
+        "Atmosphere": true,
+        "Noise": false,
+        "Scroll Blur": false,
+        "ScrollCue": false,
+        "Nav": false,
+        "Footer": false
+      },
+      "top": [
+        "Atmosphere",
+        "404 — Lost Address"
+      ]
+    },
+    {
+      "path": "/404",
+      "bp": "Tablet",
+      "hit": {
+        "Atmosphere": true,
+        "Noise": false,
+        "Scroll Blur": false,
+        "ScrollCue": false,
+        "Nav": false,
+        "Footer": false
+      },
+      "top": [
+        "Atmosphere",
+        "404 — Lost Address"
+      ]
+    },
+    {
+      "path": "/404",
+      "bp": "Phone",
+      "hit": {
+        "Atmosphere": true,
+        "Noise": false,
+        "Scroll Blur": false,
+        "ScrollCue": false,
+        "Nav": false,
+        "Footer": false
+      },
+      "top": [
+        "Atmosphere",
+        "404 — Lost Address"
+      ]
+    }
+  ],
+  "seo2": [
+    {
+      "path": "/",
+      "title": null,
+      "description": null,
+      "keys": [
+        "id",
+        "originalId",
+        "__class",
+        "path",
+        "collectionId",
+        "draft"
+      ]
+    },
+    {
+      "path": "/properties",
+      "title": null,
+      "description": null,
+      "keys": [
+        "id",
+        "originalId",
+        "__class",
+        "path",
+        "collectionId",
+        "draft"
+      ]
+    },
+    {
+      "path": "/neighbourhoods",
+      "title": null,
+      "description": null,
+      "keys": [
+        "id",
+        "originalId",
+        "__class",
+        "path",
+        "collectionId",
+        "draft"
+      ]
+    },
+    {
+      "path": "/notes",
+      "title": null,
+      "description": null,
+      "keys": [
+        "id",
+        "originalId",
+        "__class",
+        "path",
+        "collectionId",
+        "draft"
+      ]
+    },
+    {
+      "path": "/about",
+      "title": null,
+      "description": null,
+      "keys": [
+        "id",
+        "originalId",
+        "__class",
+        "path",
+        "collectionId",
+        "draft"
+      ]
+    },
+    {
+      "path": "/contact",
+      "title": null,
+      "description": null,
+      "keys": [
+        "id",
+        "originalId",
+        "__class",
+        "path",
+        "collectionId",
+        "draft"
+      ]
+    },
+    {
+      "path": "/properties/:slug",
+      "title": null,
+      "description": null,
+      "keys": [
+        "id",
+        "originalId",
+        "__class",
+        "path",
+        "collectionId",
+        "draft"
+      ]
+    },
+    {
+      "path": "/notes/:slug",
+      "title": null,
+      "description": null,
+      "keys": [
+        "id",
+        "originalId",
+        "__class",
+        "path",
+        "collectionId",
+        "draft"
+      ]
+    },
+    {
+      "path": "/404",
+      "title": null,
+      "description": null,
+      "keys": [
+        "id",
+        "originalId",
+        "__class",
+        "path",
+        "collectionId",
+        "draft"
+      ]
+    }
+  ],
+  "publish": {
+    "production": {
+      "deploymentTime": 1786305856986,
+      "optimizationStatus": "optimized",
+      "url": "https://arbour.framer.website",
+      "currentPageUrl": "https://arbour.framer.website/"
+    },
+    "staging": {
+      "deploymentTime": 1786305856986,
+      "optimizationStatus": "optimized",
+      "url": "https://minimum-directions-600719.framer.app",
+      "currentPageUrl": "https://minimum-directions-600719.framer.app/"
+    }
+  }
+}

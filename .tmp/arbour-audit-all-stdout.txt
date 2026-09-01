@@ -1,0 +1,15 @@
+{
+  "ok": true,
+  "mode": "all",
+  "sessionId": "3",
+  "projectId": "CmRyHJKPrPE6BZhC6d4S",
+  "projectName": "Arbour",
+  "collectionCount": 4,
+  "codeFileCount": 16,
+  "colorStyleCount": 22,
+  "textStyleCount": 10,
+  "componentHeuristicFlags": [],
+  "motionStaticRisk": [],
+  "path": "state/last-audit.json",
+  "next": "Judge findings with workflows/audit.md checklists; do not edit yet."
+}

@@ -1,0 +1,12 @@
+{
+  "applied": 18,
+  "notes": [
+    "Rail Property 01 aspect=1.507 h→auto",
+    "Rail Property 02 aspect=1.5 h→auto",
+    "Rail Property 03 aspect=1.368 h→auto",
+    "Rail Property 04 aspect=1.244 h→auto",
+    "Rail Property 05 aspect=1.417 h→auto",
+    "Rail Property 06 aspect=1.563 h→auto"
+  ],
+  "result": "Commands applied cleanly."
+}

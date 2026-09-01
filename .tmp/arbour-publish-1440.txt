@@ -1,0 +1,48 @@
+{
+  "status": "ready",
+  "changesCount": 9,
+  "errors": [],
+  "warnings": [],
+  "confirmationHash": "1estci7",
+  "message": "Review changelog and warnings, then confirm publish with confirmationHash \"1estci7\"."
+}
+{
+  "via": "confirm_publish",
+  "published": {
+    "action": "confirm_publish",
+    "status": "published",
+    "message": "Site published to production (version 46a48fa1d).",
+    "stagingEnabled": false,
+    "publishTarget": "production",
+    "versions": [
+      {
+        "id": "46a48fa1d",
+        "timestamp": 1786299793,
+        "publishedBy": "BuiltBy Kern"
+      }
+    ],
+    "urls": {
+      "production": "https://arbour.framer.website",
+      "published": "https://arbour.framer.website"
+    },
+    "version": {
+      "id": "46a48fa1d"
+    }
+  }
+}
+{
+  "publishInfo": {
+    "production": {
+      "deploymentTime": 1786299793420,
+      "optimizationStatus": "optimizing",
+      "url": "https://arbour.framer.website",
+      "currentPageUrl": "https://arbour.framer.website/"
+    },
+    "staging": {
+      "deploymentTime": 1786299793420,
+      "optimizationStatus": "optimizing",
+      "url": "https://minimum-directions-600719.framer.app",
+      "currentPageUrl": "https://minimum-directions-600719.framer.app/"
+    }
+  }
+}

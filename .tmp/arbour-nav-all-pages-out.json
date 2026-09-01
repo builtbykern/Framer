@@ -1,0 +1,1166 @@
+{
+  "pages": [
+    {
+      "path": "/",
+      "breakpoints": [
+        {
+          "bp": "Desktop",
+          "navCount": 1,
+          "navs": [
+            {
+              "name": "Nav",
+              "id": "CLzbrTVVb",
+              "w": "100%",
+              "mw": null,
+              "h": "auto",
+              "pos": "fixed",
+              "top": "0px",
+              "left": "0px",
+              "right": "null",
+              "bottom": "null",
+              "z": "10",
+              "pad": null,
+              "opacity": null,
+              "visible": null,
+              "cid": "",
+              "index": 1
+            }
+          ],
+          "navIndex": 1,
+          "topCount": 12
+        },
+        {
+          "bp": "Tablet",
+          "navCount": 1,
+          "navs": [
+            {
+              "name": "Nav",
+              "id": "wBAtV56MECLzbrTVVb",
+              "w": "100%",
+              "mw": null,
+              "h": "auto",
+              "pos": "fixed",
+              "top": "0px",
+              "left": "0px",
+              "right": "null",
+              "bottom": "null",
+              "z": "10",
+              "pad": null,
+              "opacity": null,
+              "visible": null,
+              "cid": "",
+              "index": 1
+            }
+          ],
+          "navIndex": 1,
+          "topCount": 12
+        },
+        {
+          "bp": "Phone",
+          "navCount": 1,
+          "navs": [
+            {
+              "name": "Nav",
+              "id": "mcL3MFzFVCLzbrTVVb",
+              "w": "100%",
+              "mw": null,
+              "h": "auto",
+              "pos": "fixed",
+              "top": "0px",
+              "left": "0px",
+              "right": "null",
+              "bottom": "null",
+              "z": "10",
+              "pad": null,
+              "opacity": null,
+              "visible": null,
+              "cid": "",
+              "index": 1
+            }
+          ],
+          "navIndex": 1,
+          "topCount": 12
+        }
+      ]
+    },
+    {
+      "path": "/properties",
+      "breakpoints": [
+        {
+          "bp": "Desktop",
+          "navCount": 1,
+          "navs": [
+            {
+              "name": "Nav",
+              "id": "qyfxlhyLO",
+              "w": "100%",
+              "mw": null,
+              "h": "auto",
+              "pos": "fixed",
+              "top": "0px",
+              "left": "0px",
+              "right": "null",
+              "bottom": "null",
+              "z": "10",
+              "pad": null,
+              "opacity": null,
+              "visible": null,
+              "cid": "",
+              "index": 1
+            }
+          ],
+          "navIndex": 1,
+          "topCount": 4
+        },
+        {
+          "bp": "Tablet",
+          "navCount": 1,
+          "navs": [
+            {
+              "name": "Nav",
+              "id": "SScKalu3BqyfxlhyLO",
+              "w": "100%",
+              "mw": null,
+              "h": "auto",
+              "pos": "fixed",
+              "top": "0px",
+              "left": "0px",
+              "right": "null",
+              "bottom": "null",
+              "z": "10",
+              "pad": null,
+              "opacity": null,
+              "visible": null,
+              "cid": "",
+              "index": 1
+            }
+          ],
+          "navIndex": 1,
+          "topCount": 4
+        },
+        {
+          "bp": "Phone",
+          "navCount": 1,
+          "navs": [
+            {
+              "name": "Nav",
+              "id": "EK6d5SyWLqyfxlhyLO",
+              "w": "100%",
+              "mw": null,
+              "h": "auto",
+              "pos": "fixed",
+              "top": "0px",
+              "left": "0px",
+              "right": "null",
+              "bottom": "null",
+              "z": "10",
+              "pad": null,
+              "opacity": null,
+              "visible": null,
+              "cid": "",
+              "index": 1
+            }
+          ],
+          "navIndex": 1,
+          "topCount": 4
+        }
+      ]
+    },
+    {
+      "path": "/neighbourhoods",
+      "breakpoints": [
+        {
+          "bp": "Desktop",
+          "navCount": 1,
+          "navs": [
+            {
+              "name": "Nav",
+              "id": "Y_7x1hvx_",
+              "w": "100%",
+              "mw": null,
+              "h": "auto",
+              "pos": "fixed",
+              "top": "0px",
+              "left": "0px",
+              "right": "null",
+              "bottom": "null",
+              "z": "10",
+              "pad": null,
+              "opacity": null,
+              "visible": null,
+              "cid": "",
+              "index": 1
+            }
+          ],
+          "navIndex": 1,
+          "topCount": 4
+        },
+        {
+          "bp": "Tablet",
+          "navCount": 1,
+          "navs": [
+            {
+              "name": "Nav",
+              "id": "aJLpuUP0qY_7x1hvx_",
+              "w": "100%",
+              "mw": null,
+              "h": "auto",
+              "pos": "fixed",
+              "top": "0px",
+              "left": "0px",
+              "right": "null",
+              "bottom": "null",
+              "z": "10",
+              "pad": null,
+              "opacity": null,
+              "visible": null,
+              "cid": "",
+              "index": 1
+            }
+          ],
+          "navIndex": 1,
+          "topCount": 4
+        },
+        {
+          "bp": "Phone",
+          "navCount": 1,
+          "navs": [
+            {
+              "name": "Nav",
+              "id": "Qonafp_oDY_7x1hvx_",
+              "w": "100%",
+              "mw": null,
+              "h": "auto",
+              "pos": "fixed",
+              "top": "0px",
+              "left": "0px",
+              "right": "null",
+              "bottom": "null",
+              "z": "10",
+              "pad": null,
+              "opacity": null,
+              "visible": null,
+              "cid": "",
+              "index": 1
+            }
+          ],
+          "navIndex": 1,
+          "topCount": 4
+        }
+      ]
+    },
+    {
+      "path": "/notes",
+      "breakpoints": [
+        {
+          "bp": "Desktop",
+          "navCount": 1,
+          "navs": [
+            {
+              "name": "Nav",
+              "id": "NwqSydI2k",
+              "w": "100%",
+              "mw": null,
+              "h": "auto",
+              "pos": "fixed",
+              "top": "0px",
+              "left": "0px",
+              "right": "null",
+              "bottom": "null",
+              "z": "10",
+              "pad": null,
+              "opacity": null,
+              "visible": null,
+              "cid": "",
+              "index": 1
+            }
+          ],
+          "navIndex": 1,
+          "topCount": 5
+        },
+        {
+          "bp": "Tablet",
+          "navCount": 1,
+          "navs": [
+            {
+              "name": "Nav",
+              "id": "LptqEiXVpNwqSydI2k",
+              "w": "100%",
+              "mw": null,
+              "h": "auto",
+              "pos": "fixed",
+              "top": "0px",
+              "left": "0px",
+              "right": "null",
+              "bottom": "null",
+              "z": "10",
+              "pad": null,
+              "opacity": null,
+              "visible": null,
+              "cid": "",
+              "index": 1
+            }
+          ],
+          "navIndex": 1,
+          "topCount": 5
+        },
+        {
+          "bp": "Phone",
+          "navCount": 1,
+          "navs": [
+            {
+              "name": "Nav",
+              "id": "INUKgvAnaNwqSydI2k",
+              "w": "100%",
+              "mw": null,
+              "h": "auto",
+              "pos": "fixed",
+              "top": "0px",
+              "left": "0px",
+              "right": "null",
+              "bottom": "null",
+              "z": "10",
+              "pad": null,
+              "opacity": null,
+              "visible": null,
+              "cid": "",
+              "index": 1
+            }
+          ],
+          "navIndex": 1,
+          "topCount": 5
+        }
+      ]
+    },
+    {
+      "path": "/about",
+      "breakpoints": [
+        {
+          "bp": "Desktop",
+          "navCount": 1,
+          "navs": [
+            {
+              "name": "Nav",
+              "id": "MHsCYYNA7",
+              "w": "100%",
+              "mw": null,
+              "h": "auto",
+              "pos": "fixed",
+              "top": "0px",
+              "left": "0px",
+              "right": "null",
+              "bottom": "null",
+              "z": "10",
+              "pad": null,
+              "opacity": null,
+              "visible": null,
+              "cid": "",
+              "index": 1
+            }
+          ],
+          "navIndex": 1,
+          "topCount": 10
+        },
+        {
+          "bp": "Tablet",
+          "navCount": 1,
+          "navs": [
+            {
+              "name": "Nav",
+              "id": "xvqDXw58eMHsCYYNA7",
+              "w": "100%",
+              "mw": null,
+              "h": "auto",
+              "pos": "fixed",
+              "top": "0px",
+              "left": "0px",
+              "right": "null",
+              "bottom": "null",
+              "z": "10",
+              "pad": null,
+              "opacity": null,
+              "visible": null,
+              "cid": "",
+              "index": 1
+            }
+          ],
+          "navIndex": 1,
+          "topCount": 10
+        },
+        {
+          "bp": "Phone",
+          "navCount": 1,
+          "navs": [
+            {
+              "name": "Nav",
+              "id": "CYNrpU04tMHsCYYNA7",
+              "w": "100%",
+              "mw": null,
+              "h": "auto",
+              "pos": "fixed",
+              "top": "0px",
+              "left": "0px",
+              "right": "null",
+              "bottom": "null",
+              "z": "10",
+              "pad": null,
+              "opacity": null,
+              "visible": null,
+              "cid": "",
+              "index": 1
+            }
+          ],
+          "navIndex": 1,
+          "topCount": 10
+        }
+      ]
+    },
+    {
+      "path": "/contact",
+      "breakpoints": [
+        {
+          "bp": "Desktop",
+          "navCount": 1,
+          "navs": [
+            {
+              "name": "Nav",
+              "id": "gQEDrZhwb",
+              "w": "100%",
+              "mw": null,
+              "h": "auto",
+              "pos": "fixed",
+              "top": "0px",
+              "left": "0px",
+              "right": "null",
+              "bottom": "null",
+              "z": "10",
+              "pad": null,
+              "opacity": null,
+              "visible": null,
+              "cid": "",
+              "index": 1
+            }
+          ],
+          "navIndex": 1,
+          "topCount": 7
+        },
+        {
+          "bp": "Tablet",
+          "navCount": 1,
+          "navs": [
+            {
+              "name": "Nav",
+              "id": "qjv2S9WpagQEDrZhwb",
+              "w": "100%",
+              "mw": null,
+              "h": "auto",
+              "pos": "fixed",
+              "top": "0px",
+              "left": "0px",
+              "right": "null",
+              "bottom": "null",
+              "z": "10",
+              "pad": null,
+              "opacity": null,
+              "visible": null,
+              "cid": "",
+              "index": 1
+            }
+          ],
+          "navIndex": 1,
+          "topCount": 7
+        },
+        {
+          "bp": "Phone",
+          "navCount": 1,
+          "navs": [
+            {
+              "name": "Nav",
+              "id": "jEM0wBo2vgQEDrZhwb",
+              "w": "100%",
+              "mw": null,
+              "h": "auto",
+              "pos": "fixed",
+              "top": "0px",
+              "left": "0px",
+              "right": "null",
+              "bottom": "null",
+              "z": "10",
+              "pad": null,
+              "opacity": null,
+              "visible": null,
+              "cid": "",
+              "index": 1
+            }
+          ],
+          "navIndex": 1,
+          "topCount": 7
+        }
+      ]
+    },
+    {
+      "path": "/properties/:slug",
+      "breakpoints": [
+        {
+          "bp": "Desktop",
+          "navCount": 1,
+          "navs": [
+            {
+              "name": "Nav",
+              "id": "W57T5rQpL",
+              "w": "100%",
+              "mw": null,
+              "h": "auto",
+              "pos": "fixed",
+              "top": "0px",
+              "left": "0px",
+              "right": "null",
+              "bottom": "null",
+              "z": "10",
+              "pad": null,
+              "opacity": null,
+              "visible": null,
+              "cid": "",
+              "index": 1
+            }
+          ],
+          "navIndex": 1,
+          "topCount": 11
+        },
+        {
+          "bp": "Tablet",
+          "navCount": 1,
+          "navs": [
+            {
+              "name": "Nav",
+              "id": "IQmBTrFpbW57T5rQpL",
+              "w": "100%",
+              "mw": null,
+              "h": "auto",
+              "pos": "fixed",
+              "top": "0px",
+              "left": "0px",
+              "right": "null",
+              "bottom": "null",
+              "z": "10",
+              "pad": null,
+              "opacity": null,
+              "visible": null,
+              "cid": "",
+              "index": 1
+            }
+          ],
+          "navIndex": 1,
+          "topCount": 11
+        },
+        {
+          "bp": "Phone",
+          "navCount": 1,
+          "navs": [
+            {
+              "name": "Nav",
+              "id": "MrTKJzwELW57T5rQpL",
+              "w": "100%",
+              "mw": null,
+              "h": "auto",
+              "pos": "fixed",
+              "top": "0px",
+              "left": "0px",
+              "right": "null",
+              "bottom": "null",
+              "z": "10",
+              "pad": null,
+              "opacity": null,
+              "visible": null,
+              "cid": "",
+              "index": 1
+            }
+          ],
+          "navIndex": 1,
+          "topCount": 11
+        }
+      ]
+    },
+    {
+      "path": "/notes/:slug",
+      "breakpoints": [
+        {
+          "bp": "Desktop",
+          "navCount": 1,
+          "navs": [
+            {
+              "name": "Nav",
+              "id": "zoiRFt077",
+              "w": "100%",
+              "mw": null,
+              "h": "auto",
+              "pos": "fixed",
+              "top": "0px",
+              "left": "0px",
+              "right": "null",
+              "bottom": "null",
+              "z": "10",
+              "pad": null,
+              "opacity": null,
+              "visible": null,
+              "cid": "",
+              "index": 1
+            }
+          ],
+          "navIndex": 1,
+          "topCount": 10
+        },
+        {
+          "bp": "Tablet",
+          "navCount": 1,
+          "navs": [
+            {
+              "name": "Nav",
+              "id": "gZUAlaJJ1zoiRFt077",
+              "w": "100%",
+              "mw": null,
+              "h": "auto",
+              "pos": "fixed",
+              "top": "0px",
+              "left": "0px",
+              "right": "null",
+              "bottom": "null",
+              "z": "10",
+              "pad": null,
+              "opacity": null,
+              "visible": null,
+              "cid": "",
+              "index": 1
+            }
+          ],
+          "navIndex": 1,
+          "topCount": 10
+        },
+        {
+          "bp": "Phone",
+          "navCount": 1,
+          "navs": [
+            {
+              "name": "Nav",
+              "id": "EavJve6uGzoiRFt077",
+              "w": "100%",
+              "mw": null,
+              "h": "auto",
+              "pos": "fixed",
+              "top": "0px",
+              "left": "0px",
+              "right": "null",
+              "bottom": "null",
+              "z": "10",
+              "pad": null,
+              "opacity": null,
+              "visible": null,
+              "cid": "",
+              "index": 1
+            }
+          ],
+          "navIndex": 1,
+          "topCount": 10
+        }
+      ]
+    },
+    {
+      "path": "/404",
+      "breakpoints": [
+        {
+          "bp": "Desktop",
+          "navCount": 0,
+          "navs": [],
+          "navIndex": null,
+          "topCount": 2
+        },
+        {
+          "bp": "Tablet",
+          "navCount": 0,
+          "navs": [],
+          "navIndex": null,
+          "topCount": 2
+        },
+        {
+          "bp": "Phone",
+          "navCount": 0,
+          "navs": [],
+          "navIndex": null,
+          "topCount": 2
+        }
+      ]
+    }
+  ],
+  "issues": [
+    {
+      "path": "/404",
+      "bp": "Desktop",
+      "kind": "missing-nav",
+      "topNames": [
+        "Atmosphere",
+        "404 — Lost Address"
+      ]
+    },
+    {
+      "path": "/404",
+      "bp": "Tablet",
+      "kind": "missing-nav",
+      "topNames": [
+        "Atmosphere",
+        "404 — Lost Address"
+      ]
+    },
+    {
+      "path": "/404",
+      "bp": "Phone",
+      "kind": "missing-nav",
+      "topNames": [
+        "Atmosphere",
+        "404 — Lost Address"
+      ]
+    }
+  ],
+  "summary": {
+    "issueCount": 3,
+    "matrixOk": 24,
+    "matrixTotal": 27
+  },
+  "matrix": [
+    {
+      "path": "/",
+      "bp": "Desktop",
+      "ok": true,
+      "pos": "fixed",
+      "w": "100%",
+      "mw": null,
+      "z": "10",
+      "top": "0px",
+      "left": "0px",
+      "idx": 1
+    },
+    {
+      "path": "/",
+      "bp": "Tablet",
+      "ok": true,
+      "pos": "fixed",
+      "w": "100%",
+      "mw": null,
+      "z": "10",
+      "top": "0px",
+      "left": "0px",
+      "idx": 1
+    },
+    {
+      "path": "/",
+      "bp": "Phone",
+      "ok": true,
+      "pos": "fixed",
+      "w": "100%",
+      "mw": null,
+      "z": "10",
+      "top": "0px",
+      "left": "0px",
+      "idx": 1
+    },
+    {
+      "path": "/properties",
+      "bp": "Desktop",
+      "ok": true,
+      "pos": "fixed",
+      "w": "100%",
+      "mw": null,
+      "z": "10",
+      "top": "0px",
+      "left": "0px",
+      "idx": 1
+    },
+    {
+      "path": "/properties",
+      "bp": "Tablet",
+      "ok": true,
+      "pos": "fixed",
+      "w": "100%",
+      "mw": null,
+      "z": "10",
+      "top": "0px",
+      "left": "0px",
+      "idx": 1
+    },
+    {
+      "path": "/properties",
+      "bp": "Phone",
+      "ok": true,
+      "pos": "fixed",
+      "w": "100%",
+      "mw": null,
+      "z": "10",
+      "top": "0px",
+      "left": "0px",
+      "idx": 1
+    },
+    {
+      "path": "/neighbourhoods",
+      "bp": "Desktop",
+      "ok": true,
+      "pos": "fixed",
+      "w": "100%",
+      "mw": null,
+      "z": "10",
+      "top": "0px",
+      "left": "0px",
+      "idx": 1
+    },
+    {
+      "path": "/neighbourhoods",
+      "bp": "Tablet",
+      "ok": true,
+      "pos": "fixed",
+      "w": "100%",
+      "mw": null,
+      "z": "10",
+      "top": "0px",
+      "left": "0px",
+      "idx": 1
+    },
+    {
+      "path": "/neighbourhoods",
+      "bp": "Phone",
+      "ok": true,
+      "pos": "fixed",
+      "w": "100%",
+      "mw": null,
+      "z": "10",
+      "top": "0px",
+      "left": "0px",
+      "idx": 1
+    },
+    {
+      "path": "/notes",
+      "bp": "Desktop",
+      "ok": true,
+      "pos": "fixed",
+      "w": "100%",
+      "mw": null,
+      "z": "10",
+      "top": "0px",
+      "left": "0px",
+      "idx": 1
+    },
+    {
+      "path": "/notes",
+      "bp": "Tablet",
+      "ok": true,
+      "pos": "fixed",
+      "w": "100%",
+      "mw": null,
+      "z": "10",
+      "top": "0px",
+      "left": "0px",
+      "idx": 1
+    },
+    {
+      "path": "/notes",
+      "bp": "Phone",
+      "ok": true,
+      "pos": "fixed",
+      "w": "100%",
+      "mw": null,
+      "z": "10",
+      "top": "0px",
+      "left": "0px",
+      "idx": 1
+    },
+    {
+      "path": "/about",
+      "bp": "Desktop",
+      "ok": true,
+      "pos": "fixed",
+      "w": "100%",
+      "mw": null,
+      "z": "10",
+      "top": "0px",
+      "left": "0px",
+      "idx": 1
+    },
+    {
+      "path": "/about",
+      "bp": "Tablet",
+      "ok": true,
+      "pos": "fixed",
+      "w": "100%",
+      "mw": null,
+      "z": "10",
+      "top": "0px",
+      "left": "0px",
+      "idx": 1
+    },
+    {
+      "path": "/about",
+      "bp": "Phone",
+      "ok": true,
+      "pos": "fixed",
+      "w": "100%",
+      "mw": null,
+      "z": "10",
+      "top": "0px",
+      "left": "0px",
+      "idx": 1
+    },
+    {
+      "path": "/contact",
+      "bp": "Desktop",
+      "ok": true,
+      "pos": "fixed",
+      "w": "100%",
+      "mw": null,
+      "z": "10",
+      "top": "0px",
+      "left": "0px",
+      "idx": 1
+    },
+    {
+      "path": "/contact",
+      "bp": "Tablet",
+      "ok": true,
+      "pos": "fixed",
+      "w": "100%",
+      "mw": null,
+      "z": "10",
+      "top": "0px",
+      "left": "0px",
+      "idx": 1
+    },
+    {
+      "path": "/contact",
+      "bp": "Phone",
+      "ok": true,
+      "pos": "fixed",
+      "w": "100%",
+      "mw": null,
+      "z": "10",
+      "top": "0px",
+      "left": "0px",
+      "idx": 1
+    },
+    {
+      "path": "/properties/:slug",
+      "bp": "Desktop",
+      "ok": true,
+      "pos": "fixed",
+      "w": "100%",
+      "mw": null,
+      "z": "10",
+      "top": "0px",
+      "left": "0px",
+      "idx": 1
+    },
+    {
+      "path": "/properties/:slug",
+      "bp": "Tablet",
+      "ok": true,
+      "pos": "fixed",
+      "w": "100%",
+      "mw": null,
+      "z": "10",
+      "top": "0px",
+      "left": "0px",
+      "idx": 1
+    },
+    {
+      "path": "/properties/:slug",
+      "bp": "Phone",
+      "ok": true,
+      "pos": "fixed",
+      "w": "100%",
+      "mw": null,
+      "z": "10",
+      "top": "0px",
+      "left": "0px",
+      "idx": 1
+    },
+    {
+      "path": "/notes/:slug",
+      "bp": "Desktop",
+      "ok": true,
+      "pos": "fixed",
+      "w": "100%",
+      "mw": null,
+      "z": "10",
+      "top": "0px",
+      "left": "0px",
+      "idx": 1
+    },
+    {
+      "path": "/notes/:slug",
+      "bp": "Tablet",
+      "ok": true,
+      "pos": "fixed",
+      "w": "100%",
+      "mw": null,
+      "z": "10",
+      "top": "0px",
+      "left": "0px",
+      "idx": 1
+    },
+    {
+      "path": "/notes/:slug",
+      "bp": "Phone",
+      "ok": true,
+      "pos": "fixed",
+      "w": "100%",
+      "mw": null,
+      "z": "10",
+      "top": "0px",
+      "left": "0px",
+      "idx": 1
+    },
+    {
+      "path": "/404",
+      "bp": "Desktop",
+      "ok": false,
+      "idx": null
+    },
+    {
+      "path": "/404",
+      "bp": "Tablet",
+      "ok": false,
+      "idx": null
+    },
+    {
+      "path": "/404",
+      "bp": "Phone",
+      "ok": false,
+      "idx": null
+    }
+  ],
+  "compHealth": {
+    "id": "ynpqYJGOd",
+    "variants": [
+      {
+        "name": "Desktop",
+        "w": "1200px",
+        "h": "108px",
+        "pad": "16px 0px 16px 0px",
+        "align": "center",
+        "top": {
+          "w": "90%",
+          "mw": "90%",
+          "pad": "16px 0px 16px 0px"
+        },
+        "container": {
+          "w": "100%",
+          "mw": "100%",
+          "h": "0px"
+        },
+        "split": {
+          "w": "1fr",
+          "pad": "80px 40px 40px 40px"
+        }
+      },
+      {
+        "name": "Tablet - Close",
+        "w": "810px",
+        "h": "76px",
+        "align": "center",
+        "top": {
+          "w": "90%",
+          "mw": "90%",
+          "pad": "16px 0px 16px 0px"
+        },
+        "container": {
+          "w": "100%",
+          "mw": "100%",
+          "h": "0px"
+        },
+        "split": {
+          "w": "1fr",
+          "pad": "80px 40px 40px 40px"
+        }
+      },
+      {
+        "name": "Tablet - Open",
+        "w": "810px",
+        "h": "640px",
+        "align": "center",
+        "top": {
+          "w": "90%",
+          "mw": "90%",
+          "pad": "16px 0px 16px 0px"
+        },
+        "container": {
+          "w": "100%",
+          "mw": "100%",
+          "h": "1fr"
+        },
+        "split": {
+          "w": "90%",
+          "mw": "90%",
+          "pad": "56px 0px 28px 0px"
+        }
+      },
+      {
+        "name": "Phone - Close",
+        "w": "390px",
+        "h": "auto",
+        "align": "center",
+        "top": {
+          "w": "90%",
+          "mw": "90%",
+          "pad": "16px 0px 16px 0px"
+        },
+        "container": {
+          "w": "100%",
+          "mw": "100%",
+          "h": "0px"
+        },
+        "split": {
+          "w": "1fr",
+          "pad": "80px 40px 40px 40px"
+        }
+      },
+      {
+        "name": "Phone - Open",
+        "w": "390px",
+        "h": "100vh",
+        "align": "center",
+        "top": {
+          "w": "90%",
+          "mw": "90%",
+          "pad": "16px 0px 16px 0px"
+        },
+        "container": {
+          "w": "100%",
+          "mw": "100%",
+          "h": "1fr"
+        },
+        "split": {
+          "w": "90%",
+          "mw": "90%",
+          "pad": "32px 0px 16px 0px"
+        }
+      },
+      {
+        "name": "Desktop - Open",
+        "w": "1200px",
+        "h": "68vh",
+        "pad": "16px 0px 48px 0px",
+        "align": "center",
+        "top": {
+          "w": "90%",
+          "mw": "90%",
+          "pad": "16px 0px 16px 0px"
+        },
+        "container": {
+          "w": "100%",
+          "mw": "100%",
+          "h": "1fr"
+        },
+        "split": {
+          "w": "90%",
+          "mw": "90%",
+          "pad": "40px 0px 24px 0px"
+        }
+      }
+    ]
+  }
+}

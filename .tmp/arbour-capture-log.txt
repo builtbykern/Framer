@@ -1,0 +1,53 @@
+Capturing 28 assets → /Users/noel/Desktop/Framer/docs/projects/arbour/media
+• d-home-hero (still/desktop) … ok docs/projects/arbour/media/stills/d-home-hero.png
+• d-home-territory-rail (still/desktop) … ok docs/projects/arbour/media/stills/d-home-territory-rail.png
+• d-home-editorial-rail (still/desktop) … ok docs/projects/arbour/media/stills/d-home-editorial-rail.png
+• d-home-journal (still/desktop) … FAIL locator.screenshot: Timeout 29997.802000000003ms exceeded.
+Call log:
+  - taking element screenshot
+  - waiting for fonts to load...
+  - fonts loaded
+  - attempting scroll into view action
+    2 × waiting for element to be stable
+      - element is not stable
+    - retrying scroll into view action
+    - waiting 20ms
+    2 × waiting for element to be stable
+      - element is not stable
+    - retrying scroll into view action
+      - waiting 100ms
+    - waiting for element to be stable
+    - element is not stable
+  55 × retrying scroll into view action
+       - waiting 500ms
+       - waiting for element to be stable
+       - element is not visible
+  - retrying scroll into view action
+    - waiting 500ms
+
+• d-home-process (still/desktop) … ok docs/projects/arbour/media/stills/d-home-process.png
+• d-props-hero (still/desktop) … ok docs/projects/arbour/media/stills/d-props-hero.png
+• d-props-filters (still/desktop) … ok docs/projects/arbour/media/stills/d-props-filters.png
+• d-props-grid (still/desktop) … ok docs/projects/arbour/media/stills/d-props-grid.png
+• d-props-market (still/desktop) … ok docs/projects/arbour/media/stills/d-props-market.png
+• d-neighbourhoods-grid (still/desktop) … ok docs/projects/arbour/media/stills/d-neighbourhoods-grid.png
+• d-about-offices (still/desktop) … ok docs/projects/arbour/media/stills/d-about-offices.png
+• d-contact-hero (still/desktop) … ok docs/projects/arbour/media/stills/d-contact-hero.png
+• d-detail-hero (still/desktop) … ok docs/projects/arbour/media/stills/d-detail-hero.png
+• m-home-hero (still/mobile) … ok docs/projects/arbour/media/stills/m-home-hero.png
+• m-home-territory (still/mobile) … ok docs/projects/arbour/media/stills/m-home-territory.png
+• m-props-grid (still/mobile) … ok docs/projects/arbour/media/stills/m-props-grid.png
+• m-neighbourhoods (still/mobile) … ok docs/projects/arbour/media/stills/m-neighbourhoods.png
+• m-contact (still/mobile) … ok docs/projects/arbour/media/stills/m-contact.png
+• d-home-scroll-intro (clip/desktop) … ok docs/projects/arbour/media/clips/d-home-scroll-intro.mp4
+• d-home-territory-motion (clip/desktop) … ok docs/projects/arbour/media/clips/d-home-territory-motion.mp4
+• d-home-rail-hover (clip/desktop) … ok docs/projects/arbour/media/clips/d-home-rail-hover.mp4
+• d-props-scroll-grid (clip/desktop) … ok docs/projects/arbour/media/clips/d-props-scroll-grid.mp4
+• d-props-filter-focus (clip/desktop) … ok docs/projects/arbour/media/clips/d-props-filter-focus.mp4
+• d-neighbourhoods-scroll (clip/desktop) … ok docs/projects/arbour/media/clips/d-neighbourhoods-scroll.mp4
+• d-detail-scroll (clip/desktop) … ok docs/projects/arbour/media/clips/d-detail-scroll.mp4
+• m-home-scroll (clip/mobile) … ok docs/projects/arbour/media/clips/m-home-scroll.mp4
+• m-props-scroll (clip/mobile) … ok docs/projects/arbour/media/clips/m-props-scroll.mp4
+• m-territory-idle (clip/mobile) … ok docs/projects/arbour/media/clips/m-territory-idle.mp4
+
+Done: 27 ok, 1 fail → docs/projects/arbour/media/INDEX.md

@@ -1,0 +1,180 @@
+{
+  "res": {
+    "message": "Lint: 15 warnings.",
+    "linter": {
+      "warnings": {
+        "Visible siblings in a stack might be too close. If this is not intended, set `gap` on the parent or wrap either sibling in a frame with `padding`.": [
+          {
+            "id": "juto6hw2D",
+            "siblingIds": [
+              "ybimMi00F",
+              "RA3BYF8ep"
+            ],
+            "spacing": -300,
+            "minSpacing": 4,
+            "axis": "horizontal"
+          },
+          {
+            "id": "juto6hw2D",
+            "siblingIds": [
+              "RA3BYF8ep",
+              "dW7LtE9ha"
+            ],
+            "spacing": -300,
+            "minSpacing": 4,
+            "axis": "horizontal"
+          },
+          {
+            "id": "juto6hw2D",
+            "siblingIds": [
+              "dW7LtE9ha",
+              "lkdJ8jss7"
+            ],
+            "spacing": -300,
+            "minSpacing": 4,
+            "axis": "horizontal"
+          },
+          {
+            "id": "N8Ge7eNRv",
+            "siblingIds": [
+              "juto6hw2D",
+              "ifM_i_ecP"
+            ],
+            "spacing": -300,
+            "minSpacing": 4,
+            "axis": "vertical"
+          },
+          {
+            "id": "N8Ge7eNRv",
+            "siblingIds": [
+              "ifM_i_ecP",
+              "XTC_dRR4k"
+            ],
+            "spacing": -143.65,
+            "minSpacing": 4,
+            "axis": "vertical"
+          },
+          {
+            "id": "AWGNXf96_",
+            "siblingIds": [
+              "AWGNXf96_juto6hw2D",
+              "AWGNXf96_ifM_i_ecP"
+            ],
+            "spacing": -300,
+            "minSpacing": 4,
+            "axis": "vertical"
+          },
+          {
+            "id": "AWGNXf96_",
+            "siblingIds": [
+              "AWGNXf96_ifM_i_ecP",
+              "AWGNXf96_XTC_dRR4k"
+            ],
+            "spacing": -143.65,
+            "minSpacing": 4,
+            "axis": "vertical"
+          },
+          {
+            "id": "IitvyCHtzjuto6hw2D",
+            "siblingIds": [
+              "IitvyCHtzybimMi00F",
+              "IitvyCHtzRA3BYF8ep"
+            ],
+            "spacing": -300,
+            "minSpacing": 4,
+            "axis": "vertical"
+          },
+          {
+            "id": "IitvyCHtzjuto6hw2D",
+            "siblingIds": [
+              "IitvyCHtzRA3BYF8ep",
+              "IitvyCHtzdW7LtE9ha"
+            ],
+            "spacing": -300,
+            "minSpacing": 4,
+            "axis": "vertical"
+          },
+          {
+            "id": "IitvyCHtzjuto6hw2D",
+            "siblingIds": [
+              "IitvyCHtzdW7LtE9ha",
+              "IitvyCHtzlkdJ8jss7"
+            ],
+            "spacing": -300,
+            "minSpacing": 4,
+            "axis": "vertical"
+          },
+          {
+            "id": "IitvyCHtz",
+            "siblingIds": [
+              "IitvyCHtzjuto6hw2D",
+              "IitvyCHtzifM_i_ecP"
+            ],
+            "spacing": -300,
+            "minSpacing": 4,
+            "axis": "vertical"
+          },
+          {
+            "id": "IitvyCHtz",
+            "siblingIds": [
+              "IitvyCHtzifM_i_ecP",
+              "IitvyCHtzXTC_dRR4k"
+            ],
+            "spacing": -88.65,
+            "minSpacing": 4,
+            "axis": "vertical"
+          }
+        ],
+        "Links cannot be nested. Remove the `link` from either the nested element or the enclosing linked element.": [
+          {
+            "id": "fAzfyleWg",
+            "outerId": "ybimMi00F"
+          },
+          {
+            "id": "AWGNXf96_fAzfyleWg",
+            "outerId": "AWGNXf96_ybimMi00F"
+          },
+          {
+            "id": "IitvyCHtzfAzfyleWg",
+            "outerId": "IitvyCHtzybimMi00F"
+          }
+        ]
+      }
+    }
+  },
+  "check": [
+    {
+      "id": "ybimMi00F",
+      "name": "Arbour Introduction",
+      "href": "/",
+      "cursor": "pointer"
+    },
+    {
+      "id": "fAzfyleWg",
+      "href": "/",
+      "cursor": null
+    },
+    {
+      "id": "AWGNXf96_ybimMi00F",
+      "name": "Arbour Introduction",
+      "href": "/",
+      "cursor": "pointer"
+    },
+    {
+      "id": "AWGNXf96_fAzfyleWg",
+      "href": "/",
+      "cursor": null
+    },
+    {
+      "id": "IitvyCHtzybimMi00F",
+      "name": "Arbour Introduction",
+      "href": "/",
+      "cursor": "pointer"
+    },
+    {
+      "id": "IitvyCHtzfAzfyleWg",
+      "href": "/",
+      "cursor": null
+    }
+  ]
+}

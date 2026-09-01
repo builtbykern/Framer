@@ -1,0 +1,257 @@
+[
+  {
+    "path": "/",
+    "shot": ".tmp/arbour-hero-audit-home.png",
+    "title": "Arbour — Independent Estate Agency London",
+    "h1": "Where we work.",
+    "viewportTexts": [
+      {
+        "tag": "P",
+        "text": "ARBOUR ©",
+        "fontSize": "11px"
+      },
+      {
+        "tag": "P",
+        "text": "The Arbour style is defined by quiet surfaces, considered pacing, and homes sold with discretion — never theatre.",
+        "fontSize": "16px"
+      },
+      {
+        "tag": "P",
+        "text": "51.5074° N — 0.1278° W · CHELSEA",
+        "fontSize": "11px"
+      },
+      {
+        "tag": "P",
+        "text": "(\nSCROLL\n↓\n)",
+        "fontSize": "11px"
+      },
+      {
+        "tag": "P",
+        "text": "( TERRITORIES )",
+        "fontSize": "11px"
+      },
+      {
+        "tag": "H1",
+        "text": "Where we work.",
+        "fontSize": "84px"
+      },
+      {
+        "tag": "P",
+        "text": "PROPERTIES — CURATED RESIDENCES",
+        "fontSize": "11px"
+      },
+      {
+        "tag": "P",
+        "text": "[ 03 RESIDENCES — LONDON & COUNTRY ]",
+        "fontSize": "11px"
+      }
+    ],
+    "heroImgs": 1,
+    "videos": 0,
+    "bgMediaNearTop": 0
+  },
+  {
+    "path": "/properties-2",
+    "shot": ".tmp/arbour-hero-audit-properties-2.png",
+    "title": "Page not found | Arbour",
+    "h1": "404",
+    "viewportTexts": [
+      {
+        "tag": "P",
+        "text": "ARBOUR ©",
+        "fontSize": "12px"
+      },
+      {
+        "tag": "P",
+        "text": "51.5074° N — ADDRESS UNKNOWN",
+        "fontSize": "10px"
+      },
+      {
+        "tag": "H1",
+        "text": "404",
+        "fontSize": "420px"
+      },
+      {
+        "tag": "P",
+        "text": "[ 404 — OUT OF FRAME ]",
+        "fontSize": "11px"
+      },
+      {
+        "tag": "H1",
+        "text": "A fine address, quietly misplaced.",
+        "fontSize": "72px"
+      },
+      {
+        "tag": "P",
+        "text": "The page you’re looking for isn’t on our books. Let’s return you to familiar ground.",
+        "fontSize": "16px"
+      },
+      {
+        "tag": "P",
+        "text": "RETURN TO ARBOUR →",
+        "fontSize": "11px"
+      },
+      {
+        "tag": "P",
+        "text": "[ 00 ] — NOWHERE",
+        "fontSize": "10px"
+      }
+    ],
+    "heroImgs": 1,
+    "videos": 0,
+    "bgMediaNearTop": 0
+  },
+  {
+    "path": "/neighbourhoods",
+    "shot": ".tmp/arbour-hero-audit-neighbourhoods.png",
+    "title": "Neighbourhoods | Arbour",
+    "h1": "Places we know by heart.",
+    "viewportTexts": [
+      {
+        "tag": "P",
+        "text": "ARBOUR ©",
+        "fontSize": "11px"
+      },
+      {
+        "tag": "P",
+        "text": "TERRITORY — LONDON & COUNTRY",
+        "fontSize": "11px"
+      },
+      {
+        "tag": "H1",
+        "text": "Places we know by heart.",
+        "fontSize": "84px"
+      },
+      {
+        "tag": "P",
+        "text": "Four territories where Arbour reads the street, the light, and the long ownership of place.",
+        "fontSize": "16px"
+      },
+      {
+        "tag": "P",
+        "text": "4 TERRITORIES",
+        "fontSize": "11px"
+      },
+      {
+        "tag": "P",
+        "text": "(\nSCROLL\n↓\n)",
+        "fontSize": "11px"
+      },
+      {
+        "tag": "P",
+        "text": "THE DIRECTORY",
+        "fontSize": "11px"
+      },
+      {
+        "tag": "P",
+        "text": "VIEW →",
+        "fontSize": "11px"
+      }
+    ],
+    "heroImgs": 6,
+    "videos": 0,
+    "bgMediaNearTop": 0
+  },
+  {
+    "path": "/contact",
+    "shot": ".tmp/arbour-hero-audit-contact.png",
+    "title": "Contact | Arbour",
+    "h1": "The first conversation stays between us.",
+    "viewportTexts": [
+      {
+        "tag": "P",
+        "text": "ARBOUR ©",
+        "fontSize": "11px"
+      },
+      {
+        "tag": "P",
+        "text": "( PRIVATE ENQUIRY )",
+        "fontSize": "11px"
+      },
+      {
+        "tag": "H1",
+        "text": "The first conversation stays between us.",
+        "fontSize": "84px"
+      },
+      {
+        "tag": "P",
+        "text": "ENQUIRIES@ARBOUR.LONDON",
+        "fontSize": "11px"
+      },
+      {
+        "tag": "P",
+        "text": "[ SELLING · SEARCHING · ACQUISITIONS ]",
+        "fontSize": "11px"
+      },
+      {
+        "tag": "P",
+        "text": "51.5074 N — 0.1278 W · MAYFAIR",
+        "fontSize": "11px"
+      },
+      {
+        "tag": "P",
+        "text": "( WRITE TO US )",
+        "fontSize": "11px"
+      },
+      {
+        "tag": "P",
+        "text": "CONTACT — BY APPOINTMENT",
+        "fontSize": "11px"
+      }
+    ],
+    "heroImgs": 0,
+    "videos": 0,
+    "bgMediaNearTop": 0
+  },
+  {
+    "path": "/about",
+    "shot": ".tmp/arbour-hero-audit-about.png",
+    "title": "About | Arbour",
+    "h1": "Built on judgement, not volume.",
+    "viewportTexts": [
+      {
+        "tag": "P",
+        "text": "ARBOUR ©",
+        "fontSize": "11px"
+      },
+      {
+        "tag": "P",
+        "text": "( AGENCY )",
+        "fontSize": "11px"
+      },
+      {
+        "tag": "H1",
+        "text": "Built on judgement, not volume.",
+        "fontSize": "84px"
+      },
+      {
+        "tag": "P",
+        "text": "LONDON RESIDENTIAL",
+        "fontSize": "11px"
+      },
+      {
+        "tag": "P",
+        "text": "INDEPENDENT ADVICE · LONG-TERM VALUE",
+        "fontSize": "11px"
+      },
+      {
+        "tag": "P",
+        "text": "[ 01 — THE AGENCY ]",
+        "fontSize": "11px"
+      },
+      {
+        "tag": "P",
+        "text": "51.5074 N — 0.1278 W · CHELSEA",
+        "fontSize": "11px"
+      },
+      {
+        "tag": "P",
+        "text": "( EST. 2018 )",
+        "fontSize": "11px"
+      }
+    ],
+    "heroImgs": 1,
+    "videos": 0,
+    "bgMediaNearTop": 0
+  }
+]

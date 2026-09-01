@@ -1,0 +1,112 @@
+{
+  "meta": {
+    "contentPages": 8,
+    "missingPages": [],
+    "bpChecks": 24,
+    "note": "Read-only; skip /404 for Nav rule"
+  },
+  "counts": {
+    "navBad": 0,
+    "navOk": 24,
+    "hpadBad": 0,
+    "altFillBad": 0,
+    "homeHeroChecked": 3,
+    "homeHeroBad": 0,
+    "footerInstanceBad": 0,
+    "footerGridChecked": 3,
+    "footerGridBad": 0,
+    "leftovers": 0
+  },
+  "navBad": [],
+  "hpadBad": [],
+  "altFillBad": [],
+  "homeHero": [
+    {
+      "path": "/",
+      "bp": "Desktop",
+      "id": "iq0rlFlTE",
+      "w": "100%",
+      "mw": "100%",
+      "pad": "0px 0px 64px 0px",
+      "shellOk": true,
+      "textCol": {
+        "id": "ET8JHTjC5",
+        "w": "90%",
+        "mw": "90%",
+        "pad": null
+      },
+      "textColOk": true,
+      "issues": []
+    },
+    {
+      "path": "/",
+      "bp": "Tablet",
+      "id": "wBAtV56MEiq0rlFlTE",
+      "w": "100%",
+      "mw": "100%",
+      "pad": "0px 0px 64px 0px",
+      "shellOk": true,
+      "textCol": {
+        "id": "wBAtV56MEET8JHTjC5",
+        "w": "90%",
+        "mw": "90%",
+        "pad": "0px 0px 24px 0px"
+      },
+      "textColOk": true,
+      "issues": []
+    },
+    {
+      "path": "/",
+      "bp": "Phone",
+      "id": "mcL3MFzFViq0rlFlTE",
+      "w": "100%",
+      "mw": "100%",
+      "pad": "0px 0px 64px 0px",
+      "shellOk": true,
+      "textCol": {
+        "id": "mcL3MFzFVET8JHTjC5",
+        "w": "90%",
+        "mw": "90%",
+        "pad": "24px 0px 24px 0px"
+      },
+      "textColOk": true,
+      "issues": []
+    }
+  ],
+  "homeHeroBad": [],
+  "footerInstanceBad": [],
+  "footerGrid": [
+    {
+      "variant": "Desktop",
+      "id": "juto6hw2D",
+      "name": "Footer Editorial Grid",
+      "w": "90%",
+      "mw": "90%",
+      "pad": "88px 0px 72px 0px",
+      "ok": true,
+      "issue": null
+    },
+    {
+      "variant": "Tablet",
+      "id": "AWGNXf96_juto6hw2D",
+      "name": "Footer Editorial Grid",
+      "w": "90%",
+      "mw": "90%",
+      "pad": "64px 0px 56px 0px",
+      "ok": true,
+      "issue": null
+    },
+    {
+      "variant": "Phone",
+      "id": "IitvyCHtzjuto6hw2D",
+      "name": "Footer Editorial Grid",
+      "w": "90%",
+      "mw": "90%",
+      "pad": "48px 0px 40px 0px",
+      "ok": true,
+      "issue": null
+    }
+  ],
+  "footerGridBad": [],
+  "leftovers": []
+}

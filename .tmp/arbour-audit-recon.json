@@ -1,0 +1,229 @@
+{
+  "pages": [
+    {
+      "id": "augiA20Il",
+      "name": "Home",
+      "path": "/",
+      "title": "Arbour — Independent Estate Agency London",
+      "description": "Curated residences across London and the country. Discreet acquisition, disposal, and counsel since 1999.",
+      "bp": [
+        "Desktop",
+        "Tablet",
+        "Phone"
+      ],
+      "descendants": 849
+    },
+    {
+      "id": "dZfxmFpqB",
+      "name": "/neighbourhoods",
+      "path": "/neighbourhoods",
+      "title": "Neighbourhoods | Arbour",
+      "description": "Places we know by heart — Chelsea, Notting Hill, Hampstead, and beyond.",
+      "bp": [
+        "Desktop",
+        "Tablet",
+        "Phone"
+      ],
+      "descendants": 183
+    },
+    {
+      "id": "OdFhPn9yz",
+      "name": "/about",
+      "path": "/about",
+      "title": "About | Arbour",
+      "description": "Built on judgement, not volume. Independent estate agency since 1999.",
+      "bp": [
+        "Desktop",
+        "Tablet",
+        "Phone"
+      ],
+      "descendants": 411
+    },
+    {
+      "id": "c7qpzB7hR",
+      "name": "/contact",
+      "path": "/contact",
+      "title": "Contact | Arbour",
+      "description": "Begin a conversation — private consultations for buyers and sellers. By appointment only.",
+      "bp": [
+        "Desktop",
+        "Tablet",
+        "Phone"
+      ],
+      "descendants": 438
+    },
+    {
+      "id": "OhRUQROL4",
+      "name": "/properties-2/:Properties",
+      "path": "/properties-2/:Properties",
+      "title": "{{SEO Title}}",
+      "description": "{{SEO Description}}",
+      "bp": [
+        "Desktop",
+        "Tablet",
+        "Phone"
+      ],
+      "descendants": 450
+    },
+    {
+      "id": "uBAGmujMa",
+      "name": "/properties-2",
+      "path": "/properties-2",
+      "title": "Properties | Arbour",
+      "description": "Six homes of merit — curated residences for sale across London and the country.",
+      "bp": [
+        "Desktop",
+        "Tablet",
+        "Phone"
+      ],
+      "descendants": 495
+    },
+    {
+      "id": "ojmcAsLyM",
+      "name": "/404",
+      "path": "/404",
+      "title": "Page not found | Arbour",
+      "description": "This page is out of frame. Return to Arbour.",
+      "bp": [
+        "Desktop",
+        "Tablet",
+        "Phone"
+      ],
+      "descendants": 99
+    },
+    {
+      "id": "YPPO8pJ92",
+      "name": "/notes/:Journal",
+      "path": "/notes/:Journal",
+      "title": "{{Title}} | Arbour",
+      "description": "{{SEO Description}}",
+      "bp": [
+        "Desktop",
+        "Tablet",
+        "Phone"
+      ],
+      "descendants": 279
+    },
+    {
+      "id": "s8RpZIiJ8",
+      "name": "/notes",
+      "path": "/notes",
+      "title": "Notes | Arbour",
+      "description": "Field notes on place, craft, and acquisition — from the Arbour journal.",
+      "bp": [
+        "Desktop",
+        "Tablet",
+        "Phone"
+      ],
+      "descendants": 288
+    }
+  ],
+  "publish": {
+    "changesCount": 1,
+    "errors": [],
+    "status": "ready",
+    "changes": [
+      {
+        "type": "WebPage",
+        "nodeId": "augiA20Il",
+        "name": "Home",
+        "status": "updated"
+      }
+    ]
+  },
+  "publishInfo": {
+    "production": {
+      "url": "https://arbour.framer.website",
+      "optimizationStatus": "optimized",
+      "deploymentTime": 1785532478400
+    },
+    "staging": {
+      "url": "https://minimum-directions-600719.framer.app",
+      "optimizationStatus": "optimized"
+    }
+  },
+  "codeFiles": [
+    "Arbour_ArticleCard.tsx",
+    "Arbour_Copyright.tsx",
+    "Arbour_EditorialReveal.tsx",
+    "Arbour_FormButton.tsx",
+    "Arbour_InertiaFrame.tsx",
+    "Arbour_LoadingScreen.tsx",
+    "Arbour_MenuIcon.tsx",
+    "Arbour_NoiseEffect.tsx",
+    "Arbour_PrimaryButton.tsx",
+    "Arbour_ProgressiveBlur.tsx",
+    "Arbour_PropertyCard.tsx",
+    "Arbour_ScrollCue.tsx",
+    "Arbour_SectionHeader.tsx",
+    "Arbour_SmoothScroll.tsx",
+    "Arbour_StatsBand.tsx",
+    "Arbour_StopScroll.tsx",
+    "Arbour_TerritoryRail.tsx",
+    "Arbour_UnderlineLink.tsx",
+    "HideHorizontalScrollbar.tsx"
+  ],
+  "colorStyles": [
+    {
+      "name": "Parchment",
+      "path": "/Arbour/Parchment",
+      "light": "rgb(246, 242, 233)"
+    },
+    {
+      "name": "Paper",
+      "path": "/Arbour/Paper",
+      "light": "rgb(252, 250, 244)"
+    },
+    {
+      "name": "Ink",
+      "path": "/Arbour/Ink",
+      "light": "rgb(28, 27, 22)"
+    },
+    {
+      "name": "Ink 60",
+      "path": "/Arbour/Ink 60",
+      "light": "rgba(28, 27, 22, 0.6)"
+    },
+    {
+      "name": "Racing",
+      "path": "/Arbour/Racing",
+      "light": "rgb(31, 61, 43)"
+    },
+    {
+      "name": "Racing Deep",
+      "path": "/Arbour/Racing Deep",
+      "light": "rgb(21, 43, 30)"
+    },
+    {
+      "name": "Stone",
+      "path": "/Arbour/Stone",
+      "light": "rgb(231, 223, 206)"
+    },
+    {
+      "name": "Cream On Dark",
+      "path": "/Arbour/Cream On Dark",
+      "light": "rgb(239, 233, 219)"
+    },
+    {
+      "name": "Oxblood",
+      "path": "/Arbour/Oxblood",
+      "light": "rgb(94, 43, 38)"
+    },
+    {
+      "name": "Chartreuse",
+      "path": "/Arbour/Chartreuse",
+      "light": "rgb(214, 224, 74)"
+    },
+    {
+      "name": "Olive",
+      "path": "/Arbour/Olive",
+      "light": "rgb(84, 98, 45)"
+    },
+    {
+      "name": "Ink Soft",
+      "path": "/Arbour/Ink Soft",
+      "light": "rgba(28, 27, 22, 0.55)"
+    }
+  ],
+  "textStyleCount": 7
+}
