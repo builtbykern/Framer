@@ -1,6 +1,6 @@
 # Arbour
 
-Named live Framer template (quiet-luxury estate agency). Canvas lives in Framer; this folder is the Marketplace review pack.
+Live Framer Marketplace template ($59). Quiet-luxury estate agency. Canvas lives in Framer; this folder is the Marketplace review pack.
 
 - Preview: https://arbour.framer.website
 - Audit: [AUDIT.md](AUDIT.md)
