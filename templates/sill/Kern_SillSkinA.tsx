@@ -5,6 +5,20 @@ import { type CSSProperties, type ReactElement } from "react"
  * Kern — Sill Skin A (Bruce)
  * Paste into Framer Code. One viewport, ink-on-paper, 50/50 type + still.
  * Demo defaults = Ada Vale only (no BBK SKUs). Do not publish — Noel RED.
+ *
+ * Craft bar: docs/sill/taste/01-bruce.png (split air, numbered text links, still weight,
+ * tight intro leading). Steal — do not clone portfolio/About/SELECTED WORK/square markers.
+ * Soulmates only if no still; we have a still → Bruce wins. Critique must name Bruce hold/fail.
+ *
+ * HARD LOCKS (FAIL = media/sill/desktop-framer-fail.png — Linktree dots, floating photo card,
+ * empty cream under still, skinny rail):
+ * - Exact 50/50 grid — never a skinny left rail
+ * - Right pane = full-bleed still (cover, height 100%, no letterbox / cream void)
+ * - Links = `01`–`06` + label ONLY (never · bullets); ~12px gap; bottom-anchored via spacer
+ * - Name small/quiet top; heavy tight line; paper #F4F3F0 / ink #000
+ * - No vertical divider chrome
+ * - Defaults ADA VALE + chair still; max 6 links
+ * - Desktop: minHeight 100vh/100dvh, overflow hidden
  */
 
 interface SillLink {
@@ -37,6 +51,7 @@ const DEFAULT_LINKS: SillLink[] = [
     { label: "Booking", url: "https://example.com/book" },
 ]
 
+/** Quiet chair still — not a lifestyle room collage / postcard inset */
 const DEFAULT_STILL =
     "https://images.unsplash.com/photo-1567538096630-e0c55bd6374c?auto=format&fit=crop&w=1600&q=80"
 
@@ -44,14 +59,23 @@ const css = `
 .${CLASS} {
   box-sizing: border-box;
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  /* LOCK: exact 50/50 — never skinny left rail / ~30-70 */
+  grid-template-columns: minmax(0, 50%) minmax(0, 50%);
+  grid-template-rows: minmax(0, 1fr);
+  gap: 0;
+  column-gap: 0;
+  row-gap: 0;
   width: 100%;
+  height: 100%;
   min-height: 100vh;
   min-height: 100dvh;
   overflow: hidden;
   background: ${PAPER};
   color: ${INK};
   font-family: ${FONT};
+  border: none;
+  outline: none;
+  box-shadow: none;
   -webkit-font-smoothing: antialiased;
   text-rendering: optimizeLegibility;
 }
@@ -66,35 +90,62 @@ const css = `
 }
 .${CLASS} ul {
   list-style: none;
+  list-style-type: none;
   margin: 0;
   padding: 0;
+}
+.${CLASS} li::marker {
+  content: "";
+  display: none;
 }
 .${CLASS}__type {
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
-  padding: 52px;
+  align-self: stretch;
+  height: 100%;
   min-width: 0;
   min-height: 0;
+  padding: 52px;
+  /* LOCK: no vertical divider / column rule chrome */
+  border: none;
+  border-right: none;
+  outline: none;
+  box-shadow: none;
+  background: ${PAPER};
 }
+/* Bruce: quiet name — small, all caps, light tracking */
 .${CLASS}__name {
   margin: 0;
+  flex: 0 0 auto;
   font-size: 13px;
   font-weight: 400;
   letter-spacing: 0.04em;
   text-transform: uppercase;
+  font-variant-caps: all-small-caps;
   line-height: 1.2;
 }
+/* Bruce: heavy line, tight leading — dense ink block, not airy marketing copy */
 .${CLASS}__line {
   margin: 28px 0 0;
+  flex: 0 0 auto;
   max-width: 18ch;
   font-size: 34px;
-  font-weight: 600;
+  font-weight: 700;
   letter-spacing: -0.025em;
   line-height: 1.08;
 }
+/* Bruce editorial air between intro + links; also locks bottom-anchor (anti mid-rail float) */
+.${CLASS}__spacer {
+  flex: 1 1 auto;
+  min-height: 48px;
+  width: 100%;
+  pointer-events: none;
+}
 .${CLASS}__list {
-  margin-top: auto;
+  flex: 0 0 auto;
+  margin: 0;
+  padding: 0;
 }
 .${CLASS}__list ul {
   display: flex;
@@ -103,8 +154,9 @@ const css = `
 }
 .${CLASS}__row {
   display: grid;
+  /* LOCK: 01 + label only — never · / bullet prefix */
   grid-template-columns: 2.5ch 1fr;
-  column-gap: 1.25rem;
+  column-gap: 12px;
   align-items: baseline;
   font-size: 17px;
   font-weight: 500;
@@ -137,28 +189,43 @@ const css = `
 }
 .${CLASS}__still {
   position: relative;
+  align-self: stretch;
+  height: 100%;
   min-height: 0;
   min-width: 0;
   overflow: hidden;
   padding: 0;
+  margin: 0;
+  /* LOCK: no postcard inset / letterbox / cream void under image */
+  border: none;
+  border-left: none;
+  outline: none;
+  box-shadow: none;
   background: ${PAPER};
 }
 .${CLASS}__still img {
+  position: absolute;
+  inset: 0;
   display: block;
   width: 100%;
   height: 100%;
+  max-width: none;
+  max-height: none;
   object-fit: cover;
+  object-position: center;
   border-radius: 0;
+  border: none;
 }
 .${CLASS}__still-empty {
+  position: absolute;
+  inset: 0;
   width: 100%;
   height: 100%;
-  min-height: 100%;
   background: ${PAPER};
 }
 @media (max-width: 768px) {
   .${CLASS} {
-    grid-template-columns: 1fr;
+    grid-template-columns: minmax(0, 1fr);
     grid-template-rows: auto minmax(42vh, 52vh);
     height: auto;
     min-height: 100vh;
@@ -166,8 +233,9 @@ const css = `
     overflow: auto;
   }
   .${CLASS}__type {
-    padding: 32px 24px 36px;
+    height: auto;
     min-height: 48vh;
+    padding: 32px 24px 36px;
   }
   .${CLASS}__line {
     font-size: 28px;
@@ -176,6 +244,10 @@ const css = `
   }
   .${CLASS}__row {
     font-size: 16px;
+  }
+  .${CLASS}__still {
+    height: 100%;
+    min-height: 42vh;
   }
 }
 `
@@ -230,6 +302,7 @@ export default function Kern_SillSkinA(
             <section className={`${CLASS}__type`} aria-label="Identity">
                 <p className={`${CLASS}__name`}>{name}</p>
                 <p className={`${CLASS}__line`}>{line}</p>
+                <div className={`${CLASS}__spacer`} aria-hidden="true" />
                 <nav className={`${CLASS}__list`} aria-label="Links">
                     <ul>
                         {links.map((link, index) => {
@@ -271,7 +344,10 @@ export default function Kern_SillSkinA(
                 {still ? (
                     <img src={still} alt={stillAlt} />
                 ) : (
-                    <div className={`${CLASS}__still-empty`} aria-hidden="true" />
+                    <div
+                        className={`${CLASS}__still-empty`}
+                        aria-hidden="true"
+                    />
                 )}
             </section>
         </div>
@@ -316,6 +392,7 @@ addPropertyControls(Kern_SillSkinA, {
     still: {
         type: ControlType.Image,
         title: "Still",
+        defaultValue: DEFAULT_STILL,
     },
     stillAlt: {
         type: ControlType.String,
