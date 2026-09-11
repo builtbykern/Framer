@@ -4,7 +4,11 @@ Pasteable code component for Helpful Clicks. Craft bar: **Bruce**. Paper `#F4F3F
 
 **Noel RED only — do not publish.**
 
-## Mac (primary) — from `~/Desktop/Framer`
+## Mac (primary)
+
+Standalone folder: [`kit/`](kit/) (download from PR or clone).
+
+## Mac — from `~/Desktop/Framer`
 
 ```bash
 cd ~/Desktop/Framer
