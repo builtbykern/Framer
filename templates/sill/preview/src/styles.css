@@ -2,9 +2,10 @@
   --paper: #f4f3f0;
   --ink: #000000;
   --font: "Inter", system-ui, sans-serif;
-  /* STYLES.md: page inset 48–64; name→line 24–32; list gap 12–16 */
+  /* Align with Kern_SillSkinA Bruce HOLD nudge */
   --inset: 52px;
-  --name-to-line: 28px;
+  --inset-top: 56px;
+  --name-to-line: 32px;
   --list-gap: 12px;
 }
 
@@ -59,33 +60,34 @@ img {
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
-  padding: var(--inset);
+  padding: var(--inset-top) var(--inset) var(--inset);
   min-width: 0;
 }
 
 .sill__name {
   margin: 0;
-  font-size: 13px;
+  font-size: 12px;
   font-weight: 400;
-  /* Bruce: slight tracking — not wide display tracking */
-  letter-spacing: 0.04em;
+  /* Bruce: quieter name, slightly more tracking */
+  letter-spacing: 0.06em;
   text-transform: uppercase;
   line-height: 1.2;
 }
 
 .sill__line {
   margin: var(--name-to-line) 0 0;
-  max-width: 18ch;
+  max-width: 17ch;
   font-size: 34px;
-  font-weight: 600;
-  letter-spacing: -0.025em;
-  /* Bruce: tight dense leading on the intro block */
-  line-height: 1.08;
+  font-weight: 700;
+  letter-spacing: -0.03em;
+  /* Bruce: denser ink block */
+  line-height: 1.06;
 }
 
 .sill__list {
-  /* Bruce: link stack bottom-anchored in the type pane */
+  /* Bruce: link stack bottom-anchored; min air under intro */
   margin-top: auto;
+  padding-top: 64px;
 }
 
 .sill__list ul {
