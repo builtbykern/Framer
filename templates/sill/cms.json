@@ -1,0 +1,44 @@
+{
+  "page_fields": [
+    {
+      "name": "Name",
+      "type": "string",
+      "note": "Short. Display name, not a headline."
+    },
+    {
+      "name": "Line",
+      "type": "string",
+      "note": "One sentence under the name."
+    }
+  ],
+  "collections": [
+    {
+      "name": "Links",
+      "limit_on_page": 6,
+      "sort": "Order",
+      "render": "Show == true, sorted by Order",
+      "fields": [
+        { "name": "Label", "type": "string" },
+        { "name": "URL", "type": "link" },
+        { "name": "Order", "type": "number" },
+        { "name": "Show", "type": "boolean" }
+      ]
+    },
+    {
+      "name": "Stills",
+      "limit_on_page": 2,
+      "note": "Prefer 1 visible still on desktop.",
+      "fields": [
+        { "name": "Image", "type": "image" },
+        { "name": "Alt", "type": "string" },
+        { "name": "Order", "type": "number" },
+        { "name": "Show", "type": "boolean" }
+      ]
+    }
+  ],
+  "constraints": {
+    "nav_collection": false,
+    "links_visible_max": 6,
+    "stills_visible_prefer_desktop": 1
+  }
+}
