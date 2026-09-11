@@ -1,0 +1,7 @@
+Label,URL,Order,Show
+Instagram,https://instagram.com,1,true
+Shop,https://example.com/shop,2,true
+Are.na,https://are.na,3,true
+Mail,mailto:hello@example.com,4,true
+Notes,https://example.com/notes,5,true
+Booking,https://example.com/book,6,true

@@ -20,8 +20,9 @@ fi
 TSX="$SILL/Kern_SillSkinA.tsx"
 STILL="$SILL/assets/still-chair.png"
 URL="https://framer.com/projects/Helpful-Clicks--erAjRu2jtuAc1SWeq5nh-eOIuP"
-SHOTS="${HOME}/Desktop/Sill-shots"
+SHOTS="${HOME}/Desktop/sill-shots"
 STORE_MEDIA="/cursor/stores/bc-29d6bad1-a55c-4d30-894f-21c701117555/media/sill"
+CAPTURE_CMD="$SILL/Capture Sill Screenshots.command"
 
 # Best-effort: update checkout
 if [[ -d "$ROOT/.git" ]]; then
@@ -58,6 +59,12 @@ do
   [[ -f "$ref" ]] && open "$ref" && echo "✓ Opened $(basename "$ref")" || true
 done
 
+# Reveal Capture companion for one double-click after paste.
+if [[ -f "$CAPTURE_CMD" ]]; then
+  open -R "$CAPTURE_CMD" 2>/dev/null || true
+  echo "✓ Next: double-click Capture Sill Screenshots.command → $SHOTS/{desktop,mobile}.png"
+fi
+
 cat << MSG
 
 Framer (~3 min) — must HOLD vs Bruce:
@@ -65,10 +72,9 @@ Framer (~3 min) — must HOLD vs Bruce:
   2. Assets → Code → New Component → Cmd+V → Save as Kern Sill Skin A
   3. Drop FULL viewport (not inset) · Still = still-chair.png cover
   4. 50/50 · ADA VALE · 01–06 text links · paper #F4F3F0
-  5. Screenshots → $SHOTS/ AND Context media/sill/:
-       desktop.png
-       mobile.png
-       critique-vs-bruce.png
+  5. Double-click Capture Sill Screenshots.command
+       → $SHOTS/desktop.png + mobile.png
+       → drop into Context media/sill/ (+ critique-vs-bruce.png)
   6. Reply in Cursor: screenshots ready
 
 Repo: $ROOT

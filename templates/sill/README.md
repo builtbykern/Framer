@@ -6,17 +6,22 @@ Pasteable code component for Helpful Clicks. Craft bar: **Bruce**. Paper `#F4F3F
 
 ## Mac (primary)
 
-Standalone folder: [`kit/`](kit/) (download from PR or clone).
+Standalone folder: [`kit/`](kit/) (download from PR or Context `media/sill/mac-paste-kit.zip`).
+
+1. Double-click **Paste Sill Skin A.command**
+2. Framer paste (full viewport, chair still)
+3. Double-click **Capture Sill Screenshots.command** → `~/Desktop/sill-shots/{desktop,mobile}.png` → drop Context `media/sill/`
 
 ## Mac — from `~/Desktop/Framer`
 
 ```bash
 cd ~/Desktop/Framer
 git fetch origin && git checkout cursor/sill-skin-a-code-component-7555 && git pull
-zsh templates/sill/install-desktop-shortcut.sh   # once
-# then double-click Desktop “Paste Sill Skin A”
+zsh templates/sill/install-desktop-shortcut.sh   # Paste + Capture on Desktop
 # or:
 zsh templates/sill/paste-on-mac.sh
+# after paste:
+zsh templates/sill/capture-sill-screenshots.sh
 ```
 
 
@@ -56,14 +61,13 @@ If the canvas matches the FAIL shot → delete it and re-paste `Kern_SillSkinA.t
 
 ## Screenshots → stop
 
-Capture and drop into Context:
+After paste, double-click **Capture Sill Screenshots.command** (writes `~/Desktop/sill-shots/desktop.png` + `mobile.png`, clipboard reminds drop path). Then drop into Context:
 
 - `media/sill/desktop.png`
 - `media/sill/mobile.png`
-- `media/sill/critique-vs-bruce.png`
+- `media/sill/critique-vs-bruce.png` (Bruce side-by-side; capture kit does not auto-compose)
 
 Critique must name **Bruce** hold or fail (air / type / links / still). Soulmates only if no still. **PASS only if Bruce holds.** Then **STOP for Noel RED.** No publish.
-
 ## Hard locks (encoded in CSS)
 
 Exact 50/50 · full-bleed cover still · `01`–`06` text links + spacer bottom-anchor · name small caps · heavy tight line · paper/ink · no divider · max 6 links · desktop `minHeight: 100vh/100dvh` + `overflow: hidden`.
