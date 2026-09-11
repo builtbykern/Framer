@@ -106,7 +106,8 @@ const css = `
   height: 100%;
   min-width: 0;
   min-height: 0;
-  padding: 52px;
+  /* Bruce editorial inset — generous paper margin, not Linktree edge hug */
+  padding: 56px 52px 52px;
   /* LOCK: no vertical divider / column rule chrome */
   border: none;
   border-right: none;
@@ -118,27 +119,27 @@ const css = `
 .${CLASS}__name {
   margin: 0;
   flex: 0 0 auto;
-  font-size: 13px;
+  font-size: 12px;
   font-weight: 400;
-  letter-spacing: 0.04em;
+  letter-spacing: 0.06em;
   text-transform: uppercase;
   font-variant-caps: all-small-caps;
   line-height: 1.2;
 }
 /* Bruce: heavy line, tight leading — dense ink block, not airy marketing copy */
 .${CLASS}__line {
-  margin: 28px 0 0;
+  margin: 32px 0 0;
   flex: 0 0 auto;
-  max-width: 18ch;
+  max-width: 17ch;
   font-size: 34px;
   font-weight: 700;
-  letter-spacing: -0.025em;
-  line-height: 1.08;
+  letter-spacing: -0.03em;
+  line-height: 1.06;
 }
 /* Bruce editorial air between intro + links; also locks bottom-anchor (anti mid-rail float) */
 .${CLASS}__spacer {
   flex: 1 1 auto;
-  min-height: 48px;
+  min-height: 64px;
   width: 100%;
   pointer-events: none;
 }
@@ -296,8 +297,14 @@ export default function Kern_SillSkinA(
             ? props.stillAlt
             : "Studio still, chair and daylight"
 
+    const rootStyle: CSSProperties = {
+        width: "100%",
+        height: "100%",
+        ...props.style,
+    }
+
     return (
-        <div className={CLASS} style={props.style}>
+        <div className={CLASS} style={rootStyle}>
             <style>{css}</style>
             <section className={`${CLASS}__type`} aria-label="Identity">
                 <p className={`${CLASS}__name`}>{name}</p>
