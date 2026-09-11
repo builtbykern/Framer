@@ -8,15 +8,13 @@ Pasteable code component for Helpful Clicks. Craft bar: **Bruce**. Paper `#F4F3F
 
 ```bash
 cd ~/Desktop/Framer
-git fetch origin
-git checkout cursor/sill-skin-a-code-component-7555
-git pull
+git fetch origin && git checkout cursor/sill-skin-a-code-component-7555 && git pull
+zsh templates/sill/install-desktop-shortcut.sh   # once
+# then double-click Desktop “Paste Sill Skin A”
+# or:
 zsh templates/sill/paste-on-mac.sh
 ```
 
-Script copies `Kern_SillSkinA.tsx` to clipboard, opens Helpful Clicks + reveals `assets/still-chair.png`, writes a proof shot to `~/Desktop/Sill-shots/`.
-
-Then in Framer: delete FAIL layout → New Code Component → paste → full viewport → still cover.
 
 ## Paste into Framer (manual)
 
