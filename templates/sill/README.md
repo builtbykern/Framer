@@ -1,16 +1,30 @@
 # Sill Skin A — Framer code component
 
-Pasteable code component for Helpful Clicks when Mac agent GUI is blocked. Craft bar: **Bruce** (`taste/01-bruce.png`) — split air, numbered text links, still weight, tight intro leading. PASS preview (`media/sill/preview-desktop.png`) helps; Bruce is the bar. Paper `#F4F3F0`, ink `#000`, exact 50/50, one grotesk.
+Pasteable code component for Helpful Clicks. Craft bar: **Bruce**. Paper `#F4F3F0`, ink `#000`, exact 50/50, one grotesk.
 
 **Noel RED only — do not publish.**
 
-## Paste into Framer
+## Mac (primary) — from `~/Desktop/Framer`
 
-1. Open Helpful Clicks (or a branch of it). Do not publish.
-2. Assets → Code → New Component (or open an existing Code file).
+```bash
+cd ~/Desktop/Framer
+git fetch origin
+git checkout cursor/sill-skin-a-code-component-7555
+git pull
+zsh templates/sill/paste-on-mac.sh
+```
+
+Script copies `Kern_SillSkinA.tsx` to clipboard, opens Helpful Clicks + reveals `assets/still-chair.png`, writes a proof shot to `~/Desktop/Sill-shots/`.
+
+Then in Framer: delete FAIL layout → New Code Component → paste → full viewport → still cover.
+
+## Paste into Framer (manual)
+
+1. Open Helpful Clicks. Do not publish.
+2. Assets → Code → New Component.
 3. Paste the full contents of [`Kern_SillSkinA.tsx`](Kern_SillSkinA.tsx). Save.
-4. Drop **Kern Sill Skin A** on the page. Size to **full viewport** (fill / 1440×900). Do not nest inside a skinny stack or inset frame.
-5. Still defaults to the Unsplash chair URL; prefer Context `media/sill/still-chair.png` (cover, no radius).
+4. Drop **Kern Sill Skin A** full viewport (fill / 1440×900). Do not nest in a skinny stack.
+5. Still = [`assets/still-chair.png`](assets/still-chair.png) (cover, no radius).
 
 ## Bind props
 
