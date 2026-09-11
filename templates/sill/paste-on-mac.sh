@@ -1,54 +1,76 @@
 #!/bin/zsh
-# Sill Skin A — run from Mac checkout (~/Desktop/Framer). No Cursor worker required.
+# Sill Skin A — Mac paste helper (no Cursor worker required).
+# Run from any cwd on Noel Mac mini.
 set -euo pipefail
 
-ROOT="$(cd "$(dirname "$0")/../.." && pwd)"
-SILL="$(cd "$(dirname "$0")" && pwd)"
+# Resolve repo: script location or ~/Desktop/Framer
+SCRIPT_DIR="$(cd "$(dirname "$0")" && pwd)"
+if [[ -f "$SCRIPT_DIR/Kern_SillSkinA.tsx" ]]; then
+  SILL="$SCRIPT_DIR"
+  ROOT="$(cd "$SCRIPT_DIR/../.." && pwd)"
+elif [[ -f "${HOME}/Desktop/Framer/templates/sill/Kern_SillSkinA.tsx" ]]; then
+  ROOT="${HOME}/Desktop/Framer"
+  SILL="$ROOT/templates/sill"
+else
+  echo "Clone/pull builtbykern/Framer to ~/Desktop/Framer first:"
+  echo "  cd ~/Desktop/Framer && git fetch && git checkout cursor/sill-skin-a-code-component-7555 && git pull"
+  exit 1
+fi
+
 TSX="$SILL/Kern_SillSkinA.tsx"
 STILL="$SILL/assets/still-chair.png"
 URL="https://framer.com/projects/Helpful-Clicks--erAjRu2jtuAc1SWeq5nh-eOIuP"
 SHOTS="${HOME}/Desktop/Sill-shots"
-# Agent Store (if mounted on this Mac)
-STORE="${SILL_STORE:-/cursor/stores/bc-29d6bad1-a55c-4d30-894f-21c701117555/media/sill}"
+STORE_MEDIA="/cursor/stores/bc-29d6bad1-a55c-4d30-894f-21c701117555/media/sill"
 
-if [[ ! -f "$TSX" ]]; then
-  echo "Missing $TSX — git pull / checkout cursor/sill-skin-a-code-component-7555"
-  exit 1
+# Best-effort: update checkout
+if [[ -d "$ROOT/.git" ]]; then
+  git -C "$ROOT" fetch origin cursor/sill-skin-a-code-component-7555 2>/dev/null || true
+  git -C "$ROOT" checkout cursor/sill-skin-a-code-component-7555 2>/dev/null || true
+  git -C "$ROOT" pull --ff-only origin cursor/sill-skin-a-code-component-7555 2>/dev/null || true
 fi
 
 pbcopy < "$TSX"
-echo "✓ Kern_SillSkinA.tsx → clipboard"
+echo "✓ Kern_SillSkinA.tsx → clipboard ($(wc -l < "$TSX" | tr -d ' ') lines)"
 
-open "$URL"
-echo "✓ Helpful Clicks (do not publish) — delete FAIL layout first"
+open "$URL" || open -a Framer "$URL" || true
+echo "✓ Helpful Clicks (do not publish)"
 
-[[ -f "$STILL" ]] && open -R "$STILL" && echo "✓ still-chair.png revealed (drag → Still, cover)"
+if [[ -f "$STILL" ]]; then
+  open -R "$STILL"
+  echo "✓ still-chair.png revealed → Still control, cover"
+fi
 
 mkdir -p "$SHOTS"
-if [[ -d "$(dirname "$STORE")" ]]; then
-  mkdir -p "$STORE"
-fi
+[[ -d "$(dirname "$STORE_MEDIA")" ]] && mkdir -p "$STORE_MEDIA" || true
 
 if command -v screencapture >/dev/null 2>&1; then
   screencapture -x "$SHOTS/framer-status.png" 2>/dev/null || true
-  [[ -d "$STORE" ]] && cp -f "$SHOTS/framer-status.png" "$STORE/framer-status.png" 2>/dev/null || true
-  echo "✓ Proof shot → $SHOTS/framer-status.png"
+  [[ -d "$STORE_MEDIA" ]] && cp -f "$SHOTS/framer-status.png" "$STORE_MEDIA/framer-status.png" 2>/dev/null || true
+  echo "✓ Proof → $SHOTS/framer-status.png"
 fi
+
+# Copy Bruce ref + PASS preview to Desktop if present in Context
+for ref in \
+  "/cursor/stores/bc-29d6bad1-a55c-4d30-894f-21c701117555/docs/sill/taste/01-bruce.png" \
+  "/cursor/stores/bc-29d6bad1-a55c-4d30-894f-21c701117555/media/sill/preview-desktop.png"
+do
+  [[ -f "$ref" ]] && open "$ref" && echo "✓ Opened $(basename "$ref")" || true
+done
 
 cat << MSG
 
 Framer (~3 min) — must HOLD vs Bruce:
-  1. Assets → Code → New Component → Cmd+V → Save
-  2. Drop Kern Sill Skin A FULL viewport (not inset)
-  3. Still = still-chair.png cover · 50/50 · ADA VALE · 01–06 text links
-  4. FAIL if: skinny rail, floating photo, · bullets, empty cream under still
-  5. Screenshots → save BOTH places if possible:
-       $SHOTS/desktop.png
-       $SHOTS/mobile.png
-       $SHOTS/critique-vs-bruce.png
-       and copy into Context media/sill/ (same names)
+  1. Delete FAIL layout (skinny rail / floating photo / · bullets)
+  2. Assets → Code → New Component → Cmd+V → Save as Kern Sill Skin A
+  3. Drop FULL viewport (not inset) · Still = still-chair.png cover
+  4. 50/50 · ADA VALE · 01–06 text links · paper #F4F3F0
+  5. Screenshots → $SHOTS/ AND Context media/sill/:
+       desktop.png
+       mobile.png
+       critique-vs-bruce.png
   6. Reply in Cursor: screenshots ready
 
-Repo root: $ROOT
+Repo: $ROOT
 Noel RED — do not publish.
 MSG
