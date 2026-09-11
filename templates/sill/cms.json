@@ -1,0 +1,91 @@
+{
+  "template": "Sill",
+  "status": "craft-pack",
+  "notes": "No detail pages. Links and Stills are list-only collections for the single Home viewport.",
+  "collections": [
+    {
+      "name": "Links",
+      "slug": "links",
+      "detailPage": false,
+      "demoPublishedCount": 6,
+      "fields": [
+        {
+          "name": "Title",
+          "type": "title",
+          "required": true,
+          "use": "Visible link label (Instagram, Shop, Mail, …)."
+        },
+        {
+          "name": "Slug",
+          "type": "slug",
+          "required": false,
+          "use": "Optional CMS slug. No /links/{slug} route."
+        },
+        {
+          "name": "URL",
+          "type": "link",
+          "required": true,
+          "use": "External https URL or mailto:."
+        },
+        {
+          "name": "Order",
+          "type": "number",
+          "required": true,
+          "use": "Ascending sort. Drives the visible 1–6 index."
+        },
+        {
+          "name": "Published",
+          "type": "boolean",
+          "required": true,
+          "default": true,
+          "use": "Unpublished items do not render in the list."
+        }
+      ]
+    },
+    {
+      "name": "Stills",
+      "slug": "stills",
+      "detailPage": false,
+      "demoPublishedCount": 2,
+      "fields": [
+        {
+          "name": "Title",
+          "type": "title",
+          "required": true,
+          "use": "Internal label and alt-text base."
+        },
+        {
+          "name": "Slug",
+          "type": "slug",
+          "required": false,
+          "use": "Optional CMS slug. No /stills/{slug} route."
+        },
+        {
+          "name": "Image",
+          "type": "image",
+          "required": true,
+          "use": "Right-column still. No overlay UI on the image."
+        },
+        {
+          "name": "Caption",
+          "type": "plainText",
+          "required": false,
+          "use": "CMS/alt helper. Prefer empty on-canvas caption chrome."
+        },
+        {
+          "name": "Order",
+          "type": "number",
+          "required": true,
+          "use": "Ascending. 1 = top still. Show 1 or 2 by viewport fit."
+        },
+        {
+          "name": "Published",
+          "type": "boolean",
+          "required": true,
+          "default": true,
+          "use": "Unpublished stills do not render."
+        }
+      ]
+    }
+  ]
+}
