@@ -209,7 +209,7 @@ export default function Kern_SillSkinA(
     const name =
         typeof props.name === "string" && props.name.length > 0
             ? props.name
-            : "Ada Vale"
+            : "ADA VALE"
     const line =
         typeof props.line === "string" && props.line.length > 0
             ? props.line
@@ -284,7 +284,7 @@ addPropertyControls(Kern_SillSkinA, {
     name: {
         type: ControlType.String,
         title: "Name",
-        defaultValue: "Ada Vale",
+        defaultValue: "ADA VALE",
     },
     line: {
         type: ControlType.String,
