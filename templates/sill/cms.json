@@ -1,0 +1,31 @@
+{
+  "page": {
+    "Name": { "type": "string", "note": "Short display name, not a headline" },
+    "Line": { "type": "string", "note": "One sentence under the name" }
+  },
+  "collections": {
+    "Links": {
+      "limit_on_page": 6,
+      "sort": "Order",
+      "filter": "Show == true",
+      "fields": {
+        "Label": "string",
+        "URL": "link",
+        "Order": "number",
+        "Show": "boolean"
+      }
+    },
+    "Stills": {
+      "limit_on_page": 2,
+      "sort": "Order",
+      "filter": "Show == true",
+      "prefer_visible": 1,
+      "fields": {
+        "Image": "image",
+        "Alt": "string",
+        "Order": "number",
+        "Show": "boolean"
+      }
+    }
+  }
+}
