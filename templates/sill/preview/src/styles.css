@@ -2,10 +2,10 @@
   --paper: #f4f3f0;
   --ink: #000000;
   --font: "Inter", system-ui, sans-serif;
-  --inset: 56px;
+  /* STYLES.md: page inset 48–64; name→line 24–32; list gap 12–16 */
+  --inset: 52px;
   --name-to-line: 28px;
-  --line-to-list: 56px;
-  --list-gap: 14px;
+  --list-gap: 12px;
 }
 
 * {
@@ -67,7 +67,8 @@ img {
   margin: 0;
   font-size: 13px;
   font-weight: 400;
-  letter-spacing: 0.08em;
+  /* Bruce: slight tracking — not wide display tracking */
+  letter-spacing: 0.04em;
   text-transform: uppercase;
   line-height: 1.2;
 }
@@ -75,14 +76,16 @@ img {
 .sill__line {
   margin: var(--name-to-line) 0 0;
   max-width: 18ch;
-  font-size: 32px;
+  font-size: 34px;
   font-weight: 600;
-  letter-spacing: -0.02em;
-  line-height: 1.15;
+  letter-spacing: -0.025em;
+  /* Bruce: tight dense leading on the intro block */
+  line-height: 1.08;
 }
 
 .sill__list {
-  margin-top: var(--line-to-list);
+  /* Bruce: link stack bottom-anchored in the type pane */
+  margin-top: auto;
 }
 
 .sill__list ul {
@@ -135,7 +138,8 @@ img {
   min-height: 0;
   min-width: 0;
   overflow: hidden;
-  padding: var(--inset) var(--inset) var(--inset) 0;
+  /* Full-bleed right pane — no card chrome, no inset */
+  padding: 0;
 }
 
 .sill__still img {
@@ -153,16 +157,18 @@ img {
   }
 
   .sill__type {
-    padding: 32px 24px 28px;
+    padding: 32px 24px 36px;
+    min-height: 48vh;
   }
 
   .sill__line {
     font-size: 28px;
     max-width: 22ch;
+    line-height: 1.1;
   }
 
   .sill__list {
-    margin-top: 40px;
+    margin-top: auto;
   }
 
   .sill__row {
@@ -170,6 +176,6 @@ img {
   }
 
   .sill__still {
-    padding: 0 24px 32px;
+    padding: 0;
   }
 }

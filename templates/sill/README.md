@@ -15,3 +15,7 @@ FREE one-viewport calling card. Law in this folder; no Marketplace publish from 
 ## Read order
 
 `AGENTS.md` → `CRAFT.md` → `TASTE.md` → `STYLES.md` → `CURSOR-PROJECT-BRIEF.md`
+
+## Preview still credit
+
+HTML preview still (Skin A): Photo by [Kari Shea](https://unsplash.com/@karishea) on [Unsplash](https://unsplash.com/photos/white-and-brown-chair-e0c55bd6374c). Unsplash License.

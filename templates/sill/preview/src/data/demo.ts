@@ -17,7 +17,9 @@ export const sillDemo = {
     { label: "Booking", href: "https://example.com/book" },
   ] satisfies SillLink[],
   still: {
-    src: "https://images.unsplash.com/photo-1618220179428-22790b461013?auto=format&fit=crop&w=1600&q=80",
+    // Kari Shea — Unsplash License. Quiet chair, daylight, editorial weight.
+    // https://unsplash.com/photos/white-and-brown-chair-e0c55bd6374c
+    src: "https://images.unsplash.com/photo-1567538096630-e0c55bd6374c?auto=format&fit=crop&w=1600&q=80",
     alt: "Studio still, chair and daylight",
   },
 } as const
