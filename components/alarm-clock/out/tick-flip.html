@@ -1,0 +1,138 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <title>Alarm tick flip (two-phase)</title>
+  <style>
+    html, body { margin: 0; height: 100%; background: #0B0B0B; font-family: Inter, Helvetica Neue, sans-serif; }
+    body { display: grid; place-items: center; }
+    .wrap { width: 480px; }
+    .clock {
+      background: #121212; border-radius: 8px; padding: 26px 22px 29px; position: relative;
+      border: 1px solid rgba(255,255,255,0.1); box-shadow: 0 10px 24px rgba(0,0,0,0.4);
+    }
+    .handle { position: absolute; left: 29%; right: 29%; top: -28px; height: 35px; }
+    .handle svg { width: 100%; height: 100%; overflow: visible; display: block; }
+    .feet { display: flex; justify-content: space-between; width: 58%; margin: 2px auto 0; }
+    .foot { width: 28px; height: 8px; border-radius: 1px; background: #C45C26; opacity: 0.9; }
+    .face {
+      position: relative; overflow: hidden; border-radius: 6px; padding: 26px 22px 25px;
+      background: rgba(255,255,255,0.045);
+      box-shadow: inset 0 1px 0 rgba(255,255,255,0.14), inset 0 -10px 18px rgba(0,0,0,0.22), inset 0 0 0 1px rgba(255,255,255,0.08);
+      display: flex; justify-content: center;
+    }
+    .row { display: flex; gap: 9px; align-items: flex-start; justify-content: center; }
+    .unit { display: flex; flex-direction: column; align-items: center; gap: 8px; }
+    .digits { display: flex; color: #F4F3F0; font-size: 49px; font-weight: 700; letter-spacing: -0.06em; line-height: 0.92; font-variant-numeric: tabular-nums; }
+    .digit {
+      position: relative; width: 0.62em; height: 1em; overflow: hidden;
+      display: inline-flex; perspective: 900px; transform-style: preserve-3d;
+    }
+    .glyph {
+      position: absolute; inset: 0; display: flex; align-items: center; justify-content: center;
+      backface-visibility: hidden;
+    }
+    .digit.flash .old-bot { clip-path: inset(50% 0 0 0); z-index: 2; }
+    .digit.flash .old-top {
+      clip-path: inset(0 0 50% 0); transform-origin: 50% 100%; z-index: 3;
+      animation: flapTop 120ms cubic-bezier(0.22, 1, 0.36, 1) forwards;
+    }
+    .digit.flash .old-bot-anim {
+      clip-path: inset(50% 0 0 0); transform-origin: 50% 0%; z-index: 3;
+      animation: flapBot 120ms cubic-bezier(0.22, 1, 0.36, 1) 120ms forwards;
+    }
+    @keyframes flapTop {
+      from { transform: perspective(900px) rotateX(0deg); opacity: 1; }
+      to { transform: perspective(900px) rotateX(-90deg); opacity: 0.85; }
+    }
+    @keyframes flapBot {
+      from { transform: perspective(900px) rotateX(0deg); opacity: 1; }
+      to { transform: perspective(900px) rotateX(90deg); opacity: 0.75; }
+    }
+    .hinge {
+      position: absolute; left: 18%; right: 18%; top: 50%; height: 1px;
+      background: #F4F3F0; opacity: 0; transform: translateY(-50%); z-index: 4; pointer-events: none;
+    }
+    .digit.flash .hinge { animation: hingePulse 240ms cubic-bezier(0.22, 1, 0.36, 1) forwards; }
+    @keyframes hingePulse {
+      0%, 100% { opacity: 0; }
+      20%, 80% { opacity: 0.55; }
+    }
+    .label { color: rgba(244,243,240,0.5); font-size: 7px; font-weight: 500; letter-spacing: 0.08em; }
+    .colon {
+      display: flex; flex-direction: column; justify-content: center; align-items: center;
+      gap: 8px; height: 49px; margin-top: 6px; opacity: 0.34; align-self: flex-start;
+    }
+    .colon i { width: 2px; height: 3px; border-radius: 0.6px; background: #F4F3F0; display: block; }
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <div class="clock">
+      <div class="handle" aria-hidden="true">
+        <svg viewBox="0 0 100 32" preserveAspectRatio="xMidYMax meet">
+          <path d="M16 30 V14 C16 5 30 2 50 2 C70 2 84 5 84 14 V30" fill="none" stroke="#C45C26" stroke-width="2.4" stroke-linecap="round"/>
+          <circle cx="50" cy="2.2" r="2.1" fill="#C45C26"/>
+        </svg>
+      </div>
+      <div class="face" id="face"></div>
+    </div>
+    <div class="feet"><span class="foot"></span><span class="foot"></span></div>
+  </div>
+  <script>
+    const target = Date.now() + ((2*86400 + 17*3600 + 45*60 + 12) * 1000)
+    const face = document.getElementById("face")
+    let prev = ""
+    function parts(ms) {
+      const t = Math.max(0, Math.floor(ms / 1000))
+      return { Days: Math.floor(t/86400), Hours: Math.floor((t%86400)/3600), Minutes: Math.floor((t%3600)/60), Seconds: t%60 }
+    }
+    function pad(n) { return String(n).padStart(2, "0") }
+    function render(p, flashKeys, prevText) {
+      const order = ["Days","Hours","Minutes","Seconds"]
+      face.innerHTML = ""
+      const row = document.createElement("div"); row.className = "row"
+      order.forEach((key, i) => {
+        if (i > 0) {
+          const c = document.createElement("div"); c.className = "colon"; c.innerHTML = "<i></i><i></i>"; row.appendChild(c)
+        }
+        const unit = document.createElement("div"); unit.className = "unit"
+        const digits = document.createElement("div"); digits.className = "digits"
+        const text = pad(p[key])
+        ;[...text].forEach((ch, idx) => {
+          const keyId = key + idx
+          const d = document.createElement("span")
+          const flashing = flashKeys.has(keyId)
+          d.className = "digit" + (flashing ? " flash" : "")
+          const under = document.createElement("span"); under.className = "glyph"; under.textContent = ch
+          d.appendChild(under)
+          if (flashing) {
+            const old = prevText[i*2+idx]
+            const oldBot = document.createElement("span"); oldBot.className = "glyph old-bot"; oldBot.textContent = old
+            const oldTop = document.createElement("span"); oldTop.className = "glyph old-top"; oldTop.textContent = old
+            const oldBotAnim = document.createElement("span"); oldBotAnim.className = "glyph old-bot-anim"; oldBotAnim.textContent = old
+            d.appendChild(oldBot); d.appendChild(oldTop); d.appendChild(oldBotAnim)
+          }
+          const hinge = document.createElement("span"); hinge.className = "hinge"; d.appendChild(hinge)
+          digits.appendChild(d)
+        })
+        const label = document.createElement("div"); label.className = "label"; label.textContent = key
+        unit.appendChild(digits); unit.appendChild(label); row.appendChild(unit)
+      })
+      face.appendChild(row)
+    }
+    function tick() {
+      const p = parts(target - Date.now())
+      const next = `${pad(p.Days)}${pad(p.Hours)}${pad(p.Minutes)}${pad(p.Seconds)}`
+      const flash = new Set()
+      if (prev) {
+        for (let i = 0; i < 8; i++) if (prev[i] !== next[i]) flash.add(["Days","Days","Hours","Hours","Minutes","Minutes","Seconds","Seconds"][i] + (i%2))
+      }
+      render(p, flash, prev || next)
+      prev = next
+    }
+    tick()
+    setInterval(tick, 1000)
+  </script>
+</body>
+</html>

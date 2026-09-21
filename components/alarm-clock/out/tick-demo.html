@@ -1,0 +1,249 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Alarm Clock tick</title>
+  <style>
+    html, body {
+      margin: 0;
+      height: 100%;
+      background: #E7E5E0;
+      font-family: Inter, "Helvetica Neue", system-ui, sans-serif;
+    }
+    body { display: grid; place-items: center; }
+    .wrap { display: flex; flex-direction: column; align-items: center; }
+    .clock {
+      width: 480px;
+      background: #F4F3F0;
+      border: 1px solid rgba(40,32,24,0.1);
+      border-radius: 10px;
+      padding: 26px 22px 29px;
+      box-shadow: 0 10px 22px rgba(40,32,24,0.07);
+      position: relative;
+      overflow: hidden;
+    }
+    .handle {
+      position: absolute;
+      left: 29%;
+      right: 29%;
+      top: -28px;
+      height: 35px;
+    }
+    .handle svg { width: 100%; height: 100%; display: block; overflow: visible; }
+    .feet {
+      display: flex;
+      justify-content: space-between;
+      width: 58%;
+      margin: 2px auto 0;
+    }
+    .foot {
+      width: 28px;
+      height: 8px;
+      border-radius: 2px;
+      background: #C45C26;
+      opacity: 0.9;
+      box-shadow: 0 1px 0 rgba(0,0,0,0.14);
+    }
+    .face {
+      position: relative;
+      overflow: hidden;
+      background: #FFFEFB;
+      border-radius: 8px;
+      padding: 23px 19px 19px;
+      box-shadow:
+        inset 0 1px 0 rgba(255,255,255,0.95),
+        inset 0 -12px 20px rgba(40,32,24,0.045),
+        inset 0 0 0 1px rgba(40,32,24,0.07);
+      display: flex;
+      justify-content: center;
+      box-sizing: border-box;
+    }
+    .face::before {
+      content: "";
+      position: absolute;
+      left: 0; right: 0; top: 0;
+      height: 42%;
+      background: linear-gradient(180deg, rgba(255,255,255,0.7) 0%, rgba(255,255,255,0) 100%);
+      pointer-events: none;
+      z-index: 1;
+    }
+    .row {
+      position: relative;
+      z-index: 2;
+      display: flex;
+      align-items: flex-start;
+      gap: 9px;
+      width: 100%;
+      justify-content: center;
+      min-width: 0;
+    }
+    .unit {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 7px;
+      min-width: 0;
+    }
+    .digits {
+      display: flex;
+      font-size: 49px;
+      font-weight: 700;
+      letter-spacing: -0.06em;
+      line-height: 0.92;
+      color: #0A0A0A;
+      font-variant-numeric: tabular-nums;
+    }
+    .digit {
+      position: relative;
+      display: inline-flex;
+      width: 0.62em;
+      height: 1em;
+      align-items: center;
+      justify-content: center;
+      overflow: hidden;
+      flex: 0 0 auto;
+    }
+    .digit .in, .digit .out {
+      position: absolute;
+      inset: 0;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    .digit.flash .out {
+      animation: kernAlarmFadeOut 220ms cubic-bezier(0.22, 1, 0.36, 1) forwards;
+    }
+    .digit.flash .in {
+      animation: kernAlarmFadeIn 220ms cubic-bezier(0.22, 1, 0.36, 1) forwards;
+    }
+    @keyframes kernAlarmFadeOut {
+      from { opacity: 1; transform: translateY(0); }
+      to { opacity: 0; transform: translateY(-0.1em); }
+    }
+    @keyframes kernAlarmFadeIn {
+      from { opacity: 0; transform: translateY(0.14em); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+    .label {
+      color: #6B6B6B;
+      font-size: 7px;
+      font-weight: 500;
+      letter-spacing: 0.08em;
+      white-space: nowrap;
+    }
+    .colon {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      gap: 8px;
+      height: 49px;
+      margin-top: 6px;
+      opacity: 0.34;
+      align-self: flex-start;
+    }
+    .colon i {
+      width: 2px;
+      height: 3px;
+      border-radius: 0.6px;
+      background: #0A0A0A;
+      display: block;
+    }
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <div class="clock" id="clock">
+      <div class="handle" aria-hidden="true">
+        <svg viewBox="0 0 100 32" preserveAspectRatio="xMidYMax meet">
+          <path d="M16 30 V14 C16 5 30 2 50 2 C70 2 84 5 84 14 V30" fill="none" stroke="#C45C26" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/>
+          <circle cx="50" cy="2.2" r="2.1" fill="#C45C26"/>
+        </svg>
+      </div>
+      <div class="face" id="face"></div>
+    </div>
+    <div class="feet" aria-hidden="true"><span class="foot"></span><span class="foot"></span></div>
+  </div>
+  <script>
+    const target = Date.now() + ((2*86400 + 17*3600 + 45*60 + 12) * 1000)
+    const face = document.getElementById("face")
+    let prev = ""
+
+    function parts(ms) {
+      const t = Math.max(0, Math.floor(ms / 1000))
+      return {
+        Days: Math.floor(t / 86400),
+        Hours: Math.floor((t % 86400) / 3600),
+        Minutes: Math.floor((t % 3600) / 60),
+        Seconds: t % 60,
+      }
+    }
+
+    function pad(n) { return String(n).padStart(2, "0") }
+
+    function render(p, flashKeys, prevText) {
+      const order = ["Days", "Hours", "Minutes", "Seconds"]
+      face.innerHTML = ""
+      const row = document.createElement("div")
+      row.className = "row"
+      order.forEach((key, i) => {
+        if (i > 0) {
+          const c = document.createElement("div")
+          c.className = "colon"
+          c.innerHTML = "<i></i><i></i>"
+          row.appendChild(c)
+        }
+        const unit = document.createElement("div")
+        unit.className = "unit"
+        const digits = document.createElement("div")
+        digits.className = "digits"
+        const text = pad(p[key])
+        ;[...text].forEach((ch, idx) => {
+          const keyId = key + idx
+          const d = document.createElement("span")
+          const flashing = flashKeys.has(keyId)
+          d.className = "digit" + (flashing ? " flash" : "")
+          if (flashing) {
+            const out = document.createElement("span")
+            out.className = "out"
+            out.textContent = prevText[i * 2 + idx]
+            const inn = document.createElement("span")
+            inn.className = "in"
+            inn.textContent = ch
+            d.appendChild(out)
+            d.appendChild(inn)
+          } else {
+            d.textContent = ch
+          }
+          digits.appendChild(d)
+        })
+        const label = document.createElement("div")
+        label.className = "label"
+        label.textContent = key
+        unit.appendChild(digits)
+        unit.appendChild(label)
+        row.appendChild(unit)
+      })
+      face.appendChild(row)
+    }
+
+    function tick() {
+      const p = parts(target - Date.now())
+      const next = `${pad(p.Days)}${pad(p.Hours)}${pad(p.Minutes)}${pad(p.Seconds)}`
+      const flash = new Set()
+      if (prev) {
+        const keys = ["Days0","Days1","Hours0","Hours1","Minutes0","Minutes1","Seconds0","Seconds1"]
+        for (let i = 0; i < 8; i++) {
+          if (prev[i] !== next[i]) flash.add(keys[i])
+        }
+      }
+      render(p, flash, prev)
+      prev = next
+    }
+
+    tick()
+    setInterval(tick, 250)
+  </script>
+</body>
+</html>

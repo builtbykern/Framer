@@ -1,0 +1,118 @@
+{
+  "template": "Sill",
+  "status": "craft",
+  "notes": "Profile collection owns Name + Line (page fields optional/legacy). Links and Stills are list-only. No detail pages. No nav collection.",
+  "pageFields": [
+    {
+      "name": "Name",
+      "type": "string",
+      "required": false,
+      "use": "Legacy page field — Prefer Profile.Name."
+    },
+    {
+      "name": "Line",
+      "type": "string",
+      "required": false,
+      "use": "Legacy page field — Prefer Profile.Line."
+    }
+  ],
+  "collections": [
+    {
+      "name": "Profile",
+      "slug": "profile",
+      "detailPage": false,
+      "limit_on_page": 1,
+      "fields": [
+        {
+          "name": "Name",
+          "type": "string",
+          "required": true,
+          "use": "Short display name (not a headline)."
+        },
+        {
+          "name": "Line",
+          "type": "string",
+          "required": true,
+          "use": "One sentence under the name."
+        }
+      ]
+    },
+    {
+      "name": "Links",
+      "slug": "links",
+      "detailPage": false,
+      "limit_on_page": 6,
+      "sort": "Order",
+      "filter": "Show == true",
+      "fields": [
+        {
+          "name": "Label",
+          "type": "string",
+          "required": true,
+          "use": "Visible link label."
+        },
+        {
+          "name": "Index",
+          "type": "string",
+          "required": true,
+          "use": "Display index 01–06."
+        },
+        {
+          "name": "URL",
+          "type": "link",
+          "required": true,
+          "use": "https or mailto:."
+        },
+        {
+          "name": "Order",
+          "type": "number",
+          "required": true,
+          "use": "Ascending sort."
+        },
+        {
+          "name": "Show",
+          "type": "boolean",
+          "required": true,
+          "default": true,
+          "use": "Only Show true items render."
+        }
+      ]
+    },
+    {
+      "name": "Stills",
+      "slug": "stills",
+      "detailPage": false,
+      "limit_on_page": 2,
+      "sort": "Order",
+      "filter": "Show == true",
+      "preferVisible": 1,
+      "fields": [
+        {
+          "name": "Image",
+          "type": "image",
+          "required": true,
+          "use": "Right-column still. No overlay UI."
+        },
+        {
+          "name": "Alt",
+          "type": "string",
+          "required": true,
+          "use": "Accessibility alt text."
+        },
+        {
+          "name": "Order",
+          "type": "number",
+          "required": true,
+          "use": "1 = top landscape, 2 = bottom portrait."
+        },
+        {
+          "name": "Show",
+          "type": "boolean",
+          "required": true,
+          "default": true,
+          "use": "Only Show true items render."
+        }
+      ]
+    }
+  ]
+}
