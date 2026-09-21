@@ -61,7 +61,7 @@ const PAPER = "#F4F3F0"
 
 /** Neutral architecture still — not Creative Stefan grid 1–9 */
 const DEFAULT_STILL =
-    "https://images.unsplash.com/photo-1486325212027-8081e485255e?auto=format&fit=crop&w=1800&q=80"
+    "https://images.unsplash.com/photo-1487958449943-2429e8be8625?auto=format&fit=crop&w=1800&q=80"
 
 const VERT_SRC = `
 attribute vec2 aPosition;
@@ -121,7 +121,8 @@ void main() {
   float distSq = (uvDist.x * uvDist.x) + (uvDist.y * uvDist.y) * vScale;
   float dist = sqrt(max(distSq, 0.0));
   float normDist = dist / r;
-  float warp = normDist * normDist;
+  float lensWindow = 1.0 - smoothstep(0.88, 1.22, normDist);
+  float warp = min(normDist * normDist, 2.4) * lensWindow;
 
   vec2 displacement = vec2(
     (uvDist.x / max(aspect, 0.0001)) * warp * uDistortionStrength,
@@ -132,7 +133,7 @@ void main() {
   vec2 chromOffset = vec2(
     uvDist.x / max(aspect, 0.0001),
     uvDist.y
-  ) * (uAberration * 0.02 * (warp + 0.15));
+  ) * (uAberration * 0.02 * (warp + 0.15) * lensWindow);
 
   vec4 colR = sampleBuffer(refractedUV + chromOffset);
   vec4 colG = sampleBuffer(refractedUV);
@@ -474,7 +475,6 @@ export default function Kern_LensWarp(props: KernLensWarpProps): ReactElement {
 
     const wrapRef = useRef<HTMLDivElement>(null)
     const canvasRef = useRef<HTMLCanvasElement>(null)
-    const engineRef = useRef<LensWarpGL | null>(null)
     const targetRef = useRef({ x: REST_X, y: REST_Y })
     const lensRef = useRef({ x: REST_X, y: REST_Y, vx: 0, vy: 0 })
     const hoveringRef = useRef(false)
@@ -489,7 +489,6 @@ export default function Kern_LensWarp(props: KernLensWarpProps): ReactElement {
         }
 
         const engine = new LensWarpGL(canvas)
-        engineRef.current = engine
         if (!engine.ok) {
             return
         }
@@ -601,7 +600,6 @@ export default function Kern_LensWarp(props: KernLensWarpProps): ReactElement {
             img.onload = null
             kickRef.current = null
             engine.dispose()
-            engineRef.current = null
         }
     }, [
         aberration,

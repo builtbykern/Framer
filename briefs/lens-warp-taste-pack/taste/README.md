@@ -1,7 +1,6 @@
 # Taste stills
 
-Add when available:
-- `01-rest.png` — canvas-safe rest (lens centered or idle)
-- `02-warp-pointer.gif` / clip — distortion follows pointer on **published preview**
+- `01-rest.png` — canvas-safe rest (lens centered) captured from local playground
+- `02-warp-pointer.gif` / clip — distortion follows pointer on **published preview** — **missing**
 
-Until then: Cursor builds from CRAFT/PROPS; VERIFY blocked on proving media.
+VERIFY stays blocked until `02` exists on a published Framer preview. Local playground pointer shots are not PASS.

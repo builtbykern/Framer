@@ -52,6 +52,10 @@ export function Preview() {
                     href="https://framer.link/builtbykern"
                     target="_blank"
                     rel="noopener noreferrer"
+                    style={{
+                        color: INK,
+                        textDecoration: "none",
+                    }}
                 >
                     BuiltByKern
                 </a>
