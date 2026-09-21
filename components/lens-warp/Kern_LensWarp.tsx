@@ -20,8 +20,9 @@ type PointerMode = "rest" | "follow" | "reduced"
 type FramerImage =
     | string
     | {
-          src?: string
-          url?: string
+          src: string
+          srcSet?: string
+          alt?: string
       }
 
 interface KernLensWarpProps {
@@ -36,7 +37,6 @@ interface KernLensWarpProps {
     verticalScale: number
     inertia: number
     viscosity: number
-    width?: number
     style?: CSSProperties
 }
 
@@ -160,15 +160,21 @@ function resolveImageSrc(image: FramerImage | undefined): string {
     if (typeof image === "string" && image.length > 0) {
         return image
     }
-    if (image && typeof image === "object") {
-        if (typeof image.src === "string" && image.src.length > 0) {
+    if (image && typeof image === "object" && typeof image.src === "string") {
+        if (image.src.length > 0) {
             return image.src
-        }
-        if (typeof image.url === "string" && image.url.length > 0) {
-            return image.url
         }
     }
     return DEFAULT_STILL
+}
+
+function resolveImageAlt(image: FramerImage | undefined): string {
+    if (image && typeof image === "object" && typeof image.alt === "string") {
+        if (image.alt.length > 0) {
+            return image.alt
+        }
+    }
+    return "Lens warp"
 }
 
 function parseCssColor(input: string): [number, number, number] {
@@ -450,6 +456,12 @@ function eventToUv(
     }
 }
 
+/**
+ * @framerSupportedLayoutWidth any-prefer-fixed
+ * @framerSupportedLayoutHeight any-prefer-fixed
+ * @framerIntrinsicWidth 800
+ * @framerIntrinsicHeight 520
+ */
 export default function Kern_LensWarp(props: KernLensWarpProps): ReactElement {
     const {
         image,
@@ -463,7 +475,6 @@ export default function Kern_LensWarp(props: KernLensWarpProps): ReactElement {
         verticalScale = 1,
         inertia = 0.15,
         viscosity = 0.2,
-        width,
         style,
     } = props
 
@@ -480,6 +491,7 @@ export default function Kern_LensWarp(props: KernLensWarpProps): ReactElement {
     const hoveringRef = useRef(false)
     const kickRef = useRef<(() => void) | null>(null)
     const src = resolveImageSrc(image)
+    const alt = resolveImageAlt(image)
 
     useEffect(() => {
         const canvas = canvasRef.current
@@ -656,7 +668,7 @@ export default function Kern_LensWarp(props: KernLensWarpProps): ReactElement {
             ref={wrapRef}
             className={CLASS}
             role="img"
-            aria-label="Lens warp"
+            aria-label={alt}
             onPointerDown={onPointerDown}
             onPointerMove={onPointerMove}
             onPointerUp={onPointerUp}
@@ -664,7 +676,7 @@ export default function Kern_LensWarp(props: KernLensWarpProps): ReactElement {
             onPointerLeave={restLens}
             style={{
                 position: "relative",
-                width: width && width > 0 ? width : "100%",
+                width: "100%",
                 height: "100%",
                 overflow: "hidden",
                 backgroundColor,
@@ -688,6 +700,20 @@ export default function Kern_LensWarp(props: KernLensWarpProps): ReactElement {
     )
 }
 
+Kern_LensWarp.defaultProps = {
+    image: { src: DEFAULT_STILL, alt: "Architecture still" },
+    distortionStrength: -0.65,
+    radius: 0.45,
+    zoom: 1,
+    aberration: 0.015,
+    followPointer: true,
+    backgroundColor: PAPER,
+    gloss: 0.25,
+    verticalScale: 1,
+    inertia: 0.15,
+    viscosity: 0.2,
+}
+
 addPropertyControls(Kern_LensWarp, {
     image: {
         type: ControlType.ResponsiveImage,
@@ -708,6 +734,7 @@ addPropertyControls(Kern_LensWarp, {
         min: 0.1,
         max: 1.5,
         step: 0.01,
+        description: "Normalized lens radius",
     },
     zoom: {
         type: ControlType.Number,
