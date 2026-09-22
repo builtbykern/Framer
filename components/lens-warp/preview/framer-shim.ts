@@ -4,6 +4,8 @@ export const ControlType = {
     Color: "color",
     String: "string",
     ResponsiveImage: "responsiveimage",
+    Array: "array",
+    Object: "object",
 } as const
 
 export function addPropertyControls(
