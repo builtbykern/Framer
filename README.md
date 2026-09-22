@@ -7,6 +7,7 @@ Marketplace truth as of 1 Sep 2026. Prices are listing prices only — no remix 
 ## Layout
 
 ```
+briefs/        Taste packs (authority for unreleased SKUs)
 templates/     Live templates, plus the Drift Plane pack
 components/    Live Marketplace components
 ```
@@ -23,6 +24,7 @@ components/    Live Marketplace components
 | Listing | Path | What lives here |
 |---|---|---|
 | **Filling Point** | [`components/filling-point/`](components/filling-point/) | Live Marketplace component (`Kern_FillingPoint.tsx`) plus the exit-origin spec and plan. |
+| **Lens Warp** | [`components/lens-warp/`](components/lens-warp/) | FREE code component (paste `Kern_LensWarp.tsx`). Pack: [`briefs/lens-warp-taste-pack/`](briefs/lens-warp-taste-pack/). VERIFY BLOCKED. Noel RED — not published. |
 | **Drift Plane** | [`templates/drift/`](templates/drift/) | Live Marketplace component. This folder is the visual system, CMS CSVs, and in-canvas prompts around Drift Plane — not an unreleased template. |
 
 ## Local preview (Halden Photographer)
